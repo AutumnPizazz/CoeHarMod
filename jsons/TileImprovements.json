@@ -1,0 +1,550 @@
+[
+	/*区域系统*/
+	{
+		"name":"District_Government_Plaza",
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+25 Culture]",
+			"Irremovable",
+			"Removes removable features when built",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Classification_District"]
+	},
+	{
+		"name":"District_Foreign_Quarter",
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+25 Culture]",
+			"Irremovable",
+			"Removes removable features when built",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Classification_District"]
+	},
+	{
+		"name": "District_Holy_Site",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"happiness":-10,
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"[+1 Faith] for each adjacent [Mountain]",
+			"[+1 Faith] for each adjacent [Landform_Forest]",
+			"[+1 Faith] for each adjacent [District_Government_Plaza]",
+			"[+2 Faith] for each adjacent [Natural Wonder]",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+18 Faith]",
+			"Irremovable",
+			"Removes removable features when built",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Classification_District"]
+	},
+	{
+		"name": "District_Campus",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+			"Tile provides yield without assigned population",
+			"[+1 Science] for each adjacent [Mountain]",
+			"[+1 Science] for each adjacent [Landform_Rainforest]",
+			"[+1 Science] for each adjacent [District_Government_Plaza]",
+			"[+2 Science] for each adjacent [Landform_Reef]",
+			"[+2 Science] for each adjacent [Naturalwonder_Great_Barrier_Reef]",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+18 Science]",
+			"Irremovable",
+			"Removes removable features when built",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Classification_District"]
+	},
+	{
+		"name": "District_Theater_Square",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+			"Tile provides yield without assigned population",
+			"[+2 Culture] for each adjacent [District_Entertainment_Complex]",
+			"[+2 Culture] for each adjacent [District_Class_Wonder]",
+			"[+1 Culture] for each adjacent [District_Government_Plaza]",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+18 Culture]",
+			"Irremovable",
+			"Removes removable features when built",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Classification_District"]
+	},
+	{
+		"name": "District_Commercial_Hub",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"gold":2,
+		"food": -10,
+		"production":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"[+1 Gold] for each adjacent [River]",
+					"[+2 Gold] for each adjacent [District_Harbor]",
+					"[+1 Gold] for each adjacent [District_Government_Plaza]",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "District_Industrial_Zone",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"[+1 Production] for each adjacent [Improvement_Quarry]",
+					"[+1 Production] for each adjacent [Improvement_Mine]",
+					"[+1 Production] for each adjacent [Improvement_Lumber_Mill]",
+					"[+1 Production] for each adjacent [Improvement_Manufactory]",
+					"[+1 Production] for each adjacent [District_Government_Plaza]",
+					"[+1 Production] for each adjacent [Strategic resource]",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+36 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "District_Spaceport",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "District_Entertainment_Complex",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"happiness":1,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"overrideStats": true,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "District_Water_Park",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"happiness":1,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"overrideStats": true,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "District_Harbor",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"food": -10,
+		"production":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"[+1 Gold] for each adjacent [Classification_Resource on water]",
+					"[+2 Gold] for each adjacent [City center]",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "District_Army",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"Gives a defensive bonus of [28]%",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	{
+		"name": "Distinct_Raceline",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Can only be built on [River] tiles",
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+					"Pillaging this improvement yields approximately [+18 Gold]",
+					"Irremovable",
+					"Removes removable features when built",
+					"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District"]
+	},
+	
+	/*全文明通用改良*/
+	{
+		"name": "Improvement_Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Landform_Alluvial plain","Landform_Volcanic soil","Landform_Floodplain"],
+		"food": 1,
+		"techRequired": "Initial tech/civic_Agriculture",
+		"uniques": ["[-1 Food] <after discovering [Civic_Feudalism]>",
+		"[+1 Food] for each adjacent [Improvement_Farm] <after discovering [Civic_Feudalism]>",
+		"[+1 Food] <after discovering [Tech_Part specification]>",
+        "Pillaging this improvement yields approximately [+18 Gold]"]
+	},
+	{
+		"name": "Improvement_Lumber_Mill",
+		"terrainsCanBeBuiltOn": ["Landform_Forest","Landform_Rainforest"],
+		"production": 2,
+		"techRequired": "Tech_Build",
+		"uniques": ["[+1 Production] <after discovering [Tech_Steel]>",
+		"[+1 Production] <after discovering [Tech_Cybernetics]>",
+		"Pillaging this improvement yields approximately [+18 Gold]"]
+	},
+	{
+		"name": "Improvement_Mine",
+		"terrainsCanBeBuiltOn": ["Landform_Hill","Landform_Volcanic soil"],
+		"production": 1,
+		"techRequired": "Tech_Mining",
+		"uniques": ["[+1 Production] <after discovering [Tech_Apprentices]>",
+		"[+1 Production] <after discovering [Tech_Industrialization]>",
+		"[+1 Production] <after discovering [Tech_Smart materials]>",
+		"Pillaging this improvement yields approximately [+25 Gold]"]
+	},
+	{
+		"name": "Improvement_Manufactory",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
+		"production": 5,
+		"techRequired": "Civic_Earth protection",
+		"uniques": ["[+1 Production] <after discovering [Tech_Smart materials]>",
+		"Pillaging this improvement yields approximately [+25 Gold]"]
+	},
+	{
+		"name": "Improvement_Fishery",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Tech_Nautical art",
+		"uniques": ["[+1 Food] for each adjacent [Classification_Resource on water]",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+
+	//专门用于收获资源的改良
+	{
+		"name": "Improvement_Encampment",
+		"techRequired": "Tech_Animal husbandry",
+		"gold":2,
+		"uniques": ["Does not need removal of [Landform_Forest]",
+		"Does not need removal of [Landform_Rainforest]",
+		"[+1 Production, +1 Food] <after discovering [Civic_Mercantilism]>",
+		"[+2 Gold] <after discovering [Tech_Synthetic]>",
+		"Can only be built to improve a resource",
+		"Pillaging this improvement yields approximately [+25 Gold]"]
+	},
+	{
+		"name": "Improvement_Oil_Well",
+		"techRequired": "Tech_Refining",
+		"production":2,
+		"uniques": ["Can only be built to improve a resource",
+		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"Pillaging this improvement yields approximately [+30 Gold]"]
+	},
+	{
+		"name": "Improvement_Offshore_Oil_Rig",
+		"techRequired": "Tech_Plastic",
+		"production":2,
+		"uniques": ["Can only be built to improve a resource",
+		"Can only be built on [Water] tiles",
+		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"Pillaging this improvement yields approximately [+30 Gold]"]
+	},
+	{
+		"name": "Improvement_Pasture",
+		"techRequired": "Tech_Animal husbandry",
+		"production":1,
+		"uniques": ["[+1 Food] <after discovering [Tech_Stirrups]>",
+		"[+1 Production] <after discovering [Tech_Part specification]>",
+		"[+1 Food] <after discovering [Tech_Robotics]>",
+		"Can only be built to improve a resource",
+		"Pillaging this improvement yields approximately [+10 Gold]"]
+	},
+	{
+		"name": "Improvement_Plantation",
+		"gold": 2,
+		"techRequired": "Tech_Irrigation",
+		"uniques": ["[+1 Food] <after discovering [Tech_Scientific theory]>",
+		"[+1 Food] <after discovering [Civic_Feudalism]>",
+		"[+2 Gold] <after discovering [Civic_Globalization]>",
+		"Can only be built to improve a resource",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Improvement_Quarry",
+		"techRequired": "Tech_Mining",
+		"production":1,
+		"uniques": ["[+1 Production] <after discovering [Tech_Gunpowder]>",
+		"[+1 Production] <after discovering [Tech_Rocket research]>",
+		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"Can only be built to improve a resource",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Improvement_Fishing_Boat",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Tech_Nautical art",
+		"uniques": ["[+2 Gold] <after discovering [Tech_Cartography]>",
+		"[+1 Food] <after discovering [Tech_Plastic]>",
+		"[+1 Production] <after discovering [Civic_Colonialism]>",
+		"[+1 Production] for each adjacent [Improvement_Seastead]",
+		"Can only be built to improve a resource",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Improvement_Seastead",
+		"terrainsCanBeBuiltOn": ["Ocean"],
+		"food": 2,
+		"techRequired": "Tech_Ocean home",
+		"uniques": ["[+1 Production] for each adjacent [Improvement_Fishing_Boat]",
+		"[+1 Culture] for each adjacent [Landform_Reef]",
+		"Can only be built to improve a resource",
+		"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+
+	//军事设施
+	{
+		"name": "Improvement_Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
+		"techRequired": "Tech_Siege",
+		"uniques": ["Can be built outside your borders",
+		"Adjacent enemy units ending their turn take [12] damage",
+		"Gives a defensive bonus of [18]%"]
+	},
+
+	//交通设施
+	{
+		"name": "Improvement_Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Civic_Basic trade",
+		"uniques": ["Can be built outside your borders"],
+        "civilopediaText": [
+            {"text":"如果与相邻的另一个地块上也有道路或铁路，则减少移动成本为原来的一半"},
+            {"text":"在研究机械科技后，在道路上移动的成本降低为三分之一", "link":"Technology/Tech_Mechanical"},
+            {"text":"在研究工程科技后，跨河道路也能发挥作用", "link":"Technology/Tech_Project"}
+        ]
+	},
+	{
+		"name": "Improvement_Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Tech_Steam power",
+		"uniques": ["Can be built outside your borders"],
+        "civilopediaText": [{"text":"如果与相邻的另一个地块上也有铁路，则减少移动成本为原来的十分之一"}]
+	},
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Remove Landform_Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Tech_Mining",
+		"uniques": [],
+        "civilopediaText": [{"text":"完成后，根据离最近城市的距离提供一次性生产力加成，最多不超过20生产力"}]
+	},
+	{
+		"name": "Remove Landform_Rainforest",
+		"turnsToBuild": 6,
+		"techRequired": "Tech_Copper casting",
+		"uniques": []
+	},
+	{
+		"name": "Remove Landform_Nuclear fallout",
+		"turnsToBuild": 1,
+		// Has no tech requirements as it can always be built
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Landform_Swamp",
+		"turnsToBuild": 6,
+		"techRequired": "Tech_Irrigation"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Improvement_Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Improvement_Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"]
+	},
+    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"修复被破坏的设施或道路"}]
+    },
+
+
+    //伟人设施（删除大部分）
+	{
+		"name": "Improvement_Prophet",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement",
+		"Removes removable features when built",
+		"Pillaging this improvement yields approximately [+40 Faith]"]
+	},
+	{
+		"name": "Improvement_Fortification",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [40]%",
+			"Adjacent enemy units ending their turn take [25] damage",
+			"Removes removable features when built"
+		]
+	},
+
+	//市中心和蛮寨
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]","Classification_District",
+            "Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	},
+
+	/*人造奇观部分*/
+	{//大浴场
+		"name":"District_The_Great_Baths_of_Caracalla",
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Removes removable features when built",
+			"Irremovable",
+			"Removes removable features when built",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"District_Class_Wonder",
+            "Will not be displayed in Civilopedia"]
+	},
+
+]

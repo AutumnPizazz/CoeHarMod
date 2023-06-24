@@ -1,0 +1,24 @@
+{
+    "isBaseRuleset": true,
+    "maxXPfromBarbarians":10,
+    "ModConstants":{
+        "cityStrengthBase":85.0,
+        "cityStrengthPerPop":5.0,
+        "cityStrengthFromTechsMultiplier":5.5,
+        "cityStrengthFromTechsExponent":2.8,
+        "cityStrengthFromTechsFullMultiplier":8.0,
+        "cityStrengthFromGarrison":0.2,
+        "unitSupplyPerPopulation":1,
+        "minimalCityDistance":3,
+        "minimalCityDistanceOnDifferentContinents":2,
+        "naturalWonderCountMultiplier":0.2,
+        "naturalWonderCountAddedConstant":0.5,
+        "ancientRuinCountMultiplier":0.05,
+        "maxLakeSize":18,
+        "riverCountMultiplier":0.02,
+        "minRiverLength":1,
+        "maxRiverLength":999,
+        "pantheonBase":12,
+        "pantheonGrowth":2
+    }
+}

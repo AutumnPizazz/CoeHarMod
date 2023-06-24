@@ -1,0 +1,1159 @@
+[
+	/*伟人*/
+	{
+		"name": "GreatPerson_Class_Artist",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": [
+            "Empire enters a [16]-turn Golden Age <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "GreatPerson_Class_Scientist",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "GreatPerson_Class_Merchant",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "GreatPerson_Class_Engineer",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "GreatPerson_Class_Prophet",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": [
+            "Can instantly construct a [Improvement_Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+            "May found a religion",
+            "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "GreatPerson_Class_General",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "GreatPerson_Class_Admiral",
+		"unitType": "Unit_Type_Civilian_Ship",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[23]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+
+	/*建造者*/
+	//一般建造者
+	{
+		"name": "Unit_Farmer",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"uniques": ["Can instantly construct a [Improvement_Farm] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Farm] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 50
+	},
+	{
+		"name": "Unit_Miner",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Mining",
+		"uniques": ["Can instantly construct a [Improvement_Mine] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Mine] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Quarry",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Mining",
+		"uniques": ["Can instantly construct a [Improvement_Quarry] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Quarry] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Fisherman",
+		"unitType": "Unit_Type_Civilian_Ship",
+		"movement": 2,
+		"requiredTech":"Tech_Nautical art",
+		"uniques": ["Can instantly construct a [Improvement_Fishing_Boat] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Fishing_Boat] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 50
+	},
+	{
+		"name": "Unit_Fishery",
+		"unitType": "Unit_Type_Civilian_Ship",
+		"movement": 2,
+		"requiredTech":"Tech_Nautical art",
+		"uniques": ["Can instantly construct a [Improvement_Fishery] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Fishery] improvement <by consuming this unit>",
+			"Unit_Class_Builder","Unbuildable",
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Unit_Ocean_Home_Builder",
+		"unitType": "Unit_Type_Civilian_Ship",
+		"movement": 2,
+		"requiredTech":"Tech_Ocean home",
+		"uniques": ["Can instantly construct a [Improvement_Seastead] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Seastead] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Shepherd",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Animal husbandry",
+		"uniques": ["Can instantly construct a [Improvement_Pasture] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Pasture] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Plantation_Worker",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Animal husbandry",
+		"uniques": ["Can instantly construct a [Improvement_Plantation] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Plantation] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 50
+	},
+	{
+		"name": "Unit_Worker",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Animal husbandry",
+		"uniques": ["Can instantly construct a [Improvement_Encampment] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Encampment] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 50
+	},
+	{
+		"name": "Unit_Lumberjack",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Build",
+		"uniques": ["Can instantly construct a [Improvement_Lumber_Mill] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Lumber_Mill] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Oil_Well",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Build",
+		"uniques": ["Can instantly construct a [Improvement_Oil_Well] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Oil_Well] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Drill_Rig",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Plastic",
+		"uniques": ["Can instantly construct a [Improvement_Offshore_Oil_Rig] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Offshore_Oil_Rig] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Forest_Ranger",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Civic_Earth protection",
+		"uniques": ["Can instantly construct a [Improvement_Manufactory] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Manufactory] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{
+		"name": "Unit_Trader",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Civic_Basic trade",
+		"uniques": ["Consumes [1] [Resource_Trade route capacity]",
+		"Can build [All Road] improvements on tiles",
+		"Can build [Remove Landform_Forest] improvements on tiles",
+		"Can build [Remove Landform_Rainforest] improvements on tiles",
+		"Can build [Remove Landform_Nuclear fallout] improvements on tiles",
+		"Can build [Remove Landform_Swamp] improvements on tiles",
+		"Unit_Class_Builder"],
+		"cost": 50
+	},
+	//区域系统附属建造者
+	{
+		"name":"Unit_Amphitheater",
+		"unitType":"Unit_Type_Civilian",
+		"uniques":["Can instantly construct a [District_Government_Plaza] improvement <by consuming this unit>", 
+		"Unbuildable", "Uncapturable","Unit_Class_Builder",
+		"Will not be displayed in Civilopedia"],
+		"movement":2
+	},
+	{
+		"name":"Unit_Diplomatic_Zone",
+		"unitType":"Unit_Type_Civilian",
+		"uniques":["Can instantly construct a [District_Foreign_Quarter] improvement <by consuming this unit>", 
+		"Unbuildable", "Uncapturable","Unit_Class_Builder",
+		"Will not be displayed in Civilopedia"],
+		"movement":2
+	},
+	{
+		"name": "Unit_Holy_Site",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Holy_Site] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Campus",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Campus] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Theater_Square",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Theater_Square] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Commercial_Hub",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Commercial_Hub] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Industrial_Zone",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Industrial_Zone] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Spaceport",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Spaceport] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Entertainment_Complex",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Entertainment_Complex] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Water_Park",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Water_Park] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Harbor",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Harbor] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Encampment",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [District_Army] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	{
+		"name": "Unit_Raceline",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can instantly construct a [Distinct_Raceline] improvement <by consuming this unit>", 
+			"Unbuildable", "Uncapturable","Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+	
+	/*开拓者*/
+	{
+		"name":"Unit_Settler",
+		"unitType":"Unit_Type_Civilian",
+		"movement":2,
+		"cost":120,
+		"uniques":["Founds a new city <by consuming this unit>","Requires at least [2] population"]
+	},
+
+	{//情报局专属单位
+		"name":"Unit_Spy",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":200,
+		"movement":3,
+		"uniques":["Cannot attack",
+		"Ignores terrain cost",
+		"Invisible to others",
+		"Can see invisible [Unit_Spy] units",
+		"Unbuildable", "Uncapturable"]
+	},
+
+	/*宗教单位*/
+	{
+		"name": "Unit_Missionary",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can [Spread Religion] [3] times",
+		"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+		"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+		"Unbuildable",
+		"Religious Unit",
+		"Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Unit_Inquisitor",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
+		],
+		"movement": 4
+	},
+	{
+		"name":"Unit_Monk",
+		"unitType":"Unit_Type_Monk",
+		"strength":220,//40
+		"movement":3,
+		"uniques":["Unbuildable","Religious Unit"],
+		"religiousStrength": 1000
+	},
+
+	/*侦察单位*/
+	{
+		"name":"Unit_Scout",
+		"unitType":"Unit_Type_Scout",
+		"strength":66,//10
+		"movement":3,
+		"cost":30,
+		"upgradesTo":"Unit_Ranger",
+		"obsoleteTech": "Tech_Mechanical",
+		"uniques":["Rough terrain penalty"]
+	},
+	{
+		"name":"Unit_Ranger",
+		"unitType":"Unit_Type_Scout",
+		"strength":100,//20
+		"rangedStrength": 151,//30
+		"range":1,
+		"movement":3,
+		"cost":150,
+		"upgradesTo":"Unit_Cavalry",
+		"requiredTech": "Tech_Mechanical",
+		"obsoleteTech": "Tech_Rifling"
+	},
+	{
+		"name":"Unit_Cavalry",
+		"unitType":"Unit_Type_Scout",
+		"strength":270,//45
+		"rangedStrength": 501,//60
+		"range":1,
+		"movement":3,
+		"cost":380,
+		"upgradesTo":"Unit_SpecOps",
+		"requiredTech": "Tech_Rifling",
+		"obsoleteTech": "Tech_Plastic"
+	},
+	{
+		"name":"Unit_SpecOps",
+		"unitType":"Unit_Type_Scout",
+		"strength":501,//60
+		"rangedStrength": 443,//65
+		"range":1,
+		"movement":3,
+		"cost":520,
+		"requiredTech": "Tech_Plastic"
+	},
+
+	/*短程步兵*/
+	{
+		"name":"Unit_Warrior",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":100,//20
+		"movement":2,
+		"cost":40,
+		"upgradesTo":"Unit_Swordsman",
+		"obsoleteTech": "Tech_Alchemy"
+	},
+	{
+		"name":"Unit_Swordsman",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":151,//35
+		"movement":2,
+		"cost":90,
+		"upgradesTo":"Unit_Hoplite",
+		"requiredTech": "Tech_Alchemy",
+		"obsoleteTech": "Tech_Apprentices",
+		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+	},
+	{
+		"name":"Unit_Hoplite",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":281,//45
+		"movement":2,
+		"cost":160,
+		"upgradesTo":"Unit_Musketman",
+		"requiredTech": "Tech_Apprentices",
+		"obsoleteTech": "Tech_Gunpowder",
+		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+	},
+	{
+		"name":"Unit_Musketman",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":425,//55
+		"movement":2,
+		"cost":240,
+		"upgradesTo":"Unit_Line_Infantry",
+		"requiredTech": "Tech_Gunpowder",
+		"obsoleteTech": "Tech_Military science",
+		"uniques":["Instantly consumes [10] [Resource_Niter]"]
+	},
+	{
+		"name":"Unit_Line_Infantry",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":641,//65
+		"movement":2,
+		"cost":360,
+		"upgradesTo":"Unit_Infantry",
+		"requiredTech": "Tech_Military science",
+		"obsoleteTech": "Tech_Part specification",
+		"uniques":["Instantly consumes [10] [Resource_Niter]"]
+	},
+	{
+		"name":"Unit_Infantry",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":968,//968
+		"movement":2,
+		"cost":430,
+		"requiredResource": "Resource_Oil",
+		"upgradesTo":"Unit_Mechanized_Infantry",
+		"requiredTech": "Tech_Part specification",
+		"obsoleteTech": "Tech_Satellite",
+		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+	},
+	{
+		"name":"Unit_Mechanized_Infantry",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":1462,//85
+		"movement":3,
+		"cost":650,
+		"requiredResource": "Resource_Oil",
+		"requiredTech": "Tech_Satellite",
+		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+	},	
+	
+	/*长程步兵*/
+	{
+		"name":"Unit_Catapult",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":54,//5
+		"rangedStrength":81,//15
+		"range":1,
+		"movement":2,
+		"cost":35,
+		"upgradesTo":"Unit_Archer",
+		"obsoleteTech": "Tech_Archey"
+	},
+	{
+		"name":"Unit_Archer",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":81,//15
+		"rangedStrength":123,//25
+		"range":2,
+		"movement":2,
+		"cost":60,
+		"upgradesTo":"Unit_Crossbowman",
+		"requiredTech": "Tech_Archey",
+		"obsoleteTech": "Tech_Mechanical"
+	},
+	{
+		"name":"Unit_Crossbowman",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":151,//30
+		"rangedStrength":220,//40
+		"range":2,
+		"movement":2,
+		"cost":180,
+		"upgradesTo":"Unit_Field_Cannon",
+		"requiredTech": "Tech_Mechanical",
+		"obsoleteTech": "Tech_Ballistics"
+	},
+	{
+		"name":"Unit_Field_Cannon",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":346,//50
+		"rangedStrength":501,//60
+		"range":2,
+		"movement":2,
+		"cost":330,
+		"upgradesTo":"Unit_Machine_Gun",
+		"requiredTech": "Tech_Ballistics",
+		"obsoleteTech": "Tech_Advanced ballistics"
+	},
+	{
+		"name":"Unit_Machine_Gun",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":756,//70
+		"rangedStrength":1462,//85
+		"range":2,
+		"movement":2,
+		"cost":540,
+		"requiredTech": "Tech_Advanced ballistics"
+	},
+
+	/*攻城*/
+	{
+		"name":"Unit_Trebuchet",
+		"unitType":"Unit_Type_Siege",
+		"strength":118,//25
+		"rangedStrength":186,//35
+		"range":2,
+		"movement":2,
+		"cost":120,
+		"upgradesTo":"Unit_Battering_Ram",
+		"requiredTech": "Tech_Project",
+		"obsoleteTech": "Tech_Military engineering"
+	},
+	{
+		"name":"Unit_Battering_Ram",
+		"unitType":"Unit_Type_Siege",
+		"strength":186,//35
+		"rangedStrength":281,//45
+		"range":2,
+		"movement":2,
+		"cost":200,
+		"upgradesTo":"Unit_Siege_Tower",
+		"requiredTech": "Tech_Military engineering",
+		"obsoleteTech": "Tech_Metal casting"
+	},
+	{
+		"name":"Unit_Siege_Tower",
+		"unitType":"Unit_Type_Siege",
+		"strength":281,//45
+		"rangedStrength":425,//55
+		"range":2,
+		"movement":2,
+		"cost":280,
+		"requiredResource":"Resource_Niter",
+		"upgradesTo":"Unit_Artillery",
+		"requiredTech": "Tech_Metal casting",
+		"obsoleteTech": "Tech_Steel"
+	},
+	{
+		"name":"Unit_Artillery",
+		"unitType":"Unit_Type_Siege",
+		"strength":501,//60
+		"rangedStrength":1191,//80
+		"range":3,
+		"movement":2,
+		"cost":430,
+		"requiredResource":"Resource_Oil",
+		"upgradesTo":"Unit_Rocket_Artillery",
+		"requiredTech": "Tech_Steel",
+		"obsoleteTech": "Tech_Guidance system"
+	},
+	{
+		"name":"Unit_Rocket_Artillery",
+		"unitType":"Unit_Type_Siege",
+		"strength":789,//70
+		"rangedStrength":2715,//100
+		"range":3,
+		"movement":2,
+		"cost":680,
+		"requiredResource":"Resource_Oil",
+		"requiredTech": "Tech_Guidance system"
+	},
+
+	/*轻骑兵*/
+	{
+		"name":"Unit_Horseman",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":186,//36
+		"movement":4,
+		"cost":80,
+		"upgradesTo":"Unit_Horse_Archer",
+		"requiredTech": "Tech_Horseback riding",
+		"obsoleteTech": "Tech_Castle",
+		"uniques":["Instantly consumes [10] [Resource_Horse]"]
+	},
+	{
+		"name":"Unit_Horse_Archer",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":281,//46
+		"movement":5,
+		"cost":200,
+		"upgradesTo":"Unit_Cavalry",
+		"requiredTech": "Tech_Castle",
+		"obsoleteTech": "Tech_Military science",
+		"uniques":["Instantly consumes [10] [Resource_Horse]"]
+	},
+	{
+		"name":"Unit_Cavalry",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":543,//62
+		"movement":5,
+		"cost":330,
+		"upgradesTo":"Unit_Helicopter",
+		"requiredTech": "Tech_Military science",
+		"obsoleteTech": "Tech_Synthetic",
+		"uniques":["Instantly consumes [10] [Resource_Horse]"]
+	},
+	{
+		"name":"Unit_Helicopter",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":1462,//86
+		"movement":4,
+		"cost":330,
+		"requiredResource":"Resource_Aluminum",
+		"requiredTech": "Tech_Synthetic",
+		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+		"Can see over obstacles",
+		"Can pass through impassable tiles",
+		"All tiles cost 1 movement"]
+	},
+
+	/*重骑兵*/
+	{
+		"name":"Unit_Chariot",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":138,//28
+		"movement":2,
+		"cost":65,
+		"upgradesTo":"Unit_Knight",
+		"requiredTech": "Tech_Wheels",
+		"obsoleteTech": "Tech_Stirrups",
+		"uniques":["[+1] Movement <in [Open terrain] tiles>"]
+	},
+	{
+		"name":"Unit_Knight",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":332,//50
+		"movement":4,
+		"cost":220,
+		"upgradesTo":"Unit_Cuirassier",
+		"requiredTech": "Tech_Stirrups",
+		"obsoleteTech": "Tech_Ballistics",
+		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+	},
+	{
+		"name":"Unit_Cuirassier",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":614,//64
+		"movement":4,
+		"cost":330,
+		"upgradesTo":"Unit_Tank",
+		"requiredTech": "Tech_Ballistics",
+		"obsoleteTech": "Tech_Internal combustion engine",
+		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+	},
+	{
+		"name":"Unit_Tank",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":1462,//85
+		"movement":4,
+		"cost":480,
+		"requiredResource":"Resource_Oil",
+		"upgradesTo":"Unit_Modern_Armor",
+		"requiredTech": "Tech_Internal combustion engine",
+		"obsoleteTech": "Tech_Composite",
+		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+	},
+	{
+		"name":"Unit_Modern_Armor",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":2207,//95
+		"movement":4,
+		"cost":680,
+		"requiredResource":"Resource_Oil",
+		"requiredTech": "Tech_Composite",
+		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+	},
+
+	/*抗骑兵*/
+	{
+		"name":"Unit_Spearman",
+		"unitType":"Unit_Type_Anti_Cavalry",
+		"strength":123,//25
+		"movement":2,
+		"cost":65,
+		"upgradesTo":"Unit_Pikeman",
+		"requiredTech": "Tech_Copper casting",
+		"obsoleteTech": "Tech_Tactics"
+	},
+	{
+		"name":"Unit_Pikeman",
+		"unitType":"Unit_Type_Anti_Cavalry",
+		"strength":270,//45
+		"movement":2,
+		"cost":180,
+		"upgradesTo":"Unit_Pike_and_Shot",
+		"requiredTech": "Tech_Tactics",
+		"obsoleteTech": "Tech_Metal casting"
+	},
+	{
+		"name":"Unit_Pike_and_Shot",
+		"unitType":"Unit_Type_Anti_Cavalry",
+		"strength":408,//55
+		"movement":2,
+		"cost":250,
+		"upgradesTo":"Unit_Anti_Tank_Crew",
+		"requiredTech": "Tech_Metal casting",
+		"obsoleteTech": "Tech_Chemistry"
+	},
+	{
+		"name":"Unit_Anti_Tank_Crew",
+		"unitType":"Unit_Type_Anti_Cavalry",
+		"strength":968,//75
+		"movement":2,
+		"cost":400,
+		"upgradesTo":"Unit_Modern_Anti_Tank_Crew",
+		"requiredTech": "Tech_Chemistry",
+		"obsoleteTech": "Tech_Composite"
+	},
+	{
+		"name":"Unit_Modern_Anti_Tank_Crew",
+		"unitType":"Unit_Type_Anti_Cavalry",
+		"strength":1462,//85
+		"movement":2,
+		"cost":580,
+		"requiredTech": "Tech_Composite"
+	},
+
+	/*短程海军*/
+	{
+		"name":"Unit_Galley",
+		"unitType":"Unit_Type_Short_Ranged_Naval",
+		"strength":151,//30
+		"movement":3,
+		"cost":65,
+		"upgradesTo":"Unit_Trireme",
+		"requiredTech": "Tech_Nautical art",
+		"obsoleteTech": "Tech_Cartography"
+	},
+	{
+		"name":"Unit_Trireme",
+		"unitType":"Unit_Type_Short_Ranged_Naval",
+		"strength":425,//55
+		"movement":4,
+		"cost":240,
+		"upgradesTo":"Unit_Frigate",
+		"requiredTech": "Tech_Cartography",
+		"obsoleteTech": "Tech_Steam power"
+	},
+	{
+		"name":"Unit_Frigate",
+		"unitType":"Unit_Type_Short_Ranged_Naval",
+		"strength":789,//70
+		"movement":5,
+		"cost":380,
+		"requiredResource":"Resource_Coal",
+		"upgradesTo":"Unit_Destroyer",
+		"requiredTech": "Tech_Steam power",
+		"obsoleteTech": "Tech_Steam power",
+		"uniques":["Instantly consumes [1] [Resource_Coal]"]
+	},
+	{
+		"name":"Unit_Destroyer",
+		"unitType":"Unit_Type_Short_Ranged_Naval",
+		"strength":1401,//85
+		"movement":4,
+		"cost":540,
+		"requiredResource":"Resource_Oil",
+		"requiredTech": "Tech_Steam power",
+		"uniques":["Instantly consumes [1] [Resource_Coal]",
+			"[+23]% Strength <vs [Unit_Type_Missile] units>"]
+	},
+
+	/*长程海军*/
+	{
+		"name":"Unit_Caravel",
+		"unitType":"Unit_Type_Long_Ranged_Naval",
+		"strength":100,//20
+		"rangedStrength":123,//25
+		"range":1,
+		"movement":3,
+		"cost":120,
+		"upgradesTo":"Unit_Cruiser",
+		"requiredTech": "Tech_Shipbuilding",
+		"obsoleteTech": "Tech_Crossail device"
+	},
+	{
+		"name":"Unit_Cruiser",
+		"unitType":"Unit_Type_Long_Ranged_Naval",
+		"strength":281,//45
+		"rangedStrength":408,//55
+		"range":2,
+		"movement":4,
+		"cost":280,
+		"requiredResource":"Resource_Niter",
+		"upgradesTo":"Unit_Battleship",
+		"requiredTech": "Tech_Crossail device",
+		"obsoleteTech": "Tech_Refining",
+		"uniques":["Instantly consumes [1] [Resource_Niter]"]
+	},
+	{
+		"name":"Unit_Battleship",
+		"unitType":"Unit_Type_Long_Ranged_Naval",
+		"strength":501,//60
+		"rangedStrength":789,//70
+		"range":3,
+		"interceptRange": 3,
+		"movement":5,
+		"cost":430,
+		"requiredResource":"Resource_Coal",
+		"upgradesTo":"Unit_Missile_Cruiser",
+		"requiredTech": "Tech_Refining",
+		"obsoleteTech": "Tech_Laser",
+		"uniques":["Instantly consumes [1] [Resource_Coal]",
+			"[+118]% Strength <vs [Unit_Type_Missile] units>"]
+	},
+	{
+		"name":"Unit_Missile_Cruiser",
+		"unitType":"Unit_Type_Long_Ranged_Naval",
+		"strength":968,//75
+		"rangedStrength":1724,//90
+		"range":3,
+		"interceptRange": 3,
+		"movement":5,
+		"cost":680,
+		"requiredResource":"Resource_Oil",
+		"requiredTech": "Tech_Laser",
+		"uniques":["Instantly consumes [1] [Resource_Oil]",
+			"[+118]% Strength <vs [Unit_Type_Missile] units>"]
+	},
+
+	/*海军袭击者*/
+	{
+		"name":"Unit_Corsair",
+		"unitType":"Unit_Type_Naval_Attacker",
+		"strength":220,//40
+		"rangedStrength":332,//50
+		"range":2,
+		"movement":4,
+		"cost":280,
+		"upgradesTo":"Unit_Submarine",
+		"requiredTech": "Civic_Mercantilism",
+		"obsoleteTech": "Tech_Electricity"
+	},
+	{
+		"name":"Unit_Submarine",
+		"unitType":"Unit_Type_Naval_Attacker",
+		"strength":615,//65
+		"rangedStrength":928,//75
+		"range":2,
+		"movement":4,
+		"cost":480,
+		"requiredResource":"Resource_Oil",
+		"upgradesTo":"Unit_Nuclear_Submarine",
+		"requiredTech": "Tech_Electricity",
+		"obsoleteTech": "Tech_Telecommunication",
+		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+	},
+	{
+		"name":"Unit_Nuclear_Submarine",
+		"unitType":"Unit_Type_Naval_Attacker",
+		"strength":1191,//80
+		"rangedStrength":1462,//85
+		"range":2,
+		"movement":4,
+		"cost":680,
+		"requiredTech": "Tech_Telecommunication",
+		"uniques":["Instantly consumes [10] [Resource_Uranium]",
+			"Can carry [2] [Unit_Type_Missile] units"]
+	},
+
+	/*航空母舰*/
+	{
+		"name":"Unit_Aircraft_Carrier",
+		"unitType":"Unit_Type_Aircraft_Carrier",
+		"strength":615,//65
+		"movement":3,
+		"cost":540,
+		"requiredTech":"Tech_Joint operations"
+	},
+
+	/*战斗机*/
+	{
+		"name":"Unit_Triplane",
+		"unitType":"Unit_Type_Fighter",
+		"strength":1142,//80
+		"rangedStrength":891,//75
+		"range":4,
+		"interceptRange": 4,
+		"movement":1,
+		"cost":430,
+		"requiredResource":"Resource_Oil",
+		"upgradesTo":"Unit_Fighter",
+		"requiredTech": "Tech_Flight",
+		"obsoleteTech": "Tech_Modern aviation",
+		"uniques":["Instantly consumes [1] [Resource_Oil]",
+			"Unit_Class_Aircraft"]
+	},
+	{
+		"name":"Unit_Fighter",
+		"unitType":"Unit_Type_Fighter",
+		"strength":2603,//100
+		"rangedStrength":2603,//100
+		"range":5,
+		"interceptRange": 5,
+		"movement":1,
+		"cost":520,
+		"requiredResource":"Resource_Aluminum",
+		"upgradesTo":"Unit_Jet_Fighter",
+		"requiredTech": "Tech_Modern aviation",
+		"obsoleteTech": "Tech_Laser",
+		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+			"Unit_Class_Aircraft"]
+	},
+	{
+		"name":"Unit_Jet_Fighter",
+		"unitType":"Unit_Type_Fighter",
+		"strength":3933,//110
+		"rangedStrength":3933,//110
+		"range":6,
+		"interceptRange": 6,
+		"movement":1,
+		"cost":650,
+		"requiredResource":"Resource_Aluminum",
+		"requiredTech": "Tech_Laser",
+		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+			"Unit_Class_Aircraft"]
+	},
+
+	/*轰炸机*/
+	{
+		"name":"Unit_Bomber",
+		"unitType":"Unit_Type_Bomber",
+		"strength":1401,//85
+		"rangedStrength":3933,//110
+		"range":10,
+		"movement":1,
+		"cost":560,
+		"requiredResource":"Resource_Aluminum",
+		"upgradesTo":"Unit_Jet_Bomber",
+		"requiredTech": "Tech_Modern aviation",
+		"obsoleteTech": "Tech_Stealth",
+		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+			"Unit_Class_Aircraft"]
+	},
+	{
+		"name":"Unit_Jet_Bomber",
+		"unitType":"Unit_Type_Bomber",
+		"strength":1724,//90
+		"rangedStrength":6190,//120
+		"range":15,
+		"movement":1,
+		"cost":700,
+		"requiredResource":"Resource_Aluminum",
+		"requiredTech": "Tech_Stealth",
+		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+			"Unit_Class_Aircraft"]
+	},
+
+	/*导弹头*/
+	{
+		"name":"Unit_Nuclear_Device",
+		"unitType":"Unit_Type_Missile",
+		"strength":1724,//90
+		"rangedStrength":1724,//90
+		"range":10,
+		"movement":1,
+		"cost":1100,
+		"requiredTech": "Tech_Nuclear fission",
+		"uniques":["Instantly consumes [10] [Resource_Uranium]",
+		"Nuclear weapon of Strength [1]",
+		"Only available <if [Building_Manhattan_Project] is constructed>",
+		"Blast radius [1]"]
+	},
+	{
+		"name":"Unit_Thermonuclear_Device",
+		"unitType":"Unit_Type_Missile",
+		"strength":6190,//120
+		"rangedStrength":6190,//120
+		"range":10,
+		"movement":1,
+		"cost":1600,
+		"requiredTech": "Tech_Nuclear Fusion",
+		"uniques":["Instantly consumes [20] [Resource_Uranium]",
+		"Nuclear weapon of Strength [2]",
+		"Only available <if [Building_Ivy_League_Project] is constructed>",
+		"Blast radius [2]"]
+	},
+
+	/*末日机甲*/
+	{
+		"name":"Unit_Giant_Death_Robot",
+		"unitType":"Unit_Type_Mech",
+		"strength":6190,//120
+		"interceptRange": 10,
+		"movement":5,
+		"cost":1500,
+		"requiredTech": "Tech_Robotics",
+		"uniques":["Consumes [3] [Resource_Uranium]"]
+	},
+
+	/*太空计划*/
+	{
+		"name": "Project_Launch_Earth_Satellite",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"cost": 900,
+		"requiredTech": "Tech_Rocket research",
+		"uniques": [
+		"Reveals the entire map",
+		"Unit_Class_Space_Race",
+		"Cannot be purchased",
+		"Only available <in cities with a [Building_Spaceport_Unique]>",
+		"Uncapturable",
+		"Can be added to [Spaceship part] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Project_Initiate_Moon_Landing",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Tech_Satellite",
+		"uniques": [
+		"Gain [4000] [Science]",
+		"Free Social Policy",
+		"Unit_Class_Space_Race",
+		"Cannot be purchased",
+		"Only available <in cities with a [Building_Spaceport_Unique]>",
+		"Uncapturable",
+		"Can be added to [Spaceship part] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Project_Initiate_Mars_Colonization",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"cost": 1800,
+		"requiredTech": "Tech_Nanotechnology",
+		"uniques": [
+		"Unit_Class_Space_Race",
+		"Cannot be purchased",
+		"Only available <in cities with a [Building_Spaceport_Unique]>",
+		"Uncapturable",
+		"Can be added to [Spaceship part] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Project_Initiate_Interstellar_Exploration",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"cost": 2100,
+		"requiredTech": "Tech_Smart materials",
+		"uniques": [
+		"Unit_Class_Space_Race",
+		"Cannot be purchased",
+		"Only available <in cities with a [Building_Spaceport_Unique]>",
+		"Uncapturable",
+		"Can be added to [Spaceship part] in the Capital",
+		"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Project_Initiate_Lagrange_Laser_Station",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"cost": 600,
+		"requiredResource":"Resource_Aluminum",
+		"requiredTech": "Tech_Alien missons",
+		"uniques": [
+		"Unit_Class_Space_Race",
+		"Cannot be purchased",
+		"Only available <in cities with a [Building_Spaceport_Unique]>",
+		"Uncapturable",
+		"Can be added to [Spaceship part] in the Capital",
+		"Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Project_Build_Ground_Laser_Station",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"cost": 600,
+		"requiredResource":"Resource_Aluminum",
+		"requiredTech": "Tech_Alien missons",
+		"uniques": [
+		"Consumes [3] [Resource_Electricity]",
+		"Unit_Class_Space_Race",
+		"Cannot be purchased",
+		"Only available <in cities with a [Building_Spaceport_Unique]>",
+		"Uncapturable",
+		"Can be added to [Spaceship part] in the Capital",
+		"Limited to [3] per Civilization"]
+	},
+
+	/*人造奇观部分*/
+	{
+		"name": "Unit_The_Great_Baths_of_Caracalla",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 4,
+		"uniques": ["Can instantly construct a [District_The_Great_Baths_of_Caracalla] improvement <by consuming this unit>",
+			"Unit_Class_Wonderbuilder","Unbuildable",
+            "Will not be displayed in Civilopedia"]
+	},
+]

@@ -1,0 +1,25 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+		"[-100]% Strength for cities <when attacking>",//取消城市攻击
+		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
+        "[-15]% growth [in all cities] <when between [-2] and [-1] Happiness>",
+        "[-30]% growth [in all cities] <when between [-4] and [-3] Happiness>",
+        "[-45]% growth [in all cities] <when between [-6] and [-5] Happiness>",
+        "[-60]% growth [in all cities] <when between [-8] and [-7] Happiness>",
+        "[-75]% growth [in all cities] <when between [-10] and [-9] Happiness>",
+        "[-90]% growth [in all cities] <when between [-12] and [-11] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-12] Happiness>",
+        "[-40]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-10]% Strength <for [Military] units> <when below [-4] Happiness>",
+        "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",
+        "Cannot build [Unit_Settler] units <when below [-11] Happiness>",
+        "Rebel units may spawn <when below [-15] Happiness>",
+		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
+		"[+1 Culture] per [5] population [in all cities]",//人头琴调整
+        "[+3 Happiness] [in all cities]",//快乐调整 城市地基不扣除快乐
+        "[-1 Gold] from every [River]",//删除河流给钱
+        "[-100]% [Food] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
+        "[-100]% [Production] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
+    ]
+}

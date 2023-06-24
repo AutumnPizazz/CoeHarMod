@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Unit_Type_Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Unit_Type_Civilian_Ship",
+        "movementType": "Water"
+    },
+    {
+        "name": "Unit_Type_Scout",
+        "movementType": "Land",
+        "uniques":["This Unit gains [10] XP <upon discovering a Natural Wonder>"]
+    },
+    {
+        "name": "Unit_Type_Melee_Infantry",
+        "movementType": "Land",
+        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>"]
+    },
+    {
+        "name": "Unit_Type_Monk",
+        "movementType": "Land",
+        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>"]
+    },
+    {
+        "name": "Unit_Type_Ranged_Infantry",
+        "movementType": "Land",
+        "uniques":["[-34]% Strength <vs cities> <when attacking> <during the [Era_Ancient]>","[-58]% Strength <vs cities> <when attacking> <during the [Era_Classical]>","[-96]% Strength <vs cities> <when attacking> <starting from the [Era_Medieval]>"]
+    },
+    {
+        "name": "Unit_Type_Siege",
+        "movementType": "Land",
+        "uniques":["[+23]% Strength <vs cities> <when attacking>"]
+    },
+    {
+        "name": "Unit_Type_Light_Cavalry",
+        "movementType": "Land",
+        "uniques":["[-39]% Strength <vs cities> <when attacking>","Ignores Zone of Control"]
+    },
+    {
+        "name": "Unit_Type_Heavy_Cavalry",
+        "movementType": "Land",
+        "uniques":["[-23]% Strength <vs cities> <when attacking>","Ignores Zone of Control"]
+    },
+    {
+        "name": "Unit_Type_Anti_Cavalry",
+        "movementType": "Land",
+        "uniques":["[+51]% Strength <vs [Unit_Type_Light_Cavalry] units>","[+51]% Strength <vs [Unit_Type_Heavy_Cavalry] units>"]
+    },
+    {
+        "name": "Unit_Type_Short_Ranged_Naval",
+        "movementType": "Water"
+    },
+    {
+        "name": "Unit_Type_Long_Ranged_Naval",
+        "movementType": "Water",
+        "uniques":["[-23]% Strength <vs cities> <when attacking>"]
+    },
+    {
+        "name": "Unit_Type_Naval_Attacker",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [Unit_Type_Naval_Attacker] units",
+        "[-23]% Strength <vs cities> <when attacking>"]
+    },
+    {
+        "name": "Unit_Type_Aircraft_Carrier",
+        "movementType": "Water",
+        "uniques":["Cannot attack","Can carry [2] [Unit_Class_Aircraft] units"]
+    },
+    {
+        "name": "Unit_Type_Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft",
+        "[+4] Sight",
+        "Can see over obstacles",
+        "Can perform Air Sweep"]
+    },
+    {
+        "name": "Unit_Type_Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Unit_Type_Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"
+//      "Cannot be intercepted"
+    ]
+    },
+    {
+        "name": "Unit_Type_Mech",
+        "movementType": "Land"
+    }
+]

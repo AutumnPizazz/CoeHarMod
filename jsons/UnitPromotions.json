@@ -1,0 +1,249 @@
+[
+	/*万神殿buff*/
+	{
+		"name":"Promotion_Healing_God",
+		"uniques":["[+4] HP when healing"]
+	},
+
+	/*自然奇观buff*/
+	{
+		"name":"Promotion_Water_of_life",
+		"uniques":["[+10] HP when healing"]
+	},
+	{
+		"name":"Promotion_Giant_Spear",
+		"uniques":["[+23]% Strength"]
+	},
+
+	/*军营和港口区域建筑buff*/
+	{
+		"name":"Promotion_Army_Combat_Training_I",
+		"uniques":["[+50]% XP gained from combat",
+		"[GreatPerson_Class_General] is earned [25]% faster"]
+	},
+	{
+		"name":"Promotion_Army_Combat_Training_II",
+		"uniques":["[+50]% XP gained from combat",
+		"[GreatPerson_Class_General] is earned [50]% faster"]
+	},
+	{
+		"name":"Promotion_Army_Combat_Training_III",
+		"uniques":["[+50]% XP gained from combat",
+		"[GreatPerson_Class_General] is earned [75]% faster"]
+	},
+	{
+		"name":"Promotion_Navy_Combat_Training_I",
+		"uniques":["[+50]% XP gained from combat",
+		"[GreatPerson_Class_Admiral] is earned [25]% faster"]
+	},
+	{
+		"name":"Promotion_Navy_Combat_Training_II",
+		"uniques":["[+50]% XP gained from combat",
+		"[GreatPerson_Class_Admiral] is earned [50]% faster"]
+	},
+	{
+		"name":"Promotion_Navy_Combat_Training_III",
+		"uniques":["[+50]% XP gained from combat",
+		"[GreatPerson_Class_Admiral] is earned [75]% faster"]
+	},
+	{
+		"name":"⭐⭐",
+		"uniques":["[+51]% Strength"]
+	},
+	{
+		"name":"⭐⭐⭐",
+		"uniques":["[+96]% Strength"]
+	},
+
+	/*总督buff*/
+	{
+		"name":"Promotion_Lord_Training",
+		"uniques":["[+13]% Strength"]
+	},
+	{
+		"name":"Promotion_Union_Leader",
+		"uniques":["[+1] Movement"]
+	},
+
+	/*单位-武僧*/
+	{
+		"name": "Promotion_Hypnotic_Screen",
+		"uniques": ["Invisible to non-adjacent units","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 1,
+        "row": 1
+    },
+	{
+		"name": "Promotion_Shadowless_Fist",
+		"uniques": ["[+100]% to Flank Attack bonuses","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 2,
+        "row": 1
+    },
+	{
+		"name": "Promotion_Disciple",
+		"prerequisites": ["Promotion_Hypnotic_Screen","Promotion_Shadowless_Fist"],
+		"uniques": ["Can [Spread Religion] [4] times","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 1,
+        "row": 2
+    },
+	{
+		"name": "Promotion_Heart_Piercing_Palm",
+		"prerequisites": ["Promotion_Hypnotic_Screen","Promotion_Shadowless_Fist"],
+		"uniques": ["[+51]% Strength","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 2,
+        "row": 2
+    },
+	{
+		"name": "Promotion_Wind_Dance_Fist",
+		"prerequisites": ["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
+		"uniques": ["[1] additional attacks per turn","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 1,
+        "row": 3
+    },
+	{
+		"name": "Promotion_White_Crane_Fist",
+		"prerequisites": ["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
+		"uniques": ["[+1] Movement","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 2,
+        "row": 3
+    },
+	{
+		"name": "Promotion_Snake_Style_Fist",
+		"prerequisites": ["Promotion_Wind_Dance_Fist","Promotion_White_Crane_Fist"],
+		"uniques": ["[+183]% Strength","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Monk"],
+        "column": 1,
+        "row": 4
+    },
+
+	/*单位种类_侦察*/
+	{
+		"name": "Promotion_High_Mountain",
+		"uniques": ["Double movement in [Landform_Hill]","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 3,
+        "row": 1
+    },
+	{
+		"name": "Promotion_Rangers",
+		"uniques": ["Double movement in [Vegetation]","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 4,
+        "row": 1
+    },
+	{
+		"name": "Promotion_Guerrilla",
+		"prerequisites": ["Promotion_High_Mountain","Promotion_Rangers"],
+		"uniques": ["Can move after attacking","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 3,
+        "row": 2
+    },
+	{
+		"name": "Promotion_Sentinel",
+		"prerequisites": ["Promotion_High_Mountain","Promotion_Rangers"],
+		"uniques": ["Can see over obstacles","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 4,
+        "row": 2
+    },
+	{
+		"name": "Promotion_Ambush",
+		"prerequisites": ["Promotion_Guerrilla"],
+		"uniques": ["[+119]% Strength","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 3,
+        "row": 3
+    },
+	{
+		"name": "Promotion_Telescope",
+		"prerequisites": ["Promotion_Sentinel"],
+		"uniques": ["[+1] Sight","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 4,
+        "row": 3
+    },
+	{
+		"name": "Promotion_Disguise",
+		"prerequisites": ["Promotion_Ambush","Promotion_Telescope"],
+		"uniques": ["Invisible to non-adjacent units","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Scout"],
+        "column": 3,
+        "row": 4
+    },
+
+	/*单位种类_短程步兵*/
+	{
+		"name": "Promotion_Trench_Warfare",
+		"uniques": ["[+34]% Strength <vs [Unit_Type_Melee_Infantry] units> <when attacking>",
+		"[+34]% Strength <vs [Unit_Type_Anti_Cavalry] units> <when attacking>",
+		"[+34]% Strength <vs [Unit_Type_Ranged_Infantry] units> <when attacking>",
+		"[+34]% Strength <vs [Unit_Type_Monk] units> <when attacking>",
+		"Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 5,
+        "row": 1
+    },
+	{
+		"name": "Promotion_Tortoise_Formation",
+		"uniques": ["[+51]% Strength <vs [Unit_Type_Ranged_Infantry] units> <when defending>",
+		"[+51]% Strength <vs [Unit_Type_Siege] units> <when defending>",
+		"[+51]% Strength <vs [Unit_Type_Long_Ranged_Naval] units> <when defending>",
+		"[+51]% Strength <vs [Unit_Type_Naval_Attacker] units> <when defending>",
+		"Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 6,
+        "row": 1
+    },
+	{
+		"name": "Promotion_Assault_Team",
+		"prerequisites": ["Promotion_Trench_Warfare"],
+		"uniques": ["[+1] Movement","Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 5,
+        "row": 2
+    },
+	{
+		"name": "Promotion_Amphibious",
+		"prerequisites": ["Promotion_Tortoise_Formation"],
+		"uniques": ["Eliminates combat penalty for attacking over a river",
+		"Eliminates combat penalty for attacking across a coast",
+		"Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 6,
+        "row": 2
+    },
+	{
+		"name": "Promotion_Urban_Warfare",
+		"prerequisites": ["Promotion_Assault_Team","Promotion_Amphibious"],
+		"uniques": ["[+51]% Strength <when attacking> <in [Classification_District] tiles>",
+		"Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 5,
+        "row": 3
+    },
+	{
+		"name": "Promotion_Two_Handed_Sword",
+		"prerequisites": ["Promotion_Assault_Team","Promotion_Amphibious"],
+		"uniques": ["[+34]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
+		"Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 6,
+        "row": 3
+    },
+	{
+		"name": "Promotion_Elite_Guard",
+		"prerequisites": ["Promotion_Urban_Warfare","Promotion_Two_Handed_Sword"],
+		"uniques": ["[1] additional attacks per turn",
+		"Can move after attacking",
+		"Heal this unit by [50] HP"],
+		"unitTypes": ["Unit_Type_Melee_Infantry"],
+        "column": 5,
+        "row": 4
+    },
+]

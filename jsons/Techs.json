@@ -1,0 +1,1155 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Era_Ancient",
+		"techCost": 1,
+		"techs": [
+			{
+				"name": "Initial tech/civic_Agriculture",
+				"row": 8,
+				"quote": "农家之人，务本之谓也，务本而已，则富可保矣。\n——《周礼·天官·农师》",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Era_Ancient",
+		"techs": [
+			{
+				"name": "Tech_Nautical art",
+				"cost": 30,
+				"row": 1,
+				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"quote": "东西南北，无不可至，遥涉波涛，若履平地。\n——《资治通鉴·唐纪三十四》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Astrology",
+				"cost": 30,
+				"row": 2,
+				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"quote": "夫星者，物之精也。\n——《淮南子·天文训》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Pottery",
+				"cost": 15,
+				"row": 4,
+				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"quote": "制陶之人，以时节作器，以风土制度，无使不便。\n——《周礼·天官·工贾》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Animal husbandry",
+				"cost": 15,
+				"row": 5,
+				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"quote": "羊肥牛壮，人民安乐。\n——《礼记·曲礼上》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Mining",
+				"cost": 15,
+				"row": 7,
+				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"quote": "工矿之事，必借于山林之材。\n——《淮南子·说山训》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Code",
+				"cost": 15,
+				"row": 12,
+				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"quote": "宽则得众，严则失民。\n——《管子·权修》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Era_Ancient",
+		"techCost": 30,
+		"techs": [
+			{
+				"name": "Tech_Irrigation",
+				"row": 3,
+				"prerequisites": ["Tech_Pottery"],
+				"quote": "沃野千里，滋润之由，必在于水而不在于人。\n——《吕氏春秋·本性》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Writing",
+				"row": 4,
+				"prerequisites": ["Tech_Pottery"],
+				"quote": "笔者所言，举世闻之。\n——《庄子·养生主》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Archey",
+				"row": 5,
+				"prerequisites": ["Tech_Animal husbandry"],
+				"quote": "箭以钩为心，弓以弦为命。\n——《孙子兵法·九地》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Skill",
+				"row": 10,
+				"prerequisites": ["Civic_Code"],
+				"quote": "巧工妙匠之人，地之宝也。\n——《管子·地数》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Basic trade",
+				"row": 14,
+				"prerequisites": ["Civic_Code"],
+				"quote": "货财流通，民不饥寒。\n——《管子·商君》",
+				"uniques": ["Provides [1] [Resource_Trade route capacity]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Era_Ancient",
+		"techCost": 55,
+		"techs": [
+			{
+				"name": "Tech_Bricklaying",
+				"row": 6,
+				"prerequisites": ["Tech_Mining"],
+				"quote": "砖之以土成也，其糜粥之本也。\n——《礼记·曲礼上》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Copper casting",
+				"row": 7,
+				"prerequisites": ["Tech_Mining"],
+				"quote": "匠者不可以不知铜之所从出，而可以铸以成器。\n——《淮南子·说山训》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Wheels",
+				"row": 8,
+				"prerequisites": ["Tech_Mining"],
+				"quote": "车之以轮为体，以木为骨，以帛为肌肤，以铁为骊纁。\n——《礼记·曲礼上》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Military tradition",
+				"row": 9,
+				"prerequisites": ["Civic_Skill"],
+				"quote": "兵贵神速，不贵多。\n——《史记·淮阴侯列传》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_National labor force",
+				"row": 12,
+				"prerequisites": ["Civic_Skill"],
+				"quote": "国之利器不在金石，而在人才。\n——《管子·牧民》",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Early Empire",
+				"row": 13,
+				"prerequisites": ["Civic_Basic trade"],
+				"quote": "治国有常，而利民为本。\n——《尚书·禹贡》",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Mysticism",
+				"row": 15,
+				"prerequisites": ["Civic_Basic trade"],
+				"quote": "神者，隐而不见，不可得而观也。\n——《庄子·天下篇》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Era_Classical",
+		"techCost": 75,
+		"techs": [
+			{
+				"name": "Tech_Astronomical navigation",
+				"row": 2,
+				"prerequisites": ["Tech_Astrology","Tech_Nautical art"],
+				"quote": "星象所指，海岳所趋。\n——《淮南子·天文训》",
+				"uniques": []
+			},
+			{
+				"name":"Tech_Currency",
+				"row":4,
+				"prerequisites":["Tech_Writing"],
+				"quote":"钱，治国之要器，存亡之道也。\n——《资治通鉴·唐纪三十四》",
+				"uniques":[]
+			},
+			{
+				"name":"Tech_Horseback riding",
+				"row":5,
+				"prerequisites":["Tech_Archey"],
+				"quote":"马非常之兽也，人所重用。\n——《逸周书·说命》",
+				"uniques":[]
+			},
+			{
+				"name":"Tech_Alchemy",
+				"row":7,
+				"prerequisites":["Tech_Copper casting"],
+				"quote":"采铁于山，铁石为砺。\n——《礼记·曲礼上》",
+				"uniques":[]
+			},
+			{
+				"name": "Tech_Project",
+				"cost": 120,
+				"row": 8,
+				"prerequisites": ["Tech_Wheels"],
+				"quote": "工程之成，不在于力，而在于思。\n——《列子·汤问》",
+				"uniques": ["Roads connect tiles across rivers"]
+			},
+			{
+				"name":"Civic_Games and entertainment",
+				"row":10,
+				"prerequisites":["Civic_National labor force"],
+				"quote":"百姓好游，然后乐工出。\n——《礼记·曲礼下》",
+				"uniques":[]
+			},
+			{
+				"name":"Civic_Political philosophy",
+				"row":12,
+				"prerequisites":["Civic_National labor force","Civic_Early Empire"],
+				"quote":"民无信不立，国无信不守。\n——《左传·襄公十五年》",
+				"uniques":[]
+			},
+			{
+				"name":"Civic_Drama and poetry",
+				"row":14,
+				"prerequisites":["Civic_Early Empire"],
+				"quote":"乐以易志，志以长久。\n——《诗经·小雅·鹤鸣》",
+				"uniques":[]
+			}
+		]
+	},	
+	{
+		"columnNumber": 5,
+		"era": "Era_Classical",
+		"techCost": 120,
+		"techs": [
+			{
+				"name": "Tech_Shipbuilding",
+				"row": 1,
+				"prerequisites": ["Tech_Nautical art"],
+				"quote": "大江之行，浸润四方；行舟既远，择木而止。\n——《诗经·大雅·大明》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Math",
+				"row": 3,
+				"prerequisites": ["Tech_Currency"],
+				"quote": "六一既成，以亿为零。\n——《孙子算经》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Build",
+				"row": 6,
+				"prerequisites": ["Tech_Bricklaying"],
+				"quote": "工欲善其事，必先利其器。\n——《礼记·中庸》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Military training",
+				"row": 9,
+				"prerequisites": ["Civic_Military tradition","Civic_Games and entertainment"],
+				"quote": "兵者，国之大事，死生之地，存亡之道，不可不察也。\n——《孙子兵法·始计》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Defensive tactics",
+				"row": 11,
+				"prerequisites": ["Civic_Games and entertainment","Civic_Political philosophy"],
+				"quote": "不战而屈人之兵，善之善者也。\n——《道德经·三十一章》",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_History",
+				"row": 13,
+				"prerequisites": ["Civic_Political philosophy","Civic_Drama and poetry"],
+				"quote": "君子乐胥，万邦之屏。\n——《诗经·大雅·荡》",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Theology",
+				"row": 15,
+				"prerequisites": ["Civic_Drama and poetry","Civic_Mysticism"],
+				"quote": "上天无路，下地无门，唯人自通。\n——明·罗贯中《三国演义》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Era_Medieval",
+		"techCost": 200,
+		"techs": [
+			{
+				"name": "Tech_Buttresses",
+				"row": 1,
+				"prerequisites": ["Tech_Shipbuilding"],
+				"quote": "扶壁之功，不在于高大，而在于坚实。\n——《韩非子·说林》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Tactics",
+				"row": 2,
+				"prerequisites": ["Tech_Shipbuilding","Tech_Math"],
+				"quote": "知己知彼，百战不殆。\n——《孙子兵法·谋攻》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Apprentices",
+				"row": 4,
+				"prerequisites": ["Tech_Currency"],
+				"quote": "传薪不灭，有子孙焉。\n——《诗经·小雅·鹤鸣》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Mechanical",
+				"row": 8,
+				"prerequisites": ["Tech_Alchemy","Tech_Project"],
+				"quote": "器械之成，必先其器之利。\n——《礼记·中庸》",
+				"uniques": ["Improves movement speed on roads"]
+			},
+			{
+				"name": "Civic_Naval tradition",
+				"row": 10,
+				"prerequisites": ["Civic_Defensive tactics"],
+				"quote": "此日漫挥天下泪，有公足壮海军威。\n——光绪帝 爱新觉罗·载湉",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Feudalism",
+				"row": 11,
+				"prerequisites": ["Civic_Defensive tactics"],
+				"quote": "君君，臣臣，父父，子子。\n——《论语·颜渊》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Administration",
+				"row": 13,
+				"prerequisites": ["Civic_Defensive tactics","Civic_History"],
+				"quote": "上不尊法，下不安民，虽举世而誉之，亦何益哉？\n——李斯《谏逐客书》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Era_Medieval",
+		"techCost": 300,
+		"techs": [
+			{
+				"name": "Tech_Civilian education",
+				"row": 3,
+				"prerequisites": ["Tech_Math","Tech_Apprentices"],
+				"quote": "读书破万卷，下笔如有神。\n——唐·杜甫《题李凝幽居》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Stirrups",
+				"row": 5,
+				"prerequisites": ["Tech_Apprentices","Tech_Horseback riding"],
+				"quote": "马上之功，以镫为重。\n——《韩非子·说林》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Military engineering",
+				"row": 6,
+				"prerequisites": ["Tech_Build"],
+				"quote": "兵器利国，不可不察。\n——《孙子兵法·谋攻》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Castle",
+				"row": 7,
+				"prerequisites": ["Tech_Alchemy"],
+				"quote": "城之将克，必先固其器。\n——《孙子兵法·攻城》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Mercenaries",
+				"row": 9,
+				"prerequisites": ["Civic_Military training"],
+				"quote": "兵马未动，粮草先行。\n——《三国演义》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Medieval bazaar",
+				"row": 11,
+				"prerequisites": ["Civic_Feudalism"],
+				"quote": "市井之德，修而不改。\n——《礼记·中庸》",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Thw worker's union",
+				"row": 13,
+				"prerequisites": ["Civic_Administration"],
+				"quote": "众志成城，泰山移。\n——《史记·项羽本纪》",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Divin right of Kings",
+				"row": 15,
+				"prerequisites": ["Civic_Administration","Civic_Theology"],
+				"quote": "天命之谓性，率性之谓道，修道之谓教。\n——《礼记·大学》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Era_Renaissance",
+		"techCost": 450,
+		"techs": [
+			{
+				"name": "Tech_Cartography",
+				"row": 1,
+				"prerequisites": ["Tech_Buttresses"],
+				"quote": "制图之道在于准确，准确之道在于精确，精确之道在于分寸。\n——《清华简·数书九》",
+				"uniques": ["Enables [All] units to enter ocean tiles"]
+			},
+			{
+				"name": "Tech_Mass production",
+				"row": 2,
+				"prerequisites": ["Tech_Buttresses","Tech_Tactics","Tech_Civilian education"],
+				"quote": "以一人之力，无以造大功；以众人之力，则可为所欲为。\n——《韩非子·说林》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Astronomy",
+				"cost": 600,
+				"row": 3,
+				"prerequisites": ["Tech_Civilian education"],
+				"quote": "天文学的研究不仅关乎科学，也关涉到哲学、宗教和文化等方面。\n——《钦定四库全书总目提要·天文志》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Banking",
+				"row": 4,
+				"prerequisites": ["Tech_Civilian education","Tech_Stirrups"],
+				"quote": "凡银钱，皆在银号中，通行无阻，大小异色，以为区别。\n——《四库全书·纂要·经济六》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Gunpowder",
+				"row": 5,
+				"prerequisites": ["Tech_Stirrups","Tech_Military engineering"],
+				"quote": "《九域志》云：火药，本出西域，至唐时始行。\n——《武备志·杂器志》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Printing",
+				"row": 8,
+				"prerequisites": ["Tech_Mechanical"],
+				"quote": "",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Exploration",
+				"row": 9,
+				"prerequisites": ["Civic_Mercenaries","Civic_Medieval bazaar"],
+				"quote": "以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Humanism",
+				"row": 11,
+				"prerequisites": ["Civic_Medieval bazaar","Civic_Thw worker's union"],
+				"quote": "好的城市规划，是为了人们的幸福和自由。\n——托马斯·莫尔《乌托邦》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Foreigh service",
+				"row": 13,
+				"prerequisites": ["Civic_Thw worker's union"],
+				"quote": "外交政策不是由外交部门独立制定的，而是由整个政府制定的，包括市政府。\n——《美国国务院职能与任务》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Reformed church",
+				"row": 14,
+				"prerequisites": ["Civic_Thw worker's union","Civic_Divin right of Kings"],
+				"quote": "归正会本是为民间讼狱处理之，后以治安为主。\n——《清实录·道光朝实录》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Era_Renaissance",
+		"techCost": 600,
+		"techs": [
+			{
+				"name": "Tech_Crossail device",
+				"row": 1,
+				"prerequisites": ["Tech_Cartography"],
+				"quote": "世界上某些地方人类无法靠近，但帆船却可以。\n——艾伦·维利耶",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Metal casting",
+				"row": 5,
+				"prerequisites": ["Tech_Gunpowder"],
+				"quote": "金属铸造，乃天地之大机，人力之所不能及也。\n——《太平御览》",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Siege",
+				"row": 7,
+				"prerequisites": ["Tech_Castle"],
+				"quote": "攻城之法，有围、攻、突、固之四术。\n——《三十六计·围魏救赵》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Mercantilism",
+				"row": 11,
+				"prerequisites": ["Civic_Humanism"],
+				"quote": "商贾者，国之货也，货不可无，故贵之。\n——《孟子·滕文公上》",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Enlightenment",
+				"row": 13,
+				"prerequisites": ["Civic_Humanism","Civic_Foreigh service"],
+				"quote": "启蒙是人类从无知到知识的过程，只有通过理性的思考和科学的探索，才能真正实现社会进步和人类文明的发展。\n——伏尔泰《论启蒙》",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Era_Industrial",
+		"techCost": 780,
+		"techs": [
+			{
+				"name": "Tech_Industrialization",
+				"row": 2,
+				"prerequisites": ["Tech_Crossail device","Tech_Mass production"],
+				"quote": "暴力经济学的关键词是城市化、工业化、集中、效率、数量、速度。\n——舒马赫",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Scientific theory",
+				"row": 3,
+				"prerequisites": ["Tech_Astronomy","Tech_Banking"],
+				"quote": "科学没有政治上的意义，它只有方法上的意义。\n——阿尔伯特·爱因斯坦",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Ballistics",
+				"row": 6,
+				"prerequisites": ["Tech_Metal casting"],
+				"quote": "有件事可用来推测发生了什么，但我们没有妄自揣测，直到弹道学证实了发生的一切…\n——约翰·汉森",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Military science",
+				"row": 8,
+				"prerequisites": ["Tech_Siege","Tech_Printing"],
+				"quote": "不管战略多美妙，偶尔看看结果如何很重要。\n——温斯顿·丘吉尔",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Colonialism",
+				"row": 9,
+				"prerequisites": ["Civic_Mercantilism"],
+				"quote": "记住：政治、殖民主义、帝国主义和战争都源于人类的大脑。\n——维莱亚努尔·拉马钱德兰",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Civil engineering",
+				"row": 11,
+				"prerequisites": ["Civic_Mercantilism"],
+				"quote": "改造使弯路变得笔直；但未经改造的弯路才是成就天才之路。\n——威廉·布雷克",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Nationalism",
+				"row": 12,
+				"prerequisites": ["Civic_Enlightenment"],
+				"quote": "民族主义促使国家产生，而不是国家产生了民族主义。\n——欧内斯特·葛尔纳",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Opera and ballet",
+				"row": 14,
+				"prerequisites": ["Civic_Enlightenment"],
+				"quote": "歌剧是，当一个人背后被捅了一刀，他不流血，他唱歌剧。\n——罗伯特·本奇利",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Era_Industrial",
+		"techCost": 1050,
+		"techs": [
+			{
+				"name": "Tech_Steam power",
+				"row": 1,
+				"prerequisites": ["Tech_Industrialization"],
+				"quote": "蒸汽机对科学的贡献远远大于科学对蒸汽机的贡献。\n——劳伦斯· 亨德尔森",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Sanitary equipment",
+				"row": 4,
+				"prerequisites": ["Tech_Scientific theory"],
+				"quote": "除卫生设备、医疗、教育、葡萄酒、公共秩序、道路、淡水系统和公共卫生以外…罗马人还为我们做了什么？\n——约翰·克里斯",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Economy",
+				"row": 5,
+				"prerequisites": ["Tech_Scientific theory","Tech_Metal casting"],
+				"quote": "经济学这门学科不太尊重个人意愿。\n——尼基塔·赫鲁晓夫",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Rifling",
+				"row": 7,
+				"prerequisites": ["Tech_Ballistics","Tech_Military science"],
+				"quote": "事实胜于雄辩。\n——克莱格·罗伯茨",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Natural history",
+				"row": 9,
+				"prerequisites": ["Civic_Colonialism"],
+				"quote": "如果我参与造物，我会提出一些有用的建议使宇宙秩序更加和谐。\n——纳尔逊·艾格林",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Urbanization",
+				"row": 11,
+				"prerequisites": ["Civic_Civil engineering","Civic_Nationalism"],
+				"quote": "我喜欢城市里所有的东西都很巨大，一切的美丽和丑陋。\n——约瑟夫·布罗茨基",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Scorched earth strategy",
+				"row": 14,
+				"prerequisites": ["Civic_Nationalism"],
+				"quote": "战争就是地狱。\n——威廉·特库姆塞·谢尔曼",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Era_Modern",
+		"techCost": 1300,
+		"techs": [
+			{
+				"name": "Tech_Flight",
+				"row": 3,
+				"prerequisites": ["Tech_Industrialization","Tech_Scientific theory"],
+				"quote": "如果着陆后你能安全走出机舱，那这个着陆还不错；如果第二天你还能继续使用这架飞机，那这个着陆简直棒呆啦。\n——查克·叶格",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Part specification",
+				"row": 5,
+				"prerequisites": ["Tech_Economy"],
+				"quote": "很多人爱惜汽车胜过爱惜自己的身体…但汽车部件是可以更换的。\n——帕尔默",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Steel",
+				"row": 6,
+				"prerequisites": ["Tech_Rifling"],
+				"quote": "最好的钢并不总是最亮的。\n——乔·艾伯康比",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Refining",
+				"row": 8,
+				"prerequisites": ["Tech_Rifling"],
+				"quote": "所谓工程，就是一门将大自然中绝佳的能量源用于惠世济民的艺术。\n——托马斯·特雷戈德",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Earth protection",
+				"row": 9,
+				"prerequisites": ["Civic_Natural history"],
+				"quote": "水和空气这两样生活必须品已变成全球垃圾桶了。\n——雅克·伊夫·库斯托",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Mass media",
+				"row": 11,
+				"prerequisites": ["Civic_Natural history","Civic_Urbanization"],
+				"quote": "大众媒体的作用并不是让你产生信仰，而是让你保持对政党组织的兴趣。\n——克里斯托弗·拉什",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Mobilization",
+				"row": 13,
+				"prerequisites": ["Civic_Urbanization","Civic_Scorched earth strategy"],
+				"quote": "当他们为战争做准备时，那些最有发言权的人大量发表和平宣言，直到完成整个动员过程。\n——斯蒂芬·茨威格",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Era_Modern",
+		"techCost": 1575,
+		"techs": [
+			{
+				"name": "Tech_Internal combustion engine",
+				"row": 7,
+				"prerequisites": ["Tech_Steel","Tech_Refining"],
+				"quote": "当我们还是小孩儿时，汽车没那么先进。归根结底，汽车仍然只是一台汽油内燃机。\n——德纳·布鲁奈蒂",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Capitalism",
+				"row": 10,
+				"prerequisites": ["Civic_Mass media"],
+				"quote": "资本主义的固有邪恶是幸福的不平等分享；社会主义的固有邪恶是痛苦的平等分享。\n——温斯顿·丘吉尔",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Ideology",
+				"row": 11,
+				"prerequisites": ["Civic_Mass media","Civic_Mobilization"],
+				"quote": "它表明没有一种系统，即使最不人道的，可以离开意识形态而继续存在。\n——乔·斯洛沃",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Era_Modern",
+		"techCost": 1800,
+		"techs": [
+			{
+				"name": "Tech_Electricity",
+				"cost": 1575,
+				"row": 1,
+				"prerequisites": ["Tech_Steam power"],
+				"quote": "如果没电，那我们就得借着烛光看电视。\n——乔治·戈布尔",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Radio",
+				"cost": 1575,
+				"row": 2,
+				"prerequisites": ["Tech_Steam power","Tech_Flight"],
+				"quote": "没有无线电的世界是聋人世界。\n——欧内斯特·耶博阿",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Chemistry",
+				"cost": 1575,
+				"row": 3,
+				"prerequisites": ["Tech_Sanitary equipment","Tech_Part specification"],
+				"quote": "化学是物理当中令人讨厌的一部分。\n——彼得·瑞斯",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Nuclear program",
+				"row": 10,
+				"prerequisites": ["Civic_Ideology"],
+				"quote": "原子能的释放，改变了除人类思考模式之外的一切…解决这个问题在于人心。早知道我就当个钟表匠了。\n——阿尔伯特·爱因斯坦",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Right to vote",
+				"row": 13,
+				"prerequisites": ["Civic_Ideology"],
+				"quote": "为什么对女性区别对待？妇女参政会成功，别在乎这些可怜的游击队性质的反对派。\n——维多利亚·伍德胡尔",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Tolalitarianism",
+				"row": 14,
+				"prerequisites": ["Civic_Ideology"],
+				"quote": "只有暴徒和精英会被极权主义本身的势头所吸引。依靠宣传才能获取民心。\n——汉娜o阿伦特",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Class struggle",
+				"row": 15,
+				"prerequisites": ["Civic_Ideology"],
+				"quote": "阶级斗争必然导致无产阶级专政。\n——卡尔·马克思",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Era_Atomic",
+		"techCost": 2200,
+		"techs": [
+			{
+				"name": "Tech_Rocket research",
+				"row": 3,
+				"prerequisites": ["Tech_Radio","Tech_Chemistry"],
+				"quote": "科学火箭神话被编成了神话，这和它真正的困难不相称。\n——约翰·卡马克",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Advanced ballistics",
+				"row": 4,
+				"prerequisites": ["Tech_Part specification","Tech_Steel"],
+				"quote": "在理性的子弹面前，无知的勇气是没用的。\n——乔治·巴顿",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Joint operations",
+				"row": 5,
+				"prerequisites": ["Tech_Internal combustion engine"],
+				"quote": "有意义的战斗胜过无意义的生活。\n——乔治·史密斯·巴顿",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Plastic",
+				"row": 6,
+				"prerequisites": ["Tech_Internal combustion engine"],
+				"quote": "在主要可塑性物质的层级结构里，塑料制品是一种不受待见的材料，它消失在橡胶的热情洋溢和金属的平坦坚硬之中。\n——罗兰·巴特",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Cultural heritage",
+				"row": 9,
+				"prerequisites": ["Civic_Earth protection"],
+				"quote": "一个对历史、起源和文化不了解的人，就好比没有根的大树。\n——马库斯·加维",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Cold War",
+				"row": 11,
+				"prerequisites": ["Civic_Ideology"],
+				"quote": "从波罗的海的斯德丁到亚得里亚海的德里雅斯特，一幅横贯欧洲大陆的铁幕已经拉下。\n——温斯顿·丘吉尔",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Era_Atomic",
+		"techCost": 2500,
+		"techs": [
+			{
+				"name": "Tech_Modern aviation",
+				"cost":2200,
+				"row": 2,
+				"prerequisites": ["Tech_Radio"],
+				"quote": "飞机确实又快又实惠，不过一味追求效率，我们得失去多少快乐，牺牲多少休闲时光啊。\n——金吉·罗杰斯",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Computer",
+				"row": 1,
+				"prerequisites": ["Tech_Electricity","Tech_Radio"],
+				"quote": "人都会犯错，但是想真正把事情搞砸你还需要一台计算机。\n——保罗·埃利希",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Nuclear fission",
+				"row": 5,
+				"prerequisites": ["Tech_Advanced ballistics","Tech_Joint operations"],
+				"quote": "别碰原子能。\n——哈伯格",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Synthetic",
+				"row": 6,
+				"prerequisites": ["Tech_Plastic"],
+				"quote": "文化里充斥着太多的塑料，以致于含乙烯基的塑料美洲豹兽皮变成了濒临灭绝的合成物。\n——莉莉·汤姆林",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Emergency deployment",
+				"row": 11,
+				"prerequisites": ["Civic_Cold War"],
+				"quote": "立即认真执行一项好计划远比下周执行一项完美计划好。\n——乔治·史密斯·巴顿",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Space race",
+				"row": 12,
+				"prerequisites": ["Civic_Cold War"],
+				"quote": "美国宇航局花了上百万美元来研发可以在太空使用的圆珠笔。俄罗斯人带了支铅笔。\n——威尔·沙博",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Professional sports",
+				"cost": 2200,
+				"row": 14,
+				"prerequisites": ["Civic_Ideology"],
+				"quote": "如果输赢不代表一切，那为什么还要在比赛中记分呢？\n——文斯·隆巴迪",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Era_Information",
+		"techCost": 3000,
+		"techs": [
+			{
+				"name": "Tech_Telecommunication",
+				"row": 2,
+				"prerequisites": ["Tech_Computer"],
+				"quote": "沟通的最大问题是会产生错觉。\n——乔治·萧伯纳",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Satellite",
+				"row": 3,
+				"prerequisites": ["Tech_Modern aviation","Tech_Rocket research"],
+				"quote": "卫星没有意识。\n——爱德华·默罗",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Guidance system",
+				"row": 4,
+				"prerequisites": ["Tech_Rocket research","Tech_Advanced ballistics"],
+				"quote": "生大材，不遇其时，其势定衰。生平庸，不化其势，其性定弱。\n——老子",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Laser",
+				"row": 5,
+				"prerequisites": ["Tech_Nuclear fission"],
+				"quote": "当上帝说让光芒普照大地时，他的意思肯定是指完美的相干光线。\n——查尔斯·汤斯",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Composite",
+				"row": 6,
+				"prerequisites": ["Tech_Synthetic"],
+				"quote": "所有物质事物看起来都是由硬粒子和固相颗粒组成…在很多方面，都和智能主体决策创造的第一个产物联系在一起。\n——艾萨克·牛顿",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Stealth",
+				"row": 7,
+				"prerequisites": ["Tech_Synthetic"],
+				"quote": "我想说的是隐形是一种有趣的能力，你可以穿过世界看看它到底是什么样子，而没人能看到你。\n——凯文·贝肯",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Environmentalism",
+				"row": 10,
+				"prerequisites": ["Civic_Cultural heritage","Civic_Emergency deployment"],
+				"quote": "“我将在明媚的日光之下再度降临，为子孙后裔造下美好家园。”\n——《阿尔戈船英雄记》，罗德岛的阿波罗尼奥斯",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Globalization",
+				"row": 13,
+				"prerequisites": ["Civic_Emergency deployment","Civic_Space race"],
+				"quote": "据说，反对全球化就像反对万有引力定律。\n——科菲·安南",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			},
+			{
+				"name": "Civic_Social media",
+				"row": 15,
+				"prerequisites": ["Civic_Space race","Civic_Professional sports"],
+				"quote": "在我所有重要的毫无意义的事里面，我应该先告诉你哪一件呢？\n——简·奥斯汀",
+				"uniques": ["Provides [1] [Resource_Governor title]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Era_Information",
+		"techCost": 3750,
+		"techs": [
+			{
+				"name": "Tech_Robotics",
+				"row": 1,
+				"prerequisites": ["Tech_Computer","Tech_Satellite","Tech_Guidance system","Tech_Laser"],
+				"quote": "机器人技术永远存在，它永远都是下一件大事，这项技术如此让人兴奋，如此扣人心弦，以至于很容易得意忘形。\n——科林·安格尔",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Nuclear Fusion",
+				"row": 8,
+				"prerequisites": ["Tech_Laser"],
+				"quote": "我支持从15亿千米远的地方来控制核聚变能量。通过太阳进行的核聚变非常不错，而且是免费的。地球上的反应堆…没有那么多。\n——乔·罗姆",
+				"uniques": []
+			},
+			{
+				"name": "Tech_Nanotechnology",
+				"row": 9,
+				"prerequisites": ["Tech_Composite"],
+				"quote": "如果科技能推动变革，那么纳米科技是人类未来的推动力。\n——娜塔莎·维塔莫尔",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Near-future governance",
+				"row": 11,
+				"prerequisites": ["Civic_Environmentalism","Civic_Globalization"],
+				"quote": "司法是国家中人民之间的纽带，司法的施行即为对公正的裁定，这是政治社会长治久安的基本原则。\n——亚里士多德",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Political adventures",
+				"row": 12,
+				"prerequisites": ["Civic_Globalization","Civic_Social media"],
+				"quote": "人之于其身心，主权之尊而无上，无异自主之一国也。\n——约翰·斯图尔特·密尔",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Decentralized sovereighty",
+				"row": 13,
+				"prerequisites": ["Civic_Globalization","Civic_Social media"],
+				"quote": "决断谷中人头攒动，因为主之日临近此处。\n——旧约《约珥书》3:14",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Optimization command",
+				"row": 14,
+				"prerequisites": ["Civic_Globalization","Civic_Social media"],
+				"quote": "我们发现，机械天才、感官敏锐之人、智力拔群之人皆异口同声称机器人仅仅是纯粹的机器，其行为不受人工操控。也正是因此，它无可比拟地成为了人类最伟大的发明。\n——埃德加·艾伦·坡",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Era_Near-future",
+		"techCost": 4300,
+		"techs": [
+			{
+				"name": "Tech_Ocean home",
+				"row": 2,
+				"prerequisites": ["Tech_Guidance system"],
+				"quote": "我务须再度潜入那无底深海，如流浪吉卜赛人一般生活；在那里，疾风如利刃般刺骨，而我如海鸥般恣意翱翔，如鲸鱼般纵情遨游。\n——约翰·麦斯菲尔"
+			},
+			{
+				"name": "Tech_Advanced AI",
+				"row": 3,
+				"prerequisites": ["Tech_Guidance system"],
+				"uniques": ["[+33]% Strength <for [Unit_Type_Mech] units> <vs [All] units> <when attacking>"],
+				"quote": "我能恳求你以赞许的眼光来看待你所造之物吗？我在此祈求你的善良与恻隐之心。\n——玛丽·雪莱"
+			},
+			{
+				"name": "Tech_Advanced energy battery",
+				"row": 4,
+				"prerequisites": ["Tech_Guidance system"],
+				"uniques": ["[+50]% Strength <for [Unit_Type_Mech] units> <vs cities> <when attacking>"],
+				"quote": "曲则全，枉则直，洼则盈，敝则新。\n——《道德经》，老子"
+			},			
+			{
+				"name": "Tech_Cybernetics",
+				"row": 5,
+				"prerequisites": ["Tech_Guidance system"],
+				"uniques": ["Ignores terrain cost <for [Unit_Type_Mech] units>","[+2] Movement <for [Unit_Type_Mech] units>"],
+				"quote": "如果来生有劳作，那你须替我受其劳。一旦我有所召唤，你须即刻回应。在此劳作之时需谨言慎行。耕我之田，将水和沙运往东西四方。一旦我有所召唤，你须即刻回应。\n——埃及夏勃梯人像铭文"
+			},			
+			{
+				"name": "Tech_Smart materials",
+				"row": 6,
+				"prerequisites": ["Tech_Guidance system"],
+				"uniques": ["[+66]% Strength <for [Unit_Type_Mech] units> <when defending>"],
+				"quote": "它上天入地，然后又破土上天，从优劣万物中获得终极之力。\n——赫耳墨斯·特里斯墨吉斯忒斯"
+			},			
+			{
+				"name": "Tech_Forecasting system",
+				"row": 7,
+				"prerequisites": ["Tech_Guidance system"],
+				"uniques": ["[+10000]% Strength <for [Unit_Type_Mech] units> <vs [Unit_Type_Missile] units>"],
+				"quote": "吾所与战之地不可知，不可知，则敌所备者多；敌所备者多，则吾所与战者，寡矣。\n——孙子"
+			},
+			{
+				"name": "Civic_Global warming mitigation",
+				"row": 10,
+				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
+				"quote": "将这恶人紧锁在尖锐的岩石上，\n永生不得释放。\n——埃斯库罗斯",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Smart power foctrine",
+				"row": 11,
+				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
+				"quote": "这一刻终将到来，且避无可避。构建在武力之上的所有体制都将在众目睽睽下暴露出无用、愚蠢，甚至不便，从而消逝殆尽。\n——列夫·托尔斯泰",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Information warfare",
+				"row": 12,
+				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
+				"quote": "“吾所与战之地不可知，不可知，则敌所备者多；敌所备者多，则吾所与战者，寡矣。”\n——孙子",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Necessity expedition",
+				"row": 13,
+				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
+				"quote": "“我最亲爱的人儿啊，这是个很久很久以前的故事啦。”\n——鲁德亚德·吉卜林",
+				"uniques": []
+			},
+			{
+				"name": "Civic_Cultural hegemony",
+				"row": 14,
+				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
+				"quote": "啊，我的爱人，请倒满我面前的酒杯。\n让我们干杯，敬往昔的懊悔与未来的敬畏。\n为何不敬明日？\n因为，明日我会带着千年的忧愁再饮一杯。\n——爱德华·菲茨杰拉尔德",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 20,
+		"era": "Era_Near-future",
+		"techCost": 4500,
+		"techs": [
+			{
+				"name": "Tech_Alien missons",
+				"row": 4,
+				"prerequisites": ["Tech_Ocean home","Tech_Advanced AI","Tech_Cybernetics","Tech_Advanced energy battery","Tech_Smart materials","Tech_Forecasting system"],
+				"quote": "不，我的朋友，我们没有回到地球，我们也没有坠入墨西哥湾。相反，我们正冲向太空！亲眼见证那些在夜空中闪耀的明星，还有地球和我们之间堆积的重重黑幕！\n——儒勒·凡尔纳",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 21,
+		"era": "Era_Far-future",
+		"techCost": 5200,
+		"techs": [
+			{
+				"name": "Tech_Future technology",
+				"row": 4,
+				"prerequisites": ["Tech_Alien missons"],
+				"quote": "虽然未来似乎很遥远，但其实已经开始了。\n——马提·史提潘尼克",
+				"uniques": ["Gain [1000] [Gold]","[+5]% [Production] [in all cities]","Can be continually researched"]
+			},
+			{
+				"name": "Civic_Future Municipal",
+				"row": 12,
+				"prerequisites": ["Civic_Global warming mitigation","Civic_Smart power foctrine","Civic_Information warfare","Civic_Necessity expedition","Civic_Cultural hegemony"],
+				"quote": "我从不思考未来。因为它迟早会来的。\n——阿尔伯特·爱因斯坦",
+				"uniques": ["Provides [1] [Resource_Governor title]","Can be continually researched"]
+			}
+		]
+	},
+	/*模板
+	{
+		"columnNumber": ,
+		"era": "时代-",
+		"techCost": ,
+		"techs": [
+			{
+				"name": "",
+				"row": ,
+				"prerequisites": ["",""],
+				"quote": "",
+				"uniques": []
+			},
+		]
+	},
+	*/
+]
