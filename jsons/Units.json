@@ -221,111 +221,6 @@
 		"Unit_Class_Builder"],
 		"cost": 50
 	},
-	//区域系统附属建造者
-	{
-		"name":"Unit_Amphitheater",
-		"unitType":"Unit_Type_Civilian",
-		"uniques":["Can instantly construct a [District_Government_Plaza] improvement <by consuming this unit>", 
-		"Unbuildable", "Uncapturable","Unit_Class_Builder",
-		"Will not be displayed in Civilopedia"],
-		"movement":2
-	},
-	{
-		"name":"Unit_Diplomatic_Zone",
-		"unitType":"Unit_Type_Civilian",
-		"uniques":["Can instantly construct a [District_Foreign_Quarter] improvement <by consuming this unit>", 
-		"Unbuildable", "Uncapturable","Unit_Class_Builder",
-		"Will not be displayed in Civilopedia"],
-		"movement":2
-	},
-	{
-		"name": "Unit_Holy_Site",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Holy_Site] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Campus",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Campus] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Theater_Square",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Theater_Square] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Commercial_Hub",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Commercial_Hub] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Industrial_Zone",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Industrial_Zone] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Spaceport",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Spaceport] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Entertainment_Complex",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Entertainment_Complex] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Water_Park",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Water_Park] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Harbor",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Harbor] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Encampment",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [District_Army] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
-	{
-		"name": "Unit_Raceline",
-		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can instantly construct a [Distinct_Raceline] improvement <by consuming this unit>", 
-			"Unbuildable", "Uncapturable","Unit_Class_Builder",
-			"Will not be displayed in Civilopedia"],
-		"movement": 2
-	},
 	
 	/*开拓者*/
 	{
@@ -1145,15 +1040,5 @@
 		"Uncapturable",
 		"Can be added to [Spaceship part] in the Capital",
 		"Limited to [3] per Civilization"]
-	},
-
-	/*人造奇观部分*/
-	{
-		"name": "Unit_The_Great_Baths_of_Caracalla",
-		"unitType": "Unit_Type_Civilian",
-		"movement": 4,
-		"uniques": ["Can instantly construct a [District_The_Great_Baths_of_Caracalla] improvement <by consuming this unit>",
-			"Unit_Class_Wonderbuilder","Unbuildable",
-            "Will not be displayed in Civilopedia"]
 	},
 ]

@@ -522,7 +522,11 @@
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+        "civilopediaText": [
+			{
+				"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"
+			}
+		]
 	},
 
 	/*人造奇观部分*/
@@ -538,13 +542,30 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
 		"uniques": [
 			"Great Improvement",
+			"Can only be built on [River] tiles",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
 			"Irremovable",
-			"Removes removable features when built",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder",
-            "Will not be displayed in Civilopedia"]
+			"District_Class_Wonder"]
+	},	
+	{//巨石阵
+		"name":"District_Stonehenge",
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"happiness":-10,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Removes removable features when built",
+			"[+1 Faith] for each adjacent [Resource_Stone]",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"District_Class_Wonder"]
 	},
 
 ]

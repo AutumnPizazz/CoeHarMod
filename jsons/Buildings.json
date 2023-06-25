@@ -807,7 +807,7 @@
 		"uniques": ["Unsellable",
         "Provides [1] [Resource_Governor title]",
 		"Cost increases by [8] per owned city",
-        "Free [Unit_Amphitheater] appears",
+        "Creates a [District_Government_Plaza] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
@@ -976,7 +976,7 @@
         "uniques":["Cost increases by [8] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
-        "Free [Unit_Diplomatic_Zone] appears",
+        "Creates a [District_Foreign_Quarter] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Destroyed when the city is captured",
         "Cannot be purchased"]
@@ -1019,7 +1019,7 @@
 		"uniques": ["Cost increases by [8] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
-        "Free [Unit_Holy_Site] appears",
+        "Creates a [District_Holy_Site] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
@@ -1204,7 +1204,7 @@
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
 		"Cost increases by [8] per owned city",
-        "Free [Unit_Campus] appears",
+        "Creates a [District_Campus] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
@@ -1270,7 +1270,7 @@
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": ["Unsellable",
 		"Cost increases by [8] per owned city",
-        "Free [Unit_Commercial_Hub] appears",
+        "Creates a [District_Commercial_Hub] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
@@ -1334,7 +1334,7 @@
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": ["Unsellable",
         "Cost increases by [8] per owned city",
-        "Free [Unit_Theater_Square] appears",
+        "Creates a [District_Theater_Square] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
     },
@@ -1414,7 +1414,7 @@
         "cannotBeBuiltWith":"Building_Aquatics_Complex_Unique",
         "uniques": ["Unsellable",
         "Cost increases by [8] per owned city",
-        "Free [Unit_Entertainment_Complex] appears",
+        "Creates a [District_Entertainment_Complex] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
     },
@@ -1479,7 +1479,7 @@
         "uniques": ["Unsellable",
         "Must be next to [Coast]",
         "Cost increases by [8] per owned city",
-        "Free [Unit_Water_Park] appears",
+        "Creates a [District_Water_Park] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
     },
@@ -1544,7 +1544,7 @@
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": ["Unsellable",
 		"Cost increases by [8] per owned city",
-        "Free [Unit_Industrial_Zone] appears",
+        "Creates a [District_Industrial_Zone] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
@@ -1738,7 +1738,7 @@
 		"greatPersonPoints": {"GreatPerson_Class_General": 1},
 		"uniques": ["Unsellable",
 		"Cost increases by [8] per owned city",
-        "Free [Unit_Encampment] appears",
+        "Creates a [District_Army] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
@@ -1849,7 +1849,7 @@
         "Unsellable",
         "Must be next to [Coast]",
 		"Cost increases by [8] per owned city",
-        "Free [Unit_Harbor] appears",
+        "Creates a [District_Harbor] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
@@ -1936,7 +1936,7 @@
 		"requiredTech": "Tech_Rocket research",
 		"uniques": [
         "Unsellable",
-        "Free [Unit_Spaceport] appears",
+        "Creates a [District_Spaceport] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Building_Classification_Spaceport_District",
         "Cannot be purchased"]
@@ -1951,7 +1951,7 @@
 		"uniques": ["Must be next to [Fresh water]",
         "Cost increases by [8] per owned city",
         "Unsellable",
-        "Free [Unit_Raceline] appears",
+        "Creates a [Distinct_Raceline] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Building_Classification_Raceline_District",
         "Cannot be purchased"]
@@ -2001,38 +2001,22 @@
 		"name": "Artificialwonder_The_Great_Baths_of_Caracalla",
         "cost":180,
 		"isWonder": true,
-		"uniques": ["Must be on [River]",
-            "Free [Unit_The_Great_Baths_of_Caracalla] appears",
+		"uniques": ["[+1 Faith] from [River] tiles [in this city]",
+            "Creates a [District_The_Great_Baths_of_Caracalla] improvement on a specific tile",
             "Wonder_Class_Ancient"],
-        "replacementTextForUniques":"Can only be built in riverside cities, and this city's riverside plots earn an additional +1☮faith",
 		"requiredTech": "Tech_Pottery",
 		"quote": "就算落入的是无情的滤筛，\n我仍愿意将我的爱情之水倾泻倒下。\n即使失败，我也在所不惜。如此，如虔诚的印度人一般。\n我愿虔诚信仰，\n我崇拜太阳，炙热阳光普照信徒，\n 但却不知一人为它痴狂。\n ——威廉·莎士比亚"
 	},	
-    {
-        "name": "Artificialwonder_The_Great_Baths_of_Caracalla2",
-        "cost":1,
-        "uniques": ["Only available <in cities with a [Artificialwonder_The_Great_Baths_of_Caracalla]>",
-            "[+1 Faith] from [River] tiles [in this city]",
-            "Will not be displayed in Civilopedia"],
-        "requiredTech": "Tech_Pottery"
-    },/*
 	{//巨石阵
         "name": "Artificialwonder_Stonehenge",
         "cost":180,
+        "faith":2,
         "isWonder": true,
         "uniques": ["Must have an owned [Resource_Stone] within [3] tiles",
-            "Free [Unit_Stonehenge] appears",
+            "Free [GreatPerson_Class_Prophet] appears",
+            "Creates a [District_Stonehenge] improvement on a specific tile",
             "Wonder_Class_Ancient"],
-        "replacementTextForUniques":"",
         "requiredTech": "Tech_Astrology",
         "quote": "你能想象试图说服600人帮你将一个重为50吨的石头拖动28千米穿过乡村，并用力将它立起来，然后说：‘好了，小伙子们！再推动20块这样的石头…然后就可以庆祝啦！’这样的场景吗？\n——比尔·布莱森"
-    },	
-    {
-        "name": "Artificialwonder_Stonehenge2",
-        "cost":1,
-        "uniques": ["Only available <in cities with a [Artificialwonder_Stonehenge]>",
-            "",
-            "Will not be displayed in Civilopedia"],
-        "requiredTech": "Tech_Astrology"
-    },*/
+    },
 ]
