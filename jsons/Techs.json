@@ -147,7 +147,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Skill"],
 				"quote": "兵贵神速，不贵多。\n——《史记·淮阴侯列传》",
-				"uniques": ["[+100]% to Flank Attack bonuses <for [Military] units>"]
+				"uniques": ["Military units have the ability to enjoy the Flank Attack bonuses"]
 			},
 			{
 				"name": "Civic_National labor force",

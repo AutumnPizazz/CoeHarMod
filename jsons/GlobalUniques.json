@@ -21,7 +21,7 @@
         "[-1 Gold] from every [River]",//删除河流给钱
         "[-100]% [Food] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% [Production] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
-        "[-100]% to Flank Attack bonuses <for [Military] units> <before discovering [Civic_Military tradition]>",//取消早期夹击加成
+        "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities]",//允许买使者
         "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
     ]

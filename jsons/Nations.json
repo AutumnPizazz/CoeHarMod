@@ -39,8 +39,7 @@
 	
 		"uniqueName": "Jeong",
 		"uniques": ["[+3]% [Science] from every [Building_Classification_Governor]",
-			"[+3]% [Culture] from every [Building_Classification_Governor]",
-			"Provides [20] [Resource_Influence]"],
+			"[+3]% [Culture] from every [Building_Classification_Governor]"],
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
