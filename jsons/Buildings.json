@@ -867,7 +867,7 @@
         "uniqueTo":"Nation_Ming",
 		"cost":60,
 		"uniques": ["[+1 Science, +1 Culture] per [2] population [in this city]",
-        "Requires at least [10] population",
+        "Only available <in cities with at least [10] [Population]>",
 		"Unsellable"],
 		"requiredTech": "Initial tech/civic_Agriculture"
 	},
