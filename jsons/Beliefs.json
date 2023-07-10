@@ -13,6 +13,11 @@
             "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]"]
         },
         {
+            "name": "Pantheon_Tidal goddess",
+            "type": "Pantheon",
+            "uniques": ["[+1 Culture] from every [Improvement_Fishing_Boat]"]
+        },
+        {
             "name": "Pantheon_City guardian goddess",
             "type": "Pantheon",
             "uniques": ["[+100]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities] <in cities without a [Building_Classification_District_Unique]>"]
@@ -20,7 +25,7 @@
         {
             "name": "Pantheon_Earth goddess",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from every [Landform_Hill]",
+            "uniques": ["[+1 Faith] from [Landform_Hill] tiles without [Class_Usual_Improvement] [in all cities]",
             "[+2 Faith] from every [Mountain]"]
         },
         {
@@ -38,6 +43,7 @@
             "name": "Pantheon_Harvest festival",
             "type": "Pantheon",
             "uniques": ["Free [Unit_Farmer] appears",
+            "Free [Unit_Miner] appears",
             "[+1 Food] from every [Building_Granary]"]
         },
         {
@@ -50,6 +56,11 @@
             "name": "Pantheon_River god",
             "type": "Pantheon",
             "uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
+        },
+        {
+            "name": "Pantheon_Rain god",
+            "type": "Pantheon",
+            "uniques": ["[+1 Happiness, -1 Production] [in all cities]"]
         },
         {
             "name": "Pantheon_Goddess of fire",

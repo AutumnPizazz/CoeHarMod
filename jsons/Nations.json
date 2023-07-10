@@ -1,11 +1,61 @@
 [
-	//Spectator
-	{
+	{//看海
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
+	{//罗马
+		"name": "Nation_Rome",
+		"leaderName": "Trajan",
+		"adjective": ["Roman"],
+	
+		"outerColor": [72, 61, 139],
+		"innerColor": [255, 215, 0],
 
+		"uniqueName": "Roman Legions",
+		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities] <after [8] turns>"], 
+
+		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
+	
+		"startIntroPart1": "Welcome to the world of Civilization! As Rome, you begin your journey with a strong military and a rich cultural heritage. With the power of the Roman legions at your command, you can conquer your enemies and build a mighty empire that will stand the test of time.",
+		"startIntroPart2": "Rome is known for its magnificent architecture, engineering, and military prowess. With its impressive roads, aqueducts, and public buildings, Rome was the center of civilization for centuries. As a Roman leader, you must use your cunning and strategy to maintain your power and expand your influence throughout the world.",
+	
+		"declaringWar": "We have no choice but to declare war on you, for the good of our people.",
+		"attacked": "How dare you attack us! We will not stand for this aggression.",
+		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
+		"introduction": "Greetings, fellow leaders. I am Julius Caesar, ruler of the mighty Roman Empire. Our civilization has a long and storied history, and we are proud to have contributed so much to the world. We are a people of strength, courage, and wisdom, and we are always ready to defend ourselves against those who would do us harm. But we are also a people of culture and refinement, and we value the arts and sciences as much as we do the art of war.",
+	
+		"neutralHello": "Greetings. How can we assist you today?",
+		"hateHello": "What do you want? We have no time for your petty grievances.",
+	
+		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+	},
+	{//朝鲜
+		"name": "Nation_Korea",
+		"leaderName": "Queen Seondeok",
+		"adjective": ["Korean"],
+		"outerColor": [0, 104, 183],
+		"innerColor": [255, 255, 255],
+	
+		"uniqueName": "Jeong",
+		"uniques": ["[+3]% [Science] from every [Building_Classification_Governor]",
+			"[+3]% [Culture] from every [Building_Classification_Governor]"],
+
+		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
+	
+		"startIntroPart1": "Welcome to the world of Civilization! As Korea, you begin your journey with a strong navy and a rich cultural heritage. With the power of the Jeong at your command, you can defend your shores and expand your influence throughout the world.",
+		"startIntroPart2": "Korea is known for its advancements in science and technology, as well as its rich history and culture. With its impressive achievements in literature, philosophy and art, Korea has made significant contributions to the world. As Queen Seondeok, you must use your wisdom and innovation to maintain your power and influence.",
+	
+		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
+		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
+		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
+		"introduction": "Greetings, fellow leaders. I am [Sejong the Great], ruler of the mighty Korean Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of innovation, wisdom and culture, and we value knowledge and education as much as we do our military strength.",
+	
+		"neutralHello": "Greetings. What can we do for you today?",
+		"hateHello": "What do you want? We have no time for your petty disputes.",
+	
+		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+	},
 	{
 		"name": "白板1号",
 		"leaderName": "大佬",

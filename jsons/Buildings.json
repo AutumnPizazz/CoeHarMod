@@ -1237,7 +1237,7 @@
 	},
 
     /*学院区域建筑*/
-    {
+    {//学院地标
 		"name": "Building_College_Unique",
 		"cost": 44,
 		"maintenance": 1,
@@ -1246,6 +1246,24 @@
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
 		"Cost increases by [8] per owned city",
+        "Creates a [District_Campus] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Cannot be purchased"]
+	},
+    {//朝鲜-书院地标
+		"name": "Building_Academy_of_Classical_Learning",
+        "replaces":"Building_College_Unique",
+        "uniqueTo":"Nation_Korea",
+		"cost": 22,
+		"maintenance": 1,
+        "science":1,
+		"requiredTech": "Tech_Writing",
+		"specialistSlots": {"Specialist_Scientist": 1},
+		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
+		"uniques": ["[-1 Production] from [Landform_Hill] tiles [in this city]",
+        "[+1 Science] from [Landform_Hill] tiles [in this city] <after discovering [Tech_Math]>",
+        "Unsellable",
+		"Cost increases by [4] per owned city",
         "Creates a [District_Campus] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
@@ -1978,13 +1996,29 @@
 	},
 
     /*水渠区域建筑*/
-    {
+    {//水渠地标
 		"name": "Building_Raceline_Unique",
 		"cost": 36,
 		"maintenance": 1,
 		"requiredTech": "Tech_Project",
 		"uniques": ["Must be next to [Fresh water]",
         "Cost increases by [8] per owned city",
+        "Unsellable",
+        "Creates a [Distinct_Raceline] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Building_Classification_Raceline_District",
+        "Cannot be purchased"]
+	},
+    {//罗马-浴场地标
+		"name": "Building_BeachLandmark",
+        "replaces":"Building_Raceline_Unique",
+        "uniqueTo":"Nation_Rome",
+		"cost": 18,
+		"maintenance": 1,
+        "happiness":2,
+		"requiredTech": "Tech_Project",
+		"uniques": ["Must be next to [Fresh water]",
+        "Cost increases by [4] per owned city",
         "Unsellable",
         "Creates a [Distinct_Raceline] improvement on a specific tile",
         "Building_Classification_District_Unique",

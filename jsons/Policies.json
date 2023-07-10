@@ -23,28 +23,14 @@
                 "name": "Culture_Transition 1 of Secondary Regime",
                 "uniques": [],
                 "row": 2,
-                "column": 1,
+                "column": 3,
                 "requires":["Culture_Primary polity"]
             },
             {
                 "name": "Culture_Transition 2 of Secondary Regime",
                 "uniques": [],
                 "row": 2,
-                "column": 3,
-                "requires":["Culture_Primary polity"]
-            },
-            {
-                "name": "Culture_Transition 3 of Secondary Regime",
-                "uniques": [],
-                "row": 2,
                 "column": 7,
-                "requires":["Culture_Primary polity"]
-            },
-            {
-                "name": "Culture_Transition 4 of Secondary Regime",
-                "uniques": [],
-                "row": 2,
-                "column": 9,
                 "requires":["Culture_Primary polity"]
             },
             {
@@ -52,20 +38,20 @@
                 "uniques": ["Provides [1] [Resource_Government reform progress]"],
                 "row": 3,
                 "column": 5,
-                "requires":["Culture_Transition 1 of Secondary Regime","Culture_Transition 2 of Secondary Regime","Culture_Transition 3 of Secondary Regime","Culture_Transition 4 of Secondary Regime"]
+                "requires":["Culture_Transition 1 of Secondary Regime","Culture_Transition 2 of Secondary Regime"]
             },
             {
                 "name": "Culture_Transition 1 of Three-Level Regime",
                 "uniques": [],
                 "row": 4,
-                "column": 1,
+                "column": 3,
                 "requires":["Culture_Second-level polity"]
             },
             {
                 "name": "Culture_Transition 2 of Three-Level Regime",
                 "uniques": [],
                 "row": 4,
-                "column": 3,
+                "column": 5,
                 "requires":["Culture_Second-level polity"]
             },
             {
@@ -76,18 +62,11 @@
                 "requires":["Culture_Second-level polity"]
             },
             {
-                "name": "Culture_Transition 4 of Three-Level Regime",
-                "uniques": [],
-                "row": 4,
-                "column": 9,
-                "requires":["Culture_Second-level polity"]
-            },
-            {
                 "name": "Culture_Three-level polity",
                 "uniques": ["Provides [1] [Resource_Government reform progress]"],
                 "row": 5,
                 "column": 5,
-                "requires":["Culture_Transition 1 of Three-Level Regime","Culture_Transition 2 of Three-Level Regime","Culture_Transition 3 of Three-Level Regime","Culture_Transition 4 of Three-Level Regime"]
+                "requires":["Culture_Transition 1 of Three-Level Regime","Culture_Transition 2 of Three-Level Regime","Culture_Transition 3 of Three-Level Regime"]
             },
             {
                 "name": "Culture_Transition 1 of Four-Level Regime",
@@ -168,7 +147,28 @@
             "name": "Culture_Culture Victory Rush 2",
             "uniques": [],
             "row": 1,
+            "column": 1,
+            "requires":[]
+        },
+        {
+            "name": "Culture_Culture Victory Rush 3",
+            "uniques": [],
+            "row": 1,
             "column": 3,
+            "requires":[]
+        },
+        {
+            "name": "Culture_Culture Victory Rush 4",
+            "uniques": [],
+            "row": 1,
+            "column": 5,
+            "requires":[]
+        },
+        {
+            "name": "Culture_Culture Victory Rush 5",
+            "uniques": [],
+            "row": 1,
+            "column": 7,
             "requires":[]
         },
         {

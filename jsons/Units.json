@@ -337,7 +337,7 @@
 	},
 
 	/*短程步兵*/
-	{
+	{//勇士
 		"name":"Unit_Warrior",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":100,//20
@@ -347,7 +347,7 @@
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["Era_Ancient"]
 	},
-	{
+	{//剑客
 		"name":"Unit_Swordsman",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":151,//35
@@ -359,7 +359,23 @@
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
 	},
-	{
+	{//罗马-罗马军团
+		"name":"Unit_Roman_Legion",
+		"replaces":"Unit_Swordsman",
+		"uniqueTo":"Nation_Rome",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":229,//40
+		"movement":2,
+		"cost":115,
+		"upgradesTo":"Unit_Hoplite",
+		"requiredTech": "Tech_Alchemy",
+		"obsoleteTech": "Tech_Apprentices",
+		"uniques":["Can instantly construct a [Improvement_RomeFort] improvement <[1] times>",
+			"[+13]% Strength <when defending> <in [Improvement_RomeFort] tiles>",
+			"Instantly consumes [15] [Resource_Iron]",
+			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
+	},
+	{//披甲战士
 		"name":"Unit_Hoplite",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":281,//45
@@ -459,7 +475,7 @@
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Era_Medieval"]
 	},
-	{
+	{//野战加农炮
 		"name":"Unit_Field_Cannon",
 		"unitType":"Unit_Type_Ranged_Infantry",
 		"strength":346,//50
@@ -467,6 +483,21 @@
 		"range":2,
 		"movement":2,
 		"cost":330,
+		"upgradesTo":"Unit_Machine_Gun",
+		"requiredTech": "Tech_Ballistics",
+		"obsoleteTech": "Tech_Advanced ballistics",
+		"uniques":["Era_Industrial"]
+	},
+	{//朝鲜-火车
+		"name":"Unit_Hwacha",
+		"replaces":"Unit_Field_Cannon",
+		"uniqueTo":"Nation_Korea",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":281,//45
+		"rangedStrength":641,//65
+		"range":2,
+		"movement":2,
+		"cost":290,
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",

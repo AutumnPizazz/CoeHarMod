@@ -259,7 +259,8 @@
 		"uniques": ["[-1 Food] <after discovering [Civic_Feudalism]>",
 		"[+1 Food] for each adjacent [Improvement_Farm] <after discovering [Civic_Feudalism]>",
 		"[+1 Food] <after discovering [Tech_Part specification]>",
-        "Pillaging this improvement yields approximately [+18 Gold]"]
+        "Pillaging this improvement yields approximately [+18 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//伐木场
 		"name": "Improvement_Lumber_Mill",
@@ -268,7 +269,8 @@
 		"techRequired": "Tech_Build",
 		"uniques": ["[+1 Production] <after discovering [Tech_Steel]>",
 		"[+1 Production] <after discovering [Tech_Cybernetics]>",
-		"Pillaging this improvement yields approximately [+18 Gold]"]
+		"Pillaging this improvement yields approximately [+18 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//矿山
 		"name": "Improvement_Mine",
@@ -278,7 +280,8 @@
 		"uniques": ["[+1 Production] <after discovering [Tech_Apprentices]>",
 		"[+1 Production] <after discovering [Tech_Industrialization]>",
 		"[+1 Production] <after discovering [Tech_Smart materials]>",
-		"Pillaging this improvement yields approximately [+25 Gold]"]
+		"Pillaging this improvement yields approximately [+25 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//人工养殖林
 		"name": "Improvement_Manufactory",
@@ -287,6 +290,7 @@
 		"techRequired": "Civic_Earth protection",
 		"uniques": ["[+1 Production] <after discovering [Tech_Smart materials]>",
 		"Pillaging this improvement yields approximately [+25 Gold]",
+		"Class_Usual_Improvement",
 		"Vegetation"]
 	},
 	{//渔场
@@ -295,7 +299,8 @@
 		"food": 1,
 		"techRequired": "Tech_Nautical art",
 		"uniques": ["[+1 Food] for each adjacent [Classification_Resource on water]",
-		"Pillaging this improvement yields approximately [+20 Gold]"]
+		"Pillaging this improvement yields approximately [+20 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//海洋家园
 		"name": "Improvement_Seastead",
@@ -305,7 +310,8 @@
 		"uniques": ["[+1 Production] for each adjacent [Improvement_Fishing_Boat]",
 		"[+1 Culture] for each adjacent [Landform_Reef]",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]"]
+		"Pillaging this improvement yields approximately [+20 Gold]",
+		"Class_Usual_Improvement"]
 	},
 
 	//专门用于收获资源的改良
@@ -315,10 +321,12 @@
 		"gold":2,
 		"uniques": ["Does not need removal of [Landform_Forest]",
 		"Does not need removal of [Landform_Rainforest]",
+		"Does not need removal of [Landform_Swamp]",
 		"[+1 Production, +1 Food] <after discovering [Civic_Mercantilism]>",
 		"[+2 Gold] <after discovering [Tech_Synthetic]>",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+25 Gold]"]
+		"Pillaging this improvement yields approximately [+25 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//油井
 		"name": "Improvement_Oil_Well",
@@ -326,7 +334,8 @@
 		"production":2,
 		"uniques": ["Can only be built to improve a resource",
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
-		"Pillaging this improvement yields approximately [+30 Gold]"]
+		"Pillaging this improvement yields approximately [+30 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//海上石油钻机
 		"name": "Improvement_Offshore_Oil_Rig",
@@ -335,7 +344,8 @@
 		"uniques": ["Can only be built to improve a resource",
 		"Can only be built on [Water] tiles",
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
-		"Pillaging this improvement yields approximately [+30 Gold]"]
+		"Pillaging this improvement yields approximately [+30 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//牧场
 		"name": "Improvement_Pasture",
@@ -345,7 +355,8 @@
 		"[+1 Production] <after discovering [Tech_Part specification]>",
 		"[+1 Food] <after discovering [Tech_Robotics]>",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+10 Gold]"]
+		"Pillaging this improvement yields approximately [+10 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//种植园
 		"name": "Improvement_Plantation",
@@ -355,8 +366,10 @@
 		"[+1 Food] <after discovering [Civic_Feudalism]>",
 		"[+2 Gold] <after discovering [Civic_Globalization]>",
 		"Does not need removal of [Landform_Swamp]",
+		"Does not need removal of [Landform_Rainforest]",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]"]
+		"Pillaging this improvement yields approximately [+20 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//采石场
 		"name": "Improvement_Quarry",
@@ -366,7 +379,8 @@
 		"[+1 Production] <after discovering [Tech_Rocket research]>",
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]"]
+		"Pillaging this improvement yields approximately [+20 Gold]",
+		"Class_Usual_Improvement"]
 	},
 	{//渔船
 		"name": "Improvement_Fishing_Boat",
@@ -378,10 +392,19 @@
 		"[+1 Production] <after discovering [Civic_Colonialism]>",
 		"[+1 Production] for each adjacent [Improvement_Seastead]",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]"]
+		"Pillaging this improvement yields approximately [+20 Gold]",
+		"Class_Usual_Improvement"]
 	},
 
 	//军事设施
+	{//罗马-罗马堡垒
+		"name": "Improvement_RomeFort",
+		"uniqueTo":"Nation_Rome",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
+		"techRequired": "Tech_Alchemy",
+		"uniques": ["Can be built outside your borders",
+		"Gives a defensive bonus of [18]%"]
+	},
 	{//堡垒
 		"name": "Improvement_Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
