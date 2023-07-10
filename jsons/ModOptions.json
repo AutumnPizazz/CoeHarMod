@@ -1,7 +1,7 @@
 {
     "isBaseRuleset": true,
-    "maxXPfromBarbarians":10,
     "constants":{
+        "maxXPfromBarbarians":10,
         "cityStrengthBase":60.0,
         "cityStrengthPerPop":13.8,
         "cityStrengthFromTechsMultiplier":5.5,

@@ -416,7 +416,7 @@
 
 	//交通设施
 	{//道路
-		"name": "Improvement_Road",
+		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Civic_Basic trade",
@@ -428,7 +428,7 @@
         ]
 	},
 	{//铁路
-		"name": "Improvement_Railroad",
+		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Tech_Steam power",
