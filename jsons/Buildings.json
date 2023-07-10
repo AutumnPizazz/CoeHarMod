@@ -775,6 +775,17 @@
 		"Unsellable"],
 		"requiredTech": "Tech_Pottery"
 	},
+    {//明朝-漕运粮仓
+		"name": "Building_Grain_transport_silo",
+        "replaces":"Building_Granary",
+        "uniqueTo":"Nation_Ming",
+		"food": 2,
+		"cost": 26,
+		"uniques": ["[+1 Food] per [3] population [in this city]",
+		"Cost increases by [4] per owned city",
+		"Unsellable"],
+		"requiredTech": "Tech_Pottery"
+	},
 	{
 		"name": "Building_Water_Mill",
 		"maintenance": 1,
@@ -851,6 +862,16 @@
 		"Unsellable"],
 		"requiredTech": "Tech_Writing"
 	},
+    {//明朝-里甲制度
+		"name": "Building_Lijia",
+        "uniqueTo":"Nation_Ming",
+		"cost":60,
+		"uniques": ["[+1 Science, +1 Culture] per [2] population [in this city]",
+        "Requires at least [10] population",
+		"Unsellable"],
+		"requiredTech": "Initial tech/civic_Agriculture"
+	},
+
 
     /*市政广场区域建筑*/
     {

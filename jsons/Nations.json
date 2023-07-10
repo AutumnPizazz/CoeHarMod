@@ -56,6 +56,31 @@
 	
 		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
 	},
+	{//朱棣
+		"name": "Nation_Ming",
+		"leaderName": "Emperor Zhu Di",
+		"adjective": ["Ming"],
+		"outerColor": [0, 128, 0],
+		"innerColor": [255, 255, 255],
+
+		"uniqueName": "Lijia",
+		"uniques": ["[15]% Food is carried over after population increases [in all cities]"],
+	
+		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
+	
+		"startIntroPart1": "Welcome to the world of Civilization! As the Emperor, you begin your journey with a powerful navy and a vast treasure fleet. With the power of the Lijia at your command, you can expand your trade routes and accumulate great wealth.",
+		"startIntroPart2": "The Ming Empire is known for its achievements in trade, exploration, and culture. With its impressive naval technology and vast treasure fleet, the Ming Empire has made significant contributions to the world. As Emperor Zhu Di, you must use your wealth and power to maintain your influence and defend your borders.",
+	
+		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
+		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
+		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
+		"introduction": "Greetings, fellow leaders. I am Emperor Zhu Di, ruler of the mighty Ming Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of wealth, exploration, and culture, and we value trade and diplomacy as much as we do our military strength.",
+	
+		"neutralHello": "Greetings. What can we do for you today?",
+		"hateHello": "What do you want? We have no time for your petty disputes.",
+	
+		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+	},
 	{
 		"name": "白板1号",
 		"leaderName": "大佬",

@@ -423,7 +423,8 @@
 			"Must be adjacent to [1] to [6] [Mountain] tiles"],
 		"civilopediaText": [
 			{
-				"Text":"Provide +3 ♪Culture for adjacent tiles, but only for terrain, not landforms"
+				"text":"Lots of adjacent bonuses for adjacent Theatre Square",
+				"link":"Improvement/District_Theater_Square"
 			}
 		],
 		"turnsInto": "Mountain",

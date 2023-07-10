@@ -93,6 +93,7 @@
 			"Tile provides yield without assigned population",
 			"[+2 Culture] for each adjacent [District_Entertainment_Complex]",
 			"[+2 Culture] for each adjacent [District_Class_Wonder]",
+			"[+2 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 			"[+1 Culture] for each adjacent [District_Government_Plaza]",
 			"Removes removable features when built",
 			"Irremovable",
