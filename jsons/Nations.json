@@ -26,9 +26,8 @@
 
 		"outerColor": [0,40,0],
 		"innerColor": [246,131,210],
-		"uniqueName": "KEY_OnlyDebuff",
-		"uniques": [], 
-		"uniqueText":"TEXT_3",
+		"uniqueName": "空空如也",
+		"uniques": ["空空如也"], 
 		"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
 	},
 	{
@@ -51,10 +50,57 @@
 
 		"outerColor": [0,108,0],
 		"innerColor": [246,143,220],
-		"uniqueName": "KEY_LargeDebuff",
-		"uniques": [],
-		"uniqueText":"TEXT_4",
+		"uniqueName": "空空如也",
+		"uniques": ["空空如也"], 
 		"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
+	},
+	{
+		"name": "白板3号",
+		"leaderName": "大佬",
+		"adjective": ["白板3号"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+		"outerColor": [0,0,0],
+		"innerColor": [246,143,220],
+		"uniqueName": "空空如也",
+		"uniques": ["空空如也"], 
+		"cities": ["NO.1 CITY OF FM_3","NO.2 CITY OF FM_3","NO.3 CITY OF FM_3","NO.4 CITY OF FM_3","NO.5 CITY OF FM_3","NO.6 CITY OF FM_3","NO.7 CITY OF FM_3","NO.8 CITY OF FM_3","NO.9 CITY OF FM_3","NO.10 CITY OF FM_3","NO.11 CITY OF FM_3","NO.12 CITY OF FM_3","NO.13 CITY OF FM_3","NO.14 CITY OF FM_3","NO.15 CITY OF FM_3","NO.16 CITY OF FM_3","NO.17 CITY OF FM_3","NO.18 CITY OF FM_3","NO.19 CITY OF FM_3","NO.20 CITY OF FM_3","NO.21 CITY OF FM_3","NO.22 CITY OF FM_3","NO.23 CITY OF FM_3","NO.24 CITY OF FM_3","NO.25 CITY OF FM_3","NO.26 CITY OF FM_3","NO.27 CITY OF FM_3","NO.28 CITY OF FM_3","NO.29 CITY OF FM_3","NO.30 CITY OF FM_3","NO.31 CITY OF FM_3","NO.32 CITY OF FM_3","NO.33 CITY OF FM_3","NO.34 CITY OF FM_3","NO.35 CITY OF FM_3"]
+	},
+	{
+		"name": "白板4号",
+		"leaderName": "大佬",
+		"adjective": ["白板4号"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+		"outerColor": [63,144,63],
+		"innerColor": [0,0,191],
+		"uniqueName": "空空如也",
+		"uniques": ["空空如也"], 
+		"cities": ["NO.1 CITY OF FM_4","NO.2 CITY OF FM_4","NO.3 CITY OF FM_4","NO.4 CITY OF FM_4","NO.5 CITY OF FM_4","NO.6 CITY OF FM_4","NO.7 CITY OF FM_4","NO.8 CITY OF FM_4","NO.9 CITY OF FM_4","NO.10 CITY OF FM_4","NO.11 CITY OF FM_4","NO.12 CITY OF FM_4","NO.13 CITY OF FM_4","NO.14 CITY OF FM_4","NO.15 CITY OF FM_4","NO.16 CITY OF FM_4","NO.17 CITY OF FM_4","NO.18 CITY OF FM_4","NO.19 CITY OF FM_4","NO.20 CITY OF FM_4","NO.21 CITY OF FM_4","NO.22 CITY OF FM_4","NO.23 CITY OF FM_4","NO.24 CITY OF FM_4","NO.25 CITY OF FM_4","NO.26 CITY OF FM_4","NO.27 CITY OF FM_4","NO.28 CITY OF FM_4","NO.29 CITY OF FM_4","NO.30 CITY OF FM_4","NO.31 CITY OF FM_4","NO.32 CITY OF FM_4","NO.33 CITY OF FM_4","NO.34 CITY OF FM_4","NO.35 CITY OF FM_4"]
 	},
 
 	// City-States sorted by cityStateType, name
@@ -109,7 +155,7 @@
 	{
 		"name": "Kuala Lumpur",
 		"adjective": ["KLite"],
-		"cityStateType": "Citystate type_Cultural",
+		"cityStateType": "Citystate type_Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -122,7 +168,7 @@
 		"name": "Lhasa",
 		"translatedName": "Lhasa",
 		"adjective": ["tibetano"],
-		"cityStateType": "Citystate type_Cultural",
+		"cityStateType": "Citystate type_Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -146,7 +192,7 @@
 	{
 		"name": "Quebec City",
 		"adjective": ["Québécois"],
-		"cityStateType": "Citystate type_Cultural",
+		"cityStateType": "Citystate type_Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -159,7 +205,7 @@
 	{
 		"name": "Cape Town",
 		"adjective": ["Cape Town"],
-		"cityStateType": "Citystate type_Industrial",
+		"cityStateType": "Citystate type_Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -171,7 +217,7 @@
 	{
 		"name": "Helsinki",
 		"adjective": ["Helsinki"],
-		"cityStateType": "Citystate type_Industrial",
+		"cityStateType": "Citystate type_Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",

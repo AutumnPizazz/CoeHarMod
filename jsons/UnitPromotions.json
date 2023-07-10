@@ -68,54 +68,49 @@
 	/*单位-武僧*/
 	{
 		"name": "Promotion_Hypnotic_Screen",
-		"uniques": ["Invisible to non-adjacent units","Heal this unit by [50] HP"],
+		"uniques": ["Invisible to non-adjacent units"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 1
     },
 	{
 		"name": "Promotion_Shadowless_Fist",
-		"uniques": ["[+100]% to Flank Attack bonuses","Heal this unit by [50] HP"],
+		"uniques": ["[+100]% to Flank Attack bonuses"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 1
     },
 	{
 		"name": "Promotion_Disciple",
-		"prerequisites": ["Promotion_Hypnotic_Screen","Promotion_Shadowless_Fist"],
-		"uniques": ["Can [Spread Religion] [4] times","Heal this unit by [50] HP"],
+		"uniques": ["Can [Spread Religion] [4] times"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 2
     },
 	{
 		"name": "Promotion_Heart_Piercing_Palm",
-		"prerequisites": ["Promotion_Hypnotic_Screen","Promotion_Shadowless_Fist"],
-		"uniques": ["[+51]% Strength","Heal this unit by [50] HP"],
+		"uniques": ["[+51]% Strength"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 2
     },
 	{
 		"name": "Promotion_Wind_Dance_Fist",
-		"prerequisites": ["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
-		"uniques": ["[1] additional attacks per turn","Heal this unit by [50] HP"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 3
     },
 	{
 		"name": "Promotion_White_Crane_Fist",
-		"prerequisites": ["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
-		"uniques": ["[+1] Movement","Heal this unit by [50] HP"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 3
     },
 	{
 		"name": "Promotion_Snake_Style_Fist",
-		"prerequisites": ["Promotion_Wind_Dance_Fist","Promotion_White_Crane_Fist"],
-		"uniques": ["[+183]% Strength","Heal this unit by [50] HP"],
+		"uniques": ["[+183]% Strength"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 4
@@ -124,30 +119,30 @@
 	/*单位种类_侦察*/
 	{
 		"name": "Promotion_High_Mountain",
-		"uniques": ["Double movement in [Landform_Hill]","Heal this unit by [50] HP"],
+		"uniques": ["Double movement in [Landform_Hill]"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 3,
         "row": 1
     },
 	{
 		"name": "Promotion_Rangers",
-		"uniques": ["Double movement in [Vegetation]","Heal this unit by [50] HP"],
+		"uniques": ["Double movement in [Vegetation]"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 4,
         "row": 1
     },
 	{
 		"name": "Promotion_Guerrilla",
-		"prerequisites": ["Promotion_High_Mountain","Promotion_Rangers"],
-		"uniques": ["Can move after attacking","Heal this unit by [50] HP"],
+		"prerequisites":["Promotion_High_Mountain","Promotion_Rangers"],
+		"uniques": ["Can move after attacking"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 3,
         "row": 2
     },
 	{
 		"name": "Promotion_Sentinel",
-		"prerequisites": ["Promotion_High_Mountain","Promotion_Rangers"],
-		"uniques": ["Can see over obstacles","Heal this unit by [50] HP"],
+		"prerequisites":["Promotion_High_Mountain","Promotion_Rangers"],
+		"uniques": ["Can see over obstacles"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 4,
         "row": 2
@@ -155,7 +150,7 @@
 	{
 		"name": "Promotion_Ambush",
 		"prerequisites": ["Promotion_Guerrilla"],
-		"uniques": ["[+119]% Strength","Heal this unit by [50] HP"],
+		"uniques": ["[+119]% Strength"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 3,
         "row": 3
@@ -163,15 +158,15 @@
 	{
 		"name": "Promotion_Telescope",
 		"prerequisites": ["Promotion_Sentinel"],
-		"uniques": ["[+1] Sight","Heal this unit by [50] HP"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 4,
         "row": 3
     },
 	{
 		"name": "Promotion_Disguise",
-		"prerequisites": ["Promotion_Ambush","Promotion_Telescope"],
-		"uniques": ["Invisible to non-adjacent units","Heal this unit by [50] HP"],
+		"prerequisites":["Promotion_Ambush","Promotion_Telescope"],
+		"uniques": ["Invisible to non-adjacent units"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 3,
         "row": 4
@@ -183,8 +178,7 @@
 		"uniques": ["[+34]% Strength <vs [Unit_Type_Melee_Infantry] units> <when attacking>",
 		"[+34]% Strength <vs [Unit_Type_Anti_Cavalry] units> <when attacking>",
 		"[+34]% Strength <vs [Unit_Type_Ranged_Infantry] units> <when attacking>",
-		"[+34]% Strength <vs [Unit_Type_Monk] units> <when attacking>",
-		"Heal this unit by [50] HP"],
+		"[+34]% Strength <vs [Unit_Type_Monk] units> <when attacking>"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 5,
         "row": 1
@@ -194,8 +188,7 @@
 		"uniques": ["[+51]% Strength <vs [Unit_Type_Ranged_Infantry] units> <when defending>",
 		"[+51]% Strength <vs [Unit_Type_Siege] units> <when defending>",
 		"[+51]% Strength <vs [Unit_Type_Long_Ranged_Naval] units> <when defending>",
-		"[+51]% Strength <vs [Unit_Type_Naval_Attacker] units> <when defending>",
-		"Heal this unit by [50] HP"],
+		"[+51]% Strength <vs [Unit_Type_Naval_Attacker] units> <when defending>"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 6,
         "row": 1
@@ -203,7 +196,7 @@
 	{
 		"name": "Promotion_Assault_Team",
 		"prerequisites": ["Promotion_Trench_Warfare"],
-		"uniques": ["[+1] Movement","Heal this unit by [50] HP"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 5,
         "row": 2
@@ -212,38 +205,670 @@
 		"name": "Promotion_Amphibious",
 		"prerequisites": ["Promotion_Tortoise_Formation"],
 		"uniques": ["Eliminates combat penalty for attacking over a river",
-		"Eliminates combat penalty for attacking across a coast",
-		"Heal this unit by [50] HP"],
+		"Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 6,
         "row": 2
     },
 	{
 		"name": "Promotion_Urban_Warfare",
-		"prerequisites": ["Promotion_Assault_Team","Promotion_Amphibious"],
-		"uniques": ["[+51]% Strength <when attacking> <in [Classification_District] tiles>",
-		"Heal this unit by [50] HP"],
+		"prerequisites":["Promotion_Assault_Team","Promotion_Amphibious"],
+		"uniques": ["[+51]% Strength <in [Classification_District] tiles> <when attacking>"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 5,
         "row": 3
     },
 	{
 		"name": "Promotion_Two_Handed_Sword",
-		"prerequisites": ["Promotion_Assault_Team","Promotion_Amphibious"],
-		"uniques": ["[+34]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
-		"Heal this unit by [50] HP"],
+		"prerequisites":["Promotion_Assault_Team","Promotion_Amphibious"],
+		"uniques": ["[+34]% Strength <vs [Unit_Type_Anti_Cavalry] units>"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 6,
         "row": 3
     },
 	{
 		"name": "Promotion_Elite_Guard",
-		"prerequisites": ["Promotion_Urban_Warfare","Promotion_Two_Handed_Sword"],
+		"prerequisites":["Promotion_Urban_Warfare","Promotion_Two_Handed_Sword"],
 		"uniques": ["[1] additional attacks per turn",
-		"Can move after attacking",
-		"Heal this unit by [50] HP"],
+		"Can move after attacking"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 5,
         "row": 4
     },
+
+	/*单位种类-长程步兵*/
+	{
+		"name":"Promotion_qishe",
+		"uniques":["[+23]% Strength <vs [{Military} {Land}] units> <when attacking>"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":7,
+		"row":1
+	},
+	{
+		"name":"Promotion_fengbaozhijian",
+		"prerequisites":["Promotion_qishe"],
+		"uniques":["[+34]% Strength <when attacking>"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":7,
+		"row":2
+	},
+	{
+		"name":"Promotion_zhujun",
+		"uniques":["[+51]% Strength <when attacking> <in [Classification_District] tiles>"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":8,
+		"row":1
+	},
+	{
+		"name":"Promotion_ranshaodan",
+		"prerequisites":["Promotion_zhujun"],
+		"uniques":["[+34]% Strength <vs cities> <when attacking> <during the [Era_Ancient]>",
+		"[+58]% Strength <vs cities> <when attacking> <during the [Era_Classical]>",
+		"[+96]% Strength <vs cities> <when attacking> <starting from the [Era_Medieval]>"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":8,
+		"row":2
+	},
+	{
+		"name":"Promotion_paotai",
+		"prerequisites":["Promotion_fengbaozhijian","Promotion_ranshaodan"],
+		"uniques":["[+51]% Strength <vs cities> <when defending>"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":7,
+		"row":3
+	},
+	{
+		"name":"Promotion_yazhi",
+		"prerequisites":["Promotion_fengbaozhijian","Promotion_ranshaodan"],
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":8,
+		"row":3
+	},
+	{
+		"name":"Promotion_shenqiangshou",
+		"prerequisites":["Promotion_paotai","Promotion_yazhi"],
+		"uniques":["[1] additional attacks per turn"],
+		"unitTypes":["Unit_Type_Ranged_Infantry"],
+		"column":7,
+		"row":4
+	},
+
+	/*单位种类-攻城*/
+	{
+		"name":"Promotion_xiandan",
+		"uniques":["[+34]% Strength <vs [{Military} {Land}] units>"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":9,
+		"row":1
+	},
+	{
+		"name":"Promotion_zhongwuqi",
+		"uniques":["[+34]% Strength <when defending>"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":10,
+		"row":1
+	},
+	{
+		"name":"Promotion_liuxiandan",
+		"prerequisites":["Promotion_xiandan"],
+		"uniques":["[+51]% Strength <vs [{Military} {Land}] units>"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":9,
+		"row":2
+	},
+	{
+		"name":"Promotion_paodan",
+		"prerequisites":["Promotion_zhongwuqi"],
+		"uniques":["[+51]% Strength <vs cities> <when attacking>"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":10,
+		"row":2
+	},
+	{
+		"name":"Promotion_xianjinceju",
+		"prerequisites":["Promotion_liuxiandan","Promotion_paodan"],
+		"uniques":["[+51]% Strength <vs [{Military} {Water}] units>"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":9,
+		"row":3
+	},
+	{
+		"name":"Promotion_zhuanjiazu",
+		"prerequisites":["Promotion_liuxiandan","Promotion_paodan"],
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":10,
+		"row":3
+	},
+	{
+		"name":"Promotion_qianfangguanchayuan",
+		"prerequisites":["Promotion_xianjinceju","Promotion_zhuanjiazu"],
+		"uniques":["[+1] Range"],
+		"unitTypes":["Unit_Type_Siege"],
+		"column":9,
+		"row":4
+	},
+
+	/*单位种类-轻骑兵*/
+	{
+		"name":"Promotion_mayi",
+		"uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":11,
+		"row":1
+	},
+	{
+		"name":"Promotion_zhuiliezhe",
+		"uniques":["[+23]% Strength <vs [Unit_Type_Ranged_Infantry] units> <when attacking>",
+		"[+23]% Strength <vs [Unit_Type_Siege] units> <when attacking>"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":12,
+		"row":1
+	},
+	{
+		"name":"Promotion_lveduo",
+		"prerequisites":["Promotion_mayi"],
+		"uniques":["No movement cost to pillage"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":11,
+		"row":2
+	},
+	{
+		"name":"Promotion_liangyibaowei",
+		"prerequisites":["Promotion_zhuiliezhe"],
+		"uniques":["[+100]% to Flank Attack bonuses"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":12,
+		"row":2
+	},
+	{
+		"name":"Promotion_huoyaoshixiao",
+		"prerequisites":["Promotion_lveduo","Promotion_liangyibaowei"],
+		"uniques":["[+34]% Strength <vs [Unit_Type_Siege] units>"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":11,
+		"row":3
+	},
+	{
+		"name":"Promotion_zhuiji",
+		"prerequisites":["Promotion_lveduo","Promotion_liangyibaowei"],
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":12,
+		"row":3
+	},
+	{
+		"name":"Promotion_qiusheng",
+		"prerequisites":["Promotion_huoyaoshixiao","Promotion_zhuiji"],
+		"uniques":["[+39]% Strength <when defending>",
+		"Can move after attacking"],
+		"unitTypes":["Unit_Type_Light_Cavalry"],
+		"column":11,
+		"row":4
+	},
+
+	/*单位种类-重骑兵*/
+	{
+		"name":"Promotion_chongfeng",
+		"uniques":["[+51]% Strength <when attacking> <when above [99] HP>"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":13,
+		"row":1
+	},
+	{
+		"name":"Promotion_zhanmakaijia",
+		"uniques":["[+34]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":14,
+		"row":1
+	},
+	{
+		"name":"Promotion_qiangjie",
+		"prerequisites":["Promotion_chongfeng","Promotion_zhanmakaijia"],
+		"uniques":["[+34]% Strength <when fighting in [Classification_District] tiles>"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":13,
+		"row":2
+	},
+	{
+		"name":"Promotion_jikui",
+		"prerequisites":["Promotion_chongfeng","Promotion_zhanmakaijia"],
+		"uniques":["[+23]% Strength <vs [Wounded] units>"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":14,
+		"row":2
+	},
+	{
+		"name":"Promotion_chuantouhujia",
+		"prerequisites":["Promotion_qiangjie"],
+		"uniques":["[+34]% Strength <vs [Unit_Type_Heavy_Cavalry] units>"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":13,
+		"row":3
+	},
+	{
+		"name":"Promotion_fanyingzhuangjia",
+		"prerequisites":["Promotion_jikui"],
+		"uniques":["[+34]% Strength <vs [Unit_Type_Heavy_Cavalry] units> <when defending>",
+		"[+34]% Strength <vs [Unit_Type_Anti_Cavalry] units> <when defending>"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":14,
+		"row":3
+	},
+	{
+		"name":"Promotion_tupo",
+		"prerequisites":["Promotion_chuantouhujia","Promotion_fanyingzhuangjia"],
+		"uniques":["[1] additional attacks per turn"],
+		"unitTypes":["Unit_Type_Heavy_Cavalry"],
+		"column":13,
+		"row":4
+	},
+
+	/*单位种类-抗骑兵*/
+	{
+		"name":"Promotion_tidui",
+		"uniques":["[+23]% Strength <vs [Unit_Type_Light_Cavalry] units>",
+		"[+23]% Strength <vs [Unit_Type_Heavy_Cavalry] units>"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":15,
+		"row":1
+	},
+	{
+		"name":"Promotion_tuxi",
+		"uniques":["[+23]% Strength <vs [Unit_Type_Melee_Infantry] units>"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":16,
+		"row":1
+	},
+	{
+		"name":"Promotion_fangzhen",
+		"prerequisites":["Promotion_tidui"],
+		"uniques":["[+18]% Strength <when adjacent to a [Unit_Type_Anti_Cavalry] unit>"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":15,
+		"row":2
+	},
+	{
+		"name":"Promotion_changmaozhen",
+		"prerequisites":["Promotion_tuxi"],
+		"uniques":["[+51]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":16,
+		"row":2
+	},
+	{
+		"name":"Promotion_yanhouyaodao",
+		"prerequisites":["Promotion_fangzhen","Promotion_changmaozhen"],
+		"uniques":["[+34]% Strength <when defending> <in [Vegetation] tiles>",
+		"[+34]% Strength <when defending> <in [Landform_Swamp] tiles>"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":15,
+		"row":3
+	},
+	{
+		"name":"Promotion_chongxinbushu",
+		"prerequisites":["Promotion_fangzhen","Promotion_changmaozhen"],
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":16,
+		"row":3
+	},
+	{
+		"name":"Promotion_yazhen",
+		"prerequisites":["Promotion_yanhouyaodao","Promotion_chongxinbushu"],
+		"uniques":["[+51]% Strength <when defending> <when adjacent to a [GreatPerson_Class_General] unit>"],
+		"unitTypes":["Unit_Type_Anti_Cavalry"],
+		"column":15,
+		"row":4
+	},
+
+	/*单位种类-短程海军*/
+	{
+		"name":"Promotion_xiexingzhen",
+		"uniques":["[+34]% Strength <vs [{Military} {Water}] units>"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":17,
+		"row":1
+	},
+	{
+		"name":"Promotion_duoshou",
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":18,
+		"row":1
+	},
+	{
+		"name":"Promotion_jiaguchuanke",
+		"prerequisites":["Promotion_xiexingzhen"],
+		"uniques":["[+51]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":17,
+		"row":2
+	},
+	{
+		"name":"Promotion_hangxianhaitu",
+		"prerequisites":["Promotion_duoshou"],
+		"uniques":["[+1] Sight"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":18,
+		"row":2
+	},
+	{
+		"name":"Promotion_fuzhuchuan",
+		"prerequisites":["Promotion_jiaguchuanke","Promotion_hangxianhaitu"],
+		"uniques":["May heal outside of friendly territory"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":17,
+		"row":3
+	},
+	{
+		"name":"Promotion_huhangdui",
+		"prerequisites":["Promotion_jiaguchuanke","Promotion_hangxianhaitu"],
+		"uniques":["[+51]% Strength when stacked with [All]"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":18,
+		"row":3
+	},
+	{
+		"name":"Promotion_pufugongji",
+		"prerequisites":["Promotion_fuzhuchuan","Promotion_huhangdui"],
+		"uniques":["[+77]% Strength <vs [Unit_Type_Naval_Attacker] units>"],
+		"unitTypes":["Unit_Type_Short_Ranged_Naval"],
+		"column":17,
+		"row":4
+	},
+
+	/*单位类型-长程海军*/
+	{
+		"name":"Promotion_zhandouduixing",
+		"uniques":["[+34]% Strength <vs [{Military} {Water}] units>"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":19,
+		"row":1
+	},
+	{
+		"name":"Promotion_hongzha",
+		"uniques":["[+34]% Strength <vs cities> <when attacking>"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":20,
+		"row":1
+	},
+	{
+		"name":"Promotion_huolizhunbei",
+		"prerequisites":["Promotion_zhandouduixing"],
+		"uniques":["[+34]% Strength <vs [{Military} {Land}] units>"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":19,
+		"row":2
+	},
+	{
+		"name":"Promotion_xujindan",
+		"prerequisites":["Promotion_hongzha"],
+		"uniques":["[+51]% Strength <vs cities> <when attacking>"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":20,
+		"row":2
+	},
+	{
+		"name":"Promotion_jinbaoyinguan",
+		"prerequisites":["Promotion_huolizhunbei","Promotion_xujindan"],
+		"uniques":["[+34]% Strength <vs [Air] units> <when defending>"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":19,
+		"row":3
+	},
+	{
+		"name":"Promotion_chuanjianbuji",
+		"prerequisites":["Promotion_huolizhunbei","Promotion_xujindan"],
+		"uniques":["May heal outside of friendly territory"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":20,
+		"row":3
+	},
+	{
+		"name":"Promotion_cejuyizhi",
+		"prerequisites":["Promotion_jinbaoyinguan","Promotion_chuanjianbuji"],
+		"uniques":["[+1] Range"],
+		"unitTypes":["Unit_Type_Long_Ranged_Naval"],
+		"column":19,
+		"row":4
+	},
+
+	/*单位种类-海军袭击者*/
+	{
+		"name":"Promotion_dengchuan",
+		"uniques":["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":21,
+		"row":1
+	},
+	{
+		"name":"Promotion_lveduo2",
+		"uniques":["No movement cost to pillage"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":22,
+		"row":1
+	},
+	{
+		"name":"Promotion_zidaoyulei",
+		"prerequisites":["Promotion_dengchuan","Promotion_lveduo2"],
+		"uniques":["[+51]% Strength <vs [{Military} {Water}] units>"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":21,
+		"row":2
+	},
+	{
+		"name":"Promotion_longgugailiang",
+		"prerequisites":["Promotion_dengchuan","Promotion_lveduo2"],
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":22,
+		"row":2
+	},
+	{
+		"name":"Promotion_wushengyunxing",
+		"prerequisites":["Promotion_zidaoyulei"],
+		"uniques":["Can move after attacking"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":21,
+		"row":3
+	},
+	{
+		"name":"Promotion_guancha",
+		"prerequisites":["Promotion_longgugailiang"],
+		"uniques":["[+1] Sight"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":22,
+		"row":3
+	},
+	{
+		"name":"Promotion_langqunzhanshu",
+		"prerequisites":["Promotion_wushengyunxing","Promotion_guancha"],
+		"uniques":["[1] additional attacks per turn"],
+		"unitTypes":["Unit_Type_Naval_Attacker"],
+		"column":21,
+		"row":4
+	},
+
+	/*单位类型-航空母舰*/
+	{
+		"name":"Promotion_feixingjiaban",
+		"uniques":["Can carry [1] extra [Unit_Class_Aircraft] units"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":23,
+		"row":1
+	},
+	{
+		"name":"Promotion_jikujiaban",
+		"prerequisites":["Promotion_feixingjiaban"],
+		"uniques":["Can carry [1] extra [Unit_Class_Aircraft] units"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":23,
+		"row":2
+	},
+	{
+		"name":"Promotion_zheyi",
+		"prerequisites":["Promotion_jikujiaban"],
+		"uniques":["Can carry [1] extra [Unit_Class_Aircraft] units"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":23,
+		"row":3
+	},
+	{
+		"name":"Promotion_zhenchafeiji",
+		"uniques":["[+1] Sight"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":24,
+		"row":1
+	},
+	{
+		"name":"Promotion_xianjinfadongji",
+		"prerequisites":["Promotion_jikujiaban","Promotion_zhenchafeiji"],
+		"uniques":["[+1] Movement"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":24,
+		"row":3
+	},
+	{
+		"name":"Promotion_jiabanzhuanyuan",
+		"prerequisites":["Promotion_zheyi","Promotion_xianjinfadongji"],
+		"uniques":["Unit will heal every turn, even if it performs an action"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":23,
+		"row":4
+	},
+	{
+		"name":"Promotion_chaojihangkongmujian",
+		"prerequisites":["Promotion_jiabanzhuanyuan"],
+		"uniques":["May heal outside of friendly territory","[+2] Range"],
+		"unitTypes":["Unit_Type_Aircraft_Carrier"],
+		"column":23,
+		"row":5
+	},
+
+	/*单位种类-战斗机*/
+	{
+		"name":"Promotion_kongzhongchandou",
+		"uniques":["[+34]% Strength when performing Air Sweep"],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":25,
+		"row":1
+	},
+	{
+		"name":"Promotion_lanjieji",
+		"prerequisites":["Promotion_kongzhongchandou"],
+		"uniques":["[34]% Damage when intercepting"],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":25,
+		"row":2
+	},
+	{
+		"name":"Promotion_diqinrenyuan",
+		"prerequisites":["Promotion_lanjieji"],
+		"uniques":["[+10] HP when healing"],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":25,
+		"row":3
+	},
+	{
+		"name":"Promotion_zuocanghujia",
+		"uniques":["[100]% chance to intercept air attacks"],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":26,
+		"row":1
+	},
+	{
+		"name":"Promotion_saoshe",
+		"prerequisites":["Promotion_zuocanghujia"],
+		"uniques":["[+97]% Strength <vs [Unit_Type_Scout] units>",
+		"[+97]% Strength <vs [Unit_Type_Melee_Infantry] units>",
+		"[+97]% Strength <vs [Unit_Type_Monk] units>",
+		"[+97]% Strength <vs [Unit_Type_Ranged_Infantry] units>",
+		"[+97]% Strength <vs [Unit_Type_Siege] units>",
+		"[+97]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
+		"[+97]% Strength <vs [Unit_Type_Short_Ranged_Naval] units>",
+		"[+97]% Strength <vs [Unit_Type_Long_Ranged_Naval] units>",
+		"[+97]% Strength <vs [Unit_Type_Naval_Attacker] units>",
+		"[+97]% Strength <vs [Unit_Type_Aircraft_Carrier] units>"
+		],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":26,
+		"row":2
+	},
+	{
+		"name":"Promotion_tankekexing",
+		"prerequisites":["Promotion_saoshe"],
+		"uniques":["[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
+		"[+97]% Strength <vs [Unit_Type_Heavy_Cavalry] units>"
+		],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":26,
+		"row":3
+	},
+	{
+		"name":"Promotion_fuyouxiang",
+		"prerequisites":["Promotion_tankekexing","Promotion_diqinrenyuan"],
+		"uniques":["[+4] Range"],
+		"unitTypes":["Unit_Type_Fighter"],
+		"column":25,
+		"row":4
+	},
+
+	/*单位种类-轰炸机*/
+	{
+		"name":"Promotion_fangzhenxingshi",
+		"uniques":["[+34]% Strength <vs [Unit_Type_Fighter] units>"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":27,
+		"row":1
+	},
+	{
+		"name":"Promotion_jidongguibi",
+		"uniques":["[+10] HP when healing"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":28,
+		"row":1
+	},
+	{
+		"name":"Promotion_jinjukongzhongzhiyuan",
+		"prerequisites":["Promotion_fangzhenxingshi","Promotion_jidongguibi"],
+		"uniques":["[+64]% Strength <vs [{Military} {Land}] units>"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":27,
+		"row":2
+	},
+	{
+		"name":"Promotion_yuleihongzhaji",
+		"prerequisites":["Promotion_fangzhenxingshi","Promotion_jidongguibi"],
+		"uniques":["[+97]% Strength <vs [{Military} {Water}] units>"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":28,
+		"row":2
+	},
+	{
+		"name":"Promotion_yuancheng",
+		"prerequisites":["Promotion_jinjukongzhongzhiyuan"],
+		"uniques":["[+3] Range"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":27,
+		"row":3
+	},
+	{
+		"name":"Promotion_zhanshuweihu",
+		"prerequisites":["Promotion_yuleihongzhaji"],
+		"uniques":["Can move after attacking"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":28,
+		"row":3
+	},
+	{
+		"name":"Promotion_chaojibaolei",
+		"prerequisites":["Promotion_yuancheng","Promotion_zhanshuweihu"],
+		"uniques":["[+97]% Strength <when defending>"],
+		"unitTypes":["Unit_Type_Bomber"],
+		"column":27,
+		"row":4
+	}
+	
 ]

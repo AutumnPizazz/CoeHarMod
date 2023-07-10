@@ -1,16 +1,14 @@
 {
     "isBaseRuleset": true,
     "maxXPfromBarbarians":10,
-    "ModConstants":{
-        "cityStrengthBase":85.0,
-        "cityStrengthPerPop":5.0,
+    "constants":{
+        "cityStrengthBase":60.0,
+        "cityStrengthPerPop":13.8,
         "cityStrengthFromTechsMultiplier":5.5,
         "cityStrengthFromTechsExponent":2.8,
         "cityStrengthFromTechsFullMultiplier":8.0,
         "cityStrengthFromGarrison":0.2,
         "unitSupplyPerPopulation":1,
-        "minimalCityDistance":3,
-        "minimalCityDistanceOnDifferentContinents":2,
         "naturalWonderCountMultiplier":0.2,
         "naturalWonderCountAddedConstant":0.5,
         "ancientRuinCountMultiplier":0.05,

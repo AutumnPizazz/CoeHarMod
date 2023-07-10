@@ -5,7 +5,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
             "Empire enters a [16]-turn Golden Age <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+            "Great Person - [Culture]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
@@ -13,20 +13,20 @@
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
             "Can hurry technology research",
-            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+            "Great Person - [Science]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
 		"name": "GreatPerson_Class_Merchant",
 		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
 		"name": "GreatPerson_Class_Engineer",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": ["Can speed up construction of a building",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+            "Great Person - [Production]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
@@ -38,7 +38,7 @@
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Class_GreatPerson",
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
 			"Takes your religion over the one in their birth city"],
 		"movement": 4,
@@ -51,7 +51,7 @@
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{
@@ -60,7 +60,7 @@
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[23]% Strength bonus for [{Military} {Water}] units within [2] tiles",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
 
@@ -228,7 +228,17 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":2,
 		"cost":120,
-		"uniques":["Founds a new city <by consuming this unit>","Requires at least [2] population"]
+		"uniques":["Founds a new city <by consuming this unit>","Requires at least [2] population","[+1] Sight"]
+	},
+
+	/*使者*/
+	{
+		"name":"Unit_Envoy",
+		"unitType":"Unit_Type_Civilian",
+		"movement":4,
+		"uniques":["Unbuildable",
+		"Instantly consumes [40] [Resource_Influence]",
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"]
 	},
 
 	{//情报局专属单位
@@ -286,7 +296,7 @@
 		"cost":30,
 		"upgradesTo":"Unit_Ranger",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["Rough terrain penalty"]
+		"uniques":["Rough terrain penalty","Era_Ancient"]
 	},
 	{
 		"name":"Unit_Ranger",
@@ -296,12 +306,13 @@
 		"range":1,
 		"movement":3,
 		"cost":150,
-		"upgradesTo":"Unit_Cavalry",
+		"upgradesTo":"Unit_Cavalry2",
 		"requiredTech": "Tech_Mechanical",
-		"obsoleteTech": "Tech_Rifling"
+		"obsoleteTech": "Tech_Rifling",
+		"uniques":["Era_Medieval"]
 	},
 	{
-		"name":"Unit_Cavalry",
+		"name":"Unit_Cavalry2",
 		"unitType":"Unit_Type_Scout",
 		"strength":270,//45
 		"rangedStrength": 501,//60
@@ -310,7 +321,8 @@
 		"cost":380,
 		"upgradesTo":"Unit_SpecOps",
 		"requiredTech": "Tech_Rifling",
-		"obsoleteTech": "Tech_Plastic"
+		"obsoleteTech": "Tech_Plastic",
+		"uniques":["Era_Industrial"]
 	},
 	{
 		"name":"Unit_SpecOps",
@@ -320,7 +332,8 @@
 		"range":1,
 		"movement":3,
 		"cost":520,
-		"requiredTech": "Tech_Plastic"
+		"requiredTech": "Tech_Plastic",
+		"uniques":["Era_Atomic"]
 	},
 
 	/*短程步兵*/
@@ -331,7 +344,8 @@
 		"movement":2,
 		"cost":40,
 		"upgradesTo":"Unit_Swordsman",
-		"obsoleteTech": "Tech_Alchemy"
+		"obsoleteTech": "Tech_Alchemy",
+		"uniques":["Era_Ancient"]
 	},
 	{
 		"name":"Unit_Swordsman",
@@ -342,7 +356,8 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
-		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
 	},
 	{
 		"name":"Unit_Hoplite",
@@ -353,7 +368,8 @@
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
-		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
 	},
 	{
 		"name":"Unit_Musketman",
@@ -364,7 +380,8 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
-		"uniques":["Instantly consumes [10] [Resource_Niter]"]
+		"uniques":["Instantly consumes [10] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance"]
 	},
 	{
 		"name":"Unit_Line_Infantry",
@@ -375,7 +392,8 @@
 		"upgradesTo":"Unit_Infantry",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
-		"uniques":["Instantly consumes [10] [Resource_Niter]"]
+		"uniques":["Instantly consumes [10] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial"]
 	},
 	{
 		"name":"Unit_Infantry",
@@ -387,7 +405,9 @@
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
 		"obsoleteTech": "Tech_Satellite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]",
+		"[-64]% Strength <when below [0] [Resource_Oil]>",
+		"Era_Modern"]
 	},
 	{
 		"name":"Unit_Mechanized_Infantry",
@@ -397,7 +417,7 @@
 		"cost":650,
 		"requiredResource": "Resource_Oil",
 		"requiredTech": "Tech_Satellite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information"]
 	},	
 	
 	/*长程步兵*/
@@ -410,7 +430,8 @@
 		"movement":2,
 		"cost":35,
 		"upgradesTo":"Unit_Archer",
-		"obsoleteTech": "Tech_Archey"
+		"obsoleteTech": "Tech_Archey",
+		"uniques":["Era_Ancient"]
 	},
 	{
 		"name":"Unit_Archer",
@@ -422,7 +443,8 @@
 		"cost":60,
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
-		"obsoleteTech": "Tech_Mechanical"
+		"obsoleteTech": "Tech_Mechanical",
+		"uniques":["Era_Ancient"]
 	},
 	{
 		"name":"Unit_Crossbowman",
@@ -434,7 +456,8 @@
 		"cost":180,
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
-		"obsoleteTech": "Tech_Ballistics"
+		"obsoleteTech": "Tech_Ballistics",
+		"uniques":["Era_Medieval"]
 	},
 	{
 		"name":"Unit_Field_Cannon",
@@ -446,7 +469,8 @@
 		"cost":330,
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
-		"obsoleteTech": "Tech_Advanced ballistics"
+		"obsoleteTech": "Tech_Advanced ballistics",
+		"uniques":["Era_Industrial"]
 	},
 	{
 		"name":"Unit_Machine_Gun",
@@ -456,7 +480,8 @@
 		"range":2,
 		"movement":2,
 		"cost":540,
-		"requiredTech": "Tech_Advanced ballistics"
+		"requiredTech": "Tech_Advanced ballistics",
+		"uniques":["Era_Atomic"]
 	},
 
 	/*攻城*/
@@ -470,7 +495,8 @@
 		"cost":120,
 		"upgradesTo":"Unit_Battering_Ram",
 		"requiredTech": "Tech_Project",
-		"obsoleteTech": "Tech_Military engineering"
+		"obsoleteTech": "Tech_Military engineering",
+		"uniques":["Era_Classical"]
 	},
 	{
 		"name":"Unit_Battering_Ram",
@@ -482,7 +508,8 @@
 		"cost":200,
 		"upgradesTo":"Unit_Siege_Tower",
 		"requiredTech": "Tech_Military engineering",
-		"obsoleteTech": "Tech_Metal casting"
+		"obsoleteTech": "Tech_Metal casting",
+		"uniques":["Era_Medieval"]
 	},
 	{
 		"name":"Unit_Siege_Tower",
@@ -495,7 +522,9 @@
 		"requiredResource":"Resource_Niter",
 		"upgradesTo":"Unit_Artillery",
 		"requiredTech": "Tech_Metal casting",
-		"obsoleteTech": "Tech_Steel"
+		"obsoleteTech": "Tech_Steel",
+		"uniques":["Era_Renaissance",
+		"[-64]% Strength <when below [0] [Resource_Niter]>"]
 	},
 	{
 		"name":"Unit_Artillery",
@@ -508,7 +537,8 @@
 		"requiredResource":"Resource_Oil",
 		"upgradesTo":"Unit_Rocket_Artillery",
 		"requiredTech": "Tech_Steel",
-		"obsoleteTech": "Tech_Guidance system"
+		"obsoleteTech": "Tech_Guidance system",
+		"uniques":["Era_Modern"]
 	},
 	{
 		"name":"Unit_Rocket_Artillery",
@@ -519,7 +549,8 @@
 		"movement":2,
 		"cost":680,
 		"requiredResource":"Resource_Oil",
-		"requiredTech": "Tech_Guidance system"
+		"requiredTech": "Tech_Guidance system",
+		"uniques":["Era_Information"]
 	},
 
 	/*轻骑兵*/
@@ -532,7 +563,9 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
-		"uniques":["Instantly consumes [10] [Resource_Horse]"]
+		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
+		"Era_Classical"]
 	},
 	{
 		"name":"Unit_Horse_Archer",
@@ -543,7 +576,8 @@
 		"upgradesTo":"Unit_Cavalry",
 		"requiredTech": "Tech_Castle",
 		"obsoleteTech": "Tech_Military science",
-		"uniques":["Instantly consumes [10] [Resource_Horse]"]
+		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Medieval"]
 	},
 	{
 		"name":"Unit_Cavalry",
@@ -554,7 +588,8 @@
 		"upgradesTo":"Unit_Helicopter",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
-		"uniques":["Instantly consumes [10] [Resource_Horse]"]
+		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial"]
 	},
 	{
 		"name":"Unit_Helicopter",
@@ -567,7 +602,8 @@
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
 		"Can see over obstacles",
 		"Can pass through impassable tiles",
-		"All tiles cost 1 movement"]
+		"All tiles cost 1 movement",
+		"Era_Atomic"]
 	},
 
 	/*重骑兵*/
@@ -580,7 +616,7 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
-		"uniques":["[+1] Movement <in [Open terrain] tiles>"]
+		"uniques":["[+1] Movement <in [Open terrain] tiles>","Era_Ancient"]
 	},
 	{
 		"name":"Unit_Knight",
@@ -591,7 +627,8 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
 	},
 	{
 		"name":"Unit_Cuirassier",
@@ -602,7 +639,8 @@
 		"upgradesTo":"Unit_Tank",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Internal combustion engine",
-		"uniques":["Instantly consumes [10] [Resource_Iron]"]
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Industrial"]
 	},
 	{
 		"name":"Unit_Tank",
@@ -614,7 +652,7 @@
 		"upgradesTo":"Unit_Modern_Armor",
 		"requiredTech": "Tech_Internal combustion engine",
 		"obsoleteTech": "Tech_Composite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern"]
 	},
 	{
 		"name":"Unit_Modern_Armor",
@@ -624,7 +662,7 @@
 		"cost":680,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Composite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information"]
 	},
 
 	/*抗骑兵*/
@@ -636,7 +674,8 @@
 		"cost":65,
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
-		"obsoleteTech": "Tech_Tactics"
+		"obsoleteTech": "Tech_Tactics",
+		"uniques":["Era_Ancient"]
 	},
 	{
 		"name":"Unit_Pikeman",
@@ -646,7 +685,8 @@
 		"cost":180,
 		"upgradesTo":"Unit_Pike_and_Shot",
 		"requiredTech": "Tech_Tactics",
-		"obsoleteTech": "Tech_Metal casting"
+		"obsoleteTech": "Tech_Metal casting",
+		"uniques":["Era_Medieval"]
 	},
 	{
 		"name":"Unit_Pike_and_Shot",
@@ -656,7 +696,8 @@
 		"cost":250,
 		"upgradesTo":"Unit_Anti_Tank_Crew",
 		"requiredTech": "Tech_Metal casting",
-		"obsoleteTech": "Tech_Chemistry"
+		"obsoleteTech": "Tech_Chemistry",
+		"uniques":["Era_Renaissance"]
 	},
 	{
 		"name":"Unit_Anti_Tank_Crew",
@@ -666,7 +707,8 @@
 		"cost":400,
 		"upgradesTo":"Unit_Modern_Anti_Tank_Crew",
 		"requiredTech": "Tech_Chemistry",
-		"obsoleteTech": "Tech_Composite"
+		"obsoleteTech": "Tech_Composite",
+		"uniques":["Era_Modern"]
 	},
 	{
 		"name":"Unit_Modern_Anti_Tank_Crew",
@@ -674,7 +716,8 @@
 		"strength":1462,//85
 		"movement":2,
 		"cost":580,
-		"requiredTech": "Tech_Composite"
+		"requiredTech": "Tech_Composite",
+		"uniques":["Era_Information"]
 	},
 
 	/*短程海军*/
@@ -685,6 +728,7 @@
 		"movement":3,
 		"cost":65,
 		"upgradesTo":"Unit_Trireme",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Ancient"],
 		"requiredTech": "Tech_Nautical art",
 		"obsoleteTech": "Tech_Cartography"
 	},
@@ -696,7 +740,8 @@
 		"cost":240,
 		"upgradesTo":"Unit_Frigate",
 		"requiredTech": "Tech_Cartography",
-		"obsoleteTech": "Tech_Steam power"
+		"obsoleteTech": "Tech_Steam power",
+		"uniques":["Era_Medieval"]
 	},
 	{
 		"name":"Unit_Frigate",
@@ -707,8 +752,9 @@
 		"requiredResource":"Resource_Coal",
 		"upgradesTo":"Unit_Destroyer",
 		"requiredTech": "Tech_Steam power",
-		"obsoleteTech": "Tech_Steam power",
-		"uniques":["Instantly consumes [1] [Resource_Coal]"]
+		"obsoleteTech": "Tech_Joint operations",
+		"uniques":["Instantly consumes [1] [Resource_Coal]",
+		"[-64]% Strength <when below [0] [Resource_Coal]>","Era_Industrial"]
 	},
 	{
 		"name":"Unit_Destroyer",
@@ -717,9 +763,11 @@
 		"movement":4,
 		"cost":540,
 		"requiredResource":"Resource_Oil",
-		"requiredTech": "Tech_Steam power",
+		"requiredTech": "Tech_Joint operations",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
-			"[+23]% Strength <vs [Unit_Type_Missile] units>"]
+		"[-64]% Strength <when below [0] [Resource_Coal]>",
+			"[+23]% Strength <vs [Unit_Type_Missile] units>",
+			"Era_Atomic"]
 	},
 
 	/*长程海军*/
@@ -732,6 +780,7 @@
 		"movement":3,
 		"cost":120,
 		"upgradesTo":"Unit_Cruiser",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical"],
 		"requiredTech": "Tech_Shipbuilding",
 		"obsoleteTech": "Tech_Crossail device"
 	},
@@ -747,7 +796,8 @@
 		"upgradesTo":"Unit_Battleship",
 		"requiredTech": "Tech_Crossail device",
 		"obsoleteTech": "Tech_Refining",
-		"uniques":["Instantly consumes [1] [Resource_Niter]"]
+		"uniques":["Instantly consumes [1] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance"]
 	},
 	{
 		"name":"Unit_Battleship",
@@ -763,7 +813,9 @@
 		"requiredTech": "Tech_Refining",
 		"obsoleteTech": "Tech_Laser",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
-			"[+118]% Strength <vs [Unit_Type_Missile] units>"]
+		"[-64]% Strength <when below [0] [Resource_Coal]>",
+			"[+118]% Strength <vs [Unit_Type_Missile] units>",
+			"Era_Modern"]
 	},
 	{
 		"name":"Unit_Missile_Cruiser",
@@ -777,7 +829,8 @@
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Laser",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
-			"[+118]% Strength <vs [Unit_Type_Missile] units>"]
+			"[+118]% Strength <vs [Unit_Type_Missile] units>",
+			"Era_Information"]
 	},
 
 	/*海军袭击者*/
@@ -791,7 +844,8 @@
 		"cost":280,
 		"upgradesTo":"Unit_Submarine",
 		"requiredTech": "Civic_Mercantilism",
-		"obsoleteTech": "Tech_Electricity"
+		"obsoleteTech": "Tech_Electricity",
+		"uniques":["Era_Renaissance"]
 	},
 	{
 		"name":"Unit_Submarine",
@@ -805,7 +859,7 @@
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
-		"uniques":["Instantly consumes [1] [Resource_Oil]"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern"]
 	},
 	{
 		"name":"Unit_Nuclear_Submarine",
@@ -817,7 +871,8 @@
 		"cost":680,
 		"requiredTech": "Tech_Telecommunication",
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
-			"Can carry [2] [Unit_Type_Missile] units"]
+			"[-64]% Strength <when below [0] [Resource_Uranium]>",
+			"Can carry [2] [Unit_Type_Missile] units","Era_Information"]
 	},
 
 	/*航空母舰*/
@@ -825,9 +880,12 @@
 		"name":"Unit_Aircraft_Carrier",
 		"unitType":"Unit_Type_Aircraft_Carrier",
 		"strength":615,//65
+		"range":1,
+		"rangedStrength":615,//65
 		"movement":3,
 		"cost":540,
-		"requiredTech":"Tech_Joint operations"
+		"requiredTech":"Tech_Joint operations",
+		"uniques":["Era_Atomic"]
 	},
 
 	/*战斗机*/
@@ -844,8 +902,10 @@
 		"upgradesTo":"Unit_Fighter",
 		"requiredTech": "Tech_Flight",
 		"obsoleteTech": "Tech_Modern aviation",
-		"uniques":["Instantly consumes [1] [Resource_Oil]",
-			"Unit_Class_Aircraft"]
+		"uniques":["[75]% chance to intercept air attacks",
+			"Instantly consumes [1] [Resource_Oil]",
+			"Unit_Class_Aircraft",
+			"Era_Modern"]
 	},
 	{
 		"name":"Unit_Fighter",
@@ -860,8 +920,11 @@
 		"upgradesTo":"Unit_Jet_Fighter",
 		"requiredTech": "Tech_Modern aviation",
 		"obsoleteTech": "Tech_Laser",
-		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
-			"Unit_Class_Aircraft"]
+		"uniques":["[75]% chance to intercept air attacks",
+			"Instantly consumes [1] [Resource_Aluminum]",
+			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
+			"Unit_Class_Aircraft",
+			"Era_Atomic"]
 	},
 	{
 		"name":"Unit_Jet_Fighter",
@@ -874,8 +937,11 @@
 		"cost":650,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Laser",
-		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
-			"Unit_Class_Aircraft"]
+		"uniques":["[75]% chance to intercept air attacks",
+			"Instantly consumes [1] [Resource_Aluminum]",
+			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
+			"Unit_Class_Aircraft",
+			"Era_Information"]
 	},
 
 	/*轰炸机*/
@@ -892,7 +958,9 @@
 		"requiredTech": "Tech_Modern aviation",
 		"obsoleteTech": "Tech_Stealth",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
-			"Unit_Class_Aircraft"]
+		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
+			"Unit_Class_Aircraft",
+			"Era_Atomic"]
 	},
 	{
 		"name":"Unit_Jet_Bomber",
@@ -905,7 +973,9 @@
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Stealth",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
-			"Unit_Class_Aircraft"]
+		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
+			"Unit_Class_Aircraft",
+			"Era_Information"]
 	},
 
 	/*导弹头*/
@@ -947,7 +1017,8 @@
 		"movement":5,
 		"cost":1500,
 		"requiredTech": "Tech_Robotics",
-		"uniques":["Consumes [3] [Resource_Uranium]"]
+		"uniques":["Consumes [3] [Resource_Uranium]",
+		"[-64]% Strength <when below [0] [Resource_Uranium]>"]
 	},
 
 	/*太空计划*/

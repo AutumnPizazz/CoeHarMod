@@ -1,6 +1,6 @@
 [
 	//基础地形
-	{
+	{//海洋
 		"name": "Ocean",
 		"type": "Water",
 		"food": 1,
@@ -9,7 +9,7 @@
 		"uniques":["[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
-	{
+	{//海滨
 		"name": "Coast",
 		"type": "Water",
 		"food": 1,
@@ -22,7 +22,7 @@
 			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
-	{
+	{//草原
 		"name": "Grassland",
 		"type": "Land",
 		"food": 2,
@@ -49,7 +49,7 @@
 			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
     },
-	{
+	{//平原
 		"name": "Plains",
 		"type": "Land",
 		"food": 1,
@@ -79,7 +79,7 @@
 			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
-	{
+	{//冻土
 		"name": "Tundra",
 		"type": "Land",
 		"food": 1,
@@ -99,7 +99,7 @@
 			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
-	{
+	{//沙漠
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
@@ -117,7 +117,7 @@
 			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
-	{
+	{//湖泊
 		"name": "Lakes",
 		"type": "Water",
 		"food": 2,
@@ -129,7 +129,7 @@
 					"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 					"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
-	{
+	{//山脉
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
@@ -144,7 +144,7 @@
 //			"[+1 Food] for each adjacent [Terrace farm]"
 		]
 	},
-	{
+	{//火山
 		"name": "Terrain_Volcano",
 		"type": "Land",
 		"impassable": true,
@@ -162,7 +162,7 @@
 //			"Neighboring tiles will convert to [Landform_Volcanic soil]"
 		]
 	},
-	{
+	{//雪原
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
@@ -178,12 +178,13 @@
             "Becomes [Tundra] when adjacent to [River]",
             "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
             "Never receives any resources <in [Landform_Hill] tiles>",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
 
 	//地貌
-	{
+	{//丘陵
 		"name": "Landform_Hill",
 		"type": "TerrainFeature",
 		"production": 1,
@@ -193,7 +194,7 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
-					"[+10] Strength for cities built on this terrain",
+					"[+14] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
 					"Occurs in groups around high elevations",
 					"[+1] to Fertility for Map Generation",
@@ -204,7 +205,7 @@
 					"Considered [Production] when determining start locations",
 					"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
-	{
+	{//森林
 		"name": "Landform_Forest",
 		"type": "TerrainFeature",
 		"production": 1,
@@ -213,7 +214,7 @@
 		"unbuildable": true,
 		"occursOn": ["Tundra","Plains","Grassland","Landform_Hill"],
 		"uniques": ["Rough terrain",
-					"Vegetation",//表示植被
+					"Vegetation",
 					"[+1] to Fertility for Map Generation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -226,9 +227,9 @@
 					"Considered [Food] when determining start locations <in [Landform_Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Improvement_Encampment"}]
 	},
-	{
+	{//雨林
 		"name": "Landform_Rainforest",
 		"type": "TerrainFeature",
 		"food": 1,
@@ -249,7 +250,7 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-	{
+	{//沼泽
 		"name": "Landform_Swamp",
 		"type": "TerrainFeature",
 		"food": 1,
@@ -261,19 +262,18 @@
 					"[+1] to Fertility for Map Generation",
 					"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 					"Considered [Food] when determining start locations <in all except [Plains] Regions>",
-					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
+					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
-	{
+	{//核污染
 		"name": "Landform_Nuclear fallout",
 		"type": "TerrainFeature",
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform_Forest","Landform_Rainforest","Landform_Hill","Landform_Alluvial plain","Landform_Swamp","Landform_Oasis"],
-		"defenceBonus": -0.15
+		"defenceBonus": -0.13
 	},
-	{
+	{//绿洲
 		"name": "Landform_Oasis",
 		"type": "TerrainFeature",
 		"food": 3,
@@ -287,7 +287,7 @@
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
 	},
-	{
+	{//泛滥平原
 		"name": "Landform_Alluvial plain",
 		"type": "TerrainFeature",
 		"food": 2,
@@ -300,7 +300,7 @@
 //					"Must be adjacent to [1] to [6] [River] tiles",
 					"[-8] Strength for cities built on this terrain"]
 	},
-	{
+	{//冲积平原
 		"name": "Landform_Floodplain",
 		"type": "TerrainFeature",
 		"food": 2,
@@ -313,7 +313,7 @@
 //					"Must be adjacent to [1] to [6] [River] tiles",
 					"[-8] Strength for cities built on this terrain"]
 	},
-	{
+	{//冰区
 		"name": "Landform_Ice cap",
 		"type": "TerrainFeature",
 		"impassable": true,
@@ -323,7 +323,7 @@
 					"[-2] to Fertility for Map Generation",
 					"Considered [Undesirable] when determining start locations"]
 	},
-	{
+	{//礁石
 		"name": "Landform_Reef",
 		"type": "TerrainFeature",
 		"movementCost": 1,
@@ -335,7 +335,7 @@
 		"uniques": ["Rare feature",
 		"[+1] to Fertility for Map Generation"]
 	},
-	{
+	{//地热裂缝
 		"name": "Landform_Geothermal fissure",
 		"type": "TerrainFeature",
 		"science": 1,
@@ -344,7 +344,7 @@
 		"uniques": ["Rare feature","Never receives any resources",
 		"[+1] to Fertility for Map Generation"]
     },
-	{
+	{//火山土
 		"name": "Landform_Volcanic soil",
 		"type": "TerrainFeature",
 		"movementCost": 1,
@@ -394,7 +394,7 @@
 		"weight": 2,
 		"civilopediaText": [
 			{
-				"text":"Provide +4 ¤Gold and +2 ♪Culture for adjacent tiles"
+				"text":"Provide +4 ¤Gold and +2 ♪Culture for adjacent tiles, but only for terrain, not landforms"
 			}
 		]
 	},
@@ -409,7 +409,7 @@
 		"impassable": false,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Grants [Promotion_Water_of_life] ([Heal with an additional 10 HP]) to adjacent [Land] units for the rest of the game"],
+			"Grants [Promotion_Water_of_life] ([Heal with an additional 10 HP]) to adjacent [Land] units for the rest of the game","Fresh water"],
 		"weight": 8
 	},
 	{//泰山
@@ -423,7 +423,7 @@
 			"Must be adjacent to [1] to [6] [Mountain] tiles"],
 		"civilopediaText": [
 			{
-				"text":"Provide +3 ♪Culture for adjacent tiles"
+				"Text":"Provide +3 ♪Culture for adjacent tiles, but only for terrain, not landforms"
 			}
 		],
 		"turnsInto": "Mountain",
@@ -444,26 +444,49 @@
 			"Grants [Promotion_Giant_Spear] ([+23% Strength]) to adjacent [{Military} {Land}] units for the rest of the game"],
 		"weight": 3
 	},
-	/*
-	{
-		"name": "Mount Fuji",
+	{//张掖丹霞
+		"name": "Naturalwonder_Zhangye_Danxia",
 		"type": "NaturalWonder",
-		"gold": 2,
-		"culture": 3,
-		"faith": 3,
-		"occursOn": ["Grassland","Plains"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Desert] tiles",
-			"Must be adjacent to [0] [Mountain] tiles",
-			"Must be adjacent to [0] [Landform_Swamp] tiles",
-			"Must be adjacent to [0] to [2] [Landform_Hill] tiles",
-			"Must not be on [1] largest landmasses"],
-		"turnsInto": "Mountain",
+		"overrideStats": true,
+		"occursOn": ["Landform_Hill"],
+		"turnsInto": "Landform_Hill",
+		"impassable": false,
+		"unbuildable": true,
+		"production":2,
+		"culture":2,
+		"gold":1,
+		"uniques": ["Must be adjacent to [1] to [6] [Landform_Hill] tiles",
+		"Occurs in groups of [2] to [2] tiles",
+		"Units ending their turn on this terrain take [24] damage",
+//		"This Unit gains [2] XP <in [Naturalwonder_Zhangye_Danxia] tiles>"等待重做
+	],
+		"weight": 5,
+		"movementCost":3,
+		"defenceBonus":0.28
+	},
+	{//壶口瀑布
+		"name": "Naturalwonder_Hukou_Waterfall",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Grassland",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
-	},
+		"food":4,
+		"uniques": [
+		"Occurs in groups of [1] to [1] tiles",
+		"Must be next to [River]",
+		"Fresh water"
+	],
+		"weight": 5,
+		"civilopediaText":[
+			{
+			"text":"Provides fresh water and gives adjacent irrigation tiles an additional  +4⌣ happiness.",
+			"link":"Improvement/Distinct_Raceline"
+			}
+		]
+	}
+	/*
 	{
 		"name": "Krakatoa",
 		"type": "NaturalWonder",

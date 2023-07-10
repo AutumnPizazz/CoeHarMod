@@ -2,21 +2,21 @@
     {
         "name": "Citystate type_Cultural",
         "friendBonusUniques": [
-            "[+1 Culture] [in capital]",
-            "[+1 Culture] from every [Building_Ancient_Classical_Era_Wonder]",
-            "[+2 Culture] from every [Building_Art_Museum]",
-            "[+2 Culture] from every [Building_Archaeological_Museum]",
-            "[+3 Culture] from every [Building_Broadcast_Center]",
+            "[+1 Culture] <in cities with a [Building_Palace]>",
+            "[+1 Culture] <in cities with a [Building_Amphitheater]>",
+            "[+2 Culture] <in cities with a [Building_Art_Museum]>",
+            "[+2 Culture] <in cities with a [Building_Archaeological_Museum]>",
+            "[+3 Culture] <in cities with a [Building_Broadcast_Center]>",
             "Provides [1] [Resource_Diplomatic favor]"
         ],
         "allyBonusUniques": [
-            "[+2 Culture] [in capital]",
-            "[+1 Culture] from every [Building_Ancient_Classical_Era_Wonder]",
-            "[+2 Culture] from every [Building_Art_Museum]",
-            "[+2 Culture] from every [Building_Archaeological_Museum]",
-            "[+3 Culture] from every [Building_Broadcast_Center]",
-            "[+2 Culture] from every [Building_Consulate]",
-            "[+4 Culture] from every [Building_Diplomatic_Delegation]",
+            "[+2 Culture] <in cities with a [Building_Palace]>",
+            "[+1 Culture] <in cities with a [Building_Amphitheater]>",
+            "[+2 Culture] <in cities with a [Building_Art_Museum]>",
+            "[+2 Culture] <in cities with a [Building_Archaeological_Museum]>",
+            "[+3 Culture] <in cities with a [Building_Broadcast_Center]>",
+            "[+2 Culture] <in cities with a [Building_Consulate]>",
+            "[+4 Culture] <in cities with a [Building_Diplomatic_Delegation]>",
             "Provides [3] [Resource_Diplomatic favor]"
         ],
         "color": [139, 96, 255]
@@ -24,19 +24,19 @@
     {
         "name": "Citystate type_Scientific",
         "friendBonusUniques": [
-            "[+1 Science] [in capital]",
-            "[+1 Science] from every [Building_Library]",
-            "[+2 Science] from every [Building_University]",
-            "[+3 Science] from every [Building_Research_Lab]",
+            "[+1 Science] <in cities with a [Building_Palace]>",
+            "[+1 Science] <in cities with a [Building_Library]>",
+            "[+2 Science] <in cities with a [Building_University]>",
+            "[+3 Science] <in cities with a [Building_Research_Lab]>",
             "Provides [1] [Resource_Diplomatic favor]"
         ],
         "allyBonusUniques": [
-            "[+2 Science] [in capital]",
-            "[+1 Science] from every [Building_Library]",
-            "[+2 Science] from every [Building_University]",
-            "[+3 Science] from every [Building_Research_Lab]",
-            "[+2 Science] from every [Building_Consulate]",
-            "[+4 Science] from every [Building_Diplomatic_Delegation]",
+            "[+2 Science] <in cities with a [Building_Palace]>",
+            "[+1 Science] <in cities with a [Building_Library]>",
+            "[+2 Science] <in cities with a [Building_University]>",
+            "[+3 Science] <in cities with a [Building_Research_Lab]>",
+            "[+2 Science] <in cities with a [Building_Consulate]>",
+            "[+4 Science] <in cities with a [Building_Diplomatic_Delegation]>",
             "Provides [3] [Resource_Diplomatic favor]"
         ],
         "color": [0, 0, 255]
@@ -44,19 +44,19 @@
     {
         "name": "Citystate type_Commercial",
         "friendBonusUniques": [
-            "[+2 Gold] [in capital]",
-            "[+2 Gold] from every [Building_Market]",
-            "[+4 Gold] from every [Building_Bank]",
-            "[+6 Gold] from every [Building_Stock_Exchange]",
+            "[+2 Gold] <in cities with a [Building_Palace]>",
+            "[+2 Gold] <in cities with a [Building_Market]>",
+            "[+4 Gold] <in cities with a [Building_Bank]>",
+            "[+6 Gold] <in cities with a [Building_Stock_Exchange]>",
             "Provides [1] [Resource_Diplomatic favor]"
         ],
         "allyBonusUniques": [
-            "[+4 Gold] [in capital]",
-            "[+2 Gold] from every [Building_Market]",
-            "[+4 Gold] from every [Building_Bank]",
-            "[+6 Gold] from every [Building_Stock_Exchange]",
-            "[+4 Gold] from every [Building_Consulate]",
-            "[+6 Gold] from every [Building_Diplomatic_Delegation]",
+            "[+4 Gold] <in cities with a [Building_Palace]>",
+            "[+2 Gold] <in cities with a [Building_Market]>",
+            "[+4 Gold] <in cities with a [Building_Bank]>",
+            "[+6 Gold] <in cities with a [Building_Stock_Exchange]>",
+            "[+4 Gold] <in cities with a [Building_Consulate]>",
+            "[+6 Gold] <in cities with a [Building_Diplomatic_Delegation]>",
             "Provides [3] [Resource_Diplomatic favor]"
         ],
         "color": [255, 216, 0]
@@ -76,19 +76,19 @@
     {
         "name": "Citystate type_Religious",
         "friendBonusUniques": [
-            "[+1 Faith] [in capital]",
-            "[+1 Faith] from every [Building_Shrine]",
-            "[+2 Faith] from every [Building_Temple]",
-            "[+3 Faith] from every [Building_Classification_Religious_Building]",
+            "[+1 Faith] <in cities with a [Building_Palace]>",
+            "[+1 Faith] <in cities with a [Building_Shrine]>",
+            "[+2 Faith] <in cities with a [Building_Temple]>",
+            "[+3 Faith] <in cities with a [Building_Classification_Religious_Building]>",
             "Provides [1] [Resource_Diplomatic favor]"
         ],
         "allyBonusUniques": [
-            "[+2 Faith] [in capital]",
-            "[+1 Faith] from every [Building_Shrine]",
-            "[+2 Faith] from every [Building_Temple]",
-            "[+3 Faith] from every [Building_Classification_Religious_Building]",
-            "[+1 Faith] from every [Building_Consulate]",
-            "[+3 Faith] from every [Building_Diplomatic_Delegation]",
+            "[+2 Faith] <in cities with a [Building_Palace]>",
+            "[+1 Faith] <in cities with a [Building_Shrine]>",
+            "[+2 Faith] <in cities with a [Building_Temple]>",
+            "[+3 Faith] <in cities with a [Building_Classification_Religious_Building]>",
+            "[+1 Faith] <in cities with a [Building_Consulate]>",
+            "[+3 Faith] <in cities with a [Building_Diplomatic_Delegation]>",
             "Provides [3] [Resource_Diplomatic favor]"
         ],
         "color": [255, 255, 255]
@@ -96,19 +96,19 @@
     {
         "name": "Citystate type_Industrial",
         "friendBonusUniques": [
-            "[+1 Production] [in capital]",
+            "[+1 Production] <in cities with a [Building_Palace]>",
             "[+1 Production] <in cities with a [Building_Workshop]>",
             "[+2 Production] <in cities with a [Building_Factory]>",
             "[+3 Production] <in cities with a [Building_Classification_Power_Plant]>",
             "Provides [1] [Resource_Diplomatic favor]"
         ],
         "allyBonusUniques": [
-            "[+2 Production] [in capital]",
+            "[+2 Production] <in cities with a [Building_Palace]>",
             "[+1 Production] <in cities with a [Building_Workshop]>",
             "[+2 Production] <in cities with a [Building_Factory]>",
             "[+3 Production] <in cities with a [Building_Classification_Power_Plant]>",
-            "[+2 Production] from every [Building_Consulate]",
-            "[+3 Production] from every [Building_Diplomatic_Delegation]",
+            "[+2 Production] <in cities with a [Building_Consulate]>",
+            "[+3 Production] <in cities with a [Building_Diplomatic_Delegation]>",
             "Provides [3] [Resource_Diplomatic favor]"
         ],
         "color": [139, 96, 255]

@@ -23,7 +23,7 @@
     },
     {
         "name": "Victory type_Culture",
-        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
+        "victoryScreenHeader": "Complete 2 policy branches and\nbuild the Utopia Project to win!",
         "milestones": ["Complete [2] Policy branches", "Build [Building_Utopia_Project]"],
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
@@ -57,5 +57,16 @@
         "milestones": ["Have highest score after max turns"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name":"Permit to build World Wonder",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+            "Build [Building_Spaceport_Unique]",
+            "Add all [Spaceship part] in capital",
+            "Complete [2] Policy branches",
+            "Build [Building_Utopia_Project]",
+            "Become the world religion"
+        ]
     }
 ]

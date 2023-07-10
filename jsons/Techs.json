@@ -3,6 +3,8 @@
 		"columnNumber": 0,
 		"era": "Era_Ancient",
 		"techCost": 1,
+		"buildingCost": 60,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Initial tech/civic_Agriculture",
@@ -15,6 +17,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Era_Ancient",
+		"buildingCost": 60,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Tech_Nautical art",
@@ -70,6 +74,8 @@
 		"columnNumber": 2,
 		"era": "Era_Ancient",
 		"techCost": 30,
+		"buildingCost": 60,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Tech_Irrigation",
@@ -112,6 +118,8 @@
 		"columnNumber": 3,
 		"era": "Era_Ancient",
 		"techCost": 55,
+		"buildingCost": 60,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Tech_Bricklaying",
@@ -139,7 +147,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Skill"],
 				"quote": "兵贵神速，不贵多。\n——《史记·淮阴侯列传》",
-				"uniques": []
+				"uniques": ["[+100]% to Flank Attack bonuses <for [Military] units>"]
 			},
 			{
 				"name": "Civic_National labor force",
@@ -153,14 +161,14 @@
 				"row": 13,
 				"prerequisites": ["Civic_Basic trade"],
 				"quote": "治国有常，而利民为本。\n——《尚书·禹贡》",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Enables Open Borders agreements"]
 			},
-			{
+			{//神秘主义
 				"name": "Civic_Mysticism",
 				"row": 15,
 				"prerequisites": ["Civic_Basic trade"],
 				"quote": "神者，隐而不见，不可得而观也。\n——《庄子·天下篇》",
-				"uniques": []
+				"uniques": ["Free [Unit_Envoy] appears"]
 			}
 		]
 	},
@@ -168,6 +176,8 @@
 		"columnNumber": 4,
 		"era": "Era_Classical",
 		"techCost": 75,
+		"buildingCost": 60,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Tech_Astronomical navigation",
@@ -232,13 +242,15 @@
 		"columnNumber": 5,
 		"era": "Era_Classical",
 		"techCost": 120,
+		"buildingCost": 60,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Tech_Shipbuilding",
 				"row": 1,
 				"prerequisites": ["Tech_Nautical art"],
 				"quote": "大江之行，浸润四方；行舟既远，择木而止。\n——《诗经·大雅·大明》",
-				"uniques": []
+				"uniques": ["Enables embarkation for land units"]
 			},
 			{
 				"name": "Tech_Math",
@@ -259,7 +271,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Military tradition","Civic_Games and entertainment"],
 				"quote": "兵者，国之大事，死生之地，存亡之道，不可不察也。\n——《孙子兵法·始计》",
-				"uniques": []
+				"uniques": ["Free [Unit_Envoy] appears"]
 			},
 			{
 				"name": "Civic_Defensive tactics",
@@ -280,7 +292,7 @@
 				"row": 15,
 				"prerequisites": ["Civic_Drama and poetry","Civic_Mysticism"],
 				"quote": "上天无路，下地无门，唯人自通。\n——明·罗贯中《三国演义》",
-				"uniques": []
+				"uniques": ["Free [Unit_Envoy] appears"]
 			}
 		]
 	},
@@ -288,6 +300,8 @@
 		"columnNumber": 6,
 		"era": "Era_Medieval",
 		"techCost": 200,
+		"buildingCost": 60,
+		"wonderCost": 710,
 		"techs": [
 			{
 				"name": "Tech_Buttresses",
@@ -322,7 +336,7 @@
 				"row": 10,
 				"prerequisites": ["Civic_Defensive tactics"],
 				"quote": "此日漫挥天下泪，有公足壮海军威。\n——光绪帝 爱新觉罗·载湉",
-				"uniques": []
+				"uniques": ["Free [Unit_Envoy] appears"]
 			},
 			{
 				"name": "Civic_Feudalism",
@@ -344,6 +358,8 @@
 		"columnNumber": 7,
 		"era": "Era_Medieval",
 		"techCost": 300,
+		"buildingCost": 60,
+		"wonderCost": 710,
 		"techs": [
 			{
 				"name": "Tech_Civilian education",
@@ -378,7 +394,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Military training"],
 				"quote": "兵马未动，粮草先行。\n——《三国演义》",
-				"uniques": []
+				"uniques": ["Free [Unit_Envoy] appears"]
 			},
 			{
 				"name": "Civic_Medieval bazaar",
@@ -407,6 +423,8 @@
 		"columnNumber": 8,
 		"era": "Era_Renaissance",
 		"techCost": 450,
+		"buildingCost": 60,
+		"wonderCost": 920,
 		"techs": [
 			{
 				"name": "Tech_Cartography",
@@ -470,7 +488,7 @@
 				"row": 13,
 				"prerequisites": ["Civic_Thw worker's union"],
 				"quote": "外交政策不是由外交部门独立制定的，而是由整个政府制定的，包括市政府。\n——《美国国务院职能与任务》",
-				"uniques": []
+				"uniques": ["Enables Research agreements"]
 			},
 			{
 				"name": "Civic_Reformed church",
@@ -485,6 +503,8 @@
 		"columnNumber": 9,
 		"era": "Era_Renaissance",
 		"techCost": 600,
+		"buildingCost": 60,
+		"wonderCost": 920,
 		"techs": [
 			{
 				"name": "Tech_Crossail device",
@@ -527,6 +547,8 @@
 		"columnNumber": 10,
 		"era": "Era_Industrial",
 		"techCost": 780,
+		"buildingCost": 60,
+		"wonderCost": 1240,
 		"techs": [
 			{
 				"name": "Tech_Industrialization",
@@ -561,7 +583,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Mercantilism"],
 				"quote": "记住：政治、殖民主义、帝国主义和战争都源于人类的大脑。\n——维莱亚努尔·拉马钱德兰",
-				"uniques": []
+				"uniques": ["[2] free [Unit_Envoy] units appear"]
 			},
 			{
 				"name": "Civic_Civil engineering",
@@ -582,7 +604,7 @@
 				"row": 14,
 				"prerequisites": ["Civic_Enlightenment"],
 				"quote": "歌剧是，当一个人背后被捅了一刀，他不流血，他唱歌剧。\n——罗伯特·本奇利",
-				"uniques": []
+				"uniques": ["[2] free [Unit_Envoy] units appear"]
 			}
 		]
 	},
@@ -590,6 +612,8 @@
 		"columnNumber": 11,
 		"era": "Era_Industrial",
 		"techCost": 1050,
+		"buildingCost": 60,
+		"wonderCost": 1240,
 		"techs": [
 			{
 				"name": "Tech_Steam power",
@@ -624,7 +648,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Colonialism"],
 				"quote": "如果我参与造物，我会提出一些有用的建议使宇宙秩序更加和谐。\n——纳尔逊·艾格林",
-				"uniques": []
+				"uniques": ["[2] free [Unit_Envoy] units appear"]
 			},
 			{
 				"name": "Civic_Urbanization",
@@ -638,7 +662,7 @@
 				"row": 14,
 				"prerequisites": ["Civic_Nationalism"],
 				"quote": "战争就是地狱。\n——威廉·特库姆塞·谢尔曼",
-				"uniques": []
+				"uniques": ["[2] free [Unit_Envoy] units appear"]
 			}
 		]
 	},
@@ -646,6 +670,8 @@
 		"columnNumber": 12,
 		"era": "Era_Modern",
 		"techCost": 1300,
+		"buildingCost": 60,
+		"wonderCost": 1620,
 		"techs": [
 			{
 				"name": "Tech_Flight",
@@ -680,7 +706,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Natural history"],
 				"quote": "水和空气这两样生活必须品已变成全球垃圾桶了。\n——雅克·伊夫·库斯托",
-				"uniques": []
+				"uniques": ["[3] free [Unit_Envoy] units appear"]
 			},
 			{
 				"name": "Civic_Mass media",
@@ -702,6 +728,8 @@
 		"columnNumber": 13,
 		"era": "Era_Modern",
 		"techCost": 1575,
+		"buildingCost": 60,
+		"wonderCost": 1620,
 		"techs": [
 			{
 				"name": "Tech_Internal combustion engine",
@@ -730,6 +758,8 @@
 		"columnNumber": 14,
 		"era": "Era_Modern",
 		"techCost": 1800,
+		"buildingCost": 60,
+		"wonderCost": 1620,
 		"techs": [
 			{
 				"name": "Tech_Electricity",
@@ -789,6 +819,8 @@
 		"columnNumber": 15,
 		"era": "Era_Atomic",
 		"techCost": 2200,
+		"buildingCost": 60,
+		"wonderCost": 1740,
 		"techs": [
 			{
 				"name": "Tech_Rocket research",
@@ -838,6 +870,8 @@
 		"columnNumber": 16,
 		"era": "Era_Atomic",
 		"techCost": 2500,
+		"buildingCost": 60,
+		"wonderCost": 1740,
 		"techs": [
 			{
 				"name": "Tech_Modern aviation",
@@ -896,6 +930,8 @@
 		"columnNumber": 17,
 		"era": "Era_Information",
 		"techCost": 3000,
+		"buildingCost": 60,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Tech_Telecommunication",
@@ -944,7 +980,7 @@
 				"row": 10,
 				"prerequisites": ["Civic_Cultural heritage","Civic_Emergency deployment"],
 				"quote": "“我将在明媚的日光之下再度降临，为子孙后裔造下美好家园。”\n——《阿尔戈船英雄记》，罗德岛的阿波罗尼奥斯",
-				"uniques": []
+				"uniques": ["[+2 Culture, +1 Science] from [Vegetation] tiles [in all cities]"]
 			},
 			{
 				"name": "Civic_Globalization",
@@ -966,6 +1002,8 @@
 		"columnNumber": 18,
 		"era": "Era_Information",
 		"techCost": 3750,
+		"buildingCost": 60,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Tech_Robotics",
@@ -993,7 +1031,7 @@
 				"row": 11,
 				"prerequisites": ["Civic_Environmentalism","Civic_Globalization"],
 				"quote": "司法是国家中人民之间的纽带，司法的施行即为对公正的裁定，这是政治社会长治久安的基本原则。\n——亚里士多德",
-				"uniques": []
+				"uniques": ["[3] free [Unit_Envoy] units appear","Provides [1] [Resource_Governor title]"]
 			},
 			{
 				"name": "Civic_Political adventures",
@@ -1022,6 +1060,8 @@
 		"columnNumber": 19,
 		"era": "Era_Near-future",
 		"techCost": 4300,
+		"buildingCost": 60,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Tech_Ocean home",
@@ -1069,7 +1109,7 @@
 				"row": 10,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "将这恶人紧锁在尖锐的岩石上，\n永生不得释放。\n——埃斯库罗斯",
-				"uniques": []
+				"uniques": ["[3] free [Unit_Envoy] units appear","Provides [1] [Resource_Diplomatic favor]"]
 			},
 			{
 				"name": "Civic_Smart power foctrine",
@@ -1105,6 +1145,8 @@
 		"columnNumber": 20,
 		"era": "Era_Near-future",
 		"techCost": 4500,
+		"buildingCost": 60,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Tech_Alien missons",
@@ -1119,6 +1161,8 @@
 		"columnNumber": 21,
 		"era": "Era_Far-future",
 		"techCost": 5200,
+		"buildingCost": 60,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Tech_Future technology",
