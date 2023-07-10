@@ -168,7 +168,7 @@
 				"row": 15,
 				"prerequisites": ["Civic_Basic trade"],
 				"quote": "神者，隐而不见，不可得而观也。\n——《庄子·天下篇》",
-				"uniques": ["Free [Unit_Envoy] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears"]
 			}
 		]
 	},
@@ -271,7 +271,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Military tradition","Civic_Games and entertainment"],
 				"quote": "兵者，国之大事，死生之地，存亡之道，不可不察也。\n——《孙子兵法·始计》",
-				"uniques": ["Free [Unit_Envoy] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears"]
 			},
 			{
 				"name": "Civic_Defensive tactics",
@@ -292,7 +292,7 @@
 				"row": 15,
 				"prerequisites": ["Civic_Drama and poetry","Civic_Mysticism"],
 				"quote": "上天无路，下地无门，唯人自通。\n——明·罗贯中《三国演义》",
-				"uniques": ["Free [Unit_Envoy] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears"]
 			}
 		]
 	},
@@ -336,7 +336,7 @@
 				"row": 10,
 				"prerequisites": ["Civic_Defensive tactics"],
 				"quote": "此日漫挥天下泪，有公足壮海军威。\n——光绪帝 爱新觉罗·载湉",
-				"uniques": ["Free [Unit_Envoy] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears"]
 			},
 			{
 				"name": "Civic_Feudalism",
@@ -394,7 +394,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Military training"],
 				"quote": "兵马未动，粮草先行。\n——《三国演义》",
-				"uniques": ["Free [Unit_Envoy] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears"]
 			},
 			{
 				"name": "Civic_Medieval bazaar",
@@ -583,7 +583,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Mercantilism"],
 				"quote": "记住：政治、殖民主义、帝国主义和战争都源于人类的大脑。\n——维莱亚努尔·拉马钱德兰",
-				"uniques": ["[2] free [Unit_Envoy] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear"]
 			},
 			{
 				"name": "Civic_Civil engineering",
@@ -604,7 +604,7 @@
 				"row": 14,
 				"prerequisites": ["Civic_Enlightenment"],
 				"quote": "歌剧是，当一个人背后被捅了一刀，他不流血，他唱歌剧。\n——罗伯特·本奇利",
-				"uniques": ["[2] free [Unit_Envoy] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear"]
 			}
 		]
 	},
@@ -648,7 +648,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Colonialism"],
 				"quote": "如果我参与造物，我会提出一些有用的建议使宇宙秩序更加和谐。\n——纳尔逊·艾格林",
-				"uniques": ["[2] free [Unit_Envoy] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear"]
 			},
 			{
 				"name": "Civic_Urbanization",
@@ -662,7 +662,7 @@
 				"row": 14,
 				"prerequisites": ["Civic_Nationalism"],
 				"quote": "战争就是地狱。\n——威廉·特库姆塞·谢尔曼",
-				"uniques": ["[2] free [Unit_Envoy] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear"]
 			}
 		]
 	},
@@ -706,7 +706,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Natural history"],
 				"quote": "水和空气这两样生活必须品已变成全球垃圾桶了。\n——雅克·伊夫·库斯托",
-				"uniques": ["[3] free [Unit_Envoy] units appear"]
+				"uniques": ["[3] free [Unit_Envoy2] units appear"]
 			},
 			{
 				"name": "Civic_Mass media",
@@ -1031,7 +1031,7 @@
 				"row": 11,
 				"prerequisites": ["Civic_Environmentalism","Civic_Globalization"],
 				"quote": "司法是国家中人民之间的纽带，司法的施行即为对公正的裁定，这是政治社会长治久安的基本原则。\n——亚里士多德",
-				"uniques": ["[3] free [Unit_Envoy] units appear","Provides [1] [Resource_Governor title]"]
+				"uniques": ["[3] free [Unit_Envoy2] units appear","Provides [1] [Resource_Governor title]"]
 			},
 			{
 				"name": "Civic_Political adventures",
@@ -1109,7 +1109,7 @@
 				"row": 10,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "将这恶人紧锁在尖锐的岩石上，\n永生不得释放。\n——埃斯库罗斯",
-				"uniques": ["[3] free [Unit_Envoy] units appear","Provides [1] [Resource_Diplomatic favor]"]
+				"uniques": ["[3] free [Unit_Envoy2] units appear","Provides [1] [Resource_Diplomatic favor]"]
 			},
 			{
 				"name": "Civic_Smart power foctrine",

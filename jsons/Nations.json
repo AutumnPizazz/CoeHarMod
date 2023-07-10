@@ -39,7 +39,8 @@
 	
 		"uniqueName": "Jeong",
 		"uniques": ["[+3]% [Science] from every [Building_Classification_Governor]",
-			"[+3]% [Culture] from every [Building_Classification_Governor]"],
+			"[+3]% [Culture] from every [Building_Classification_Governor]",
+			"Provides [20] [Resource_Influence]"],
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
@@ -49,14 +50,14 @@
 		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
 		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
 		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
-		"introduction": "Greetings, fellow leaders. I am [Sejong the Great], ruler of the mighty Korean Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of innovation, wisdom and culture, and we value knowledge and education as much as we do our military strength.",
+		"introduction": "Greetings, fellow leaders. I am Queen Seondeok, ruler of the mighty Korean Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of innovation, wisdom and culture, and we value knowledge and education as much as we do our military strength.",
 	
 		"neutralHello": "Greetings. What can we do for you today?",
 		"hateHello": "What do you want? We have no time for your petty disputes.",
 	
 		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
 	},
-	{//朱棣
+	{//明朝
 		"name": "Nation_Ming",
 		"leaderName": "Emperor Zhu Di",
 		"adjective": ["Ming"],
@@ -80,6 +81,35 @@
 		"hateHello": "What do you want? We have no time for your petty disputes.",
 	
 		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+	},
+	{//高卢
+		"name": "Nation_Gaul",
+		"leaderName": "Ambiorix",
+		"adjective": ["Gaulish"],
+		"outerColor": [139, 69, 19],
+		"innerColor": [255, 153, 51],
+		"uniqueName": "Halltarstadt",
+		"uniques": ["[+1 Culture] from every [Improvement_Mine]",
+		"[-200]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
+		"[-200]% Production when constructing [Building_Classification_Theater_Square_District] buildings [in all cities]",
+		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Melee_Infantry] unit>",
+		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Ranged_Infantry] unit>",
+		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Anti_Cavalry] unit>"],
+		
+		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
+		
+		"startIntroPart1": "Welcome to the world of Civilization! As the great Ambiorix, you must protect your people and their way of life from foreign invaders. With the power of the Druidic Circle at your command, you can harness the power of nature to defend your lands and spread your influence.",
+		"startIntroPart2": "The Gaul is known for its fierce warriors, rich culture, and deep connection to nature. As Vercingetorix, you must use your military might and the diplomatic skill to protect your people and expand your borders.",
+		
+		"declaringWar": "We cannot stand idly by while you threaten our lands and our people. Prepare for war!",
+		"attacked": "You have made a grave mistake in attacking us. We will defend our lands and our people to the last man.",
+		"defeated": "Our people may have been defeated, but our spirit remains unbroken. We will rise again to defend our way of life.",
+		"introduction": "Greetings, fellow leaders. I am Vercingetorix, leader of the Gaulish people. We are a proud and resilient people, with a rich culture and a deep connection to the natural world. We value our independence and will defend our lands and our people from any threat.",
+		
+		"neutralHello": "Greetings. What brings you to our lands?",
+		"hateHello": "We have no patience for your aggression. Leave our lands at once.",
+		
+		"tradeRequest": "We would be willing to consider a trade deal that benefits both our peoples."
 	},
 	{
 		"name": "白板1号",

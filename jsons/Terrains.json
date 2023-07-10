@@ -227,7 +227,16 @@
 					"Considered [Food] when determining start locations <in [Landform_Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Improvement_Encampment"}]
+		"civilopediaText": [
+			{
+				"text":"A Camp can be built here without cutting it down",
+				"link":"Improvement/Improvement_Encampment"
+			},
+			{
+				"text":"A Plantation can be built here without cutting it down",
+				"link":"Improvement/Improvement_Plantation"
+			}
+		]
 	},
 	{//雨林
 		"name": "Landform_Rainforest",

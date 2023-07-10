@@ -7,12 +7,12 @@
         "[-60]% growth [in all cities] <when between [-8] and [-7] Happiness>",
         "[-75]% growth [in all cities] <when between [-10] and [-9] Happiness>",
         "[-90]% growth [in all cities] <when between [-12] and [-11] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-12] Happiness>",
-        "[-40]% [Production] [in all cities] <when below [-10] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-12] Happiness>",//以上都是宜居度对人口增长的影响
+        "[-40]% [Production] [in all cities] <when below [-10] Happiness>",//宜居度过低降低生产力
         "[-10]% Strength <for [Military] units> <when below [-4] Happiness>",
-        "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",
-        "Cannot build [Unit_Settler] units <when below [-11] Happiness>",
-        "Rebel units may spawn <when below [-15] Happiness>",
+        "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",//宜居度过低降低军队战斗力
+        "Cannot build [Unit_Settler] units <when below [-11] Happiness>",//宜居度过低禁止移民
+        "Rebel units may spawn <when below [-15] Happiness>",//宜居度过低会产生叛军
 		"[-100]% Strength for cities <when attacking>",//取消城市攻击
 		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
 		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
@@ -21,7 +21,7 @@
         "[-1 Gold] from every [River]",//删除河流给钱
         "[-100]% [Food] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% [Production] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
-        "[-100]% to Flank Attack bonuses <for [Military] units>",//取消夹击加成
+        "[-100]% to Flank Attack bonuses <for [Military] units> <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities]",//允许买使者
         "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
     ]

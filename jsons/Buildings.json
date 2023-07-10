@@ -1609,7 +1609,7 @@
     },
 
     /*工业区区域建筑*/
-    {
+    {//工业区地标
 		"name": "Building_Industrial_Zone_Unique",
 		"cost": 44,
 		"maintenance": 1,
@@ -1617,6 +1617,22 @@
 		"specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": ["Unsellable",
+		"Cost increases by [8] per owned city",
+        "Creates a [District_Industrial_Zone] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Cannot be purchased"]
+	},
+    {//高卢-奥皮杜姆
+		"name": "Building_Oppidum",
+        "replaces":"Building_Industrial_Zone_Unique",
+        "uniqueTo":"Nation_Gaul",
+		"cost": 44,
+		"maintenance": 1,
+		"requiredTech": "Tech_Apprentices",
+		"specialistSlots": {"Specialist_Engineer": 2},
+		"greatPersonPoints": {"GreatPerson_Class_Engineer": 2},
+		"uniques": ["[+1 Production] from [Improvement_Quarry] tiles [in this city]",
+        "Unsellable",
 		"Cost increases by [8] per owned city",
         "Creates a [District_Industrial_Zone] improvement on a specific tile",
         "Building_Classification_District_Unique",
@@ -1817,7 +1833,7 @@
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
-    {
+    {//兵营
         "name":"Building_Barracks",
         "cost":80,
         "production":1,
@@ -1837,7 +1853,7 @@
         "Building_Classification_Military_Encampment_District",
 		"Unsellable"]
     },
-    {
+    {//马厩
         "name":"Building_Stable",
         "cost":110,
         "production":1,
@@ -1852,7 +1868,7 @@
         "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
-        "Only available <in cities without a [Building_Stable]>",
+        "Only available <in cities without a [Building_Barracks]>",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
 		"Unsellable"]

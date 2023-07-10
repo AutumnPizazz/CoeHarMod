@@ -178,7 +178,7 @@
 		"name": "Unit_Oil_Well",
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
-		"requiredTech":"Tech_Build",
+		"requiredTech":"Tech_Refining",
 		"uniques": ["Can instantly construct a [Improvement_Oil_Well] improvement <[2] times>",
 			"Can instantly construct a [Improvement_Oil_Well] improvement <by consuming this unit>",
 			"Unit_Class_Builder",
@@ -239,6 +239,13 @@
 		"movement":4,
 		"uniques":["Unbuildable",
 		"Instantly consumes [40] [Resource_Influence]",
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"]
+	},
+	{
+		"name":"Unit_Envoy2",
+		"unitType":"Unit_Type_Civilian",
+		"movement":4,
+		"uniques":["Unbuildable",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"]
 	},
 
@@ -347,6 +354,28 @@
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["Era_Ancient"]
+	},
+	{//高卢-高卢枪佣兵
+		"name":"Unit_Gallic_gun_mercenary",
+		"replaces":"Unit_Warrior",
+		"uniqueTo":"Nation_Gaul",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":100,//20
+		"movement":2,
+		"cost":50,
+		"upgradesTo":"Unit_Swordsman",
+		"obsoleteTech": "Tech_Alchemy",
+		"uniques":["[+51]% Strength <vs [Era_Classical] units>",
+		"[+51]% Strength <vs [Era_Medieval] units>",
+		"[+51]% Strength <vs [Era_Renaissance] units>",
+		"[+51]% Strength <vs [Era_Industrial] units>",
+		"[+51]% Strength <vs [Era_Modern] units>",
+		"[+51]% Strength <vs [Era_Atomic] units>",
+		"[+51]% Strength <vs [Era_Information] units>",
+		"[+51]% Strength <vs [Era_Near-future] units>",
+		"[+51]% Strength <vs [Era_Far-future] units>",
+		"Era_Ancient"],
+		"replacementTextForUniques":"+51% combat power against more advanced era units"
 	},
 	{//剑客
 		"name":"Unit_Swordsman",
