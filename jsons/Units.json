@@ -145,7 +145,7 @@
 		"name": "Unit_Plantation_Worker",
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
-		"requiredTech":"Tech_Animal husbandry",
+		"requiredTech":"Tech_Irrigation",
 		"uniques": ["Can instantly construct a [Improvement_Plantation] improvement <[2] times>",
 			"Can instantly construct a [Improvement_Plantation] improvement <by consuming this unit>",
 			"Unit_Class_Builder",

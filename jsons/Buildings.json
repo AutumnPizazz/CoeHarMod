@@ -1437,7 +1437,7 @@
         "culture":4,
         "requiredBuilding":"Building_Amphitheater",
         "requiredTech":"Civic_Humanism",
-        "cannotBeBuiltWith":"Building_Archaeological_Museum",
+//        "cannotBeBuiltWith":"Building_Archaeological_Museum",
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": [
@@ -1451,7 +1451,7 @@
         "cost":280,
         "requiredBuilding":"Building_Amphitheater",
         "requiredTech":"Civic_Humanism",
-        "cannotBeBuiltWith":"Building_Art_Museum",
+//        "cannotBeBuiltWith":"Building_Art_Museum",
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": ["Gain [135] [Culture]",
@@ -1490,10 +1490,11 @@
         "maintenance": 1,
         "happiness":1,
         "requiredTech": "Civic_Games and entertainment",
-        "cannotBeBuiltWith":"Building_Aquatics_Complex_Unique",
+//        "cannotBeBuiltWith":"Building_Aquatics_Complex_Unique",
         "uniques": ["Unsellable",
         "Cost increases by [8] per owned city",
         "Creates a [District_Entertainment_Complex] improvement on a specific tile",
+        "Only available <in cities without a [Building_Aquatics_Complex_Unique]>",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
     },
@@ -1551,11 +1552,12 @@
         "maintenance": 1,
         "happiness":1,
         "requiredTech": "Civic_Natural history",
-        "cannotBeBuiltWith":"Building_Entertainment_Complex_Unique",
+//        "cannotBeBuiltWith":"Building_Entertainment_Complex_Unique",
         "uniques": ["Unsellable",
         "Must be next to [Coast]",
         "Cost increases by [8] per owned city",
         "Creates a [District_Water_Park] improvement on a specific tile",
+        "Only available <in cities without a [Building_Entertainment_Complex_Unique]>",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
     },
@@ -1822,7 +1824,7 @@
         "maintenance":1,
         "requiredTech":"Tech_Copper casting",
         "requiredBuilding":"Building_Military_Encampment_Unique",
-        "cannotBeBuiltWith":"Building_Stable",
+//        "cannotBeBuiltWith":"Building_Stable",未知原因不生效
 		"specialistSlots": {"Specialist_Army logistics": 1},
 		"greatPersonPoints": {"GreatPerson_Class_General": 1},
 		"uniques": [
@@ -1830,6 +1832,7 @@
         "All newly-trained [Unit_Type_Melee_Infantry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Anti_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Ranged_Infantry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
+        "Only available <in cities without a [Building_Stable]>",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
 		"Unsellable"]
@@ -1841,7 +1844,7 @@
         "maintenance":1,
         "requiredTech":"Tech_Horseback riding",
         "requiredBuilding":"Building_Military_Encampment_Unique",
-        "cannotBeBuiltWith":"Building_Barracks",
+//        "cannotBeBuiltWith":"Building_Barracks",
 		"specialistSlots": {"Specialist_Army logistics": 1},
 		"greatPersonPoints": {"GreatPerson_Class_General": 1},
 		"uniques": [
@@ -1849,6 +1852,7 @@
         "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
+        "Only available <in cities without a [Building_Stable]>",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
 		"Unsellable"]
@@ -1890,10 +1894,11 @@
 		"cost":1,
 		"requiredBuilding": "Building_Military_Academy",
 		"requiredTech": "Civic_Nationalism",
-        "cannotBeBuiltWith":"Building_Military_Academy_Army_Training",
+//        "cannotBeBuiltWith":"Building_Military_Academy_Army_Training",
 		"uniques": [
         "[-40]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
+        "Only available <in cities without a [Building_Military_Academy_Army_Training]>",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐] promotion"
         ]
 	},
@@ -1902,10 +1907,11 @@
 		"cost":1,
 		"requiredBuilding": "Building_Military_Academy",
 		"requiredTech": "Civic_Mobilization",
-        "cannotBeBuiltWith":"Building_Military_Academy_Corps_Training",
+//        "cannotBeBuiltWith":"Building_Military_Academy_Corps_Training",
 		"uniques": [
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
+        "Only available <in cities without a [Building_Military_Academy_Corps_Training]>",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐⭐] promotion"
         ]
 	},
@@ -1982,11 +1988,12 @@
 		"cost":1,
 		"requiredBuilding": "Building_Dock",
 		"requiredTech": "Civic_Nationalism",
-        "cannotBeBuiltWith":"Building_Invincible_Armada_Naval_Yard",
+//        "cannotBeBuiltWith":"Building_Invincible_Armada_Naval_Yard",
 		"uniques": [
         "[-40]% Production when constructing [{Military} {Water}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
-        "All newly-trained [{Military} {Water}] units [in this city] receive the [⭐⭐] promotion"
+        "All newly-trained [{Military} {Water}] units [in this city] receive the [⭐⭐] promotion",
+        "Only available <in cities without a [Building_Invincible_Armada_Naval_Yard]>"
         ]
 	},
 	{
@@ -1994,11 +2001,12 @@
 		"cost":1,
 		"requiredBuilding": "Building_Dock",
 		"requiredTech": "Civic_Mobilization",
-        "cannotBeBuiltWith":"Building_Naval_Yard",
+//        "cannotBeBuiltWith":"Building_Naval_Yard",
 		"uniques": [
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
-        "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐⭐] promotion"
+        "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐⭐] promotion",
+        "Only available <in cities without a [Building_Naval_Yard]>"
         ]
 	},
 
