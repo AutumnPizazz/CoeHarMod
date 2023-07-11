@@ -763,6 +763,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [1] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -770,6 +771,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [4] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -777,6 +779,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [7] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -784,6 +787,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [10] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -791,6 +795,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [13] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -798,6 +803,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [16] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -805,6 +811,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [19] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -812,6 +819,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [22] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -819,6 +827,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [25] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -826,6 +835,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [28] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -833,6 +843,7 @@
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [31] [Population]>",
+        "Destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{

@@ -327,7 +327,7 @@
 		"name": "Resource_district_limitation",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	
 	//奢侈品资源
