@@ -274,7 +274,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Resource_Trade route capacity",
@@ -288,40 +288,46 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Resource_Economic policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Resource_Diplomatic policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Resource_Generic policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Resource_Government reform progress",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Resource_Influence",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Resource_district_limitation",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"]
 	},
 	
 	//奢侈品资源

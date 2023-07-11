@@ -118,7 +118,7 @@
 		"outerColor": [255, 215, 0],
 		"innerColor": [139, 0, 0],
 		"uniqueName": "Freie Reichsstadt",
-		"uniques": ["[+1 Production] from every [Building_Classification_Industrial_Zone_District]"],
+		"uniques": ["[+35]% Production when constructing [Building_Classification_Industrial_Zone_District] buildings [in all cities]"],
 
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
 			

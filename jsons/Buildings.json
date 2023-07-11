@@ -759,6 +759,83 @@
         "uniques": ["Indicates the capital city"]
     },
 	{
+		"name": "Building_district_limitation1",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [1] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation2",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [4] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation3",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [7] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation3",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [10] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation4",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [13] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation5",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [16] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation6",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [19] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation7",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [22] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation8",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [25] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation9",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [28] [Population]>",
+		"Unsellable"]
+	},
+	{
+		"name": "Building_district_limitation10",
+		"cost": 0,
+		"uniques": ["Provides [1] [Resource_district_limitation]",
+        "Only available <in cities with at least [31] [Population]>",
+		"Unsellable"]
+	},
+	{
 		"name": "Building_Monument",
 		"culture": 2,
 		"cost": 50,
@@ -877,6 +954,7 @@
 		"name": "Building_Government_Plaza_Unique",
 		"cost": 20,
 		"maintenance": 1,
+        "requiredResource":"Resource_district_limitation",
 		"requiredTech": "Civic_National labor force",
 		"uniques": ["Unsellable",
         "Provides [1] [Resource_Governor title]",
@@ -1047,6 +1125,7 @@
         "cost":20,
         "maintenance":1,
         "requiredTech":"Tech_Math",
+        "requiredResource":"Resource_district_limitation",
         "uniques":["Cost increases by [8] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
@@ -1086,6 +1165,7 @@
 		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Astrology",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["Cost increases by [8] per owned city",
@@ -1245,6 +1325,7 @@
 		"cost": 0,
 		"faith": 3,
         "requiredBuilding": "Building_Temple",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["[+1 Faith] from [Landform_Volcanic soil] tiles [in this city]",
@@ -1262,6 +1343,7 @@
 		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Writing",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
@@ -1277,6 +1359,7 @@
 		"cost": 22,
 		"maintenance": 1,
 		"requiredTech": "Tech_Writing",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
@@ -1343,6 +1426,7 @@
 		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Currency",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Merchant": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": ["Unsellable",
@@ -1406,6 +1490,7 @@
         "cost": 44,
         "maintenance": 1,
         "requiredTech": "Civic_Drama and poetry",
+        "requiredResource":"Resource_district_limitation",
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": ["Unsellable",
@@ -1486,6 +1571,7 @@
         "maintenance": 1,
         "happiness":1,
         "requiredTech": "Civic_Games and entertainment",
+        "requiredResource":"Resource_district_limitation",
 //        "cannotBeBuiltWith":"Building_Aquatics_Complex_Unique",
         "uniques": ["Unsellable",
         "Cost increases by [8] per owned city",
@@ -1548,6 +1634,7 @@
         "maintenance": 1,
         "happiness":1,
         "requiredTech": "Civic_Natural history",
+        "requiredResource":"Resource_district_limitation",
 //        "cannotBeBuiltWith":"Building_Entertainment_Complex_Unique",
         "uniques": ["Unsellable",
         "Must be next to [Coast]",
@@ -1611,6 +1698,7 @@
 		"maintenance": 1,
 		"requiredTech": "Tech_Apprentices",
 		"specialistSlots": {"Specialist_Engineer": 1},
+        "requiredResource":"Resource_district_limitation",
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": ["Unsellable",
 		"Cost increases by [8] per owned city",
@@ -1625,6 +1713,7 @@
 		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Alchemy",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Engineer": 2},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 2},
 		"uniques": ["[+1 Production] from [Improvement_Quarry] tiles [in this city]",
@@ -1837,6 +1926,7 @@
 		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Copper casting",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Army logistics": 1},
 		"greatPersonPoints": {"GreatPerson_Class_General": 1},
 		"uniques": ["Unsellable",
@@ -1950,6 +2040,7 @@
 		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Astronomical navigation",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Army logistics": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Admiral": 1},
 		"uniques": [

@@ -624,7 +624,7 @@
 	{
 		"name":"Unit_Horseman",
 		"unitType":"Unit_Type_Light_Cavalry",
-		"strength":186,//36
+		"strength":194,//36
 		"movement":4,
 		"cost":80,
 		"upgradesTo":"Unit_Horse_Archer",
