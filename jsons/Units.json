@@ -382,7 +382,7 @@
 	{//剑客
 		"name":"Unit_Swordsman",
 		"unitType":"Unit_Type_Melee_Infantry",
-		"strength":151,//35
+		"strength":186,//35
 		"movement":2,
 		"cost":90,
 		"upgradesTo":"Unit_Hoplite",
