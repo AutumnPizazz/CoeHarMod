@@ -83,14 +83,12 @@
         {
             "name": "Pantheon_Goddess of festivals",
             "type": "Pantheon",
-            "uniques": ["[+1 Science] from every [Improvement_Plantation]",
-            "[+1 Culture] from every [Improvement_Plantation] <after discovering [Civic_Drama and poetry]>"]
+            "uniques": ["[+1 Culture] from every [Improvement_Plantation]"]
         },
         {
             "name": "Pantheon_Sky god",
             "type": "Pantheon",
-            "uniques": ["[+1 Science] from every [Improvement_Pasture]",
-            "[+1 Culture] from every [Improvement_Pasture] <after discovering [Civic_Drama and poetry]>"]
+            "uniques": ["[+1 Culture] from every [Improvement_Pasture]"]
         },
         {
             "name": "Pantheon_Lady of the reeds and marshes",
@@ -117,7 +115,7 @@
         {
             "name": "Pantheon_Stone circle",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith, +1 Production] from every [Improvement_Quarry]",
+            "uniques": ["[+1 Production] from every [Improvement_Quarry]",
             "[+1 Faith] from every [Improvement_Quarry] <after discovering [Tech_Apprentices]>"]
         },
         {
