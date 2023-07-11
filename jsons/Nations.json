@@ -13,7 +13,7 @@
 		"innerColor": [255, 215, 0],
 
 		"uniqueName": "Roman Legions",
-		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities] <after [6] turns>",
+		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities] <after [4] turns>",
 		"[-50]% tile improvement construction time"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
@@ -65,7 +65,11 @@
 		"innerColor": [255, 255, 255],
 
 		"uniqueName": "Lijia",
-		"uniques": ["[15]% Food is carried over after population increases [in all cities]"],
+		"uniqueText":"Feature projects are allowed to convert capacity into faith and money in a 2:1 ratio",
+		"uniques": ["Enables conversion of city production to [Faith]",
+		"Production to [Faith] conversion in cities changed by [100]%",
+		"Enables conversion of city production to [Gold]",
+		"Production to [Gold] conversion in cities changed by [100]%"],
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	
