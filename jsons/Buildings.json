@@ -466,7 +466,7 @@
     {
 	    "name": "Governor_Victor_I",
 		"cost": 1,
-        "cityStrength":30,
+        "cityStrength":50,
 		"requiredResource": "Resource_Governor title",
 		"uniques":[
             "Unsellable",
@@ -535,7 +535,6 @@
     {
 	    "name": "Governor_Pingala_I",
 		"cost": 1,
-        "cityStrength":30,
         "percentStatBonus":{
             "science":8,
             "culture":6

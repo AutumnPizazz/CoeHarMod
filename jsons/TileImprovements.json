@@ -49,7 +49,9 @@
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Faith] for each adjacent [Mountain]",
-			"[+1 Faith] for each adjacent [Landform_Forest]",
+			"[+1 Faith] <with [2] to [3] neighboring [Landform_Forest] tiles>",
+			"[+2 Faith] <with [4] to [5] neighboring [Landform_Forest] tiles>",
+			"[+3 Faith] <with [6] to [7] neighboring [Landform_Forest] tiles>",
 			"[+1 Faith] for each adjacent [District_Government_Plaza]",
 			"[+2 Faith] for each adjacent [Natural Wonder]",
 			"Removes removable features when built",
@@ -69,7 +71,9 @@
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Mountain]",
-			"[+1 Science] for each adjacent [Landform_Rainforest]",
+			"[+1 Science] <with [2] to [3] neighboring [Landform_Rainforest] tiles>",
+			"[+2 Science] <with [4] to [5] neighboring [Landform_Rainforest] tiles>",
+			"[+3 Science] <with [6] to [7] neighboring [Landform_Rainforest] tiles>",
 			"[+1 Science] for each adjacent [District_Government_Plaza]",
 			"[+2 Science] for each adjacent [Landform_Reef]",
 			"[+2 Science] for each adjacent [Naturalwonder_Great_Barrier_Reef]",
@@ -87,6 +91,7 @@
 		"production":-10,
 		"gold":-10,
 		"science":-10,
+		"culture":2,
 		"faith":-10,
 		"happiness":-10,
 		"uniques": ["Great Improvement",
@@ -112,7 +117,7 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"[+1 Gold] for each adjacent [River]",
+					"[+3 Gold] <with [1] to [6] neighboring [River] tiles>",
 					"[+2 Gold] for each adjacent [District_Harbor]",
 					"[+1 Gold] for each adjacent [District_Government_Plaza]",
 					"Removes removable features when built",
@@ -131,6 +136,9 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
+					"[+1 Production] <with [2] to [3] neighboring [Class_Industrials] tiles>",
+					"[+2 Production] <with [4] to [5] neighboring [Class_Industrials] tiles>",
+					"[+3 Production] <with [6] to [7] neighboring [Class_Industrials] tiles>",
 					"[+1 Production] for each adjacent [Improvement_Quarry]",
 					"[+1 Production] for each adjacent [Improvement_Mine]",
 					"[+1 Production] for each adjacent [Improvement_Lumber_Mill]",
@@ -282,6 +290,7 @@
 		"[+1 Production] <after discovering [Tech_Industrialization]>",
 		"[+1 Production] <after discovering [Tech_Smart materials]>",
 		"Pillaging this improvement yields approximately [+25 Gold]",
+		"Class_Industrials",
 		"Class_Usual_Improvement"]
 	},
 	{//人工养殖林
@@ -382,6 +391,7 @@
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
+		"Class_Industrials",
 		"Class_Usual_Improvement"]
 	},
 	{//渔船
@@ -468,12 +478,12 @@
 
 	// These are unique and have unique in-game checks related to them
 	{//拆毁道路
-		"name": "Remove Improvement_Road",
+		"name": "Remove Road",
 		"turnsToBuild": 2,
 		"uniques": ["Can be built outside your borders"]
 	},
 	{//拆毁铁路
-		"name": "Remove Improvement_Railroad",
+		"name": "Remove Railroad",
 		"turnsToBuild": 2,
 		"uniques": ["Can be built outside your borders"]
 	},
