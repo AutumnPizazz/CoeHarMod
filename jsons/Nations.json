@@ -13,7 +13,8 @@
 		"innerColor": [255, 215, 0],
 
 		"uniqueName": "Roman Legions",
-		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities] <after [8] turns>"], 
+		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities] <after [6] turns>",
+		"[-50]% tile improvement construction time"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
 	
@@ -37,7 +38,7 @@
 		"outerColor": [0, 104, 183],
 		"innerColor": [255, 255, 255],
 	
-		"uniqueName": "Jeong",
+		"uniqueName": "Hwarang",
 		"uniques": ["[+3]% [Science] from every [Building_Classification_Governor]",
 			"[+3]% [Culture] from every [Building_Classification_Governor]"],
 
@@ -88,8 +89,8 @@
 		"outerColor": [139, 69, 19],
 		"innerColor": [255, 153, 51],
 		"uniqueName": "Halltarstadt",
-		"uniques": ["[+1 Culture] from every [Improvement_Mine]",
-		"[-200]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
+		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
+		"[+1 Culture] from every [Improvement_Mine]",
 		"[-200]% Production when constructing [Building_Classification_Theater_Square_District] buildings [in all cities]",
 		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Melee_Infantry] unit>",
 		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Ranged_Infantry] unit>",
@@ -109,6 +110,30 @@
 		"hateHello": "We have no patience for your aggression. Leave our lands at once.",
 		
 		"tradeRequest": "We would be willing to consider a trade deal that benefits both our peoples."
+	},
+	{//神圣罗马帝国
+		"name": "Nation_Germany",
+		"leaderName": "Frederick Barbarossa",
+		"adjective": ["German"],
+		"outerColor": [255, 215, 0],
+		"innerColor": [139, 0, 0],
+		"uniqueName": "Freie Reichsstadt",
+		"uniques": ["[+1 Production] from every [Building_Classification_Industrial_Zone_District]"],
+
+		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
+			
+		"startIntroPart1": "Willkommen in der Welt von Civilization! Als der großartige Barbarossa müssen Sie Ihre Nation führen und ihr zu Ruhm und Ehre verhelfen. Mit unserer einzigartigen Fähigkeit, die Produktivität der Industrie zu steigern, können wir eine mächtige Wirtschaft aufbauen und unsere Feinde besiegen.",
+		"startIntroPart2": "Deutschland ist bekannt für seine Stärke, seine Kultur und seine Technologie. Als Barbarossa müssen Sie Ihre militärische Macht nutzen, um Ihre Feinde zu besiegen, und Ihre diplomatischen Fähigkeiten einsetzen, um Ihre Verbündeten zu stärken.",
+			
+		"declaringWar": "Ihr Angriff auf unser Land ist eine Schande und wird nicht toleriert. Wir werden uns verteidigen!",
+		"attacked": "Ihr Angriff war ein Fehler. Wir werden uns zur Wehr setzen und unser Land verteidigen!",
+		"defeated": "Wir haben eine Schlacht verloren, aber nicht den Krieg. Wir werden zurückkehren, um uns zu rächen und unsere Nation zu verteidigen.",
+		"introduction": "Guten Tag, meine Herren. Ich bin Kaiser Barbarossa, Führer des deutschen Volkes. Wir sind eine Nation von Stärke und Technologie, die für ihre wirtschaftliche Macht und militärische Stärke bekannt ist.",
+			
+		"neutralHello": "Guten Tag. Was führt Sie in unser Land?",
+		"hateHello": "Wir haben keine Geduld für Ihre Aggression. Verlassen Sie unser Land sofort.",
+			
+		"tradeRequest": "Wir sind bereit, einen Handelsvertrag abzuschließen, der beiden Nationen zugute kommt."
 	},
 	{
 		"name": "白板1号",
