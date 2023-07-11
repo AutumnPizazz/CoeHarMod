@@ -88,7 +88,8 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District"]
+			"Classification_District",
+			"Class_Campus"]
 	},
 	{//朝鲜-书院
 		"name": "Distict_Academy_of_Classical_Learning",
@@ -110,7 +111,8 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District"],
+			"Classification_District","Class_Campus"
+		],
 		"civilopediaText":[
 			{
 				"text":"+1 Science for each adjacent Mine",
@@ -192,7 +194,8 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Industrial_Zone"]
 	},
 	{//神罗-商业同业公会
 		"name": "District_Commercial_Association",
@@ -218,7 +221,8 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Industrial_Zone"]
 	},
 	{//宇航中心
 		"name": "District_Spaceport",
