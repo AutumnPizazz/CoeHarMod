@@ -404,6 +404,10 @@
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["Can instantly construct a [Improvement_RomeFort] improvement <[1] times>",
 			"[+13]% Strength <when defending> <in [Improvement_RomeFort] tiles>",
+			"Can build [Remove Landform_Forest] improvements on tiles",
+			"Can build [Remove Landform_Rainforest] improvements on tiles",
+			"Can build [Remove Landform_Nuclear fallout] improvements on tiles",
+			"Can build [Remove Landform_Swamp] improvements on tiles",
 			"Instantly consumes [12] [Resource_Iron]",
 			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
 	},
