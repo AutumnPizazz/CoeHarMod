@@ -719,7 +719,8 @@
 		"upgradesTo":"Unit_Modern_Armor",
 		"requiredTech": "Tech_Internal combustion engine",
 		"obsoleteTech": "Tech_Composite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]",
+		"[-64]% Strength <when below [0] [Resource_Oil]>","Era_Modern"]
 	},
 	{
 		"name":"Unit_Modern_Armor",
