@@ -68,5 +68,16 @@
             "Build [Building_Utopia_Project]",
             "Become the world religion"
         ]
+    },
+    {
+        "name":"VictoryType_Landlords",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+            "Build [Building_Spaceport_Unique]",
+            "Add all [Spaceship part] in capital",
+            "Complete [2] Policy branches",
+            "Build [Artificialwonder_I_am_the_Landlords]",
+            "Become the world religion"
+        ]
     }
 ]

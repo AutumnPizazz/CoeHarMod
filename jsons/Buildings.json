@@ -2329,6 +2329,16 @@
     },
 
     /*人造奇观*/
+	{//我就是地主!
+        "name": "Artificialwonder_I_am_the_Landlords",
+        "cost":1,
+        "isWonder": true,
+        "uniques": ["[+25]% [Production] [in all cities]",
+            "Free [Unit_Settler] appears",
+            "Hidden when [VictoryType_Landlords] Victory is disabled"],
+        "requiredTech": "Initial tech/civic_Agriculture",
+        "quote": "我即是地主!我要打两个!"
+    },
 	{//大浴场
 		"name": "Artificialwonder_The_Great_Baths_of_Caracalla",
         "cost":180,
