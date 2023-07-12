@@ -296,6 +296,13 @@ ImprovementIcons/District_Campus
   orig: 256, 256
   offset: 0, 0
   index: -1
+ImprovementIcons/Distict_BeachLandmark
+  rotate: false
+  xy: 532, 1588
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Distinct_Raceline
   rotate: false
   xy: 532, 1588
@@ -2507,6 +2514,13 @@ BuildingIcons/M_ercigongjinengli
   orig: 128, 128
   offset: 0, 0
   index: -1
+BuildingIcons/M_fengjianqiyue
+  rotate: false
+  xy: 1474, 1640
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 BuildingIcons/M_gonghai
   rotate: false
   xy: 1474, 1640
@@ -4221,6 +4235,13 @@ TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Campus
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Distict_BeachLandmark
+  rotate: false
+  xy: 150, 273
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Distinct_Raceline
   rotate: false
   xy: 150, 273
@@ -5860,6 +5881,13 @@ UnitIcons/Unit_SpecOps
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Submarine
+  rotate: false
+  xy: 328, 907
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_U_Boat
   rotate: false
   xy: 328, 907
   size: 100, 100

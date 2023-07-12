@@ -914,7 +914,7 @@
 		"obsoleteTech": "Tech_Electricity",
 		"uniques":["Era_Renaissance"]
 	},
-	{
+	{//潜艇
 		"name":"Unit_Submarine",
 		"unitType":"Unit_Type_Naval_Attacker",
 		"strength":615,//65
@@ -927,6 +927,23 @@
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
 		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern"]
+	},
+	{//神罗-u艇
+		"name":"Unit_U_Boat",
+		"replaces":"Unit_Submarine",
+		"uniqueTo":"Nation_Germany",
+		"unitType":"Unit_Type_Naval_Attacker",
+		"strength":615,//65
+		"rangedStrength":928,//75
+		"range":2,
+		"movement":4,
+		"cost":360,
+		"requiredResource":"Resource_Oil",
+		"upgradesTo":"Unit_Nuclear_Submarine",
+		"requiredTech": "Tech_Electricity",
+		"obsoleteTech": "Tech_Telecommunication",
+		"uniques":["[+51]% Strength <when fighting in [Ocean] tiles>",
+		"Instantly consumes [1] [Resource_Oil]","Era_Modern"]
 	},
 	{
 		"name":"Unit_Nuclear_Submarine",

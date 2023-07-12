@@ -60,7 +60,8 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District"]
+			"Classification_District",
+			"Class_Holy_Site"]
 	},
 	{//学院
 		"name": "District_Campus",
@@ -93,7 +94,6 @@
 	},
 	{//朝鲜-书院
 		"name": "Distict_Academy_of_Classical_Learning",
-		"uniqueTo":"Nation_Korea",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
 		"food": -10,
 		"production":-10,
@@ -146,7 +146,8 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District"]
+			"Classification_District",
+			"Class_Theater_Square"]
 	},
 	{//商业中心
 		"name": "District_Commercial_Hub",
@@ -169,7 +170,8 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Commercial_Hub"]
 	},
 	{//工业区
 		"name": "District_Industrial_Zone",
@@ -199,7 +201,6 @@
 	},
 	{//神罗-商业同业公会
 		"name": "District_Commercial_Association",
-		"uniqueTo":"Nation_Germany",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
 		"food": -10,
 		"gold":-10,
@@ -258,7 +259,8 @@
 					"Irremovable",
 					"Removes removable features when built",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Entertainment_Complex"]
 	},
 	{//水上乐园
 		"name": "District_Water_Park",
@@ -276,7 +278,8 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Water_Park"]
 	},
 	{//港口
 		"name": "District_Harbor",
@@ -297,7 +300,8 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Harbor"]
 	},
 	{//军营
 		"name": "District_Army",
@@ -315,7 +319,8 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Army"]
 	},
 	{//水渠
 		"name": "Distinct_Raceline",
@@ -327,13 +332,34 @@
 		"culture":-10,
 		"faith":-10,
 		"uniques": ["Great Improvement",
-					"Can only be built on [River] tiles",
+					"Can only be built on [Fresh water] tiles",
 					"Tile provides yield without assigned population",
 					"Removes removable features when built",
 					"Irremovable",
 					"[+4 Happiness] for each adjacent [Naturalwonder_Hukou_Waterfall]",
 					"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Classification_District",
+					"Class_Raceline"]
+	},
+	{//罗马-浴场
+		"name": "Distict_BeachLandmark",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"uniques": ["Great Improvement",
+					"Can only be built on [Fresh water] tiles",
+					"Tile provides yield without assigned population",
+					"Removes removable features when built",
+					"Irremovable",
+					"[+4 Happiness] for each adjacent [Naturalwonder_Hukou_Waterfall]",
+					"[+2 Happiness] for each adjacent [Landform_Geothermal fissure]",
+					"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District",
+					"Class_Raceline"]
 	},
 	
 	/*全文明通用改良*/
@@ -490,7 +516,6 @@
 	//军事设施
 	{//罗马-罗马堡垒
 		"name": "Improvement_RomeFort",
-		"uniqueTo":"Nation_Rome",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
 		"techRequired": "Tech_Alchemy",
 		"uniques": ["Can be built outside your borders",
