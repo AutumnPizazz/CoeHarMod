@@ -2334,7 +2334,7 @@
         "cost":1,
         "isWonder": true,
         "uniques": ["[+25]% [Production] [in all cities]",
-            "[+100]% [Gold] [in all cities]",
+            "[+50]% [Gold] [in all cities]",
             "Free [Unit_Settler] appears",
             "Hidden when [VictoryType_Landlords] Victory is disabled"],
         "requiredTech": "Initial tech/civic_Agriculture",
@@ -2976,6 +2976,7 @@
     
 
     /*政策卡*/
+    //军事政策卡
     {//军事-纪律(反蛮子卡)
         "name":"M_jilv",
         "cost":0,
@@ -3000,44 +3001,6 @@
         "requiredTech":"Civic_Code"
     },
     {
-        "name":"E_junzhuchongbai",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "gold":1,
-        "faith":2,
-        "uniques":[
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Theology]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Code"
-    },
-    {
-        "name":"E_chengshiguihua",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Production] [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Enlightenment]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Code"
-    },
-    {
-        "name":"E_fuyi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Feudalism]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Skill"
-    },
-    {
         "name":"M_sibadajiaoyu",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3053,18 +3016,6 @@
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
         "requiredTech":"Civic_Skill"
-    },
-    {
-        "name":"E_shangduilvguan",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+2 Gold] from each Trade Route",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Mercantilism]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Basic trade"
     },
     {
         "name":"M_haiyunye",
@@ -3094,31 +3045,6 @@
         "requiredTech":"Civic_Military tradition"
     },
     {
-        "name":"G_jiangjun",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_General":2},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Scorched earth strategy]>",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Military tradition"
-    },
-    {
-        "name":"E_qiangpolaoyi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Divin right of Kings]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_National labor force"
-    },
-    {
         "name":"M_zhengbing",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3132,29 +3058,6 @@
         "requiredTech":"Civic_National labor force"
     },
     {
-        "name":"E_tudiceliangyuan",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Scorched earth strategy]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Early Empire"
-    },
-    {
-        "name":"E_zhimin",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+50]% Production when constructing [Unit_Settler] units [in all cities]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Scorched earth strategy]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Early Empire"
-    },
-    {
         "name":"M_bianfangjun",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3166,67 +3069,6 @@
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
         "requiredTech":"Civic_Early Empire"
-    },
-    {
-        "name":"G_guwu",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Scientist":2},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Nuclear program]>",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Mysticism"
-    },
-    {
-        "name":"G_qishi",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Prophet":2},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":[
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before founding a religion>",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Mysticism"
-    },
-    {
-        "name":"E_loufang",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Food] from every [Building_Classification_District_Unique]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Medieval bazaar]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Games and entertainment"
-    },
-    {
-        "name":"D_meilixinglingxiu",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["Provides [2] [Resource_Influence]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Ideology]>",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Political philosophy"
-    },
-    {
-        "name":"G_wenxuechuantong",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Artist":2},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":[
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Drama and poetry"
     },
     {
         "name":"M_saodang",
@@ -3291,65 +3133,6 @@
         "requiredTech":"Civic_Defensive tactics"
     },
     {
-        "name":"E_ziranzhexue",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Yield from every [Class_Campus]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Ideology]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_History"
-    },
-    {
-        "name":"D_silingbu",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["[+1 Happiness] from every [Building_Classification_Governor_Level_1]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Social media]>",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_History"
-    },
-    {
-        "name":"E_jingwen",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Yield from every [Class_Holy_Site]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Theology"
-    },
-    {
-        "name":"E_haijunjichusheshi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Yield from every [Class_Harbor]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Naval tradition]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Naval tradition"
-    },
-    {
-        "name":"G_hanghai",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Admiral":2},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":[
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Naval tradition"
-    },
-    {
         "name":"M_fengjianqiyue",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3367,18 +3150,6 @@
         "requiredTech":"Civic_Feudalism"
     },
     {
-        "name":"E_nongnuzhi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+2] Movement <for [Unit_Class_Builder] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Civil engineering]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Feudalism"
-    },
-    {
         "name":"M_shicong",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3388,18 +3159,6 @@
         "Only available <before discovering [Civic_Mass media]>",
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
-        "requiredTech":"Civic_Administration"
-    },
-    {
-        "name":"E_minjianweiwang",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+2 Happiness, +3 Food, -2 Production] from every [Building_Classification_Governor_Level_1]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Mass media]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
         "requiredTech":"Civic_Administration"
     },
     {
@@ -3414,49 +3173,6 @@
         "requiredTech":"Civic_Mercenaries"
     },
     {
-        "name":"E_maoyilianmeng",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Science, +1 Culture] from each Trade Route",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Capitalism]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Mercenaries"
-    },
-    {
-        "name":"D_shangrenlianmeng",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["[+100]% [Gold] from City-States",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Medieval bazaar"
-    },
-    {
-        "name":"E_meixue",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Yield from every [Class_Theater_Square]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Professional sports]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Medieval bazaar"
-    },
-    {
-        "name":"E_gulaochengqu",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+2 Culture] <in cities with a [Building_Classification_District_Unique]>",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Right to vote]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Medieval bazaar"
-    },
-    {
         "name":"M_gongjiang",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3465,30 +3181,6 @@
         "Only available <before discovering [Civic_Ideology]>",
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
-        "requiredTech":"Civic_Thw worker's union"
-    },
-    {
-        "name":"E_chengzhentexuzhuang",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Yield from every [Class_Commercial_Hub]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Ideology]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Thw worker's union"
-    },
-    {
-        "name":"G_lvxingshangren",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Merchant":2},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":[
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Capitalism]>",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
         "requiredTech":"Civic_Thw worker's union"
     },
     {
@@ -3514,36 +3206,6 @@
         "requiredTech":"Civic_Divin right of Kings"
     },
     {
-        "name":"E_geteshijianzhu",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Medieval] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Renaissance] buildings [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Civil engineering]>",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Divin right of Kings"
-    },
-    {
-        "name":"E_geteshijianzhu",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Medieval] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Renaissance] buildings [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Civil engineering]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Divin right of Kings"
-    },
-    {
         "name":"M_qiangzhengruwu",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3561,98 +3223,6 @@
         "requiredTech":"Civic_Exploration"
     },
     {
-        "name":"E_zhimindibanshichu",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[20]% Food is carried over after population increases [in all cities connected to capital]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Exploration"
-    },
-    {
-        "name":"G_faming",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Engineer":6},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[GreatPerson_Class_Engineer] is earned [50]% faster",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Humanism"
-    },
-    {
-        "name":"G_bihua",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Artist":6},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[GreatPerson_Class_Artist] is earned [50]% faster",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Humanism"
-    },
-    {
-        "name":"D_quanshuzhuyi",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["Enemy [Unit_Spy] units must spend [3] extra movement points when inside your territory",
-        "[+1] Movement <for [Unit_Spy] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Foreigh service"
-    },
-    {
-        "name":"D_maoyiyinhang",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["[+2 Food, +2 Production] from each Trade Route",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Foreigh service"
-    },
-    {
-        "name":"M_zongjiaozhanzheng",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+18]% Strength <for [Military] units> <within [4] tiles of a [Class_Holy_Site]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Reformed church"
-    },
-    {
-        "name":"E_zongjiaojiaopai",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Spread Religion Strength <for [Unit_Missionary] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Reformed church"
-    },
-    {
-        "name":"E_gongxiangjiaotang",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Faith] from every [Building_Classification_Holy_Site_District]",
-        "[+50]% [Faith] <in cities with at least [15] [Population]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Reformed church"
-    },
-    {
         "name":"M_houqin",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3661,18 +3231,6 @@
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
-        "requiredTech":"Civic_Mercantilism"
-    },
-    {
-        "name":"E_sanjiaomaoyi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+4 Gold, +1 Faith] from each Trade Route",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Globalization]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
         "requiredTech":"Civic_Mercantilism"
     },
     {
@@ -3688,41 +3246,6 @@
         "requiredTech":"Civic_Mercantilism"
     },
     {
-        "name":"E_lixingzhuyi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Science] from every [Building_Classification_College_District]",
-        "[+50]% [Science] <in cities with at least [15] [Population]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Enlightenment"
-    },
-    {
-        "name":"E_ziyoushichang",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Gold] from every [Building_Classification_Commercial_Hub_District]",
-        "[+50]% [Gold] <in cities with at least [15] [Population]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Enlightenment"
-    },
-    {
-        "name":"E_ziyouzhuyi",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+2] Movement <for [Class_GreatPerson] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Enlightenment"
-    },
-    {
         "name":"M_bentuzhengfu",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3732,41 +3255,6 @@
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
         "requiredTech":"Civic_Colonialism"
-    },
-    {
-        "name":"D_zhimindishuishou",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["[+25]% [Gold] [in all cities connected to capital] <in cities with a [Building_Lighthouse]>",
-        "[+10]% [Production] [in all cities connected to capital] <in cities with a [Building_Lighthouse]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Colonialism"
-    },
-    {
-        "name":"E_gonggonggongcheng",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
-        "[+1] Movement <for [Unit_Class_Builder] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Civil engineering"
-    },
-    {
-        "name":"E_motiandalou",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [World Wonder] buildings [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Civil engineering"
     },
     {
         "name":"M_dajuntuan",
@@ -3797,30 +3285,6 @@
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
         "requiredTech":"Civic_Nationalism"
-    },
-    {
-        "name":"E_ziyoushichang",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Culture] from every [Building_Classification_Theater_Square_District]",
-        "[+50]% [Culture] <in cities with at least [15] [Population]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Opera and ballet"
-    },
-    {
-        "name":"G_jiaoxiangqu",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Artist":6},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[GreatPerson_Class_Artist] is earned [50]% faster",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Opera and ballet"
     },
     {
         "name":"M_junshiyanjiu",
@@ -3864,30 +3328,6 @@
         "requiredTech":"Civic_Scorched earth strategy"
     },
     {
-        "name":"E_zhengshou",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities]",
-        "[+50]% Production when constructing [Unit_Settler] units [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Scorched earth strategy"
-    },
-    {
-        "name":"G_junshizuzhi",
-        "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_General":6},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[GreatPerson_Class_General] is earned [50]% faster",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Scorched earth strategy"
-    },
-    {
         "name":"M_ziyuanguanli",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
@@ -3924,16 +3364,434 @@
         "requiredTech":"Civic_Mobilization"
     },
     {
-        "name":"G_buganshezhuyi",
+        "name":"M_shandianzhan",
         "cost":0,
-        "greatPersonPoints":{"GreatPerson_Class_Merchant":6},
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[GreatPerson_Class_Merchant] is earned [50]% faster",
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+50]% Production when constructing [Unit_Type_Light_Cavalry] units [in all cities]",
+        "[+50]% Production when constructing [Unit_Type_Heavy_Cavalry] units [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Ideology"
+    },
+    {
+        "name":"M_disanxuanze",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+2 Culture] from every [Building_Research_Lab]",
+        "[+2 Culture] from every [Building_Military_Academy]",
+        "[+2 Culture] from every [Building_Classification_Power_Plant]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Tolalitarianism"
+    },
+    {
+        "name":"M_gonghai",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+100]% Production when constructing [{Military} {Water}] units [in all cities]",
+        "[-100]% Production when constructing [Unit_Type_Aircraft_Carrier] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Cold War"
+    },
+    {
+        "name":"M_ercigongjinengli",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+1] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Cold War"
+    },
+    {
+        "name":"M_xingdongzongjiebaogao",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+50]% XP gained from combat <for [Military] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Emergency deployment"
+    },
+    {
+        "name":"M_xianjunzhengce",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+50]% Production when constructing [Unit_Type_Melee_Infantry] units [in all cities]",
+        "[+50]% Production when constructing [Unit_Type_Ranged_Infantry] units [in all cities]",
+        "[+50]% Production when constructing [Unit_Type_Anti_Cavalry] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Emergency deployment"
+    },
+    {
+        "name":"M_yitihuakongjianjigou",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+8]% [Production] from every [Building_Military_Academy]",
+        "[+8]% [Production] from every [Building_Dock]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Space race"
+    },
+    {
+        "name":"M_zhanlvekongjun",
+        "cost":0,
+        "requiredResource":"Resource_Military policy slot",
+        "uniques":["[+100]% Production when constructing [Air] units [in all cities]",
+        "[+100]% Production when constructing [Unit_Type_Aircraft_Carrier] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Military_Policy"],
+        "requiredTech":"Civic_Globalization"
+    },
+    //经济政策卡
+    {
+        "name":"E_fuyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Feudalism]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Skill"
+    },
+    {
+        "name":"E_shangduilvguan",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Gold] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Mercantilism]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Basic trade"
+    },
+    {
+        "name":"E_qiangpolaoyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Divin right of Kings]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_National labor force"
+    },
+    {
+        "name":"E_tudiceliangyuan",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Scorched earth strategy]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Early Empire"
+    },
+    {
+        "name":"E_zhimin",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+50]% Production when constructing [Unit_Settler] units [in all cities]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Scorched earth strategy]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Early Empire"
+    },
+    {
+        "name":"E_loufang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Food] from every [Building_Classification_District_Unique]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Medieval bazaar]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Games and entertainment"
+    },
+    {
+        "name":"E_ziranzhexue",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Campus]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Ideology]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_History"
+    },
+    {
+        "name":"E_jingwen",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Holy_Site]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Theology"
+    },
+    {
+        "name":"E_haijunjichusheshi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Harbor]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Naval tradition]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Naval tradition"
+    },
+    {
+        "name":"E_nongnuzhi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2] Movement <for [Unit_Class_Builder] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Civil engineering]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Feudalism"
+    },
+    {
+        "name":"E_minjianweiwang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Happiness, +3 Food, -2 Production] from every [Building_Classification_Governor_Level_1]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Mass media]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Administration"
+    },
+    {
+        "name":"E_maoyilianmeng",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Science, +1 Culture] from each Trade Route",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Capitalism]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Mercenaries"
+    },
+    {
+        "name":"E_meixue",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Theater_Square]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Professional sports]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Medieval bazaar"
+    },
+    {
+        "name":"E_gulaochengqu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Culture] <in cities with a [Building_Classification_District_Unique]>",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Right to vote]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Medieval bazaar"
+    },
+    {
+        "name":"E_chengzhentexuzhuang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Commercial_Hub]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Ideology]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Thw worker's union"
+    },
+    {
+        "name":"E_geteshijianzhu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Medieval] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Renaissance] buildings [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Civil engineering]>",
+        "Destroyed when the city is captured",
         "Class_General_Policy"],
-        "requiredTech":"Civic_Capitalism"
+        "requiredTech":"Civic_Divin right of Kings"
+    },
+    {
+        "name":"E_geteshijianzhu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Medieval] buildings [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Renaissance] buildings [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Civil engineering]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Divin right of Kings"
+    },
+    {
+        "name":"E_zhimindibanshichu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[20]% Food is carried over after population increases [in all cities connected to capital]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Exploration"
+    },
+    {
+        "name":"E_zongjiaojiaopai",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Spread Religion Strength <for [Unit_Missionary] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Reformed church"
+    },
+    {
+        "name":"E_gongxiangjiaotang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Faith] from every [Building_Classification_Holy_Site_District]",
+        "[+50]% [Faith] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Reformed church"
+    },
+    {
+        "name":"E_sanjiaomaoyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+4 Gold, +1 Faith] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Globalization]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Mercantilism"
+    },
+    {
+        "name":"E_lixingzhuyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Science] from every [Building_Classification_College_District]",
+        "[+50]% [Science] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
+    {
+        "name":"E_ziyoushichang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Gold] from every [Building_Classification_Commercial_Hub_District]",
+        "[+50]% [Gold] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
+    {
+        "name":"E_ziyouzhuyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2] Movement <for [Class_GreatPerson] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
+    {
+        "name":"E_gonggonggongcheng",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
+        "[+1] Movement <for [Unit_Class_Builder] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Civil engineering"
+    },
+    {
+        "name":"E_motiandalou",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% Production when constructing [World Wonder] buildings [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Civil engineering"
+    },
+    {
+        "name":"E_ziyoushichang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Culture] from every [Building_Classification_Theater_Square_District]",
+        "[+50]% [Culture] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Opera and ballet"
+    },
+    {
+        "name":"E_zhengshou",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities]",
+        "[+50]% Production when constructing [Unit_Settler] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Scorched earth strategy"
     },
     {
         "name":"E_shichangjingji",
@@ -3972,68 +3830,6 @@
         "requiredTech":"Civic_Ideology"
     },
     {
-        "name":"D_paojianwaijiao",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["City-State territory always counts as friendly territory",
-        "Provides [4] [Resource_Influence]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Ideology"
-    },
-    {
-        "name":"M_shandianzhan",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+50]% Production when constructing [Unit_Type_Light_Cavalry] units [in all cities]",
-        "[+50]% Production when constructing [Unit_Type_Heavy_Cavalry] units [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Ideology"
-    },
-    {
-        "name":"G_kexuejijinhui",
-        "cost":0,
-        "greatPersonPoints":{
-            "GreatPerson_Class_Scientist":6,
-            "GreatPerson_Class_Engineer":6
-        },
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[GreatPerson_Class_Scientist] is earned [50]% faster",
-        "[GreatPerson_Class_Engineer] is earned [50]% faster",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Nuclear program"
-    },
-    {
-        "name":"D_hejiandie",
-        "cost":0,
-        "requiredResource":"Resource_Diplomatic policy slot",
-        "uniques":["[+2] Sight <for [Unit_Spy] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Nuclear program"
-    },
-    {
-        "name":"G_guangrongshike",
-        "cost":0,
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[+23]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Right to vote"
-    },
-    {
         "name":"E_xinzheng",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
@@ -4045,31 +3841,6 @@
         "requiredTech":"Civic_Right to vote"
     },
     {
-        "name":"M_disanxuanze",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+2 Culture] from every [Building_Research_Lab]",
-        "[+2 Culture] from every [Building_Military_Academy]",
-        "[+2 Culture] from every [Building_Classification_Power_Plant]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Tolalitarianism"
-    },
-    {
-        "name":"G_junshiguanzhi",
-        "cost":0,
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[+50]% Strength for cities <with a garrison> <when attacking>",
-        "[+2 Happiness, +2 Production, -2 Food] [in all cities with a garrison]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
-        "requiredTech":"Civic_Tolalitarianism"
-    },
-    {
         "name":"E_jitihua",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
@@ -4078,18 +3849,6 @@
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class_Economic_Policy"],
-        "requiredTech":"Civic_Class struggle"
-    },
-    {
-        "name":"G_baoweizuguo",
-        "cost":0,
-        "requiredResource":"Resource_Generic policy slot",
-        "uniques":["[+34]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-        "[-13]% Strength <for [Military] units> <in [Foreign Land] tiles>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_General_Policy"],
         "requiredTech":"Civic_Class struggle"
     },
     {
@@ -4104,6 +3863,171 @@
         "requiredTech":"Civic_Cultural heritage"
     },
     {
+        "name":"E_tiyuchuanmei",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Theater_Square]",
+        "[+2 Happiness] from every [Building_Stadium]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Professional sports"
+    },
+    {
+        "name":"E_weixingguangbo",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% [Culture] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Space race"
+    },
+    {
+        "name":"E_dianzishangwu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Production, +5 Gold] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Globalization"
+    },
+    {
+        "name":"E_zaixianshequ",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["Gain [150] [Culture] <upon declaring friendship>",
+        "Free [Unit_Infantry] appears <upon declaring war with a major Civilization>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Social media"
+    },
+    {
+        "name":"E_junzhuchongbai",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "gold":1,
+        "faith":2,
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Theology]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Code"
+    },
+    {
+        "name":"E_chengshiguihua",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Production] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Enlightenment]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Code"
+    },
+    //外交政策卡
+    {
+        "name":"D_meilixinglingxiu",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["Provides [2] [Resource_Influence]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Ideology]>",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Political philosophy"
+    },
+    {
+        "name":"D_silingbu",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["[+1 Happiness] from every [Building_Classification_Governor_Level_1]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Social media]>",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_History"
+    },
+    {
+        "name":"D_shangrenlianmeng",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["[+100]% [Gold] from City-States",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Medieval bazaar"
+    },
+    {
+        "name":"D_quanshuzhuyi",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["Enemy [Unit_Spy] units must spend [3] extra movement points when inside your territory",
+        "[+1] Movement <for [Unit_Spy] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Foreigh service"
+    },
+    {
+        "name":"D_maoyiyinhang",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["[+2 Food, +2 Production] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Foreigh service"
+    },
+    {
+        "name":"D_zhimindishuishou",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["[+25]% [Gold] [in all cities connected to capital] <in cities with a [Building_Lighthouse]>",
+        "[+10]% [Production] [in all cities connected to capital] <in cities with a [Building_Lighthouse]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Colonialism"
+    },
+    {
+        "name":"D_paojianwaijiao",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["City-State territory always counts as friendly territory",
+        "Provides [4] [Resource_Influence]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Ideology"
+    },
+    {
+        "name":"D_hejiandie",
+        "cost":0,
+        "requiredResource":"Resource_Diplomatic policy slot",
+        "uniques":["[+2] Sight <for [Unit_Spy] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Diplomatic_Policy"],
+        "requiredTech":"Civic_Nuclear program"
+    },
+    {
         "name":"D_mimaxue",
         "cost":0,
         "requiredResource":"Resource_Diplomatic policy slot",
@@ -4113,18 +4037,6 @@
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class_Diplomatic_Policy"],
-        "requiredTech":"Civic_Cold War"
-    },
-    {
-        "name":"M_gonghai",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+100]% Production when constructing [{Military} {Water}] units [in all cities]",
-        "[-100]% Production when constructing [Unit_Type_Aircraft_Carrier] units [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
         "requiredTech":"Civic_Cold War"
     },
     {
@@ -4139,76 +4051,6 @@
         "requiredTech":"Civic_Cold War"
     },
     {
-        "name":"M_ercigongjinengli",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+1] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Cold War"
-    },
-    {
-        "name":"E_tiyuchuanmei",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+100]% Yield from every [Class_Theater_Square]",
-        "[+2 Happiness] from every [Building_Stadium]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Professional sports"
-    },
-    {
-        "name":"M_xingdongzongjiebaogao",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+50]% XP gained from combat <for [Military] units>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Emergency deployment"
-    },
-    {
-        "name":"M_xianjunzhengce",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+50]% Production when constructing [Unit_Type_Melee_Infantry] units [in all cities]",
-        "[+50]% Production when constructing [Unit_Type_Ranged_Infantry] units [in all cities]",
-        "[+50]% Production when constructing [Unit_Type_Anti_Cavalry] units [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Emergency deployment"
-    },
-    {
-        "name":"E_weixingguangbo",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% [Culture] [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Space race"
-    },
-    {
-        "name":"M_yitihuakongjianjigou",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+8]% [Production] from every [Building_Military_Academy]",
-        "[+8]% [Production] from every [Building_Dock]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Space race"
-    },
-    {
         "name":"D_yinyueshenchazhidu",
         "cost":0,
         "requiredResource":"Resource_Diplomatic policy slot",
@@ -4221,29 +4063,6 @@
         "requiredTech":"Civic_Space race"
     },
     {
-        "name":"M_zhanlvekongjun",
-        "cost":0,
-        "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+100]% Production when constructing [Air] units [in all cities]",
-        "[+100]% Production when constructing [Unit_Type_Aircraft_Carrier] units [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Military_Policy"],
-        "requiredTech":"Civic_Globalization"
-    },
-    {
-        "name":"E_dianzishangwu",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+2 Production, +5 Gold] from each Trade Route",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Globalization"
-    },
-    {
         "name":"D_guojiyuhangju",
         "cost":0,
         "requiredResource":"Resource_Diplomatic policy slot",
@@ -4254,18 +4073,6 @@
         "Destroyed when the city is captured",
         "Class_Diplomatic_Policy"],
         "requiredTech":"Civic_Globalization"
-    },
-    {
-        "name":"E_zaixianshequ",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["Gain [150] [Culture] <upon declaring friendship>",
-        "Free [Unit_Infantry] appears <upon declaring war with a major Civilization>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Social media"
     },
     {
         "name":"D_jitixingdongzhuyi",
@@ -4289,6 +4096,192 @@
         "Destroyed when the city is captured",
         "Class_Diplomatic_Policy"],
         "requiredTech":"Civic_Social media"
+    },
+    //通用政策卡
+    {
+        "name":"G_jiangjun",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_General":2},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Scorched earth strategy]>",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Military tradition"
+    },
+    {
+        "name":"G_guwu",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Scientist":2},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Nuclear program]>",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Mysticism"
+    },
+    {
+        "name":"G_qishi",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Prophet":2},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before founding a religion>",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Mysticism"
+    },
+    {
+        "name":"G_wenxuechuantong",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Artist":2},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Drama and poetry"
+    },
+    {
+        "name":"G_hanghai",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Admiral":2},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Naval tradition"
+    },
+    {
+        "name":"G_lvxingshangren",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Merchant":2},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Capitalism]>",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Thw worker's union"
+    },
+    {
+        "name":"G_faming",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Engineer":6},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[GreatPerson_Class_Engineer] is earned [50]% faster",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Humanism"
+    },
+    {
+        "name":"G_bihua",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Artist":6},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[GreatPerson_Class_Artist] is earned [50]% faster",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Humanism"
+    },
+    {
+        "name":"G_jiaoxiangqu",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Artist":6},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[GreatPerson_Class_Artist] is earned [50]% faster",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Opera and ballet"
+    },
+    {
+        "name":"G_junshizuzhi",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_General":6},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[GreatPerson_Class_General] is earned [50]% faster",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Scorched earth strategy"
+    },
+    {
+        "name":"G_buganshezhuyi",
+        "cost":0,
+        "greatPersonPoints":{"GreatPerson_Class_Merchant":6},
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[GreatPerson_Class_Merchant] is earned [50]% faster",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Capitalism"
+    },
+    {
+        "name":"G_kexuejijinhui",
+        "cost":0,
+        "greatPersonPoints":{
+            "GreatPerson_Class_Scientist":6,
+            "GreatPerson_Class_Engineer":6
+        },
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[GreatPerson_Class_Scientist] is earned [50]% faster",
+        "[GreatPerson_Class_Engineer] is earned [50]% faster",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Nuclear program"
+    },
+    {
+        "name":"G_guangrongshike",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+23]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {
+        "name":"G_junshiguanzhi",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+50]% Strength for cities <with a garrison> <when attacking>",
+        "[+2 Happiness, +2 Production, -2 Food] [in all cities with a garrison]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Tolalitarianism"
+    },
+    {
+        "name":"G_baoweizuguo",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+34]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+        "[-13]% Strength <for [Military] units> <in [Foreign Land] tiles>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Class struggle"
     },
     {
         "name":"G_waijiaoziben",
