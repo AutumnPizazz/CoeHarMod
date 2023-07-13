@@ -2172,8 +2172,9 @@
         "uniqueTo":"Nation_Rome",
 		"cost": 18,
 		"maintenance": 1,
+        "happiness":1,
 		"requiredTech": "Tech_Project",
-		"uniques": ["Must be next to [Fresh water]",
+		"uniques": [
         "Cost increases by [4] per owned city",
         "Unsellable",
         "Creates a [Distict_BeachLandmark] improvement on a specific tile",
@@ -3146,7 +3147,7 @@
         "Only available <before discovering [Civic_Nationalism]>",
         "Destroyed when the city is captured",
         "Class_Military_Policy"],
-        "replacementTextForUniques":"+50% productivity when producing medieval and earlier light and heavy cavalry units",
+        "replacementTextForUniques":"+50% productivity when producing Renaissance and previous melee, ranged, and anti-cavalry units",
         "requiredTech":"Civic_Feudalism"
     },
     {

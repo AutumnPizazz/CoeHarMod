@@ -325,14 +325,13 @@
 	{//水渠
 		"name": "Distinct_Raceline",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
-		"food": -10,
 		"production":-10,
 		"gold":-10,
 		"science":-10,
 		"culture":-10,
 		"faith":-10,
 		"uniques": ["Great Improvement",
-					"Can only be built on [Fresh water] tiles",
+					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
 					"Removes removable features when built",
 					"Irremovable",
@@ -351,7 +350,7 @@
 		"culture":-10,
 		"faith":-10,
 		"uniques": ["Great Improvement",
-					"Can only be built on [Fresh water] tiles",
+					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
 					"Removes removable features when built",
 					"Irremovable",
@@ -526,7 +525,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
 		"techRequired": "Tech_Siege",
 		"uniques": ["Can be built outside your borders",
-		"Adjacent enemy units ending their turn take [12] damage",
+		"Adjacent enemy units ending their turn take [5] damage",
 		"Gives a defensive bonus of [18]%"]
 	},
 
