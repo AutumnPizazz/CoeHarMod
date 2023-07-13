@@ -1737,14 +1737,15 @@
 		"name": "Building_Commercial_Association",
         "replaces":"Building_Industrial_Zone_Unique",
         "uniqueTo":"Nation_Germany",
-		"cost": 22,
+		"cost": 44,
 		"maintenance": 1,
 		"requiredTech": "Tech_Apprentices",
+        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
-		"uniques": [
+		"uniques": ["Provides [1] [Resource_district_limitation] <after discovering [Civic_Thw worker's union]>",
         "Unsellable",
-		"Cost increases by [4] per owned city",
+		"Cost increases by [8] per owned city",
         "Creates a [District_Commercial_Association] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]

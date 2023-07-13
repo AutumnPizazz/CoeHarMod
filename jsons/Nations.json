@@ -96,9 +96,10 @@
 		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
 		"[+1 Culture] from every [Improvement_Mine]",
 		"[-200]% Production when constructing [Building_Classification_Theater_Square_District] buildings [in all cities]",
-		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Melee_Infantry] unit>",
-		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Ranged_Infantry] unit>",
-		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Anti_Cavalry] unit>"],
+		"[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
+		"[+18]% Strength <for [Unit_Type_Ranged_Infantry] units>",
+		"[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
+		"[+23]% Strength <for [Military] units> <when fighting in [Class_Industrial_Zone] tiles> <when defending>"],
 		
 		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
 		
