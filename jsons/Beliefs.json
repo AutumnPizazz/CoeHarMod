@@ -68,17 +68,27 @@
             "uniques": ["[+2 Faith] from every [Landform_Geothermal fissure]",
             "[+2 Faith] from every [Landform_Volcanic soil]"]
         },
-        {
+        {//极光之舞
             "name": "Pantheon_Dance of the aurora",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from every [Tundra]",
-            "[+1 Faith] from every [Tundra] <after discovering [Tech_Civilian education]>"]
+            "uniques": ["Sacred sites receive a standard adjacent addition to frozen soil","That could be carried after only buying the unique building in capital"],
+            "civilopediaText":[
+                {
+                    "text":"Building_Dance of the aurora",
+                    "link":"Building/Building_Dance of the aurora"
+                }
+            ]
         },
-        {
+        {//沙漠民俗
             "name": "Pantheon_Desert customs",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from every [Desert]",
-            "[+1 Faith] from every [Desert] <after discovering [Tech_Civilian education]>"]
+            "uniques": ["Holy Land gets the standard adjacent bonus against desert","That could be carried after only buying the unique building in capital"],
+            "civilopediaText":[
+                {
+                    "text":"Building_Desert customs",
+                    "link":"Building/Building_Desert customs"
+                }
+            ]
         },
         {
             "name": "Pantheon_Goddess of festivals",
@@ -147,7 +157,7 @@
             "name": "Pantheon_Religious idol",
             "type": "Pantheon",
             "uniques": ["[+2 Faith] from every [Luxury resource]",
-            "Provides [2] [Resource_Jewelry]"]
+            "Provides [2] [Resource_Jewelry] <in cities with a [Building_Palace]>"]
         },
         {
             "name": "Pantheon_Religious migrant",

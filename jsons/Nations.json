@@ -68,7 +68,8 @@
 		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios",
 		"uniques": ["Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [100]%",
-		"Enables conversion of city production to [Gold]"],
+		"Enables conversion of city production to [Gold]",
+		"Production to [Gold] conversion in cities changed by [100]%"],
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	

@@ -2222,6 +2222,48 @@
         "Only available <after [60] turns>"]
 	},
 
+    /*万神殿专属建筑*/
+    {//极光之舞
+        "name":"Building_Dance of the aurora",
+        "cost":0,
+        "uniques":[
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Tundra] tiles>",
+        "Only available <after adopting [Pantheon_Dance of the aurora]>",
+        "Can only be built [in capital]","Unsellable"],
+        "replacementTextForUniques":"Sacred sites receive a standard adjacent addition to frozen soil",
+        "civilopediaText":[
+            {
+                "text":"Pantheon_Dance of the aurora",
+                "link":"Belief/Pantheon_Dance of the aurora"
+            }
+        ]
+    },
+    {//沙漠民俗
+        "name":"Building_Desert customs",
+        "cost":0,
+        "uniques":[
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Desert] tiles>",
+        "Only available <after adopting [Pantheon_Desert customs]>",
+        "Can only be built [in capital]","Unsellable"],
+        "replacementTextForUniques":"Holy Land gets the standard adjacent bonus against desert",
+        "civilopediaText":[
+            {
+                "text":"Pantheon_Desert customs",
+                "link":"Belief/Pantheon_Desert customs"
+            }
+        ]
+    },
+
     /*通用政策转换*/
     {
         "name":"Building_GtoM1",
