@@ -353,18 +353,6 @@
 		"uniques": ["Rare feature","Never receives any resources",
 		"[+1] to Fertility for Map Generation"]
     },
-	{//火山土
-		"name": "Landform_Volcanic soil",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"food": 2,
-		"production": 2,
-		"defenceBonus":-0.15,
-		"uniques": ["Base Terrain on this tile is not counted for Region determination",
-		"Doesn't generate naturally",
-		"Never receives any resources",
-		"[-10] Strength for cities built on this terrain"]
-	},
 
 	//自然奇观
 	{//大堡礁

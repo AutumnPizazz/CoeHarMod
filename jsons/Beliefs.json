@@ -65,8 +65,7 @@
         {
             "name": "Pantheon_Goddess of fire",
             "type": "Pantheon",
-            "uniques": ["[+2 Faith] from every [Landform_Geothermal fissure]",
-            "[+2 Faith] from every [Landform_Volcanic soil]"]
+            "uniques": ["[+2 Faith] from every [Landform_Geothermal fissure]"]
         },
         {//极光之舞
             "name": "Pantheon_Dance of the aurora",

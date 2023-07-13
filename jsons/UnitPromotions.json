@@ -68,27 +68,29 @@
 	/*单位-武僧*/
 	{
 		"name": "Promotion_Hypnotic_Screen",
-		"uniques": ["Invisible to non-adjacent units"],
+		"uniques": ["Invisible to non-adjacent units","Heal this unit by [50] HP"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 1
     },
 	{
 		"name": "Promotion_Shadowless_Fist",
-		"uniques": ["[+100]% to Flank Attack bonuses"],
+		"uniques": ["[+100]% to Flank Attack bonuses","Heal this unit by [50] HP"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 1
     },
 	{
 		"name": "Promotion_Disciple",
-		"uniques": ["Can [Spread Religion] [4] times"],
+		"prerequisites":["Promotion_Hypnotic_Screen"],
+		"uniques": ["Can [Spread Religion] [4] times","Heal this unit by [50] HP"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 2
     },
 	{
 		"name": "Promotion_Heart_Piercing_Palm",
+		"prerequisites":["Promotion_Shadowless_Fist"],
 		"uniques": ["[+51]% Strength"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
@@ -96,6 +98,7 @@
     },
 	{
 		"name": "Promotion_Wind_Dance_Fist",
+		"prerequisites":["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
@@ -103,6 +106,7 @@
     },
 	{
 		"name": "Promotion_White_Crane_Fist",
+		"prerequisites":["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
@@ -110,6 +114,7 @@
     },
 	{
 		"name": "Promotion_Snake_Style_Fist",
+		"prerequisites":["Promotion_Wind_Dance_Fist","Promotion_White_Crane_Fist"],
 		"uniques": ["[+183]% Strength"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,

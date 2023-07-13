@@ -1338,7 +1338,7 @@
         "requiredBuilding": "Building_Temple",
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
-		"uniques": ["[+1 Faith] from [Landform_Volcanic soil] tiles [in this city]",
+		"uniques": [
         "[+1 Faith] from [Landform_Geothermal fissure] tiles [in this city]",
         "Unbuildable",
         "Hidden when religion is disabled",
