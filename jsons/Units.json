@@ -365,7 +365,7 @@
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":100,//20
 		"movement":2,
-		"cost":50,
+		"cost":35,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["[+51]% Strength <vs [Era_Classical] units>",

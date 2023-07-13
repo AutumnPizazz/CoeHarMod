@@ -49,8 +49,8 @@
         {
             "name": "Pantheon_God of craftsmen",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from [Strategic resource] tiles",
-            "[+1 Production] from [Strategic resource] tiles <after discovering [Tech_Build]>"]
+            "uniques": ["[+1 Faith] from [Strategic resource] tiles [in all cities]",
+            "[+1 Production] from [Strategic resource] tiles [in all cities] <after discovering [Tech_Build]>"]
         },
         {
             "name": "Pantheon_River god",
