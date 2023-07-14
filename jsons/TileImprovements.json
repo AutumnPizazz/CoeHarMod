@@ -1586,7 +1586,7 @@
 	*/
 	
 	/*文明专属改良*/
-	{//明长城
+	{//明朝-明长城
 		"name": "Improvement_Ming_GreatWall",
 		"uniqueTo":"Nation_Ming",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -1596,6 +1596,19 @@
 		"uniques": ["[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
 		"[+1 Culture, +1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
+		"Class_Usual_Improvement"]
+	},
+	{//埃及-狮身人面像
+		"name": "Improvement_Sphinx",
+		"uniqueTo":"Nation_Egypt",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture":1,
+		"faith":1,
+		"techRequired": "Civic_Skill",
+		"uniques": ["[+1 Culture] <after discovering [Civic_Natural history]>",
+		"[+2 Faith] for each adjacent [District_Class_Wonder]",
+		"Can only be built on [River] tiles",
+		"Pillaging this improvement yields approximately [+30 Faith]",
 		"Class_Usual_Improvement"]
 	},
 

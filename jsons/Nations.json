@@ -21,15 +21,12 @@
 	
 		"startIntroPart1": "Welcome to the world of Civilization! As Rome, you begin your journey with a strong military and a rich cultural heritage. With the power of the Roman legions at your command, you can conquer your enemies and build a mighty empire that will stand the test of time.",
 		"startIntroPart2": "Rome is known for its magnificent architecture, engineering, and military prowess. With its impressive roads, aqueducts, and public buildings, Rome was the center of civilization for centuries. As a Roman leader, you must use your cunning and strategy to maintain your power and expand your influence throughout the world.",
-	
 		"declaringWar": "We have no choice but to declare war on you, for the good of our people.",
 		"attacked": "How dare you attack us! We will not stand for this aggression.",
 		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
 		"introduction": "Greetings, fellow leaders. I am Julius Caesar, ruler of the mighty Roman Empire. Our civilization has a long and storied history, and we are proud to have contributed so much to the world. We are a people of strength, courage, and wisdom, and we are always ready to defend ourselves against those who would do us harm. But we are also a people of culture and refinement, and we value the arts and sciences as much as we do the art of war.",
-	
 		"neutralHello": "Greetings. How can we assist you today?",
 		"hateHello": "What do you want? We have no time for your petty grievances.",
-	
 		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
 	},
 	{//朝鲜
@@ -39,7 +36,7 @@
 		"outerColor": [0, 104, 183],
 		"innerColor": [255, 255, 255],
 		"startBias": ["Landform_Hill","Avoid [Mountain]"],
-	
+
 		"uniqueName": "Hwarang",
 		"uniques": ["[+4]% [Science] from every [Building_Classification_Governor]",
 			"[+4]% [Culture] from every [Building_Classification_Governor]"],
@@ -48,7 +45,6 @@
 	
 		"startIntroPart1": "Welcome to the world of Civilization! As Korea, you begin your journey with a strong navy and a rich cultural heritage. With the power of the Jeong at your command, you can defend your shores and expand your influence throughout the world.",
 		"startIntroPart2": "Korea is known for its advancements in science and technology, as well as its rich history and culture. With its impressive achievements in literature, philosophy and art, Korea has made significant contributions to the world. As Queen Seondeok, you must use your wisdom and innovation to maintain your power and influence.",
-	
 		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
 		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
 		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
@@ -79,15 +75,12 @@
 	
 		"startIntroPart1": "Welcome to the world of Civilization! As the Emperor, you begin your journey with a powerful navy and a vast treasure fleet. With the power of the Lijia at your command, you can expand your trade routes and accumulate great wealth.",
 		"startIntroPart2": "The Ming Empire is known for its achievements in trade, exploration, and culture. With its impressive naval technology and vast treasure fleet, the Ming Empire has made significant contributions to the world. As Emperor Zhu Di, you must use your wealth and power to maintain your influence and defend your borders.",
-	
 		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
 		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
 		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
 		"introduction": "Greetings, fellow leaders. I am Emperor Zhu Di, ruler of the mighty Ming Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of wealth, exploration, and culture, and we value trade and diplomacy as much as we do our military strength.",
-	
 		"neutralHello": "Greetings. What can we do for you today?",
 		"hateHello": "What do you want? We have no time for your petty disputes.",
-	
 		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
 	},
 	{//高卢
@@ -111,15 +104,12 @@
 		
 		"startIntroPart1": "Welcome to the world of Civilization! As the great Ambiorix, you must protect your people and their way of life from foreign invaders. With the power of the Druidic Circle at your command, you can harness the power of nature to defend your lands and spread your influence.",
 		"startIntroPart2": "The Gaul is known for its fierce warriors, rich culture, and deep connection to nature. As Vercingetorix, you must use your military might and the diplomatic skill to protect your people and expand your borders.",
-		
 		"declaringWar": "We cannot stand idly by while you threaten our lands and our people. Prepare for war!",
 		"attacked": "You have made a grave mistake in attacking us. We will defend our lands and our people to the last man.",
 		"defeated": "Our people may have been defeated, but our spirit remains unbroken. We will rise again to defend our way of life.",
 		"introduction": "Greetings, fellow leaders. I am Vercingetorix, leader of the Gaulish people. We are a proud and resilient people, with a rich culture and a deep connection to the natural world. We value our independence and will defend our lands and our people from any threat.",
-		
 		"neutralHello": "Greetings. What brings you to our lands?",
 		"hateHello": "We have no patience for your aggression. Leave our lands at once.",
-		
 		"tradeRequest": "We would be willing to consider a trade deal that benefits both our peoples."
 	},
 	{//神圣罗马帝国
@@ -137,16 +127,38 @@
 			
 		"startIntroPart1": "Willkommen in der Welt von Civilization! Als der großartige Barbarossa müssen Sie Ihre Nation führen und ihr zu Ruhm und Ehre verhelfen. Mit unserer einzigartigen Fähigkeit, die Produktivität der Industrie zu steigern, können wir eine mächtige Wirtschaft aufbauen und unsere Feinde besiegen.",
 		"startIntroPart2": "Deutschland ist bekannt für seine Stärke, seine Kultur und seine Technologie. Als Barbarossa müssen Sie Ihre militärische Macht nutzen, um Ihre Feinde zu besiegen, und Ihre diplomatischen Fähigkeiten einsetzen, um Ihre Verbündeten zu stärken.",
-			
 		"declaringWar": "Ihr Angriff auf unser Land ist eine Schande und wird nicht toleriert. Wir werden uns verteidigen!",
 		"attacked": "Ihr Angriff war ein Fehler. Wir werden uns zur Wehr setzen und unser Land verteidigen!",
 		"defeated": "Wir haben eine Schlacht verloren, aber nicht den Krieg. Wir werden zurückkehren, um uns zu rächen und unsere Nation zu verteidigen.",
 		"introduction": "Guten Tag, meine Herren. Ich bin Kaiser Barbarossa, Führer des deutschen Volkes. Wir sind eine Nation von Stärke und Technologie, die für ihre wirtschaftliche Macht und militärische Stärke bekannt ist.",
-			
 		"neutralHello": "Guten Tag. Was führt Sie in unser Land?",
 		"hateHello": "Wir haben keine Geduld für Ihre Aggression. Verlassen Sie unser Land sofort.",
-			
 		"tradeRequest": "Wir sind bereit, einen Handelsvertrag abzuschließen, der beiden Nationen zugute kommt."
+	},
+	{//埃及
+		"name": "Nation_Egypt",
+		"leaderName": "Cleopatra",
+		"adjective": ["Egyptian"],
+		"outerColor": [0, 128, 128],  // 深青色
+		"innerColor": [255, 215, 0],  // 金色
+		"startBias": ["River"],
+
+		"uniqueName": "Mother Nile",
+		"uniques": ["[+1] Movement <for [All] units> <in [River] tiles>",
+		"[+13]% Strength <for [Military] units> <when fighting in [River] tiles>",
+		"[+1 Happiness, +1 Food] in cities on [River] tiles"],
+	
+		"cities": ["Thebes", "Memphis", "Alexandria", "Heliopolis", "Abydos", "Abu Simbel", "Karnak", "Luxor", "Giza", "Dendera", "Amarna", "Mendes", "Bubastis", "Tanis", "Pi-Ramesses", "Edfu", "Esna", "Philae", "Elephantine", "Aswan"],
+			
+		"startIntroPart1": "Welcome to the world of Civilization! As the great Pharaoh Ramses II, you must lead your nation to glory and honor. With our unique ability to construct the Pyramids, we can build a powerful culture and faith-based society to dominate the world.",
+		"startIntroPart2": "Egypt is known for its cultural and architectural achievements, and as Pharaoh, you must use our military might to protect our nation and expand our influence on the world stage.",
+		"declaringWar": "Your aggression towards our peaceful nation will not be tolerated. We will defend ourselves and our people at all costs.",
+		"attacked": "Your attack on our nation was a mistake. We will fight back and defend our land with all our might!",
+		"defeated": "We may have lost this battle, but we have not lost the war. We will rise again and defend our great nation with honor and pride.",
+		"introduction": "Greetings, my fellow leaders. I am Pharaoh Ramses II, leader of the great Egyptian people. We are a nation known for our culture, architecture, and military might.",
+		"neutralHello": "Greetings. What brings you to our great land?",
+		"hateHello": "We have no tolerance for your aggression. Leave our land immediately.",
+		"tradeRequest": "We are willing to engage in trade that will benefit our two great nations."	
 	},
 	{
 		"name": "白板1号",

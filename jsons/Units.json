@@ -237,6 +237,18 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 80
 	},
+	{//埃及-狮身人面像建造者
+		"name": "Unit_Sphinx",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Egypt",
+		"movement": 2,
+		"requiredTech":"Civic_Skill",
+		"uniques": ["Can instantly construct a [Improvement_Sphinx] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Sphinx] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 40
+	},
 	
 	/*开拓者*/
 	{
@@ -687,7 +699,7 @@
 	},
 
 	/*重骑兵*/
-	{
+	{//重型战车
 		"name":"Unit_Chariot",
 		"unitType":"Unit_Type_Heavy_Cavalry",
 		"strength":138,//28
@@ -697,6 +709,21 @@
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
 		"uniques":["[+1] Movement <in [Open terrain] tiles>","Era_Ancient"]
+	},
+	{//埃及-贵族世袭战车射手
+		"name":"Unit_Hereditary_Noble_Chariot_Archer",
+		"replaces":"Unit_Chariot",
+		"uniqueTo":"Nation_Egypt",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":123,//25
+		"range":2,
+		"rangedStrength":186,//35
+		"movement":2,
+		"cost":90,
+		"upgradesTo":"Unit_Knight",
+		"requiredTech": "Tech_Wheels",
+		"obsoleteTech": "Tech_Stirrups",
+		"uniques":["[+2] Movement <in [Open terrain] tiles>","Era_Ancient"]
 	},
 	{
 		"name":"Unit_Knight",
