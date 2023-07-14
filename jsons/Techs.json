@@ -320,7 +320,7 @@
 			{
 				"name": "Tech_Apprentices",
 				"row": 4,
-				"prerequisites": ["Tech_Currency"],
+				"prerequisites": ["Tech_Currency","Tech_Horseback riding"],
 				"quote": "传薪不灭，有子孙焉。\n——《诗经·小雅·鹤鸣》",
 				"uniques": []
 			},
@@ -371,7 +371,7 @@
 			{
 				"name": "Tech_Stirrups",
 				"row": 5,
-				"prerequisites": ["Tech_Apprentices","Tech_Horseback riding"],
+				"prerequisites": ["Tech_Apprentices"],
 				"quote": "马上之功，以镫为重。\n——《韩非子·说林》",
 				"uniques": []
 			},
