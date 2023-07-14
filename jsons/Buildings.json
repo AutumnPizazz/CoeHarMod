@@ -862,6 +862,7 @@
 		"Unsellable"],
 		"requiredTech": "Tech_Pottery"
 	},
+    /*删掉
     {//明朝-漕运粮仓
 		"name": "Building_Grain_transport_silo",
         "replaces":"Building_Granary",
@@ -873,6 +874,7 @@
 		"Unsellable"],
 		"requiredTech": "Tech_Pottery"
 	},
+    */
 	{
 		"name": "Building_Water_Mill",
 		"maintenance": 1,

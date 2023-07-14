@@ -225,6 +225,18 @@
 		"Unit_Class_Builder"],
 		"cost": 50
 	},
+	{//明朝-明长城建造者
+		"name": "Unit_Ming_GreatWall",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Ming",
+		"movement": 2,
+		"requiredTech":"Tech_Build",
+		"uniques": ["Can instantly construct a [Improvement_Ming_GreatWall] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Ming_GreatWall] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
 	
 	/*开拓者*/
 	{
@@ -399,17 +411,17 @@
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":229,//40
 		"movement":2,
-		"cost":105,
+		"cost":75,
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["Can instantly construct a [Improvement_RomeFort] improvement <[1] times>",
-			"[+13]% Strength <when defending> <in [Improvement_RomeFort] tiles>",
+			"[+18]% Strength <when defending> <in [Improvement_RomeFort] tiles>",
 			"Can build [Remove Landform_Forest] improvements on tiles",
 			"Can build [Remove Landform_Rainforest] improvements on tiles",
 			"Can build [Remove Landform_Nuclear fallout] improvements on tiles",
 			"Can build [Remove Landform_Swamp] improvements on tiles",
-			"Instantly consumes [12] [Resource_Iron]",
+			"Instantly consumes [8] [Resource_Iron]",
 			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
 	},
 	{//披甲战士
@@ -530,15 +542,15 @@
 		"replaces":"Unit_Field_Cannon",
 		"uniqueTo":"Nation_Korea",
 		"unitType":"Unit_Type_Ranged_Infantry",
-		"strength":281,//45
+		"strength":346,//50
 		"rangedStrength":641,//65
 		"range":2,
-		"movement":2,
+		"movement":3,
 		"cost":290,
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
-		"uniques":["Era_Industrial"]
+		"uniques":["Must set up to ranged attack","Era_Industrial"]
 	},
 	{
 		"name":"Unit_Machine_Gun",

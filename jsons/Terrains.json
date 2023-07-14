@@ -18,9 +18,7 @@
 		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
-            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{//草原
 		"name": "Grassland",
@@ -45,9 +43,7 @@
             "Considered [Food] when determining start locations <in [Landform_Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{//平原
 		"name": "Plains",
@@ -75,9 +71,7 @@
             "Considered [Food] when determining start locations <in [Landform_Hill] Regions>",
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{//冻土
 		"name": "Tundra",
@@ -95,9 +89,7 @@
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
-            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{//沙漠
 		"name": "Desert",
@@ -113,9 +105,7 @@
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
             "Becomes [Landform_Alluvial plain] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{//湖泊
 		"name": "Lakes",
@@ -177,8 +167,6 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
             "Never receives any resources <in [Landform_Hill] tiles>",
 			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
 	},
@@ -381,19 +369,24 @@
 		"name": "Naturalwonder_El_Dorado",
 		"type": "NaturalWonder",
 		"overrideStats": true,
+		"gold":4,
+		"culture":2,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Landform_Rainforest] tiles",
-			"Occurs in groups of [4] to [4] tiles"],
-		"weight": 2,
+			"Occurs in groups of [4] to [4] tiles",
+			"Tile provides yield without assigned population"],
+		"weight": 2
+		/*
 		"civilopediaText": [
 			{
 				"text":"Provide +4 ¤Gold and +2 ♪Culture for adjacent tiles, but only for terrain, not landforms"
 			}
 		]
+		*/
 	},
 	{//青春之泉
 		"name": "Naturalwonder_Fountain_of_Youth",

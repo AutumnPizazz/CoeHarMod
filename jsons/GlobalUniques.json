@@ -24,5 +24,6 @@
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities]",//允许买使者
         "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
+        "[-40]% Culture cost of adopting new Policies",//文化修正
     ]
 }

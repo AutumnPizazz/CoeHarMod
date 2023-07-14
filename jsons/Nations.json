@@ -39,8 +39,8 @@
 		"innerColor": [255, 255, 255],
 	
 		"uniqueName": "Hwarang",
-		"uniques": ["[+3]% [Science] from every [Building_Classification_Governor]",
-			"[+3]% [Culture] from every [Building_Classification_Governor]"],
+		"uniques": ["[+4]% [Science] from every [Building_Classification_Governor]",
+			"[+4]% [Culture] from every [Building_Classification_Governor]"],
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
@@ -65,11 +65,12 @@
 		"innerColor": [255, 255, 255],
 
 		"uniqueName": "Lijia",
-		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios",
+		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending",
 		"uniques": ["Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [100]%",
 		"Enables conversion of city production to [Gold]",
-		"Production to [Gold] conversion in cities changed by [100]%"],
+		"Production to [Gold] conversion in cities changed by [100]%",
+		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>"],
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	
@@ -95,7 +96,7 @@
 		"uniqueName": "Halltarstadt",
 		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
 		"[+1 Culture] from every [Improvement_Mine]",
-		"[-200]% Production when constructing [Building_Classification_Theater_Square_District] buildings [in all cities]",
+		"[-200]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
 		"[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
 		"[+18]% Strength <for [Unit_Type_Ranged_Infantry] units>",
 		"[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
@@ -123,7 +124,7 @@
 		"outerColor": [255, 215, 0],
 		"innerColor": [139, 0, 0],
 		"uniqueName": "Freie Reichsstadt",
-		"uniques": ["[+35]% Production when constructing [Building_Classification_Industrial_Zone_District] buildings [in all cities]","Provides [1] [Resource_Military policy slot]"],
+		"uniques": ["Provides [1] [Resource_Military policy slot]"],
 
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
 			

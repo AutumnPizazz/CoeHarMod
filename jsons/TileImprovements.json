@@ -1584,4 +1584,18 @@
 			"District_Class_Wonder"]
 	},
 	*/
+	
+	/*文明专属改良*/
+	{//明长城
+		"name": "Improvement_Ming_GreatWall",
+		"uniqueTo":"Nation_Ming",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 2,
+		"techRequired": "Tech_Build",
+		"uniques": ["[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
+		"[+2 Culture, +1 Gold] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
+		"Pillaging this improvement yields approximately [+30 Gold]",
+		"Class_Usual_Improvement"]
+	},
+
 ]
