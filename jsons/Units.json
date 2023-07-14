@@ -230,12 +230,12 @@
 		"unitType": "Unit_Type_Civilian",
 		"uniqueTo":"Nation_Ming",
 		"movement": 2,
-		"requiredTech":"Tech_Build",
+		"requiredTech":"Tech_Bricklaying",
 		"uniques": ["Can instantly construct a [Improvement_Ming_GreatWall] improvement <[2] times>",
 			"Can instantly construct a [Improvement_Ming_GreatWall] improvement <by consuming this unit>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
-		"cost": 65
+		"cost": 80
 	},
 	
 	/*开拓者*/

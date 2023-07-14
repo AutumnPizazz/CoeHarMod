@@ -8,6 +8,7 @@
 		"name": "Nation_Rome",
 		"leaderName": "Trajan",
 		"adjective": ["Roman"],
+		"startBias": ["Plains","Grassland"],
 	
 		"outerColor": [72, 61, 139],
 		"innerColor": [255, 215, 0],
@@ -37,6 +38,7 @@
 		"adjective": ["Korean"],
 		"outerColor": [0, 104, 183],
 		"innerColor": [255, 255, 255],
+		"startBias": ["Landform_Hill","Avoid [Mountain]"],
 	
 		"uniqueName": "Hwarang",
 		"uniques": ["[+4]% [Science] from every [Building_Classification_Governor]",
@@ -63,6 +65,7 @@
 		"adjective": ["Ming"],
 		"outerColor": [0, 128, 0],
 		"innerColor": [255, 255, 255],
+		"startBias": ["Landform_Rainforest","Landform_Swamp"],
 
 		"uniqueName": "Lijia",
 		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending",
@@ -93,6 +96,8 @@
 		"adjective": ["Gaulish"],
 		"outerColor": [139, 69, 19],
 		"innerColor": [255, 153, 51],
+		"startBias": ["Landform_Hill"],
+
 		"uniqueName": "Halltarstadt",
 		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
 		"[+1 Culture] from every [Improvement_Mine]",
@@ -123,6 +128,8 @@
 		"adjective": ["German"],
 		"outerColor": [255, 215, 0],
 		"innerColor": [139, 0, 0],
+		"startBias": ["River"],
+
 		"uniqueName": "Freie Reichsstadt",
 		"uniques": ["Provides [1] [Resource_Military policy slot]"],
 

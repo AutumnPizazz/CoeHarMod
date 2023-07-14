@@ -1745,7 +1745,8 @@
         "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
-		"uniques": ["Provides [1] [Resource_district_limitation] <after discovering [Civic_Thw worker's union]>",
+		"uniques": [
+//        "Provides [1] [Resource_district_limitation] <after discovering [Civic_Thw worker's union]>",
         "Unsellable",
 		"Cost increases by [8] per owned city",
         "Creates a [District_Commercial_Association] improvement on a specific tile",
