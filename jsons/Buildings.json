@@ -2031,7 +2031,7 @@
         "[-40]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
         "Only available <in cities without a [Building_Military_Academy_Army_Training]>",
-        "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐] promotion"
+        "All newly-trained [{Military} {Land}] units [in this city] receive the [double star] promotion"
         ]
 	},
 	{
@@ -2044,7 +2044,7 @@
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
         "Only available <in cities without a [Building_Military_Academy_Corps_Training]>",
-        "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐⭐] promotion"
+        "All newly-trained [{Military} {Land}] units [in this city] receive the [triple star] promotion"
         ]
 	},
 
@@ -2125,7 +2125,7 @@
 		"uniques": [
         "[-40]% Production when constructing [{Military} {Water}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
-        "All newly-trained [{Military} {Water}] units [in this city] receive the [⭐⭐] promotion",
+        "All newly-trained [{Military} {Water}] units [in this city] receive the [double star] promotion",
         "Only available <in cities without a [Building_Invincible_Armada_Naval_Yard]>"
         ]
 	},
@@ -2138,7 +2138,7 @@
 		"uniques": [
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
-        "All newly-trained [{Military} {Land}] units [in this city] receive the [⭐⭐⭐] promotion",
+        "All newly-trained [{Military} {Land}] units [in this city] receive the [triple star] promotion",
         "Only available <in cities without a [Building_Naval_Yard]>"
         ]
 	},
