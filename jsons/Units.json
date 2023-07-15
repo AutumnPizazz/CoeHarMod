@@ -55,6 +55,14 @@
 		"movement": 4
 	},
 	{
+		"name": "Great General",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": ["Can transform to [GreatPerson_Class_General]",
+			"Can transform to [GreatPerson_Class_Admiral]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 1
+	},
+	{
 		"name": "GreatPerson_Class_Admiral",
 		"unitType": "Unit_Type_Civilian_Ship",
 		"uniques": [
@@ -235,7 +243,7 @@
 			"Can instantly construct a [Improvement_Ming_GreatWall] improvement <by consuming this unit>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
-		"cost": 80
+		"cost": 65
 	},
 	{//埃及-狮身人面像建造者
 		"name": "Unit_Sphinx",
