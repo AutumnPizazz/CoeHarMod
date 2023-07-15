@@ -95,9 +95,10 @@
 		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
 		"[+1 Culture] from every [Improvement_Mine]",
 		"[-200]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
-		"[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
-		"[+18]% Strength <for [Unit_Type_Ranged_Infantry] units>",
-		"[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
+		"",
+		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Melee_Infantry] unit>",
+		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Ranged_Infantry] unit>",
+		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Anti_Cavalry] unit>",
 		"[+23]% Strength <for [Military] units> <when fighting in [Class_Industrial_Zone] tiles> <when defending>"],
 		
 		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
@@ -146,7 +147,7 @@
 		"uniqueName": "Mother Nile",
 		"uniques": ["[+1] Movement <for [All] units> <in [River] tiles>",
 		"[+13]% Strength <for [Military] units> <when fighting in [River] tiles>",
-		"[+1 Happiness, +1 Food] in cities on [River] tiles"],
+		"[+1 Happiness, +2 Food] in cities on [River] tiles"],
 	
 		"cities": ["Thebes", "Memphis", "Alexandria", "Heliopolis", "Abydos", "Abu Simbel", "Karnak", "Luxor", "Giza", "Dendera", "Amarna", "Mendes", "Bubastis", "Tanis", "Pi-Ramesses", "Edfu", "Esna", "Philae", "Elephantine", "Aswan"],
 			

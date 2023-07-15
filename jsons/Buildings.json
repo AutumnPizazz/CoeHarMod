@@ -995,14 +995,14 @@
         "Destroyed when the city is captured",
 		"Unsellable"]
     },
-    {
+    {//谒见厅
         "name":"Building_Audience_Chamber",
         "cost":140,
         "maintenance":1,
         "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
-        "[+2 Happiness, +4 Food] <in cities with a [Building_Classification_Governor_Level_1]>",
+        "[+1 Happiness, +2 Food] [in all cities] <in cities with a [Building_Classification_Governor_Level_1]>",
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Ancestral_Hall]>",
         "Only available <in cities without a [Building_Warlord_Throne]>",
