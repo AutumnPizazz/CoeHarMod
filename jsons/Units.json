@@ -60,7 +60,7 @@
 		"uniques": ["Can transform to [GreatPerson_Class_General]",
 			"Can transform to [GreatPerson_Class_Admiral]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 1
+		"movement": 4
 	},
 	{
 		"name": "GreatPerson_Class_Admiral",

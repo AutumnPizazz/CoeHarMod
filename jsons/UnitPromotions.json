@@ -19,32 +19,32 @@
 	{
 		"name":"Promotion_Army_Combat_Training_I",
 		"uniques":["[+50]% XP gained from combat",
-		"[GreatPerson_Class_General] is earned [25]% faster"]
+		"[Great General] is earned [25]% faster"]
 	},
 	{
 		"name":"Promotion_Army_Combat_Training_II",
 		"uniques":["[+50]% XP gained from combat",
-		"[GreatPerson_Class_General] is earned [50]% faster"]
+		"[Great General] is earned [50]% faster"]
 	},
 	{
 		"name":"Promotion_Army_Combat_Training_III",
 		"uniques":["[+50]% XP gained from combat",
-		"[GreatPerson_Class_General] is earned [75]% faster"]
+		"[Great General] is earned [75]% faster"]
 	},
 	{
 		"name":"Promotion_Navy_Combat_Training_I",
 		"uniques":["[+50]% XP gained from combat",
-		"[GreatPerson_Class_Admiral] is earned [25]% faster"]
+		"[Great General] is earned [25]% faster"]
 	},
 	{
 		"name":"Promotion_Navy_Combat_Training_II",
 		"uniques":["[+50]% XP gained from combat",
-		"[GreatPerson_Class_Admiral] is earned [50]% faster"]
+		"[Great General] is earned [50]% faster"]
 	},
 	{
 		"name":"Promotion_Navy_Combat_Training_III",
 		"uniques":["[+50]% XP gained from combat",
-		"[GreatPerson_Class_Admiral] is earned [75]% faster"]
+		"[Great General] is earned [75]% faster"]
 	},
 	{
 		"name":"double star",
@@ -68,14 +68,14 @@
 	/*单位-武僧*/
 	{
 		"name": "Promotion_Hypnotic_Screen",
-		"uniques": ["Invisible to non-adjacent units","Heal this unit by [50] HP"],
+		"uniques": ["Invisible to non-adjacent units"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 1
     },
 	{
 		"name": "Promotion_Shadowless_Fist",
-		"uniques": ["[+100]% to Flank Attack bonuses","Heal this unit by [50] HP"],
+		"uniques": ["[+100]% to Flank Attack bonuses"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 1
@@ -83,7 +83,7 @@
 	{
 		"name": "Promotion_Disciple",
 		"prerequisites":["Promotion_Hypnotic_Screen"],
-		"uniques": ["Can [Spread Religion] [4] times","Heal this unit by [50] HP"],
+		"uniques": ["Can [Spread Religion] [4] times"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 2
@@ -131,7 +131,7 @@
     },
 	{
 		"name": "Promotion_Rangers",
-		"uniques": ["Double movement in [Vegetation]"],
+		"uniques": ["Double movement in [Landform_Forest]","Double movement in [Landform_Rainforest]"],
 		"unitTypes": ["Unit_Type_Scout"],
         "column": 4,
         "row": 1
