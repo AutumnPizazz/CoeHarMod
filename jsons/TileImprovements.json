@@ -515,6 +515,7 @@
 	//军事设施
 	{//罗马-罗马堡垒
 		"name": "Improvement_RomeFort",
+		"uniqueTo":"Nation_Rome",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
 		"techRequired": "Tech_Alchemy",
 		"uniques": ["Can be built outside your borders",

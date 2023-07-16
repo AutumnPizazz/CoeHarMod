@@ -506,7 +506,7 @@
 		"movementCost":2,
 		"food":3,
 		"culture":3,
-		"uniques": ["Must be adjacent to [6] to [6] [Land] tiles",
+		"uniques": ["Must be adjacent to [6] to [6] [Grassland] tiles",
 			"Occurs in groups of [4] to [4] tiles"],
 		"weight": 5
 	},
