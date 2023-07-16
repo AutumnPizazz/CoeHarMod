@@ -505,7 +505,9 @@
 	{
 		"name":"Promotion_yanhouyaodao",
 		"prerequisites":["Promotion_fangzhen","Promotion_changmaozhen"],
-		"uniques":["[+34]% Strength <when defending> <in [Vegetation] tiles>",
+		"uniques":["[+34]% Strength <when defending> <in [Forest] tiles>",
+		"[+34]% Strength <when defending> <in [Rainforest] tiles>",
+		"[+34]% Strength <when defending> <in [Improvement_Manufactory] tiles>",
 		"[+34]% Strength <when defending> <in [Landform_Swamp] tiles>"],
 		"unitTypes":["Unit_Type_Anti_Cavalry"],
 		"column":15,

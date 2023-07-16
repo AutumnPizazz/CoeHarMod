@@ -510,6 +510,21 @@
 			"Occurs in groups of [4] to [4] tiles"],
 		"weight": 5
 	},
+	{//精致拱门
+		"name": "Naturalwonder_Delicate_Arch",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": ["Desert"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"gold":3,
+		"faith":3,
+		"uniques": ["Must be adjacent to [6] to [6] [Desert] tiles",
+			"Occurs in groups of [1] to [1] tiles",
+			"Tile provides yield without assigned population"],
+		"weight": 8
+	},
 	/*
 	{
 		"name": "Krakatoa",
