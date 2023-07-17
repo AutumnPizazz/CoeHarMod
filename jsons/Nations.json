@@ -161,6 +161,33 @@
 		"hateHello": "We have no tolerance for your aggression. Leave our land immediately.",
 		"tradeRequest": "We are willing to engage in trade that will benefit our two great nations."	
 	},
+	{//俄罗斯
+		"name": "Nation_Russia",
+		"leaderName": "Peter the Great",
+		"adjective": ["Russian"],
+		"outerColor": [0, 51, 102], // 深蓝色
+		"innerColor": [255, 204, 0], // 金黄色
+
+		"startBias": ["Tundra"],
+		"uniqueName": "Personification of Russia",
+		"uniques": ["[-45]% Culture cost of natural border growth [in all cities]",
+		"[-45]% Gold cost of acquiring tiles [in all cities]",
+		"[+1 Production] from every [Tundra]"],
+
+		"cities": ["Moscow", "St. Petersburg", "Volgograd", "Kaluga", "Kirov", "Saratov", "Kostroma", "Orenburg", "Krasnodar", "Voronezh", "Ufa", "Ulyanovsk", "Nizhny Novgorod", "Yekaterinburg", "Novosibirsk", "Kazan", "Rostov-on-Don", "Samara", "Chelyabinsk", "Perm"],
+
+		"startIntroPart1": "Welcome to the Russian Empire!",
+		"startIntroPart2": "Under my leadership, we will expand our territory and build a strong, prosperous nation.",
+		"declaringWar": "We cannot tolerate your aggression any longer. Prepare for war!",
+		"attacked": "We are under attack! Defend our homeland!",
+		"defeated": "We have been defeated. Our empire has fallen.",
+		"introduction": "I am Peter the Great, Empress of Russia. Our nation is rich in culture and history, and we will stop at nothing to defend our sovereignty.",
+		"neutralHello": "Greetings. What brings you to our empire today?",
+		"hateHello": "You are not welcome here. Leave our territory at once.",
+		"tradeRequest": "Let us engage in commerce for the benefit of our respective nations."
+	},
+
+
 	{
 		"name": "白板1号",
 		"leaderName": "大佬",

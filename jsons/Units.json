@@ -679,7 +679,7 @@
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Medieval"]
 	},
-	{
+	{//骑兵
 		"name":"Unit_Cavalry",
 		"unitType":"Unit_Type_Light_Cavalry",
 		"strength":543,//62
@@ -689,6 +689,22 @@
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial"]
+	},
+	{//俄罗斯-哥萨克骑兵
+		"name":"Unit_Cossack",
+		"replaces":"Unit_Cavalry",
+		"uniqueTo":"Nation_Russia",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":697,//67
+		"movement":5,
+		"cost":330,
+		"upgradesTo":"Unit_Helicopter",
+		"requiredTech": "Tech_Military science",
+		"obsoleteTech": "Tech_Synthetic",
+		"uniques":["Can move after attacking",
+		"[+23]% Strength <when fighting in [Friendly Land] tiles>",
+		"Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial"]
 	},
 	{

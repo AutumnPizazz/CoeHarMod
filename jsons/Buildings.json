@@ -1173,7 +1173,7 @@
     },
 
     /*圣地区域建筑*/
-    {
+    {//圣地地标
 		"name": "Building_Holy_Site_Unique",
 		"cost": 44,
 		"maintenance": 1,
@@ -1185,6 +1185,24 @@
         "Unsellable",
         "Hidden when religion is disabled",
         "Creates a [District_Holy_Site] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Cannot be purchased"]
+	},
+    {//俄罗斯-拉夫拉修道院
+		"name": "Building_Lavra_Monastery",
+        "replaces":"Building_Holy_Site_Unique",
+        "uniqueTo":"Nation_Russia",
+		"cost": 22,
+		"maintenance": 1,
+		"requiredTech": "Tech_Astrology",
+        "requiredResource":"Resource_district_limitation",
+		"specialistSlots": {"Specialist_Priest": 1},
+        "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
+		"uniques": ["[+1 Faith] from [Tundra] tiles without [Landform_Hill] [in this city]",
+        "Cost increases by [4] per owned city",
+        "Unsellable",
+        "Hidden when religion is disabled",
+        "Creates a [District_Lavra_Monastery] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
