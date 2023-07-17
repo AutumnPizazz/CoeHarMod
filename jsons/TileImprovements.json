@@ -65,7 +65,6 @@
 	},
 	{//俄罗斯-拉夫拉修道院
 		"name": "District_Lavra_Monastery",
-        "uniqueTo":"Nation_Russia",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
 		"food": -10,
 		"production":-10,
