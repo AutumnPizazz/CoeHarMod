@@ -165,8 +165,8 @@
 		"name": "Nation_Russia",
 		"leaderName": "Peter the Great",
 		"adjective": ["Russian"],
-		"outerColor": [0, 51, 102], // 深蓝色
-		"innerColor": [255, 204, 0], // 金黄色
+		"outerColor": [218,165,32],
+		"innerColor": [0, 51, 102],
 
 		"startBias": ["Tundra"],
 		"uniqueName": "Personification of Russia",
@@ -186,10 +186,43 @@
 		"hateHello": "You are not welcome here. Leave our territory at once.",
 		"tradeRequest": "Let us engage in commerce for the benefit of our respective nations."
 	},
+	{//巴比伦
+		"name": "Nation_Babylon",
+		"leaderName": "Hammurabi",
+		"adjective": ["Babylonian"],
+		"outerColor": [0, 51, 102],
+		"innerColor": [255, 215, 0],
+
+		"startBias": ["Plains"],
+		"uniqueName": "Babylonian gods",
+		"uniqueText":"Every time a library is built, it immediately completes research on a technology of the current era",
+		"uniques": ["[1] free random researchable Tech(s) from the [Era_Ancient] <during the [Era_Ancient]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Classical] <during the [Era_Classical]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Medieval] <during the [Era_Medieval]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Medieval] <during the [Era_Medieval]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Renaissance] <during the [Era_Renaissance]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Industrial] <during the [Era_Industrial]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Modern] <during the [Era_Modern]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Atomic] <during the [Era_Atomic]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Information] <during the [Era_Information]> <upon constructing [Building_Library]>",
+		"[1] free random researchable Tech(s) from the [Era_Near-future] <during the [Era_Near-future]> <upon constructing [Building_Library]>"],
+
+		"cities": ["Babylon", "Uruk", "Nineveh", "Lagash", "Nippur", "Eridu", "Sippar", "Kish", "Borsippa", "Akkad", "Dūr-Kurigalzu", "Isin", "Shuruppak", "Kuara", "Kutalla", "Shaduppum", "Kishgal", "Marad", "Opis", "Zamua"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},
 
 
 	{
-		"name": "白板1号",
+		"name": "a白板1号",
 		"leaderName": "大佬",
 		"adjective": ["白板1号"],
 
@@ -213,7 +246,7 @@
 		"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
 	},
 	{
-		"name": "白板2号",
+		"name": "a白板2号",
 		"leaderName": "大佬",
 		"adjective": ["白板2号"],
 
@@ -237,7 +270,7 @@
 		"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
 	},
 	{
-		"name": "白板3号",
+		"name": "a白板3号",
 		"leaderName": "大佬",
 		"adjective": ["白板3号"],
 
@@ -261,7 +294,7 @@
 		"cities": ["NO.1 CITY OF FM_3","NO.2 CITY OF FM_3","NO.3 CITY OF FM_3","NO.4 CITY OF FM_3","NO.5 CITY OF FM_3","NO.6 CITY OF FM_3","NO.7 CITY OF FM_3","NO.8 CITY OF FM_3","NO.9 CITY OF FM_3","NO.10 CITY OF FM_3","NO.11 CITY OF FM_3","NO.12 CITY OF FM_3","NO.13 CITY OF FM_3","NO.14 CITY OF FM_3","NO.15 CITY OF FM_3","NO.16 CITY OF FM_3","NO.17 CITY OF FM_3","NO.18 CITY OF FM_3","NO.19 CITY OF FM_3","NO.20 CITY OF FM_3","NO.21 CITY OF FM_3","NO.22 CITY OF FM_3","NO.23 CITY OF FM_3","NO.24 CITY OF FM_3","NO.25 CITY OF FM_3","NO.26 CITY OF FM_3","NO.27 CITY OF FM_3","NO.28 CITY OF FM_3","NO.29 CITY OF FM_3","NO.30 CITY OF FM_3","NO.31 CITY OF FM_3","NO.32 CITY OF FM_3","NO.33 CITY OF FM_3","NO.34 CITY OF FM_3","NO.35 CITY OF FM_3"]
 	},
 	{
-		"name": "白板4号",
+		"name": "a白板4号",
 		"leaderName": "大佬",
 		"adjective": ["白板4号"],
 

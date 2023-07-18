@@ -412,6 +412,20 @@
 		"Era_Ancient"],
 		"replacementTextForUniques":"+51% combat power against more advanced era units"
 	},
+	{//巴比伦-主力军团
+		"name":"Unit_Main_Corps",
+		"uniqueTo":"Nation_Babylon",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":88,//17
+		"movement":3,
+		"cost":35,
+		"upgradesTo":"Unit_Swordsman",
+		"uniques":["[+1] Sight",
+		"[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
+		"[+97]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
+		"Only available <before discovering [Tech_Apprentices]>",
+		"Era_Ancient"]
+	},
 	{//剑客
 		"name":"Unit_Swordsman",
 		"unitType":"Unit_Type_Melee_Infantry",

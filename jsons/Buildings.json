@@ -875,7 +875,7 @@
 		"requiredTech": "Tech_Pottery"
 	},
     */
-	{
+	{//水磨
 		"name": "Building_Water_Mill",
 		"maintenance": 1,
 		"food": 1,
@@ -884,6 +884,19 @@
 		"uniques": ["Must be on [River]",
 		"[+1 Food] from [Resource_Wheat] tiles [in this city]",
 		"[+1 Food] from [Resource_Corn] tiles [in this city]",
+		"Cost increases by [8] per owned city",
+		"Unsellable"],
+		"requiredTech": "Tech_Wheels"
+	},
+	{//巴比伦-沟渠
+		"name": "Building_Ditch",
+        "replaces":"Building_Water_Mill",
+        "uniqueTo":"Nation_Babylon",
+		"maintenance": 1,
+		"production": 2,
+		"cost":70,
+		"uniques": ["Must be on [River]",
+		"[+1 Food] from [River] tiles without [Class_Usual_Improvement] [in this city]",
 		"Cost increases by [8] per owned city",
 		"Unsellable"],
 		"requiredTech": "Tech_Wheels"
@@ -2249,12 +2262,12 @@
         "name":"Building_Dance of the aurora",
         "cost":0,
         "uniques":[
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Tundra] tiles>",
         "Only available <after adopting [Pantheon_Dance of the aurora]>",
         "Can only be built [in capital]","Unsellable"],
         "replacementTextForUniques":"Sacred sites receive a standard adjacent addition to frozen soil",
@@ -2269,12 +2282,12 @@
         "name":"Building_Desert customs",
         "cost":0,
         "uniques":[
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [District_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Desert] tiles>",
         "Only available <after adopting [Pantheon_Desert customs]>",
         "Can only be built [in capital]","Unsellable"],
         "replacementTextForUniques":"Holy Land gets the standard adjacent bonus against desert",
