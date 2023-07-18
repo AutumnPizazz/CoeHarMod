@@ -7,7 +7,7 @@
 		"wonderCost": 180,
 		"techs": [
 			{
-				"name": "Initial tech/civic_Agriculture",
+				"name": "Initial tech_civic_Agriculture",
 				"row": 8,
 				"quote": "农家之人，务本之谓也，务本而已，则富可保矣。\n——《周礼·天官·农师》",
 				"uniques": ["Starting tech"]
@@ -24,7 +24,7 @@
 				"name": "Tech_Nautical art",
 				"cost": 30,
 				"row": 1,
-				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "东西南北，无不可至，遥涉波涛，若履平地。\n——《资治通鉴·唐纪三十四》",
 				"uniques": []
 			},
@@ -32,7 +32,7 @@
 				"name": "Tech_Astrology",
 				"cost": 30,
 				"row": 2,
-				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "夫星者，物之精也。\n——《淮南子·天文训》",
 				"uniques": []
 			},
@@ -40,7 +40,7 @@
 				"name": "Tech_Pottery",
 				"cost": 15,
 				"row": 4,
-				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "制陶之人，以时节作器，以风土制度，无使不便。\n——《周礼·天官·工贾》",
 				"uniques": []
 			},
@@ -48,7 +48,7 @@
 				"name": "Tech_Animal husbandry",
 				"cost": 15,
 				"row": 5,
-				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "羊肥牛壮，人民安乐。\n——《礼记·曲礼上》",
 				"uniques": []
 			},
@@ -56,7 +56,7 @@
 				"name": "Tech_Mining",
 				"cost": 15,
 				"row": 7,
-				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "工矿之事，必借于山林之材。\n——《淮南子·说山训》",
 				"uniques": []
 			},
@@ -64,7 +64,7 @@
 				"name": "Civic_Code",
 				"cost": 15,
 				"row": 12,
-				"prerequisites": ["Initial tech/civic_Agriculture"],
+				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "宽则得众，严则失民。\n——《管子·权修》",
 				"uniques": []
 			}

@@ -958,7 +958,7 @@
 		"uniques": ["[+1 Science, +1 Culture] per [2] population [in this city]",
         "Only available <in cities with at least [10] [Population]>",
 		"Unsellable"],
-		"requiredTech": "Initial tech/civic_Agriculture"
+		"requiredTech": "Initial tech_civic_Agriculture"
 	},
 
 
@@ -2402,7 +2402,7 @@
             "[+50]% [Gold] [in all cities]",
             "Free [Unit_Settler] appears",
             "Hidden when [VictoryType_Landlords] Victory is disabled"],
-        "requiredTech": "Initial tech/civic_Agriculture",
+        "requiredTech": "Initial tech_civic_Agriculture",
         "quote": "我即是地主!我要打两个!"
     },
 	{//大浴场
