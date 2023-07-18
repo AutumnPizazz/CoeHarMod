@@ -235,12 +235,12 @@
         {
             "name": "Follower belief_Crusade",
             "type": "Follower",
-            "uniques": ["[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"]
+            "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
         },
         {
             "name": "Follower belief_Defender of faith",
             "type": "Follower",
-            "uniques": ["[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"]
+            "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
         },
         {
             "name": "Follower belief_Reliquary",
