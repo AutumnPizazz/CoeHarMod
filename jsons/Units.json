@@ -321,12 +321,17 @@
 		],
 		"movement": 4
 	},
-	{
+	{//武僧
 		"name":"Unit_Monk",
 		"unitType":"Unit_Type_Monk",
-		"strength":220,//40
+		"strength":100,//20
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"],
+		"uniques":["[+50]% Strength <after discovering [Civic_Code]>",//150力
+			"[+50]% Strength <after discovering [Civic_Mysticism]>",//200力
+			"[+80]% Strength <after discovering [Civic_Theology]>",//280力
+			"[+130]% Strength <after discovering [Civic_Divin right of Kings]>",//350力
+			"[+50]% Strength <after discovering [Civic_Reformed church]>",//400力
+			"Unbuildable","Religious Unit"],
 		"religiousStrength": 1000
 	},
 

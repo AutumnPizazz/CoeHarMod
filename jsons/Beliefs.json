@@ -191,8 +191,8 @@
         {
             "name": "Follower belief_Martial arts",
             "type": "Follower",
-            "uniques": ["May buy [Unit_Monk] units for [150] [Faith] [in all cities] at an increasing price ([50])"]
-        },//数值待定
+            "uniques": ["May buy [Unit_Monk] units for [200] [Faith] [in capital] at an increasing price ([50])"]
+        },
         {
             "name": "Follower belief_Jesuit education",
             "type": "Follower",
