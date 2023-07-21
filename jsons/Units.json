@@ -565,7 +565,7 @@
 		"obsoleteTech": "Tech_Mechanical",
 		"uniques":["[+23]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient"]
 	},
-	{
+	{//弩手
 		"name":"Unit_Crossbowman",
 		"unitType":"Unit_Type_Ranged_Infantry",
 		"strength":151,//30
@@ -577,6 +577,21 @@
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Era_Medieval"]
+	},
+	{//明朝-虎蹲炮
+		"name":"Unit_TigerCrouchCannon",
+		"replaces":"Unit_Crossbowman",
+		"uniqueTo":"Nation_Ming",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":151,//30
+		"rangedStrength":332,//50
+		"range":1,
+		"movement":2,
+		"cost":140,
+		"upgradesTo":"Unit_Field_Cannon",
+		"requiredTech": "Tech_Mechanical",
+		"obsoleteTech": "Tech_Ballistics",
+		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>","Era_Medieval"]
 	},
 	{//野战加农炮
 		"name":"Unit_Field_Cannon",

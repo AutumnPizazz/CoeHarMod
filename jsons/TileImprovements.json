@@ -1690,6 +1690,7 @@
 		"techRequired": "Tech_Bricklaying",
 		"uniques": ["[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
 		"[+1 Culture, +1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 		"Pillaging this improvement yields approximately [+30 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -1702,6 +1703,7 @@
 		"techRequired": "Civic_Skill",
 		"uniques": ["[+1 Culture] <after discovering [Civic_Natural history]>",
 		"[+2 Faith] for each adjacent [District_Class_Wonder]",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
 		"Can only be built on [River] tiles",
 		"Pillaging this improvement yields approximately [+30 Faith]",
 		"Class_Usual_Improvement"]

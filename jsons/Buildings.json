@@ -1446,7 +1446,7 @@
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},
-    {
+    {//图书馆
         "name":"Building_Library",
         "cost":80,
         "maintenance":1,
