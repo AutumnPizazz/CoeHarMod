@@ -113,6 +113,7 @@
     {
         "name": "Unit_Type_Mech",
         "movementType": "Land",
-        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
+        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>",
+        "Ignores terrain cost <after discovering [Tech_Cybernetics]>"]
     }
 ]

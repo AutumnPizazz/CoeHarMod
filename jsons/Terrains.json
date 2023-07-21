@@ -6,8 +6,7 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques":["[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+		"uniques":[]
 	},
 	{//海滨
 		"name": "Coast",
@@ -115,9 +114,7 @@
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
 					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations",
-					"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
-					"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+					"Considered [Desirable] when determining start locations"]
 	},
 	{//山脉
 		"name": "Mountain",
@@ -167,8 +164,7 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Landform_Hill] tiles>",
-			"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]"]
+            "Never receives any resources <in [Landform_Hill] tiles>"]
 	},
 
 	//地貌
@@ -467,7 +463,7 @@
 		"food":4,
 		"uniques": [
 		"Occurs in groups of [1] to [1] tiles",
-		"Must be next to [River]",
+		"Must be adjacent to [4] to [6] [Plains] tiles",
 		"Fresh water"
 	],
 		"weight": 5,

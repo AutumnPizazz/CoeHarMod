@@ -14,7 +14,7 @@
 		"innerColor": [255, 215, 0],
 
 		"uniqueName": "Roman Legions",
-		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities] <after [4] turns>",
+		"uniques": ["May buy [Building_Monument] buildings for [0] [Gold] [in all cities]",
 		"[-50]% tile improvement construction time"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],

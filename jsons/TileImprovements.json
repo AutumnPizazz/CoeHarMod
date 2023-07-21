@@ -399,6 +399,8 @@
 		"[+1 Food] for each adjacent [Improvement_Farm] <after discovering [Civic_Feudalism]>",
 		"[+1 Food] <after discovering [Tech_Part specification]>",
 		"[+1 Food] for each adjacent [Distict_Academy_of_Classical_Learning]",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
         "Pillaging this improvement yields approximately [+18 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -409,6 +411,8 @@
 		"techRequired": "Tech_Build",
 		"uniques": ["[+1 Production] <after discovering [Tech_Steel]>",
 		"[+1 Production] <after discovering [Tech_Cybernetics]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Pillaging this improvement yields approximately [+18 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -420,6 +424,8 @@
 		"uniques": ["[+1 Production] <after discovering [Tech_Apprentices]>",
 		"[+1 Production] <after discovering [Tech_Industrialization]>",
 		"[+1 Production] <after discovering [Tech_Smart materials]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Does not need removal of [Landform_Forest]",
 		"Does not need removal of [Landform_Rainforest]",
 		"[+1 Science] for each adjacent [Distict_Academy_of_Classical_Learning]",
@@ -432,10 +438,12 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"production": 3,
 		"techRequired": "Civic_Earth protection",
-		"uniques": ["[+1 Production] <after discovering [Tech_Smart materials]>",
+		"uniques": ["Gives a defensive bonus of [13]%",
+		"[+1 Production] <after discovering [Tech_Smart materials]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Class_Usual_Improvement",
-		"Vegetation"]
+		"Class_Usual_Improvement"]
 	},
 	{//渔场
 		"name": "Improvement_Fishery",
@@ -443,6 +451,8 @@
 		"food": 1,
 		"techRequired": "Tech_Nautical art",
 		"uniques": ["[+1 Food] for each adjacent [Classification_Resource on water]",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Pillaging this improvement yields approximately [+20 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -452,6 +462,8 @@
 		"food": 2,
 		"techRequired": "Tech_Ocean home",
 		"uniques": ["[+1 Production] for each adjacent [Improvement_Fishing_Boat]",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"[+1 Culture] for each adjacent [Landform_Reef]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
@@ -468,6 +480,8 @@
 		"Does not need removal of [Landform_Swamp]",
 		"[+1 Production, +1 Food] <after discovering [Civic_Mercantilism]>",
 		"[+2 Gold] <after discovering [Tech_Synthetic]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+25 Gold]",
 		"Class_Usual_Improvement"]
@@ -478,6 +492,8 @@
 		"production":2,
 		"uniques": ["Can only be built to improve a resource",
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Pillaging this improvement yields approximately [+30 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -488,6 +504,8 @@
 		"uniques": ["Can only be built to improve a resource",
 		"Can only be built on [Water] tiles",
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Pillaging this improvement yields approximately [+30 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -498,6 +516,8 @@
 		"uniques": ["[+1 Food] <after discovering [Tech_Stirrups]>",
 		"[+1 Production] <after discovering [Tech_Part specification]>",
 		"[+1 Food] <after discovering [Tech_Robotics]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+10 Gold]",
 		"Class_Usual_Improvement"]
@@ -509,6 +529,8 @@
 		"uniques": ["[+1 Food] <after discovering [Tech_Scientific theory]>",
 		"[+1 Food] <after discovering [Civic_Feudalism]>",
 		"[+2 Gold] <after discovering [Civic_Globalization]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Does not need removal of [Landform_Swamp]",
 		"Does not need removal of [Landform_Rainforest]",
 		"Does not need removal of [Landform_Forest]",
@@ -523,6 +545,8 @@
 		"uniques": ["[+1 Production] <after discovering [Tech_Gunpowder]>",
 		"[+1 Production] <after discovering [Tech_Rocket research]>",
 		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
 		"Class_Industrials",
@@ -537,6 +561,8 @@
 		"[+1 Food] <after discovering [Tech_Plastic]>",
 		"[+1 Production] <after discovering [Civic_Colonialism]>",
 		"[+1 Production] for each adjacent [Improvement_Seastead]",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
 		"Class_Usual_Improvement"]
@@ -642,6 +668,8 @@
 		"faith": 6,
 		"uniques": ["Great Improvement",
 		"Removes removable features when built",
+		"[+2 Culture, +4 Gold] for each adjacent [Naturalwonder_El_Dorado]",
+		"[+3 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 		"Pillaging this improvement yields approximately [+40 Faith]"]
 	},
 	{//军师碉堡

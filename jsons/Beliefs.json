@@ -42,30 +42,29 @@
         {
             "name": "Pantheon_Harvest festival",
             "type": "Pantheon",
-            "uniques": ["Free [Unit_Farmer] appears",
-            "Free [Unit_Miner] appears",
+            "uniques": ["Free Farmer appears",
             "[+1 Food] from every [Building_Granary]"]
         },
-        {
+        {//工匠之神
             "name": "Pantheon_God of craftsmen",
             "type": "Pantheon",
             "uniques": ["[+1 Faith] from [Strategic resource] tiles [in all cities]",
             "[+1 Production] from [Strategic resource] tiles [in all cities] <after discovering [Tech_Build]>"]
         },
-        {
+        {//河神
             "name": "Pantheon_River god",
             "type": "Pantheon",
             "uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
         },
-        {
+        {//雨神
             "name": "Pantheon_Rain god",
             "type": "Pantheon",
             "uniques": ["[+1 Happiness, -1 Production] [in all cities]"]
         },
-        {
+        {//火之女神
             "name": "Pantheon_Goddess of fire",
             "type": "Pantheon",
-            "uniques": ["[+2 Faith] from every [Landform_Geothermal fissure]"]
+            "uniques": ["[+2 Faith, +1 Food, +1 Production] from every [Landform_Geothermal fissure]"]
         },
         {//极光之舞
             "name": "Pantheon_Dance of the aurora",
@@ -148,20 +147,18 @@
             "name": "Pantheon_Monument to the main god",
             "type": "Pantheon",
             "uniques": ["[+35]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-            "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
-            "Hidden when [Permit to build World Wonder] Victory is disabled"
-            ]
+            "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]"]
         },
         {
             "name": "Pantheon_Religious idol",
             "type": "Pantheon",
             "uniques": ["[+2 Faith] from every [Luxury resource]",
-            "Provides [2] [Resource_Jewelry] <in cities with a [Building_Palace]>"]
+            "Provides 2 Jewelry"]
         },
         {
             "name": "Pantheon_Religious migrant",
             "type": "Pantheon",
-            "uniques": ["Free [Unit_Settler] appears",
+            "uniques": ["Free Settler appears",
             "[-15]% Culture cost of natural border growth [in capital]"]
         },
     
@@ -210,7 +207,7 @@
         {
             "name": "Follower belief_Professional ethics",
             "type": "Follower",
-            "uniques": ["[+1]% [Production] from every follower, up to [15]%",
+            "uniques": ["[+1]% [Production] from every follower, up to [25]%",
             "[+1 Production] per [5] population [in cities following this religion]"]
         },
         {
@@ -226,26 +223,28 @@
             "[+30]% Natural religion spread [in cities following this religion] <after discovering [Tech_Printing]>",
             "Religion naturally spreads to cities [3] tiles away <after discovering [Tech_Printing]>"]
         },
-        {
+        {//神圣采购
             "name": "Follower belief_Sacred procurement",
             "type": "Follower",
             "uniques": ["[Faith] cost of purchasing [Unit_Missionary] units [-30]%",
-            "[+50]% Spread Religion Strength <for [Unit_Missionary] units>"]
+            "+50% Spread Religion Strength for Missionary units"]
         },
-        {
+        {//十字军
             "name": "Follower belief_Crusade",
             "type": "Follower",
-            "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+            "uniques": ["+15% Strength for Military units when fighting in Enemy Land tiles"]
         },
-        {
+        {//信仰守护者
             "name": "Follower belief_Defender of faith",
             "type": "Follower",
-            "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+            "uniques": ["+20% Strength for Military units when fighting in Friendly Land tiles"]
         },
-        {
+        {//圣遗物柜
             "name": "Follower belief_Reliquary",
             "type": "Follower",
-            "uniques": ["[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]>",
+            "uniques": ["Provides a sum of Faith each time you spend a Great Person",
+            /*这一部分报错,暂时取消
+            "[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]>",
             "[+60 Faith] whenever a Great Person is expended <during the [Era_Classical]>",
             "[+120 Faith] whenever a Great Person is expended <during the [Era_Medieval]>",
             "[+200 Faith] whenever a Great Person is expended <during the [Era_Renaissance]>",
@@ -254,7 +253,9 @@
             "[+650 Faith] whenever a Great Person is expended <during the [Era_Atomic]>",
             "[+900 Faith] whenever a Great Person is expended <during the [Era_Information]>",
             "[+1200 Faith] whenever a Great Person is expended <during the [Era_Near-future]>",
-            "[+1450 Faith] whenever a Great Person is expended <during the [Era_Far-future]>"]
+            "[+1450 Faith] whenever a Great Person is expended <during the [Era_Far-future]>"
+            */
+        ]
         },//数值待定
     
     /*创始人信仰*/

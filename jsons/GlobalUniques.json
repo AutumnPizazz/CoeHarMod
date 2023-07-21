@@ -20,10 +20,27 @@
         "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
         "[-100]% [Food] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
-        "[-100]% [Production] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
+        "[-70]% [Production] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities]",//允许买使者
         "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
         "[-40]% Culture cost of adopting new Policies",//文化修正
+        "[+13]% Strength when stacked with [Unit_Missionary] <for [Military] units> <if [Artificialwonder_Maebad_Alkurnak] is constructed>",//米纳克希神庙修正
+        "Free [Unit_Farmer] appears <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
+        "Free [Unit_Settler] appears <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
+        "Provides [2] [Resource_Jewelry] <upon adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
+        "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
+        "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
+        "[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
+        "[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]> <after adopting [Follower belief_Reliquary]>",
+        "[+60 Faith] whenever a Great Person is expended <during the [Era_Classical]> <after adopting [Follower belief_Reliquary]>",
+        "[+90 Faith] whenever a Great Person is expended <during the [Era_Medieval]> <after adopting [Follower belief_Reliquary]>",
+        "[+120 Faith] whenever a Great Person is expended <during the [Era_Renaissance]> <after adopting [Follower belief_Reliquary]>",
+        "[+150 Faith] whenever a Great Person is expended <during the [Era_Industrial]> <after adopting [Follower belief_Reliquary]>",
+        "[+180 Faith] whenever a Great Person is expended <during the [Era_Modern]> <after adopting [Follower belief_Reliquary]>",
+        "[+210 Faith] whenever a Great Person is expended <during the [Era_Atomic]> <after adopting [Follower belief_Reliquary]>",
+        "[+240 Faith] whenever a Great Person is expended <during the [Era_Information]> <after adopting [Follower belief_Reliquary]>",
+        "[+270 Faith] whenever a Great Person is expended <during the [Era_Near-future]> <after adopting [Follower belief_Reliquary]>",
+        "[+300 Faith] whenever a Great Person is expended <during the [Era_Far-future]> <after adopting [Follower belief_Reliquary]>",//以上都是追随者信仰圣遗物柜修正
     ]
 }

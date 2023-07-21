@@ -1087,7 +1087,8 @@
 				"name": "Tech_Cybernetics",
 				"row": 5,
 				"prerequisites": ["Tech_Guidance system"],
-				"uniques": ["Ignores terrain cost <for [Unit_Type_Mech] units>","[+2] Movement <for [Unit_Type_Mech] units>"],
+				"uniques": [
+				"[+2] Movement <for [Unit_Type_Mech] units>"],
 				"quote": "如果来生有劳作，那你须替我受其劳。一旦我有所召唤，你须即刻回应。在此劳作之时需谨言慎行。耕我之田，将水和沙运往东西四方。一旦我有所召唤，你须即刻回应。\n——埃及夏勃梯人像铭文"
 			},			
 			{
