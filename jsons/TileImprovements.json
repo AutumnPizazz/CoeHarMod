@@ -1685,7 +1685,6 @@
 		"name": "Improvement_Ming_GreatWall",
 		"uniqueTo":"Nation_Ming",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold":1,
 		"food":1,
 		"techRequired": "Tech_Bricklaying",
 		"uniques": ["[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
