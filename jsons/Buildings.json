@@ -991,6 +991,25 @@
         "Destroyed when the city is captured",
         "Cannot be purchased"]
 	},
+    {//玛雅-玛雅布
+		"name": "Building_Mayab",
+        "replaces":"Building_Government_Plaza_Unique",
+        "uniqueTo":"Nation_Maya",
+		"cost": 20,
+		"maintenance": 1,
+        "requiredResource":"Resource_district_limitation",
+		"requiredTech": "Civic_National labor force",
+		"uniques": ["[+23]% Strength <for [Military] units> <within [6] tiles of a [District_Mayab]>",
+        "Unsellable",
+        "Provides [1] [Resource_Governor title]",
+		"Cost increases by [8] per owned city",
+        "Creates a [District_Mayab] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Can only be built [in capital]",
+        "Cannot be purchased"]
+	},
     {
         "name":"Building_Ancestral_Hall",
         "cost":140,
@@ -1024,7 +1043,7 @@
         "Destroyed when the city is captured",
 		"Unsellable"]
     },
-    {
+    {//军阀宝座
         "name":"Building_Warlord_Throne",
         "cost":140,
         "maintenance":1,
@@ -1040,7 +1059,7 @@
         "Destroyed when the city is captured",
 		"Unsellable"]
     },
-    {
+    {//情报局
         "name":"Building_Intelligence_Agency",
         "cost":280,
         "maintenance":2,
@@ -1408,6 +1427,22 @@
 		"uniques": ["Unsellable",
 		"Cost increases by [4] per owned city",
         "Creates a [Distict_Academy_of_Classical_Learning] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Cannot be purchased"]
+	},
+    {//玛雅-天文台
+        "name": "Building_Mayan_Observatory",
+        "replaces":"Building_College_Unique",
+        "uniqueTo":"Nation_Maya",
+		"cost": 44,
+		"maintenance": 1,
+		"requiredTech": "Tech_Writing",
+        "requiredResource":"Resource_district_limitation",
+		"specialistSlots": {"Specialist_Scientist": 1},
+		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
+		"uniques": ["Unsellable",
+		"Cost increases by [8] per owned city",
+        "Creates a [District_Mayan_Observatory] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Cannot be purchased"]
 	},

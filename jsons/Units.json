@@ -525,7 +525,7 @@
 	},	
 	
 	/*长程步兵*/
-	{
+	{//投石兵
 		"name":"Unit_Catapult",
 		"unitType":"Unit_Type_Ranged_Infantry",
 		"strength":54,//5
@@ -537,7 +537,7 @@
 		"obsoleteTech": "Tech_Archey",
 		"uniques":["Era_Ancient"]
 	},
-	{
+	{//弓箭手
 		"name":"Unit_Archer",
 		"unitType":"Unit_Type_Ranged_Infantry",
 		"strength":81,//15
@@ -549,6 +549,21 @@
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
 		"uniques":["Era_Ancient"]
+	},
+	{//玛雅-投枪手
+		"name":"Unit_Javelin",
+		"replaces":"Unit_Archer",
+		"uniqueTo":"Nation_Maya",
+		"unitType":"Unit_Type_Ranged_Infantry",
+		"strength":81,//15
+		"rangedStrength":139,//28
+		"range":2,
+		"movement":2,
+		"cost":60,
+		"upgradesTo":"Unit_Crossbowman",
+		"requiredTech": "Tech_Archey",
+		"obsoleteTech": "Tech_Mechanical",
+		"uniques":["[+23]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient"]
 	},
 	{
 		"name":"Unit_Crossbowman",

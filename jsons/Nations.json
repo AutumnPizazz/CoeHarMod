@@ -9,6 +9,7 @@
 		"leaderName": "Trajan",
 		"adjective": ["Roman"],
 		"startBias": ["Plains","Grassland"],
+		"preferredVictoryType": "Victory type_Conquest",
 	
 		"outerColor": [72, 61, 139],
 		"innerColor": [255, 215, 0],
@@ -36,6 +37,7 @@
 		"outerColor": [0, 104, 183],
 		"innerColor": [255, 255, 255],
 		"startBias": ["Landform_Hill","Avoid [Mountain]"],
+		"preferredVictoryType": "Victory type_Science",
 
 		"uniqueName": "Hwarang",
 		"uniques": ["[+4]% [Science] from every [Building_Classification_Governor]",
@@ -62,6 +64,7 @@
 		"outerColor": [0, 128, 0],
 		"innerColor": [255, 255, 255],
 		"startBias": ["Landform_Rainforest","Landform_Swamp"],
+		"preferredVictoryType": "Victory type_Science",
 
 		"uniqueName": "Lijia",
 		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending",
@@ -90,10 +93,12 @@
 		"outerColor": [139, 69, 19],
 		"innerColor": [255, 153, 51],
 		"startBias": ["Landform_Hill"],
+		"preferredVictoryType": "Victory type_Conquest",
 
 		"uniqueName": "Halltarstadt",
 		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
 		"[+1 Culture] from every [Improvement_Mine]",
+		"Receive free [Unit_Miner] when you discover [Tech_Mining]",
 		"[-200]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
 		"",
 		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Melee_Infantry] unit>",
@@ -120,6 +125,7 @@
 		"outerColor": [255, 215, 0],
 		"innerColor": [139, 0, 0],
 		"startBias": ["River"],
+		"preferredVictoryType": "Victory type_Science",
 
 		"uniqueName": "Freie Reichsstadt",
 		"uniques": ["Provides [1] [Resource_Military policy slot]"],
@@ -143,6 +149,7 @@
 		"outerColor": [0, 128, 128],  // 深青色
 		"innerColor": [255, 215, 0],  // 金色
 		"startBias": ["River"],
+		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Mother Nile",
 		"uniques": ["[+1] Movement <for [All] units> <in [River] tiles>",
@@ -167,6 +174,7 @@
 		"adjective": ["Russian"],
 		"outerColor": [218,165,32],
 		"innerColor": [0, 51, 102],
+		"preferredVictoryType": "Victory type_Religion",
 
 		"startBias": ["Tundra"],
 		"uniqueName": "Personification of Russia",
@@ -192,6 +200,7 @@
 		"adjective": ["Babylonian"],
 		"outerColor": [0, 51, 102],
 		"innerColor": [255, 215, 0],
+		"preferredVictoryType": "Victory type_Science",
 
 		"startBias": ["Plains"],
 		"uniqueName": "Babylonian gods",
@@ -219,7 +228,32 @@
 		"hateHello": "",
 		"tradeRequest": ""
 	},
+	{//玛雅
+		"name": "Nation_Maya",
+		"leaderName": "Lady Six Sky",
+		"adjective": ["Mayan"],
+		"outerColor": [198, 141, 99],
+		"innerColor": [24, 63, 66],
+		"startBias": ["Landform_Rainforest"],
+		"preferredVictoryType": "Victory type_Science",
 
+		"uniqueName": "Mayab",
+//		"uniqueText":"",
+		"uniques": ["[-2 Happiness, -2 Food] [in all cities] <after [20] turns>",
+		"[+1 Happiness, +1 Food] from every [Improvement_Farm] <after [20] turns>"],
+		
+		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},
 
 	{
 		"name": "a白板1号",
