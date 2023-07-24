@@ -64,7 +64,7 @@
 		"outerColor": [0, 128, 0],
 		"innerColor": [255, 255, 255],
 		"startBias": ["Landform_Rainforest","Landform_Swamp"],
-		"preferredVictoryType": "Victory type_Science",
+		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Lijia",
 		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending",
@@ -234,13 +234,14 @@
 		"adjective": ["Mayan"],
 		"outerColor": [198, 141, 99],
 		"innerColor": [24, 63, 66],
-		"startBias": ["Landform_Rainforest"],
+		"startBias": ["Plains","Avoid [Mountain]"],
 		"preferredVictoryType": "Victory type_Science",
 
 		"uniqueName": "Mayab",
 //		"uniqueText":"",
-		"uniques": ["[-2 Happiness, -2 Food] [in all cities] <after [20] turns>",
-		"[+1 Happiness, +1 Food] from every [Improvement_Farm] <after [20] turns>"],
+		"uniques": ["[-2 Happiness] [in all cities] <after [20] turns>",
+		"[+1 Happiness] from every [Improvement_Farm] <after [20] turns>",
+		"[+2 Happiness] from every [Improvement_Plantation] <after [20] turns>"],
 		
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
 		

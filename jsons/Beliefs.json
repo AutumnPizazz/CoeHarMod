@@ -1,45 +1,45 @@
 
 [
     /*万神殿*/
-        {
+        {//月亮女神
             "name": "Pantheon_Moon goddess",
             "type": "Pantheon",
             "uniques": ["[+2 Gold] from every [Improvement_Fishing_Boat]",
             "[+1 Gold] from every [Improvement_Fishing_Boat] <after discovering [Tech_Crossail device]>"]
         },
-        {
+        {//海洋之神
             "name": "Pantheon_Ocean god",
             "type": "Pantheon",
             "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]"]
         },
-        {
+        {//潮汐女神
             "name": "Pantheon_Tidal goddess",
             "type": "Pantheon",
             "uniques": ["[+1 Culture] from every [Improvement_Fishing_Boat]"]
         },
-        {
+        {//城市守护女神
             "name": "Pantheon_City guardian goddess",
             "type": "Pantheon",
             "uniques": ["[+100]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities] <in cities without a [Building_Classification_District_Unique]>"]
         },
-        {
+        {//大地女神
             "name": "Pantheon_Earth goddess",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from [Landform_Hill] tiles without [Class_Usual_Improvement] [in all cities]",
-            "[+2 Faith] from every [Mountain]"]
+            "uniques": ["[+2 Faith] from [Landform_Hill] tiles without [Class_Usual_Improvement] [in all cities]",
+            "[+4 Faith] from every [Mountain]"]
         },
-        {
+        {//锻造之神
             "name": "Pantheon_God of the forge",
             "type": "Pantheon",
             "uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities]"]
         },
-        {
+        {//守护之神
             "name": "Pantheon_Guardian god",
             "type": "Pantheon",
             "uniques": ["[+20]% Strength for cities <when defending>",
-            "[+1 Production] [in all cities with a garrison]"]
+            "[+3 Production] [in all cities with a garrison]"]
         },
-        {
+        {//丰产仪式
             "name": "Pantheon_Harvest festival",
             "type": "Pantheon",
             "uniques": ["Free Farmer appears",
@@ -88,17 +88,17 @@
                 }
             ]
         },
-        {
+        {//节庆女神
             "name": "Pantheon_Goddess of festivals",
             "type": "Pantheon",
             "uniques": ["[+1 Culture] from every [Improvement_Plantation]"]
         },
-        {
+        {//天空之神
             "name": "Pantheon_Sky god",
             "type": "Pantheon",
             "uniques": ["[+1 Culture] from every [Improvement_Pasture]"]
         },
-        {
+        {//芦苇和沼泽地里的夫人
             "name": "Pantheon_Lady of the reeds and marshes",
             "type": "Pantheon",
             "uniques": ["[+1 Production] from every [Landform_Swamp]",
@@ -108,35 +108,35 @@
             "[+1 Production] from every [Landform_Oasis] <after discovering [Civic_Theology]>",
             "[+1 Production] from every [Landform_Alluvial plain] <after discovering [Civic_Theology]>"]
         },
-        {
+        {//神圣道路
             "name": "Pantheon_Sacred way",
             "type": "Pantheon",
             "uniques": ["[+1 Faith] from every [Landform_Forest]",
             "[+1 Faith] from every [Landform_Rainforest]"]
         },
-        {
+        {//神圣之光
             "name": "Pantheon_Sacred light",
             "type": "Pantheon",
             "uniques": ["[+10]% Great Person generation [in all cities]",
                 "[+15]% Great Person generation [in capital]"]
         },
-        {
+        {//石圈
             "name": "Pantheon_Stone circle",
             "type": "Pantheon",
             "uniques": ["[+1 Production] from every [Improvement_Quarry]",
-            "[+1 Faith] from every [Improvement_Quarry] <after discovering [Tech_Apprentices]>"]
+            "[+3 Faith] from every [Improvement_Quarry] <after discovering [Tech_Apprentices]>"]
         },
-        {
+        {//狩猎女神
             "name": "Pantheon_Goddess of the hunt",
             "type": "Pantheon",
             "uniques": ["[+1 Food, +1 Production, +1 Gold] from every [Improvement_Encampment]"]
         },
-        {
+        {//治愈之神
             "name": "Pantheon_God of healing",
             "type": "Pantheon",
             "uniques": ["All newly-trained [Military] units [in all cities] receive the [Promotion_Healing_God] promotion"]
         },
-        {
+        {//战争之神
             "name": "Pantheon_God of war",
             "type": "Pantheon",
             "uniques": ["Earn [8]% of [Military] unit's [Strength] as [Science] when killed within 4 tiles of a city following this religion",
@@ -147,19 +147,54 @@
             "name": "Pantheon_Monument to the main god",
             "type": "Pantheon",
             "uniques": ["[+35]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-            "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]"]
+            "[+20]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]"]
         },
-        {
+        {//宗教偶像
             "name": "Pantheon_Religious idol",
             "type": "Pantheon",
             "uniques": ["[+2 Faith] from every [Luxury resource]",
             "Provides 2 Jewelry"]
         },
-        {
+        {//宗教移民
             "name": "Pantheon_Religious migrant",
             "type": "Pantheon",
             "uniques": ["Free Settler appears",
             "[-15]% Culture cost of natural border growth [in capital]"]
+        },
+        {//恩惠女神
+            "name": "Pantheon_Grace goddess",
+            "type": "Pantheon",
+            "uniques": ["[+1 Food, +1 Production] from every [Improvement_Plantation]"]
+        },
+        {//明道之主
+            "name": "Pantheon_The Lord of the wise",
+            "type": "Pantheon",
+            "uniques": ["[+1 Happiness] [in capital]","[+1 Production] [in all cities]"]
+        },
+        {//牧民之路
+            "name": "Pantheon_Herdsmen's road",
+            "type": "Pantheon",
+            "uniques": ["[+1 Food] from every [Resource_Cattle]",
+            "[+1 Food] from every [Resource_Sheep]",
+            "[+1 Food] from every [Resource_Horse]",
+            "[+1 Production] from every [Resource_Cattle]",
+            "[+1 Production] from every [Resource_Horse]"]
+        },
+        {//农耕女神
+            "name": "Pantheon_Goddess of agriculture",
+            "type": "Pantheon",
+            "uniques": ["[+1 Food] from every [Improvement_Farm]"]
+        },
+        {//祈龙仪式
+            "name": "Pantheon_Dragon prayer ceremony",
+            "type": "Pantheon",
+            "uniques": ["[+1 Faith] from every [Improvement_Fishing_Boat]",
+            "[+2 Faith] from every [Landform_Reef]"]
+        },
+        {//启蒙会
+            "name": "Pantheon_Society of Enlightenment",
+            "type": "Pantheon",
+            "uniques": ["[+1 Food, +1 Gold] [in all cities]"]
         },
     
     
