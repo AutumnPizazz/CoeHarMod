@@ -215,6 +215,17 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
+	{//地脉开采者
+		"name": "Unit_EarthVeinsExploiter",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_UniqueToGoldenDawn2",
+		"uniques": ["Can instantly construct a [Improvement_EarthVeinsExploiter] improvement <by consuming this unit>",
+			"Only available <if [Governor_GoldenDawn_IV] is constructed>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
 	{//商人
 		"name": "Unit_Trader",
 		"unitType": "Unit_Type_Civilian",
@@ -274,17 +285,20 @@
 		"movement":4,
 		"uniques":["Unbuildable",
 		"Instantly consumes [40] [Resource_Influence]",
-		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"]
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
+		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
 	{
 		"name":"Unit_Envoy2",
 		"unitType":"Unit_Type_Civilian",
 		"movement":4,
 		"uniques":["Unbuildable",
-		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"]
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
+		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
 
-	{//情报局专属单位
+	/*特殊单位*/
+	{//专业间谍
 		"name":"Unit_Spy",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":200,
@@ -293,6 +307,102 @@
 		"Ignores terrain cost",
 		"Invisible to others",
 		"Can see invisible [Unit_Spy] units",
+		"Free [Unit_Spy] appears <upon being defeated>",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//空灵吟唱I
+		"name":"Unit_Voidchoner_ConsumerI",
+		"unitType":"Unit_Type_Civilian",
+		"movement":0,
+		"uniques":["Gain [10] [Science] <by consuming this unit>",
+		"Gain [10] [Culture] <by consuming this unit>",
+		"Gain [40] [Gold] <by consuming this unit>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//空灵吟唱II
+		"name":"Unit_Voidchoner_ConsumerII",
+		"unitType":"Unit_Type_Civilian",
+		"movement":0,
+		"uniques":["Gain [40] [Science] <by consuming this unit>",
+		"Gain [40] [Culture] <by consuming this unit>",
+		"Gain [160] [Gold] <by consuming this unit>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//空灵吟唱III
+		"name":"Unit_Voidchoner_ConsumerIII",
+		"unitType":"Unit_Type_Civilian",
+		"movement":0,
+		"uniques":["Gain [100] [Science] <by consuming this unit>",
+		"Gain [100] [Culture] <by consuming this unit>",
+		"Gain [400] [Gold] <by consuming this unit>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//I级吸血鬼
+		"name":"Unit_VampireI",
+		"unitType":"Unit_Type_Vampire",
+		"strength":100,
+		"movement":2,
+		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
+		"Free [Unit_VampireI] appears <upon being defeated>",
+		"Can transform to [Unit_VampireII] <after discovering [Tech_Alchemy]>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//II级吸血鬼
+		"name":"Unit_VampireII",
+		"unitType":"Unit_Type_Vampire",
+		"strength":186,
+		"movement":2,
+		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
+		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Can transform to [Unit_VampireIII] <after discovering [Tech_Apprentices]>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//III级吸血鬼
+		"name":"Unit_VampireIII",
+		"unitType":"Unit_Type_Vampire",
+		"strength":281,
+		"movement":2,
+		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
+		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Can transform to [Unit_VampireIV] <after discovering [Tech_Gunpowder]>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//IV级吸血鬼
+		"name":"Unit_VampireIV",
+		"unitType":"Unit_Type_Vampire",
+		"strength":425,
+		"movement":2,
+		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
+		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Can transform to [Unit_VampireV] <after discovering [Tech_Part specification]>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//V级吸血鬼
+		"name":"Unit_VampireV",
+		"unitType":"Unit_Type_Vampire",
+		"strength":968,
+		"movement":2,
+		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
+		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Can transform to [Unit_VampireVI] <after discovering [Tech_Satellite]>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
+		"Unbuildable", "Uncapturable"]
+	},
+	{//VI级吸血鬼
+		"name":"Unit_VampireVI",
+		"unitType":"Unit_Type_Vampire",
+		"strength":1462,
+		"movement":3,
+		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
+		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
 	},
 
@@ -796,7 +906,10 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
-		"uniques":["[+2] Movement <in [Open terrain] tiles>","Era_Ancient"]
+		"uniques":["[+2] Movement <in [Open terrain] tiles>",
+		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion_chongfeng]>",
+		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
+		"Era_Ancient"]
 	},
 	{
 		"name":"Unit_Knight",
