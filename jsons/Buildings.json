@@ -1,4 +1,26 @@
-[
+[	
+    /*模组专属模式开关隐藏建筑*/
+    {//标志允许建造世界奇观专属建筑
+        "name": "Building_WorldWonder",
+        "cost": 0,
+        "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+    },	
+    {//标志通用总督专属建筑
+        "name": "Building_Landlords",
+        "cost": 0,
+        "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+    },	
+    {//标志秘密结社专属建筑
+        "name": "Building_Camorrist",
+        "cost": 0,
+        "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+    },	
+    {//标志斗地主模式专属建筑
+        "name": "Building_Viceroy",
+        "cost": 0,
+        "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+    },	
+
     /*政体建筑*/
 	{//酋邦
 	    "name": "Government_Chieftainship",
@@ -248,7 +270,321 @@
             "Building_Classification_Level_5_Government"]
     },
 
-    /*总督建筑*/
+    /*秘密结社建筑*/
+	{//虚空吟唱者I
+	    "name": "Governor_Voidchoner_I",
+		"cost": 0,
+		"uniques":["[+3 Faith] from every [Building_Monument]",
+            "Only available <starting from the [Era_Ancient]>",
+            "Unsellable",
+            "Class_Camorrist",
+            "Only available <in cities without a [Class_Camorrist]>",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//虚空吟唱者II
+	    "name": "Governor_Voidchoner_II",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_Voidchoner_I",
+		"uniques":["May buy [Unit_Voidchoner_ConsumerI] units for [50] [Faith] [in all cities]",
+            "May buy [Unit_Voidchoner_ConsumerII] units for [200] [Faith] [in all cities]",
+            "May buy [Unit_Voidchoner_ConsumerIII] units for [500] [Faith] [in all cities]",
+            "Only available <starting from the [Era_Medieval]>",
+            "Only available <in cities with a [Governor_Voidchoner_I]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//虚空吟唱者III
+	    "name": "Governor_Voidchoner_III",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_Voidchoner_II",
+		"uniques":["May buy [Building_VoidAltar] buildings for [500] [Faith] [in all cities]",
+            "Only available <starting from the [Era_Industrial]>",
+            "Only available <in cities with a [Governor_Voidchoner_II]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+    {//虚空祭坛
+        "name":"Building_VoidAltar",
+        "faith":10,
+        "culture":4,
+        "uniques":["All newly-trained [Military] units [in this city] receive the [Promotion_Canticle] promotion",
+		"Unsellable","Unbuildable",
+        "Destroyed when the city is captured",
+        "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//虚空吟唱者IV
+	    "name": "Governor_Voidchoner_IV",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_Voidchoner_III",
+		"uniques":["May buy [Building_DarkCallTower] buildings for [750] [Faith] [in all cities]",
+            "Only available <starting from the [Era_Atomic]>",
+            "Only available <in cities with a [Governor_Voidchoner_III]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+    {//黑暗召唤塔
+        "name":"Building_DarkCallTower",
+        "uniques":["[+1 Happiness] per [3] population [in this city]",
+        "[-50]% growth [in this city]",
+		"Unsellable","Unbuildable",
+        "Destroyed when the city is captured",
+        "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+
+	{//弥涅耳瓦夜莺I
+	    "name": "Governor_MinervaNightingale_I",
+		"cost": 0,
+		"uniques":["Provides [1] [Resource_Economic policy slot]",
+            "Only available <starting from the [Era_Ancient]>",
+            "Unsellable",
+            "Class_Camorrist",
+            "Only available <in cities without a [Class_Camorrist]>",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//弥涅耳瓦夜莺II
+	    "name": "Governor_MinervaNightingale_II",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_MinervaNightingale_I",
+		"uniques":["[+4 Culture, +4 Production] from every [Building_Bank]",
+            "[+100]% Production when constructing [Building_Bank] buildings [in all cities]",
+            "Only available <starting from the [Era_Medieval]>",
+            "Only available <in cities with a [Governor_MinervaNightingale_I]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//弥涅耳瓦夜莺III
+	    "name": "Governor_MinervaNightingale_III",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_MinervaNightingale_II",
+		"uniques":["Provides [1] [Resource_Generic policy slot]",
+            "[2] free [Unit_Spy] units appear",
+            "Only available <starting from the [Era_Industrial]>",
+            "Only available <in cities with a [Governor_MinervaNightingale_II]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//弥涅耳瓦夜莺IV
+	    "name": "Governor_MinervaNightingale_IV",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_MinervaNightingale_III",
+		"uniques":["[+1 Gold] per [1] population [in all cities]",
+            "[-50]% maintenance cost for buildings [in all cities]",
+            "Only available <starting from the [Era_Atomic]>",
+            "Only available <in cities with a [Governor_MinervaNightingale_III]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+
+	{//黄金黎明I
+	    "name": "Governor_GoldenDawn_I",
+		"cost": 0,
+		"uniques":["Discover [Tech_UniqueToGoldenDawn]",
+            "Only available <starting from the [Era_Ancient]>",
+            "Unsellable",
+            "Class_Camorrist",
+            "Only available <in cities without a [Class_Camorrist]>",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//黄金黎明II
+	    "name": "Governor_GoldenDawn_II",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GoldenDawn_I",
+		"uniques":["[+5 Gold] from every [Building_University]",
+            "[+100]% Production when constructing [Building_University] buildings [in all cities]",
+            "Only available <starting from the [Era_Medieval]>",
+            "Only available <in cities with a [Governor_GoldenDawn_I]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//黄金黎明III
+	    "name": "Governor_GoldenDawn_III",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GoldenDawn_II",
+		"uniques":["[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource_EarthVeins]",
+            "Only available <starting from the [Era_Industrial]>",
+            "Only available <in cities with a [Governor_GoldenDawn_II]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//黄金黎明IV
+	    "name": "Governor_GoldenDawn_IV",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GoldenDawn_III",
+		"uniques":["Discover [Tech_UniqueToGoldenDawn2]",
+            "Each mined EarthVeins resource will provide a 3% combat bonus for all military units, up to 33%",
+            "Only available <starting from the [Era_Atomic]>",
+            "Only available <in cities with a [Governor_GoldenDawn_III]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+
+
+	{//黄金黎明I
+	    "name": "Governor_GoldenDawn_I",
+		"cost": 0,
+		"uniques":["Discover [Tech_UniqueToGoldenDawn]",
+            "[+1 Production, +1 Science] from every [Resource_EarthVeins]",
+            "Only available <starting from the [Era_Ancient]>",
+            "Unsellable",
+            "Class_Camorrist",
+            "Only available <in cities without a [Class_Camorrist]>",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//黄金黎明II
+	    "name": "Governor_GoldenDawn_II",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GoldenDawn_I",
+		"uniques":["[+5 Gold] from every [Building_University]",
+            "[+100]% Production when constructing [Building_University] buildings [in all cities]",
+            "Only available <starting from the [Era_Medieval]>",
+            "Only available <in cities with a [Governor_GoldenDawn_I]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//黄金黎明III
+	    "name": "Governor_GoldenDawn_III",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GoldenDawn_II",
+		"uniques":["[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource_EarthVeins]",
+            "Only available <starting from the [Era_Industrial]>",
+            "Only available <in cities with a [Governor_GoldenDawn_II]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//黄金黎明IV
+	    "name": "Governor_GoldenDawn_IV",
+		"cost": 0,
+		"requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GoldenDawn_III",
+		"uniques":["Discover [Tech_UniqueToGoldenDawn2]",
+            "Each mined EarthVeins resource will provide a 3% combat bonus for all military units, up to 33%",
+            "Only available <starting from the [Era_Atomic]>",
+            "Only available <in cities with a [Governor_GoldenDawn_III]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+
+    
+
+    {//血色契约I
+        "name": "Governor_BloodContract_I",
+        "cost": 0,
+        "uniques":["Free [Unit_VampireI] appears",
+            "Only available <starting from the [Era_Ancient]>",
+            "Unsellable",
+            "Class_Camorrist",
+            "Only available <in cities without a [Class_Camorrist]>",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+    {//血色契约II
+        "name": "Governor_BloodContract_II",
+        "cost": 0,
+        "requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_BloodContract_I",
+        "uniques":["Free [Unit_VampireII] appears",
+            "Vampire could ignore the cost of extra movement of hills and vegetation",
+            "Only available <starting from the [Era_Medieval]>",
+            "Only available <in cities with a [Governor_BloodContract_I]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+    {//血色契约III
+        "name": "Governor_BloodContract_III",
+        "cost": 0,
+        "requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_BloodContract_II",
+        "uniques":["Free [Unit_VampireIV] appears",
+            "+23% strength for vampire",
+            "Only available <starting from the [Era_Industrial]>",
+            "Only available <in cities with a [Governor_BloodContract_II]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+    {//血色契约IV
+        "name": "Governor_BloodContract_IV",
+        "cost": 0,
+        "requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_BloodContract_III",
+        "uniques":["Free [Unit_VampireV] appears",
+            "-23% strength for enemy Military units who are adjacent to vampire",
+            "Only available <starting from the [Era_Atomic]>",
+            "Only available <in cities with a [Governor_BloodContract_III]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+
+    /*通用总督建筑*/
 	{
 	    "name": "Governor_Magnus_I",
 		"cost": 1,
@@ -259,7 +595,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor_Level_1",
-            "Building_Classification_Governor"]
+            "Building_Classification_Governor",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Magnus_IIA",
@@ -271,7 +608,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Magnus_IIIA",
@@ -283,7 +621,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Magnus_IIB",
@@ -294,7 +633,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Magnus_IIIB",
@@ -310,7 +650,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Magnus_IV",
@@ -323,7 +664,8 @@
             "Only available <in cities with a [Governor_Magnus_IIIB]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Reyna_I",
@@ -336,7 +678,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor",
-            "Building_Classification_Governor_Level_1"]
+            "Building_Classification_Governor_Level_1",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Reyna_IIA",
@@ -348,7 +691,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Reyna_IIIA",
@@ -359,7 +703,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Reyna_IIB",
@@ -370,7 +715,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Reyna_IIIB",
@@ -381,7 +727,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Reyna_IV",
@@ -394,7 +741,8 @@
             "Only available <in cities with a [Governor_Reyna_IIIB]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Amani_I",
@@ -406,7 +754,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor",
-            "Building_Classification_Governor_Level_1"]
+            "Building_Classification_Governor_Level_1",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Amani_IIA",
@@ -417,7 +766,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Amani_IIIA",
@@ -428,7 +778,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Amani_IIB",
@@ -438,7 +789,8 @@
 		"uniques":["敬请期待",//待办
             "Unsellable",
             "Destroyed when the city is captured",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Amani_IIIB",
@@ -449,7 +801,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Amani_IV",
@@ -461,7 +814,8 @@
             "Only available <in cities with a [Governor_Amani_IIIB]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Victor_I",
@@ -474,7 +828,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor",
-            "Building_Classification_Governor_Level_1"]
+            "Building_Classification_Governor_Level_1",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Victor_IIA",
@@ -485,7 +840,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Victor_IIIA",
@@ -496,7 +852,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Victor_IIB",
@@ -507,7 +864,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Victor_IIIB",
@@ -518,7 +876,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Victor_IV",
@@ -530,15 +889,13 @@
             "Only available <in cities with a [Governor_Victor_IIIB]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Pingala_I",
 		"cost": 1,
-        "percentStatBonus":{
-            "science":8,
-            "culture":6
-        },
+        "percentStatBonus":{"science":8,"culture":6},
 		"requiredResource": "Resource_Governor title",
 		"uniques":[
             "Unsellable",
@@ -546,7 +903,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor",
-            "Building_Classification_Governor_Level_1"]
+            "Building_Classification_Governor_Level_1",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Pingala_IIA",
@@ -557,7 +915,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Pingala_IIB",
@@ -568,7 +927,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Pingala_III",
@@ -580,7 +940,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Pingala_IVA",
@@ -591,7 +952,8 @@
             "Only available <in cities with a [Governor_Pingala_III]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Pingala_IVA",
@@ -602,7 +964,8 @@
             "Only available <in cities with a [Governor_Pingala_III]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Liang_I",
@@ -615,7 +978,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor",
-            "Building_Classification_Governor_Level_1"]
+            "Building_Classification_Governor_Level_1",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Liang_IIA",
@@ -626,7 +990,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Liang_IIB",
@@ -638,7 +1003,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Liang_III",
@@ -650,7 +1016,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Liang_IVA",
@@ -661,7 +1028,8 @@
             "Only available <in cities with a [Governor_Liang_III]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Liang_IVB",
@@ -672,7 +1040,8 @@
             "Only available <in cities with a [Governor_Liang_III]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Moksha_I",
@@ -685,7 +1054,8 @@
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
             "Limited to [1] per Civilization",
             "Building_Classification_Governor",
-            "Building_Classification_Governor_Level_1"]
+            "Building_Classification_Governor_Level_1",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Moksha_IIA",
@@ -696,7 +1066,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Moksha_IIB",
@@ -707,7 +1078,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Moksha_III",
@@ -719,7 +1091,8 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Moksha_IVA",
@@ -730,7 +1103,8 @@
             "Only available <in cities with a [Governor_Moksha_III]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
     {
 	    "name": "Governor_Moksha_IVB",
@@ -741,12 +1115,13 @@
             "Only available <in cities with a [Governor_Moksha_III]>",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
-            "Limited to [1] per Civilization"]
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
 
 
     /*市中心建筑*/
-	{
+	{//宫殿
         "name": "Building_Palace",
         "isNationalWonder": true,
         "production": 3,
@@ -766,7 +1141,7 @@
         "[+13]% Strength when stacked with [Unit_Missionary] <for [Military] units> <if [Artificialwonder_Maebad_Alkurnak] is constructed>",//米纳克希神庙修正
         "Free [Unit_Farmer] appears <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
         "Free [Unit_Settler] appears <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
-        "Provides [2] [Resource_Jewelry] <upon adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
+        "[+1] Happiness from each type of luxury resource <upon adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
         "[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
@@ -780,6 +1155,18 @@
         "[+240 Faith] whenever a Great Person is expended <during the [Era_Information]> <after adopting [Follower belief_Reliquary]>",
         "[+270 Faith] whenever a Great Person is expended <during the [Era_Near-future]> <after adopting [Follower belief_Reliquary]>",
         "[+300 Faith] whenever a Great Person is expended <during the [Era_Far-future]> <after adopting [Follower belief_Reliquary]>",//以上都是追随者信仰圣遗物柜修正
+        "[+3]% Strength <for [Military] units> <when above [0] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [1] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [2] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [3] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [4] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [5] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [6] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [7] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [8] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [9] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [10] [Resource_EarthVeins]>",
+        "[+3]% Strength <for [Military] units> <when above [11] [Resource_EarthVeins]>",//以上都是地脉对战斗力的加成
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
@@ -808,7 +1195,7 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation3",
+		"name": "Building_district_limitation4",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [10] [Population]>",
@@ -816,7 +1203,7 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation4",
+		"name": "Building_district_limitation5",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [13] [Population]>",
@@ -824,7 +1211,7 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation5",
+		"name": "Building_district_limitation6",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [16] [Population]>",
@@ -832,7 +1219,7 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation6",
+		"name": "Building_district_limitation7",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [19] [Population]>",
@@ -840,7 +1227,7 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation7",
+		"name": "Building_district_limitation8",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [22] [Population]>",
@@ -848,7 +1235,7 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation8",
+		"name": "Building_district_limitation9",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [25] [Population]>",
@@ -856,22 +1243,14 @@
 		"Unsellable"]
 	},
 	{
-		"name": "Building_district_limitation9",
+		"name": "Building_district_limitation10",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Only available <in cities with at least [28] [Population]>",
         "Destroyed when the city is captured",
 		"Unsellable"]
 	},
-	{
-		"name": "Building_district_limitation10",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [31] [Population]>",
-        "Destroyed when the city is captured",
-		"Unsellable"]
-	},
-	{
+	{//纪念碑
 		"name": "Building_Monument",
 		"culture": 2,
 		"cost": 50,
@@ -2474,7 +2853,7 @@
         "uniques": ["[+25]% [Production] [in all cities]",
             "[+50]% [Gold] [in all cities]",
             "Free [Unit_Settler] appears",
-            "Hidden when [VictoryType_Landlords] Victory is disabled"],
+            "Hidden when [Pattern_Landlords] Victory is disabled"],
         "requiredTech": "Initial tech_civic_Agriculture",
         "quote": "我即是地主!我要打两个!"
     },
@@ -2484,7 +2863,7 @@
 		"isWonder": true,
 		"uniques": ["[+1 Faith] from [River] tiles [in this city]",
             "Creates a [District_The_Great_Baths_of_Caracalla] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Ancient"],
 		"requiredTech": "Tech_Pottery",
 		"quote": "就算落入的是无情的滤筛，\n我仍愿意将我的爱情之水倾泻倒下。\n即使失败，我也在所不惜。如此，如虔诚的印度人一般。\n我愿虔诚信仰，\n我崇拜太阳，炙热阳光普照信徒，\n 但却不知一人为它痴狂。\n ——威廉·莎士比亚"
@@ -2497,7 +2876,7 @@
         "uniques": ["Must have an owned [Resource_Stone] within [3] tiles",
             "Free [GreatPerson_Class_Prophet] appears",
             "Creates a [District_Stonehenge] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Ancient"],
         "requiredTech": "Tech_Astrology",
         "quote": "你能想象试图说服600人帮你将一个重为50吨的石头拖动28千米穿过乡村，并用力将它立起来，然后说：‘好了，小伙子们！再推动20块这样的石头…然后就可以庆祝啦！’这样的场景吗？\n——比尔·布莱森"
@@ -2508,7 +2887,7 @@
         "isWonder": true,
         "uniques": ["[15]% Food is carried over after population increases [in all cities]",
             "Creates a [District_Garden_In_The_Air] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Ancient"],
         "requiredTech": "Tech_Irrigation",
         "quote": "通过楼梯可以到达顶层，旁边是抽水机，雇佣了大量工人来齐心协力从幼发拉底河抽水到花园。\n——斯特拉博"
@@ -2519,7 +2898,7 @@
         "isWonder": true,
         "uniques": ["[+1 Happiness] from [Improvement_Encampment] tiles [in this city]","[+1 Happiness] from [Improvement_Pasture] tiles [in this city]","[+1 Happiness] from [Improvement_Plantation] tiles [in this city]",
             "Creates a [District_The_Temple_of_Artemis] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Ancient"],
         "requiredTech": "Tech_Archey",
         "quote": "我看到耸入云霄的阿耳忒弥斯神庙后，其他建筑奇观皆黯然失色。我不禁叹道：“看呐！除了在众神所居的奥林匹斯山之外，太阳从未显得如此宏大壮观。”\n——西顿的安提帕特"
@@ -2531,7 +2910,7 @@
         "uniques": ["Free [Unit_Farmer] appears",
             "[+2] Movement <for [Unit_Class_Builder] units>",
             "Creates a [District_The_Great_Pyramids] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Ancient"],
         "requiredTech": "Tech_Bricklaying",
         "quote": "四十个世纪从这些金字塔的顶端，俯瞰着我们。\n——拿破仑·波拿巴"
@@ -2544,7 +2923,7 @@
         "faith":1,
         "uniques": ["[Faith] cost of purchasing [Class_GreatPerson] units [20]%",
             "Creates a [District_Oracle] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Ancient"],
         "requiredTech": "Civic_Mysticism",
         "quote": "我像海豚一样跳向快速驶过的船只，祈祷自己成为阿波罗海豚星座；祭坛本身也被称作海豚星座。\n——荷马"
@@ -2558,7 +2937,7 @@
         "requiredBuilding":"Building_Lighthouse",
         "uniques": ["[+1] Movement <for [Water] units>",
             "Creates a [District_The_Great_Lighthouse] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Astronomical navigation",
         "quote": "灯塔是所有目光的焦点。\n——亨利·大卫·梭罗"
@@ -2571,7 +2950,7 @@
         "uniques": ["[+4 Faith] <after discovering [Tech_Mechanical]>",
             "Provides [5] [Resource_Iron]",
             "Creates a [District_Mount_Kilimanjaro] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Alchemy",
         "quote": "这座山的西南角有一道深深的裂缝，从山的主体分出了一块巨大的陡峭砂岩...它的外观宛如一尊巨像。\n——E. A.沃利斯·巴奇"
@@ -2586,7 +2965,7 @@
         "uniques": ["[+2 Culture, +2 Happiness] <starting from the [Era_Medieval]>",
             "[+2 Culture, +2 Happiness] <starting from the [Era_Renaissance]>",
             "Creates a [District_The_Roman_Colosseum] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Civic_Games and entertainment",
         "quote": "竞技场耸立，罗马屹立不倒；竞技场倒塌，罗马倒塌；罗马倒塌，整个世界都会崩溃。\n——圣徒比德"
@@ -2601,7 +2980,7 @@
         "uniques": ["Provides [1] [Resource_Trade route capacity]",
             "Free [Unit_Trader] appears",
             "Creates a [District_Colossus] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Shipbuilding",
         "quote": "在罗兹岛上建成了一座36米高的巨像，以此代表太阳…艺术家在上面使用了大量青铜，可能是想引起矿产资源匮乏。\n——费隆（拜占庭）"
@@ -2612,7 +2991,7 @@
         "isWonder": true,
         "uniques": ["[+2 Food, +1 Production, +2 Gold] from [Desert] tiles without [Landform_Alluvial plain] [in this city]",
             "Creates a [District_Petra] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Math",
         "quote": "约旦-佩特拉古城是人类工艺的绝妙展示，它把贫瘠的岩石变成了伟大的奇迹。\n——爱德华·道森"
@@ -2625,7 +3004,7 @@
             "Gifts of Gold to City-States generate [25]% more Influence",
             "Only available <in cities with a [Building_Palace]>",
             "Creates a [District_Apadana_Palace] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Civic_Political philosophy",
         "quote": "我的祖先大流士一世修建了这座阿帕达纳宫，但它却被无情烧毁。托阿胡拉马兹达、阿娜希塔和密特拉的鸿福，我让它重见天日。\n——阿尔塔薛西斯二世"
@@ -2638,7 +3017,7 @@
         "uniques": ["[1] XP gained from combat <for [{Military} {Land}] units>",
             "Earn [10]% of killed [{Military} {Land}] unit's [Strength] as [Gold]",
             "Creates a [District_Terra_Cotta_Warriors] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Build",
         "quote": "世界上有七大奇迹，我们可能会说兵马俑是世界第八大奇迹。\n——雅克·希拉克"
@@ -2651,7 +3030,7 @@
         "uniques": ["[+13]% Strength <for [{Military} {Land}] units> <within [1] tiles of a [Mountain]>",
             "[+13]% Strength <for [{Military} {Land}] units> <within [2] tiles of a [Mountain]>",
             "Creates a [District_Machu_Picchu] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Project",
         "quote": "苍鹰翱翔，高塔环绕，直入云霄威风堂堂；\n眼中城墙，斑驳残破已成过往，\n所猎之物，无处可躲尸骨埋葬。\n——萨缪尔·普劳特·希尔"
@@ -2664,7 +3043,7 @@
             "[3] free [Unit_Archer] units appear",
             "[+35]% Production when constructing [Unit_Type_Anti_Cavalry] units [in this city]",
             "Creates a [District_Statue_of_Zeus] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Civic_Military training",
         "quote": "“神的头上戴着一个橄榄叶桂冠，右手则握着带翅膀的胜利女神雕像。”\n——塞缪尔·奥古斯塔斯·米切尔"
@@ -2676,7 +3055,7 @@
         "uniques": ["[+1 Science, +1 Culture, +1 Faith] from [Coast] tiles [in this city]",
             "[GreatPerson_Class_Engineer] is earned [30]% faster",
             "Creates a [District_Mausoleum_at_Halicarnassus] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Civic_Defensive tactics",
         "quote": "在哈利卡纳苏斯坐落着一个巨大的陵墓，它的规模和壮丽世间第一。\n——萨莫萨塔的琉善"
@@ -2690,7 +3069,7 @@
         "requiredBuilding":"Building_Library",
         "uniques": [
             "Creates a [Distinct_The_Great_Library] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "civilopediaText": [
             {
@@ -2710,7 +3089,7 @@
             "Provides [2] [Resource_Diplomatic favor]",
             "Creates a [District_Makobodhi_Temple] improvement on a specific tile",
             "Only available <after founding a religion>",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Civic_Theology",
         "quote": "在印度比哈尔邦尘土飞扬的喧闹角落里，有一个神奇的地方被人们当作佛教中心。\n——《旅游者指南》里的菩提伽耶"
@@ -2723,7 +3102,7 @@
         "uniques": ["[Unit_Missionary] units built [in this city] can [Spread Religion] [1] extra times",
             "Creates a [District_Hagia_Sophia] improvement on a specific tile",
             "Only available <after founding a religion>",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Tech_Buttresses",
         "quote": "它是一座华丽的重要纪念碑，是跨文化宝藏…除非和直到它能被两种宗教和谐共享——这真是一个伟大的想法——它应该被建成世俗的模样，以此向这两种宗教致敬，是它们让纪念碑如此华丽。\n——牛博·武约维奇"
@@ -2734,7 +3113,7 @@
         "isWonder": true,
         "uniques": ["Resting point for Influence with City-States is increased by [20]",
             "Creates a [District_Kilwa_Kisiwani] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Tech_Mechanical",
         "quote": "基尔瓦基斯瓦尼是世界上建设得最为美丽的城市之一。房屋均为木制结构，房顶由草绳铺成，雨后生机勃勃。\n——伊本·白图泰"
@@ -2748,7 +3127,7 @@
         "requiredBuilding":"Building_University",
         "uniques": ["[+1 Science, +1 Gold, +1 Faith] from each Trade Route",
             "Creates a [District_University_of_Sankore] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Tech_Civilian education",
         "quote": "学者皆是先知的子嗣。先知并未在世间留下任何财富，而是将宝贵的知识传给后人。\n——穆斯奈德·艾尔-巴扎尔"
@@ -2759,7 +3138,7 @@
         "isWonder": true,
         "uniques": ["+13% Strength when stacked with Unit_Missionary for Military units",
             "Creates a [District_Maebad_Alkurnak] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Civic_Administration",
         "quote": "向您致敬，伟大的米纳克希女神。您如若千万太阳般耀眼夺目，满身手镯花环更是五彩缤纷…您是吉祥的化身，亦是万物的象征。我愿永远臣服于您，因您的慈悲宛如无边汪洋。\n——阿迪·商羯罗"
@@ -2770,7 +3149,7 @@
         "uniques": ["[+2] population [in all cities]",
             "[+1 Happiness] [in all cities]",
             "Creates a [District_Angkor_Wat] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Civic_Medieval bazaar",
         "quote": "这座寺庙四周环绕着护城河，须借助唯一的桥梁进出，门口有两只威风凛凛的巨型石虎镇守，似乎要把恐惧植入来访者的心中。\n——蒂欧格·都·科托"
@@ -2780,7 +3159,7 @@
         "isWonder": true,
         "uniques": ["[+1 Production, +2 Culture] from [Landform_Rainforest] tiles [in this city]",
             "Creates a [District_Chichen_Itza] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Civic_Thw worker's union",
         "quote": "大竞技场也让人印象深刻。我很想看他们在这里进行比赛，虽然结局听起来很暴力。我认为作为观众还是会安全些。\n——伊斯拉德布"
@@ -2793,7 +3172,7 @@
         "uniques": ["Provides [1] [Resource_Military policy slot]",
             "This tile would provide a defence of 28%",
             "Creates a [District_Alhambra_Palace] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Tech_Castle",
         "quote": "这里的一切似乎都是为了激起友好快乐的感觉，因为一切都如此精致而美丽。\n——华盛顿·欧文"
@@ -2808,7 +3187,7 @@
             "Gain [120] [Culture] <upon gaining a [Unit_Missionary] unit> <during the [Era_Modern]>",
             "Gain [150] [Culture] <upon gaining a [Unit_Missionary] unit> <starting from the [Era_Atomic]>",
             "Creates a [District_Mont_Saint_Michel] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Civic_Divin right of Kings",
         "quote": "教会和国家、灵魂和身体、神和人类，这些都是圣米歇尔山上的一个整体，主要任务是进行战斗，各行其事，或为彼此守卫。\n——享利·亚当斯"
@@ -2819,7 +3198,7 @@
         "percentStatBonus":{"faith":20},
         "uniques": ["[4] free [Unit_Monk] units appear",
             "Creates a [District_Kotokuin] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
         "requiredTech": "Civic_Divin right of Kings",
         "quote": "踏过蜿蜒羊肠小道，穿过地狱烈焰迎来审判，安详面对异教徒之祷。致镰仓大佛！\n——鲁德亚德·吉卜林"
@@ -2831,7 +3210,7 @@
             "[+8]% Strength <for [{Military} {Land}] units> <on foreign continents>",
             "[+1] Movement <for [{Military} {Land}] units> <on foreign continents>",
             "Creates a [District_WestIndiaExchange] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Tech_Cartography",
         "quote": "西方国境外发现的所有领土均隶属于卡斯蒂利亚国王、王后，及其子孙后代。\n——《托尔德西里亚斯条约》"
@@ -2841,7 +3220,7 @@
         "isWonder": true,
         "uniques": ["[+75]% Production when constructing [Water] units [in all coastal cities]",
             "Creates a [District_Venetian_Armory] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Tech_Mass production",
         "quote": "威尼斯联邦的军械库上有这样一段题词：快乐是城市在和平时期想起战争的痛苦。\n——罗伯特·伯顿"
@@ -2855,7 +3234,7 @@
             "[+2 Gold] from [Bonus resource] tiles [in this city]",
             "[+2 Gold] from each Trade Route",
             "Creates a [District_Great_Zimbabwe] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Tech_Banking",
         "quote": "示巴女王所要求的一切东西，所罗门王都满足了她；另外还按照自己的意愿给予她丰富的馈赠。所以她和仆人一起返回了自己的国家。\n——《列王纪》10章13节"
@@ -2866,7 +3245,7 @@
         "culture":5,
         "uniques": ["Provides [1] [Resource_Generic policy slot]",
             "Creates a [District_Forbidden_City] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Tech_Printing",
         "quote": "整个宫殿是沿着一条中心轴建立的，这也是整个世界的轴心，以宫殿为代表，四个方向的所有东西都是从中心点悬吊下来的。\n——杰弗里·里格尔"
@@ -2878,7 +3257,7 @@
             "[+25]% Golden Age length",
             "[+4 Production] in cities on [River] tiles <during a Golden Age>",
             "Creates a [District_Taj_Mahal] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Civic_Humanism",
         "quote": "见过建造在空中的城堡吗？此物只应天上有，下凡人间便为岁月奇观。\n——贝亚德·泰勒"
@@ -2889,7 +3268,7 @@
         "uniques": ["[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]",
             "[-10]% Culture cost of adopting new Policies",
             "Creates a [District_St._Basil's_Cathedral] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Civic_Reformed church",
         "quote": "第一个拥有交叉设计，红绿相间；第二个的所有刺角均为黄色和黑色；第三个覆有蓝色和深红色装饰片块；第四个的一些部分呈椭圆形。\n——凯瑟琳·布兰奇·格思里"
@@ -2902,7 +3281,7 @@
         "uniques": ["Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [2] [Resource_Diplomatic favor]",
             "Creates a [District_Potala_Palace] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Renaissance"],
         "requiredTech": "Tech_Astronomy",
         "quote": "我第一次踏上布达拉宫房顶时，像步入生命的巅峰一般，这种感觉是前所未有的：整个人进入到从未有过的意识范围之中。\n——皮柯·耶尔"
@@ -2915,7 +3294,7 @@
         "uniques": ["[+1 Production] from [Improvement_Mine] tiles [in this city]",
         "[+1 Production] from [Improvement_Quarry] tiles [in this city]",
             "Creates a [District_Ruhr_Valley] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Tech_Industrialization",
         "quote": "德国的工业中心实际已停止了运营。几乎没有人工作，几乎没有任何东西在运行；鲁尔地区的全体居民…需要其他国家的援助。\n——亚当·弗格森"
@@ -2928,7 +3307,7 @@
         "greatPersonPoints":{"GreatPerson_Class_Scientist":3},
         "uniques": ["[2] Free Technologies",
             "Creates a [District_Oxford] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Tech_Scientific theory",
         "quote": "牛津大学的聪明人…知道所有需要知道的事。\n但他们都没有蟾蜍先生一半聪明！\n——肯尼思·格拉姆"
@@ -2938,7 +3317,7 @@
         "isWonder": true,
         "happiness":6,
         "uniques": ["Provides [4] [Resource_Diplomatic favor]",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Creates a [District_StatueOfLiberty] improvement on a specific tile",
             "Wonder_Class_Industrial"],
         "requiredTech": "Civic_Civil engineering",
@@ -2950,7 +3329,7 @@
         "greatPersonPoints":{"GreatPerson_Class_Artist":4},
         "uniques": ["Free Social Policy",
             "Creates a [District_BolshoiTheatre] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Civic_Opera and ballet",
         "quote": "莫斯科大剧院芭蕾舞团是充满想象力的地方，一个具有魔法和吸引力的美丽浪漫之地。优雅的舞者、气势磅礴的音乐以及华丽的服饰让世人为之震撼。\n——特鲁迪·加丰科"
@@ -2962,7 +3341,7 @@
         "isWonder": true,
         "uniques": ["[+4 Gold] [in all cities connected to capital]",
             "Creates a [District_PanamaCanal] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Tech_Steam power",
         "quote": "因此，即便山崩地裂，坠入大海，我们并不惧怕；即便江河蒸腾，海枯石烂，我们同样毫不惧怕。\n——旧约《诗篇"
@@ -2977,7 +3356,7 @@
             "[+100]% [Culture] from City-States",
             "[+100]% [Faith] from City-States",
             "Creates a [District_HungarianParliamentBuilding] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Tech_Sanitary equipment",
         "quote": "自由是自治之基础，而公正与爱国则是自由的根本。\n——科苏特·拉约什"
@@ -2990,7 +3369,7 @@
         "uniques": ["Provides [1] [Resource_Economic policy slot]",
             "[10] units cost no maintenance",
             "Creates a [District_BigBen] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Tech_Economy",
         "quote": "不要盯着大钟看；要做大钟正在做的事。继续前进。\n——萨姆·李文森"
@@ -3001,7 +3380,7 @@
         "greatPersonPoints":{"GreatPerson_Class_Artist":5},
         "uniques": ["[2] free [GreatPerson_Class_Artist] units appear",
             "Creates a [District_HermitageMuseum] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Industrial"],
         "requiredTech": "Civic_Natural history",
         "quote": "博物馆处于文化斗争的前沿，扬善抑恶——总之，一直在同陈腐和原始的东西做斗争。\n——冬宫博物馆馆长米哈伊尔"
@@ -3012,7 +3391,7 @@
         "uniques": ["[+2 Culture] from every [Luxury resource]",
             "[+2 Science] from every [Strategic resource]",
             "Creates a [District_EiffelTower] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Modern"],
         "requiredTech": "Tech_Steel",
         "quote": "我应该嫉妒这座塔。她比我更出名。\n——古斯塔夫·埃菲尔"
@@ -3023,7 +3402,7 @@
         "percentStatBonus":{"culture":20},
         "uniques": ["Free Social Policy",
             "Creates a [District_Broadway] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Modern"],
         "requiredTech": "Civic_Mass media",
         "quote": "轻歌曼舞好营生，娱乐业至上。\n——欧文·柏林《飞燕金枪》"
@@ -3034,7 +3413,7 @@
         "culture":4,
         "uniques": ["Adopt [Culture_Culture Victory Rush 2]",
             "Creates a [District_StatueofChristtheRedeemer] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Modern"],
         "requiredTech": "Civic_Mass media",
         "quote": "因此，雕塑的作用是让人感到‘一切都掌握在上帝的手中’。\n——谢尔盖·谢苗诺夫"
@@ -3046,7 +3425,7 @@
         "percentStatBonus":{"gold":30},
         "uniques": ["This tile would provide a defence of 28%",
             "Creates a [District_GoldenGateBridge] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Modern"],
         "requiredTech": "Tech_Internal combustion engine",
         "quote": "美梦金门徐徐而开，\n英雄美人相识相爱。\n如画美景闪耀星河，\n碧波大海气象万千！\n——珀西·比希·雪莱"
@@ -3056,7 +3435,7 @@
         "isWonder": true,
         "uniques": ["Double quantity of [Resource_Electricity] produced",
             "Creates a [District_Biosphere] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Atomic"],
         "requiredTech": "Tech_Synthetic",
         "quote": "“天堂既在我们脚下，也在我们头顶。”\n——亨利·戴维·梭罗"
@@ -3068,7 +3447,7 @@
         "greatPersonPoints":{"GreatPerson_Class_Artist":6},
         "uniques": [
             "Creates a [District_SydneyOperaHouse] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Atomic"],
         "requiredTech": "Civic_Cultural heritage",
         "quote": "在幕布拉起前很久，歌剧已经开始，在幕布降下后很久，歌剧才结束。它开始于我的想象中，变成了我的生命，在我离开歌剧院很久之后，它依然是我生活的一部分。\n——玛丽亚·卡拉斯"
@@ -3082,7 +3461,7 @@
         "uniques": ["[+2 Happiness] from every [Building_Zoo]",
             "[+2 Happiness] from every [Building_Stadium]",
             "Creates a [District_MaracanaStadium] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Atomic"],
         "requiredTech": "Civic_Professional sports",
         "quote": "纵观历史，只有三个人能让马拉卡纳球场安静下来：教皇、法兰克·辛纳屈、我。\n——阿尔喀德斯·吉贾（乌拉圭足球运动员）"
@@ -3094,7 +3473,7 @@
         "uniques": ["[+20]% [Science] [in all cities]",
             "[+10]% [Production] [in all cities]",
             "Creates a [District_Amundsen-Scott_South_Pole_Station] improvement on a specific tile",
-            "Hidden when [Permit to build World Wonder] Victory is disabled",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Atomic"],
         "requiredTech": "Civic_Emergency deployment",
         "quote": "论科学领导力，斯科特首屈一指；而论行进之迅速高效，阿蒙森当仁不让。\n——雷蒙德·普莱斯利爵士"
@@ -3651,6 +4030,7 @@
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
         "uniques":["[+50]% Production when constructing [Unit_Settler] units [in all cities]",
+        "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic_Scorched earth strategy]>",
         "Destroyed when the city is captured",

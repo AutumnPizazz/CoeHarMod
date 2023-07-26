@@ -1,6 +1,6 @@
 [	
 	//加成资源/奖金资源
-	{
+	{//牛
 		"name": "Resource_Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
@@ -10,7 +10,7 @@
 		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
 					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Landform_Hill] Regions>"]
 	},
-	{
+	{//羊
 		"name": "Resource_Sheep",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Landform_Hill"],
@@ -20,7 +20,7 @@
 		"uniques": ["Generated on every [13] tiles <in [Landform_Hill] tiles> <in tiles without [Landform_Forest]> <in tiles without [Landform_Rainforest]>",
 					"Generated on every [10] tiles <in [Landform_Hill] tiles> <in tiles without [Landform_Forest]> <in tiles without [Landform_Rainforest]> <in tiles without [Fresh Water]> <in [Landform_Hill] Regions>"]
 	},
-	{
+	{//鹿
 		"name": "Resource_Deer",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Landform_Forest","Tundra"], // Tundra only if lowland
@@ -33,7 +33,7 @@
 					"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Landform_Hill] Regions>",
 					"Generated on every [28] tiles <in [Landform_Forest] tiles> <in [Landform_Hill] Regions>"]
 	},
-	{
+	{//香蕉
 		"name": "Resource_Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Landform_Rainforest"],
@@ -43,7 +43,7 @@
 		"uniques": ["Generated on every [14] tiles <in [Landform_Rainforest] tiles>",
 					"Generated on every [16] tiles <in [Landform_Rainforest] tiles> <in [Landform_Hill] Regions>"]
 	},
-	{
+	{//小麦
 		"name": "Resource_Wheat",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Landform_Alluvial plain","Landform_Floodplain","Desert","Grassland"],
@@ -55,7 +55,7 @@
 					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Landform_Hill] Regions>",
 					"Generated on every [20] tiles <in [Fresh Water] [Desert] tiles> <in tiles without [Landform_Hill]> <in [Landform_Hill] Regions>"]
 	},
-	{
+	{//玉米
 		"name": "Resource_Corn",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Landform_Floodplain"],
@@ -64,7 +64,7 @@
 		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
 					"Generated on every [27] tiles <in [Featureless] [Grassland] tiles>"]
 	},
-	{
+	{//石头
 		"name": "Resource_Stone",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
@@ -75,7 +75,7 @@
 					"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
 					"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"]
 	},
-	{
+	{//鱼
 		"name": "Resource_Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
@@ -256,6 +256,23 @@
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
 	},
 	{
+		"name": "Resource_EarthVeins",
+		"resourceType": "Strategic",
+		"revealedBy": "Tech_UniqueToGoldenDawn",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill"],
+		"improvedBy":["Improvement_EarthVeinsExploiter"],
+		"uniques": ["Generated on every [40] tiles",
+					"Guaranteed with Strategic Balance resource option",
+//					"Minor deposits generated with weight [90] <in [Featureless] [Grassland] tiles>",
+//					"Minor deposits generated with weight [90] <in [Featureless] [Plains] tiles>",
+//					"Minor deposits generated with weight [120] <in [Featureless] [Tundra] tiles>",
+//					"Minor deposits generated with weight [120] <in [Featureless] [Desert] tiles>",
+//					"Minor deposits generated with weight [150] <in [Featureless] [Snow] tiles>",
+					"Cannot be traded"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+	},
+	{
 		"name": "Resource_Electricity",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Industrialization",
@@ -267,14 +284,16 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Political philosophy",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded",
+        "Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
 	{
 		"name": "Resource_Governor title",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Not shown on world screen"]
+		"uniques": ["Cannot be traded","Not shown on world screen",
+		"Hidden when [Pattern_Viceroy] Victory is disabled"]
 	},
 	{
 		"name": "Resource_Trade route capacity",
@@ -321,7 +340,8 @@
 		"name": "Resource_Influence",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Stockpiled"]
+		"uniques": ["Cannot be traded","Stockpiled",
+		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
 	{
 		"name": "Resource_district_limitation",

@@ -204,8 +204,8 @@
 
 		"startBias": ["Plains"],
 		"uniqueName": "Babylonian gods",
-		"uniqueText":"Every time a library is built, it immediately completes research on a technology of the current era",
-		"uniques": ["[1] free random researchable Tech(s) from the [Era_Ancient] <during the [Era_Ancient]> <upon constructing [Building_Library]>",
+		"uniqueText":"Every time a library is built, it immediately completes the study of a technology in the current era, or in the ancient era, a technology in the classical era",
+		"uniques": ["[1] free random researchable Tech(s) from the [Era_Classical] <during the [Era_Ancient]> <upon constructing [Building_Library]>",
 		"[1] free random researchable Tech(s) from the [Era_Classical] <during the [Era_Classical]> <upon constructing [Building_Library]>",
 		"[1] free random researchable Tech(s) from the [Era_Medieval] <during the [Era_Medieval]> <upon constructing [Building_Library]>",
 		"[1] free random researchable Tech(s) from the [Era_Medieval] <during the [Era_Medieval]> <upon constructing [Building_Library]>",

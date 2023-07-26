@@ -55,6 +55,20 @@
 		"uniques":["[+96]% Strength"]
 	},
 
+	/*秘密结社buff*/
+	{//苍冥颂歌
+		"name":"Promotion_Canticle",
+		"uniques":["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
+	},
+	{//嗜血
+		"name":"Promotion_Bloodthirsty",
+		"uniques":["Heal this unit by [25] HP",
+		"[+3]% Strength <for [50] turns>",
+		"[+1] Movement <for [2] turns>",
+		"Doing so will consume this opportunity to choose a Promotion"]
+	},
+
+
 	/*总督buff*/
 	{
 		"name":"Promotion_Lord_Training",

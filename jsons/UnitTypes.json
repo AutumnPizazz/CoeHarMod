@@ -115,5 +115,15 @@
         "movementType": "Land",
         "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>",
         "Ignores terrain cost <after discovering [Tech_Cybernetics]>"]
+    },
+    {
+        "name": "Unit_Type_Vampire",
+        "movementType": "Land",
+        "uniques": ["Never appears as a Barbarian unit",
+        "Double movement in [Landform_Hill] <for [All] units> <upon constructing [Governor_BloodContract_II]>",
+        "Double movement in [Landform_Forest] <for [All] units> <upon constructing [Governor_BloodContract_II]>",
+        "Double movement in [Landform_Rainforest] <for [All] units> <upon constructing [Governor_BloodContract_II]>",
+        "[+23]% Strength <for [All] units> <upon constructing [Governor_BloodContract_III]>",
+        "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <upon constructing [Governor_BloodContract_IV]>"]
     }
 ]
