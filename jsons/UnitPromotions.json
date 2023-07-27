@@ -62,8 +62,8 @@
 	},
 	{//嗜血
 		"name":"Promotion_Bloodthirsty",
-		"uniques":["Heal this unit by [25] HP",
-		"[+3]% Strength <for [60] turns>",
+		"uniques":["Heal this unit by [20] HP",
+		"[+2]% Strength <for [60] turns>",
 		"[+1] Movement <for [3] turns>",
 		"Doing so will consume this opportunity to choose a Promotion"]
 	},
