@@ -69,24 +69,24 @@
         {//极光之舞
             "name": "Pantheon_Dance of the aurora",
             "type": "Pantheon",
-            "uniques": ["Sacred sites receive a standard adjacent addition to frozen soil","That could be carried after only buying the unique building in capital"],
-            "civilopediaText":[
+            "uniques": ["Sacred sites receive a standard adjacent addition to frozen soil"],
+/*            "civilopediaText":[
                 {
                     "text":"Building_Dance of the aurora",
                     "link":"Building/Building_Dance of the aurora"
                 }
-            ]
+            ]*/
         },
         {//沙漠民俗
             "name": "Pantheon_Desert customs",
             "type": "Pantheon",
-            "uniques": ["Holy Land gets the standard adjacent bonus against desert","That could be carried after only buying the unique building in capital"],
-            "civilopediaText":[
+            "uniques": ["Holy Land gets the standard adjacent bonus against desert"],
+/*            "civilopediaText":[
                 {
                     "text":"Building_Desert customs",
                     "link":"Building/Building_Desert customs"
                 }
-            ]
+            ]*/
         },
         {//节庆女神
             "name": "Pantheon_Goddess of festivals",

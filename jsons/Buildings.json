@@ -466,68 +466,6 @@
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
 
-
-	{//黄金黎明I
-	    "name": "Governor_GoldenDawn_I",
-		"cost": 0,
-		"uniques":["Discover [Tech_UniqueToGoldenDawn]",
-            "[+1 Production, +1 Science] from every [Resource_EarthVeins]",
-            "Only available <starting from the [Era_Ancient]>",
-            "Unsellable",
-            "Class_Camorrist",
-            "Only available <in cities without a [Class_Camorrist]>",
-            "Destroyed when the city is captured",
-            "Can only be built [in capital]",
-            "Limited to [1] per Civilization",
-            "Hidden when [Pattern_Camorrist] Victory is disabled"]
-    },
-	{//黄金黎明II
-	    "name": "Governor_GoldenDawn_II",
-		"cost": 0,
-		"requiredResource": "Resource_Governor title",
-        "requiredBuilding":"Governor_GoldenDawn_I",
-		"uniques":["[+5 Gold] from every [Building_University]",
-            "[+100]% Production when constructing [Building_University] buildings [in all cities]",
-            "Only available <starting from the [Era_Medieval]>",
-            "Only available <in cities with a [Governor_GoldenDawn_I]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built [in capital]",
-            "Limited to [1] per Civilization",
-            "Hidden when [Pattern_Camorrist] Victory is disabled"]
-    },
-	{//黄金黎明III
-	    "name": "Governor_GoldenDawn_III",
-		"cost": 0,
-		"requiredResource": "Resource_Governor title",
-        "requiredBuilding":"Governor_GoldenDawn_II",
-		"uniques":["[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource_EarthVeins]",
-            "Only available <starting from the [Era_Industrial]>",
-            "Only available <in cities with a [Governor_GoldenDawn_II]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built [in capital]",
-            "Limited to [1] per Civilization",
-            "Hidden when [Pattern_Camorrist] Victory is disabled"]
-    },
-	{//黄金黎明IV
-	    "name": "Governor_GoldenDawn_IV",
-		"cost": 0,
-		"requiredResource": "Resource_Governor title",
-        "requiredBuilding":"Governor_GoldenDawn_III",
-		"uniques":["Discover [Tech_UniqueToGoldenDawn2]",
-            "Each mined EarthVeins resource will provide a 3% combat bonus for all military units, up to 33%",
-            "Only available <starting from the [Era_Atomic]>",
-            "Only available <in cities with a [Governor_GoldenDawn_III]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built [in capital]",
-            "Limited to [1] per Civilization",
-            "Hidden when [Pattern_Camorrist] Victory is disabled"]
-    },
-
-    
-
     {//血色契约I
         "name": "Governor_BloodContract_I",
         "cost": 0,
@@ -1189,7 +1127,7 @@
 		"name": "Building_district_limitation1",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1197,7 +1135,7 @@
 		"name": "Building_district_limitation2",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1205,7 +1143,7 @@
 		"name": "Building_district_limitation3",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1213,7 +1151,7 @@
 		"name": "Building_district_limitation4",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1221,7 +1159,7 @@
 		"name": "Building_district_limitation5",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1229,7 +1167,7 @@
 		"name": "Building_district_limitation6",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1237,7 +1175,7 @@
 		"name": "Building_district_limitation7",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1245,7 +1183,7 @@
 		"name": "Building_district_limitation8",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1253,7 +1191,7 @@
 		"name": "Building_district_limitation9",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1261,7 +1199,7 @@
 		"name": "Building_district_limitation10",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Destroyed when the city is captured",
+        "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
 		"Unsellable","Unbuildable"]
 	},
@@ -1270,6 +1208,7 @@
 		"culture": 2,
 		"cost": 50,
 		"uniques": ["Cost increases by [8] per owned city",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {//粮仓
@@ -1278,6 +1217,7 @@
 		"cost": 55,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 		"Cost increases by [8] per owned city",
+        "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Pottery"
 	},
@@ -1304,6 +1244,7 @@
 		"[+1 Food] from [Resource_Wheat] tiles [in this city]",
 		"[+1 Food] from [Resource_Corn] tiles [in this city]",
 		"Cost increases by [8] per owned city",
+        "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Wheels"
 	},
@@ -1317,6 +1258,7 @@
 		"uniques": ["Must be on [River]",
 		"[+1 Food] from [River] tiles without [Class_Usual_Improvement] [in this city]",
 		"Cost increases by [8] per owned city",
+        "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Wheels"
 	},
@@ -1327,6 +1269,7 @@
 		"cost":190,
 		"uniques": ["[25]% Food is carried over after population increases [in this city]",
 		"Cost increases by [8] per owned city",
+        "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Sanitary equipment"
 	},
@@ -1337,6 +1280,7 @@
 		"hurryCostModifier": 100,
 		"uniques": ["Must be next to [Coast]",
 		"Cost increases by [8] per owned city",
+        "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Computer"
 	},
@@ -1348,6 +1292,7 @@
 		"uniques": ["Cost increases by [8] per owned city",
 		"Unsellable",
         "Cannot be purchased",
+        "Destroyed when the city is captured",
         "Building_Classification_Wall"],
 		"requiredTech": "Tech_Bricklaying"
 	},
@@ -1360,6 +1305,7 @@
 		"uniques": ["Cost increases by [8] per owned city",
 		"Unsellable",
         "Cannot be purchased",
+        "Destroyed when the city is captured",
         "Building_Classification_Wall"],
 		"requiredTech": "Tech_Castle"
 	},
@@ -1372,27 +1318,30 @@
 		"uniques": ["Cost increases by [8] per owned city",
 		"Unsellable",
         "Cannot be purchased",
+        "Destroyed when the city is captured",
         "Building_Classification_Wall"],
 		"requiredTech": "Tech_Siege"
 	},
-    {
+    {//法庭
 		"name": "Building_Court",
 		"cost":60,
 		"uniques": ["Remove extra unhappiness from annexed cities",
         "Can only be built [in annexed cities]",
+        "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Writing"
 	},
+    /*
     {//明朝-里甲制度
 		"name": "Building_Lijia",
-        "uniqueTo":"Nation_Ming",
 		"cost":0,
 		"uniques": ["[+1 Science, +1 Culture] per [2] population [in this city]",
-        "Only available <in cities with at least [10] [Population]>",
-		"Unsellable"],
+        "Destroyed when the city is captured",
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"],
 		"requiredTech": "Initial tech_civic_Agriculture"
 	},
-
+    */
 
     /*市政广场区域建筑*/
     {
@@ -1637,6 +1586,7 @@
         "Hidden when religion is disabled",
         "Creates a [District_Holy_Site] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//俄罗斯-拉夫拉修道院
@@ -1655,6 +1605,7 @@
         "Hidden when religion is disabled",
         "Creates a [District_Lavra_Monastery] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
 	{
@@ -1670,6 +1621,7 @@
 		"Hidden when religion is disabled",
 		"Cost increases by [8] per owned city",
 		"Unsellable",
+        "Never destroyed when the city is captured",
 		"Building_Classification_Holy_Site_District"]
 	},
     {
@@ -1684,6 +1636,7 @@
 		"uniques": ["Hidden when religion is disabled",
         "Cost increases by [8] per owned city",
 		"Unsellable",
+        "Never destroyed when the city is captured",
 		"Building_Classification_Holy_Site_District"]
 	},
     {
@@ -1698,6 +1651,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1712,6 +1666,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1727,6 +1682,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1742,6 +1698,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1756,6 +1713,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1771,6 +1729,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1786,6 +1745,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1800,6 +1760,7 @@
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1831,6 +1792,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Campus] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//朝鲜-书院地标
@@ -1847,6 +1809,7 @@
 		"Cost increases by [4] per owned city",
         "Creates a [Distict_Academy_of_Classical_Learning] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//玛雅-天文台
@@ -1863,6 +1826,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Mayan_Observatory] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//图书馆
@@ -1877,6 +1841,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_College_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
 	{
@@ -1891,6 +1856,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_College_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1905,6 +1871,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_College_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1914,7 +1881,8 @@
 		"requiredBuilding": "Building_Research_Lab",
 		"requiredTech": "Tech_Chemistry",
 		"uniques": [
-        "Consumes [3] [Resource_Electricity]"]
+        "Consumes [3] [Resource_Electricity]",
+        "Destroyed when the city is captured"]
 	},
 
     /*商业中心区域建筑*/
@@ -1930,6 +1898,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Commercial_Hub] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {
@@ -1943,6 +1912,7 @@
 		"uniques": ["Provides [1] [Resource_Trade route capacity]",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Commercial_Hub_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
 	{
@@ -1956,6 +1926,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_Commercial_Hub_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1969,6 +1940,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_Commercial_Hub_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -1977,7 +1949,7 @@
 		"gold":7,
 		"requiredBuilding": "Building_Stock_Exchange",
 		"requiredTech": "Tech_Economy",
-		"uniques": [
+		"uniques": ["Destroyed when the city is captured",
         "Consumes [3] [Resource_Electricity]"]
 	},
 
@@ -1994,6 +1966,7 @@
         "Cost increases by [8] per owned city",
         "Creates a [District_Theater_Square] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
     },
     {
@@ -2007,6 +1980,7 @@
         "uniques": [
         "Cost increases by [8] per owned city",
         "Building_Classification_Theater_Square_District",
+        "Never destroyed when the city is captured",
         "Unsellable"]
     },
     {
@@ -2022,6 +1996,7 @@
             "Cost increases by [8] per owned city",
             "Only available <in cities without a [Building_Archaeological_Museum]>",
             "Building_Classification_Theater_Square_District",
+            "Never destroyed when the city is captured",
             "Unsellable"]
     },
     {
@@ -2036,6 +2011,7 @@
             "Cost increases by [8] per owned city",
             "Only available <in cities without a [Building_Art_Museum]>",
             "Building_Classification_Theater_Square_District",
+            "Never destroyed when the city is captured",
             "Unsellable"]
     },
     {
@@ -2049,6 +2025,7 @@
         "uniques": [
         "Cost increases by [8] per owned city",
         "Building_Classification_Theater_Square_District",
+        "Never destroyed when the city is captured",
         "Unsellable"]
     },
     {
@@ -2058,6 +2035,7 @@
         "requiredTech":"Tech_Radio",
         "requiredBuilding":"Building_Broadcast_Center",
         "uniques": [
+            "Destroyed when the city is captured",
         "Consumes [3] [Resource_Electricity]"]
     },
 
@@ -2075,6 +2053,7 @@
         "Creates a [District_Entertainment_Complex] improvement on a specific tile",
         "Only available <in cities without a [Building_Aquatics_Complex_Unique]>",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
     },
     {//竞技场
@@ -2088,6 +2067,7 @@
         "uniques": [
         "Cost increases by [8] per owned city",
         "Building_Classification_Entertainment_Complex_District",
+        "Destroyed when the city is captured",
         "Unsellable"]
     },
     {//动物园
@@ -2101,6 +2081,7 @@
             "[+1 Science] from [Landform_Swamp] tiles [in this city]",
             "Cost increases by [8] per owned city",
             "Building_Classification_Entertainment_Complex_District",
+            "Destroyed when the city is captured",
             "Unsellable"]
     },
     {
@@ -2112,6 +2093,7 @@
         "uniques": [
             "Cost increases by [8] per owned city",
             "Building_Classification_Entertainment_Complex_District",
+            "Destroyed when the city is captured",
             "Unsellable"]
     },
     {
@@ -2121,6 +2103,7 @@
         "requiredTech":"Civic_Professional sports",
         "requiredBuilding":"Building_Stadium",
         "uniques": ["Consumes [2] [Resource_Electricity]",
+        "Destroyed when the city is captured",
         "Consumes [3] [Resource_Electricity]"]
     },
 
@@ -2139,6 +2122,7 @@
         "Creates a [District_Water_Park] improvement on a specific tile",
         "Only available <in cities without a [Building_Entertainment_Complex_Unique]>",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
     },
     {
@@ -2152,6 +2136,7 @@
         "uniques": [
         "Cost increases by [8] per owned city",
         "Building_Classification_Aquatics_Complex_District",
+        "Destroyed when the city is captured",
         "Unsellable"]
     },
     {
@@ -2165,6 +2150,7 @@
             "[+1 Science] from [Classification_Resource on water] tiles [in this city]",
             "Cost increases by [8] per owned city",
             "Building_Classification_Aquatics_Complex_District",
+            "Destroyed when the city is captured",
             "Unsellable"]
     },
     {
@@ -2176,6 +2162,7 @@
         "uniques": [
             "Cost increases by [8] per owned city",
             "Building_Classification_Aquatics_Complex_District",
+            "Destroyed when the city is captured",
             "Unsellable"]
     },
     {
@@ -2185,6 +2172,7 @@
         "requiredTech":"Civic_Professional sports",
         "requiredBuilding":"Building_Water_Sports_Center",
         "uniques": ["Consumes [2] [Resource_Electricity]",
+        "Destroyed when the city is captured",
         "Consumes [3] [Resource_Electricity]"]
     },
 
@@ -2201,6 +2189,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Industrial_Zone] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//高卢-奥皮杜姆
@@ -2218,6 +2207,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Industrial_Zone] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//神罗-商业同业公会
@@ -2236,6 +2226,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Commercial_Association] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {
@@ -2250,6 +2241,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_Industrial_Zone_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
 	{
@@ -2264,6 +2256,7 @@
 		"uniques": [
 		"Cost increases by [8] per owned city",
         "Building_Classification_Industrial_Zone_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
     {
@@ -2273,6 +2266,7 @@
 		"requiredBuilding": "Building_Factory",
 		"requiredTech": "Tech_Industrialization",
 		"uniques": [
+            "Destroyed when the city is captured",
         "Consumes [2] [Resource_Electricity]"]
 	},
     {
@@ -2290,6 +2284,7 @@
 		"Cost increases by [8] per owned city",
         "Only available <in cities without a [Building_Oil_Power_Plant]>",
         "Only available <in cities without a [Building_Nuclear_Power_Plant]>",
+        "Never destroyed when the city is captured",
         "Building_Classification_Industrial_Zone_District","Building_Classification_Power_Plant"]
 	},
     {
@@ -2299,6 +2294,7 @@
 		"requiredTech": "Tech_Industrialization",
         "requiredResource":"Resource_Coal",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2309,6 +2305,7 @@
 		"requiredTech": "Tech_Industrialization",
         "requiredResource":"Resource_Coal",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2319,6 +2316,7 @@
 		"requiredTech": "Tech_Industrialization",
         "requiredResource":"Resource_Coal",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2329,6 +2327,7 @@
 		"requiredTech": "Tech_Industrialization",
         "requiredResource":"Resource_Coal",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2344,6 +2343,7 @@
         "specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Provides [4] [Resource_Electricity]",
 		"Cost increases by [8] per owned city",
         "Only available <in cities without a [Building_Coal_Power_Plant]>",
@@ -2357,6 +2357,7 @@
 		"requiredTech": "Tech_Electricity",
         "requiredResource":"Resource_Oil",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2367,6 +2368,7 @@
 		"requiredTech": "Tech_Electricity",
         "requiredResource":"Resource_Oil",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2377,6 +2379,7 @@
 		"requiredTech": "Tech_Electricity",
         "requiredResource":"Resource_Oil",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2387,6 +2390,7 @@
 		"requiredTech": "Tech_Electricity",
         "requiredResource":"Resource_Oil",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [4] [Resource_Electricity]"]
 	},
@@ -2402,6 +2406,7 @@
         "specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Provides [16] [Resource_Electricity]",
 		"Cost increases by [8] per owned city",
         "Only available <in cities without a [Building_Coal_Power_Plant]>",
@@ -2415,6 +2420,7 @@
 		"requiredTech": "Tech_Nuclear fission",
         "requiredResource":"Resource_Uranium",
 		"uniques": [
+            "Never destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
         "Provides [16] [Resource_Electricity]"]
 	},
@@ -2432,6 +2438,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Army] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//兵营
@@ -2452,6 +2459,7 @@
         "Only available <in cities without a [Building_Stable]>",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
     {//马厩
@@ -2472,6 +2480,7 @@
         "Only available <in cities without a [Building_Barracks]>",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
 	{
@@ -2488,6 +2497,7 @@
         "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion_Army_Combat_Training_II] promotion",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -2504,6 +2514,7 @@
         "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion_Army_Combat_Training_III] promotion",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Military_Encampment_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -2516,6 +2527,7 @@
         "[-40]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
         "Only available <in cities without a [Building_Military_Academy_Army_Training]>",
+        "Never destroyed when the city is captured",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [double star] promotion"
         ]
 	},
@@ -2529,6 +2541,7 @@
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
         "Only available <in cities without a [Building_Military_Academy_Corps_Training]>",
+        "Never destroyed when the city is captured",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [triple star] promotion"
         ]
 	},
@@ -2548,6 +2561,7 @@
 		"Cost increases by [8] per owned city",
         "Creates a [District_Harbor] improvement on a specific tile",
         "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {
@@ -2566,6 +2580,7 @@
         "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_I] promotion",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Port_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
 	{
@@ -2583,6 +2598,7 @@
         "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_II] promotion",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Port_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
 	{
@@ -2599,6 +2615,7 @@
         "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_III] promotion",
 		"Cost increases by [8] per owned city",
         "Building_Classification_Port_District",
+        "Never destroyed when the city is captured",
 		"Unsellable"]
     },
 	{
@@ -2611,6 +2628,7 @@
         "[-40]% Production when constructing [{Military} {Water}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
         "All newly-trained [{Military} {Water}] units [in this city] receive the [double star] promotion",
+        "Never destroyed when the city is captured",
         "Only available <in cities without a [Building_Invincible_Armada_Naval_Yard]>"
         ]
 	},
@@ -2624,6 +2642,7 @@
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [triple star] promotion",
+        "Never destroyed when the city is captured",
         "Only available <in cities without a [Building_Naval_Yard]>"
         ]
 	},
@@ -2639,6 +2658,7 @@
         "Creates a [District_Spaceport] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Building_Classification_Spaceport_District",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
 
@@ -2653,6 +2673,7 @@
         "Creates a [Distinct_Raceline] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Building_Classification_Raceline_District",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
     {//罗马-浴场地标
@@ -2669,6 +2690,7 @@
         "Creates a [Distict_BeachLandmark] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Building_Classification_Raceline_District",
+        "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
 
@@ -2680,6 +2702,7 @@
         "requiredTech":"Tech_Nuclear fission",
 		"uniques": ["Enables nuclear weapon",
         "Triggers a global alert upon completion",
+        "Destroyed when the city is captured",
         "Cannot be hurried"]
 	},
     {//常春藤计划
@@ -2689,6 +2712,7 @@
         "requiredTech":"Tech_Nuclear Fusion",
 		"uniques": ["Enables nuclear weapon",
         "Triggers a global alert upon completion",
+        "Destroyed when the city is captured",
         "Cannot be hurried"]
 	},
 
@@ -2716,14 +2740,16 @@
         "name":"Building_Dance of the aurora",
         "cost":0,
         "uniques":[
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Tundra] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [1] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [2] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [3] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [4] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [5] to [6] neighboring [Tundra] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [6] to [7] neighboring [Tundra] tiles>",
         "Only available <after adopting [Pantheon_Dance of the aurora]>",
-        "Can only be built [in capital]","Unsellable"],
+        "Automatically built in all cities where it is buildable",
+        "Destroyed when the city is captured",
+        "Unsellable"],
         "replacementTextForUniques":"Sacred sites receive a standard adjacent addition to frozen soil",
         "civilopediaText":[
             {
@@ -2736,14 +2762,15 @@
         "name":"Building_Desert customs",
         "cost":0,
         "uniques":[
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [1] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [2] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [3] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [4] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
-        "[+1 Faith] from [Class_Holy_Site] tiles [in all cities] <with [6] to [7] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [1] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [2] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [3] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [4] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [5] to [6] neighboring [Desert] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [6] to [7] neighboring [Desert] tiles>",
         "Only available <after adopting [Pantheon_Desert customs]>",
-        "Can only be built [in capital]","Unsellable"],
+        "Destroyed when the city is captured",
+        "Unsellable"],
         "replacementTextForUniques":"Holy Land gets the standard adjacent bonus against desert",
         "civilopediaText":[
             {

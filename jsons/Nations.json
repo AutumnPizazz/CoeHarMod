@@ -67,12 +67,13 @@
 		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Lijia",
-		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending",
+		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending\nFor every city with ten or more population +1 science +1 culture for every two population",
 		"uniques": ["Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [100]%",
 		"Enables conversion of city production to [Gold]",
 		"Production to [Gold] conversion in cities changed by [100]%",
-		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>"],
+		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>",
+		"[+1 Science, +1 Culture] per [2] population [in all cities] <in cities with at least [10] [Population]>"],
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	
@@ -267,7 +268,8 @@
 
 		"uniqueName": "The Fall of Babylon",
 //		"uniqueText":"",
-		"uniques": ["[+1] Movement <for [All] units> <upon declaring war with a major Civilization> <for [5] turns>",
+		"uniques": ["Empire enters a [5]-turn Golden Age <upon declaring war with a major Civilization>",
+		"[+1] Movement <for [All] units> <during a Golden Age>",
 		"[+2] Movement <for [Unit_Settler] units> <after discovering [Civic_History]>",
 		"Provides [1] [Resource_Trade route capacity] <after discovering [Civic_Political philosophy]>",
 		"Receive free [Unit_Trader] when you discover [Civic_Political philosophy]",
