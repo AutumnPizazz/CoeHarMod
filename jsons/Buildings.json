@@ -1137,7 +1137,7 @@
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities]",//允许买使者
         "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
-        "[-40]% Culture cost of adopting new Policies",//文化修正
+        "[-30]% Culture cost of adopting new Policies",//文化修正
         "[+13]% Strength when stacked with [Unit_Missionary] <for [Military] units> <if [Artificialwonder_Maebad_Alkurnak] is constructed>",//米纳克希神庙修正
         "Free [Unit_Farmer] appears <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
         "Free [Unit_Settler] appears <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正

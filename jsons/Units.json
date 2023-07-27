@@ -268,6 +268,18 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 40
 	},
+	{//波斯-波斯庭院建造者
+		"name": "Unit_PersianCourtyard",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Persia",
+		"movement": 2,
+		"requiredTech":"Civic_Early Empire",
+		"uniques": ["Can instantly construct a [Improvement_PersianCourtyard] improvement <[2] times>",
+			"Can instantly construct a [Improvement_PersianCourtyard] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
 	
 	/*开拓者*/
 	{
@@ -368,7 +380,7 @@
 		"strength":281,
 		"movement":2,
 		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
-		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Free [Unit_VampireIII] appears <upon being defeated>",
 		"Can transform to [Unit_VampireIV] <after discovering [Tech_Gunpowder]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -379,7 +391,7 @@
 		"strength":425,
 		"movement":2,
 		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
-		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Free [Unit_VampireIV] appears <upon being defeated>",
 		"Can transform to [Unit_VampireV] <after discovering [Tech_Part specification]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -390,7 +402,7 @@
 		"strength":968,
 		"movement":2,
 		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
-		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Free [Unit_VampireV] appears <upon being defeated>",
 		"Can transform to [Unit_VampireVI] <after discovering [Tech_Satellite]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -401,7 +413,7 @@
 		"strength":1462,
 		"movement":3,
 		"uniques":["This Unit gains the [Promotion_Bloodthirsty] promotion <upon defeating a [Military] unit>",
-		"Free [Unit_VampireII] appears <upon being defeated>",
+		"Free [Unit_VampireVI] appears <upon being defeated>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
 	},
@@ -572,6 +584,21 @@
 			"Can build [Remove Landform_Swamp] improvements on tiles",
 			"Instantly consumes [8] [Resource_Iron]",
 			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
+	},
+	{//波斯-长生军
+		"name":"Unit_Immortal",
+		"replaces":"Unit_Swordsman",
+		"uniqueTo":"Nation_Persia",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":178,
+		"rangedStrength":229,
+		"range":2,
+		"movement":2,
+		"cost":90,
+		"upgradesTo":"Unit_Hoplite",
+		"requiredTech": "Tech_Alchemy",
+		"obsoleteTech": "Tech_Apprentices",
+		"uniques":["[-28]% Strength <when attacking>","Era_Classical"]
 	},
 	{//披甲战士
 		"name":"Unit_Hoplite",

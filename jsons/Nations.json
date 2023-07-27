@@ -255,6 +255,37 @@
 		"hateHello": "",
 		"tradeRequest": ""
 	},
+	{//波斯
+		"name": "Nation_Persia",
+		"leaderName": "Cyrus",
+		"adjective": ["Persian"],
+		"outerColor": [82, 0, 64], // 深紫色
+		"innerColor": [255, 165, 0], // 橙黄色
+
+		"startBias": ["Landform_Hill","Mountain"],
+		"preferredVictoryType": "Victory type_Conquest",
+
+		"uniqueName": "The Fall of Babylon",
+//		"uniqueText":"",
+		"uniques": ["[+1] Movement <for [All] units> <upon declaring war with a major Civilization> <for [5] turns>",
+		"[+2] Movement <for [Unit_Settler] units> <after discovering [Civic_History]>",
+		"Provides [1] [Resource_Trade route capacity] <after discovering [Civic_Political philosophy]>",
+		"Receive free [Unit_Trader] when you discover [Civic_Political philosophy]",
+		"[+2 Gold, +1 Culture] from each Trade Route",
+		"[+3]% Strength <for [Military] units> <vs [Nation_Babylon] units>"],
+		
+		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir","Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz","Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube","Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada","Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava","Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka","Paishiyauvada","Patigrbana","Phrada"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},
 
 	{
 		"name": "a白板1号",

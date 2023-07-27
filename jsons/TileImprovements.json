@@ -1732,5 +1732,21 @@
 		"Cannot be built on [Resource_EarthVeins] tiles",
 		"Class_Usual_Improvement"]
 	},
+	{//波斯-波斯庭院
+		"name": "Improvement_PersianCourtyard",
+		"uniqueTo":"Nation_Persia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food":1,
+		"culture":1,
+		"gold":1,
+		"techRequired": "Civic_Early Empire",
+		"uniques": ["[+1 Culture] for each adjacent [Class_Holy_Site]",
+		"[+1 Culture] for each adjacent [Class_Theater_Square]",
+		"[+1 Culture] <after discovering [Civic_Foreigh service]>",
+		"[+2 Gold] <after discovering [Civic_Administration]>",
+		"Pillaging this improvement yields approximately [+30 Culture]",
+		"Cannot be built on [Resource_EarthVeins] tiles",
+		"Class_Usual_Improvement"]
+	},
 
 ]
