@@ -1167,6 +1167,17 @@
         "[+3]% Strength <for [Military] units> <when above [9] [Resource_EarthVeins]>",
         "[+3]% Strength <for [Military] units> <when above [10] [Resource_EarthVeins]>",
         "[+3]% Strength <for [Military] units> <when above [11] [Resource_EarthVeins]>",//以上都是地脉对战斗力的加成
+        "Gain a free [Building_district_limitation1] [in all cities] <in cities with at least [1] [Population]>",
+        "Gain a free [Building_district_limitation2] [in all cities] <in cities with at least [4] [Population]>",
+        "Gain a free [Building_district_limitation3] [in all cities] <in cities with at least [7] [Population]>",
+        "Gain a free [Building_district_limitation4] [in all cities] <in cities with at least [10] [Population]>",
+        "Gain a free [Building_district_limitation5] [in all cities] <in cities with at least [13] [Population]>",
+        "Gain a free [Building_district_limitation6] [in all cities] <in cities with at least [16] [Population]>",
+        "Gain a free [Building_district_limitation7] [in all cities] <in cities with at least [19] [Population]>",
+        "Gain a free [Building_district_limitation8] [in all cities] <in cities with at least [22] [Population]>",
+        "Gain a free [Building_district_limitation9] [in all cities] <in cities with at least [25] [Population]>",
+        "Gain a free [Building_district_limitation10] [in all cities] <in cities with at least [28] [Population]>",//区域位建筑
+        /*"[Military] units gain the [Promotion_Bloodthirsty] promotion <for units with [Promotion_Blood]> <upon defeating a [Military] unit>",//吸血鬼修正*/
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
@@ -1174,80 +1185,80 @@
 		"name": "Building_district_limitation1",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [1] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation2",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [4] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation3",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [7] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation4",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [10] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation5",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [13] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation6",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [16] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation7",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [19] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation8",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [22] [Population]>",
         "Destroyed when the city is captured",
-		"Unsellable"]
+        "Will not be displayed in Civilopedia",
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation9",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [25] [Population]>",
         "Destroyed when the city is captured",
+        "Will not be displayed in Civilopedia",
 		"Unsellable"]
 	},
 	{
 		"name": "Building_district_limitation10",
 		"cost": 0,
 		"uniques": ["Provides [1] [Resource_district_limitation]",
-        "Only available <in cities with at least [28] [Population]>",
         "Destroyed when the city is captured",
+        "Will not be displayed in Civilopedia",
 		"Unsellable"]
 	},
 	{//纪念碑

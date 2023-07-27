@@ -125,6 +125,7 @@
         "Double movement in [Landform_Forest] <for [All] units> <if [Governor_BloodContract_II] is constructed>",
         "Double movement in [Landform_Rainforest] <for [All] units> <if [Governor_BloodContract_II] is constructed>",
         "[+23]% Strength <for [All] units> <if [Governor_BloodContract_III] is constructed>",
-        "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor_BloodContract_IV] is constructed>"]
+        "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor_BloodContract_IV] is constructed>",
+        "[-100]% XP gained from combat"]
     }
 ]

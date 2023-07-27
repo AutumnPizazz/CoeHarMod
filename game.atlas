@@ -3213,623 +3213,665 @@ UnitPromotionIcons/Promotion_Assault_Team
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Bloodthirsty
+UnitPromotionIcons/Promotion_Blood
   rotate: false
   xy: 140, 703
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Canticle
+UnitIcons/Unit_VampireI
+  rotate: false
+  xy: 140, 703
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_VampireII
+  rotate: false
+  xy: 140, 703
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_VampireIII
+  rotate: false
+  xy: 140, 703
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_VampireIV
+  rotate: false
+  xy: 140, 703
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_VampireV
+  rotate: false
+  xy: 140, 703
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_VampireVI
+  rotate: false
+  xy: 140, 703
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty
   rotate: false
   xy: 276, 700
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Disciple
+UnitPromotionIcons/Promotion_Canticle
   rotate: false
   xy: 412, 700
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Disguise
+UnitPromotionIcons/Promotion_Disciple
   rotate: false
   xy: 548, 700
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Elite_Guard
+UnitPromotionIcons/Promotion_Disguise
   rotate: false
   xy: 684, 700
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Giant_Spear
+UnitPromotionIcons/Promotion_Elite_Guard
   rotate: false
   xy: 820, 700
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Guerrilla
+UnitPromotionIcons/Promotion_Giant_Spear
   rotate: false
   xy: 1636, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Healing_God
+UnitPromotionIcons/Promotion_Guerrilla
   rotate: false
   xy: 1772, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Heart_Piercing_Palm
+UnitPromotionIcons/Promotion_Healing_God
   rotate: false
   xy: 1908, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_High_Mountain
+UnitPromotionIcons/Promotion_Heart_Piercing_Palm
   rotate: false
   xy: 956, 629
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Hypnotic_Screen
+UnitPromotionIcons/Promotion_High_Mountain
   rotate: false
   xy: 1092, 629
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Lord_Training
+UnitPromotionIcons/Promotion_Hypnotic_Screen
   rotate: false
   xy: 1228, 629
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Navy_Combat_Training_I
+UnitPromotionIcons/Promotion_Lord_Training
   rotate: false
   xy: 1364, 629
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Navy_Combat_Training_II
+UnitPromotionIcons/Promotion_Navy_Combat_Training_I
   rotate: false
   xy: 4, 628
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Navy_Combat_Training_III
+UnitPromotionIcons/Promotion_Navy_Combat_Training_II
   rotate: false
   xy: 1500, 576
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Rangers
+UnitPromotionIcons/Promotion_Navy_Combat_Training_III
   rotate: false
   xy: 140, 567
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Sentinel
+UnitPromotionIcons/Promotion_Rangers
   rotate: false
   xy: 276, 564
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Shadowless_Fist
+UnitPromotionIcons/Promotion_Sentinel
   rotate: false
   xy: 412, 564
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Snake_Style_Fist
+UnitPromotionIcons/Promotion_Shadowless_Fist
   rotate: false
   xy: 548, 564
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Promotion_Snake_Style_Fist
+  rotate: false
+  xy: 684, 564
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Promotion_Telescope
-  rotate: false
-  xy: 684, 564
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_qianfangguanchayuan
-  rotate: false
-  xy: 684, 564
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_Tortoise_Formation
   rotate: false
   xy: 820, 564
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Trench_Warfare
+UnitPromotionIcons/Promotion_qianfangguanchayuan
+  rotate: false
+  xy: 820, 564
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Tortoise_Formation
   rotate: false
   xy: 1636, 548
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Two_Handed_Sword
+UnitPromotionIcons/Promotion_Trench_Warfare
   rotate: false
   xy: 1772, 548
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Union_Leader
+UnitPromotionIcons/Promotion_Two_Handed_Sword
   rotate: false
   xy: 1908, 548
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Promotion_Union_Leader
+  rotate: false
+  xy: 956, 493
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Promotion_Urban_Warfare
-  rotate: false
-  xy: 956, 493
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_ranshaodan
-  rotate: false
-  xy: 956, 493
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_Water_of_life
   rotate: false
   xy: 1092, 493
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_White_Crane_Fist
+UnitPromotionIcons/Promotion_ranshaodan
+  rotate: false
+  xy: 1092, 493
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Water_of_life
   rotate: false
   xy: 1228, 493
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_Wind_Dance_Fist
+UnitPromotionIcons/Promotion_White_Crane_Fist
   rotate: false
   xy: 1364, 493
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_cejuyizhi
+UnitPromotionIcons/Promotion_Wind_Dance_Fist
   rotate: false
   xy: 4, 492
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_changmaozhen
+UnitPromotionIcons/Promotion_cejuyizhi
   rotate: false
   xy: 1500, 440
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_chaojibaolei
+UnitPromotionIcons/Promotion_changmaozhen
   rotate: false
   xy: 140, 431
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_chaojihangkongmujian
+UnitPromotionIcons/Promotion_chaojibaolei
   rotate: false
   xy: 276, 428
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_chongfeng
+UnitPromotionIcons/Promotion_chaojihangkongmujian
   rotate: false
   xy: 412, 428
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_chongxinbushu
+UnitPromotionIcons/Promotion_chongfeng
   rotate: false
   xy: 548, 428
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_chuanjianbuji
+UnitPromotionIcons/Promotion_chongxinbushu
   rotate: false
   xy: 684, 428
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_chuantouhujia
+UnitPromotionIcons/Promotion_chuanjianbuji
   rotate: false
   xy: 820, 428
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_dengchuan
+UnitPromotionIcons/Promotion_chuantouhujia
   rotate: false
   xy: 1636, 412
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_diqinrenyuan
+UnitPromotionIcons/Promotion_dengchuan
   rotate: false
   xy: 1772, 412
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_duoshou
+UnitPromotionIcons/Promotion_diqinrenyuan
   rotate: false
   xy: 1908, 412
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_fangzhen
+UnitPromotionIcons/Promotion_duoshou
   rotate: false
   xy: 956, 357
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_fangzhenxingshi
+UnitPromotionIcons/Promotion_fangzhen
   rotate: false
   xy: 1092, 357
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_fanyingzhuangjia
+UnitPromotionIcons/Promotion_fangzhenxingshi
   rotate: false
   xy: 1228, 357
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Promotion_fanyingzhuangjia
+  rotate: false
+  xy: 1364, 357
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Promotion_feixingjiaban
-  rotate: false
-  xy: 1364, 357
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_jikujiaban
-  rotate: false
-  xy: 1364, 357
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_fengbaozhijian
   rotate: false
   xy: 4, 356
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_fuyouxiang
+UnitPromotionIcons/Promotion_jikujiaban
+  rotate: false
+  xy: 4, 356
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_fengbaozhijian
   rotate: false
   xy: 1500, 304
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_fuzhuchuan
+UnitPromotionIcons/Promotion_fuyouxiang
   rotate: false
   xy: 140, 295
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_guancha
+UnitPromotionIcons/Promotion_fuzhuchuan
   rotate: false
   xy: 276, 292
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_hangxianhaitu
+UnitPromotionIcons/Promotion_guancha
   rotate: false
   xy: 412, 292
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_hongzha
+UnitPromotionIcons/Promotion_hangxianhaitu
   rotate: false
   xy: 548, 292
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_huhangdui
+UnitPromotionIcons/Promotion_hongzha
   rotate: false
   xy: 684, 292
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_huolizhunbei
+UnitPromotionIcons/Promotion_huhangdui
   rotate: false
   xy: 820, 292
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_huoyaoshixiao
+UnitPromotionIcons/Promotion_huolizhunbei
   rotate: false
   xy: 1636, 276
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_jiabanzhuanyuan
+UnitPromotionIcons/Promotion_huoyaoshixiao
   rotate: false
   xy: 1772, 276
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_jiaguchuanke
+UnitPromotionIcons/Promotion_jiabanzhuanyuan
   rotate: false
   xy: 1908, 276
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_jidongguibi
+UnitPromotionIcons/Promotion_jiaguchuanke
   rotate: false
   xy: 956, 221
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_jikui
+UnitPromotionIcons/Promotion_jidongguibi
   rotate: false
   xy: 1092, 221
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_jinbaoyinguan
+UnitPromotionIcons/Promotion_jikui
   rotate: false
   xy: 1228, 221
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_jinjukongzhongzhiyuan
+UnitPromotionIcons/Promotion_jinbaoyinguan
   rotate: false
   xy: 1364, 221
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_kongzhongchandou
+UnitPromotionIcons/Promotion_jinjukongzhongzhiyuan
   rotate: false
   xy: 4, 220
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_langqunzhanshu
+UnitPromotionIcons/Promotion_kongzhongchandou
   rotate: false
   xy: 1500, 168
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_lanjieji
+UnitPromotionIcons/Promotion_langqunzhanshu
   rotate: false
   xy: 140, 159
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_liangyibaowei
+UnitPromotionIcons/Promotion_lanjieji
   rotate: false
   xy: 276, 156
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_liuxiandan
+UnitPromotionIcons/Promotion_liangyibaowei
   rotate: false
   xy: 412, 156
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_longgugailiang
+UnitPromotionIcons/Promotion_liuxiandan
   rotate: false
   xy: 548, 156
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Promotion_longgugailiang
+  rotate: false
+  xy: 684, 156
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Promotion_lveduo
-  rotate: false
-  xy: 684, 156
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_lveduo2
-  rotate: false
-  xy: 684, 156
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_qiangjie
-  rotate: false
-  xy: 684, 156
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_mayi
   rotate: false
   xy: 820, 156
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_paodan
+UnitPromotionIcons/Promotion_lveduo2
+  rotate: false
+  xy: 820, 156
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_qiangjie
+  rotate: false
+  xy: 820, 156
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_mayi
   rotate: false
   xy: 1636, 140
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_paotai
+UnitPromotionIcons/Promotion_paodan
   rotate: false
   xy: 1772, 140
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_pufugongji
+UnitPromotionIcons/Promotion_paotai
   rotate: false
   xy: 1908, 140
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_qishe
+UnitPromotionIcons/Promotion_pufugongji
   rotate: false
   xy: 956, 85
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_qiusheng
+UnitPromotionIcons/Promotion_qishe
   rotate: false
   xy: 1092, 85
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_saoshe
+UnitPromotionIcons/Promotion_qiusheng
   rotate: false
   xy: 1228, 85
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_shenqiangshou
+UnitPromotionIcons/Promotion_saoshe
   rotate: false
   xy: 1364, 85
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_tankekexing
+UnitPromotionIcons/Promotion_shenqiangshou
   rotate: false
   xy: 4, 84
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_tidui
+UnitPromotionIcons/Promotion_tankekexing
   rotate: false
   xy: 1500, 32
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_tupo
+UnitPromotionIcons/Promotion_tidui
   rotate: false
   xy: 140, 23
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_tuxi
+UnitPromotionIcons/Promotion_tupo
   rotate: false
   xy: 276, 20
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_wushengyunxing
+UnitPromotionIcons/Promotion_tuxi
   rotate: false
   xy: 412, 20
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_xiandan
+UnitPromotionIcons/Promotion_wushengyunxing
   rotate: false
   xy: 548, 20
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_xianjinceju
+UnitPromotionIcons/Promotion_xiandan
   rotate: false
   xy: 684, 20
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_xianjinfadongji
+UnitPromotionIcons/Promotion_xianjinceju
   rotate: false
   xy: 820, 20
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_xiexingzhen
+UnitPromotionIcons/Promotion_xianjinfadongji
   rotate: false
   xy: 1636, 4
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_xujindan
+UnitPromotionIcons/Promotion_xiexingzhen
   rotate: false
   xy: 1772, 4
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_yanhouyaodao
+UnitPromotionIcons/Promotion_xujindan
   rotate: false
   xy: 1908, 4
   size: 128, 128
@@ -4551,21 +4593,21 @@ NationIcons/Nation_Russia
   index: -1
 ReligionIcons/Shamanism
   rotate: false
-  xy: 140, 1231
+  xy: 276, 1367
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_Bison
   rotate: false
-  xy: 4, 1231
+  xy: 140, 1367
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_Cocoa
   rotate: false
-  xy: 140, 1367
+  xy: 276, 1503
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -4586,28 +4628,28 @@ ResourceIcons/Resource_Electricity
   index: -1
 ResourceIcons/Resource_Influence
   rotate: false
-  xy: 276, 1503
+  xy: 412, 1639
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_Lobster
   rotate: false
-  xy: 412, 1639
+  xy: 548, 1775
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_Porcelain
   rotate: false
-  xy: 548, 1775
+  xy: 684, 1911
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_Rubber
   rotate: false
-  xy: 684, 1911
+  xy: 4, 1095
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -4628,7 +4670,7 @@ UnitIcons/Unit_Trader
   index: -1
 ResourceIcons/Resource_district_limitation
   rotate: false
-  xy: 4, 1095
+  xy: 140, 1231
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -6896,21 +6938,21 @@ UnitIcons/Unit_Miner
   index: -1
 UnitIcons/Unit_Ming_GreatWall
   rotate: false
-  xy: 276, 1367
+  xy: 412, 1503
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Missionary
   rotate: false
-  xy: 412, 1503
+  xy: 548, 1639
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Monk
   rotate: false
-  xy: 548, 1639
+  xy: 684, 1775
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -7071,54 +7113,12 @@ UnitIcons/Unit_Trireme
   index: -1
 UnitIcons/Unit_Vampire2
   rotate: false
-  xy: 684, 1775
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_Vampire3
-  rotate: false
   xy: 820, 1911
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit_VampireI
-  rotate: false
-  xy: 4, 959
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_VampireII
-  rotate: false
-  xy: 4, 959
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_VampireIII
-  rotate: false
-  xy: 4, 959
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_VampireIV
-  rotate: false
-  xy: 4, 959
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_VampireV
-  rotate: false
-  xy: 4, 959
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_VampireVI
+UnitIcons/Unit_Vampire3
   rotate: false
   xy: 4, 959
   size: 128, 128
@@ -7160,114 +7160,121 @@ UnitIcons/Unit_Worker
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Promotion_yanhouyaodao
+  rotate: false
+  xy: 4, 1911
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Promotion_yazhen
-  rotate: false
-  xy: 4, 1911
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_yazhi
-  rotate: false
-  xy: 4, 1911
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Promotion_yuancheng
   rotate: false
   xy: 4, 1775
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_yuleihongzhaji
+UnitPromotionIcons/Promotion_yazhi
+  rotate: false
+  xy: 4, 1775
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_yuancheng
   rotate: false
   xy: 140, 1911
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhandouduixing
+UnitPromotionIcons/Promotion_yuleihongzhaji
   rotate: false
   xy: 4, 1639
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhanmakaijia
+UnitPromotionIcons/Promotion_zhandouduixing
   rotate: false
   xy: 140, 1775
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhanshuweihu
+UnitPromotionIcons/Promotion_zhanmakaijia
   rotate: false
   xy: 276, 1911
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhenchafeiji
+UnitPromotionIcons/Promotion_zhanshuweihu
   rotate: false
   xy: 4, 1503
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zheyi
+UnitPromotionIcons/Promotion_zhenchafeiji
   rotate: false
   xy: 140, 1639
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhongwuqi
+UnitPromotionIcons/Promotion_zheyi
   rotate: false
   xy: 276, 1775
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhuanjiazu
+UnitPromotionIcons/Promotion_zhongwuqi
   rotate: false
   xy: 412, 1911
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhuiji
+UnitPromotionIcons/Promotion_zhuanjiazu
   rotate: false
   xy: 4, 1367
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhuiliezhe
+UnitPromotionIcons/Promotion_zhuiji
   rotate: false
   xy: 140, 1503
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zhujun
+UnitPromotionIcons/Promotion_zhuiliezhe
   rotate: false
   xy: 276, 1639
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zidaoyulei
+UnitPromotionIcons/Promotion_zhujun
   rotate: false
   xy: 412, 1775
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Promotion_zuocanghujia
+UnitPromotionIcons/Promotion_zidaoyulei
   rotate: false
   xy: 548, 1911
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_zuocanghujia
+  rotate: false
+  xy: 4, 1231
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
