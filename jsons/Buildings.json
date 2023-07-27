@@ -411,6 +411,7 @@
 	    "name": "Governor_GoldenDawn_I",
 		"cost": 0,
 		"uniques":["Discover [Tech_UniqueToGoldenDawn]",
+            "[+1 Production, +1 Science] from every [Resource_EarthVeins]",
             "Only available <starting from the [Era_Ancient]>",
             "Only available <after [8] turns>",
             "Unsellable",
