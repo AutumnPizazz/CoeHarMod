@@ -1251,7 +1251,7 @@
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
-		"Unsellable"]
+		"Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Building_district_limitation10",
@@ -1259,7 +1259,7 @@
 		"uniques": ["Provides [1] [Resource_district_limitation]",
         "Destroyed when the city is captured",
         "Will not be displayed in Civilopedia",
-		"Unsellable"]
+		"Unsellable","Unbuildable"]
 	},
 	{//纪念碑
 		"name": "Building_Monument",
