@@ -469,6 +469,7 @@
 		"strength":66,//10
 		"movement":3,
 		"cost":30,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Ranger",
 		"obsoleteTech": "Tech_Mechanical",
 		"uniques":["Rough terrain penalty","Era_Ancient"]
@@ -481,6 +482,7 @@
 		"range":1,
 		"movement":3,
 		"cost":150,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cavalry2",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
@@ -494,6 +496,7 @@
 		"range":1,
 		"movement":3,
 		"cost":380,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_SpecOps",
 		"requiredTech": "Tech_Rifling",
 		"obsoleteTech": "Tech_Plastic",
@@ -507,6 +510,7 @@
 		"range":1,
 		"movement":3,
 		"cost":520,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Plastic",
 		"uniques":["Era_Atomic"]
 	},
@@ -518,6 +522,7 @@
 		"strength":100,//20
 		"movement":2,
 		"cost":40,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["Era_Ancient"]
@@ -530,6 +535,7 @@
 		"strength":100,//20
 		"movement":2,
 		"cost":35,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["[+51]% Strength <vs [Era_Classical] units>",
@@ -551,6 +557,7 @@
 		"strength":88,//17
 		"movement":3,
 		"cost":35,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"uniques":["[+1] Sight",
 		"[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
@@ -564,6 +571,7 @@
 		"strength":186,//35
 		"movement":2,
 		"cost":90,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
@@ -578,6 +586,7 @@
 		"strength":229,//40
 		"movement":2,
 		"cost":75,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
@@ -600,6 +609,7 @@
 		"range":2,
 		"movement":2,
 		"cost":90,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
@@ -611,6 +621,7 @@
 		"strength":281,//45
 		"movement":2,
 		"cost":160,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
@@ -623,6 +634,7 @@
 		"strength":425,//55
 		"movement":2,
 		"cost":240,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
@@ -635,6 +647,7 @@
 		"strength":641,//65
 		"movement":2,
 		"cost":360,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Infantry",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
@@ -647,6 +660,7 @@
 		"strength":968,//968
 		"movement":2,
 		"cost":430,
+		"hurryCostModifier":-33,
 		"requiredResource": "Resource_Oil",
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
@@ -661,6 +675,7 @@
 		"strength":1462,//85
 		"movement":3,
 		"cost":650,
+		"hurryCostModifier":-33,
 		"requiredResource": "Resource_Oil",
 		"requiredTech": "Tech_Satellite",
 		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information"]
@@ -675,6 +690,7 @@
 		"range":1,
 		"movement":2,
 		"cost":35,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Archer",
 		"obsoleteTech": "Tech_Archey",
 		"uniques":["Era_Ancient"]
@@ -687,6 +703,7 @@
 		"range":2,
 		"movement":2,
 		"cost":60,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
@@ -702,6 +719,7 @@
 		"range":2,
 		"movement":2,
 		"cost":60,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
@@ -715,6 +733,7 @@
 		"range":2,
 		"movement":2,
 		"cost":180,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
@@ -730,6 +749,7 @@
 		"range":1,
 		"movement":2,
 		"cost":140,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
@@ -743,6 +763,7 @@
 		"range":2,
 		"movement":2,
 		"cost":330,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
@@ -758,6 +779,7 @@
 		"range":2,
 		"movement":3,
 		"cost":290,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
@@ -771,6 +793,7 @@
 		"range":2,
 		"movement":2,
 		"cost":540,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Advanced ballistics",
 		"uniques":["Era_Atomic"]
 	},
@@ -784,6 +807,7 @@
 		"range":2,
 		"movement":2,
 		"cost":120,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Battering_Ram",
 		"requiredTech": "Tech_Project",
 		"obsoleteTech": "Tech_Military engineering",
@@ -797,6 +821,7 @@
 		"range":2,
 		"movement":2,
 		"cost":200,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Siege_Tower",
 		"requiredTech": "Tech_Military engineering",
 		"obsoleteTech": "Tech_Metal casting",
@@ -810,6 +835,7 @@
 		"range":2,
 		"movement":2,
 		"cost":280,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Niter",
 		"upgradesTo":"Unit_Artillery",
 		"requiredTech": "Tech_Metal casting",
@@ -825,6 +851,7 @@
 		"range":3,
 		"movement":2,
 		"cost":430,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"upgradesTo":"Unit_Rocket_Artillery",
 		"requiredTech": "Tech_Steel",
@@ -839,6 +866,7 @@
 		"range":3,
 		"movement":2,
 		"cost":680,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Guidance system",
 		"uniques":["Era_Information"]
@@ -851,6 +879,7 @@
 		"strength":194,//36
 		"movement":4,
 		"cost":80,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
@@ -864,6 +893,7 @@
 		"strength":281,//46
 		"movement":5,
 		"cost":200,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cavalry",
 		"requiredTech": "Tech_Castle",
 		"obsoleteTech": "Tech_Military science",
@@ -876,6 +906,7 @@
 		"strength":543,//62
 		"movement":5,
 		"cost":330,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Helicopter",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
@@ -890,6 +921,7 @@
 		"strength":697,//67
 		"movement":5,
 		"cost":330,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Helicopter",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
@@ -904,6 +936,7 @@
 		"strength":1462,//86
 		"movement":4,
 		"cost":330,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Synthetic",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
@@ -920,6 +953,7 @@
 		"strength":138,//28
 		"movement":2,
 		"cost":65,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
@@ -932,6 +966,7 @@
 		"unitType":"Unit_Type_Heavy_Cavalry",
 		"strength":123,//25
 		"range":2,
+		"hurryCostModifier":-33,
 		"rangedStrength":186,//35
 		"movement":2,
 		"cost":90,
@@ -949,6 +984,7 @@
 		"strength":332,//50
 		"movement":4,
 		"cost":220,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
@@ -961,6 +997,7 @@
 		"strength":614,//64
 		"movement":4,
 		"cost":330,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Tank",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Internal combustion engine",
@@ -973,6 +1010,7 @@
 		"strength":1462,//85
 		"movement":4,
 		"cost":480,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"upgradesTo":"Unit_Modern_Armor",
 		"requiredTech": "Tech_Internal combustion engine",
@@ -986,6 +1024,7 @@
 		"strength":2207,//95
 		"movement":4,
 		"cost":680,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Composite",
 		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information"]
@@ -998,6 +1037,7 @@
 		"strength":123,//25
 		"movement":2,
 		"cost":65,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
@@ -1009,6 +1049,7 @@
 		"strength":270,//45
 		"movement":2,
 		"cost":180,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Pike_and_Shot",
 		"requiredTech": "Tech_Tactics",
 		"obsoleteTech": "Tech_Metal casting",
@@ -1020,6 +1061,7 @@
 		"strength":408,//55
 		"movement":2,
 		"cost":250,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Anti_Tank_Crew",
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Chemistry",
@@ -1031,6 +1073,7 @@
 		"strength":968,//75
 		"movement":2,
 		"cost":400,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Modern_Anti_Tank_Crew",
 		"requiredTech": "Tech_Chemistry",
 		"obsoleteTech": "Tech_Composite",
@@ -1042,6 +1085,7 @@
 		"strength":1462,//85
 		"movement":2,
 		"cost":580,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Composite",
 		"uniques":["Era_Information"]
 	},
@@ -1053,6 +1097,7 @@
 		"strength":151,//30
 		"movement":3,
 		"cost":65,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Trireme",
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Ancient"],
 		"requiredTech": "Tech_Nautical art",
@@ -1064,6 +1109,7 @@
 		"strength":425,//55
 		"movement":4,
 		"cost":240,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Frigate",
 		"requiredTech": "Tech_Cartography",
 		"obsoleteTech": "Tech_Steam power",
@@ -1075,6 +1121,7 @@
 		"strength":789,//70
 		"movement":5,
 		"cost":380,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Coal",
 		"upgradesTo":"Unit_Destroyer",
 		"requiredTech": "Tech_Steam power",
@@ -1088,6 +1135,7 @@
 		"strength":1401,//85
 		"movement":4,
 		"cost":540,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Joint operations",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
@@ -1105,6 +1153,7 @@
 		"range":1,
 		"movement":3,
 		"cost":120,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cruiser",
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical"],
 		"requiredTech": "Tech_Shipbuilding",
@@ -1118,6 +1167,7 @@
 		"range":2,
 		"movement":4,
 		"cost":280,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Niter",
 		"upgradesTo":"Unit_Battleship",
 		"requiredTech": "Tech_Crossail device",
@@ -1134,6 +1184,7 @@
 		"interceptRange": 3,
 		"movement":5,
 		"cost":430,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Coal",
 		"upgradesTo":"Unit_Missile_Cruiser",
 		"requiredTech": "Tech_Refining",
@@ -1152,6 +1203,7 @@
 		"interceptRange": 3,
 		"movement":5,
 		"cost":680,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Laser",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
@@ -1168,6 +1220,7 @@
 		"range":2,
 		"movement":4,
 		"cost":280,
+		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Submarine",
 		"requiredTech": "Civic_Mercantilism",
 		"obsoleteTech": "Tech_Electricity",
@@ -1181,6 +1234,7 @@
 		"range":2,
 		"movement":4,
 		"cost":480,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
@@ -1197,6 +1251,7 @@
 		"range":2,
 		"movement":4,
 		"cost":360,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
@@ -1212,6 +1267,7 @@
 		"range":2,
 		"movement":4,
 		"cost":680,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Telecommunication",
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
 			"[-64]% Strength <when below [0] [Resource_Uranium]>",
@@ -1227,6 +1283,7 @@
 		"rangedStrength":615,//65
 		"movement":3,
 		"cost":540,
+		"hurryCostModifier":-33,
 		"requiredTech":"Tech_Joint operations",
 		"uniques":["Era_Atomic"]
 	},
@@ -1241,6 +1298,7 @@
 		"interceptRange": 4,
 		"movement":1,
 		"cost":430,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"upgradesTo":"Unit_Fighter",
 		"requiredTech": "Tech_Flight",
@@ -1259,6 +1317,7 @@
 		"interceptRange": 5,
 		"movement":1,
 		"cost":520,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"upgradesTo":"Unit_Jet_Fighter",
 		"requiredTech": "Tech_Modern aviation",
@@ -1278,6 +1337,7 @@
 		"interceptRange": 6,
 		"movement":1,
 		"cost":650,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Laser",
 		"uniques":["[75]% chance to intercept air attacks",
@@ -1296,6 +1356,7 @@
 		"range":10,
 		"movement":1,
 		"cost":560,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"upgradesTo":"Unit_Jet_Bomber",
 		"requiredTech": "Tech_Modern aviation",
@@ -1313,6 +1374,7 @@
 		"range":15,
 		"movement":1,
 		"cost":700,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Stealth",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
@@ -1330,6 +1392,7 @@
 		"range":10,
 		"movement":1,
 		"cost":1100,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nuclear fission",
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
 		"Nuclear weapon of Strength [1]",
@@ -1344,6 +1407,7 @@
 		"range":10,
 		"movement":1,
 		"cost":1600,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nuclear Fusion",
 		"uniques":["Instantly consumes [20] [Resource_Uranium]",
 		"Nuclear weapon of Strength [2]",
@@ -1359,6 +1423,7 @@
 		"interceptRange": 10,
 		"movement":5,
 		"cost":1500,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Robotics",
 		"uniques":["Consumes [3] [Resource_Uranium]",
 		"[-64]% Strength <when below [0] [Resource_Uranium]>"]
@@ -1385,6 +1450,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"cost": 1500,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Satellite",
 		"uniques": [
 		"Gain [4000] [Science]",
@@ -1401,6 +1467,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"cost": 1800,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nanotechnology",
 		"uniques": [
 		"Unit_Class_Space_Race",
@@ -1415,6 +1482,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"cost": 2100,
+		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Smart materials",
 		"uniques": [
 		"Unit_Class_Space_Race",
@@ -1429,6 +1497,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"cost": 600,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Alien missons",
 		"uniques": [
@@ -1444,6 +1513,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"cost": 600,
+		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Alien missons",
 		"uniques": [

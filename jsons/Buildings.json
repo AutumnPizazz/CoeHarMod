@@ -25,6 +25,7 @@
 	{//酋邦
 	    "name": "Government_Chieftainship",
 		"cost": 10,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Code",
 		"uniques":["Provides [1] [Resource_Military policy slot]",
             "Provides [1] [Resource_Economic policy slot]",
@@ -40,6 +41,7 @@
     {//寡头政体
 	    "name": "Government_Oligarchy",
 		"cost": 20,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Political philosophy",
 		"uniques":["[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
             "[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
@@ -59,6 +61,7 @@
     {//古典共和
 	    "name": "Government_Classical_Republic",
 		"cost": 20,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Political philosophy",
 		"uniques":["[+1 Happiness] [in all cities]",
             "[+1 Happiness] [in capital]",
@@ -77,6 +80,7 @@
     {//独裁统治
 	    "name": "Government_Autocracy",
 		"cost": 20,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Political philosophy",
 		"uniques":["[+10]% Production when constructing [All] wonders [in all cities]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building_Classification_Government_Plaza_District]",
@@ -98,6 +102,7 @@
     {//君主制
 	    "name": "Government_Monarchy",
 		"cost": 30,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Divin right of Kings",
 		"uniques":["[+2 Food, +1 Happiness] from every [Building_Classification_Wall]",
             "Resting point for Influence with City-States is increased by [20]",
@@ -117,6 +122,7 @@
     {//神权政体
 	    "name": "Government_Theocracy",
 		"cost": 30,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Reformed church",
 		"uniques":["[+1 Faith] per [2] population [in all cities]",
             "[Faith] cost of purchasing items in cities [-15]%",
@@ -136,6 +142,7 @@
     {//商人共和国
 	    "name": "Government_Merchant_Republic",
 		"cost": 30,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Exploration",
 		"uniques":["[+10]% [Gold] [in all cities]",
             "[+25]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities]",
@@ -155,6 +162,7 @@
     {//民主主义
 	    "name": "Government_Democracy",
 		"cost": 40,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Right to vote",
 		"uniques":["[+4 Food, +4 Production] from each Trade Route",
             "[Gold] cost of purchasing items in cities [-15]%",
@@ -174,6 +182,7 @@
     {//共产主义
 	    "name": "Government_Communism",
 		"cost": 40,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Class struggle",
 		"uniques":["[+10]% [Science] [in all cities]",
             "[+3 Production] per [5] population [in all cities]",
@@ -193,6 +202,7 @@
     {//法西斯主义
 	    "name": "Government_Fascism",
 		"cost": 40,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Tolalitarianism",
 		"uniques":["[+23]% Strength <for [Military] units>",
             "[+35]% Production when constructing [All] units [in all cities]",
@@ -212,6 +222,7 @@
     {//合成专家统治
 	    "name": "Government_Synthetic_Empire",
 		"cost": 50,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Optimization command",
 		"uniques":["Provides [10] [Resource_Electricity]",
             "[+30]% Production when constructing [Unit_Class_Space_Race] units [in all cities]",
@@ -232,6 +243,7 @@
     {//数字化民主
 	    "name": "Government_Digital_Democracy",
 		"cost": 50,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Decentralized sovereighty",
 		"uniques":["[+3 Happiness] [in all cities]",
             "[+2 Culture] from every [Building_Classification_District_Unique]",
@@ -252,6 +264,7 @@
     {//团体自由意志主义
 	    "name": "Government_Corporate_Libertarianism",
 		"cost": 50,
+		"hurryCostModifier":-33,
         "requiredTech":"Civic_Political adventures",
 		"uniques":["[+10]% [Production] <in cities with a [Building_Military_Encampment_Unique]>",
             "[+10]% [Production] <in cities with a [Building_Commercial_Hub_Unique]>",
@@ -1208,6 +1221,7 @@
 		"name": "Building_Monument",
 		"culture": 2,
 		"cost": 50,
+		"hurryCostModifier":-33,
 		"uniques": ["Cost increases by [8] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -1216,6 +1230,7 @@
 		"name": "Building_Granary",
 		"food": 1,
 		"cost": 55,
+		"hurryCostModifier":-33,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 		"Cost increases by [8] per owned city",
         "Never destroyed when the city is captured",
@@ -1229,6 +1244,7 @@
         "uniqueTo":"Nation_Ming",
 		"food": 3,
 		"cost": 55,
+		"hurryCostModifier":-33,
 		"uniques": ["[15]% Food is carried over after population increases [in this city]",
 		"Cost increases by [8] per owned city",
 		"Unsellable"],
@@ -1241,6 +1257,7 @@
 		"food": 1,
 		"production": 1,
 		"cost":70,
+		"hurryCostModifier":-33,
 		"uniques": ["Must be on [River]",
 		"[+1 Food] from [Resource_Wheat] tiles [in this city]",
 		"[+1 Food] from [Resource_Corn] tiles [in this city]",
@@ -1256,6 +1273,7 @@
 		"maintenance": 1,
 		"production": 2,
 		"cost":70,
+		"hurryCostModifier":-33,
 		"uniques": ["Must be on [River]",
 		"[+1 Food] from [River] tiles without [Class_Usual_Improvement] [in this city]",
 		"Cost increases by [8] per owned city",
@@ -1268,6 +1286,7 @@
 		"maintenance": 2,
 		"food": 2,
 		"cost":190,
+		"hurryCostModifier":-33,
 		"uniques": ["[25]% Food is carried over after population increases [in this city]",
 		"Cost increases by [8] per owned city",
         "Never destroyed when the city is captured",
@@ -1278,7 +1297,7 @@
 		"name": "Building_Dam",
 		"maintenance": 1,
 		"cost":290,
-		"hurryCostModifier": 100,
+		"hurryCostModifier":32,
 		"uniques": ["Must be next to [Coast]",
 		"Cost increases by [8] per owned city",
         "Never destroyed when the city is captured",
@@ -1288,6 +1307,7 @@
     {//远古城墙
 		"name": "Building_Ancient_Walls",
 		"cost":70,
+		"hurryCostModifier":-33,
         "cityStrength":50,
         "cityHealth":50,
 		"uniques": ["Cost increases by [8] per owned city",
@@ -1300,6 +1320,7 @@
     {//中世纪城墙
 		"name": "Building_Medieval_Walls",
 		"cost":210,
+		"hurryCostModifier":-33,
         "requiredBuilding":"Building_Ancient_Walls",
         "cityStrength":150,
         "cityHealth":50,
@@ -1313,6 +1334,7 @@
     {//文艺复兴城墙
 		"name": "Building_Renaissance_Walls",
 		"cost":290,
+		"hurryCostModifier":-33,
         "requiredBuilding":"Building_Medieval_Walls",
         "cityStrength":250,
         "cityHealth":50,
@@ -1326,6 +1348,7 @@
     {//法庭
 		"name": "Building_Court",
 		"cost":60,
+		"hurryCostModifier":-33,
 		"uniques": ["Remove extra unhappiness from annexed cities",
         "Can only be built [in annexed cities]",
         "Never destroyed when the city is captured",
@@ -1348,6 +1371,7 @@
     {
 		"name": "Building_Government_Plaza_Unique",
 		"cost": 20,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
         "requiredResource":"Resource_district_limitation",
 		"requiredTech": "Civic_National labor force",
@@ -1365,6 +1389,7 @@
         "replaces":"Building_Government_Plaza_Unique",
         "uniqueTo":"Nation_Maya",
 		"cost": 20,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
         "requiredResource":"Resource_district_limitation",
 		"requiredTech": "Civic_National labor force",
@@ -1382,6 +1407,7 @@
     {
         "name":"Building_Ancestral_Hall",
         "cost":140,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1399,6 +1425,7 @@
     {//谒见厅
         "name":"Building_Audience_Chamber",
         "cost":140,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1415,6 +1442,7 @@
     {//军阀宝座
         "name":"Building_Warlord_Throne",
         "cost":140,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1431,6 +1459,7 @@
     {//情报局
         "name":"Building_Intelligence_Agency",
         "cost":280,
+		"hurryCostModifier":-33,
         "maintenance":2,
         "requiredTech":"Civic_Divin right of Kings",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1448,6 +1477,7 @@
     {//外交部
         "name":"Building_Foreign_Ministry",
         "cost":280,
+		"hurryCostModifier":-33,
         "maintenance":2,
         "requiredTech":"Civic_Divin right of Kings",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1467,6 +1497,7 @@
     {
         "name":"Building_Order_of_Friars",
         "cost":280,
+		"hurryCostModifier":-33,
         "maintenance":2,
         "requiredTech":"Civic_Divin right of Kings",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1485,6 +1516,7 @@
     {
         "name":"Building_National_History_Museum",
         "cost":430,
+		"hurryCostModifier":-33,
         "maintenance":3,
         "requiredTech":"Civic_Capitalism",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1502,6 +1534,7 @@
     {
         "name":"Building_Royal_Society",
         "cost":430,
+		"hurryCostModifier":-33,
         "maintenance":3,
         "requiredTech":"Civic_Capitalism",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1519,6 +1552,7 @@
     {
         "name":"Building_War_Department",
         "cost":430,
+		"hurryCostModifier":-33,
         "maintenance":3,
         "requiredTech":"Civic_Capitalism",
         "requiredBuilding":"Building_Government_Plaza_Unique",
@@ -1537,6 +1571,7 @@
     {
         "name":"Building_Foreign_Quarter_Unique",
         "cost":20,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "requiredTech":"Tech_Math",
         "requiredResource":"Resource_district_limitation",
@@ -1551,6 +1586,7 @@
     {
         "name":"Building_Consulate",
         "cost":140,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "requiredTech":"Tech_Math",
         "requiredBuilding":"Building_Foreign_Quarter_Unique",
@@ -1563,6 +1599,7 @@
     {
         "name":"Building_Diplomatic_Delegation",
         "cost":290,
+		"hurryCostModifier":-33,
         "maintenance":2,
         "requiredTech":"Civic_Foreigh service",
         "requiredBuilding":"Building_Consulate",
@@ -1577,6 +1614,7 @@
     {//圣地地标
 		"name": "Building_Holy_Site_Unique",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Astrology",
         "requiredResource":"Resource_district_limitation",
@@ -1595,6 +1633,7 @@
         "replaces":"Building_Holy_Site_Unique",
         "uniqueTo":"Nation_Russia",
 		"cost": 22,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Astrology",
         "requiredResource":"Resource_district_limitation",
@@ -1613,6 +1652,7 @@
 		"name": "Building_Shrine",
 		"faith": 2,
 		"cost": 60,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Astrology",
         "requiredBuilding":"Building_Holy_Site_Unique",
@@ -1632,6 +1672,7 @@
 		"requiredTech": "Civic_Theology",
 		"maintenance": 2,
 		"cost":110,
+		"hurryCostModifier":-33,
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["Hidden when religion is disabled",
@@ -1643,6 +1684,7 @@
     {
 		"name": "Building_Stupa",
 		"cost": 0,
+		"hurryCostModifier":-33,
 		"faith": 3,
         "requiredBuilding": "Building_Temple",
 		"specialistSlots": {"Specialist_Priest": 1},
@@ -1658,6 +1700,7 @@
     {
 		"name": "Building_Cathedral",
 		"cost": 0,
+		"hurryCostModifier":-33,
 		"faith": 3,
         "requiredBuilding": "Building_Temple",
 		"specialistSlots": {"Specialist_Priest": 1},
@@ -1784,6 +1827,7 @@
     {//学院地标
 		"name": "Building_College_Unique",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Writing",
         "requiredResource":"Resource_district_limitation",
@@ -1801,6 +1845,7 @@
         "replaces":"Building_College_Unique",
         "uniqueTo":"Nation_Korea",
 		"cost": 22,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Writing",
         "requiredResource":"Resource_district_limitation",
@@ -1818,6 +1863,7 @@
         "replaces":"Building_College_Unique",
         "uniqueTo":"Nation_Maya",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Writing",
         "requiredResource":"Resource_district_limitation",
@@ -1833,6 +1879,7 @@
     {//图书馆
         "name":"Building_Library",
         "cost":80,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "science":2,
         "requiredTech":"Tech_Writing",
@@ -1848,6 +1895,7 @@
 	{
 		"name": "Building_University",
 		"cost":240,
+		"hurryCostModifier":-33,
 		"maintenance": 2,
 		"science":4,
 		"requiredBuilding": "Building_Library",
@@ -1863,6 +1911,7 @@
     {
 		"name": "Building_Research_Lab",
 		"cost":430,
+		"hurryCostModifier":-33,
 		"maintenance": 2,
 		"science":3,
 		"requiredBuilding": "Building_University",
@@ -1878,6 +1927,7 @@
     {
 		"name": "Building_Powered_Research_Lab",
 		"cost":1,
+		"hurryCostModifier":-33,
 		"science":5,
 		"requiredBuilding": "Building_Research_Lab",
 		"requiredTech": "Tech_Chemistry",
@@ -1890,6 +1940,7 @@
     {
 		"name": "Building_Commercial_Hub_Unique",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Currency",
         "requiredResource":"Resource_district_limitation",
@@ -1905,6 +1956,7 @@
     {
         "name":"Building_Market",
         "cost":110,
+		"hurryCostModifier":-33,
         "gold":2,
         "requiredTech":"Tech_Currency",
         "requiredBuilding":"Building_Commercial_Hub_Unique",
@@ -1919,6 +1971,7 @@
 	{
 		"name": "Building_Bank",
 		"cost":280,
+		"hurryCostModifier":-33,
 		"gold":5, 
         "requiredBuilding":"Building_Market",
         "requiredTech":"Tech_Banking",
@@ -1933,6 +1986,7 @@
     {
 		"name": "Building_Stock_Exchange",
 		"cost":320,
+		"hurryCostModifier":-33,
 		"gold":4,
 		"requiredBuilding": "Building_Bank",
 		"requiredTech": "Tech_Economy",
@@ -1958,6 +2012,7 @@
     {
         "name": "Building_Theater_Square_Unique",
         "cost": 44,
+		"hurryCostModifier":-33,
         "maintenance": 1,
         "requiredTech": "Civic_Drama and poetry",
         "requiredResource":"Resource_district_limitation",
@@ -1973,6 +2028,7 @@
     {
         "name":"Building_Amphitheater",
         "cost":140,
+		"hurryCostModifier":-33,
         "culture":2,
         "requiredTech":"Civic_Drama and poetry",
         "requiredBuilding":"Building_Theater_Square_Unique",
@@ -1987,6 +2043,7 @@
     {
         "name": "Building_Art_Museum",
         "cost":280,
+		"hurryCostModifier":-33,
         "culture":4,
         "requiredBuilding":"Building_Amphitheater",
         "requiredTech":"Civic_Humanism",
@@ -2003,6 +2060,7 @@
     {
         "name": "Building_Archaeological_Museum",
         "cost":280,
+		"hurryCostModifier":-33,
         "requiredBuilding":"Building_Amphitheater",
         "requiredTech":"Civic_Humanism",
 //        "cannotBeBuiltWith":"Building_Art_Museum",
@@ -2018,6 +2076,7 @@
     {
         "name":"Building_Broadcast_Center",
         "cost":430,
+		"hurryCostModifier":-33,
         "culture":4,
         "requiredTech":"Tech_Radio",
         "requiredBuilding":"Building_Amphitheater",
@@ -2044,6 +2103,7 @@
     {
         "name": "Building_Entertainment_Complex_Unique",
         "cost": 44,
+		"hurryCostModifier":-33,
         "maintenance": 1,
         "happiness":1,
         "requiredTech": "Civic_Games and entertainment",
@@ -2060,6 +2120,7 @@
     {//竞技场
         "name":"Building_Arena",
         "cost":140,
+		"hurryCostModifier":-33,
         "maintenance": 1,
         "culture":1,
         "happiness":2,
@@ -2074,6 +2135,7 @@
     {//动物园
         "name": "Building_Zoo",
         "cost":350,
+		"hurryCostModifier":-33,
         "maintenance": 2,
         "happiness":3,
         "requiredBuilding":"Building_Arena",
@@ -2088,6 +2150,7 @@
     {
         "name":"Building_Stadium",
         "cost":470,
+		"hurryCostModifier":-33,
         "happiness":2,
         "requiredTech":"Civic_Professional sports",
         "requiredBuilding":"Building_Zoo",
@@ -2112,6 +2175,7 @@
     {
         "name": "Building_Aquatics_Complex_Unique",
         "cost": 44,
+		"hurryCostModifier":-33,
         "maintenance": 1,
         "happiness":1,
         "requiredTech": "Civic_Natural history",
@@ -2129,6 +2193,7 @@
     {
         "name":"Building_Ferris_Wheel",
         "cost": 280,
+		"hurryCostModifier":-33,
         "maintenance": 1,
         "culture":3,
         "happiness":4,
@@ -2143,6 +2208,7 @@
     {
         "name": "Building_Aquarium",
         "cost":350,
+		"hurryCostModifier":-33,
         "maintenance": 2,
         "happiness":2,
         "requiredBuilding":"Building_Ferris_Wheel",
@@ -2157,6 +2223,7 @@
     {
         "name":"Building_Water_Sports_Center",
         "cost":470,
+		"hurryCostModifier":-33,
         "happiness":2,
         "requiredTech":"Civic_Professional sports",
         "requiredBuilding":"Building_Aquarium",
@@ -2181,6 +2248,7 @@
     {//工业区地标
 		"name": "Building_Industrial_Zone_Unique",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Apprentices",
 		"specialistSlots": {"Specialist_Engineer": 1},
@@ -2198,6 +2266,7 @@
         "replaces":"Building_Industrial_Zone_Unique",
         "uniqueTo":"Nation_Gaul",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Alchemy",
         "requiredResource":"Resource_district_limitation",
@@ -2216,6 +2285,7 @@
         "replaces":"Building_Industrial_Zone_Unique",
         "uniqueTo":"Nation_Germany",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Apprentices",
         "requiredResource":"Resource_district_limitation",
@@ -2233,6 +2303,7 @@
     {
         "name":"Building_Workshop",
         "cost":185,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "production":4,
         "requiredTech":"Tech_Apprentices",
@@ -2248,6 +2319,7 @@
 	{
 		"name": "Building_Factory",
 		"cost":320,
+		"hurryCostModifier":-33,
 		"maintenance": 2,
 		"production":4,
 		"requiredBuilding": "Building_Workshop",
@@ -2263,6 +2335,7 @@
     {
 		"name": "Building_Powered_Factory",
 		"cost":1,
+		"hurryCostModifier":-33,
 		"production":4,
 		"requiredBuilding": "Building_Factory",
 		"requiredTech": "Tech_Industrialization",
@@ -2273,6 +2346,7 @@
     {
 		"name": "Building_Coal_Power_Plant",
 		"cost":290,
+		"hurryCostModifier":-33,
 		"maintenance": 3,
 		"production":5,
 		"requiredBuilding": "Building_Factory",
@@ -2335,6 +2409,7 @@
     {
 		"name": "Building_Oil_Power_Plant",
 		"cost":360,
+		"hurryCostModifier":-33,
 		"maintenance": 3,
 		"production":5,
         "science":2,
@@ -2398,6 +2473,7 @@
     {
 		"name": "Building_Nuclear_Power_Plant",
 		"cost":470,
+		"hurryCostModifier":-33,
 		"maintenance": 3,
 		"production":5,
         "science":4,
@@ -2430,6 +2506,7 @@
     {
 		"name": "Building_Military_Encampment_Unique",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Copper casting",
         "requiredResource":"Resource_district_limitation",
@@ -2445,6 +2522,7 @@
     {//兵营
         "name":"Building_Barracks",
         "cost":80,
+		"hurryCostModifier":-33,
         "production":1,
         "maintenance":1,
         "requiredTech":"Tech_Copper casting",
@@ -2466,6 +2544,7 @@
     {//马厩
         "name":"Building_Stable",
         "cost":110,
+		"hurryCostModifier":-33,
         "production":1,
         "maintenance":1,
         "requiredTech":"Tech_Horseback riding",
@@ -2487,6 +2566,7 @@
 	{
 		"name": "Building_Armory",
 		"cost":185,
+		"hurryCostModifier":-33,
 		"maintenance": 2,
 		"production":3,
 		"requiredBuilding": "Building_Military_Encampment_Unique",
@@ -2504,6 +2584,7 @@
 	{
 		"name": "Building_Military_Academy",
 		"cost":320,
+		"hurryCostModifier":-33,
 		"maintenance": 3,
 		"production":4,
 		"requiredBuilding": "Building_Armory",
@@ -2551,6 +2632,7 @@
     {
 		"name": "Building_Port_Unique",
 		"cost": 44,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Astronomical navigation",
         "requiredResource":"Resource_district_limitation",
@@ -2568,6 +2650,7 @@
     {
         "name":"Building_Lighthouse",
         "cost":110,
+		"hurryCostModifier":-33,
         "maintenance":1,
         "requiredTech":"Tech_Astronomical navigation",
         "requiredBuilding":"Building_Port_Unique",
@@ -2587,6 +2670,7 @@
 	{
 		"name": "Building_Shipyard",
 		"cost":280,
+		"hurryCostModifier":-33,
 		"maintenance": 2,
 		"requiredBuilding": "Building_Lighthouse",
 		"requiredTech": "Tech_Mass production",
@@ -2605,6 +2689,7 @@
 	{
 		"name": "Building_Dock",
 		"cost":430,
+		"hurryCostModifier":-33,
 		"maintenance": 3,
 		"requiredBuilding": "Building_Shipyard",
 		"requiredTech": "Tech_Electricity",
@@ -2652,6 +2737,7 @@
     {
 		"name": "Building_Spaceport_Unique",
 		"cost": 1800,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Rocket research",
 		"uniques": [
@@ -2667,6 +2753,7 @@
     {//水渠地标
 		"name": "Building_Raceline_Unique",
 		"cost": 36,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Project",
 		"uniques": ["Cost increases by [8] per owned city",
@@ -2682,6 +2769,7 @@
         "replaces":"Building_Raceline_Unique",
         "uniqueTo":"Nation_Rome",
 		"cost": 18,
+		"hurryCostModifier":-33,
 		"maintenance": 1,
         "happiness":1,
 		"requiredTech": "Tech_Project",
@@ -2700,6 +2788,7 @@
 		"name": "Building_Manhattan_Project",
         "isNationalWonder":true,
 		"cost": 1000,
+		"hurryCostModifier":-33,
         "requiredTech":"Tech_Nuclear fission",
 		"uniques": ["Enables nuclear weapon",
         "Triggers a global alert upon completion",
@@ -2710,6 +2799,7 @@
 		"name": "Building_Ivy_League_Project",
         "isNationalWonder":true,
 		"cost": 1000,
+		"hurryCostModifier":-33,
         "requiredTech":"Tech_Nuclear Fusion",
 		"uniques": ["Enables nuclear weapon",
         "Triggers a global alert upon completion",
@@ -2729,6 +2819,7 @@
     {
 		"name": "Building_Domination_Victory",
 		"cost": 300,
+		"hurryCostModifier":-33,
 		"uniques": ["Triggers a global alert upon build start",
         "Consumes [14] [Resource_Diplomatic favor]",
         "Cannot be purchased",
