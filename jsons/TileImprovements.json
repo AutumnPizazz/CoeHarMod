@@ -150,14 +150,14 @@
 		"production":-10,
 		"gold":-10,
 		"culture":-10,
-		"science":3,
+		"science":4,
 		"faith":-10,
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Class_Government_Plaza]",
 			"[-1 Science] for each adjacent [Classification_District]",
-			"[+1 Science] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+//			"[+1 Science] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
 			"[+2 Science] for each adjacent [Distinct_The_Great_Library]",
 			"Can only be built on [Landform_Hill] tiles",
 			"Removes removable features when built",
@@ -167,11 +167,11 @@
 		],
 		"civilopediaText":[
 			{
-				"text":"+1 Science for each adjacent Mine",
+				"text":"Provide additional scientific research bonus for adjacent mines as technology grows",
 				"link":"Improvement/Improvement_Mine"
 			},
 			{
-				"text":"+1 Food for each adjacent Farm",
+				"text":"+1 Gold for each adjacent Farm",
 				"link":"Improvement/Improvement_Farm"
 			}
 		]
@@ -493,7 +493,8 @@
 		"[+1 Production] <after discovering [Tech_Smart materials]>",
 		"Does not need removal of [Landform_Forest]",
 		"Does not need removal of [Landform_Rainforest]",
-		"[+1 Science] for each adjacent [Distict_Academy_of_Classical_Learning]",
+		"[+1 Science] for each adjacent [Distict_Academy_of_Classical_Learning] <after discovering [Tech_Civilian education]>",
+		"[+1 Science] for each adjacent [Distict_Academy_of_Classical_Learning] <after discovering [Tech_Scientific theory]>",
 		"Pillaging this improvement yields approximately [+25 Gold]",
 		"Cannot be built on [Resource_EarthVeins] tiles",
 		"Class_Industrials",
@@ -1713,7 +1714,8 @@
 		"food":1,
 		"techRequired": "Tech_Bricklaying",
 		"uniques": ["[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
-		"[+1 Culture, +1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
+		"[+1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
+		"[+1 Culture, +1 Gold] <after discovering [Tech_Castle]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
 		"Cannot be built on [Resource_EarthVeins] tiles",
 		"Class_Usual_Improvement"]

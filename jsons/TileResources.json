@@ -255,13 +255,13 @@
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
 	},
-	{
+	{//地脉
 		"name": "Resource_EarthVeins",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_UniqueToGoldenDawn",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill"],
 		"improvedBy":["Improvement_EarthVeinsExploiter"],
-		"uniques": ["Generated on every [40] tiles",
+		"uniques": ["Generated on every [50] tiles",
 					"Guaranteed with Strategic Balance resource option",
 //					"Minor deposits generated with weight [90] <in [Featureless] [Grassland] tiles>",
 //					"Minor deposits generated with weight [90] <in [Featureless] [Plains] tiles>",

@@ -240,9 +240,10 @@
 
 		"uniqueName": "Mayab",
 //		"uniqueText":"",
-		"uniques": ["[-2 Happiness] [in all cities] <after [20] turns>",
-		"[+1 Happiness] from every [Improvement_Farm] <after [20] turns>",
-		"[+2 Happiness] from every [Improvement_Plantation] <after [20] turns>"],
+		"uniques": ["[-2 Happiness] [in all cities]",
+		"[+1 Happiness] from every [Improvement_Farm]",
+		"[+2 Happiness] from every [Improvement_Plantation]",
+		"Free [Unit_Farmer] appears <upon founding a city>"],
 		
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
 		
