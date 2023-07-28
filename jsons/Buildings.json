@@ -1085,7 +1085,14 @@
         "uniques":["Unsellable",
         "Only available <in cities with at least [1] [Population]>",
         "Automatically built in all cities where it is buildable",
-        "[-100]% growth [in this city] <in cities with at least [1] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
+        "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
+        "Provides [-2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
+        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles>",//淡水住房修正
+        "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
+        "Provides [+2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
+        "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
+]
     },
     {
         "name":"Building_House2",
@@ -1409,12 +1416,6 @@
         "Gain a free [Building_district_limitation8] [in all cities] <in cities with at least [22] [Population]>",
         "Gain a free [Building_district_limitation9] [in all cities] <in cities with at least [25] [Population]>",
         "Gain a free [Building_district_limitation10] [in all cities] <in cities with at least [28] [Population]>",//区域位建筑
-        "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
-        "Provides [-2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
-        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles>",//淡水住房修正
-        "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
-        "Provides [+2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
-        "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
