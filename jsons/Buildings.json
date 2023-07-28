@@ -1093,9 +1093,8 @@
         "uniques":["Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House1]>",
-        "[-50]% growth [in this city] <in cities with at least [1] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [2] [Population]>",
-        "[+100]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [1] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [2] [Population]>"]
     },
     {
         "name":"Building_House3",
@@ -1103,9 +1102,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House2]>",
-        "[-50]% growth [in this city] <in cities with at least [2] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [3] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [2] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [3] [Population]>"]
     },
     {
         "name":"Building_House4",
@@ -1113,9 +1111,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House3]>",
-        "[-50]% growth [in this city] <in cities with at least [3] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [4] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [3] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [4] [Population]>"]
     },
     {
         "name":"Building_House5",
@@ -1123,9 +1120,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House4]>",
-        "[-50]% growth [in this city] <in cities with at least [4] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [5] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [4] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [5] [Population]>"]
     },
     {
         "name":"Building_House6",
@@ -1133,9 +1129,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House5]>",
-        "[-50]% growth [in this city] <in cities with at least [5] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [6] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [5] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [6] [Population]>"]
     },
     {
         "name":"Building_House7",
@@ -1143,9 +1138,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House6]>",
-        "[-50]% growth [in this city] <in cities with at least [6] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [7] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [6] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [7] [Population]>"]
     },
     {
         "name":"Building_House8",
@@ -1153,9 +1147,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House7]>",
-        "[-50]% growth [in this city] <in cities with at least [7] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [8] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [7] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [8] [Population]>"]
     },
     {
         "name":"Building_House9",
@@ -1163,9 +1156,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House8]>",
-        "[-50]% growth [in this city] <in cities with at least [8] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [9] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [8] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [9] [Population]>"]
     },
     {
         "name":"Building_House10",
@@ -1173,9 +1165,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House9]>",
-        "[-50]% growth [in this city] <in cities with at least [9] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [10] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [9] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [10] [Population]>"]
     },
     {
         "name":"Building_House11",
@@ -1183,9 +1174,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House10]>",
-        "[-50]% growth [in this city] <in cities with at least [10] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [11] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [10] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [11] [Population]>"]
     },
     {
         "name":"Building_House12",
@@ -1193,9 +1183,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House11]>",
-        "[-50]% growth [in this city] <in cities with at least [11] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [12] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [11] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [12] [Population]>"]
     },
     {
         "name":"Building_House13",
@@ -1203,9 +1192,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House12]>",
-        "[-50]% growth [in this city] <in cities with at least [12] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [13] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [12] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [13] [Population]>"]
     },
     {
         "name":"Building_House14",
@@ -1213,9 +1201,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House13]>",
-        "[-50]% growth [in this city] <in cities with at least [13] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [14] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [13] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [14] [Population]>"]
     },
     {
         "name":"Building_House15",
@@ -1223,9 +1210,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House14]>",
-        "[-50]% growth [in this city] <in cities with at least [14] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [15] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [14] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [15] [Population]>"]
     },
     {
         "name":"Building_House16",
@@ -1233,9 +1219,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House15]>",
-        "[-50]% growth [in this city] <in cities with at least [15] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [16] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [15] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [16] [Population]>"]
     },
     {
         "name":"Building_House17",
@@ -1243,9 +1228,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House16]>",
-        "[-50]% growth [in this city] <in cities with at least [16] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [17] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [16] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [17] [Population]>"]
     },
     {
         "name":"Building_House18",
@@ -1253,9 +1237,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House17]>",
-        "[-50]% growth [in this city] <in cities with at least [17] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [18] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [17] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [18] [Population]>"]
     },
     {
         "name":"Building_House19",
@@ -1263,9 +1246,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House18]>",
-        "[-50]% growth [in this city] <in cities with at least [18] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [19] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [18] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [19] [Population]>"]
     },
     {
         "name":"Building_House20",
@@ -1273,9 +1255,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House19]>",
-        "[-50]% growth [in this city] <in cities with at least [19] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [20] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [19] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [20] [Population]>"]
     },
     {
         "name":"Building_House21",
@@ -1283,9 +1264,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House20]>",
-        "[-50]% growth [in this city] <in cities with at least [20] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [21] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [20] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [21] [Population]>"]
     },
     {
         "name":"Building_House22",
@@ -1293,9 +1273,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House21]>",
-        "[-50]% growth [in this city] <in cities with at least [21] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [22] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [21] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [22] [Population]>"]
     },
     {
         "name":"Building_House23",
@@ -1303,9 +1282,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House22]>",
-        "[-50]% growth [in this city] <in cities with at least [22] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [23] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [22] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [23] [Population]>"]
     },
     {
         "name":"Building_House24",
@@ -1313,9 +1291,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House23]>",
-        "[-50]% growth [in this city] <in cities with at least [23] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [24] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [23] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [24] [Population]>"]
     },
     {
         "name":"Building_House25",
@@ -1323,9 +1300,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House24]>",
-        "[-50]% growth [in this city] <in cities with at least [24] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [25] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [24] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [25] [Population]>"]
     },
     {
         "name":"Building_House26",
@@ -1333,9 +1309,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House25]>",
-        "[-50]% growth [in this city] <in cities with at least [25] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [26] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [25] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [26] [Population]>"]
     },
     {
         "name":"Building_House27",
@@ -1343,9 +1318,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House26]>",
-        "[-50]% growth [in this city] <in cities with at least [26] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [27] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [26] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [27] [Population]>"]
     },
     {
         "name":"Building_House28",
@@ -1353,9 +1327,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House27]>",
-        "[-50]% growth [in this city] <in cities with at least [27] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [28] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [27] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [28] [Population]>"]
     },
     {
         "name":"Building_House29",
@@ -1363,9 +1336,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House28]>",
-        "[-50]% growth [in this city] <in cities with at least [28] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [29] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [28] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [29] [Population]>"]
     },
     {
         "name":"Building_House30",
@@ -1373,9 +1345,8 @@
         "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House29]>",
-        "[-50]% growth [in this city] <in cities with at least [29] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [30] [Population]>",
-        "[+150]% growth [in this city]"]
+        "[+100]% growth [in this city] <in cities with at least [29] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [30] [Population]>"]
     }
     
 
