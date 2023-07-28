@@ -2443,6 +2443,25 @@
         "Destroyed when the city is captured",
         "Unsellable"]
     },
+    {//阿兹特克-蹴球场
+        "name":"Building_BowlingAlley",
+        "replaces":"Building_Arena",
+        "uniqueTo":"Nation_Aztec",
+        "cost":140,
+		"hurryCostModifier":-33,
+        "maintenance": 1,
+        "culture":3,
+        "happiness":3,
+        "faith":2,
+        "greatPersonPoints":{"GreatPerson_Class_General":2},
+        "requiredTech":"Civic_Games and entertainment",
+        "requiredBuilding":"Building_Entertainment_Complex_Unique",
+        "uniques": [
+        "Cost increases by [8] per owned city",
+        "Building_Classification_Entertainment_Complex_District",
+        "Destroyed when the city is captured",
+        "Unsellable"]
+    },
     {//动物园
         "name": "Building_Zoo",
         "cost":350,
@@ -4432,11 +4451,25 @@
         "requiredTech":"Civic_Globalization"
     },
     //经济政策卡
-    {
+    {//经济-服役
         "name":"E_fuyi",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
         "uniques":["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Feudalism]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Skill"
+    },
+    {//阿兹特克-经济-祭祀
+        "name":"E_Aztec_xianji",
+        "replaces":"E_fuyi",
+        "uniqueTo":"Nation_Aztec",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+50]% Production when constructing [Unit_Class_Builder] units [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic_Feudalism]>",

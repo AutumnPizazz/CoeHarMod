@@ -550,6 +550,20 @@
 		"Era_Ancient"],
 		"replacementTextForUniques":"+51% combat power against more advanced era units"
 	},
+	{//阿兹特克-雄鹰战士
+		"name":"Unit_EagleWarrior",
+		"replaces":"Unit_Warrior",
+		"uniqueTo":"Nation_Aztec",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":139,
+		"movement":2,
+		"cost":45,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Swordsman",
+		"obsoleteTech": "Tech_Alchemy",
+		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
+		"Era_Ancient"]
+	},
 	{//巴比伦-主力军团
 		"name":"Unit_Main_Corps",
 		"uniqueTo":"Nation_Babylon",

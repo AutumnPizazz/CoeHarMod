@@ -290,6 +290,46 @@
 		"hateHello": "",
 		"tradeRequest": ""
 	},
+	{//阿兹特克
+		"name": "Nation_Aztec",
+		"leaderName": "Montezuma",
+		"adjective": ["Aztec"],
+		"outerColor": [220, 20, 60], // 红色
+		"innerColor": [255, 215, 0], // 黄色
+
+		"startBias": ["Landform_Rainforest","Landform_Forest"],
+		"preferredVictoryType": "Victory type_Conquest",
+
+		"uniqueName": "The Legend of the Five Suns",
+		"uniqueText":"Each Happiness gives military units a 1% combat bonus, up to 28%, which is paired upward",
+		"uniques": ["[+2]% Strength <for [Military] units> <when between [1] and [2] Happiness>",
+		"[+4]% Strength <for [Military] units> <when between [3] and [4] Happiness>",
+		"[+6]% Strength <for [Military] units> <when between [5] and [6] Happiness>",
+		"[+8]% Strength <for [Military] units> <when between [7] and [8] Happiness>",
+		"[+10]% Strength <for [Military] units> <when between [9] and [10] Happiness>",
+		"[+12]% Strength <for [Military] units> <when between [11] and [12] Happiness>",
+		"[+14]% Strength <for [Military] units> <when between [13] and [14] Happiness>",
+		"[+16]% Strength <for [Military] units> <when between [15] and [16] Happiness>",
+		"[+18]% Strength <for [Military] units> <when between [17] and [18] Happiness>",
+		"[+20]% Strength <for [Military] units> <when between [19] and [20] Happiness>",
+		"[+22]% Strength <for [Military] units> <when between [21] and [23] Happiness>",
+		"[+24]% Strength <for [Military] units> <when between [23] and [24] Happiness>",
+		"[+26]% Strength <for [Military] units> <when between [25] and [6] Happiness>",
+		"[+28]% Strength <for [Military] units> <when between [27] and [10000] Happiness>",
+	],
+		
+		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan","Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco","Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac","Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec","Itzapalapa","Ayotzinco","Iztapam"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},
 
 	{
 		"name": "a白板1号",
