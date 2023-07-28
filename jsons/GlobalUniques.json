@@ -20,6 +20,6 @@
         "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
         "[+1 Happiness] in cities on [Fresh Water] tiles",
-        "[-1 Happiness] [in all cities] <in cities without a [Class_Raceline]>",//每个非淡水且未修建水渠的城市-1脸-1粮
+//"[-1 Happiness] [in all cities] <in cities without a [Class_Raceline]>",//每个非淡水且未修建水渠的城市-1脸-1粮
     ]
 }

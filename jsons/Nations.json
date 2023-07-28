@@ -240,10 +240,10 @@
 
 		"uniqueName": "Mayab",
 //		"uniqueText":"",
-		"uniques": ["[-2 Happiness] [in all cities]",
-		"[+1 Happiness] from every [Improvement_Farm]",
-		"[+2 Happiness] from every [Improvement_Plantation]",
-		"Free [Unit_Farmer] appears <upon founding a city>"],
+		"uniques": ["Fresh and salt water do not provide additional housing",
+		"Get 1 extra Resource_house_limitation from Improvement_Farm and Improvement_Plantation",
+		"Free [Unit_Farmer] appears <upon founding a city>"
+	],
 		
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
 		

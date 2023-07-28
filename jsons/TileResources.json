@@ -349,6 +349,12 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
+	{
+		"name": "Resource_house_limitation",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
+	},
 	
 	//奢侈品资源
 	{
