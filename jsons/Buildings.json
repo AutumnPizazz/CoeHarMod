@@ -1092,7 +1092,8 @@
         "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
         "Provides [+2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
         "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
-]
+],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House2",
@@ -1101,7 +1102,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House1]>",
         "[+100]% growth [in this city] <in cities with at least [1] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [2] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [2] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House3",
@@ -1110,7 +1112,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House2]>",
         "[+100]% growth [in this city] <in cities with at least [2] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [3] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [3] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House4",
@@ -1119,7 +1122,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House3]>",
         "[+100]% growth [in this city] <in cities with at least [3] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [4] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [4] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House5",
@@ -1128,7 +1132,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House4]>",
         "[+100]% growth [in this city] <in cities with at least [4] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [5] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [5] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House6",
@@ -1137,7 +1142,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House5]>",
         "[+100]% growth [in this city] <in cities with at least [5] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [6] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [6] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House7",
@@ -1146,7 +1152,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House6]>",
         "[+100]% growth [in this city] <in cities with at least [6] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [7] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [7] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House8",
@@ -1155,7 +1162,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House7]>",
         "[+100]% growth [in this city] <in cities with at least [7] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [8] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [8] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House9",
@@ -1164,7 +1172,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House8]>",
         "[+100]% growth [in this city] <in cities with at least [8] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [9] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [9] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House10",
@@ -1173,7 +1182,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House9]>",
         "[+100]% growth [in this city] <in cities with at least [9] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [10] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [10] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House11",
@@ -1182,7 +1192,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House10]>",
         "[+100]% growth [in this city] <in cities with at least [10] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [11] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [11] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House12",
@@ -1191,7 +1202,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House11]>",
         "[+100]% growth [in this city] <in cities with at least [11] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [12] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [12] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House13",
@@ -1200,7 +1212,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House12]>",
         "[+100]% growth [in this city] <in cities with at least [12] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [13] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [13] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House14",
@@ -1209,7 +1222,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House13]>",
         "[+100]% growth [in this city] <in cities with at least [13] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [14] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [14] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House15",
@@ -1218,7 +1232,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House14]>",
         "[+100]% growth [in this city] <in cities with at least [14] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [15] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [15] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House16",
@@ -1227,7 +1242,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House15]>",
         "[+100]% growth [in this city] <in cities with at least [15] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [16] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [16] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House17",
@@ -1236,7 +1252,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House16]>",
         "[+100]% growth [in this city] <in cities with at least [16] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [17] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [17] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House18",
@@ -1245,7 +1262,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House17]>",
         "[+100]% growth [in this city] <in cities with at least [17] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [18] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [18] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House19",
@@ -1254,7 +1272,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House18]>",
         "[+100]% growth [in this city] <in cities with at least [18] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [19] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [19] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House20",
@@ -1263,7 +1282,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House19]>",
         "[+100]% growth [in this city] <in cities with at least [19] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [20] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [20] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House21",
@@ -1272,7 +1292,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House20]>",
         "[+100]% growth [in this city] <in cities with at least [20] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [21] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [21] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House22",
@@ -1281,7 +1302,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House21]>",
         "[+100]% growth [in this city] <in cities with at least [21] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [22] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [22] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House23",
@@ -1290,7 +1312,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House22]>",
         "[+100]% growth [in this city] <in cities with at least [22] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [23] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [23] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House24",
@@ -1299,7 +1322,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House23]>",
         "[+100]% growth [in this city] <in cities with at least [23] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [24] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [24] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House25",
@@ -1308,7 +1332,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House24]>",
         "[+100]% growth [in this city] <in cities with at least [24] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [25] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [25] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House26",
@@ -1317,7 +1342,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House25]>",
         "[+100]% growth [in this city] <in cities with at least [25] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [26] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [26] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House27",
@@ -1326,7 +1352,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House26]>",
         "[+100]% growth [in this city] <in cities with at least [26] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [27] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [27] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House28",
@@ -1335,7 +1362,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House27]>",
         "[+100]% growth [in this city] <in cities with at least [27] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [28] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [28] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House29",
@@ -1344,7 +1372,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House28]>",
         "[+100]% growth [in this city] <in cities with at least [28] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [29] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [29] [Population]>"],
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House30",
@@ -1353,7 +1382,8 @@
         "Automatically built in all cities where it is buildable",
         "Only available <in cities with a [Building_House29]>",
         "[+100]% growth [in this city] <in cities with at least [29] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [30] [Population]>"]
+        "[-100]% growth [in this city] <in cities with at least [30] [Population]>"],
+        "replacementTextForUniques":" "
     }
     
 

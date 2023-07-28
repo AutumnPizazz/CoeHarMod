@@ -13,8 +13,8 @@
         "cityStateTributeScalingInterval": 3.3,
         "goldenAgeLengthModifier": 0.5,
         "religiousPressureAdjacentCity": 12,
-        "peaceDealDuration": 15,
-        "dealDuration": 15,
+        "peaceDealDuration": 5,
+        "dealDuration": 5,
         "startYear": -4000,
         "turns": [
             {"yearsPerTurn":  80, "untilTurn": 37},
@@ -41,7 +41,7 @@
         "goldenAgeLengthModifier": 0.80,
         "religiousPressureAdjacentCity": 9,
         "peaceDealDuration": 10,
-        "dealDuration": 25,
+        "dealDuration": 20,
         "startYear": -4000,
         "turns": [
             {"yearsPerTurn": 60, "untilTurn":  50},
