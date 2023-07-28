@@ -269,7 +269,7 @@
 
 		"uniqueName": "The Fall of Babylon",
 //		"uniqueText":"",
-		"uniques": ["Empire enters a [5]-turn Golden Age <upon declaring war with a major Civilization>",
+		"uniques": ["Empire enters a [10]-turn Golden Age <upon declaring war with a major Civilization>",
 		"[+1] Movement <for [All] units> <during a Golden Age>",
 		"[+2] Movement <for [Unit_Settler] units> <after discovering [Civic_History]>",
 		"Provides [1] [Resource_Trade route capacity] <after discovering [Civic_Political philosophy]>",
