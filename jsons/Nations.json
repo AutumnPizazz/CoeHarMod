@@ -329,7 +329,7 @@
 		"[+25]% Strength <for [Military] units> <when between [25] and [26] Happiness>",
 		"[+26]% Strength <for [Military] units> <when between [26] and [27] Happiness>",
 		"[+27]% Strength <for [Military] units> <when between [27] and [28] Happiness>",
-		"[+28]% Strength <for [Military] units> <when between [28] and [29] Happiness>"
+		"[+28]% Strength <for [Military] units> <when between [28] and [65535] Happiness>"
 	],
 		
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan","Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco","Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac","Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec","Itzapalapa","Ayotzinco","Iztapam"],
