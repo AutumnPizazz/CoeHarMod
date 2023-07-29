@@ -223,10 +223,7 @@
     },
 	{
 		"name": "Promotion_Tortoise_Formation",
-		"uniques": ["[+51]% Strength <vs [Unit_Type_Ranged_Infantry] units> <when defending>",
-		"[+51]% Strength <vs [Unit_Type_Siege] units> <when defending>",
-		"[+51]% Strength <vs [Unit_Type_Long_Ranged_Naval] units> <when defending>",
-		"[+51]% Strength <vs [Unit_Type_Naval_Attacker] units> <when defending>"],
+		"uniques": ["[+51]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Unit_Type_Melee_Infantry"],
         "column": 6,
         "row": 1
