@@ -296,6 +296,7 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":4,
 		"uniques":["Unbuildable",
+		"Gain [-175] [Gold] <upon being defeated>",
 		"Instantly consumes [40] [Resource_Influence]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
@@ -305,6 +306,7 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":4,
 		"uniques":["Unbuildable",
+		"Gain [-175] [Gold] <upon being defeated>",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},

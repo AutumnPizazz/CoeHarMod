@@ -1,0 +1,110 @@
+[
+    {
+        "name":"01 Summary Introduction - the Coexistence in harmony",
+        "civilopediaText":[
+            { 
+                "text": "教程部分修订日期:2023年7月28日,版本号4.7.10",
+                "size":14
+            },
+            { 
+                "text": "和合共生(the-Coexistence-in-harmony)是中国人AutumnPizazz撰写的旨在在Unciv环境中还原文明六元素和添加中华元素的大型重制规则集模组",
+                "size":20
+            },
+            {
+                "text": "点击我进入和合共生的github网址,如果你喜欢不要忘记点个星星哦~",
+                "link":"https://github.com/AutumnPizazz/the-Coexistence-in-harmony",
+                "size":20,
+                "starred":true,
+                "color":"#FFFF00"
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            {
+                "text": "和合共生重构了文明5的框架,包括但不限于科技树,基础建筑,兵种,奇观乃至部分地形",
+                "size":20
+            },
+            {
+                "text": "其中颇具特色的包括区域系统(包括奇观占地系统),总督系统(包括秘密结社系统),间谍系统,政策切卡系统等",
+                "size":20
+            }
+        ]
+    },
+    {
+        "name":"02 Victory Types - the Coexistence in harmony",
+        "civilopediaText":[
+            {
+                "text":"和合共生的胜利方式包括科技胜利/文化胜利/征服胜利/外交胜利/宗教胜利/时间胜利",
+                "size":22
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            {
+                "text":"和众神与国王相似,科技胜利需要完成相应科技并训练对应单位(代表飞天项目)并在首都完成组装",
+                "size":20
+            },
+            {
+                "text":"这些单位包括:",
+                "size":18
+            },
+            {
+                "text":"发射地球卫星",
+                "link":"Unit/Project_Launch_Earth_Satellite",
+                "size":18
+            },
+            {
+                "text":"启动登月计划",
+                "link":"Unit/Project_Initiate_Moon_Landing",
+                "size":18
+            },
+            {
+                "text":"启动火星殖民",
+                "link":"Unit/Project_Initiate_Mars_Colonization",
+                "size":18
+            },
+            {
+                "text":"3个 启动系外星系探索",
+                "link":"Unit/Project_Initiate_Interstellar_Exploration",
+                "size":18
+            },
+            {
+                "text":"3个 启动拉格朗日激光站",
+                "link":"Unit/Project_Initiate_Lagrange_Laser_Station",
+                "size":18
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            {
+                "text":"和众神与国王相同,文化胜利依旧是完成所有文化分支节点并建造乌托邦计划建筑",
+                "size":20
+            },
+            {
+                "text":"乌托邦计划",
+                "size":18,
+                "link":"Building/Building_Utopia_Project"
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            {
+                "text":"和众神与国王不同,征服胜利不是消灭所有其他文明,而是占领所有其他文明的原始首都(包括城邦,这一条可能会在后续版本后修改)",
+                "size":20
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ],
+    }
+]

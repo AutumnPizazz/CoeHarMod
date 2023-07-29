@@ -1658,13 +1658,12 @@
 	},
     {//法庭
 		"name": "Building_Court",
-		"cost":60,
-		"hurryCostModifier":-33,
+		"cost":0,
 		"uniques": ["Remove extra unhappiness from annexed cities",
         "Can only be built [in annexed cities]",
-        "Never destroyed when the city is captured",
-		"Unsellable"],
-		"requiredTech": "Tech_Writing"
+        "Automatically built in all cities where it is buildable",
+		"Unsellable","Will not be displayed in Civilopedia"],
+//		"requiredTech": "Tech_Writing"
 	},
     /*
     {//明朝-里甲制度

@@ -262,7 +262,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill"],
 		"improvedBy":["Improvement_EarthVeinsExploiter"],
 		"uniques": ["Generated on every [60] tiles",
-					"Guaranteed with Strategic Balance resource option",
+//					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [40] <in [Grassland] tiles>",
 					"Generated with weight [40] <in [Plains] tiles>",
 					"Generated with weight [100] <in [Tundra] tiles>",
