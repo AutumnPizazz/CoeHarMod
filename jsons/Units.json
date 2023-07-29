@@ -357,8 +357,8 @@
 	{//I级吸血鬼
 		"name":"Unit_VampireI",
 		"unitType":"Unit_Type_Vampire",
-		"strength":100,
-		"movement":2,
+		"strength":123,
+		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":["Free [Unit_VampireI] appears <upon being defeated>",
 		"Can transform to [Unit_VampireII] <after discovering [Tech_Alchemy]>",
@@ -368,8 +368,8 @@
 	{//II级吸血鬼
 		"name":"Unit_VampireII",
 		"unitType":"Unit_Type_Vampire",
-		"strength":186,
-		"movement":2,
+		"strength":229,
+		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
 		"Free [Unit_VampireII] appears <upon being defeated>",
@@ -380,8 +380,8 @@
 	{//III级吸血鬼
 		"name":"Unit_VampireIII",
 		"unitType":"Unit_Type_Vampire",
-		"strength":281,
-		"movement":2,
+		"strength":346,
+		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
 		"Free [Unit_VampireIII] appears <upon being defeated>",
@@ -392,8 +392,8 @@
 	{//IV级吸血鬼
 		"name":"Unit_VampireIV",
 		"unitType":"Unit_Type_Vampire",
-		"strength":425,
-		"movement":2,
+		"strength":523,
+		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
 		"Free [Unit_VampireIV] appears <upon being defeated>",
@@ -404,8 +404,8 @@
 	{//V级吸血鬼
 		"name":"Unit_VampireV",
 		"unitType":"Unit_Type_Vampire",
-		"strength":968,
-		"movement":2,
+		"strength":1191,
+		"movement":4,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
 		"Free [Unit_VampireV] appears <upon being defeated>",
@@ -416,8 +416,8 @@
 	{//VI级吸血鬼
 		"name":"Unit_VampireVI",
 		"unitType":"Unit_Type_Vampire",
-		"strength":1462,
-		"movement":3,
+		"strength":1798,
+		"movement":4,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
 		"Free [Unit_VampireVI] appears <upon being defeated>",

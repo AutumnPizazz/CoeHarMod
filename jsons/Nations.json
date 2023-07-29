@@ -20,15 +20,15 @@
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
 	
-		"startIntroPart1": "Welcome to the world of Civilization! As Rome, you begin your journey with a strong military and a rich cultural heritage. With the power of the Roman legions at your command, you can conquer your enemies and build a mighty empire that will stand the test of time.",
-		"startIntroPart2": "Rome is known for its magnificent architecture, engineering, and military prowess. With its impressive roads, aqueducts, and public buildings, Rome was the center of civilization for centuries. As a Roman leader, you must use your cunning and strategy to maintain your power and expand your influence throughout the world.",
-		"declaringWar": "We have no choice but to declare war on you, for the good of our people.",
-		"attacked": "How dare you attack us! We will not stand for this aggression.",
-		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
-		"introduction": "Greetings, fellow leaders. I am Julius Caesar, ruler of the mighty Roman Empire. Our civilization has a long and storied history, and we are proud to have contributed so much to the world. We are a people of strength, courage, and wisdom, and we are always ready to defend ourselves against those who would do us harm. But we are also a people of culture and refinement, and we value the arts and sciences as much as we do the art of war.",
-		"neutralHello": "Greetings. How can we assist you today?",
-		"hateHello": "What do you want? We have no time for your petty grievances.",
-		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
 	},
 	{//朝鲜
 		"name": "Nation_Korea",
@@ -45,17 +45,15 @@
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
-		"startIntroPart1": "Welcome to the world of Civilization! As Korea, you begin your journey with a strong navy and a rich cultural heritage. With the power of the Jeong at your command, you can defend your shores and expand your influence throughout the world.",
-		"startIntroPart2": "Korea is known for its advancements in science and technology, as well as its rich history and culture. With its impressive achievements in literature, philosophy and art, Korea has made significant contributions to the world. As Queen Seondeok, you must use your wisdom and innovation to maintain your power and influence.",
-		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
-		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
-		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
-		"introduction": "Greetings, fellow leaders. I am Queen Seondeok, ruler of the mighty Korean Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of innovation, wisdom and culture, and we value knowledge and education as much as we do our military strength.",
-	
-		"neutralHello": "Greetings. What can we do for you today?",
-		"hateHello": "What do you want? We have no time for your petty disputes.",
-	
-		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
 	},
 	{//明朝
 		"name": "Nation_Ming",
@@ -77,15 +75,15 @@
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	
-		"startIntroPart1": "Welcome to the world of Civilization! As the Emperor, you begin your journey with a powerful navy and a vast treasure fleet. With the power of the Lijia at your command, you can expand your trade routes and accumulate great wealth.",
-		"startIntroPart2": "The Ming Empire is known for its achievements in trade, exploration, and culture. With its impressive naval technology and vast treasure fleet, the Ming Empire has made significant contributions to the world. As Emperor Zhu Di, you must use your wealth and power to maintain your influence and defend your borders.",
-		"declaringWar": "We regret to inform you that we must declare war on you for the safety and protection of our people.",
-		"attacked": "How dare you attack our land! We will not tolerate this aggression.",
-		"defeated": "We have been defeated, but our spirit remains unbroken. We will rise again.",
-		"introduction": "Greetings, fellow leaders. I am Emperor Zhu Di, ruler of the mighty Ming Empire. Our civilization has a long and rich history, and we are proud to have contributed greatly to the world. We are a people of wealth, exploration, and culture, and we value trade and diplomacy as much as we do our military strength.",
-		"neutralHello": "Greetings. What can we do for you today?",
-		"hateHello": "What do you want? We have no time for your petty disputes.",
-		"tradeRequest": "We would like to propose a trade deal that could benefit us both."
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
 	},
 	{//高卢
 		"name": "Nation_Gaul",
@@ -109,15 +107,15 @@
 		
 		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
 		
-		"startIntroPart1": "Welcome to the world of Civilization! As the great Ambiorix, you must protect your people and their way of life from foreign invaders. With the power of the Druidic Circle at your command, you can harness the power of nature to defend your lands and spread your influence.",
-		"startIntroPart2": "The Gaul is known for its fierce warriors, rich culture, and deep connection to nature. As Vercingetorix, you must use your military might and the diplomatic skill to protect your people and expand your borders.",
-		"declaringWar": "We cannot stand idly by while you threaten our lands and our people. Prepare for war!",
-		"attacked": "You have made a grave mistake in attacking us. We will defend our lands and our people to the last man.",
-		"defeated": "Our people may have been defeated, but our spirit remains unbroken. We will rise again to defend our way of life.",
-		"introduction": "Greetings, fellow leaders. I am Vercingetorix, leader of the Gaulish people. We are a proud and resilient people, with a rich culture and a deep connection to the natural world. We value our independence and will defend our lands and our people from any threat.",
-		"neutralHello": "Greetings. What brings you to our lands?",
-		"hateHello": "We have no patience for your aggression. Leave our lands at once.",
-		"tradeRequest": "We would be willing to consider a trade deal that benefits both our peoples."
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
 	},
 	{//神圣罗马帝国
 		"name": "Nation_Germany",
@@ -133,15 +131,15 @@
 
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
 			
-		"startIntroPart1": "Willkommen in der Welt von Civilization! Als der großartige Barbarossa müssen Sie Ihre Nation führen und ihr zu Ruhm und Ehre verhelfen. Mit unserer einzigartigen Fähigkeit, die Produktivität der Industrie zu steigern, können wir eine mächtige Wirtschaft aufbauen und unsere Feinde besiegen.",
-		"startIntroPart2": "Deutschland ist bekannt für seine Stärke, seine Kultur und seine Technologie. Als Barbarossa müssen Sie Ihre militärische Macht nutzen, um Ihre Feinde zu besiegen, und Ihre diplomatischen Fähigkeiten einsetzen, um Ihre Verbündeten zu stärken.",
-		"declaringWar": "Ihr Angriff auf unser Land ist eine Schande und wird nicht toleriert. Wir werden uns verteidigen!",
-		"attacked": "Ihr Angriff war ein Fehler. Wir werden uns zur Wehr setzen und unser Land verteidigen!",
-		"defeated": "Wir haben eine Schlacht verloren, aber nicht den Krieg. Wir werden zurückkehren, um uns zu rächen und unsere Nation zu verteidigen.",
-		"introduction": "Guten Tag, meine Herren. Ich bin Kaiser Barbarossa, Führer des deutschen Volkes. Wir sind eine Nation von Stärke und Technologie, die für ihre wirtschaftliche Macht und militärische Stärke bekannt ist.",
-		"neutralHello": "Guten Tag. Was führt Sie in unser Land?",
-		"hateHello": "Wir haben keine Geduld für Ihre Aggression. Verlassen Sie unser Land sofort.",
-		"tradeRequest": "Wir sind bereit, einen Handelsvertrag abzuschließen, der beiden Nationen zugute kommt."
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
 	},
 	{//埃及
 		"name": "Nation_Egypt",
@@ -159,15 +157,15 @@
 	
 		"cities": ["Thebes", "Memphis", "Alexandria", "Heliopolis", "Abydos", "Abu Simbel", "Karnak", "Luxor", "Giza", "Dendera", "Amarna", "Mendes", "Bubastis", "Tanis", "Pi-Ramesses", "Edfu", "Esna", "Philae", "Elephantine", "Aswan"],
 			
-		"startIntroPart1": "Welcome to the world of Civilization! As the great Pharaoh Ramses II, you must lead your nation to glory and honor. With our unique ability to construct the Pyramids, we can build a powerful culture and faith-based society to dominate the world.",
-		"startIntroPart2": "Egypt is known for its cultural and architectural achievements, and as Pharaoh, you must use our military might to protect our nation and expand our influence on the world stage.",
-		"declaringWar": "Your aggression towards our peaceful nation will not be tolerated. We will defend ourselves and our people at all costs.",
-		"attacked": "Your attack on our nation was a mistake. We will fight back and defend our land with all our might!",
-		"defeated": "We may have lost this battle, but we have not lost the war. We will rise again and defend our great nation with honor and pride.",
-		"introduction": "Greetings, my fellow leaders. I am Pharaoh Ramses II, leader of the great Egyptian people. We are a nation known for our culture, architecture, and military might.",
-		"neutralHello": "Greetings. What brings you to our great land?",
-		"hateHello": "We have no tolerance for your aggression. Leave our land immediately.",
-		"tradeRequest": "We are willing to engage in trade that will benefit our two great nations."	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""	
 	},
 	{//俄罗斯
 		"name": "Nation_Russia",
@@ -185,15 +183,15 @@
 
 		"cities": ["Moscow", "St. Petersburg", "Volgograd", "Kaluga", "Kirov", "Saratov", "Kostroma", "Orenburg", "Krasnodar", "Voronezh", "Ufa", "Ulyanovsk", "Nizhny Novgorod", "Yekaterinburg", "Novosibirsk", "Kazan", "Rostov-on-Don", "Samara", "Chelyabinsk", "Perm"],
 
-		"startIntroPart1": "Welcome to the Russian Empire!",
-		"startIntroPart2": "Under my leadership, we will expand our territory and build a strong, prosperous nation.",
-		"declaringWar": "We cannot tolerate your aggression any longer. Prepare for war!",
-		"attacked": "We are under attack! Defend our homeland!",
-		"defeated": "We have been defeated. Our empire has fallen.",
-		"introduction": "I am Peter the Great, Empress of Russia. Our nation is rich in culture and history, and we will stop at nothing to defend our sovereignty.",
-		"neutralHello": "Greetings. What brings you to our empire today?",
-		"hateHello": "You are not welcome here. Leave our territory at once.",
-		"tradeRequest": "Let us engage in commerce for the benefit of our respective nations."
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
 	},
 	{//巴比伦
 		"name": "Nation_Babylon",
@@ -346,7 +344,7 @@
 	},
 
 	{
-		"name": "a白板1号",
+		"name": "白板1号",
 		"leaderName": "大佬",
 		"adjective": ["白板1号"],
 
@@ -370,7 +368,7 @@
 		"cities": ["NO.1 CITY OF FM_1","NO.2 CITY OF FM_1","NO.3 CITY OF FM_1","NO.4 CITY OF FM_1","NO.5 CITY OF FM_1","NO.6 CITY OF FM_1","NO.7 CITY OF FM_1","NO.8 CITY OF FM_1","NO.9 CITY OF FM_1","NO.10 CITY OF FM_1","NO.11 CITY OF FM_1","NO.12 CITY OF FM_1","NO.13 CITY OF FM_1","NO.14 CITY OF FM_1","NO.15 CITY OF FM_1","NO.16 CITY OF FM_1","NO.17 CITY OF FM_1","NO.18 CITY OF FM_1","NO.19 CITY OF FM_1","NO.20 CITY OF FM_1","NO.21 CITY OF FM_1","NO.22 CITY OF FM_1","NO.23 CITY OF FM_1","NO.24 CITY OF FM_1","NO.25 CITY OF FM_1","NO.26 CITY OF FM_1","NO.27 CITY OF FM_1","NO.28 CITY OF FM_1","NO.29 CITY OF FM_1","NO.30 CITY OF FM_1","NO.31 CITY OF FM_1","NO.32 CITY OF FM_1","NO.33 CITY OF FM_1","NO.34 CITY OF FM_1","NO.35 CITY OF FM_1"]
 	},
 	{
-		"name": "a白板2号",
+		"name": "白板2号",
 		"leaderName": "大佬",
 		"adjective": ["白板2号"],
 
@@ -394,7 +392,7 @@
 		"cities": ["NO.1 CITY OF FM_2","NO.2 CITY OF FM_2","NO.3 CITY OF FM_2","NO.4 CITY OF FM_2","NO.5 CITY OF FM_2","NO.6 CITY OF FM_2","NO.7 CITY OF FM_2","NO.8 CITY OF FM_2","NO.9 CITY OF FM_2","NO.10 CITY OF FM_2","NO.11 CITY OF FM_2","NO.12 CITY OF FM_2","NO.13 CITY OF FM_2","NO.14 CITY OF FM_2","NO.15 CITY OF FM_2","NO.16 CITY OF FM_2","NO.17 CITY OF FM_2","NO.18 CITY OF FM_2","NO.19 CITY OF FM_2","NO.20 CITY OF FM_2","NO.21 CITY OF FM_2","NO.22 CITY OF FM_2","NO.23 CITY OF FM_2","NO.24 CITY OF FM_2","NO.25 CITY OF FM_2","NO.26 CITY OF FM_2","NO.27 CITY OF FM_2","NO.28 CITY OF FM_2","NO.29 CITY OF FM_2","NO.30 CITY OF FM_2","NO.31 CITY OF FM_2","NO.32 CITY OF FM_2","NO.33 CITY OF FM_2","NO.34 CITY OF FM_2","NO.35 CITY OF FM_2"]
 	},
 	{
-		"name": "a白板3号",
+		"name": "白板3号",
 		"leaderName": "大佬",
 		"adjective": ["白板3号"],
 
@@ -418,7 +416,7 @@
 		"cities": ["NO.1 CITY OF FM_3","NO.2 CITY OF FM_3","NO.3 CITY OF FM_3","NO.4 CITY OF FM_3","NO.5 CITY OF FM_3","NO.6 CITY OF FM_3","NO.7 CITY OF FM_3","NO.8 CITY OF FM_3","NO.9 CITY OF FM_3","NO.10 CITY OF FM_3","NO.11 CITY OF FM_3","NO.12 CITY OF FM_3","NO.13 CITY OF FM_3","NO.14 CITY OF FM_3","NO.15 CITY OF FM_3","NO.16 CITY OF FM_3","NO.17 CITY OF FM_3","NO.18 CITY OF FM_3","NO.19 CITY OF FM_3","NO.20 CITY OF FM_3","NO.21 CITY OF FM_3","NO.22 CITY OF FM_3","NO.23 CITY OF FM_3","NO.24 CITY OF FM_3","NO.25 CITY OF FM_3","NO.26 CITY OF FM_3","NO.27 CITY OF FM_3","NO.28 CITY OF FM_3","NO.29 CITY OF FM_3","NO.30 CITY OF FM_3","NO.31 CITY OF FM_3","NO.32 CITY OF FM_3","NO.33 CITY OF FM_3","NO.34 CITY OF FM_3","NO.35 CITY OF FM_3"]
 	},
 	{
-		"name": "a白板4号",
+		"name": "白板4号",
 		"leaderName": "大佬",
 		"adjective": ["白板4号"],
 
