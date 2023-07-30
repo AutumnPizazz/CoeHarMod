@@ -5,17 +5,19 @@
             "name": "Pantheon_Moon goddess",
             "type": "Pantheon",
             "uniques": ["[+2 Gold] from every [Improvement_Fishing_Boat]",
+            "[+1 Gold] from every [Improvement_Fishery]",
             "[+1 Gold] from every [Improvement_Fishing_Boat] <after discovering [Tech_Crossail device]>"]
         },
         {//海洋之神
             "name": "Pantheon_Ocean god",
             "type": "Pantheon",
-            "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]"]
+            "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]",
+            "[+1 Production] from every [Improvement_Fishery]"]
         },
         {//潮汐女神
             "name": "Pantheon_Tidal goddess",
             "type": "Pantheon",
-            "uniques": ["[+1 Culture] from every [Improvement_Fishing_Boat]"]
+            "uniques": ["[+2 Culture] from every [Improvement_Fishing_Boat]"]
         },
         {//城市守护女神
             "name": "Pantheon_City guardian goddess",
@@ -31,7 +33,8 @@
         {//锻造之神
             "name": "Pantheon_God of the forge",
             "type": "Pantheon",
-            "uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities]"]
+            "uniques": ["[+25]% Production when constructing [{Era_Ancient} {Military} {Land}] units [in all cities]",
+            "[+25]% Production when constructing [{Era_Classical} {Military} {Land}] units [in all cities]"]
         },
         {//守护之神
             "name": "Pantheon_Guardian god",
@@ -54,7 +57,7 @@
         {//河神
             "name": "Pantheon_River god",
             "type": "Pantheon",
-            "uniques": ["[+1 Happiness, +2 Faith, +1 Production] in cities on [River] tiles"]
+            "uniques": ["[+1 Food, +1 Production] in cities on [River] tiles"]
         },
         {//雨神
             "name": "Pantheon_Rain god",
@@ -272,7 +275,7 @@
         {//信仰守护者
             "name": "Follower belief_Defender of faith",
             "type": "Follower",
-            "uniques": ["+20% Strength for Military units when fighting in Friendly Land tiles"]
+            "uniques": ["+18% Strength for Military units when fighting in Friendly Land tiles"]
         },
         {//圣遗物柜
             "name": "Follower belief_Reliquary",

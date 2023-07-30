@@ -931,7 +931,7 @@
 		"cost": 1,
         "cityStrength":30,
 		"requiredResource": "Resource_Governor title",
-		"uniques":["All newly-trained [Unit_Class_Builder] units [in this city] receive the [Promotion_Union_Leader] promotion",
+		"uniques":["All newly-trained [Unit_Type_Civilian] units [in this city] receive the [Promotion_Union_Leader] promotion",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
@@ -1404,16 +1404,15 @@
         "[-100]% [Food] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-70]% [Production] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
-        "May buy [Unit_Envoy] units for [0] [Gold] [in all cities]",//允许买使者
+        "May buy [Unit_Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource_Influence]>",//允许买使者
         "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
-        "[-30]% Culture cost of adopting new Policies",//文化修正
         "[+13]% Strength when stacked with [Unit_Missionary] <for [Military] units> <if [Artificialwonder_Maebad_Alkurnak] is constructed>",//米纳克希神庙修正
         "Free [Unit_Farmer] appears <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
         "Free [Unit_Settler] appears <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
-        "[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
+        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
         "[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]> <after adopting [Follower belief_Reliquary]>",
         "[+60 Faith] whenever a Great Person is expended <during the [Era_Classical]> <after adopting [Follower belief_Reliquary]>",
         "[+90 Faith] whenever a Great Person is expended <during the [Era_Medieval]> <after adopting [Follower belief_Reliquary]>",
@@ -2000,7 +1999,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["Provides [1] [Resource_Diplomatic favor]",
-        "Unbuildable",
+        "Only available <after adopting [Enhancer belief_Stupa]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2016,7 +2015,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
 		"greatPersonPoints":{"GreatPerson_Class_Prophet": 3},
 		"uniques": ["Provides [1] [Resource_Diplomatic favor]",
-        "Unbuildable",
+        "Only available <after adopting [Enhancer belief_Cathedral]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2032,7 +2031,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
-        "Unbuildable",
+        "Only available <after adopting [Enhancer belief_Buddhist temple]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2048,7 +2047,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
-        "Unbuildable",
+        "Only available <after adopting [Enhancer belief_Temple]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2063,7 +2062,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["[Unit_Missionary] units built [in this city] can [Spread Religion] [1] extra times",
-        "Unbuildable",
+        "Only available <after adopting [Enhancer belief_Mosque]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2079,7 +2078,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
-        "Unbuildable",
+            "Only available <after adopting [Enhancer belief_Sudowoodo]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2095,7 +2094,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
-        "Unbuildable",
+            "Only available <after adopting [Enhancer belief_Monastery]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2110,7 +2109,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
-        "Unbuildable",
+            "Only available <after adopting [Enhancer belief_Synagogue]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
         "Building_Classification_Religious_Building",
@@ -2126,7 +2125,7 @@
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
         "[+1 Faith] from [Landform_Geothermal fissure] tiles [in this city]",
-        "Unbuildable",
+        "Only available <after adopting [Enhancer belief_Fire temple]>",
         "Hidden when religion is disabled",
 		"Building_Classification_District_Unique",
         "Building_Classification_Religious_Building",
@@ -2617,7 +2616,7 @@
 		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Apprentices",
-        "requiredResource":"Resource_district_limitation",
+//        "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
@@ -3101,7 +3100,7 @@
 		"cost": 18,
 		"hurryCostModifier":-33,
 		"maintenance": 1,
-        "happiness":1,
+        "happiness":2,
 		"requiredTech": "Tech_Project",
 		"uniques": ["Provides [6] [Resource_house_limitation]",
         "Cost increases by [4] per owned city",

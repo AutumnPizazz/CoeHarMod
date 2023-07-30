@@ -16,7 +16,8 @@
 
 		"uniqueName": "Roman Legions",
 		"uniques": ["Gain a free [Building_Monument] [in all cities]",
-		"[-50]% tile improvement construction time"], 
+		"Receive free [Unit_Trader] when you discover [Civic_Basic trade]",
+		"Free [Unit_Trader] appears <upon constructing [Building_Market]>"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
 	
@@ -127,7 +128,8 @@
 		"preferredVictoryType": "Victory type_Science",
 
 		"uniqueName": "Freie Reichsstadt",
-		"uniques": ["Provides [1] [Resource_Military policy slot]"],
+		"uniques": ["Provides [1] [Resource_Military policy slot]",
+		"+30% Strength when fighting City-State units and cities"],
 
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
 			

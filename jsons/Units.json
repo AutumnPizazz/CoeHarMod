@@ -306,7 +306,6 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":4,
 		"uniques":["Unbuildable",
-		"Gain [-175] [Gold]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
@@ -338,9 +337,9 @@
 		"name":"Unit_Voidchoner_ConsumerII",
 		"unitType":"Unit_Type_Civilian",
 		"movement":0,
-		"uniques":["Gain [40] [Science] <by consuming this unit>",
-		"Gain [40] [Culture] <by consuming this unit>",
-		"Gain [160] [Gold] <by consuming this unit>",
+		"uniques":["Gain [50] [Science] <by consuming this unit>",
+		"Gain [50] [Culture] <by consuming this unit>",
+		"Gain [200] [Gold] <by consuming this unit>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
 	},
@@ -357,7 +356,7 @@
 	{//I级吸血鬼
 		"name":"Unit_VampireI",
 		"unitType":"Unit_Type_Vampire",
-		"strength":123,
+		"strength":113,//23
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":["Free [Unit_VampireI] appears <upon being defeated>",
@@ -368,7 +367,7 @@
 	{//II级吸血鬼
 		"name":"Unit_VampireII",
 		"unitType":"Unit_Type_Vampire",
-		"strength":229,
+		"strength":211,//38
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
@@ -380,7 +379,7 @@
 	{//III级吸血鬼
 		"name":"Unit_VampireIII",
 		"unitType":"Unit_Type_Vampire",
-		"strength":346,
+		"strength":319,//48
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
@@ -392,7 +391,7 @@
 	{//IV级吸血鬼
 		"name":"Unit_VampireIV",
 		"unitType":"Unit_Type_Vampire",
-		"strength":523,
+		"strength":482,//58
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
@@ -404,7 +403,7 @@
 	{//V级吸血鬼
 		"name":"Unit_VampireV",
 		"unitType":"Unit_Type_Vampire",
-		"strength":1191,
+		"strength":1098,//78
 		"movement":4,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
@@ -416,7 +415,7 @@
 	{//VI级吸血鬼
 		"name":"Unit_VampireVI",
 		"unitType":"Unit_Type_Vampire",
-		"strength":1798,
+		"strength":1657,//88
 		"movement":4,
 		"promotions":["Promotion_Blood"],
 		"uniques":[
@@ -629,7 +628,9 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
-		"uniques":["[-28]% Strength <when attacking>","Era_Classical"]
+		"uniques":["[-28]% Strength <when attacking>",
+		"Instantly consumes [5] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
 	},
 	{//披甲战士
 		"name":"Unit_Hoplite",
