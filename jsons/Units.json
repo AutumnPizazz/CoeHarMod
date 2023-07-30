@@ -740,7 +740,7 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["[+23]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient"]
+		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient"]
 	},
 	{//弩手
 		"name":"Unit_Crossbowman",
