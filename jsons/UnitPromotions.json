@@ -70,7 +70,7 @@
 		"name":"Promotion_Bloodthirsty",
 		"uniques":["Heal this unit by [50] HP",
 		"[+3]% Strength <for [60] turns> <for units with [Promotion_Blood]>",
-		"[+1] Movement <for [5] turns> <for units with [Promotion_Blood]>",
+		"[+1] Movement <for [1] turns> <for units with [Promotion_Blood]>",
 		"Only available <for units with [Promotion_Blood]>",
 		"Doing so will consume this opportunity to choose a Promotion"]
 	},
