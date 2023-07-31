@@ -331,12 +331,6 @@
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
-		"name": "Resource_Government reform progress",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Not shown on world screen"]
-	},
-	{
 		"name": "Resource_Influence",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],

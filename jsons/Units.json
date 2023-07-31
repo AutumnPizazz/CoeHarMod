@@ -1,4 +1,470 @@
 [
+	/*市政树专属一次性单位*/
+	{
+		"name":"Unit_Code",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Code] <by consuming this unit>",
+		"Only available <before discovering [Civic_Code]>"]
+	},
+	{
+		"name":"Unit_Skill",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Skill] <by consuming this unit>",
+		"Only available <after discovering [Civic_Code]>",
+		"Only available <before discovering [Civic_Skill]>"]
+	},
+	{
+		"name":"Unit_Basic trade",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Basic trade] <by consuming this unit>",
+		"Only available <after discovering [Civic_Code]>",
+		"Only available <before discovering [Civic_Basic trade]>"]
+	},
+	{
+		"name":"Unit_Military tradition",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Military tradition] <by consuming this unit>",
+		"Only available <after discovering [Civic_Skill]>",
+		"Only available <before discovering [Civic_Military tradition]>"]
+	},
+	{
+		"name":"Unit_National labor force",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_National labor force] <by consuming this unit>",
+		"Only available <after discovering [Civic_Skill]>",
+		"Only available <before discovering [Civic_National labor force]>"]
+	},
+	{
+		"name":"Unit_Early Empire",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Early Empire] <by consuming this unit>",
+		"Only available <after discovering [Civic_Basic trade]>",
+		"Only available <before discovering [Civic_Early Empire]>"]
+	},
+	{
+		"name":"Unit_Mysticism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Mysticism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Basic trade]>",
+		"Only available <before discovering [Civic_Mysticism]>"]
+	},
+	{
+		"name":"Unit_Games and entertainment",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Games and entertainment] <by consuming this unit>",
+		"Only available <after discovering [Civic_National labor force]>",
+		"Only available <before discovering [Civic_Games and entertainment]>"]
+	},
+	{
+		"name":"Unit_Political philosophy",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Political philosophy] <by consuming this unit>",
+		"Only available <after discovering [Civic_National labor force]>",
+		"Only available <after discovering [Civic_Early Empire]>",
+		"Only available <before discovering [Civic_Political philosophy]>"]
+	},
+	{
+		"name":"Unit_Drama and poetry",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Drama and poetry] <by consuming this unit>",
+		"Only available <after discovering [Civic_Early Empire]>",
+		"Only available <before discovering [Civic_Drama and poetry]>"]
+	},
+	{
+		"name":"Unit_Military training",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Military training] <by consuming this unit>",
+		"Only available <after discovering [Civic_Military tradition]>",
+		"Only available <after discovering [Civic_Games and entertainment]>",
+		"Only available <before discovering [Civic_Military training]>"]
+	},
+	{
+		"name":"Unit_Defensive tactics",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Defensive tactics] <by consuming this unit>",
+		"Only available <after discovering [Civic_Games and entertainment]>",
+		"Only available <after discovering [Civic_Political philosophy]>",
+		"Only available <before discovering [Civic_Defensive tactics]>"]
+	},
+	{
+		"name":"Unit_History",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_History] <by consuming this unit>",
+		"Only available <after discovering [Civic_Political philosophy]>",
+		"Only available <after discovering [Civic_Drama and poetry]>",
+		"Only available <before discovering [Civic_History]>"]
+	},
+	{
+		"name":"Unit_Theology",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Theology] <by consuming this unit>",
+		"Only available <after discovering [Civic_Drama and poetry]>",
+		"Only available <after discovering [Civic_Mysticism]>",
+		"Only available <before discovering [Civic_Theology]>"]
+	},
+	{
+		"name":"Unit_Naval tradition",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Naval tradition] <by consuming this unit>",
+		"Only available <after discovering [Civic_Defensive tactics]>",
+		"Only available <before discovering [Civic_Naval tradition]>"]
+	},
+	{
+		"name":"Unit_Feudalism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Feudalism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Defensive tactics]>",
+		"Only available <before discovering [Civic_Feudalism]>"]
+	},
+	{
+		"name":"Unit_Administration",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Administration] <by consuming this unit>",
+		"Only available <after discovering [Civic_Defensive tactics]>",
+		"Only available <after discovering [Civic_History]>",
+		"Only available <before discovering [Civic_Administration]>"]
+	},
+	{
+		"name":"Unit_Mercenaries",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Mercenaries] <by consuming this unit>",
+		"Only available <after discovering [Civic_Military training]>",
+		"Only available <before discovering [Civic_Mercenaries]>"]
+	},
+	{
+		"name":"Unit_Medieval bazaar",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Medieval bazaar] <by consuming this unit>",
+		"Only available <after discovering [Civic_Feudalism]>",
+		"Only available <before discovering [Civic_Medieval bazaar]>"]
+	},
+	{
+		"name":"Unit_Thw worker's union",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Thw worker's union] <by consuming this unit>",
+		"Only available <after discovering [Civic_Administration]>",
+		"Only available <before discovering [Civic_Thw worker's union]>"]
+	},
+	{
+		"name":"Unit_Divin right of Kings",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Divin right of Kings] <by consuming this unit>",
+		"Only available <after discovering [Civic_Administration]>",
+		"Only available <after discovering [Civic_Theology]>",
+		"Only available <before discovering [Civic_Divin right of Kings]>"]
+	},
+	{
+		"name":"Unit_Exploration",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Exploration] <by consuming this unit>",
+		"Only available <after discovering [Civic_Mercenaries]>",
+		"Only available <after discovering [Civic_Medieval bazaar]>",
+		"Only available <before discovering [Civic_Exploration]>"]
+	},
+	{
+		"name":"Unit_Humanism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Humanism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Medieval bazaar]>",
+		"Only available <after discovering [Civic_Thw worker's union]>",
+		"Only available <before discovering [Civic_Humanism]>"]
+	},
+	{
+		"name":"Unit_Foreigh service",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Foreigh service] <by consuming this unit>",
+		"Only available <after discovering [Civic_Thw worker's union]>",
+		"Only available <before discovering [Civic_Foreigh service]>"]
+	},
+	{
+		"name":"Unit_Reformed church",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Reformed church] <by consuming this unit>",
+		"Only available <after discovering [Civic_Thw worker's union]>",
+		"Only available <after discovering [Civic_Divin right of Kings]>",
+		"Only available <before discovering [Civic_Reformed church]>"]
+	},
+	{
+		"name":"Unit_Mercantilism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Mercantilism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Humanism]>",
+		"Only available <before discovering [Civic_Mercantilism]>"]
+	},
+	{
+		"name":"Unit_Enlightenment",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Enlightenment] <by consuming this unit>",
+		"Only available <after discovering [Civic_Humanism]>",
+		"Only available <after discovering [Civic_Foreigh service]>",
+		"Only available <before discovering [Civic_Enlightenment]>"]
+	},
+	{
+		"name":"Unit_Colonialism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Colonialism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Mercantilism]>",
+		"Only available <before discovering [Civic_Colonialism]>"]
+	},
+	{
+		"name":"Unit_Civil engineering",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Civil engineering] <by consuming this unit>",
+		"Only available <after discovering [Civic_Mercantilism]>",
+		"Only available <before discovering [Civic_Civil engineering]>"]
+	},
+	{
+		"name":"Unit_Nationalism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Nationalism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Enlightenment]>",
+		"Only available <before discovering [Civic_Nationalism]>"]
+	},
+	{
+		"name":"Unit_Opera and ballet",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Opera and ballet] <by consuming this unit>",
+		"Only available <after discovering [Civic_Enlightenment]>",
+		"Only available <before discovering [Civic_Opera and ballet]>"]
+	},
+	{
+		"name":"Unit_Natural history",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Natural history] <by consuming this unit>",
+		"Only available <after discovering [Civic_Colonialism]>",
+		"Only available <before discovering [Civic_Natural history]>"]
+	},
+	{
+		"name":"Unit_Urbanization",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Urbanization] <by consuming this unit>",
+		"Only available <after discovering [Civic_Civil engineering]>",
+		"Only available <after discovering [Civic_Colonialism]>",
+		"Only available <before discovering [Civic_Urbanization]>"]
+	},
+	{
+		"name":"Unit_Scorched earth strategy",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Scorched earth strategy] <by consuming this unit>",
+		"Only available <after discovering [Civic_Colonialism]>",
+		"Only available <before discovering [Civic_Scorched earth strategy]>"]
+	},
+	{
+		"name":"Unit_Earth protection",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Earth protection] <by consuming this unit>",
+		"Only available <after discovering [Civic_Natural history]>",
+		"Only available <before discovering [Civic_Earth protection]>"]
+	},
+	{
+		"name":"Unit_Mass media",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Mass media] <by consuming this unit>",
+		"Only available <after discovering [Civic_Natural history]>",
+		"Only available <after discovering [Civic_Urbanization]>",
+		"Only available <before discovering [Civic_Mass media]>"]
+	},
+	{
+		"name":"Unit_Mobilization",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Mobilization] <by consuming this unit>",
+		"Only available <after discovering [Civic_Urbanization]>",
+		"Only available <after discovering [Civic_Scorched earth strategy]>",
+		"Only available <before discovering [Civic_Mobilization]>"]
+	},
+	{
+		"name":"Unit_Capitalism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Capitalism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Mass media]>",
+		"Only available <before discovering [Civic_Capitalism]>"]
+	},
+	{
+		"name":"Unit_Ideology",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Ideology] <by consuming this unit>",
+		"Only available <after discovering [Civic_Mass media]>",
+		"Only available <after discovering [Civic_Mobilization]>",
+		"Only available <before discovering [Civic_Ideology]>"]
+	},
+	{
+		"name":"Unit_Nuclear program",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Nuclear program] <by consuming this unit>",
+		"Only available <after discovering [Civic_Ideology]>",
+		"Only available <before discovering [Civic_Nuclear program]>"]
+	},
+	{
+		"name":"Unit_Right to vote",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Right to vote] <by consuming this unit>",
+		"Only available <after discovering [Civic_Ideology]>",
+		"Only available <before discovering [Civic_Right to vote]>"]
+	},
+	{
+		"name":"Unit_Tolalitarianism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Tolalitarianism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Ideology]>",
+		"Only available <before discovering [Civic_Tolalitarianism]>"]
+	},
+	{
+		"name":"Unit_Class struggle",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Class struggle] <by consuming this unit>",
+		"Only available <after discovering [Civic_Ideology]>",
+		"Only available <before discovering [Civic_Class struggle]>"]
+	},
+	{
+		"name":"Unit_Cultural heritage",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Cultural heritage] <by consuming this unit>",
+		"Only available <after discovering [Civic_Earth protection]>",
+		"Only available <before discovering [Civic_Cultural heritage]>"]
+	},
+	{
+		"name":"Unit_Cold War",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Cold War] <by consuming this unit>",
+		"Only available <after discovering [Civic_Ideology]>",
+		"Only available <before discovering [Civic_Cold War]>"]
+	},
+	{
+		"name":"Unit_Emergency deployment",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Emergency deployment] <by consuming this unit>",
+		"Only available <after discovering [Civic_Cold War]>",
+		"Only available <before discovering [Civic_Emergency deployment]>"]
+	},
+	{
+		"name":"Unit_Space race",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Space race] <by consuming this unit>",
+		"Only available <after discovering [Civic_Cold War]>",
+		"Only available <before discovering [Civic_Space race]>"]
+	},
+	{
+		"name":"Unit_Professional sports",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Professional sports] <by consuming this unit>",
+		"Only available <after discovering [Civic_Ideology]>",
+		"Only available <before discovering [Civic_Professional sports]>"]
+	},
+	{
+		"name":"Unit_Environmentalism",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Environmentalism] <by consuming this unit>",
+		"Only available <after discovering [Civic_Cultural heritage]>",
+		"Only available <after discovering [Civic_Emergency deployment]>",
+		"Only available <before discovering [Civic_Environmentalism]>"]
+	},
+	{
+		"name":"Unit_Globalization",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Globalization] <by consuming this unit>",
+		"Only available <after discovering [Civic_Emergency deployment]>",
+		"Only available <after discovering [Civic_Space race]>",
+		"Only available <before discovering [Civic_Globalization]>"]
+	},
+	{
+		"name":"Unit_Social media",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Social media] <by consuming this unit>",
+		"Only available <after discovering [Civic_Space race]>",
+		"Only available <after discovering [Civic_Professional sports]>",
+		"Only available <before discovering [Civic_Social media]>"]
+	},
+	{
+		"name":"Unit_Near-future governance",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Near-future governance] <by consuming this unit>",
+		"Only available <after discovering [Civic_Environmentalism]>",
+		"Only available <after discovering [Civic_Globalization]>",
+		"Only available <before discovering [Civic_Near-future governance]>"]
+	},
+	{
+		"name":"Unit_Political adventures",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Political adventures] <by consuming this unit>",
+		"Only available <after discovering [Civic_Globalization]>",
+		"Only available <after discovering [Civic_Social media]>",
+		"Only available <before discovering [Civic_Political adventures]>"]
+	},
+	{
+		"name":"Unit_Decentralized sovereighty",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Decentralized sovereighty] <by consuming this unit>",
+		"Only available <after discovering [Civic_Globalization]>",
+		"Only available <after discovering [Civic_Social media]>",
+		"Only available <before discovering [Civic_Decentralized sovereighty]>"]
+	},
+	{
+		"name":"Unit_Optimization command",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Optimization command] <by consuming this unit>",
+		"Only available <after discovering [Civic_Globalization]>",
+		"Only available <after discovering [Civic_Social media]>",
+		"Only available <before discovering [Civic_Optimization command]>"]
+	},
+	{
+		"name":"Unit_Global warming mitigation",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Global warming mitigation] <by consuming this unit>",
+		"Only available <after discovering [Civic_Political adventures]>",
+		"Only available <after discovering [Civic_Decentralized sovereighty]>",
+		"Only available <after discovering [Civic_Optimization command]>",
+		"Only available <before discovering [Civic_Global warming mitigation]>"]
+	},
+	{
+		"name":"Unit_Smart power foctrine",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Smart power foctrine] <by consuming this unit>",
+		"Only available <after discovering [Civic_Political adventures]>",
+		"Only available <after discovering [Civic_Decentralized sovereighty]>",
+		"Only available <after discovering [Civic_Optimization command]>",
+		"Only available <before discovering [Civic_Smart power foctrine]>"]
+	},
+	{
+		"name":"Unit_Information warfare",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Information warfare] <by consuming this unit>",
+		"Only available <after discovering [Civic_Political adventures]>",
+		"Only available <after discovering [Civic_Decentralized sovereighty]>",
+		"Only available <after discovering [Civic_Optimization command]>",
+		"Only available <before discovering [Civic_Information warfare]>"]
+	},
+	{
+		"name":"Unit_Necessity expedition",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Necessity expedition] <by consuming this unit>",
+		"Only available <after discovering [Civic_Political adventures]>",
+		"Only available <after discovering [Civic_Decentralized sovereighty]>",
+		"Only available <after discovering [Civic_Optimization command]>",
+		"Only available <before discovering [Civic_Necessity expedition]>"]
+	},
+	{
+		"name":"Unit_Cultural hegemony",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Cultural hegemony] <by consuming this unit>",
+		"Only available <after discovering [Civic_Political adventures]>",
+		"Only available <after discovering [Civic_Decentralized sovereighty]>",
+		"Only available <after discovering [Civic_Optimization command]>",
+		"Only available <before discovering [Civic_Cultural hegemony]>"]
+	},
+	{
+		"name":"Unit_Future Municipal",
+		"unitType":"Unit_Type_Civic_Civilian",
+		"uniques":["Discover [Civic_Future Municipal] <by consuming this unit>",
+		"Only available <after discovering [Civic_Global warming mitigation]>",
+		"Only available <after discovering [Civic_Smart power foctrine]>",
+		"Only available <after discovering [Civic_Information warfare]>",
+		"Only available <after discovering [Civic_Global warming mitigation]>",
+		"Only available <before discovering [Civic_Necessity expedition]>",
+		"Only available <after discovering [Civic_Cultural hegemony]>"]
+	},
+
+
+
 	/*伟人*/
 	{
 		"name": "GreatPerson_Class_Artist",

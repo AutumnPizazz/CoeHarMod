@@ -16,8 +16,8 @@
 
 		"uniqueName": "Roman Legions",
 		"uniques": ["Gain a free [Building_Monument] [in all cities]",
-		"Receive free [Unit_Trader] when you discover [Civic_Basic trade]",
-		"Free [Unit_Trader] appears <upon constructing [Building_Market]>"], 
+		"[-1 Culture] from every [Building_Monument] <before discovering [Civic_Early Empire]>",
+		"[-50]% tile improvement construction time"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
 	
@@ -97,14 +97,9 @@
 
 		"uniqueName": "Halltarstadt",
 		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
-		"[+1 Culture] from every [Improvement_Mine]",
-		"Receive free [Unit_Miner] when you discover [Tech_Mining]",
-		"[-200]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
-		"",
-		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Melee_Infantry] unit>",
-		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Ranged_Infantry] unit>",
-		"[+13]% Strength <for [{Military} {Land}] units> <when adjacent to a [Unit_Type_Anti_Cavalry] unit>",
-		"[+23]% Strength <for [Military] units> <when fighting in [Class_Industrial_Zone] tiles> <when defending>"],
+		"[+1 Culture] from every [Improvement_Mine] <after discovering [Civic_Humanism]>",
+		"[+23]% Strength <for [Melee Infantry, Ranged Infantry and Anti Cavalry units] units> <when adjacent to a [Melee Infantry, Ranged Infantry and Anti Cavalry units] unit>",
+		"[+34]% Strength <for [Military] units> <when fighting in [District_Oppidum] tiles> <when defending>"],
 		
 		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
 		

@@ -30,13 +30,12 @@
 		"uniques":["Provides [1] [Resource_Military policy slot]",
             "Provides [1] [Resource_Economic policy slot]",
             "Provides [1] [Resource_Influence]",
-            "Consumes [4] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_1_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_1_Government"]
+            "Building_Classification_Level_Government"]
     },	
     {//寡头政体
 	    "name": "Government_Oligarchy",
@@ -50,13 +49,12 @@
             "Provides [1] [Resource_Economic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
             "Provides [2] [Resource_Influence]",
-            "Consumes [5] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_2_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_2_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//古典共和
 	    "name": "Government_Classical_Republic",
@@ -69,13 +67,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
             "Provides [2] [Resource_Influence]",
-            "Consumes [5] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_2_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_2_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//独裁统治
 	    "name": "Government_Autocracy",
@@ -91,13 +88,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
             "Provides [2] [Resource_Influence]",
-            "Consumes [5] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_2_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_2_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//君主制
 	    "name": "Government_Monarchy",
@@ -114,13 +110,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [2] [Resource_Generic policy slot]",
             "Provides [3] [Resource_Influence]",
-            "Consumes [6] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_3_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_3_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//神权政体
 	    "name": "Government_Theocracy",
@@ -134,13 +129,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
             "Provides [3] [Resource_Influence]",
-            "Consumes [6] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_3_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_3_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//商人共和国
 	    "name": "Government_Merchant_Republic",
@@ -154,13 +148,12 @@
             "Provides [2] [Resource_Diplomatic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
             "Provides [3] [Resource_Influence]",
-            "Consumes [6] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_3_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_3_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//民主主义
 	    "name": "Government_Democracy",
@@ -174,13 +167,12 @@
             "Provides [2] [Resource_Diplomatic policy slot]",
             "Provides [2] [Resource_Generic policy slot]",
             "Provides [3] [Resource_Influence]",
-            "Consumes [7] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_4_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_4_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//共产主义
 	    "name": "Government_Communism",
@@ -194,13 +186,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
             "Provides [4] [Resource_Influence]",
-            "Consumes [7] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_4_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_4_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//法西斯主义
 	    "name": "Government_Fascism",
@@ -214,13 +205,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [2] [Resource_Generic policy slot]",
             "Provides [4] [Resource_Influence]",
-            "Consumes [7] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_4_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_4_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//合成专家统治
 	    "name": "Government_Synthetic_Empire",
@@ -235,13 +225,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [5] [Resource_Generic policy slot]",
             "Provides [5] [Resource_Influence]",
-            "Consumes [8] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_5_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_5_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//数字化民主
 	    "name": "Government_Digital_Democracy",
@@ -256,13 +245,12 @@
             "Provides [3] [Resource_Diplomatic policy slot]",
             "Provides [5] [Resource_Generic policy slot]",
             "Provides [5] [Resource_Influence]",
-            "Consumes [8] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_5_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_5_Government"]
+            "Building_Classification_Level_Government"]
     },
     {//团体自由意志主义
 	    "name": "Government_Corporate_Libertarianism",
@@ -277,13 +265,12 @@
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [5] [Resource_Generic policy slot]",
             "Provides [5] [Resource_Influence]",
-            "Consumes [8] [Resource_Government reform progress]",
             "Cannot be purchased",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Building_Classification_Level_5_Government]>",
+            "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_5_Government"]
+            "Building_Classification_Level_Government"]
     },
 
     /*秘密结社建筑*/
@@ -1078,315 +1065,6 @@
             "Hidden when [Pattern_Viceroy] Victory is disabled"]
     },
 
-    /*住房系统*/
-    {
-        "name":"Building_House1",
-        "cost":33554431,
-        "uniques":["Unsellable",
-        "Only available <in cities with at least [1] [Population]>",
-        "Automatically built in all cities where it is buildable",
-        "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
-        "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
-        "Provides [-2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
-        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles>",//淡水住房修正
-        "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
-        "Provides [+2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
-        "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
-],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House2",
-        "cost":33554431,
-        "uniques":["Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House1]>",
-        "[+100]% growth [in this city] <in cities with at least [1] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [2] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House3",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House2]>",
-        "[+100]% growth [in this city] <in cities with at least [2] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [3] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House4",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House3]>",
-        "[+100]% growth [in this city] <in cities with at least [3] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [4] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House5",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House4]>",
-        "[+100]% growth [in this city] <in cities with at least [4] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [5] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House6",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House5]>",
-        "[+100]% growth [in this city] <in cities with at least [5] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [6] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House7",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House6]>",
-        "[+100]% growth [in this city] <in cities with at least [6] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [7] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House8",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House7]>",
-        "[+100]% growth [in this city] <in cities with at least [7] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [8] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House9",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House8]>",
-        "[+100]% growth [in this city] <in cities with at least [8] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [9] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House10",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House9]>",
-        "[+100]% growth [in this city] <in cities with at least [9] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [10] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House11",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House10]>",
-        "[+100]% growth [in this city] <in cities with at least [10] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [11] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House12",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House11]>",
-        "[+100]% growth [in this city] <in cities with at least [11] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [12] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House13",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House12]>",
-        "[+100]% growth [in this city] <in cities with at least [12] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [13] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House14",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House13]>",
-        "[+100]% growth [in this city] <in cities with at least [13] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [14] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House15",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House14]>",
-        "[+100]% growth [in this city] <in cities with at least [14] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [15] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House16",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House15]>",
-        "[+100]% growth [in this city] <in cities with at least [15] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [16] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House17",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House16]>",
-        "[+100]% growth [in this city] <in cities with at least [16] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [17] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House18",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House17]>",
-        "[+100]% growth [in this city] <in cities with at least [17] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [18] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House19",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House18]>",
-        "[+100]% growth [in this city] <in cities with at least [18] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [19] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House20",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House19]>",
-        "[+100]% growth [in this city] <in cities with at least [19] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [20] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House21",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House20]>",
-        "[+100]% growth [in this city] <in cities with at least [20] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [21] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House22",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House21]>",
-        "[+100]% growth [in this city] <in cities with at least [21] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [22] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House23",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House22]>",
-        "[+100]% growth [in this city] <in cities with at least [22] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [23] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House24",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House23]>",
-        "[+100]% growth [in this city] <in cities with at least [23] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [24] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House25",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House24]>",
-        "[+100]% growth [in this city] <in cities with at least [24] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [25] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House26",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House25]>",
-        "[+100]% growth [in this city] <in cities with at least [25] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [26] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House27",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House26]>",
-        "[+100]% growth [in this city] <in cities with at least [26] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [27] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House28",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House27]>",
-        "[+100]% growth [in this city] <in cities with at least [27] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [28] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House29",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House28]>",
-        "[+100]% growth [in this city] <in cities with at least [28] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [29] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building_House30",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building_House29]>",
-        "[+100]% growth [in this city] <in cities with at least [29] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [30] [Population]>"],
-        "replacementTextForUniques":" "
-    }
-    
-
 
     /*市中心建筑*/
 	{//宫殿
@@ -1394,8 +1072,8 @@
         "isNationalWonder": true,
         "production": 3,
         "science": 2,
-        "gold": 5,
-        "culture": 2,
+        "gold": 6,
+        "culture": 1,
         "cityStrength": 20,
         "cityHealth":50,
         "cost": 1,
@@ -1533,7 +1211,7 @@
 		"culture": 2,
 		"cost": 50,
 		"hurryCostModifier":-33,
-		"uniques": ["Cost increases by [8] per owned city",
+		"uniques": ["Cost increases by [6] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
@@ -1543,7 +1221,7 @@
 		"cost": 55,
 		"hurryCostModifier":-33,
 		"uniques": ["Provides [4] [Resource_house_limitation]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Pottery"
@@ -1556,7 +1234,7 @@
 		"cost": 70,
 		"hurryCostModifier":-33,
 		"uniques": ["Provides [6] [Resource_house_limitation]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
 		"Unsellable"],
 		"requiredTech": "Tech_Pottery"
 	},*/
@@ -1570,7 +1248,7 @@
 		"uniques": ["Must be on [River]",
 		"[+1 Food] from [Resource_Wheat] tiles [in this city]",
 		"[+1 Food] from [Resource_Corn] tiles [in this city]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Wheels"
@@ -1585,7 +1263,7 @@
 		"hurryCostModifier":-33,
 		"uniques": ["Must be on [River]",
 		"[+1 Food] from [River] tiles without [Class_Usual_Improvement] [in this city]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Wheels"
@@ -1598,7 +1276,7 @@
 		"hurryCostModifier":-33,
 		"uniques": ["Provides [4] [Resource_house_limitation]",
         "[25]% Food is carried over after population increases [in this city]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Sanitary equipment"
@@ -1609,7 +1287,7 @@
 		"cost":290,
 		"hurryCostModifier":32,
 		"uniques": ["Must be next to [Coast]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Never destroyed when the city is captured",
 		"Unsellable"],
 		"requiredTech": "Tech_Computer"
@@ -1620,7 +1298,7 @@
 		"hurryCostModifier":-33,
         "cityStrength":50,
         "cityHealth":50,
-		"uniques": ["Cost increases by [8] per owned city",
+		"uniques": ["Cost increases by [6] per owned city",
 		"Unsellable",
         "Cannot be purchased",
         "Destroyed when the city is captured",
@@ -1634,7 +1312,7 @@
         "requiredBuilding":"Building_Ancient_Walls",
         "cityStrength":150,
         "cityHealth":50,
-		"uniques": ["Cost increases by [8] per owned city",
+		"uniques": ["Cost increases by [6] per owned city",
 		"Unsellable",
         "Cannot be purchased",
         "Destroyed when the city is captured",
@@ -1648,7 +1326,7 @@
         "requiredBuilding":"Building_Medieval_Walls",
         "cityStrength":250,
         "cityHealth":50,
-		"uniques": ["Cost increases by [8] per owned city",
+		"uniques": ["Cost increases by [6] per owned city",
 		"Unsellable",
         "Cannot be purchased",
         "Destroyed when the city is captured",
@@ -1686,7 +1364,7 @@
 		"requiredTech": "Civic_National labor force",
 		"uniques": ["Unsellable",
         "Provides [1] [Resource_Governor title]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Government_Plaza] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Limited to [1] per Civilization",
@@ -1705,7 +1383,7 @@
 		"uniques": ["[+23]% Strength <for [Military] units> <within [6] tiles of a [District_Mayab]>",
         "Unsellable",
         "Provides [1] [Resource_Governor title]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Mayab] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Limited to [1] per Civilization",
@@ -1726,7 +1404,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Audience_Chamber]>",
         "Only available <in cities without a [Building_Warlord_Throne]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1743,7 +1421,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Ancestral_Hall]>",
         "Only available <in cities without a [Building_Warlord_Throne]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1760,7 +1438,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Ancestral_Hall]>",
         "Only available <in cities without a [Building_Audience_Chamber]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1778,7 +1456,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Foreign_Ministry]>",
         "Only available <in cities without a [Building_Order_of_Friars]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1798,7 +1476,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Intelligence_Agency]>",
         "Only available <in cities without a [Building_Order_of_Friars]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1817,7 +1495,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Intelligence_Agency]>",
         "Only available <in cities without a [Building_Foreign_Ministry]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1835,7 +1513,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_Royal_Society]>",
         "Only available <in cities without a [Building_War_Department]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1853,7 +1531,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_National_History_Museum]>",
         "Only available <in cities without a [Building_War_Department]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1870,7 +1548,7 @@
         "Provides [1] [Resource_Governor title]",
         "Only available <in cities without a [Building_National_History_Museum]>",
         "Only available <in cities without a [Building_Royal_Society]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
 		"Unsellable"]
@@ -1884,7 +1562,7 @@
         "maintenance":1,
         "requiredTech":"Tech_Math",
         "requiredResource":"Resource_district_limitation",
-        "uniques":["Cost increases by [8] per owned city",
+        "uniques":["Cost increases by [6] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
         "Creates a [District_Foreign_Quarter] improvement on a specific tile",
@@ -1900,7 +1578,7 @@
         "requiredTech":"Tech_Math",
         "requiredBuilding":"Building_Foreign_Quarter_Unique",
         "uniques":["Resting point for Influence with City-States is increased by [15]",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
 		"Unsellable",
         "Destroyed when the city is captured",
 		"Building_Classification_Foreign_Quarter_District"]
@@ -1913,7 +1591,7 @@
         "requiredTech":"Civic_Foreigh service",
         "requiredBuilding":"Building_Consulate",
         "uniques":["Resting point for Influence with City-States is increased by [15]",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
 		"Unsellable",
         "Destroyed when the city is captured",
 		"Building_Classification_Foreign_Quarter_District"]
@@ -1929,7 +1607,7 @@
         "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
-		"uniques": ["Cost increases by [8] per owned city",
+		"uniques": ["Cost increases by [6] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
         "Creates a [District_Holy_Site] improvement on a specific tile",
@@ -1949,7 +1627,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["[+1 Faith] from [Tundra] tiles without [Landform_Hill] [in this city]",
-        "Cost increases by [4] per owned city",
+        "Cost increases by [3] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
         "Creates a [District_Lavra_Monastery] improvement on a specific tile",
@@ -1969,7 +1647,7 @@
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": [
 		"Hidden when religion is disabled",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
 		"Unsellable",
         "Never destroyed when the city is captured",
 		"Building_Classification_Holy_Site_District"]
@@ -1985,7 +1663,7 @@
 		"specialistSlots": {"Specialist_Priest": 1},
         "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["Hidden when religion is disabled",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
 		"Unsellable",
         "Never destroyed when the city is captured",
 		"Building_Classification_Holy_Site_District"]
@@ -2143,7 +1821,7 @@
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Campus] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2161,7 +1839,7 @@
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [4] per owned city",
+		"Cost increases by [3] per owned city",
         "Creates a [Distict_Academy_of_Classical_Learning] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2179,7 +1857,7 @@
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Mayan_Observatory] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2196,7 +1874,7 @@
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": [
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_College_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2212,7 +1890,7 @@
         "specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Provides [2] [Resource_house_limitation]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_College_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2228,7 +1906,7 @@
         "specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": [
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_College_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2256,7 +1934,7 @@
 		"specialistSlots": {"Specialist_Merchant": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Commercial_Hub] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2272,7 +1950,7 @@
 		"specialistSlots": {"Specialist_Merchant": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": ["Provides [1] [Resource_Trade route capacity]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Commercial_Hub_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2287,7 +1965,7 @@
 		"specialistSlots": {"Specialist_Merchant": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": [
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Commercial_Hub_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2302,7 +1980,7 @@
 		"specialistSlots": {"Specialist_Merchant": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": [
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Commercial_Hub_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2328,7 +2006,7 @@
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": ["Unsellable",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Creates a [District_Theater_Square] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2344,7 +2022,7 @@
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": [
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Building_Classification_Theater_Square_District",
         "Never destroyed when the city is captured",
         "Unsellable"]
@@ -2360,7 +2038,7 @@
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": [
-            "Cost increases by [8] per owned city",
+            "Cost increases by [6] per owned city",
             "Only available <in cities without a [Building_Archaeological_Museum]>",
             "Building_Classification_Theater_Square_District",
             "Never destroyed when the city is captured",
@@ -2376,7 +2054,7 @@
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": ["Gain [135] [Culture]",
-            "Cost increases by [8] per owned city",
+            "Cost increases by [6] per owned city",
             "Only available <in cities without a [Building_Art_Museum]>",
             "Building_Classification_Theater_Square_District",
             "Never destroyed when the city is captured",
@@ -2392,7 +2070,7 @@
         "specialistSlots": {"Specialist_Artist": 1},
         "greatPersonPoints": {"GreatPerson_Class_Artist": 1},
         "uniques": [
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Building_Classification_Theater_Square_District",
         "Never destroyed when the city is captured",
         "Unsellable"]
@@ -2419,7 +2097,7 @@
         "requiredResource":"Resource_district_limitation",
 //        "cannotBeBuiltWith":"Building_Aquatics_Complex_Unique",
         "uniques": ["Unsellable",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Creates a [District_Entertainment_Complex] improvement on a specific tile",
         "Only available <in cities without a [Building_Aquatics_Complex_Unique]>",
         "Building_Classification_District_Unique",
@@ -2436,7 +2114,7 @@
         "requiredTech":"Civic_Games and entertainment",
         "requiredBuilding":"Building_Entertainment_Complex_Unique",
         "uniques": [
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Building_Classification_Entertainment_Complex_District",
         "Destroyed when the city is captured",
         "Unsellable"]
@@ -2455,7 +2133,7 @@
         "requiredTech":"Civic_Games and entertainment",
         "requiredBuilding":"Building_Entertainment_Complex_Unique",
         "uniques": [
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Building_Classification_Entertainment_Complex_District",
         "Destroyed when the city is captured",
         "Unsellable"]
@@ -2470,7 +2148,7 @@
         "requiredTech":"Civic_Natural history",
         "uniques": ["[+1 Science] from [Landform_Rainforest] tiles [in this city]",
             "[+1 Science] from [Landform_Swamp] tiles [in this city]",
-            "Cost increases by [8] per owned city",
+            "Cost increases by [6] per owned city",
             "Building_Classification_Entertainment_Complex_District",
             "Destroyed when the city is captured",
             "Unsellable"]
@@ -2483,7 +2161,7 @@
         "requiredTech":"Civic_Professional sports",
         "requiredBuilding":"Building_Zoo",
         "uniques": [
-            "Cost increases by [8] per owned city",
+            "Cost increases by [6] per owned city",
             "Building_Classification_Entertainment_Complex_District",
             "Destroyed when the city is captured",
             "Unsellable"]
@@ -2511,7 +2189,7 @@
 //        "cannotBeBuiltWith":"Building_Entertainment_Complex_Unique",
         "uniques": ["Unsellable",
         "Must be next to [Coast]",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Creates a [District_Water_Park] improvement on a specific tile",
         "Only available <in cities without a [Building_Entertainment_Complex_Unique]>",
         "Building_Classification_District_Unique",
@@ -2528,7 +2206,7 @@
         "requiredTech":"Civic_Natural history",
         "requiredBuilding":"Building_Aquatics_Complex_Unique",
         "uniques": [
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Building_Classification_Aquatics_Complex_District",
         "Destroyed when the city is captured",
         "Unsellable"]
@@ -2543,7 +2221,7 @@
         "requiredTech":"Civic_Natural history",
         "uniques": ["[+1 Science] from [Landform_Reef] tiles [in this city]",
             "[+1 Science] from [Classification_Resource on water] tiles [in this city]",
-            "Cost increases by [8] per owned city",
+            "Cost increases by [6] per owned city",
             "Building_Classification_Aquatics_Complex_District",
             "Destroyed when the city is captured",
             "Unsellable"]
@@ -2556,7 +2234,7 @@
         "requiredTech":"Civic_Professional sports",
         "requiredBuilding":"Building_Aquarium",
         "uniques": [
-            "Cost increases by [8] per owned city",
+            "Cost increases by [6] per owned city",
             "Building_Classification_Aquatics_Complex_District",
             "Destroyed when the city is captured",
             "Unsellable"]
@@ -2583,7 +2261,7 @@
         "requiredResource":"Resource_district_limitation",
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Industrial_Zone] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2602,8 +2280,8 @@
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 2},
 		"uniques": ["[+1 Production] from [Improvement_Quarry] tiles [in this city]",
         "Unsellable",
-		"Cost increases by [8] per owned city",
-        "Creates a [District_Industrial_Zone] improvement on a specific tile",
+		"Cost increases by [6] per owned city",
+        "Creates a [District_Oppidum] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
         "Cannot be purchased"]
@@ -2622,7 +2300,7 @@
 		"uniques": [
 //        "Provides [1] [Resource_district_limitation] <after discovering [Civic_Thw worker's union]>",
         "Unsellable",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Commercial_Association] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2639,7 +2317,7 @@
 		"specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Industrial_Zone_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2655,7 +2333,7 @@
 		"specialistSlots": {"Specialist_Engineer": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Industrial_Zone_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2684,7 +2362,7 @@
 		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
         "Provides [4] [Resource_Electricity]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Only available <in cities without a [Building_Oil_Power_Plant]>",
         "Only available <in cities without a [Building_Nuclear_Power_Plant]>",
         "Never destroyed when the city is captured",
@@ -2749,7 +2427,7 @@
 		"uniques": [
             "Never destroyed when the city is captured",
         "Provides [4] [Resource_Electricity]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Only available <in cities without a [Building_Coal_Power_Plant]>",
         "Only available <in cities without a [Building_Nuclear_Power_Plant]>",
         "Building_Classification_Industrial_Zone_District","Building_Classification_Power_Plant"]
@@ -2813,7 +2491,7 @@
 		"uniques": [
             "Never destroyed when the city is captured",
         "Provides [16] [Resource_Electricity]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Only available <in cities without a [Building_Coal_Power_Plant]>",
         "Only available <in cities without a [Building_Oil_Power_Plant]>",
         "Building_Classification_Industrial_Zone_District","Building_Classification_Power_Plant"]
@@ -2841,7 +2519,7 @@
 		"specialistSlots": {"Specialist_Army logistics": 1},
 		"greatPersonPoints": {"GreatPerson_Class_General": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Army] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2864,7 +2542,7 @@
         "All newly-trained [Unit_Type_Anti_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Ranged_Infantry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "Only available <in cities without a [Building_Stable]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Military_Encampment_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2886,7 +2564,7 @@
         "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "Only available <in cities without a [Building_Barracks]>",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Military_Encampment_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2904,7 +2582,7 @@
 		"uniques": ["Provides [2] [Resource_house_limitation]",
         "Provides [1] [Resource_Niter]",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion_Army_Combat_Training_II] promotion",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Military_Encampment_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2922,7 +2600,7 @@
 		"uniques": [
         "Provides [1] [Resource_Coal]","Provides [1] [Resource_Oil]",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion_Army_Combat_Training_III] promotion",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Military_Encampment_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -2969,7 +2647,7 @@
 		"uniques": [
         "Unsellable",
         "Must be next to [Coast]",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Creates a [District_Harbor] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -2990,7 +2668,7 @@
         "[+1 Food] from [Ocean] tiles [in this city]",
         "Connects trade routes over water",
         "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_I] promotion",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Port_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -3009,7 +2687,7 @@
         "[+1 Production] from [Lakes] tiles [in this city]",
         "[+1 Production] from [Ocean] tiles [in this city]",
         "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_II] promotion",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Port_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -3027,7 +2705,7 @@
         "[+2 Gold] from [Coast] tiles [in this city]",
         "[+2 Gold] from [Lakes] tiles [in this city]",
         "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_III] promotion",
-		"Cost increases by [8] per owned city",
+		"Cost increases by [6] per owned city",
         "Building_Classification_Port_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -3085,7 +2763,7 @@
 		"maintenance": 1,
 		"requiredTech": "Tech_Project",
 		"uniques": ["Provides [4] [Resource_house_limitation]",
-        "Cost increases by [8] per owned city",
+        "Cost increases by [6] per owned city",
         "Unsellable",
         "Creates a [Distinct_Raceline] improvement on a specific tile",
         "Building_Classification_District_Unique",
@@ -3103,7 +2781,7 @@
         "happiness":2,
 		"requiredTech": "Tech_Project",
 		"uniques": ["Provides [6] [Resource_house_limitation]",
-        "Cost increases by [4] per owned city",
+        "Cost increases by [3] per owned city",
         "Unsellable",
         "Creates a [Distict_BeachLandmark] improvement on a specific tile",
         "Building_Classification_District_Unique",
@@ -3137,11 +2815,12 @@
 	},
 
     /*胜利标志性建筑*/
-    {
+    {//乌托邦计划
 		"name": "Building_Utopia_Project",
 		"cost": 2000,
 		"uniques": ["Triggers a global alert upon build start",
-        "Hidden until [2] social policy branches have been completed",
+        "Hidden until [1] social policy branches have been completed",
+        "Only available <after discovering [Civic_Cultural hegemony]>",
         "Cannot be purchased",
         "Hidden when [Victory type_Culture] Victory is disabled"]
 	},
@@ -3883,7 +3562,7 @@
         "name": "Artificialwonder_StatueofChristtheRedeemer",
         "isWonder": true,
         "culture":4,
-        "uniques": ["Adopt [Culture_Culture Victory Rush 2]",
+        "uniques": ["Gain [1600] [Culture]",
             "Creates a [District_StatueofChristtheRedeemer] improvement on a specific tile",
             "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Modern"],
@@ -4050,9 +3729,8 @@
         "name":"M_bianfangjun",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+1 Production] [in all cities with a garrison]",
+        "uniques":["[+1 Production, +1 Happiness] [in all cities with a garrison]",
         "Limited to [1] per Civilization",
-        "[+50]% Strength for cities <when attacking>",
         "Only available <in cities without a [M_lengbao]>",
         "Only available <before discovering [Civic_Scorched earth strategy]>",
         "Destroyed when the city is captured",
@@ -4101,8 +3779,7 @@
         "name":"M_lengbao",
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
-        "uniques":["[+100]% Strength for cities <when attacking>",
-        "[+13]% Strength for cities <when defending>",
+        "uniques":["[+34]% Strength for cities <when defending>",
         "Limited to [1] per Civilization",
         "Only available <in cities without a [M_bianfangjun]>",
         "Can only be built [in capital]",
@@ -5375,6 +5052,316 @@
         "Destroyed when the city is captured",
         "Class_General_Policy"],
         "requiredTech":"Civic_Cultural hegemony"
+    },
+    
+    
+    /*住房系统*/
+    {
+        "name":"Building_House1",
+        "cost":33554431,
+        "uniques":["Unsellable",
+        "Only available <in cities with at least [1] [Population]>",
+        "Automatically built in all cities where it is buildable",
+        "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
+        "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
+        "Provides [-2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
+        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles>",//淡水住房修正
+        "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
+        "Provides [+2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
+        "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
+],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House2",
+        "cost":33554431,
+        "uniques":["Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House1]>",
+        "[+100]% growth [in this city] <in cities with at least [1] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [2] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House3",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House2]>",
+        "[+100]% growth [in this city] <in cities with at least [2] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [3] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House4",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House3]>",
+        "[+100]% growth [in this city] <in cities with at least [3] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [4] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House5",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House4]>",
+        "[+100]% growth [in this city] <in cities with at least [4] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [5] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House6",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House5]>",
+        "[+100]% growth [in this city] <in cities with at least [5] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [6] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House7",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House6]>",
+        "[+100]% growth [in this city] <in cities with at least [6] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [7] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House8",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House7]>",
+        "[+100]% growth [in this city] <in cities with at least [7] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [8] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House9",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House8]>",
+        "[+100]% growth [in this city] <in cities with at least [8] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [9] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House10",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House9]>",
+        "[+100]% growth [in this city] <in cities with at least [9] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [10] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House11",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House10]>",
+        "[+100]% growth [in this city] <in cities with at least [10] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [11] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House12",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House11]>",
+        "[+100]% growth [in this city] <in cities with at least [11] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [12] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House13",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House12]>",
+        "[+100]% growth [in this city] <in cities with at least [12] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [13] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House14",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House13]>",
+        "[+100]% growth [in this city] <in cities with at least [13] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [14] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House15",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House14]>",
+        "[+100]% growth [in this city] <in cities with at least [14] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [15] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House16",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House15]>",
+        "[+100]% growth [in this city] <in cities with at least [15] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [16] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House17",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House16]>",
+        "[+100]% growth [in this city] <in cities with at least [16] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [17] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House18",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House17]>",
+        "[+100]% growth [in this city] <in cities with at least [17] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [18] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House19",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House18]>",
+        "[+100]% growth [in this city] <in cities with at least [18] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [19] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House20",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House19]>",
+        "[+100]% growth [in this city] <in cities with at least [19] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [20] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House21",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House20]>",
+        "[+100]% growth [in this city] <in cities with at least [20] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [21] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House22",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House21]>",
+        "[+100]% growth [in this city] <in cities with at least [21] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [22] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House23",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House22]>",
+        "[+100]% growth [in this city] <in cities with at least [22] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [23] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House24",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House23]>",
+        "[+100]% growth [in this city] <in cities with at least [23] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [24] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House25",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House24]>",
+        "[+100]% growth [in this city] <in cities with at least [24] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [25] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House26",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House25]>",
+        "[+100]% growth [in this city] <in cities with at least [25] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [26] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House27",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House26]>",
+        "[+100]% growth [in this city] <in cities with at least [26] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [27] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House28",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House27]>",
+        "[+100]% growth [in this city] <in cities with at least [27] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [28] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House29",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House28]>",
+        "[+100]% growth [in this city] <in cities with at least [28] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [29] [Population]>"],
+        "replacementTextForUniques":" "
+    },
+    {
+        "name":"Building_House30",
+        "cost":33554431,
+        "uniques":["Consumes [2] [Resource_house_limitation]","Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities with a [Building_House29]>",
+        "[+100]% growth [in this city] <in cities with at least [29] [Population]>",
+        "[-100]% growth [in this city] <in cities with at least [30] [Population]>"],
+        "replacementTextForUniques":" "
     }
+    
 
 ]

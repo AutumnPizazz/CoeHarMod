@@ -1,4 +1,5 @@
 [
+    /*
     {
         "name": "Culture_Trunk Culture Tress",
         "era": "Era_Ancient",
@@ -129,10 +130,10 @@
                 "uniques": []
             }
         ]
-    },
+    },*/
     {
         "name": "Culture_Cultural Victory Sprint",
-        "era": "Era_Medieval",
+        "era": "Era_Near-future",
         "priorities": 
         {
             "Neutral": 10,//中立倾向
@@ -168,27 +169,6 @@
             "name": "Culture_Culture Victory Rush 5",
             "uniques": [],
             "row": 1,
-            "column": 7,
-            "requires":[]
-        },
-        {
-            "name": "Culture_Culture Victory Rush 6",
-            "uniques": [],
-            "row": 2,
-            "column": 3,
-            "requires":[]
-        },
-        {
-            "name": "Culture_Culture Victory Rush 7",
-            "uniques": [],
-            "row": 2,
-            "column": 5,
-            "requires":[]
-        },
-        {
-            "name": "Culture_Culture Victory Rush 8",
-            "uniques": [],
-            "row": 2,
             "column": 7,
             "requires":[]
         },

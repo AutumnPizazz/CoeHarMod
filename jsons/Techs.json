@@ -27,54 +27,54 @@
 		"era": "Era_Ancient",
 		"buildingCost": 60,
 		"wonderCost": 180,
+		"techCost":25,
 		"techs": [
-			{
+			{//航海术
 				"name": "Tech_Nautical art",
-				"cost": 30,
+				"cost": 50,
 				"row": 1,
 				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "东西南北，无不可至，遥涉波涛，若履平地。\n——《资治通鉴·唐纪三十四》",
 				"uniques": []
 			},
-			{
+			{//占星术
 				"name": "Tech_Astrology",
-				"cost": 30,
+				"cost": 50,
 				"row": 2,
 				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "夫星者，物之精也。\n——《淮南子·天文训》",
 				"uniques": []
 			},
-			{
+			{//制陶术
 				"name": "Tech_Pottery",
-				"cost": 15,
+				"cost": 25,
 				"row": 4,
 				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "制陶之人，以时节作器，以风土制度，无使不便。\n——《周礼·天官·工贾》",
 				"uniques": []
 			},
-			{
+			{//畜牧业
 				"name": "Tech_Animal husbandry",
-				"cost": 15,
+				"cost": 25,
 				"row": 5,
 				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "羊肥牛壮，人民安乐。\n——《礼记·曲礼上》",
 				"uniques": []
 			},
-			{
+			{//采矿业
 				"name": "Tech_Mining",
-				"cost": 15,
+				"cost": 25,
 				"row": 7,
 				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "工矿之事，必借于山林之材。\n——《淮南子·说山训》",
 				"uniques": []
 			},
-			{
+			{//法典
 				"name": "Civic_Code",
-				"cost": 15,
 				"row": 12,
 				"prerequisites": ["Initial tech_civic_Agriculture"],
 				"quote": "宽则得众，严则失民。\n——《管子·权修》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Tech_UniqueToGoldenDawn2",
@@ -90,11 +90,11 @@
 	{
 		"columnNumber": 2,
 		"era": "Era_Ancient",
-		"techCost": 30,
+		"techCost": 50,
 		"buildingCost": 60,
 		"wonderCost": 180,
 		"techs": [
-			{
+			{//灌溉
 				"name": "Tech_Irrigation",
 				"row": 3,
 				"prerequisites": ["Tech_Pottery"],
@@ -120,21 +120,21 @@
 				"row": 10,
 				"prerequisites": ["Civic_Code"],
 				"quote": "巧工妙匠之人，地之宝也。\n——《管子·地数》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Basic trade",
 				"row": 14,
 				"prerequisites": ["Civic_Code"],
 				"quote": "货财流通，民不饥寒。\n——《管子·商君》",
-				"uniques": ["Provides [1] [Resource_Trade route capacity]"]
+				"uniques": ["Provides [1] [Resource_Trade route capacity]","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
 		"era": "Era_Ancient",
-		"techCost": 55,
+		"techCost": 80,
 		"buildingCost": 60,
 		"wonderCost": 180,
 		"techs": [
@@ -164,35 +164,39 @@
 				"row": 9,
 				"prerequisites": ["Civic_Skill"],
 				"quote": "兵贵神速，不贵多。\n——《史记·淮阴侯列传》",
-				"uniques": ["Military units have the ability to enjoy the Flank Attack bonuses"]
+				"uniques": ["Military units have the ability to enjoy the Flank Attack bonuses",
+				"Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_National labor force",
 				"row": 12,
 				"prerequisites": ["Civic_Skill"],
 				"quote": "国之利器不在金石，而在人才。\n——《管子·牧民》",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]",
+				"Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Early Empire",
 				"row": 13,
 				"prerequisites": ["Civic_Basic trade"],
 				"quote": "治国有常，而利民为本。\n——《尚书·禹贡》",
-				"uniques": ["Provides [1] [Resource_Governor title]","Enables Open Borders agreements"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Enables Open Borders agreements",
+				"Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{//神秘主义
 				"name": "Civic_Mysticism",
 				"row": 15,
 				"prerequisites": ["Civic_Basic trade"],
 				"quote": "神者，隐而不见，不可得而观也。\n——《庄子·天下篇》",
-				"uniques": ["Free [Unit_Envoy2] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears",
+				"Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 4,
 		"era": "Era_Classical",
-		"techCost": 75,
+		"techCost": 120,
 		"buildingCost": 60,
 		"wonderCost": 400,
 		"techs": [
@@ -237,28 +241,28 @@
 				"row":10,
 				"prerequisites":["Civic_National labor force"],
 				"quote":"百姓好游，然后乐工出。\n——《礼记·曲礼下》",
-				"uniques":[]
+				"uniques":["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name":"Civic_Political philosophy",
 				"row":12,
 				"prerequisites":["Civic_National labor force","Civic_Early Empire"],
 				"quote":"民无信不立，国无信不守。\n——《左传·襄公十五年》",
-				"uniques":[]
+				"uniques":["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name":"Civic_Drama and poetry",
 				"row":14,
 				"prerequisites":["Civic_Early Empire"],
 				"quote":"乐以易志，志以长久。\n——《诗经·小雅·鹤鸣》",
-				"uniques":[]
+				"uniques":["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},	
 	{
 		"columnNumber": 5,
 		"era": "Era_Classical",
-		"techCost": 120,
+		"techCost": 200,
 		"buildingCost": 60,
 		"wonderCost": 400,
 		"techs": [
@@ -288,7 +292,7 @@
 				"row": 9,
 				"prerequisites": ["Civic_Military tradition","Civic_Games and entertainment"],
 				"quote": "兵者，国之大事，死生之地，存亡之道，不可不察也。\n——《孙子兵法·始计》",
-				"uniques": ["Free [Unit_Envoy2] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Defensive tactics",
@@ -302,21 +306,21 @@
 				"row": 13,
 				"prerequisites": ["Civic_Political philosophy","Civic_Drama and poetry"],
 				"quote": "君子乐胥，万邦之屏。\n——《诗经·大雅·荡》",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Theology",
 				"row": 15,
 				"prerequisites": ["Civic_Drama and poetry","Civic_Mysticism"],
 				"quote": "上天无路，下地无门，唯人自通。\n——明·罗贯中《三国演义》",
-				"uniques": ["Free [Unit_Envoy2] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 6,
 		"era": "Era_Medieval",
-		"techCost": 200,
+		"techCost": 300,
 		"buildingCost": 60,
 		"wonderCost": 710,
 		"techs": [
@@ -353,28 +357,28 @@
 				"row": 10,
 				"prerequisites": ["Civic_Defensive tactics"],
 				"quote": "此日漫挥天下泪，有公足壮海军威。\n——光绪帝 爱新觉罗·载湉",
-				"uniques": ["Free [Unit_Envoy2] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Feudalism",
 				"row": 11,
 				"prerequisites": ["Civic_Defensive tactics"],
 				"quote": "君君，臣臣，父父，子子。\n——《论语·颜渊》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Administration",
 				"row": 13,
 				"prerequisites": ["Civic_Defensive tactics","Civic_History"],
 				"quote": "上不尊法，下不安民，虽举世而誉之，亦何益哉？\n——李斯《谏逐客书》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 7,
 		"era": "Era_Medieval",
-		"techCost": 300,
+		"techCost": 390,
 		"buildingCost": 60,
 		"wonderCost": 710,
 		"techs": [
@@ -411,35 +415,35 @@
 				"row": 9,
 				"prerequisites": ["Civic_Military training"],
 				"quote": "兵马未动，粮草先行。\n——《三国演义》",
-				"uniques": ["Free [Unit_Envoy2] appears"]
+				"uniques": ["Free [Unit_Envoy2] appears","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Medieval bazaar",
 				"row": 11,
 				"prerequisites": ["Civic_Feudalism"],
 				"quote": "市井之德，修而不改。\n——《礼记·中庸》",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Thw worker's union",
 				"row": 13,
 				"prerequisites": ["Civic_Administration"],
 				"quote": "众志成城，泰山移。\n——《史记·项羽本纪》",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Divin right of Kings",
 				"row": 15,
 				"prerequisites": ["Civic_Administration","Civic_Theology"],
 				"quote": "天命之谓性，率性之谓道，修道之谓教。\n——《礼记·大学》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 8,
 		"era": "Era_Renaissance",
-		"techCost": 450,
+		"techCost": 600,
 		"buildingCost": 60,
 		"wonderCost": 920,
 		"techs": [
@@ -491,35 +495,35 @@
 				"row": 9,
 				"prerequisites": ["Civic_Mercenaries","Civic_Medieval bazaar"],
 				"quote": "以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Humanism",
 				"row": 11,
 				"prerequisites": ["Civic_Medieval bazaar","Civic_Thw worker's union"],
 				"quote": "好的城市规划，是为了人们的幸福和自由。\n——托马斯·莫尔《乌托邦》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Foreigh service",
 				"row": 13,
 				"prerequisites": ["Civic_Thw worker's union"],
 				"quote": "外交政策不是由外交部门独立制定的，而是由整个政府制定的，包括市政府。\n——《美国国务院职能与任务》",
-				"uniques": ["Enables Research agreements"]
+				"uniques": ["Enables Research agreements","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Reformed church",
 				"row": 14,
 				"prerequisites": ["Civic_Thw worker's union","Civic_Divin right of Kings"],
 				"quote": "归正会本是为民间讼狱处理之，后以治安为主。\n——《清实录·道光朝实录》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 9,
 		"era": "Era_Renaissance",
-		"techCost": 600,
+		"techCost": 730,
 		"buildingCost": 60,
 		"wonderCost": 920,
 		"techs": [
@@ -549,21 +553,21 @@
 				"row": 11,
 				"prerequisites": ["Civic_Humanism"],
 				"quote": "商贾者，国之货也，货不可无，故贵之。\n——《孟子·滕文公上》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Enlightenment",
 				"row": 13,
 				"prerequisites": ["Civic_Humanism","Civic_Foreigh service"],
 				"quote": "启蒙是人类从无知到知识的过程，只有通过理性的思考和科学的探索，才能真正实现社会进步和人类文明的发展。\n——伏尔泰《论启蒙》",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 10,
 		"era": "Era_Industrial",
-		"techCost": 780,
+		"techCost": 930,
 		"buildingCost": 60,
 		"wonderCost": 1240,
 		"techs": [
@@ -600,35 +604,35 @@
 				"row": 9,
 				"prerequisites": ["Civic_Mercantilism"],
 				"quote": "记住：政治、殖民主义、帝国主义和战争都源于人类的大脑。\n——维莱亚努尔·拉马钱德兰",
-				"uniques": ["[2] free [Unit_Envoy2] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Civil engineering",
 				"row": 11,
 				"prerequisites": ["Civic_Mercantilism"],
 				"quote": "改造使弯路变得笔直；但未经改造的弯路才是成就天才之路。\n——威廉·布雷克",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Nationalism",
 				"row": 12,
 				"prerequisites": ["Civic_Enlightenment"],
 				"quote": "民族主义促使国家产生，而不是国家产生了民族主义。\n——欧内斯特·葛尔纳",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Opera and ballet",
 				"row": 14,
 				"prerequisites": ["Civic_Enlightenment"],
 				"quote": "歌剧是，当一个人背后被捅了一刀，他不流血，他唱歌剧。\n——罗伯特·本奇利",
-				"uniques": ["[2] free [Unit_Envoy2] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 11,
 		"era": "Era_Industrial",
-		"techCost": 1050,
+		"techCost": 1070,
 		"buildingCost": 60,
 		"wonderCost": 1240,
 		"techs": [
@@ -665,28 +669,28 @@
 				"row": 9,
 				"prerequisites": ["Civic_Colonialism"],
 				"quote": "如果我参与造物，我会提出一些有用的建议使宇宙秩序更加和谐。\n——纳尔逊·艾格林",
-				"uniques": ["[2] free [Unit_Envoy2] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Urbanization",
 				"row": 11,
 				"prerequisites": ["Civic_Civil engineering","Civic_Nationalism"],
 				"quote": "我喜欢城市里所有的东西都很巨大，一切的美丽和丑陋。\n——约瑟夫·布罗茨基",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Scorched earth strategy",
 				"row": 14,
 				"prerequisites": ["Civic_Nationalism"],
 				"quote": "战争就是地狱。\n——威廉·特库姆塞·谢尔曼",
-				"uniques": ["[2] free [Unit_Envoy2] units appear"]
+				"uniques": ["[2] free [Unit_Envoy2] units appear","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 12,
 		"era": "Era_Modern",
-		"techCost": 1300,
+		"techCost": 1250,
 		"buildingCost": 60,
 		"wonderCost": 1620,
 		"techs": [
@@ -723,28 +727,28 @@
 				"row": 9,
 				"prerequisites": ["Civic_Natural history"],
 				"quote": "水和空气这两样生活必须品已变成全球垃圾桶了。\n——雅克·伊夫·库斯托",
-				"uniques": ["[3] free [Unit_Envoy2] units appear"]
+				"uniques": ["[3] free [Unit_Envoy2] units appear","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Mass media",
 				"row": 11,
 				"prerequisites": ["Civic_Natural history","Civic_Urbanization"],
 				"quote": "大众媒体的作用并不是让你产生信仰，而是让你保持对政党组织的兴趣。\n——克里斯托弗·拉什",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Mobilization",
 				"row": 13,
 				"prerequisites": ["Civic_Urbanization","Civic_Scorched earth strategy"],
 				"quote": "当他们为战争做准备时，那些最有发言权的人大量发表和平宣言，直到完成整个动员过程。\n——斯蒂芬·茨威格",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 13,
 		"era": "Era_Modern",
-		"techCost": 1575,
+		"techCost": 1370,
 		"buildingCost": 60,
 		"wonderCost": 1620,
 		"techs": [
@@ -760,21 +764,21 @@
 				"row": 10,
 				"prerequisites": ["Civic_Mass media"],
 				"quote": "资本主义的固有邪恶是幸福的不平等分享；社会主义的固有邪恶是痛苦的平等分享。\n——温斯顿·丘吉尔",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Ideology",
 				"row": 11,
 				"prerequisites": ["Civic_Mass media","Civic_Mobilization"],
 				"quote": "它表明没有一种系统，即使最不人道的，可以离开意识形态而继续存在。\n——乔·斯洛沃",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 14,
 		"era": "Era_Modern",
-		"techCost": 1800,
+		"techCost": 1480,
 		"buildingCost": 60,
 		"wonderCost": 1620,
 		"techs": [
@@ -807,35 +811,35 @@
 				"row": 10,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "原子能的释放，改变了除人类思考模式之外的一切…解决这个问题在于人心。早知道我就当个钟表匠了。\n——阿尔伯特·爱因斯坦",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Right to vote",
 				"row": 13,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "为什么对女性区别对待？妇女参政会成功，别在乎这些可怜的游击队性质的反对派。\n——维多利亚·伍德胡尔",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Tolalitarianism",
 				"row": 14,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "只有暴徒和精英会被极权主义本身的势头所吸引。依靠宣传才能获取民心。\n——汉娜o阿伦特",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Class struggle",
 				"row": 15,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "阶级斗争必然导致无产阶级专政。\n——卡尔·马克思",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 15,
 		"era": "Era_Atomic",
-		"techCost": 2200,
+		"techCost": 1660,
 		"buildingCost": 60,
 		"wonderCost": 1740,
 		"techs": [
@@ -872,21 +876,21 @@
 				"row": 9,
 				"prerequisites": ["Civic_Earth protection"],
 				"quote": "一个对历史、起源和文化不了解的人，就好比没有根的大树。\n——马库斯·加维",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Cold War",
 				"row": 11,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "从波罗的海的斯德丁到亚得里亚海的德里雅斯特，一幅横贯欧洲大陆的铁幕已经拉下。\n——温斯顿·丘吉尔",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 16,
 		"era": "Era_Atomic",
-		"techCost": 2500,
+		"techCost": 1850,
 		"buildingCost": 60,
 		"wonderCost": 1740,
 		"techs": [
@@ -924,14 +928,14 @@
 				"row": 11,
 				"prerequisites": ["Civic_Cold War"],
 				"quote": "立即认真执行一项好计划远比下周执行一项完美计划好。\n——乔治·史密斯·巴顿",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Space race",
 				"row": 12,
 				"prerequisites": ["Civic_Cold War"],
 				"quote": "美国宇航局花了上百万美元来研发可以在太空使用的圆珠笔。俄罗斯人带了支铅笔。\n——威尔·沙博",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Professional sports",
@@ -939,14 +943,14 @@
 				"row": 14,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "如果输赢不代表一切，那为什么还要在比赛中记分呢？\n——文斯·隆巴迪",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 17,
 		"era": "Era_Information",
-		"techCost": 3000,
+		"techCost": 2155,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -997,28 +1001,28 @@
 				"row": 10,
 				"prerequisites": ["Civic_Cultural heritage","Civic_Emergency deployment"],
 				"quote": "“我将在明媚的日光之下再度降临，为子孙后裔造下美好家园。”\n——《阿尔戈船英雄记》，罗德岛的阿波罗尼奥斯",
-				"uniques": ["[+2 Culture, +1 Science] from [Vegetation] tiles [in all cities]"]
+				"uniques": ["[+2 Culture, +1 Science] from [Vegetation] tiles [in all cities]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Globalization",
 				"row": 13,
 				"prerequisites": ["Civic_Emergency deployment","Civic_Space race"],
 				"quote": "据说，反对全球化就像反对万有引力定律。\n——科菲·安南",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Social media",
 				"row": 15,
 				"prerequisites": ["Civic_Space race","Civic_Professional sports"],
 				"quote": "在我所有重要的毫无意义的事里面，我应该先告诉你哪一件呢？\n——简·奥斯汀",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 18,
 		"era": "Era_Information",
-		"techCost": 3750,
+		"techCost": 2200,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -1048,35 +1052,35 @@
 				"row": 11,
 				"prerequisites": ["Civic_Environmentalism","Civic_Globalization"],
 				"quote": "司法是国家中人民之间的纽带，司法的施行即为对公正的裁定，这是政治社会长治久安的基本原则。\n——亚里士多德",
-				"uniques": ["[3] free [Unit_Envoy2] units appear","Provides [1] [Resource_Governor title]"]
+				"uniques": ["[3] free [Unit_Envoy2] units appear","Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Political adventures",
 				"row": 12,
 				"prerequisites": ["Civic_Globalization","Civic_Social media"],
 				"quote": "人之于其身心，主权之尊而无上，无异自主之一国也。\n——约翰·斯图尔特·密尔",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Decentralized sovereighty",
 				"row": 13,
 				"prerequisites": ["Civic_Globalization","Civic_Social media"],
 				"quote": "决断谷中人头攒动，因为主之日临近此处。\n——旧约《约珥书》3:14",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Optimization command",
 				"row": 14,
 				"prerequisites": ["Civic_Globalization","Civic_Social media"],
 				"quote": "我们发现，机械天才、感官敏锐之人、智力拔群之人皆异口同声称机器人仅仅是纯粹的机器，其行为不受人工操控。也正是因此，它无可比拟地成为了人类最伟大的发明。\n——埃德加·艾伦·坡",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 19,
 		"era": "Era_Near-future",
-		"techCost": 4300,
+		"techCost": 2500,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -1127,42 +1131,42 @@
 				"row": 10,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "将这恶人紧锁在尖锐的岩石上，\n永生不得释放。\n——埃斯库罗斯",
-				"uniques": ["[3] free [Unit_Envoy2] units appear","Provides [1] [Resource_Diplomatic favor]"]
+				"uniques": ["[3] free [Unit_Envoy2] units appear","Provides [1] [Resource_Diplomatic favor]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Smart power foctrine",
 				"row": 11,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "这一刻终将到来，且避无可避。构建在武力之上的所有体制都将在众目睽睽下暴露出无用、愚蠢，甚至不便，从而消逝殆尽。\n——列夫·托尔斯泰",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Information warfare",
 				"row": 12,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "“吾所与战之地不可知，不可知，则敌所备者多；敌所备者多，则吾所与战者，寡矣。”\n——孙子",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Necessity expedition",
 				"row": 13,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "“我最亲爱的人儿啊，这是个很久很久以前的故事啦。”\n——鲁德亚德·吉卜林",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Cultural hegemony",
 				"row": 14,
 				"prerequisites": ["Civic_Political adventures","Civic_Optimization command","Civic_Decentralized sovereighty"],
 				"quote": "啊，我的爱人，请倒满我面前的酒杯。\n让我们干杯，敬往昔的懊悔与未来的敬畏。\n为何不敬明日？\n因为，明日我会带着千年的忧愁再饮一杯。\n——爱德华·菲茨杰拉尔德",
-				"uniques": []
+				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
 	{
 		"columnNumber": 20,
 		"era": "Era_Near-future",
-		"techCost": 4500,
+		"techCost": 2600,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -1178,7 +1182,7 @@
 	{
 		"columnNumber": 21,
 		"era": "Era_Far-future",
-		"techCost": 5200,
+		"techCost": 3000,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [

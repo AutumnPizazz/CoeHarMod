@@ -2,13 +2,12 @@
     {
         "name": "Unit_Type_Civilian",
         "movementType": "Land",
-        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>"
-    ]
+        "uniques":[]
     },
     {
         "name": "Unit_Type_Civilian_Ship",
         "movementType": "Water",
-        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
+        "uniques":[]
     },
     {
         "name": "Unit_Type_Scout",
@@ -19,7 +18,9 @@
     {
         "name": "Unit_Type_Melee_Infantry",
         "movementType": "Land",
-        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>","Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
+        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
+        "Melee Infantry, Ranged Infantry and Anti Cavalry units"]
     },
     {
         "name": "Unit_Type_Monk",
@@ -32,7 +33,8 @@
         "uniques":["[-34]% Strength <vs cities> <when attacking> <during the [Era_Ancient]>",
         "[-58]% Strength <vs cities> <when attacking> <during the [Era_Classical]>",
         "[-96]% Strength <vs cities> <when attacking> <starting from the [Era_Medieval]>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
+        "Melee Infantry, Ranged Infantry and Anti Cavalry units"]
     },
     {
         "name": "Unit_Type_Siege",
@@ -58,7 +60,8 @@
         "movementType": "Land",
         "uniques":["[+51]% Strength <vs [Unit_Type_Light_Cavalry] units>",
         "[+51]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
+        "Melee Infantry, Ranged Infantry and Anti Cavalry units"]
     },
     {
         "name": "Unit_Type_Short_Ranged_Naval",
@@ -127,5 +130,11 @@
         "[+23]% Strength <for [All] units> <if [Governor_BloodContract_III] is constructed>",
         "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor_BloodContract_IV] is constructed>",
         "[-100]% XP gained from combat"]
+    },
+    {
+        "name": "Unit_Type_Civic_Civilian",
+        "movementType": "Land",
+        "uniques": ["Can move immediately once bought","Cannot move","No Sight","Unbuildable","Will not be displayed in Civilopedia"
+    ]
     }
 ]

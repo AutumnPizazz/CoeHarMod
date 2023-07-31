@@ -1,25 +1,100 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-15]% growth [in all cities] <when between [-2] and [-1] Happiness>",
-        "[-30]% growth [in all cities] <when between [-4] and [-3] Happiness>",
-        "[-45]% growth [in all cities] <when between [-6] and [-5] Happiness>",
-        "[-60]% growth [in all cities] <when between [-8] and [-7] Happiness>",
-        "[-75]% growth [in all cities] <when between [-10] and [-9] Happiness>",
-        "[-90]% growth [in all cities] <when between [-12] and [-11] Happiness>",
+        "[-15]% growth [in all cities] <when between [-2] and [0] Happiness>",
+        "[-30]% growth [in all cities] <when between [-4] and [-2] Happiness>",
+        "[-45]% growth [in all cities] <when between [-6] and [-4] Happiness>",
+        "[-60]% growth [in all cities] <when between [-8] and [-6] Happiness>",
+        "[-75]% growth [in all cities] <when between [-10] and [-8] Happiness>",
+        "[-90]% growth [in all cities] <when between [-12] and [-10] Happiness>",
         "Nullifies Growth [in all cities] <when below [-12] Happiness>",//以上都是宜居度对人口增长的影响
         "[-40]% [Production] [in all cities] <when below [-10] Happiness>",//宜居度过低降低生产力
         "[-10]% Strength <for [Military] units> <when below [-4] Happiness>",
         "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",//宜居度过低降低军队战斗力
         "Cannot build [Unit_Settler] units <when below [-11] Happiness>",//宜居度过低禁止移民
         "Rebel units may spawn <when below [-15] Happiness>",//宜居度过低会产生叛军
-		"[-100]% Strength for cities <when attacking>",//取消城市攻击
-		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
-		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
-		"[+1 Culture] per [5] population [in all cities]",//人头琴调整
+		"[-100]% Strength for cities <when attacking> <in cities without a [Building_Ancient_Walls]>",//取消初始城市攻击
+
         "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
-        "[+1 Happiness] in cities on [Fresh Water] tiles",
-//"[-1 Happiness] [in all cities] <in cities without a [Class_Raceline]>",//每个非淡水且未修建水渠的城市-1脸-1粮
+		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
+		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
+//废案  "[+1 Culture] per [5] population [in all cities]",//人头琴调整
+        "[+1 Culture] [in all cities] <in cities with at least [1] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [6] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [11] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [16] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [21] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",//新版人头琴调整
+
+
+/*      "[+1 Happiness] in cities on [Fresh Water] tiles",
+        "[-1 Happiness] [in all cities] <in cities without a [Class_Raceline]>",//每个非淡水且未修建水渠的城市-1脸-1粮*/
+
+
+
+        /*市政(文化)树修正*/
+        "May buy [Unit_Code] units for [20] [Culture] [in capital]",
+        "May buy [Unit_Skill] units for [40] [Culture] [in capital]",
+        "May buy [Unit_Basic trade] units for [40] [Culture] [in capital]",
+        "May buy [Unit_Military tradition] units for [50] [Culture] [in capital]",
+        "May buy [Unit_National labor force] units for [50] [Culture] [in capital]",
+        "May buy [Unit_Early Empire] units for [50] [Culture] [in capital]",
+        "May buy [Unit_Mysticism] units for [50] [Culture] [in capital]",
+        "May buy [Unit_Games and entertainment] units for [110] [Culture] [in capital]",
+        "May buy [Unit_Political philosophy] units for [110] [Culture] [in capital]",
+        "May buy [Unit_Drama and poetry] units for [110] [Culture] [in capital]",
+        "May buy [Unit_Military training] units for [120] [Culture] [in capital]",
+        "May buy [Unit_Defensive tactics] units for [120] [Culture] [in capital]",
+        "May buy [Unit_History] units for [120] [Culture] [in capital]",
+        "May buy [Unit_Theology] units for [120] [Culture] [in capital]",
+        "May buy [Unit_Naval tradition] units for [220] [Culture] [in capital]",
+        "May buy [Unit_Feudalism] units for [220] [Culture] [in capital]",
+        "May buy [Unit_Administration] units for [220] [Culture] [in capital]",
+        "May buy [Unit_Mercenaries] units for [340] [Culture] [in capital]",
+        "May buy [Unit_Medieval bazaar] units for [340] [Culture] [in capital]",
+        "May buy [Unit_Thw worker's union] units for [340] [Culture] [in capital]",
+        "May buy [Unit_Divin right of Kings] units for [340] [Culture] [in capital]",
+        "May buy [Unit_Exploration] units for [440] [Culture] [in capital]",
+        "May buy [Unit_Humanism] units for [440] [Culture] [in capital]",
+        "May buy [Unit_Foreigh service] units for [440] [Culture] [in capital]",
+        "May buy [Unit_Reformed church] units for [440] [Culture] [in capital]",
+        "May buy [Unit_Mercantilism] units for [720] [Culture] [in capital]",
+        "May buy [Unit_Enlightenment] units for [720] [Culture] [in capital]",
+        "May buy [Unit_Colonialism] units for [800] [Culture] [in capital]",
+        "May buy [Unit_Civil engineering] units for [800] [Culture] [in capital]",
+        "May buy [Unit_Nationalism] units for [800] [Culture] [in capital]",
+        "May buy [Unit_Opera and ballet] units for [800] [Culture] [in capital]",
+        "May buy [Unit_Natural history] units for [1050] [Culture] [in capital]",
+        "May buy [Unit_Urbanization] units for [1050] [Culture] [in capital]",
+        "May buy [Unit_Scorched earth strategy] units for [1050] [Culture] [in capital]",
+        "May buy [Unit_Earth protection] units for [1540] [Culture] [in capital]",
+        "May buy [Unit_Mobilization] units for [1540] [Culture] [in capital]",
+        "May buy [Unit_Mass media] units for [1540] [Culture] [in capital]",
+        "May buy [Unit_Capitalism] units for [1540] [Culture] [in capital]",
+        "May buy [Unit_Ideology] units for [1540] [Culture] [in capital]",
+        "May buy [Unit_Nuclear program] units for [1715] [Culture] [in capital]",
+        "May buy [Unit_Right to vote] units for [1715] [Culture] [in capital]",
+        "May buy [Unit_Tolalitarianism] units for [1715] [Culture] [in capital]",
+        "May buy [Unit_Class struggle] units for [1715] [Culture] [in capital]",
+        "May buy [Unit_Cultural heritage] units for [1955] [Culture] [in capital]",
+        "May buy [Unit_Cold War] units for [1955] [Culture] [in capital]",
+        "May buy [Unit_Professional sports] units for [1955] [Culture] [in capital]",
+        "May buy [Unit_Emergency deployment] units for [2415] [Culture] [in capital]",
+        "May buy [Unit_Space race] units for [2415] [Culture] [in capital]",
+        "May buy [Unit_Environmentalism] units for [2880] [Culture] [in capital]",
+        "May buy [Unit_Globalization] units for [2880] [Culture] [in capital]",
+        "May buy [Unit_Social media] units for [2880] [Culture] [in capital]",
+        "May buy [Unit_Near-future governance] units for [3100] [Culture] [in capital]",
+        "May buy [Unit_Political adventures] units for [3100] [Culture] [in capital]",
+        "May buy [Unit_Decentralized sovereighty] units for [3100] [Culture] [in capital]",
+        "May buy [Unit_Optimization command] units for [3100] [Culture] [in capital]",
+        "May buy [Unit_Global warming mitigation] units for [3200] [Culture] [in capital]",
+        "May buy [Unit_Smart power foctrine] units for [3200] [Culture] [in capital]",
+        "May buy [Unit_Information warfare] units for [3200] [Culture] [in capital]",
+        "May buy [Unit_Necessity expedition] units for [3200] [Culture] [in capital]",
+        "May buy [Unit_Cultural hegemony] units for [3200] [Culture] [in capital]",
+        "May buy [Unit_Future Municipal] units for [3500] [Culture] [in capital]",
     ]
 }
