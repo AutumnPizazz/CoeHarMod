@@ -64,7 +64,9 @@
 		"name":"Promotion_Blood",
 		"uniques":["It proves that you are a blood",
 		"This Unit gains the [Promotion_Bloodthirsty] promotion <for units with [Promotion_Blood]> <upon defeating a [Military] unit>",
-		"[-10] HP when healing"]
+		"[-10] HP when healing",
+        "Cannot move <for [3] turns> <for units with [Promotion_Blood]>",
+        "[-64]% Strength <for [3] turns> <for units with [Promotion_Blood]>"]
 	},
 	{//嗜血
 		"name":"Promotion_Bloodthirsty",
