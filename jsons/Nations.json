@@ -42,7 +42,8 @@
 
 		"uniqueName": "Hwarang",
 		"uniques": ["[+4]% [Science] from every [Building_Classification_Governor]",
-			"[+4]% [Culture] from every [Building_Classification_Governor]"],
+			"[+4]% [Culture] from every [Building_Classification_Governor]",
+			"[-25]% [Culture] [in all cities] <in cities without a [Building_Classification_Governor_Level_1]>"],
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
@@ -339,6 +340,53 @@
 		"hateHello": "",
 		"tradeRequest": ""
 	},
+	{//马里
+		"name": "Nation_Mali",
+		"leaderName": "Mansa Musa",
+		"adjective": ["Malian"],
+		"outerColor": [139, 69, 19], // 红褐色
+		"innerColor": [218, 165, 32], // 金色
+
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Victory type_Economic",
+
+		"uniqueName": "The Hajj",
+//		"uniqueText":"Receive bonus Faith and Gold for each foreign city following your religion",
+		"uniques": ["[+1 Food, +1 Faith, +1 Gold] [in all cities] <with [1] to [2] neighboring [Desert] tiles>",
+		"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
+		"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
+		"[-1 Production, +4 Gold] from every [Improvement_Mine]",
+		"[+1 Production] from [All] tiles [in all cities] <in [Desert] [Landform_Hill] tiles>",
+		"The previous description was incorrect. The actual meaning is: each desert hill provides +1⚙ production.",
+		"May buy [Building_Classification_Commercial_Hub_District] buildings with [Faith] [in all cities]",
+		"[-20]% [Production] [in all cities]",
+		"[+2 Food] from [All Road] tiles [in all cities] <in [Desert] tiles>",
+		"[+1 Gold] from [All Road] tiles [in all cities] <in [Desert] tiles> <after discovering [Tech_Currency]>",
+		"[+2 Gold] from [All Road] tiles [in all cities] <in [Desert] tiles> <after discovering [Tech_Banking]>",
+		"[+2 Gold] from [All Road] tiles [in all cities] <in [Desert] tiles> <after discovering [Tech_Economy]>"],
+
+		"cities": ["Timbuktu","Djenne","Gao","Koumbi Saleh","Walata","Aoudaghost","Niani","Segou","Kangaba","Bamako","Kita","Koulikoro","Mopti","Goundam","Tombouctou","Boucle du Baoule","Jenne-Jeno","Tondibi","Gao-Saney","Djenné-Djenno","Oualata","Kumbi","Manden-Kouroukan","Kangaba-Kouroukan"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	}, 
+
+
+
+
+
+
+
+
+
+
 
 	{
 		"name": "白板1号",

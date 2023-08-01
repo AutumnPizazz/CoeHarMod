@@ -1370,7 +1370,7 @@
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Era_Classical"]
 	},
-	{
+	{//骑士
 		"name":"Unit_Horse_Archer",
 		"unitType":"Unit_Type_Light_Cavalry",
 		"strength":281,//46
@@ -1472,6 +1472,22 @@
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
+	},
+	{//马里-曼德卡鲁骑兵
+		"name":"Unit_Mandekalu_Cavalry",
+		"replaces":"Unit_Knight",
+		"uniqueTo":"Nation_Mali",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":408,
+		"movement":4,
+		"cost":220,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Cuirassier",
+		"requiredTech": "Tech_Stirrups",
+		"obsoleteTech": "Tech_Ballistics",
+		"uniques":["Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+		"Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
 	},
 	{

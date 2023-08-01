@@ -299,7 +299,7 @@
 				"row": 11,
 				"prerequisites": ["Civic_Games and entertainment","Civic_Political philosophy"],
 				"quote": "不战而屈人之兵，善之善者也。\n——《道德经·三十一章》",
-				"uniques": ["Provides [1] [Resource_Governor title]"]
+				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_History",

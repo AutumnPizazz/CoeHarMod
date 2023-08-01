@@ -1831,7 +1831,7 @@
 		"name": "Building_Academy_of_Classical_Learning",
         "replaces":"Building_College_Unique",
         "uniqueTo":"Nation_Korea",
-		"cost": 22,
+		"cost": 33,
 		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech_Writing",
@@ -1839,7 +1839,7 @@
 		"specialistSlots": {"Specialist_Scientist": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
 		"uniques": ["Unsellable",
-		"Cost increases by [3] per owned city",
+		"Cost increases by [4] per owned city",
         "Creates a [Distict_Academy_of_Classical_Learning] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
@@ -1924,7 +1924,7 @@
 	},
 
     /*商业中心区域建筑*/
-    {
+    {//商业中心地标
 		"name": "Building_Commercial_Hub_Unique",
 		"cost": 44,
 		"hurryCostModifier":-33,
@@ -1936,6 +1936,26 @@
 		"uniques": ["Unsellable",
 		"Cost increases by [6] per owned city",
         "Creates a [District_Commercial_Hub] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
+        "Cannot be purchased"]
+	},
+    {//马里-曼丁哥市场
+		"name": "Building_Mandingo_Market",
+        "replaces":"Building_Commercial_Hub_Unique",
+        "uniqueTo":"Nation_Mali",
+		"cost": 22,
+		"hurryCostModifier":-33,
+		"maintenance": 1,
+		"requiredTech": "Tech_Currency",
+        "requiredResource":"Resource_district_limitation",
+		"specialistSlots": {"Specialist_Merchant": 1},
+		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
+		"uniques": ["Unsellable",
+		"Cost increases by [3] per owned city",
+        "Provides [4] [Resource_house_limitation]",
+        "[Gold] cost of purchasing [All] units [-20]% <in this city>",
+        "Creates a [District_Mandingo_Market] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",
         "Cannot be purchased"]
@@ -2815,18 +2835,24 @@
 	},
 
     /*胜利标志性建筑*/
+    {//世界银行
+        "name": "Building_EconomicVictory",
+        "requiredTech":"Tech_Banking",
+        "uniques": ["Unbuildable",
+        "Hidden when [Victory type_Economic] Victory is disabled"]
+    },   
     {//乌托邦计划
 		"name": "Building_Utopia_Project",
-		"cost": 2000,
+		"cost": 1000,
 		"uniques": ["Triggers a global alert upon build start",
         "Hidden until [1] social policy branches have been completed",
         "Only available <after discovering [Civic_Cultural hegemony]>",
         "Cannot be purchased",
         "Hidden when [Victory type_Culture] Victory is disabled"]
 	},
-    {
+    {//众拥之证
 		"name": "Building_Domination_Victory",
-		"cost": 300,
+		"cost": 1000,
 		"hurryCostModifier":-33,
 		"uniques": ["Triggers a global alert upon build start",
         "Consumes [14] [Resource_Diplomatic favor]",

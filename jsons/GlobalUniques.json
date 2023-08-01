@@ -96,5 +96,9 @@
         "May buy [Unit_Necessity expedition] units for [3200] [Culture] [in capital]",
         "May buy [Unit_Cultural hegemony] units for [3200] [Culture] [in capital]",
         "May buy [Unit_Future Municipal] units for [3500] [Culture] [in capital]",
-    ]
+
+
+
+        /*经济胜利配套*/
+        "May buy [Building_EconomicVictory] buildings for [50000] [Gold] [in capital]",    ]
 }
