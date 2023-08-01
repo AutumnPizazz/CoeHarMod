@@ -357,12 +357,10 @@
 		"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
 		"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
 		"May buy [Building_Classification_Commercial_Hub_District] buildings with [Faith] [in all cities]",
+		"[+100]% [Gold] from Trade Routes",
 		"[-30]% [Production] [in all cities]",
 		"[-1 Production, +3 Gold] from every [Improvement_Mine]",
 		"[+1 Production] from [All] tiles [in all cities] <in [Desert] [Landform_Hill] tiles>",
-		"[+1 Gold] from [All] tiles [in all cities] <in [Desert] [All Road] tiles> <after discovering [Tech_Currency]>",
-		"[+2 Gold] from [All] tiles [in all cities] <in [Desert] [All Road] tiles> <after discovering [Tech_Banking]>",
-		"[+2 Gold] from [All] tiles [in all cities] <in [Desert] [All Road] tiles> <after discovering [Tech_Economy]>",
 		"The previous description was incorrect.'stats from All tiles in all cities in tileFilter tileFilter tiles' means that 'stats from every tileFilter tileFilter'"],
 
 		"cities": ["Timbuktu","Djenne","Gao","Koumbi Saleh","Walata","Aoudaghost","Niani","Segou","Kangaba","Bamako","Kita","Koulikoro","Mopti","Goundam","Tombouctou","Boucle du Baoule","Jenne-Jeno","Tondibi","Gao-Saney","Djenné-Djenno","Oualata","Kumbi","Manden-Kouroukan","Kangaba-Kouroukan"],
@@ -490,6 +488,8 @@
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
 		"cityStateType": "Citystate type_Cultural",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -502,6 +502,8 @@
 		"name": "Florence",
 		"adjective": ["Florentine"],
 		"cityStateType": "Citystate type_Cultural",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -514,6 +516,8 @@
 		"name": "Hanoi",
 		"adjective": ["Hanoi"],
 		"cityStateType": "Citystate type_Cultural",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -526,6 +530,8 @@
 		"name": "Kabul",
 		"adjective": ["Kabul"],
 		"cityStateType": "Citystate type_Cultural",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -538,6 +544,8 @@
 		"name": "Kuala Lumpur",
 		"adjective": ["KLite"],
 		"cityStateType": "Citystate type_Scientific",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -551,6 +559,8 @@
 		"translatedName": "Lhasa",
 		"adjective": ["tibetano"],
 		"cityStateType": "Citystate type_Scientific",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -563,6 +573,8 @@
 		"name": "Milan",
 		"adjective": ["Milanese"],
 		"cityStateType": "Citystate type_Cultural",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -575,6 +587,8 @@
 		"name": "Quebec City",
 		"adjective": ["Québécois"],
 		"cityStateType": "Citystate type_Scientific",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -588,6 +602,8 @@
 		"name": "Cape Town",
 		"adjective": ["Cape Town"],
 		"cityStateType": "Citystate type_Scientific",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -600,6 +616,8 @@
 		"name": "Helsinki",
 		"adjective": ["Helsinki"],
 		"cityStateType": "Citystate type_Scientific",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -612,6 +630,8 @@
 		"name": "Manila",
 		"adjective": ["Manilan"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -624,6 +644,8 @@
 		"name": "Mogadishu",
 		"adjective": ["Mogadishu"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -636,6 +658,8 @@
 		"name": "Rio de Janeiro",
 		"adjective": ["Carioca"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
@@ -649,6 +673,8 @@
 		"name": "Sydney",
 		"adjective": ["Sydney"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
@@ -661,6 +687,8 @@
 		"name": "Ur",
 		"adjective": ["Ur"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
@@ -675,6 +703,8 @@
 		"translatedName": "Vancouver",
 		"adjective": ["Vancouverite"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
 		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
@@ -687,6 +717,8 @@
 		"name": "Venice",
 		"adjective": ["Venetian"],
 		"cityStateType": "Citystate type_Industrial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
@@ -701,6 +733,8 @@
 		"name": "Antwerp",
 		"adjective": ["Antwerp"],
 		"cityStateType": "Citystate type_Commercial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -714,6 +748,8 @@
 		"name": "Genoa",
 		"adjective": ["Genoese"],
 		"cityStateType": "Citystate type_Commercial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -727,6 +763,8 @@
 		"name": "Kathmandu",
 		"adjective": ["Kathmandu"],
 		"cityStateType": "Citystate type_Commercial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -739,6 +777,8 @@
 		"name": "Singapore",
 		"adjective": ["Singaporean"],
 		"cityStateType": "Citystate type_Commercial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -751,6 +791,8 @@
 		"name": "Tyre",
 		"adjective": ["Tyrian"],
 		"cityStateType": "Citystate type_Commercial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -764,6 +806,8 @@
 		"name": "Zanzibar",
 		"adjective": ["Zanzibar"],
 		"cityStateType": "Citystate type_Commercial",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -777,6 +821,8 @@
 		"name": "Almaty",
 		"adjective": ["Almaty"],
 		"cityStateType": "Citystate type_Military",
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -788,6 +834,8 @@
 	{
 		"name": "Belgrade",
 		"adjective": ["Belgrade"],
+		"uniques":["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 		"cityStateType": "Citystate type_Military",
 
 		"declaringWar": "Let's have a nice little War, shall we?",
@@ -808,7 +856,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
 		"cities": ["Dublin"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"]
 	},
 	{
 		"name": "Edinburgh",
@@ -821,12 +870,15 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"cities": ["Edinburgh"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"]
 	},
 	{
 		"name": "M'Banza-Kongo",
 		"adjective": ["M'Banza-Kongo"],
 		"cityStateType": "Citystate type_Military",
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
@@ -839,6 +891,8 @@
 		"name": "Sidon",
 		"adjective": ["Sidon"],
 		"cityStateType": "Citystate type_Military",
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -851,6 +905,8 @@
 		"name": "Valletta",
 		"adjective": ["maltese"],
 		"cityStateType": "Citystate type_Military",
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "We don't like your face. To arms!",
 		"attacked": "You will see you have just bitten off more than you can chew.",
@@ -864,6 +920,8 @@
 		"name": "Bratislava",
 		"adjective": ["Bratislava"],
 		"cityStateType": "Citystate type_Religious",
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "I will fear no evil. For god is with me!",
@@ -876,6 +934,8 @@
 		"name": "Cahokia",
 		"adjective": ["Cahokia"],
 		"cityStateType": "Citystate type_Religious",
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -888,6 +948,8 @@
 		"name": "Jerusalem",
 		"adjective": ["Jerusalem"],
 		"cityStateType": "Citystate type_Religious",
+		"uniques": ["[+1900]% Culture cost of natural border growth [in all cities]",
+		"[+1900]% Gold cost of acquiring tiles [in all cities]"],
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
