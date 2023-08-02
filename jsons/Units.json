@@ -915,18 +915,47 @@
 		],
 		"movement": 4
 	},
-	{//武僧
-		"name":"Unit_Monk",
+	{//I级武僧
+		"name":"Unit_MonkI",
 		"unitType":"Unit_Type_Monk",
-		"strength":100,//20
+		"strength":123,//25
 		"movement":3,
-		"uniques":["[+50]% Strength <after discovering [Civic_Code]>",//150力
-			"[+50]% Strength <after discovering [Civic_Mysticism]>",//200力
-			"[+80]% Strength <after discovering [Civic_Theology]>",//280力
-			"[+130]% Strength <after discovering [Civic_Divin right of Kings]>",//350力
-			"[+50]% Strength <after discovering [Civic_Reformed church]>",//400力
-			"Unbuildable","Religious Unit"],
-		"religiousStrength": 1000
+		"uniques":["Unbuildable","Religious Unit"]
+	},
+	{//II级武僧
+		"name":"Unit_MonkII",
+		"unitType":"Unit_Type_Monk",
+		"strength":229,//40
+		"movement":3,
+		"uniques":["Unbuildable","Religious Unit"]
+	},
+	{//III级武僧
+		"name":"Unit_MonkIII",
+		"unitType":"Unit_Type_Monk",
+		"strength":346,//50
+		"movement":3,
+		"uniques":["Unbuildable","Religious Unit"]
+	},
+	{//IV级武僧
+		"name":"Unit_MonkIV",
+		"unitType":"Unit_Type_Monk",
+		"strength":523,//60
+		"movement":3,
+		"uniques":["Unbuildable","Religious Unit"]
+	},
+	{//V级武僧
+		"name":"Unit_MonkV",
+		"unitType":"Unit_Type_Monk",
+		"strength":789,//70
+		"movement":3,
+		"uniques":["Unbuildable","Religious Unit"]
+	},
+	{//VI级武僧
+		"name":"Unit_MonkVI",
+		"unitType":"Unit_Type_Monk",
+		"strength":1191,//80
+		"movement":3,
+		"uniques":["Unbuildable","Religious Unit"]
 	},
 
 	/*侦察单位*/
@@ -992,7 +1021,8 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
-		"uniques":["Era_Ancient"]
+		"uniques":["Era_Ancient",
+		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//高卢-高卢枪佣兵
 		"name":"Unit_Gallic_gun_mercenary",
@@ -1014,7 +1044,8 @@
 		"[+51]% Strength <vs [Era_Information] units>",
 		"[+51]% Strength <vs [Era_Near-future] units>",
 		"[+51]% Strength <vs [Era_Far-future] units>",
-		"Era_Ancient"],
+		"Era_Ancient",
+		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"],
 		"replacementTextForUniques":"+51% combat power against more advanced era units"
 	},
 	{//阿兹特克-雄鹰战士
@@ -1029,7 +1060,8 @@
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
-		"Era_Ancient"]
+		"Era_Ancient",
+		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//巴比伦-主力军团
 		"name":"Unit_Main_Corps",
@@ -1057,7 +1089,8 @@
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//罗马-罗马军团
 		"name":"Unit_Roman_Legion",
@@ -1078,7 +1111,8 @@
 			"Can build [Remove Landform_Nuclear fallout] improvements on tiles",
 			"Can build [Remove Landform_Swamp] improvements on tiles",
 			"Instantly consumes [8] [Resource_Iron]",
-			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
+			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+			"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//波斯-长生军
 		"name":"Unit_Immortal",
@@ -1096,7 +1130,8 @@
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["[-28]% Strength <when attacking>",
 		"Instantly consumes [5] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//披甲战士
 		"name":"Unit_Hoplite",
@@ -1109,7 +1144,8 @@
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{
 		"name":"Unit_Musketman",
@@ -1122,7 +1158,8 @@
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance"]
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{
 		"name":"Unit_Line_Infantry",
@@ -1135,7 +1172,8 @@
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial"]
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
+		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{
 		"name":"Unit_Infantry",
@@ -1150,7 +1188,8 @@
 		"obsoleteTech": "Tech_Satellite",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"[-64]% Strength <when below [0] [Resource_Oil]>",
-		"Era_Modern"]
+		"Era_Modern",
+		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{
 		"name":"Unit_Mechanized_Infantry",
@@ -1479,15 +1518,15 @@
 		"replaces":"Unit_Knight",
 		"uniqueTo":"Nation_Mali",
 		"unitType":"Unit_Type_Heavy_Cavalry",
-		"strength":408,
+		"strength":375,//52
 		"movement":4,
-		"cost":220,
+		"cost":200,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-		"Instantly consumes [10] [Resource_Iron]",
+		"uniques":["Earn [35]% of killed [Military] unit's [Strength] as [Gold]",
+		"Instantly consumes [8] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
 	},
 	{

@@ -67,14 +67,14 @@
 		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Lijia",
-		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending\nFor every city with ten or more population +2 science +2 culture +3 Gold for every 3 population",
+		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending\nFor every city with nine or more population +2 science +2 culture +3 Gold for every 3 population",
 		"uniques": ["Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [100]%",
 		"Enables conversion of city production to [Gold]",
 		"Production to [Gold] conversion in cities changed by [100]%",
 		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>",
-		"[+2 Science, +2 Culture] per [3] population [in all cities] <in cities with at least [10] [Population]>",
-		"[+1 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>"],
+		"[+2 Science, +2 Culture] per [3] population [in all cities] <in cities with at least [9] [Population]>",
+		"[+1 Gold] per [1] population [in all cities] <in cities with at least [9] [Population]>"],
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	

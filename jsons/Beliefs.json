@@ -226,10 +226,10 @@
             "type": "Follower",
             "uniques": ["[+4 Faith, +1 Happiness] from every [World Wonder]"]
         },
-        {
+        {//武僧
             "name": "Follower belief_Martial arts",
             "type": "Follower",
-            "uniques": ["May buy [Unit_Monk] units for [200] [Faith] [in capital] at an increasing price ([50])"]
+            "uniques": ["All Melee Infantry units can be transfered as Monk"]
         },
         {
             "name": "Follower belief_Jesuit education",

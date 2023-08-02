@@ -7629,6 +7629,48 @@ UnitIcons/Unit_Monk
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Unit_MonkI
+  rotate: false
+  xy: 140, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkII
+  rotate: false
+  xy: 140, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkIII
+  rotate: false
+  xy: 140, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkIV
+  rotate: false
+  xy: 140, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkV
+  rotate: false
+  xy: 140, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkVI
+  rotate: false
+  xy: 140, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Unit_Musketman
   rotate: false
   xy: 1928, 1512

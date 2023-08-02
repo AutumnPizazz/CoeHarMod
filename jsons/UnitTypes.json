@@ -25,7 +25,10 @@
     {
         "name": "Unit_Type_Monk",
         "movementType": "Land",
-        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>","Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
+        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
+        "Earn [20]% of killed [Military] unit's [Strength] as [Faith]",
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
+        "Limited to [6] per Civilization"]
     },
     {
         "name": "Unit_Type_Ranged_Infantry",

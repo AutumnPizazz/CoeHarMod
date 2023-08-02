@@ -98,19 +98,13 @@
     },
 	{
 		"name": "Promotion_Shadowless_Fist",
-		"uniques": ["[+100]% to Flank Attack bonuses <after discovering [Civic_Code]>",
-		"[+300]% to Flank Attack bonuses <after discovering [Civic_Mysticism]>",
-		"[+500]% to Flank Attack bonuses <after discovering [Civic_Theology]>",
-		"[+700]% to Flank Attack bonuses <after discovering [Civic_Divin right of Kings]>",
-		"[+900]% to Flank Attack bonuses <after discovering [Civic_Reformed church]>"
-	],
+		"uniques": ["[+100]% to Flank Attack bonuses"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 1
     },
 	{
 		"name": "Promotion_Disciple",
-		"prerequisites":["Promotion_Hypnotic_Screen"],
 		"uniques": ["Can [Spread Religion] [4] times"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
@@ -118,20 +112,13 @@
     },
 	{
 		"name": "Promotion_Heart_Piercing_Palm",
-		"prerequisites":["Promotion_Shadowless_Fist"],
-		"uniques": ["[+51]% Strength <after discovering [Civic_Code]>",
-		"[+58]% Strength <after discovering [Civic_Mysticism]>",
-		"[+70]% Strength <after discovering [Civic_Theology]>",
-		"[+76]% Strength <after discovering [Civic_Divin right of Kings]>",
-		"[+80]% Strength <after discovering [Civic_Reformed church]>"
-	],
+		"uniques": ["[+51]% Strength"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
         "row": 2
     },
 	{
 		"name": "Promotion_Wind_Dance_Fist",
-		"prerequisites":["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
@@ -139,7 +126,6 @@
     },
 	{
 		"name": "Promotion_White_Crane_Fist",
-		"prerequisites":["Promotion_Disciple","Promotion_Heart_Piercing_Palm"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 2,
@@ -147,12 +133,7 @@
     },
 	{
 		"name": "Promotion_Snake_Style_Fist",
-		"prerequisites":["Promotion_Wind_Dance_Fist","Promotion_White_Crane_Fist"],
-		"uniques": ["[+51]% Strength <after discovering [Civic_Code]>",
-		"[+58]% Strength <after discovering [Civic_Mysticism]>",
-		"[+70]% Strength <after discovering [Civic_Theology]>",
-		"[+76]% Strength <after discovering [Civic_Divin right of Kings]>",
-		"[+80]% Strength <after discovering [Civic_Reformed church]>"],
+		"uniques": ["[+183]% Strength"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 4
