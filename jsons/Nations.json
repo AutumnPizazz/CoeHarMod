@@ -375,6 +375,56 @@
 		"hateHello": "",
 		"tradeRequest": ""
 	}, 
+	{//希腊
+		"name": "Nation_Greece",
+		"leaderName": "Gorgon",
+		"adjective": ["Greek"],
+		"outerColor": [0, 102, 204], // 蓝色
+		"innerColor": [255, 255, 255], // 白色
+
+		"startBias": ["Landform_Hill"],
+		"preferredVictoryType": "Victory type_Culture",
+		
+		"uniqueName": "Plato's Republic",
+		"uniques": ["Provides [1] [Resource_Generic policy slot] <after discovering [Civic_Political philosophy]>",
+		"Earn [6]% of killed [Military] unit's [Strength] as [Culture]"],
+		
+		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes","Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios","Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon","Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis","Patras","Lamia","Nafplion","Apolyton"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},/*
+	{//奥斯曼
+		"name": "Nation_Ottoman",
+		"leaderName": "Suleiman",
+		"adjective": ["Ottoman"],
+		"outerColor": [255, 153, 51], // 橙色
+		"innerColor": [255, 255, 255], // 白色
+		"startBias": ["Landform_Desert"],
+		"preferredVictoryType": "Victory type_Domination",
+		
+		"uniqueName": "Janissary",
+		"uniques": [],
+		
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya","Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar","Bitlis","Yalova"],
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},*/
 
 
 

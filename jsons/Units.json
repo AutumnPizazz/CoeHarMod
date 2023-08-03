@@ -692,6 +692,16 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
+	{//地热发电厂施工队
+		"name": "Unit_GeothermalPowerPlantConstructionTeam",
+		"unitType": "Unit_Type_Civilian",
+		"movement": 2,
+		"requiredTech":"Tech_Synthetic",
+		"uniques": ["Can instantly construct a [Improvement_GeothermalPowerPlant] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
 	{//商人
 		"name": "Unit_Trader",
 		"unitType": "Unit_Type_Civilian",
@@ -775,6 +785,18 @@
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
+
+	/*保护区划界人*/
+	{
+		"name":"Unit_Protection_Zone",
+		"unitType":"Unit_Type_Civilian",
+		"movement":4,
+		"uniques":["Unbuildable",
+		"Can instantly construct a [Improvement_Protection_Zone] improvement <[5] times>",
+		"Can instantly construct a [Improvement_Protection_Zone] improvement <by consuming this unit>"]
+	},
+
+
 
 	/*特殊单位*/
 	{//专业间谍
@@ -1569,7 +1591,7 @@
 	},
 
 	/*抗骑兵*/
-	{
+	{//枪兵
 		"name":"Unit_Spearman",
 		"unitType":"Unit_Type_Anti_Cavalry",
 		"strength":123,//25
@@ -1580,6 +1602,20 @@
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
 		"uniques":["Era_Ancient"]
+	},
+	{//希腊-重装步兵
+		"name":"Unit_Heavy_Infantry",
+		"replaces":"Unit_Spearman",
+		"uniqueTo":"Nation_Greece",
+		"unitType":"Unit_Type_Anti_Cavalry",
+		"strength":123,//25
+		"movement":2,
+		"cost":65,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Pikeman",
+		"requiredTech": "Tech_Copper casting",
+		"obsoleteTech": "Tech_Tactics",
+		"uniques":["Era_Ancient","[+51]% Strength <when adjacent to a [Unit_Heavy_Infantry] unit>"]
 	},
 	{
 		"name":"Unit_Pikeman",

@@ -233,6 +233,30 @@
 			"Classification_District",
 			"Class_Theater_Square"]
 	},
+	{//希腊-卫城
+		"name": "District_Acropolis",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":0,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+			"Tile provides yield without assigned population",
+			"[+1 Culture] for each adjacent [Classification_District]",
+			"[+1 Culture] for each adjacent [City center]",
+			"[+2 Culture] for each adjacent [District_Class_Wonder]",
+			"[+2 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
+			"[+1 Culture] for each adjacent [Class_Government_Plaza]",
+			"[+1 Culture] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+			"Removes removable features when built",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Classification_District",
+			"Class_Theater_Square"]
+	},
 	{//商业中心
 		"name": "District_Commercial_Hub",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
@@ -503,6 +527,24 @@
 					"Classification_District",
 					"Class_Raceline"]
 	},
+	{//保护区
+		"name": "Distinct_Protection_Zone",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Removes removable features when built",
+					"Irremovable",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District",
+					"Class_Protection_Zone"]
+	},
 	
 	/*全文明通用改良*/
 	{//农田
@@ -685,6 +727,26 @@
 		"Can only be built to improve a resource",
 		"Unpillagable",
 		"Class_Usual_Improvement"]
+	},
+	{//地热发电厂
+		"name": "Improvement_GeothermalPowerPlant",
+		"terrainsCanBeBuiltOn": ["Landform_Geothermal fissure"],
+		"production":2,
+		"science":1,
+		"techRequired": "Tech_Synthetic",
+		"uniques": ["Provides [2] [Resource_Electricity]",
+		"Pillaging this improvement yields approximately [+20 Science]",
+		"Class_Usual_Improvement"]
+	},
+	{//受保护区块
+		"name": "Improvement_Protection_Zone",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Unit_Mysticism",
+		"uniques": [
+			"Does not need removal of [Landform_Swamp]",
+			"Does not need removal of [Landform_Rainforest]",
+			"Does not need removal of [Landform_Forest]",
+		"Pillaging this improvement yields approximately [+10 Culture]"]
 	},
 
 	//军事设施

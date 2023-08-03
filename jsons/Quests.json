@@ -38,7 +38,7 @@
           "Citystate type_Cultural": 3,
           "Citystate type_Scientific": 3
       }
-  },
+  },/*
   {
     "name": "任用阿玛尼总督",
     "description": "We recommend you to start building [Governor_Amani_I] to show the whole world your civilization strength.",
@@ -64,7 +64,7 @@
           "Citystate type_Industrial": 3,
           "Citystate type_Commercial": 3
       }
-  },
+  },*/
   {
     "name": "Acquire Great Person",
     "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
