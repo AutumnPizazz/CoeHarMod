@@ -741,7 +741,7 @@
 	{//受保护区块
 		"name": "Improvement_Protection_Zone",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"techRequired": "Unit_Mysticism",
+		"techRequired": "Civic_Mysticism",
 		"uniques": [
 			"Does not need removal of [Landform_Swamp]",
 			"Does not need removal of [Landform_Rainforest]",
