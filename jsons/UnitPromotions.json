@@ -896,6 +896,8 @@
 	/*文明能力*/
 	{//奥斯曼-苏丹亲兵能力
 		"name":"[Unit_Sudanese_Paramilitary] ability",
-		"uniques":["Unit will heal every turn, even if it performs an action","[-3] HP when healing"]
+		"uniques":["Unit will heal every turn, even if it performs an action",
+		"[-3] HP when healing",
+		"Heals [15] damage if it kills a unit"]
 	},
 ]
