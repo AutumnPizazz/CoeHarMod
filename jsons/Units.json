@@ -1169,7 +1169,7 @@
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
 		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>"]
 	},
-	{
+	{//火枪手
 		"name":"Unit_Musketman",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":425,//55
@@ -1182,6 +1182,24 @@
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"]
+	},
+	{//奥斯曼-苏丹亲兵
+		"name":"Unit_Sudanese_Paramilitary",
+		"replaces":"Unit_Musketman",
+		"uniqueTo":"Nation_Ottoman",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":523,//60
+		"movement":2,
+		"cost":360,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Line_Infantry",
+		"requiredTech": "Tech_Gunpowder",
+		"obsoleteTech": "Tech_Military science",
+		"uniques":["[-2] population in a random city <upon being defeated>",
+		"Instantly consumes [15] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"],
+		"promotions":["[Unit_Sudanese_Paramilitary] ability"]
 	},
 	{
 		"name":"Unit_Line_Infantry",

@@ -530,6 +530,79 @@
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
 
+    /*文明特色总督*/
+    {//大维齐尔I
+        "name": "Governor_GrandVizier_I",
+        "cost": 0,
+        "uniques":["[+20]% Production when constructing [Military] units [in all cities]",
+            "[+23]% Strength <for [Military] units> <vs cities> <when attacking>",
+            "Only available <starting from the [Era_Ancient]>",
+            "Only available <for [Nation_Ottoman]>",
+            "Only available <in cities without a [Building_Classification_Governor_Level_1]>",
+            "Unsellable",
+            "Building_Classification_Governor_Level_1",
+            "Building_Classification_Governor",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
+    },
+    {//大维齐尔II
+        "name": "Governor_GrandVizier_II",
+        "cost": 0,
+        "cityStrength":"50",
+        "requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GrandVizier_I",
+        "uniques":["[+13]% Strength <for [{Military} {Land}] units> <in [Friendly Land] tiles>",
+            "Provides [2] [Resource_Influence]",
+            "Only available <starting from the [Era_Classical]>",
+            "Only available <for [Nation_Ottoman]>",
+            "Only available <in cities with a [Governor_GrandVizier_I]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Building_Classification_Governor",
+            "Can only be built [in capital]",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
+    },
+    {//大维齐尔III
+        "name": "Governor_GrandVizier_III",
+        "cost": 0,
+        "requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GrandVizier_II",
+        "uniques":["Free Technology",
+            "Instantly provides [60] [Resource_Horse]",
+            "Instantly provides [60] [Resource_Iron]",
+            "Only available <starting from the [Era_Medieval]>",
+            "Only available <for [Nation_Ottoman]>",
+            "Only available <in cities with a [Governor_GrandVizier_II]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Building_Classification_Governor",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
+    },
+    {//大维齐尔IV
+        "name": "Governor_GrandVizier_IV",
+        "cost": 0,
+        "requiredResource": "Resource_Governor title",
+        "requiredBuilding":"Governor_GrandVizier_III",
+        "uniques":[
+            "Instantly provides [40] [Resource_Niter]",
+            "Instantly provides [5] [Resource_Niter] <upon gaining a [Unit_Sudanese_Paramilitary] unit>",
+            "[+75]% Production when constructing [Unit_Sudanese_Paramilitary] units [in this city]",
+            "Only available <starting from the [Era_Renaissance]>",
+            "Only available <for [Nation_Ottoman]>",
+            "Only available <in cities with a [Governor_GrandVizier_III]>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Can only be built [in capital]",
+            "Building_Classification_Governor",
+            "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Viceroy] Victory is disabled"]
+    },
+
     /*通用总督建筑*/
 	{
 	    "name": "Governor_Magnus_I",
@@ -1980,7 +2053,7 @@
         "Never destroyed when the city is captured",
 		"Unsellable"]
     },
-	{
+	{//银行
 		"name": "Building_Bank",
 		"cost":280,
 		"hurryCostModifier":-33,
@@ -1990,6 +2063,23 @@
 		"specialistSlots": {"Specialist_Merchant": 1},
 		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
 		"uniques": [
+		"Cost increases by [6] per owned city",
+        "Building_Classification_Commercial_Hub_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+	},
+	{//奥斯曼-大巴扎
+		"name": "Building_Bazaar",
+        "replaces":"Building_Bank",
+        "uniqueTo":"Nation_Ottoman",
+		"cost":200,
+		"hurryCostModifier":-33,
+		"gold":6, 
+        "requiredBuilding":"Building_Market",
+        "requiredTech":"Tech_Banking",
+		"specialistSlots": {"Specialist_Merchant": 1},
+		"greatPersonPoints": {"GreatPerson_Class_Merchant": 1},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 		"Cost increases by [6] per owned city",
         "Building_Classification_Commercial_Hub_District",
         "Never destroyed when the city is captured",

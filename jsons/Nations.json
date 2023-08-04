@@ -400,18 +400,42 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": ""
-	},/*
+	},
 	{//奥斯曼
 		"name": "Nation_Ottoman",
 		"leaderName": "Suleiman",
 		"adjective": ["Ottoman"],
-		"outerColor": [255, 153, 51], // 橙色
-		"innerColor": [255, 255, 255], // 白色
-		"startBias": ["Landform_Desert"],
+		"outerColor": [0, 128, 0], // 绿色
+		"innerColor": [255, 255, 102], // 黄色
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Victory type_Domination",
 		
-		"uniqueName": "Janissary",
-		"uniques": [],
+		"uniqueName": "Grand Vizier",
+		"uniques": ["Civilization-unique Governor: Grand Vizier",
+		"Provides [1] [Resource_Governor title] <after discovering [Tech_Gunpowder]>"],
+		"civilopediaText":[
+/*        {
+            "separator":true,
+            "color":"#FFFFFF",
+	        "size":2
+        },*/
+		{
+			"text": "Governor_GrandVizier_I",
+			"link": "Building/Governor_GrandVizier_I"
+		},
+		{
+			"text": "Governor_GrandVizier_II",
+			"link": "Building/Governor_GrandVizier_II"
+		},
+		{
+			"text": "Governor_GrandVizier_III",
+			"link": "Building/Governor_GrandVizier_III"
+		},
+		{
+			"text": "Governor_GrandVizier_IV",
+			"link": "Building/Governor_GrandVizier_IV"
+		}
+	],
 		
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya","Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar","Bitlis","Yalova"],
 		
@@ -424,7 +448,7 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": ""
-	},*/
+	},
 
 
 

@@ -186,7 +186,7 @@
         {//农耕女神
             "name": "Pantheon_Goddess of agriculture",
             "type": "Pantheon",
-            "uniques": ["[+1 Food] from every [Improvement_Farm]"]
+            "uniques": ["[+1 Gold] from every [Improvement_Farm]"]
         },
         {//祈龙仪式
             "name": "Pantheon_Dragon prayer ceremony",
@@ -231,18 +231,13 @@
             "type": "Follower",
             "uniques": ["All Melee Infantry units can be transfered as Monk"]
         },
-        {
+        {//耶稣会教育
             "name": "Follower belief_Jesuit education",
             "type": "Follower",
-            "uniques": ["May buy [Building_Library] buildings for [75] [Faith] [in all cities]",
-            "May buy [Building_University] buildings for [150] [Faith] [in all cities]",
-            "May buy [Building_Research_Lab] buildings for [300] [Faith] [in all cities]",
-            "May buy [Building_Amphitheater] buildings for [75] [Faith] [in all cities]",
-            "May buy [Building_Art_Museum] buildings for [150] [Faith] [in all cities]",
-            "May buy [Building_Archaeological_Museum] buildings for [150] [Faith] [in all cities]",
-            "May buy [Building_Broadcast_Center] buildings for [300] [Faith] [in all cities]"]
-        },//价格待定
-        {
+            "uniques": ["May buy [Building_Classification_College_District] buildings with [Faith] [in all cities]",
+            "May buy [Building_Classification_Theater_Square_District] buildings with [Faith] [in all cities]"]
+        },
+        {//职业道德
             "name": "Follower belief_Professional ethics",
             "type": "Follower",
             "uniques": ["[+1]% [Production] from every follower, up to [25]%",

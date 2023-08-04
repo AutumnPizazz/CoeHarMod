@@ -894,5 +894,8 @@
 	},
 
 	/*文明能力*/
-	
+	{//奥斯曼-苏丹亲兵能力
+		"name":"[Unit_Sudanese_Paramilitary] ability",
+		"uniques":["Heal this unit by [10] HP <upon losing at least [25] HP in a single attack>"]
+	},
 ]

@@ -348,7 +348,19 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
+	},/*
+	{
+		"name": "Resource_Era_Score1",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
+	{
+		"name": "Resource_Era_Score2",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},*/
 	
 	//奢侈品资源
 	{
