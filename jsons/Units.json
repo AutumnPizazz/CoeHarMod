@@ -514,7 +514,6 @@
 		"name": "GreatPerson_Class_General",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
@@ -532,7 +531,6 @@
 		"name": "GreatPerson_Class_Admiral",
 		"unitType": "Unit_Type_Civilian_Ship",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[23]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 5
