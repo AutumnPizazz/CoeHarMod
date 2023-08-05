@@ -917,6 +917,7 @@
 		"name": "Unit_Missionary",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": ["Can [Spread Religion] [3] times",
+		"[+13]% Strength bonus for [Military] units within [1] tiles <if [Artificialwonder_Maebad_Alkurnak] is constructed>",
 		"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 		"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 		"Unbuildable",
@@ -1020,7 +1021,7 @@
 		"obsoleteTech": "Tech_Plastic",
 		"uniques":["Era_Industrial"]
 	},
-	{
+	{//特种部队
 		"name":"Unit_SpecOps",
 		"unitType":"Unit_Type_Scout",
 		"strength":501,//60
@@ -1030,7 +1031,7 @@
 		"cost":520,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Plastic",
-		"uniques":["Era_Atomic"]
+		"uniques":["May Paradrop up to [6] tiles from inside friendly territory","Era_Atomic"]
 	},
 
 	/*短程步兵*/
@@ -1190,7 +1191,7 @@
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":523,//60
 		"movement":2,
-		"cost":360,
+		"cost":280,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",

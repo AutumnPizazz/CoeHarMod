@@ -291,7 +291,7 @@
 		"name": "Nation_Aztec",
 		"leaderName": "Montezuma",
 		"adjective": ["Aztec"],
-		"outerColor": [220, 20, 60], // 红色
+		"outerColor": [162, 47, 73],
 		"innerColor": [255, 215, 0], // 黄色
 
 		"startBias": ["Landform_Rainforest","Landform_Forest"],
@@ -449,6 +449,50 @@
 		"hateHello": "",
 		"tradeRequest": ""
 	},
+	{//美利坚
+		"name": "Nation_UnitedStates",
+		"leaderName": "Delano Roosevelt",
+		"adjective": ["American"],
+		"outerColor": [165, 30, 55],
+		"innerColor": [255, 255, 255],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Victory type_Science",
+		
+		"uniqueName": "Roosevelt's New Deal",
+		"uniques": ["Discover [Tech_UniqueToUnitedStates]",
+		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon entering a Golden Age>",
+		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon constructing [Building_Classification_College_District] [in capital]>",
+		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon discovering [Tech_Economy]>",
+		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon discovering [Civic_Civil engineering]>",
+		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon discovering [Civic_Right to vote]>",
+		"Instantly consumes [1] [Resource_New_Deal_Legislation] <upon founding a Religion>",
+		"Instantly consumes [1] [Resource_New_Deal_Legislation] <upon enhancing a Religion>",
+		"Instantly consumes [1] [Resource_New_Deal_Legislation] <upon entering the [Era_Atomic]>",
+		"Instantly consumes [1] [Resource_New_Deal_Legislation] <upon entering the [Era_Information]>",
+		"Instantly consumes [1] [Resource_New_Deal_Legislation] <upon entering the [Era_Near-future]>",
+		"Nullifies [Science] [in all cities] <when below [-2] [Resource_New_Deal_Legislation]>",
+		"[-1 Happiness] [in all cities] <when below [-1] [Resource_New_Deal_Legislation]>",
+		"[-1 Production, -1 Food] [in all cities] <when below [0] [Resource_New_Deal_Legislation]>",
+		"[+3 Production, +1 Happiness] [in capital] <when above [0] [Resource_New_Deal_Legislation]>",
+		"[+1 Happiness, +1 Production] [in all cities] <when above [1] [Resource_New_Deal_Legislation]>",
+		"[+30]% Production when constructing [Military] units [in all cities] <when at war> <when above [2] [Resource_New_Deal_Legislation]>",
+		"[+20]% [Production] [in all cities] <when above [3] [Resource_New_Deal_Legislation]>",
+		"[+20 Happiness, +50 Gold] <when above [4] [Resource_New_Deal_Legislation]>"
+	],
+//		"uniqueText":"",
+
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston","Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis","Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh","Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno","Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": ""
+	},
 
 
 
@@ -460,7 +504,13 @@
 
 
 
-	{
+
+
+
+
+
+	//新国家从这里开始
+/*	{
 		"name": "白板1号",
 		"leaderName": "大佬",
 		"adjective": ["白板1号"],
@@ -555,7 +605,7 @@
 		"uniqueName": "空空如也",
 		"uniques": ["空空如也"], 
 		"cities": ["NO.1 CITY OF FM_4","NO.2 CITY OF FM_4","NO.3 CITY OF FM_4","NO.4 CITY OF FM_4","NO.5 CITY OF FM_4","NO.6 CITY OF FM_4","NO.7 CITY OF FM_4","NO.8 CITY OF FM_4","NO.9 CITY OF FM_4","NO.10 CITY OF FM_4","NO.11 CITY OF FM_4","NO.12 CITY OF FM_4","NO.13 CITY OF FM_4","NO.14 CITY OF FM_4","NO.15 CITY OF FM_4","NO.16 CITY OF FM_4","NO.17 CITY OF FM_4","NO.18 CITY OF FM_4","NO.19 CITY OF FM_4","NO.20 CITY OF FM_4","NO.21 CITY OF FM_4","NO.22 CITY OF FM_4","NO.23 CITY OF FM_4","NO.24 CITY OF FM_4","NO.25 CITY OF FM_4","NO.26 CITY OF FM_4","NO.27 CITY OF FM_4","NO.28 CITY OF FM_4","NO.29 CITY OF FM_4","NO.30 CITY OF FM_4","NO.31 CITY OF FM_4","NO.32 CITY OF FM_4","NO.33 CITY OF FM_4","NO.34 CITY OF FM_4","NO.35 CITY OF FM_4"]
-	},
+	},*/
 
 	// City-States sorted by cityStateType, name
 	{

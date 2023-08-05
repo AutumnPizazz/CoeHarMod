@@ -1,25 +1,25 @@
-[	
+[
     /*模组专属模式开关隐藏建筑*/
     {//标志允许建造世界奇观专属建筑
         "name": "Building_WorldWonder",
         "cost": 0,
         "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
-    },	
+    },
     {//标志通用总督专属建筑
         "name": "Building_Landlords",
         "cost": 0,
         "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
-    },	
+    },
     {//标志秘密结社专属建筑
         "name": "Building_Camorrist",
         "cost": 0,
         "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
-    },	
+    },
     {//标志斗地主模式专属建筑
         "name": "Building_Viceroy",
         "cost": 0,
         "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
-    },	
+    },
 
     /*政体建筑*/
 	{//酋邦
@@ -591,7 +591,7 @@
         "uniques":[
             "Instantly provides [40] [Resource_Niter]",
             "Instantly provides [5] [Resource_Niter] <upon gaining a [Unit_Sudanese_Paramilitary] unit>",
-            "[+75]% Production when constructing [Unit_Sudanese_Paramilitary] units [in this city]",
+            "[+50]% Production when constructing [Unit_Sudanese_Paramilitary] units [in this city]",
             "Only available <starting from the [Era_Renaissance]>",
             "Only available <for [Nation_Ottoman]>",
             "Only available <in cities with a [Governor_GrandVizier_III]>",
@@ -1161,8 +1161,8 @@
         "[-70]% [Production] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource_Influence]>",//允许买使者
-        "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
-        "[+13]% Strength when stacked with [Unit_Missionary] <for [Military] units> <if [Artificialwonder_Maebad_Alkurnak] is constructed>",//米纳克希神庙修正
+//        "[-100]% [Production] [in all cities] <when below [0] [Resource_Influence]>",//影响力负值则受到惩罚
+//        "[+13]% Strength when stacked with [Unit_Missionary] <for [Military] units> <if [Artificialwonder_Maebad_Alkurnak] is constructed>",//米纳克希神庙修正
         "Free [Unit_Farmer] appears <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
         "Free [Unit_Settler] appears <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
@@ -3471,7 +3471,7 @@
         "name": "Artificialwonder_Maebad_Alkurnak",
         "cost":710,
         "isWonder": true,
-        "uniques": ["+13% Strength when stacked with Unit_Missionary for Military units",
+        "uniques": ["+13% Strength bonus for Military units within 1 tiles for Missionary units",
             "Creates a [District_Maebad_Alkurnak] improvement on a specific tile",
             "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
@@ -5126,6 +5126,88 @@
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class_General_Policy"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {//美利坚-国家劳动关系法
+        "name":"G_National_Labor_Relations_Act",
+        "cost":0,
+        "uniqueTo":"Nation_UnitedStates",
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["May buy [Unit_Farmer] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Miner] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Quarry] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Fisherman] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Fishery] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Ocean_Home_Builder] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Shepherd] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Plantation_Worker] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Worker] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Lumberjack] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Oil_Well] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Drill_Rig] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Forest_Ranger] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_GeothermalPowerPlantConstructionTeam] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Trader] units for [100] [Gold] [in all cities]",
+        "May buy [Unit_Settler] units for [300] [Gold] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Right to vote",
+        "replacementTextForUniques":"Allow the purchase of any Builder for 100 gold and the purchase of a Settler for 300 gold (cost varies with speed)"
+    },
+    {//美利坚-社会保障法
+        "name":"G_Social_Security_Act",
+        "cost":0,
+        "uniqueTo":"Nation_UnitedStates",
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+3 Happiness, -6 Gold] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {//美利坚-农业调整法
+        "name":"G_Agricultural_Adjustment_Act",
+        "cost":0,
+        "uniqueTo":"Nation_UnitedStates",
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[-4 Food, +8 Gold] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {//美利坚-盖尔-斯波林法案(这个不是政策卡)
+        "name":"Building_GlassSteagall_Act",
+        "cost":0,
+        "uniqueTo":"Nation_UnitedStates",
+        "uniques":["[+1000 Gold] <for [1] turns>",
+        "[-60 Gold] <for [20] turns>",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {//美利坚-公共工程计划(这个不是政策卡)
+        "name":"Building_Public_Works_Programs",
+        "cost":0,
+        "uniqueTo":"Nation_UnitedStates",
+        "uniques":["[-800 Gold] <for [1] turns>",
+        "[+10 Production] [in all cities] <for [5] turns>",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {//美利坚-国家住房法(这个不是政策卡)
+        "name":"Building_National_Housing_Act",
+        "cost":0,
+        "maintenance":5,
+        "uniqueTo":"Nation_UnitedStates",
+        "uniques":["Provides [4] [Resource_house_limitation]",
+        "Destroyed when the city is captured",
+        "Unsellable"],
         "requiredTech":"Civic_Right to vote"
     },
     {

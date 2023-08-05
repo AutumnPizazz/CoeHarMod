@@ -285,7 +285,8 @@
 		"revealedBy": "Civic_Political philosophy",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded",
-        "Hidden when [Victory type_Diplomacy] Victory is disabled"]
+//        "Hidden when [Victory type_Diplomacy] Victory is disabled"
+	]
 	},
 	{
 		"name": "Resource_Governor title",
@@ -293,7 +294,8 @@
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen",
-		"Hidden when [Pattern_Viceroy] Victory is disabled"]
+//		"Hidden when [Pattern_Viceroy] Victory is disabled"
+	]
 	},
 	{
 		"name": "Resource_Trade route capacity",
@@ -335,7 +337,8 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Stockpiled",
-		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
+//		"Hidden when [Victory type_Diplomacy] Victory is disabled"
+	]
 	},
 	{
 		"name": "Resource_district_limitation",
@@ -348,7 +351,21 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
-	},/*
+	},
+	{//美利坚-新政法案
+		"name": "Resource_New_Deal_Legislation",
+		"revealedBy": "Tech_UniqueToUnitedStates",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"],
+		"civilopediaText": [
+            {
+                "text":"Nation_UnitedStates",
+                "link":"Nation/Nation_UnitedStates"
+            }
+        ]
+	},
+	/*
 	{
 		"name": "Resource_Era_Score1",
 		"resourceType": "Strategic",
