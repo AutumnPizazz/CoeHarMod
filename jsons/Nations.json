@@ -474,10 +474,10 @@
 		"[-1 Happiness] [in all cities] <when below [-1] [Resource_New_Deal_Legislation]>",
 		"[-1 Production, -1 Food] [in all cities] <when below [0] [Resource_New_Deal_Legislation]>",
 		"[+3 Production, +1 Happiness] [in capital] <when above [0] [Resource_New_Deal_Legislation]>",
-		"[+1 Happiness, +1 Production] [in all cities] <when above [1] [Resource_New_Deal_Legislation]>",
-		"[+30]% Production when constructing [Military] units [in all cities] <when at war> <when above [2] [Resource_New_Deal_Legislation]>",
-		"[+20]% [Production] [in all cities] <when above [3] [Resource_New_Deal_Legislation]>",
-		"[+20 Happiness, +50 Gold] <when above [4] [Resource_New_Deal_Legislation]>"
+		"[+1 Happiness, +1 Production, +2 Gold] [in all cities] <when above [1] [Resource_New_Deal_Legislation]>",
+		"[+50]% Production when constructing [Military] units [in all cities] <when at war> <when above [2] [Resource_New_Deal_Legislation]>",
+		"[+25]% [Production] [in all cities] <when above [3] [Resource_New_Deal_Legislation]>",
+		"[+20 Happiness, +100 Gold] <when above [4] [Resource_New_Deal_Legislation]>"
 	],
 //		"uniqueText":"",
 
