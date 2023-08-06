@@ -21,15 +21,7 @@
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
 	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//朝鲜
 		"name": "Nation_Korea",
@@ -47,15 +39,7 @@
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//明朝
 		"name": "Nation_Ming",
@@ -78,15 +62,7 @@
 	
 		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//高卢
 		"name": "Nation_Gaul",
@@ -105,15 +81,7 @@
 		
 		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//神圣罗马帝国
 		"name": "Nation_Germany",
@@ -130,15 +98,7 @@
 
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
 			
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//埃及
 		"name": "Nation_Egypt",
@@ -156,15 +116,7 @@
 	
 		"cities": ["Thebes", "Memphis", "Alexandria", "Heliopolis", "Abydos", "Abu Simbel", "Karnak", "Luxor", "Giza", "Dendera", "Amarna", "Mendes", "Bubastis", "Tanis", "Pi-Ramesses", "Edfu", "Esna", "Philae", "Elephantine", "Aswan"],
 			
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""	
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//俄罗斯
 		"name": "Nation_Russia",
@@ -182,15 +134,7 @@
 
 		"cities": ["Moscow", "St. Petersburg", "Volgograd", "Kaluga", "Kirov", "Saratov", "Kostroma", "Orenburg", "Krasnodar", "Voronezh", "Ufa", "Ulyanovsk", "Nizhny Novgorod", "Yekaterinburg", "Novosibirsk", "Kazan", "Rostov-on-Don", "Samara", "Chelyabinsk", "Perm"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//巴比伦
 		"name": "Nation_Babylon",
@@ -216,15 +160,7 @@
 
 		"cities": ["Babylon", "Uruk", "Nineveh", "Lagash", "Nippur", "Eridu", "Sippar", "Kish", "Borsippa", "Akkad", "Dūr-Kurigalzu", "Isin", "Shuruppak", "Kuara", "Kutalla", "Shaduppum", "Kishgal", "Marad", "Opis", "Zamua"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//玛雅
 		"name": "Nation_Maya",
@@ -244,15 +180,7 @@
 		
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//波斯
 		"name": "Nation_Persia",
@@ -277,15 +205,7 @@
 		
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir","Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz","Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube","Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada","Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava","Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka","Paishiyauvada","Patigrbana","Phrada"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//阿兹特克
 		"name": "Nation_Aztec",
@@ -331,15 +251,7 @@
 		
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan","Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco","Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac","Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec","Itzapalapa","Ayotzinco","Iztapam"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//马里
 		"name": "Nation_Mali",
@@ -365,21 +277,13 @@
 
 		"cities": ["Timbuktu","Djenne","Gao","Koumbi Saleh","Walata","Aoudaghost","Niani","Segou","Kangaba","Bamako","Kita","Koulikoro","Mopti","Goundam","Tombouctou","Boucle du Baoule","Jenne-Jeno","Tondibi","Gao-Saney","Djenné-Djenno","Oualata","Kumbi","Manden-Kouroukan","Kangaba-Kouroukan"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	}, 
 	{//希腊
 		"name": "Nation_Greece",
 		"leaderName": "Gorgon",
 		"adjective": ["Greek"],
-		"outerColor": [0, 102, 204], // 蓝色
+		"outerColor": [0, 0, 139], // 蓝色
 		"innerColor": [255, 255, 255], // 白色
 
 		"startBias": ["Landform_Hill"],
@@ -391,15 +295,7 @@
 		
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes","Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios","Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon","Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis","Patras","Lamia","Nafplion","Apolyton"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//奥斯曼
 		"name": "Nation_Ottoman",
@@ -414,40 +310,16 @@
 		"uniques": ["Civilization-unique Governor: Grand Vizier",
 		"Provides [1] [Resource_Governor title] <after discovering [Tech_Gunpowder]>"],
 		"civilopediaText":[
-/*        {
-            "separator":true,
-            "color":"#FFFFFF",
-	        "size":2
-        },*/
-		{
-			"text": "Governor_GrandVizier_I",
-			"link": "Building/Governor_GrandVizier_I"
-		},
-		{
-			"text": "Governor_GrandVizier_II",
-			"link": "Building/Governor_GrandVizier_II"
-		},
-		{
-			"text": "Governor_GrandVizier_III",
-			"link": "Building/Governor_GrandVizier_III"
-		},
-		{
-			"text": "Governor_GrandVizier_IV",
-			"link": "Building/Governor_GrandVizier_IV"
-		}
+/*      {"separator":true,"color":"#FFFFFF","size":2},*/
+		{"text": "Governor_GrandVizier_I","link": "Building/Governor_GrandVizier_I"},
+		{"text": "Governor_GrandVizier_II","link": "Building/Governor_GrandVizier_II"},
+		{"text": "Governor_GrandVizier_III","link": "Building/Governor_GrandVizier_III"},
+		{"text": "Governor_GrandVizier_IV","link": "Building/Governor_GrandVizier_IV"}
 	],
 		
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya","Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar","Bitlis","Yalova"],
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//美利坚
 		"name": "Nation_UnitedStates",
@@ -483,15 +355,47 @@
 
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston","Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis","Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh","Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno","Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": ""
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
+	},
+	{//秦朝
+		"name": "Nation_Qin",
+		"leaderName": "Ying Zheng",
+		"adjective": ["Qin"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 204, 0],
+		"startBias": ["Landform_Hill"],
+		"preferredVictoryType": "Victory type_Conquest",
+		
+		"uniqueName":"Military Merit Peerage System",
+		"uniques": ["[Military] units gain the [Promotion_GongShi] promotion"],
+		"uniqueText":"All military units can gain civilization-specific promotions by defeating enemies, thereby obtaining progressively stronger effects",
+
+		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"],
+		"civilopediaText":[
+			{"text": "Promotion_GongShi","link": "Promotion/Promotion_GongShi"},
+			{"text": "Promotion_ShangZao","link": "Promotion/Promotion_ShangZao"},
+			{"text": "Promotion_ZanNiao","link": "Promotion/Promotion_ZanNiao"},
+			{"text": "Promotion_BuGeng","link": "Promotion/Promotion_BuGeng"},
+			{"text": "Promotion_DaFu","link": "Promotion/Promotion_DaFu"},
+			{"text": "Promotion_GuanDaFu","link": "Promotion/Promotion_GuanDaFu"},
+			{"text": "Promotion_GongDaFu","link": "Promotion/Promotion_GongDaFu"},
+			{"text": "Promotion_GongCheng","link": "Promotion/Promotion_GongCheng"},
+			{"text": "Promotion_WuDaFu","link": "Promotion/Promotion_WuDaFu"},
+			{"text": "Promotion_ZuoShuZhang","link": "Promotion/Promotion_ZuoShuZhang"},
+			{"text": "Promotion_ShangZao","link": "Promotion/Promotion_ShangZao"},
+			{"text": "Promotion_YouShuZhang","link": "Promotion/Promotion_YouShuZhang"},
+			{"text": "Promotion_ZuoGeng","link": "Promotion/Promotion_ZuoGeng"},
+			{"text": "Promotion_ZhongGeng","link": "Promotion/Promotion_ZhongGeng"},
+			{"text": "Promotion_YouGeng","link": "Promotion/Promotion_YouGeng"},
+			{"text": "Promotion_ShaoShangZao","link": "Promotion/Promotion_ShaoShangZao"},
+			{"text": "Promotion_DaShangZao","link": "Promotion/Promotion_DaShangZao"},
+			{"text": "Promotion_SiCheShuZhang","link": "Promotion/Promotion_SiCheShuZhang"},
+			{"text": "Promotion_DaShuZhang","link": "Promotion/Promotion_DaShuZhang"},
+			{"text": "Promotion_GuanNeiHou","link": "Promotion/Promotion_GuanNeiHou"},
+			{"text": "Promotion_CheHou","link": "Promotion/Promotion_CheHou"}
+		],
+
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 
 
@@ -509,7 +413,7 @@
 
 
 
-	//新国家从这里开始
+	//新国家从这里开始sss
 /*	{
 		"name": "白板1号",
 		"leaderName": "大佬",

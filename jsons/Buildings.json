@@ -893,8 +893,8 @@
 		"cost": 1,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Victor_IIB",
-        "xpForNewUnits":10,
-		"uniques":[
+//        "xpForNewUnits":10,
+		"uniques":["New [Military] units start with [10] Experience [in this city]",
             "Unsellable",
             "Destroyed when the city is captured",
             "Building_Classification_Governor",
@@ -905,8 +905,8 @@
 	    "name": "Governor_Victor_IV",
 		"cost": 1,
 		"requiredResource": "Resource_Governor title",
-        "xpForNewUnits":20,
-		"uniques":[
+//        "xpForNewUnits":20,
+		"uniques":["New [Military] units start with [20] Experience [in this city]",
             "Unsellable",
             "Only available <in cities with a [Governor_Victor_IIIA]>",
             "Only available <in cities with a [Governor_Victor_IIIB]>",
@@ -1957,7 +1957,27 @@
         "Never destroyed when the city is captured",
 		"Unsellable"]
     },
-	{
+    {//秦朝-御史台
+        "name":"Building_Imperial_Censorate",
+        "replaces":"Building_Library",
+        "uniqueTo":"Nation_Qin",
+        "cost":60,
+		"hurryCostModifier":-33,
+        "maintenance":1,
+        "science":2,
+        "happiness":-1,
+//        "xpForNewUnits":9,
+        "requiredTech":"Tech_Writing",
+        "requiredBuilding":"Building_College_Unique",
+		"specialistSlots": {"Specialist_Scientist": 1},
+		"greatPersonPoints": {"GreatPerson_Class_Scientist": 1},
+		"uniques": ["New [Military] units start with [9] Experience [in this city]",
+		"Cost increases by [4] per owned city",
+        "Building_Classification_College_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+    },
+	{//大学
 		"name": "Building_University",
 		"cost":240,
 		"hurryCostModifier":-33,

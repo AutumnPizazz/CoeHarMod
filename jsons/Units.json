@@ -510,7 +510,7 @@
 		"movement": 4,
 		"religiousStrength": 1000
 	},
-	{
+	{//大将军
 		"name": "GreatPerson_Class_General",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
@@ -519,10 +519,22 @@
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
+	{//秦朝-太尉
+		"name": "Unit_Grand_Marshal",
+		"replaces":"GreatPerson_Class_General",
+		"uniqueTo":"Nation_Qin",
+		"unitType": "Unit_Type_Civilian",
+		"uniques": [
+            "[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles",
+            "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
+			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
+		"movement": 3
+	},
 	{
 		"name": "Great General",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": ["Can transform to [GreatPerson_Class_General]",
+			"Can transform to [Unit_Grand_Marshal] <for [Nation_Qin]>",
 			"Can transform to [GreatPerson_Class_Admiral]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -770,7 +782,7 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":4,
 		"uniques":["Unbuildable",
-		"Gain [-175] [Gold]",
+		"Gain [-175] [Gold] <after which this unit is consumed>",
 		"Instantly consumes [40] [Resource_Influence]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]

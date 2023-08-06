@@ -66,7 +66,7 @@
 		"This Unit gains the [Promotion_Bloodthirsty] promotion <for units with [Promotion_Blood]> <upon defeating a [Military] unit>",
 		"[-10] HP when healing",
         "Cannot move <for [3] turns> <for units with [Promotion_Blood]>",
-        "[-64]% Strength <for [3] turns> <for units with [Promotion_Blood]>"]
+        "[-33]% Strength <for [3] turns> <for units with [Promotion_Blood]>"]
 	},
 	{//嗜血
 		"name":"Promotion_Bloodthirsty",
@@ -900,4 +900,125 @@
 		"[-3] HP when healing",
 		"Heals [15] damage if it kills a unit"]
 	},
+	//秦朝军功制
+	//一级公士，二上造，三簪袅，四不更，五大夫，六官大夫，七公大夫，八公乘，九五大夫，十左庶长，十一右庶长，十二左更，十三中更，十四右更，十五少上造，十六大上造(大良造)，十七驷车庶长，十八大庶长，十九关内侯，二十彻侯
+	{//公士
+		"name": "Promotion_GongShi",
+		"uniques": ["This Unit gains the [Promotion_ShangZao] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//上造
+		"name": "Promotion_ShangZao",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_ZanNiao] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//簪袅
+		"name": "Promotion_ZanNiao",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_BuGeng] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//不更
+		"name": "Promotion_BuGeng",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_DaFu] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//大夫
+		"name": "Promotion_DaFu",
+		"uniques": ["[+4]% Strength","[+1] Movement",
+		"This Unit gains the [Promotion_GuanDaFu] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//官大夫
+		"name": "Promotion_GuanDaFu",
+		"uniques": ["[+4]% Strength","Can move after attacking",
+		"This Unit gains the [Promotion_GongDaFu] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//公大夫
+		"name": "Promotion_GongDaFu",
+		"uniques": ["[+4]% Strength","All adjacent units heal [5] HP when healing",
+		"This Unit gains the [Promotion_GongCheng] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//公乘
+		"name": "Promotion_GongCheng",
+		"uniques": ["[+4]% Strength","Double movement in [Open terrain]",
+		"This Unit gains the [Promotion_WuDaFu] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//五大夫
+		"name": "Promotion_WuDaFu",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_ZuoShuZhang] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//左庶长
+		"name": "Promotion_ZuoShuZhang",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_YouShuZhang] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//右庶长
+		"name": "Promotion_YouShuZhang",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_ZuoGeng] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//左更
+		"name": "Promotion_ZuoGeng",
+		"uniques": ["[+8]% Strength",
+		"This Unit gains the [Promotion_ZhongGeng] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//中更
+		"name": "Promotion_ZhongGeng",
+		"uniques": ["This Unit upgrades for free",
+		"This Unit gains the [Promotion_YouGeng] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//右更
+		"name": "Promotion_YouGeng",
+		"uniques": ["This Unit upgrades for free",
+		"This Unit gains the [Promotion_ShaoShangZao] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//少上造
+		"name": "Promotion_ShaoShangZao",
+		"uniques": ["This Unit upgrades for free",
+		"This Unit gains the [Promotion_DaShangZao] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//大上造(大良造)
+		"name": "Promotion_DaShangZao",
+		"uniques": ["This Unit upgrades for free",
+		"This Unit gains the [Promotion_SiCheShuZhang] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//驷车庶长
+		"name": "Promotion_SiCheShuZhang",
+		"uniques": ["This Unit upgrades for free",
+		"This Unit gains the [Promotion_DaShuZhang] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//大庶长
+		"name": "Promotion_DaShuZhang",
+		"uniques": ["Heal this unit by [100] HP",
+		"This Unit gains the [Promotion_GuanNeiHou] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//关内侯
+		"name": "Promotion_GuanNeiHou",
+		"uniques": ["Heal this unit by [100] HP",
+		"This Unit gains the [Promotion_CheHou] promotion <upon defeating a [Military] unit>",
+		"Only available <for [Nation_Qin]>"]
+	},
+	{//彻侯
+		"name": "Promotion_CheHou",
+		"uniques": ["[+2] Sight","[+1] Movement","[2] additional attacks per turn"]
+	}
+
+
 ]
