@@ -1,0 +1,21 @@
+[
+    {
+        "name":"World Wonder",
+        "canBeHurriedBy":[""],//Nothing
+        "unique":["Limited to [1] <for all the world>",
+        "Triggers a global alert upon completion",
+        "Never destroyed when the city is captured"]
+    },
+    {
+        "name":"National Wonder",
+        "canBeHurriedBy":[""],//Nothing
+        "unique":["Limited to [1] <per civilization>",
+        "Triggers a global alert upon completion",
+        "Destroyed when the city is captured"]
+    },
+    {
+        "name":"Custom Building Type 1",
+        "canBeHurriedBy":["Gold","Faith"],
+        "unique":[""]
+    },
+]

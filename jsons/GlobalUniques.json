@@ -100,5 +100,13 @@
 
 
         /*经济胜利配套*/
-        "May buy [Building_EconomicVictory] buildings for [50000] [Gold] [in capital]",    ]
+        "May buy [Building_EconomicVictory] buildings for [50000] [Gold] [in capital]",    
+
+
+        /*文明羁绊*/
+		"[+1]% Strength <for [Military] units> <vs [Nation_Babylon] units> <for [Nation_Persia]>",
+		"[+1]% Strength <for [Military] units> <vs [Nation_Persia] units> <for [Nation_Scythia]>",
+    
+    
+    ]
 }

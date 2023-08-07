@@ -1873,5 +1873,21 @@
 		"Cannot be built on [Resource_EarthVeins] tiles",
 		"Class_Usual_Improvement"]
 	},
+	{//斯基泰-坟墩
+		"name": "Improvement_Kurgan",
+		"uniqueTo":"Nation_Scythia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith":2,
+		"production":1,
+		"techRequired": "Tech_Animal husbandry",
+		"uniques": ["Provides [2] [Resource_house_limitation]",
+		"[+1 Faith] for each adjacent [Improvement_Pasture]",
+		"[+1 Faith] for each adjacent [Improvement_Pasture] <after discovering [Tech_Stirrups]>",
+		"[+1 Gold] <after discovering [Civic_Feudalism]>",
+		"Pillaging this improvement yields approximately [+30 Faith]",
+		"Cannot be built on [Resource_EarthVeins] tiles",
+		"Can only be built on [Landform_Hill] tiles",
+		"Class_Usual_Improvement"]
+	},
 
 ]

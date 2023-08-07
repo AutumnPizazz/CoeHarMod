@@ -766,7 +766,18 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
-	
+	{//斯基泰-坟墩建造者
+		"name": "Unit_Kurgan",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Scythia",
+		"movement": 2,
+		"requiredTech":"Tech_Animal husbandry",
+		"uniques": ["Can instantly construct a [Improvement_Kurgan] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Kurgan] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
 	/*开拓者*/
 	{
 		"name":"Unit_Settler",
@@ -816,8 +827,10 @@
 		"movement":3,
 		"uniques":["Cannot attack",
 		"Ignores terrain cost",
+		"May enter foreign tiles without open borders",
 		"Invisible to others",
 		"Can see invisible [Unit_Spy] units",
+		"Never appears as a Barbarian unit",
 		"Free [Unit_Spy] appears <upon being defeated>",
 		"Unbuildable", "Uncapturable"]
 	},
@@ -1446,7 +1459,24 @@
 	},
 
 	/*轻骑兵*/
-	{
+	{//斯基泰-萨卡弓骑手
+		"name":"Unit_Saka_Horse_Archers",
+		"uniqueTo":"Nation_Scythia",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":81,
+		"range":1,
+		"rangedStrength":123,
+		"movement":4,
+		"cost":40,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Horse_Archer",
+		"requiredTech": "Tech_Animal husbandry",
+		"obsoleteTech": "Tech_Castle",
+		"uniques":["Instantly consumes [7] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
+		"Era_Ancient"]
+	},
+	{//骑手
 		"name":"Unit_Horseman",
 		"unitType":"Unit_Type_Light_Cavalry",
 		"strength":194,//36
@@ -1815,7 +1845,7 @@
 	},
 
 	/*海军袭击者*/
-	{
+	{//私掠舰
 		"name":"Unit_Corsair",
 		"unitType":"Unit_Type_Naval_Attacker",
 		"strength":220,//40

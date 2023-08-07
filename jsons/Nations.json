@@ -200,8 +200,7 @@
 		"[+2] Movement <for [Unit_Settler] units> <after discovering [Civic_History]>",
 		"Provides [1] [Resource_Trade route capacity] <after discovering [Civic_Political philosophy]>",
 		"Receive free [Unit_Trader] when you discover [Civic_Political philosophy]",
-		"[+2 Gold, +1 Culture] from each Trade Route",
-		"[+3]% Strength <for [Military] units> <vs [Nation_Babylon] units>"],
+		"[+2 Gold, +1 Culture] from each Trade Route"],
 		
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir","Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz","Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube","Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada","Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava","Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka","Paishiyauvada","Patigrbana","Phrada"],
 		
@@ -397,6 +396,68 @@
 
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
+	
+	{//秦朝
+		"name": "Nation_Qin",
+		"leaderName": "Ying Zheng",
+		"adjective": ["Qin"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 204, 0],
+		"startBias": ["Landform_Hill"],
+		"preferredVictoryType": "Victory type_Conquest",
+		
+		"uniqueName":"Military Merit Peerage System",
+		"uniques": ["[Military] units gain the [Promotion_GongShi] promotion"],
+		"uniqueText":"All military units can gain civilization-specific promotions by defeating enemies, thereby obtaining progressively stronger effects",
+
+		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"],
+		"civilopediaText":[
+			{"text": "Promotion_GongShi","link": "Promotion/Promotion_GongShi"},
+			{"text": "Promotion_ShangZao","link": "Promotion/Promotion_ShangZao"},
+			{"text": "Promotion_ZanNiao","link": "Promotion/Promotion_ZanNiao"},
+			{"text": "Promotion_BuGeng","link": "Promotion/Promotion_BuGeng"},
+			{"text": "Promotion_DaFu","link": "Promotion/Promotion_DaFu"},
+			{"text": "Promotion_GuanDaFu","link": "Promotion/Promotion_GuanDaFu"},
+			{"text": "Promotion_GongDaFu","link": "Promotion/Promotion_GongDaFu"},
+			{"text": "Promotion_GongCheng","link": "Promotion/Promotion_GongCheng"},
+			{"text": "Promotion_WuDaFu","link": "Promotion/Promotion_WuDaFu"},
+			{"text": "Promotion_ZuoShuZhang","link": "Promotion/Promotion_ZuoShuZhang"},
+			{"text": "Promotion_ShangZao","link": "Promotion/Promotion_ShangZao"},
+			{"text": "Promotion_YouShuZhang","link": "Promotion/Promotion_YouShuZhang"},
+			{"text": "Promotion_ZuoGeng","link": "Promotion/Promotion_ZuoGeng"},
+			{"text": "Promotion_ZhongGeng","link": "Promotion/Promotion_ZhongGeng"},
+			{"text": "Promotion_YouGeng","link": "Promotion/Promotion_YouGeng"},
+			{"text": "Promotion_ShaoShangZao","link": "Promotion/Promotion_ShaoShangZao"},
+			{"text": "Promotion_DaShangZao","link": "Promotion/Promotion_DaShangZao"},
+			{"text": "Promotion_SiCheShuZhang","link": "Promotion/Promotion_SiCheShuZhang"},
+			{"text": "Promotion_DaShuZhang","link": "Promotion/Promotion_DaShuZhang"},
+			{"text": "Promotion_GuanNeiHou","link": "Promotion/Promotion_GuanNeiHou"},
+			{"text": "Promotion_CheHou","link": "Promotion/Promotion_CheHou"}
+		],
+
+		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
+	},
+	
+	{//斯基泰
+		"name": "Nation_Scythia",
+		"leaderName": "Tomyris",
+		"adjective": ["Scythian"],
+		"outerColor": [0, 0, 128],
+		"innerColor": [255, 165, 0],
+
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Victory type_Domination",
+		
+		"uniqueName": "Cyrus Terminator",
+		"uniques": ["May buy [Unit_Type_Light_Cavalry] units with [Faith] [in all cities]",
+		"[Faith] cost of purchasing [Unit_Type_Light_Cavalry] units [-15]% <after discovering [Civic_Divin right of Kings]>",
+		"Instantly provides [5] [Resource_Horse] <upon gaining a [Unit_Type_Light_Cavalry] unit>"],
+		
+		"cities": ["Pokrovka","Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop","Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov","Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"],
+
+		
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 
@@ -411,9 +472,7 @@
 
 
 
-
-
-	//新国家从这里开始sss
+	//新国家/新文明从这里开始sss
 /*	{
 		"name": "白板1号",
 		"leaderName": "大佬",

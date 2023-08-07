@@ -13,7 +13,9 @@
         "embarkDefense": 70,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+        "uniques":["May not generate great prophet equivalents naturally",
+        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
     },
     {
         "name": "Era_Classical",
@@ -31,7 +33,9 @@
         "embarkDefense": 120,
         "startPercent": 10,
         "citySound": "cityClassical",
-        "iconRGB": [233, 31, 99]
+        "iconRGB": [233, 31, 99],
+        "uniques":["May not generate great prophet equivalents naturally",
+        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
     },
     {
         "name": "Era_Medieval",
@@ -51,7 +55,9 @@
         "embarkDefense": 200,
         "startPercent": 25,
         "citySound": "cityMedieval",
-        "iconRGB": [157, 39, 176]
+        "iconRGB": [157, 39, 176],
+        "uniques":["May not generate great prophet equivalents naturally",
+        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
     },
     {
         "name": "Era_Renaissance",
@@ -71,8 +77,9 @@
         "embarkDefense": 320,
         "startPercent": 37,
         "citySound": "cityRenaissance",
-        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
-        "iconRGB": [104, 58, 183]
+        "iconRGB": [104, 58, 183],
+        "uniques":["May not generate great prophet equivalents naturally",
+        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
     },
     {
         "name": "Era_Industrial",
