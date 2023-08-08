@@ -451,7 +451,7 @@
 		"uniqueName": "Cyrus Terminator",
 		"uniques": ["May buy [Unit_Type_Light_Cavalry] units with [Faith] [in all cities]",
 		"[Faith] cost of purchasing [Unit_Type_Light_Cavalry] units [-15]% <after discovering [Civic_Divin right of Kings]>",
-		"Instantly provides [5] [Resource_Horse] <upon gaining a [Unit_Type_Light_Cavalry] unit>"],
+		"Double quantity of [Resource_Horse] produced"],
 		
 		"cities": ["Pokrovka","Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop","Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov","Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"],
 
