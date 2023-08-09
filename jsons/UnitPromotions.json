@@ -18,33 +18,27 @@
 	/*军营和港口区域建筑buff*/
 	{
 		"name":"Promotion_Army_Combat_Training_I",
-		"uniques":["[+50]% XP gained from combat",
-		"[Great General] is earned [25]% faster"]
+		"uniques":["[+50]% XP gained from combat"]
 	},
 	{
 		"name":"Promotion_Army_Combat_Training_II",
-		"uniques":["[+50]% XP gained from combat",
-		"[Great General] is earned [50]% faster"]
+		"uniques":["[+50]% XP gained from combat"]
 	},
 	{
 		"name":"Promotion_Army_Combat_Training_III",
-		"uniques":["[+50]% XP gained from combat",
-		"[Great General] is earned [75]% faster"]
+		"uniques":["[+50]% XP gained from combat"]
 	},
 	{
 		"name":"Promotion_Navy_Combat_Training_I",
-		"uniques":["[+50]% XP gained from combat",
-		"[Great General] is earned [25]% faster"]
+		"uniques":["[+50]% XP gained from combat"]
 	},
 	{
 		"name":"Promotion_Navy_Combat_Training_II",
-		"uniques":["[+50]% XP gained from combat",
-		"[Great General] is earned [50]% faster"]
+		"uniques":["[+50]% XP gained from combat"]
 	},
 	{
 		"name":"Promotion_Navy_Combat_Training_III",
-		"uniques":["[+50]% XP gained from combat",
-		"[Great General] is earned [75]% faster"]
+		"uniques":["[+50]% XP gained from combat"]
 	},
 	{
 		"name":"double star",
@@ -975,31 +969,31 @@
 	},
 	{//中更
 		"name": "Promotion_ZhongGeng",
-		"uniques": ["This Unit upgrades for free",
+		"uniques": ["This Unit gains [20] XP",
 		"This Unit gains the [Promotion_YouGeng] promotion <upon defeating a [Military] unit>",
 		"Only available <for [Nation_Qin]>"]
 	},
 	{//右更
 		"name": "Promotion_YouGeng",
-		"uniques": ["This Unit upgrades for free",
+		"uniques": ["This Unit gains [30] XP",
 		"This Unit gains the [Promotion_ShaoShangZao] promotion <upon defeating a [Military] unit>",
 		"Only available <for [Nation_Qin]>"]
 	},
 	{//少上造
 		"name": "Promotion_ShaoShangZao",
-		"uniques": ["This Unit upgrades for free",
+		"uniques": ["This Unit gains [40] XP",
 		"This Unit gains the [Promotion_DaShangZao] promotion <upon defeating a [Military] unit>",
 		"Only available <for [Nation_Qin]>"]
 	},
 	{//大上造(大良造)
 		"name": "Promotion_DaShangZao",
-		"uniques": ["This Unit upgrades for free",
+		"uniques": ["This Unit gains [50] XP",
 		"This Unit gains the [Promotion_SiCheShuZhang] promotion <upon defeating a [Military] unit>",
 		"Only available <for [Nation_Qin]>"]
 	},
 	{//驷车庶长
 		"name": "Promotion_SiCheShuZhang",
-		"uniques": ["This Unit upgrades for free",
+		"uniques": ["This Unit gains [60] XP",
 		"This Unit gains the [Promotion_DaShuZhang] promotion <upon defeating a [Military] unit>",
 		"Only available <for [Nation_Qin]>"]
 	},

@@ -272,14 +272,14 @@
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
-	{
+	{//电力
 		"name": "Resource_Electricity",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Industrialization",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded"]
 	},
-	{
+	{//外交支持
 		"name": "Resource_Diplomatic favor",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Political philosophy",
@@ -288,7 +288,7 @@
 //        "Hidden when [Victory type_Diplomacy] Victory is disabled"
 	]
 	},
-	{
+	{//总督点数
 		"name": "Resource_Governor title",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
@@ -297,42 +297,42 @@
 //		"Hidden when [Pattern_Viceroy] Victory is disabled"
 	]
 	},
-	{
+	{//贸易路线容量
 		"name": "Resource_Trade route capacity",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Basic trade",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded"]
 	},
-	{
+	{//军事政策卡
 		"name": "Resource_Military policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
-	{
+	{//经济政策卡
 		"name": "Resource_Economic policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
-	{
+	{//外交政策卡
 		"name": "Resource_Diplomatic policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
-	{
+	{//通用政策卡
 		"name": "Resource_Generic policy slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Code",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
-	{
+	{//影响力点数
 		"name": "Resource_Influence",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
@@ -340,17 +340,59 @@
 //		"Hidden when [Victory type_Diplomacy] Victory is disabled"
 	]
 	},
-	{
+	{//区域限制
 		"name": "Resource_district_limitation",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
-	{
+	{//住房(人口限制)
 		"name": "Resource_house_limitation",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
+	},
+	{//大科学家点数
+		"name":"Resource_GreatPerson_Class_Scientist",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{//大商人点数
+		"name":"Resource_GreatPerson_Class_Merchant",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{//大艺术家点数
+		"name":"Resource_GreatPerson_Class_Artist",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{//大工程师点数
+		"name":"Resource_GreatPerson_Class_Engineer",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{//大预言家点数
+		"name":"Resource_GreatPerson_Class_Prophet",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{//大将军点数
+		"name":"Resource_GreatPerson_Class_General",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
+	},
+	{//海军统帅点数
+		"name":"Resource_GreatPerson_Class_Admiral",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Stockpiled"]
 	},
 	{//美利坚-新政法案
 		"name": "Resource_New_Deal_Legislation",

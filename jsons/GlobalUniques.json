@@ -103,6 +103,49 @@
         "May buy [Building_EconomicVictory] buildings for [50000] [Gold] [in capital]",    
 
 
+        /*伟人点数系统*/
+        "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Artist]> <before [30] turns>",
+        "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Artist]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Artist]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Artist]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Artist]> <after [120] turns>",//大艺术家
+
+        "May buy [GreatPerson_Class_Scientist] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Scientist]> <before [30] turns>",
+        "May buy [GreatPerson_Class_Scientist] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Scientist]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_Scientist] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Scientist]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_Scientist] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Scientist]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_Scientist] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Scientist]> <after [120] turns>",//大科学家
+
+        "May buy [GreatPerson_Class_Merchant] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Merchant]> <before [30] turns>",
+        "May buy [GreatPerson_Class_Merchant] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Merchant]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_Merchant] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Merchant]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_Merchant] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Merchant]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_Merchant] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Merchant]> <after [120] turns>",//大商人
+
+        "May buy [GreatPerson_Class_Engineer] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Engineer]> <before [30] turns>",
+        "May buy [GreatPerson_Class_Engineer] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Engineer]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_Engineer] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Engineer]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_Engineer] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Engineer]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_Engineer] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Engineer]> <after [120] turns>",//大工程师
+
+        "May buy [GreatPerson_Class_Prophet] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Prophet]> <before [30] turns>",
+        "May buy [GreatPerson_Class_Prophet] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Prophet]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_Prophet] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Prophet]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_Prophet] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Prophet]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_Prophet] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Prophet]> <after [120] turns>",//大预言家
+
+        "May buy [GreatPerson_Class_General] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_General]> <before [30] turns>",
+        "May buy [GreatPerson_Class_General] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_General]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_General] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_General]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_General] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_General]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_General] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_General]> <after [120] turns>",//大将军
+
+        "May buy [GreatPerson_Class_Admiral] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Admiral]> <before [30] turns>",
+        "May buy [GreatPerson_Class_Admiral] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Admiral]> <after [30] turns> <before [60] turns>",
+        "May buy [GreatPerson_Class_Admiral] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Admiral]> <after [60] turns> <before [90] turns>",
+        "May buy [GreatPerson_Class_Admiral] units for [0] [Gold] [in all cities] <when above [120] [Resource_GreatPerson_Class_Admiral]> <after [90] turns> <before [120] turns>",
+        "May buy [GreatPerson_Class_Admiral] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Admiral]> <after [120] turns>",//海军统帅
+
         /*文明羁绊*/
 		"[+1]% Strength <for [Military] units> <vs [Nation_Babylon] units> <for [Nation_Persia]>",
 		"[+1]% Strength <for [Military] units> <vs [Nation_Persia] units> <for [Nation_Scythia]>",

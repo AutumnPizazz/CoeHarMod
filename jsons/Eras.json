@@ -14,8 +14,7 @@
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35],
-        "uniques":["May not generate great prophet equivalents naturally",
-        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
+        "uniques":["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Era_Classical",
@@ -34,8 +33,7 @@
         "startPercent": 10,
         "citySound": "cityClassical",
         "iconRGB": [233, 31, 99],
-        "uniques":["May not generate great prophet equivalents naturally",
-        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
+        "uniques":["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Era_Medieval",
@@ -56,8 +54,7 @@
         "startPercent": 25,
         "citySound": "cityMedieval",
         "iconRGB": [157, 39, 176],
-        "uniques":["May not generate great prophet equivalents naturally",
-        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
+        "uniques":["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Era_Renaissance",
@@ -78,8 +75,7 @@
         "startPercent": 37,
         "citySound": "cityRenaissance",
         "iconRGB": [104, 58, 183],
-        "uniques":["May not generate great prophet equivalents naturally",
-        "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities] at an increasing price ([10])"]
+        "uniques":["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Era_Industrial",
@@ -101,7 +97,6 @@
         "citySound": "cityIndustrial",
         "iconRGB": [63, 81, 182],
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
@@ -126,7 +121,6 @@
         "citySound": "cityModern",
         "iconRGB": [33, 150, 243],
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
@@ -177,7 +171,6 @@
         "citySound": "cityInformation",
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
@@ -202,7 +195,6 @@
         "citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
@@ -227,7 +219,6 @@
         "citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [GreatPerson_Class_Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion",
             "Every major Civilization gains a spy once a civilization enters this era"
         ]

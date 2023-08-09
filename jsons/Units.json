@@ -466,39 +466,66 @@
 
 
 	/*伟人*/
-	{
+	{//大艺术家
 		"name": "GreatPerson_Class_Artist",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
+		"Instantly consumes [30] [Resource_GreatPerson_Class_Artist] <before [30] turns>",
+		"Instantly consumes [60] [Resource_GreatPerson_Class_Artist] <after [30] turns> <before [60] turns>",
+		"Instantly consumes [90] [Resource_GreatPerson_Class_Artist] <after [60] turns> <before [90] turns>",
+		"Instantly consumes [120] [Resource_GreatPerson_Class_Artist] <after [90] turns> <before [120] turns>",
+		"Instantly consumes [150] [Resource_GreatPerson_Class_Artist] <after [120] turns>",
             "Empire enters a [16]-turn Golden Age <by consuming this unit>",
             "Great Person - [Culture]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
-	{
+	{//大科学家
 		"name": "GreatPerson_Class_Scientist",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_Scientist] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_Scientist] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_Scientist] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_Scientist] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_Scientist] <after [120] turns>",
             "Can hurry technology research",
             "Great Person - [Science]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
-	{
+	{//大商人
 		"name": "GreatPerson_Class_Merchant",
 		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
+		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_Merchant] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_Merchant] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_Merchant] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_Merchant] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_Merchant] <after [120] turns>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
-	{
+	{//大工程师
 		"name": "GreatPerson_Class_Engineer",
 		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can speed up construction of a building",
+		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_Engineer] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_Engineer] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_Engineer] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_Engineer] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_Engineer] <after [120] turns>",
+			"Can speed up construction of a building",
             "Great Person - [Production]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
-	{
+	{//大预言家
 		"name": "GreatPerson_Class_Prophet",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_Prophet] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_Prophet] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_Prophet] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_Prophet] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_Prophet] <after [120] turns>",
             "Can instantly construct a [Improvement_Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
@@ -514,6 +541,12 @@
 		"name": "GreatPerson_Class_General",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_General] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_General] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
+			"Can transform to [Unit_Grand_Marshal] <for [Nation_Qin]>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
@@ -525,12 +558,17 @@
 		"uniqueTo":"Nation_Qin",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_General] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_General] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 3
 	},
-	{
+	/*{//大军事家
 		"name": "Great General",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": ["Can transform to [GreatPerson_Class_General]",
@@ -538,14 +576,189 @@
 			"Can transform to [GreatPerson_Class_Admiral]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
-	},
-	{
+	},*/
+	{//海军统帅
 		"name": "GreatPerson_Class_Admiral",
 		"unitType": "Unit_Type_Civilian_Ship",
 		"uniques": [
+			"Instantly consumes [30] [Resource_GreatPerson_Class_Admiral] <before [30] turns>",
+			"Instantly consumes [60] [Resource_GreatPerson_Class_Admiral] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource_GreatPerson_Class_Admiral] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource_GreatPerson_Class_Admiral] <after [90] turns> <before [120] turns>",
+			"Instantly consumes [150] [Resource_GreatPerson_Class_Admiral] <after [120] turns>",
             "[23]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 5
+	},
+
+	/*伟人点数项目*/
+	{//大科学家项目1
+		"name": "GreatPerson_Class_Scientist_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Scientist] <by consuming this unit>",
+		"Only available <in cities with a [Building_College_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//大科学家项目2
+		"name": "GreatPerson_Class_Scientist_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Scientist] <by consuming this unit>",
+		"Only available <in cities with a [Building_College_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//大科学家项目3
+		"name": "GreatPerson_Class_Scientist_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Scientist] <by consuming this unit>",
+		"Only available <in cities with a [Building_College_Unique]> <after [60] turns>"],
+		"movement":2
+	},
+	{//大商人项目1
+		"name": "GreatPerson_Class_Merchant_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//大商人项目2
+		"name": "GreatPerson_Class_Merchant_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//大商人项目3
+		"name": "GreatPerson_Class_Merchant_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [60] turns>"],
+		"movement":2
+	},
+	{//大艺术家项目1
+		"name": "GreatPerson_Class_Artist_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Artist] <by consuming this unit>",
+		"Only available <in cities with a [Building_Theater_Square_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//大艺术家项目2
+		"name": "GreatPerson_Class_Artist_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Artist] <by consuming this unit>",
+		"Only available <in cities with a [Building_Theater_Square_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//大艺术家项目3
+		"name": "GreatPerson_Class_Artist_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Artist] <by consuming this unit>",
+		"Only available <in cities with a [Building_Theater_Square_Unique]> <after [60] turns>"],
+		"movement":2
+	},
+	{//大工程师项目1
+		"name": "GreatPerson_Class_Engineer_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Engineer] <by consuming this unit>",
+		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//大工程师项目2
+		"name": "GreatPerson_Class_Engineer_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Engineer] <by consuming this unit>",
+		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//大工程师项目3
+		"name": "GreatPerson_Class_Engineer_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Engineer] <by consuming this unit>",
+		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <after [60] turns>"],
+		"movement":2
+	},
+	{//大预言家项目1
+		"name": "GreatPerson_Class_Prophet_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
+		"Only available <in cities with a [Building_Holy_Site_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//大预言家项目2
+		"name": "GreatPerson_Class_Scientist_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
+		"Only available <in cities with a [Building_Holy_Site_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//大预言家项目3
+		"name": "GreatPerson_Class_Scientist_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
+		"Only available <in cities with a [Building_Holy_Site_Unique]> <after [60] turns>"],
+		"movement":2
+	},
+	{//大将军项目1
+		"name": "GreatPerson_Class_General_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_General] <by consuming this unit>",
+		"Only available <in cities with a [Building_Military_Encampment_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//大将军项目2
+		"name": "GreatPerson_Class_General_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_General] <by consuming this unit>",
+		"Only available <in cities with a [Building_Military_Encampment_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//大将军项目3
+		"name": "GreatPerson_Class_General_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_General] <by consuming this unit>",
+		"Only available <in cities with a [Building_Military_Encampment_Unique]> <after [60] turns>"],
+		"movement":2
+	},
+	{//海军统帅项目1
+		"name": "GreatPerson_Class_Admiral_Progress1",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":80,
+		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Admiral] <by consuming this unit>",
+		"Only available <in cities with a [Building_Port_Unique]> <before [30] turns>"],
+		"movement":2
+	},
+	{//海军统帅项目2
+		"name": "GreatPerson_Class_Admiral_Progress2",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":240,
+		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Admiral] <by consuming this unit>",
+		"Only available <in cities with a [Building_Port_Unique]> <before [60] turns> <after [30] turns>"],
+		"movement":2
+	},
+	{//海军统帅项目3
+		"name": "GreatPerson_Class_Admiral_Progress3",
+		"unitType": "Unit_Type_Project_Great_Person",
+		"cost":720,
+		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Admiral] <by consuming this unit>",
+		"Only available <in cities with a [Building_Port_Unique]> <after [60] turns>"],
+		"movement":2
 	},
 
 	/*建造者*/

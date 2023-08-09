@@ -5,6 +5,11 @@
         "uniques":[]
     },
     {
+        "name": "Unit_Type_Project_Great_Person",
+        "movementType": "Land",
+        "uniques":["Can move immediately once bought","Cannot move"]
+    },
+    {
         "name": "Unit_Type_Civilian_Ship",
         "movementType": "Water",
         "uniques":[]
