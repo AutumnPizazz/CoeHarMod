@@ -420,8 +420,8 @@
 		"name": "Nation_Arabia",
 		"leaderName": "Saladin",
 		"adjective": ["Arabian"],
-		"outerColor": [218, 112, 60],
-		"innerColor": [235, 215, 173],
+		"outerColor": [185, 91, 51],
+		"innerColor": [238, 221, 185],
 		
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Victory type_Religion",

@@ -123,8 +123,7 @@
         {//神圣之光
             "name": "Pantheon_Sacred light",
             "type": "Pantheon",
-            "uniques": ["[+15]% Great Person generation [in all cities]",
-                "[+10]% Great Person generation [in capital]"]
+            "uniques": ["Provides 1 GreatPerson_Class_Scientist_Progress1, Provides 1 GreatPerson_Class_Merchant_Progress1"]
         },
         {//石圈
             "name": "Pantheon_Stone circle",
