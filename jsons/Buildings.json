@@ -21,6 +21,16 @@
         "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
     },
 
+    /*文明专属特殊建筑*/
+    {//拜占庭-天授规矩
+        "name":"Building_DivinelyOrdainedRules",
+        "uniqueTo":"Nation_Byzantium",
+        "cost":0,
+        "uniques":["[+13]% Strength <for [Military] units>",
+        "Can only be built [in holy cities]",
+        "Destroyed when the city is captured"]
+    }
+
     /*政体建筑*/
 	{//酋邦
 	    "name": "Government_Chieftainship",
@@ -2002,6 +2012,27 @@
             "Provides [1] [Resource_GreatPerson_Class_Scientist]",
             "Provides [2] [Resource_house_limitation]",
 		"Cost increases by [6] per owned city",
+        "Building_Classification_College_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+	},
+	{//阿拉伯-伊斯兰学校
+		"name": "Building_Islamic_School",
+        "replaces":"Building_University",
+        "uniqueTo":"Nation_Arabia",
+		"cost":120,
+		"hurryCostModifier":-33,
+		"maintenance": 2,
+		"science":4,
+        "faith":5,
+		"requiredBuilding": "Building_Library",
+		"requiredTech": "Tech_Civilian education",
+        "specialistSlots": {"Specialist_Scientist": 1},
+		"uniques": [
+            "Provides [1] [Resource_GreatPerson_Class_Scientist]",
+            "Provides [1] [Resource_GreatPerson_Class_Prophet]",
+            "Provides [2] [Resource_house_limitation]",
+		"Cost increases by [3] per owned city",
         "Building_Classification_College_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]

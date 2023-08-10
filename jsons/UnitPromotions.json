@@ -1012,7 +1012,12 @@
 	{//彻侯
 		"name": "Promotion_CheHou",
 		"uniques": ["[+2] Sight","[+1] Movement","[2] additional attacks per turn"]
-	}
+	},
+	
+	{//阿拉伯-奴隶兵能力
+		"name": "[Unit_Mamluk] ability",
+		"uniques": ["Unit will heal every turn, even if it performs an action"]
+	},
 
 
 ]

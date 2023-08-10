@@ -1794,7 +1794,7 @@
 		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
 		"Era_Ancient"]
 	},
-	{
+	{//骑士
 		"name":"Unit_Knight",
 		"unitType":"Unit_Type_Heavy_Cavalry",
 		"strength":332,//50
@@ -1821,6 +1821,39 @@
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Earn [35]% of killed [Military] unit's [Strength] as [Gold]",
 		"Instantly consumes [8] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
+	},
+	{//阿拉伯-奴隶兵
+		"name":"Unit_Mamluk",
+		"replaces":"Unit_Knight",
+		"uniqueTo":"Nation_Arabia",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":375,//52
+		"movement":4,
+		"cost":220,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Cuirassier",
+		"requiredTech": "Tech_Stirrups",
+		"obsoleteTech": "Tech_Ballistics",
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"],
+		"promotions":["[Unit_Mamluk] ability"]
+	},
+	{//拜占庭-甲胄骑兵
+		"name":"Unit_Tagma",
+		"replaces":"Unit_Knight",
+		"uniqueTo":"Nation_Byzantium",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":332,//50
+		"movement":4,
+		"cost":220,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Cuirassier",
+		"requiredTech": "Civic_Divin right of Kings",
+		"obsoleteTech": "Tech_Ballistics",
+		"uniques":["[+13]% Strength bonus for [Military] units within [1] tiles",
+		"[+23]% Strength <vs cities> <when attacking>",
+		"Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
 	},
 	{
@@ -1991,12 +2024,28 @@
 	},
 
 	/*长程海军*/
-	{
+	{//四段帆船
 		"name":"Unit_Caravel",
 		"unitType":"Unit_Type_Long_Ranged_Naval",
 		"strength":100,//20
 		"rangedStrength":123,//25
 		"range":1,
+		"movement":3,
+		"cost":120,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Cruiser",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical"],
+		"requiredTech": "Tech_Shipbuilding",
+		"obsoleteTech": "Tech_Crossail device"
+	},
+	{//拜占庭-火战船
+		"name":"Unit_Fire_Ship",
+		"replaces":"Unit_Caravel",
+		"uniqueTo":"Nation_Byzantium",
+		"unitType":"Unit_Type_Long_Ranged_Naval",
+		"strength":100,//20
+		"rangedStrength":123,//25
+		"range":2,
 		"movement":3,
 		"cost":120,
 		"hurryCostModifier":-33,

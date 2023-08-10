@@ -360,7 +360,7 @@
 		"name": "Nation_Qin",
 		"leaderName": "Ying Zheng",
 		"adjective": ["Qin"],
-		"outerColor": [0, 0, 0],
+		"outerColor": [23, 31, 42],
 		"innerColor": [255, 204, 0],
 		"startBias": ["Landform_Hill"],
 		"preferredVictoryType": "Victory type_Conquest",
@@ -396,48 +396,6 @@
 
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
-	
-	{//秦朝
-		"name": "Nation_Qin",
-		"leaderName": "Ying Zheng",
-		"adjective": ["Qin"],
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 204, 0],
-		"startBias": ["Landform_Hill"],
-		"preferredVictoryType": "Victory type_Conquest",
-		
-		"uniqueName":"Military Merit Peerage System",
-		"uniques": ["[Military] units gain the [Promotion_GongShi] promotion"],
-		"uniqueText":"All military units can gain civilization-specific promotions by defeating enemies, thereby obtaining progressively stronger effects",
-
-		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"],
-		"civilopediaText":[
-			{"text": "Promotion_GongShi","link": "Promotion/Promotion_GongShi"},
-			{"text": "Promotion_ShangZao","link": "Promotion/Promotion_ShangZao"},
-			{"text": "Promotion_ZanNiao","link": "Promotion/Promotion_ZanNiao"},
-			{"text": "Promotion_BuGeng","link": "Promotion/Promotion_BuGeng"},
-			{"text": "Promotion_DaFu","link": "Promotion/Promotion_DaFu"},
-			{"text": "Promotion_GuanDaFu","link": "Promotion/Promotion_GuanDaFu"},
-			{"text": "Promotion_GongDaFu","link": "Promotion/Promotion_GongDaFu"},
-			{"text": "Promotion_GongCheng","link": "Promotion/Promotion_GongCheng"},
-			{"text": "Promotion_WuDaFu","link": "Promotion/Promotion_WuDaFu"},
-			{"text": "Promotion_ZuoShuZhang","link": "Promotion/Promotion_ZuoShuZhang"},
-			{"text": "Promotion_ShangZao","link": "Promotion/Promotion_ShangZao"},
-			{"text": "Promotion_YouShuZhang","link": "Promotion/Promotion_YouShuZhang"},
-			{"text": "Promotion_ZuoGeng","link": "Promotion/Promotion_ZuoGeng"},
-			{"text": "Promotion_ZhongGeng","link": "Promotion/Promotion_ZhongGeng"},
-			{"text": "Promotion_YouGeng","link": "Promotion/Promotion_YouGeng"},
-			{"text": "Promotion_ShaoShangZao","link": "Promotion/Promotion_ShaoShangZao"},
-			{"text": "Promotion_DaShangZao","link": "Promotion/Promotion_DaShangZao"},
-			{"text": "Promotion_SiCheShuZhang","link": "Promotion/Promotion_SiCheShuZhang"},
-			{"text": "Promotion_DaShuZhang","link": "Promotion/Promotion_DaShuZhang"},
-			{"text": "Promotion_GuanNeiHou","link": "Promotion/Promotion_GuanNeiHou"},
-			{"text": "Promotion_CheHou","link": "Promotion/Promotion_CheHou"}
-		],
-
-		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
-	},
-	
 	{//斯基泰
 		"name": "Nation_Scythia",
 		"leaderName": "Tomyris",
@@ -457,27 +415,57 @@
 
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
-	},/*
+	},
 	{//阿拉伯
-		"name": "Nation_Scythia",
-		"leaderName": "Tomyris",
-		"adjective": ["Scythian"],
-		"outerColor": [0, 0, 128],
-		"innerColor": [255, 165, 0],
-
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Victory type_Domination",
+		"name": "Nation_Arabia",
+		"leaderName": "Saladin",
+		"adjective": ["Arabian"],
+		"outerColor": [218, 112, 60],
+		"innerColor": [235, 215, 173],
 		
-		"uniqueName": "Cyrus Terminator",
-		"uniques": ["May buy [Unit_Type_Light_Cavalry] units with [Faith] [in all cities]",
-		"[Faith] cost of purchasing [Unit_Type_Light_Cavalry] units [-15]% <after discovering [Civic_Divin right of Kings]>",
-		"Double quantity of [Resource_Horse] produced"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Victory type_Religion",
 		
-		"cities": ["Pokrovka","Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop","Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov","Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"],
-
+		"uniqueName": "The Army of Kings",
+		"uniques": ["Free [GreatPerson_Class_Prophet] appears <after [40] turns>",
+		"[Faith] cost of purchasing [Building_Classification_Religious_Building] buildings [-90]%",
+		"[+100]% to Flank Attack bonuses"],
+		
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat","Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul","Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
-	},*/
+	},
+	{//拜占庭
+		"name": "Nation_Byzantium",
+		"leaderName": "Basil II",
+		"adjective": ["Byzantine"],
+		"outerColor": [55,0,101],
+		"innerColor": [233,226,158],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Victory type_Domination",
+		
+		"uniqueName": "Divinely Ordained Rules",
+		"uniqueText":"Each time a Entertainment Complex district and its buildings are completed, you will receive the most advanced Heavy Cavalry unit of the current era",
+		"uniques": ["Free [Unit_Chariot] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <during the [Era_Classical]>",
+		"Free [Unit_Chariot] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <during the [Era_Classical]>",
+		"Free [Unit_Tagma] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <during the [Era_Medieval]>",
+		"Free [Unit_Tagma] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <during the [Era_Medieval]>",
+		"Free [Unit_Tagma] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <during the [Era_Renaissance]>",
+		"Free [Unit_Tagma] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <during the [Era_Renaissance]>",
+		"Free [Unit_Cuirassier] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <during the [Era_Industrial]>",
+		"Free [Unit_Cuirassier] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <during the [Era_Industrial]>",
+		"Free [Unit_Tank] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <during the [Era_Modern]>",
+		"Free [Unit_Tank] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <during the [Era_Modern]>",
+		"Free [Unit_Tank] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <during the [Era_Atomic]>",
+		"Free [Unit_Tank] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <during the [Era_Atomic]>",
+		"Free [Unit_Modern_Armor] appears <upon constructing [Building_Entertainment_Complex_Unique] [in all cities]> <starting from the [Era_Information]>",
+		"Free [Unit_Modern_Armor] appears <upon constructing [Building_Classification_Entertainment_Complex_District] [in all cities]> <starting from the [Era_Information]>"
+	],
+		
+		"cities": ["Constantinople", "Thessaloniki", "Nicaea", "Antioch", "Alexandria", "Athens", "Rome", "Syracuse", "Jerusalem", "Carthage", "Ravenna", "Ephesus", "Chersonesus", "Trebizond", "Cyprus", "Sofia", "Tarsus", "Naples", "Smyrna", "Amphipolis", "Patras", "Sardis", "Corinth", "Adrianople", "Ephesos", "Chalcedon", "Dyrrachium", "Thebes", "Pella", "Pergamon", "Mytilene", "Caesarea", "Paphos"],
+		
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		}
 
 
 
