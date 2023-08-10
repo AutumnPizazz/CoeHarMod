@@ -427,7 +427,7 @@
 		"preferredVictoryType": "Victory type_Religion",
 		
 		"uniqueName": "The Army of Kings",
-		"uniques": ["Free [GreatPerson_Class_Prophet] appears <after [40] turns>",
+		"uniques": ["Provides [1] [Resource_GreatPerson_Class_Prophet]",
 		"[Faith] cost of purchasing [Building_Classification_Religious_Building] buildings [-90]%",
 		"[+100]% to Flank Attack bonuses"],
 		
