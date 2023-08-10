@@ -104,6 +104,9 @@
 
 
         /*伟人点数系统*/
+        "May buy [Unit_Type_Project_Great_Person] units with [Gold] for [3] times their normal Production cost",
+        "May buy [Unit_Type_Project_Great_Person] units with [Faith] for [2] times their normal Production cost",
+
         "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [30] [Resource_GreatPerson_Class_Artist]> <before [30] turns>",
         "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [60] [Resource_GreatPerson_Class_Artist]> <after [30] turns> <before [60] turns>",
         "May buy [GreatPerson_Class_Artist] units for [0] [Gold] [in all cities] <when above [90] [Resource_GreatPerson_Class_Artist]> <after [60] turns> <before [90] turns>",
