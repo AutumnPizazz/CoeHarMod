@@ -697,7 +697,7 @@
 		"movement":2
 	},
 	{//大预言家项目2
-		"name": "GreatPerson_Class_Scientist_Progress2",
+		"name": "GreatPerson_Class_Prophet_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":240,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
@@ -705,7 +705,7 @@
 		"movement":2
 	},
 	{//大预言家项目3
-		"name": "GreatPerson_Class_Scientist_Progress3",
+		"name": "GreatPerson_Class_Prophet_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":720,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
