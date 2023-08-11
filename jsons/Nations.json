@@ -470,8 +470,8 @@
 		"name": "Nation_Tang",
 		"leaderName": "Li Shimin",
 		"adjective": ["Tang"],
-		"outerColor": [184, 134, 11],
-		"innerColor": [255, 240, 138],
+		"outerColor": [174, 127, 10],
+		"innerColor": [255, 240, 143],
 
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Victory type_Domination",
