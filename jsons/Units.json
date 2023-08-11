@@ -548,6 +548,7 @@
 			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
 			"Can transform to [Unit_Grand_Marshal] <for [Nation_Qin]>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation_Tang]> <if [Building_TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -564,6 +565,7 @@
 			"Instantly consumes [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
 			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles",
+            "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation_Tang]> <if [Building_TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 3
@@ -1403,6 +1405,23 @@
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>"]
+	},
+	{//唐朝-陌刀手
+		"name":"Unit_MudaoSoldier",
+		"replaces":"Unit_Hoplite",
+		"uniqueTo":"Nation_Tang",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":281,//45
+		"movement":2,
+		"cost":128,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Musketman",
+		"requiredTech": "Tech_Apprentices",
+		"obsoleteTech": "Tech_Gunpowder",
+		"uniques":["[1] additional attacks per turn",
+		"Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
 		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>"]
 	},

@@ -28,8 +28,24 @@
         "cost":0,
         "uniques":["[+13]% Strength <for [Military] units>",
         "Can only be built [in holy cities]",
+        "Automatically built in all cities where it is buildable",
         "Destroyed when the city is captured"]
-    }
+    },
+    {//唐朝-大明宫
+        "name":"Building_TheGrandPalace",
+        "uniqueTo":"Nation_Tang",
+        "isWonder":true,
+        "cost":710,
+        "cityStrength":100,
+        "requiredTech":"Tech_Apprentices",
+        "uniques":["Free [GreatPerson_Class_General] appears",
+        "The combat bonus provided by the Grand General is doubled",
+        "Provides [10] [Resource_house_limitation]",
+        "Provides [1] [Resource_Military policy slot] <for [20] turns>",
+        "[+25]% Production when constructing [Military] units [in all cities] <for [20] turns>",
+        "Destroyed when the city is captured"],
+        "quote":"大明宫，盛世华章，凝聚着唐朝的辉煌与文化。它是帝王权力的象征，也是智慧与艺术的殿堂。在大明宫中，历史的笔触与壮丽的建筑交织，彰显着唐朝的荣光。步入其中，仿佛穿越时空，感受着文人墨客的灵感与壮丽宴会的热闹。大明宫见证了盛唐时期的繁荣与开放，它是文化交流的中心，让世界见证着唐朝的伟大。在大明宫中，历史的奇迹与人文的智慧交汇，永远铭刻在人们的心中。"
+    },
 
     /*政体建筑*/
 	{//酋邦
