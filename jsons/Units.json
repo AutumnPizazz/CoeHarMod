@@ -997,7 +997,7 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":2,
 		"cost":120,
-		"uniques":["Founds a new city <by consuming this unit>","Requires at least [2] population","[+1] Sight"]
+		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]>","Requires at least [2] population","[+1] Sight"]
 	},
 
 	/*使者*/

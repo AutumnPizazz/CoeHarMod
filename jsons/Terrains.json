@@ -442,11 +442,9 @@
 		"unbuildable": true,
 		"production":2,
 		"culture":2,
-		"gold":1,
+		"gold":5,
 		"uniques": ["Must be adjacent to [1] to [6] [Landform_Hill] tiles",
-		"Occurs in groups of [2] to [2] tiles",
-		"Units ending their turn on this terrain take [24] damage",
-//		"This Unit gains [2] XP <in [Naturalwonder_Zhangye_Danxia] tiles>"等待重做
+		"Occurs in groups of [2] to [2] tiles"
 	],
 		"weight": 5,
 		"movementCost":3,
