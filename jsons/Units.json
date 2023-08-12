@@ -1085,7 +1085,8 @@
 		"strength":113,//23
 		"movement":3,
 		"promotions":["Promotion_Blood"],
-		"uniques":["Free [Unit_VampireI] appears <upon being defeated>",
+		"requiredResource":"Resource_remaining_available_vampire_count",
+		"uniques":[
 		"Can transform to [Unit_VampireII] <after discovering [Tech_Alchemy]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -1096,8 +1097,8 @@
 		"strength":211,//38
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
-		"Free [Unit_VampireII] appears <upon being defeated>",
 		"Can transform to [Unit_VampireIII] <after discovering [Tech_Apprentices]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -1108,8 +1109,8 @@
 		"strength":319,//48
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
-		"Free [Unit_VampireIII] appears <upon being defeated>",
 		"Can transform to [Unit_VampireIV] <after discovering [Tech_Gunpowder]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -1120,8 +1121,8 @@
 		"strength":482,//58
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
-		"Free [Unit_VampireIV] appears <upon being defeated>",
 		"Can transform to [Unit_VampireV] <after discovering [Tech_Part specification]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -1132,8 +1133,8 @@
 		"strength":1098,//78
 		"movement":4,
 		"promotions":["Promotion_Blood"],
+		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
-		"Free [Unit_VampireV] appears <upon being defeated>",
 		"Can transform to [Unit_VampireVI] <after discovering [Tech_Satellite]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
@@ -1144,8 +1145,8 @@
 		"strength":1657,//88
 		"movement":4,
 		"promotions":["Promotion_Blood"],
+		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
-		"Free [Unit_VampireVI] appears <upon being defeated>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable"]
 	},

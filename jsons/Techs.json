@@ -15,7 +15,7 @@
 			{
 				"name": "Tech_UniqueToGoldenDawn",
 				"cost":33554431,
-				"row": 16,
+				"row": 15,
 				"quote": "你能够看到土地上撰写的文字，但却无法识别。光芒从世界的洞穴中倾泻而出，道行浅薄之人无缘得见，而你尚不明了其中含义。真理之光忽明忽暗地闪烁着。世界不过是一层面纱，笼罩着更深的奥秘，这便是真理。",
 				"uniques": ["Only available <after discovering [Tech_Future technology]>",
 				"Only available <after discovering [Civic_Future Municipal]>"]
@@ -23,11 +23,19 @@
 			{
 				"name": "Tech_UniqueToUnitedStates",
 				"cost":33554431,
-				"row": 15,
+				"row": 14,
 				"quote": "罗斯福新政，燃起希望之光，重建经济，保障劳动，铸就辉煌，引领未来。",
 				"uniques": ["Only available <after discovering [Tech_Future technology]>",
 				"Only available <after discovering [Civic_Future Municipal]>"]
 			},
+			{
+				"name": "Tech_UniqueToVampire",
+				"cost":33554431,
+				"row": 16,
+				"quote": "拥抱内心的黑暗，它赋予我们永恒的力量。带着刺破黑夜的尖牙，我们将在阴影中茁壮成长。释放吸血鬼的愤怒，因为统治夜晚、饮尽生命本质是我们的天赋。当世界因恐惧而颤抖时，我们，夜之子民，必将独霸天下。",
+				"uniques": ["Only available <after discovering [Tech_Future technology]>",
+				"Only available <after discovering [Civic_Future Municipal]>"]
+			}
 		]
 	},
 	{
@@ -87,7 +95,7 @@
 			{
 				"name": "Tech_UniqueToGoldenDawn2",
 				"cost":33554431,
-				"row": 16,
+				"row": 15,
 				"prerequisites":["Tech_UniqueToGoldenDawn"],
 				"quote": "你能够看到土地上撰写的文字，但却无法识别。光芒从世界的洞穴中倾泻而出，道行浅薄之人无缘得见，而你尚不明了其中含义。真理之光忽明忽暗地闪烁着。世界不过是一层面纱，笼罩着更深的奥秘，这便是真理。",
 				"uniques": ["Only available <after discovering [Tech_Future technology]>",

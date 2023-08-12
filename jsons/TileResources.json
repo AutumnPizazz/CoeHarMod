@@ -346,6 +346,13 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
+	{//剩余可用吸血鬼数量
+		"name": "Resource_remaining_available_vampire_count",
+		"resourceType": "Strategic",
+		"revealedBy":"Tech_UniqueToVampire",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},
 	{//住房(人口限制)
 		"name": "Resource_house_limitation",
 		"resourceType": "Strategic",

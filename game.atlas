@@ -6089,6 +6089,13 @@ UnitPromotionIcons/Promotion_Blood
   orig: 128, 128
   offset: 0, 0
   index: -1
+ResourceIcons/Resource_remaining_available_vampire_count
+  rotate: false
+  xy: 1364, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Unit_VampireI
   rotate: false
   xy: 1364, 1916
@@ -6132,6 +6139,55 @@ UnitIcons/Unit_VampireVI
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Promotion_Bloodthirsty
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty2
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty3
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty4
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty5
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty6
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty7
+  rotate: false
+  xy: 1500, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion_Bloodthirsty8
   rotate: false
   xy: 1500, 1916
   size: 128, 128

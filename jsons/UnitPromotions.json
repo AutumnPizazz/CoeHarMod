@@ -57,19 +57,169 @@
 	{//血族
 		"name":"Promotion_Blood",
 		"uniques":["It proves that you are a blood",
-		"This Unit gains the [Promotion_Bloodthirsty] promotion <for units with [Promotion_Blood]> <upon defeating a [Military] unit>",
-		"[-10] HP when healing",
-        "Cannot move <for [3] turns> <for units with [Promotion_Blood]>",
-        "[-33]% Strength <for [3] turns> <for units with [Promotion_Blood]>"]
+		"This Unit gains the [Promotion_Bloodthirsty I] promotion <for units with [Promotion_Blood]> <upon defeating a [Military] unit>",
+		"[-10] HP when healing"
+	]
 	},
-	{//嗜血
-		"name":"Promotion_Bloodthirsty",
+	{//嗜血I级
+		"name":"Promotion_Bloodthirsty I",
 		"uniques":["Heal this unit by [50] HP",
-		"[+3]% Strength <for [60] turns> <for units with [Promotion_Blood]>",
-		"[+1] Movement <for [1] turns> <for units with [Promotion_Blood]>",
-		"Only available <for units with [Promotion_Blood]>",
-		"Doing so will consume this opportunity to choose a Promotion"]
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty II] promotion <for units with [Promotion_Bloodthirsty I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
 	},
+	{//嗜血II级
+		"name":"Promotion_Bloodthirsty II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty III] promotion <for units with [Promotion_Bloodthirsty II]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血III级
+		"name":"Promotion_Bloodthirsty III",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty2 I] promotion <for units with [Promotion_Bloodthirsty III]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血IV级
+		"name":"Promotion_Bloodthirsty2 I",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty2 II] promotion <for units with [Promotion_Bloodthirsty2 I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血V级
+		"name":"Promotion_Bloodthirsty2 II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty2 III] promotion <for units with [Promotion_Bloodthirsty2 II]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血VI级
+		"name":"Promotion_Bloodthirsty2 III",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty3 I] promotion <for units with [Promotion_Bloodthirsty2 III]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血VII级
+		"name":"Promotion_Bloodthirsty3 I",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty3 II] promotion <for units with [Promotion_Bloodthirsty3 I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血VIII级
+		"name":"Promotion_Bloodthirsty3 II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty3 III] promotion <for units with [Promotion_Bloodthirsty3 II]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血IX级
+		"name":"Promotion_Bloodthirsty3 III",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty4 I] promotion <for units with [Promotion_Bloodthirsty3 III]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血X级
+		"name":"Promotion_Bloodthirsty4 I",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty4 II] promotion <for units with [Promotion_Bloodthirsty4 I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XI级
+		"name":"Promotion_Bloodthirsty4 II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty4 III] promotion <for units with [Promotion_Bloodthirsty4 II]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XII级
+		"name":"Promotion_Bloodthirsty4 III",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty5 I] promotion <for units with [Promotion_Bloodthirsty4 III]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XIII级
+		"name":"Promotion_Bloodthirsty5 I",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty5 II] promotion <for units with [Promotion_Bloodthirsty5 I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XIV级
+		"name":"Promotion_Bloodthirsty5 II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty5 III] promotion <for units with [Promotion_Bloodthirsty5 II]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XV级
+		"name":"Promotion_Bloodthirsty5 III",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty6 I] promotion <for units with [Promotion_Bloodthirsty5 III]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XVI级
+		"name":"Promotion_Bloodthirsty6 I",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty6 II] promotion <for units with [Promotion_Bloodthirsty6 I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XVII级
+		"name":"Promotion_Bloodthirsty6 II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty6 III] promotion <for units with [Promotion_Bloodthirsty6 II]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XVIII级
+		"name":"Promotion_Bloodthirsty6 III",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty7 I] promotion <for units with [Promotion_Bloodthirsty6 III]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XIX级
+		"name":"Promotion_Bloodthirsty7 I",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"This Unit gains the [Promotion_Bloodthirsty7 II] promotion <for units with [Promotion_Bloodthirsty7 I]> <upon defeating a [Military] unit>",
+		"[+1] Movement <for [2] turns> <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	},
+	{//嗜血XX级
+		"name":"Promotion_Bloodthirsty7 II",
+		"uniques":["Heal this unit by [50] HP",
+		"[+5]% Strength",
+		"[+1] Movement <for units with [Promotion_Blood]>",
+		"Only available <for units with [Promotion_Blood]>"]
+	}
 
 
 	/*总督buff*/
