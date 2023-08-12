@@ -150,8 +150,10 @@
         "May buy [GreatPerson_Class_Admiral] units for [0] [Gold] [in all cities] <when above [150] [Resource_GreatPerson_Class_Admiral]> <after [120] turns>",//海军统帅
 
         /*文明羁绊*/
+		"[+1]% Strength <for [Military] units> <vs [Nation_Gaul] units> <for [Nation_Rome]>",
 		"[+1]% Strength <for [Military] units> <vs [Nation_Babylon] units> <for [Nation_Persia]>",
 		"[+1]% Strength <for [Military] units> <vs [Nation_Persia] units> <for [Nation_Scythia]>",
+		"[+1]% Strength <for [Military] units> <vs [Nation_Qin] units> <for [Nation_Han]>",
     
     
     ]

@@ -1168,6 +1168,10 @@
 		"name": "[Unit_Mamluk] ability",
 		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
+	{//汉朝-虎贲军能力
+		"name": "[Unit_ImperialGuard] ability",
+		"uniques": ["[+33]% Strength decreasing with distance from the capital"]
+	},
 
 
 ]

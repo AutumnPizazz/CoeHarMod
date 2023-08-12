@@ -60,8 +60,8 @@
 		"[+2 Science, +2 Culture] per [3] population [in all cities] <in cities with at least [9] [Population]>",
 		"[+1 Gold] per [1] population [in all cities] <in cities with at least [9] [Population]>"],
 	
-		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xian", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
-	
+		"cities": ["北京", "南京", "苏州", "杭州", "西安", "开封", "武汉", "长沙", "福州", "广州", "泉州", "宁波", "绍兴", "温州", "台州", "扬州", "成都", "昆明", "兰州", "郑州"],
+
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//高卢
@@ -481,10 +481,30 @@
 		"[+23]% Strength <for [Military] units> <vs [Barbarians] units>",
 		"[+1] Movement <for [All] units> <in [Enemy Land] tiles>"],
 		
-		"cities": ["Chang'an", "Luoyang", "Dunhuang", "Kaifeng", "Lanzhou", "Taiyuan", "Chengdu", "Hangzhou", "Yangzhou", "Nanjing", "Guangzhou", "Xianyang", "Zhengzhou", "Wuhan", "Chongqing", "Beijing", "Shanghai", "Shenzhen", "Tianjin", "Suzhou", "Qingdao", "Fuzhou", "Nanning", "Urumqi", "Guiyang", "Kunming", "Harbin", "Shenyang", "Xiamen", "Nanning", "Haikou", "Dalian"],
+		"cities": ["长安", "洛阳", "敦煌", "开封", "兰州", "太原", "成都", "杭州", "扬州", "南京", "广州", "咸阳", "郑州", "武汉", "重庆", "北京", "上海", "深圳", "天津", "苏州", "青岛", "福州", "南宁", "乌鲁木齐", "贵阳", "昆明", "哈尔滨", "沈阳", "厦门", "南宁", "海口", "大连"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
-		}
+	},
+	{//汉朝
+		"name": "Nation_Han",
+		"leaderName": "Liu Che",
+		"adjective": ["Han"],
+		"outerColor": [138, 25, 52],//表示外部颜色为深红色调。这个颜色代表着权威、威严和皇权。
+		"innerColor": [255, 215, 0],//表示内部颜色为金黄色调。这个颜色象征着皇家的尊贵和权力。
+
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Victory type_Culture",
+		
+		"uniqueName": "Merit-based selection, Confucianism honored",
+		"uniques": ["[+1 Culture] from every [Building_Palace]",
+		"[+1 Culture] from every [Building_Palace] <after discovering [Civic_National labor force]>",
+		"[+1 Culture] from every [Building_Library]",
+		"[+1 Culture] from every [Building_Library] <after discovering [Tech_Civilian education]>"],
+		
+		"cities": ["长安", "洛阳", "雒县", "邯郸", "许昌", "平阳", "襄阳", "成皋", "开封", "武阳", "巩县", "丰县", "梁县", "汝南", "颍川", "沛县", "宛县", "南阳", "陈留", "阳翟", "虎牙", "东海", "寿春", "彭城", "泰山", "温县", "安阳", "延津", "河阳", "蓟县"],
+		
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 

@@ -599,21 +599,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Scientist] <by consuming this unit>",
-		"Only available <in cities with a [Building_College_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_College_Unique]>"],
 		"movement":2
 	},
 	{//大科学家项目2
 		"name": "GreatPerson_Class_Scientist_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Scientist] <by consuming this unit>",
-		"Only available <in cities with a [Building_College_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_College_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//大科学家项目3
 		"name": "GreatPerson_Class_Scientist_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Scientist] <by consuming this unit>",
 		"Only available <in cities with a [Building_College_Unique]> <after [60] turns>"],
 		"movement":2
@@ -623,21 +623,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]>"],
 		"movement":2
 	},
 	{//大商人项目2
 		"name": "GreatPerson_Class_Merchant_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//大商人项目3
 		"name": "GreatPerson_Class_Merchant_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
 		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [60] turns>"],
 		"movement":2
@@ -647,21 +647,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Artist] <by consuming this unit>",
-		"Only available <in cities with a [Building_Theater_Square_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_Theater_Square_Unique]>"],
 		"movement":2
 	},
 	{//大艺术家项目2
 		"name": "GreatPerson_Class_Artist_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Artist] <by consuming this unit>",
-		"Only available <in cities with a [Building_Theater_Square_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_Theater_Square_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//大艺术家项目3
 		"name": "GreatPerson_Class_Artist_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Artist] <by consuming this unit>",
 		"Only available <in cities with a [Building_Theater_Square_Unique]> <after [60] turns>"],
 		"movement":2
@@ -671,21 +671,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Engineer] <by consuming this unit>",
-		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_Industrial_Zone_Unique]>"],
 		"movement":2
 	},
 	{//大工程师项目2
 		"name": "GreatPerson_Class_Engineer_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Engineer] <by consuming this unit>",
-		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//大工程师项目3
 		"name": "GreatPerson_Class_Engineer_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Engineer] <by consuming this unit>",
 		"Only available <in cities with a [Building_Industrial_Zone_Unique]> <after [60] turns>"],
 		"movement":2
@@ -695,21 +695,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
-		"Only available <in cities with a [Building_Holy_Site_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_Holy_Site_Unique]>"],
 		"movement":2
 	},
 	{//大预言家项目2
 		"name": "GreatPerson_Class_Prophet_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
-		"Only available <in cities with a [Building_Holy_Site_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_Holy_Site_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//大预言家项目3
 		"name": "GreatPerson_Class_Prophet_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Prophet] <by consuming this unit>",
 		"Only available <in cities with a [Building_Holy_Site_Unique]> <after [60] turns>"],
 		"movement":2
@@ -719,21 +719,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_General] <by consuming this unit>",
-		"Only available <in cities with a [Building_Military_Encampment_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_Military_Encampment_Unique]>"],
 		"movement":2
 	},
 	{//大将军项目2
 		"name": "GreatPerson_Class_General_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_General] <by consuming this unit>",
-		"Only available <in cities with a [Building_Military_Encampment_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_Military_Encampment_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//大将军项目3
 		"name": "GreatPerson_Class_General_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_General] <by consuming this unit>",
 		"Only available <in cities with a [Building_Military_Encampment_Unique]> <after [60] turns>"],
 		"movement":2
@@ -743,21 +743,21 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Admiral] <by consuming this unit>",
-		"Only available <in cities with a [Building_Port_Unique]> <before [30] turns>"],
+		"Only available <in cities with a [Building_Port_Unique]>"],
 		"movement":2
 	},
 	{//海军统帅项目2
 		"name": "GreatPerson_Class_Admiral_Progress2",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":240,
+		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Admiral] <by consuming this unit>",
-		"Only available <in cities with a [Building_Port_Unique]> <before [60] turns> <after [30] turns>"],
+		"Only available <in cities with a [Building_Port_Unique]> <after [30] turns>"],
 		"movement":2
 	},
 	{//海军统帅项目3
 		"name": "GreatPerson_Class_Admiral_Progress3",
 		"unitType": "Unit_Type_Project_Great_Person",
-		"cost":720,
+		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Admiral] <by consuming this unit>",
 		"Only available <in cities with a [Building_Port_Unique]> <after [60] turns>"],
 		"movement":2
@@ -1274,6 +1274,21 @@
 	},
 
 	/*短程步兵*/
+	{//巴比伦-主力军团
+		"name":"Unit_Main_Corps",
+		"uniqueTo":"Nation_Babylon",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":88,//17
+		"movement":3,
+		"cost":35,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Swordsman",
+		"uniques":["[+1] Sight",
+		"[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
+		"[+97]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
+		"Only available <before discovering [Tech_Apprentices]>",
+		"Era_Ancient"]
+	},
 	{//勇士
 		"name":"Unit_Warrior",
 		"unitType":"Unit_Type_Melee_Infantry",
@@ -1284,7 +1299,8 @@
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["Era_Ancient",
-		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>",
+		"Costs [1] [Gold] per turn"]
 	},
 	{//高卢-高卢枪佣兵
 		"name":"Unit_Gallic_gun_mercenary",
@@ -1324,21 +1340,6 @@
 		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
 		"Era_Ancient",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
-	},
-	{//巴比伦-主力军团
-		"name":"Unit_Main_Corps",
-		"uniqueTo":"Nation_Babylon",
-		"unitType":"Unit_Type_Melee_Infantry",
-		"strength":88,//17
-		"movement":3,
-		"cost":35,
-		"hurryCostModifier":-33,
-		"upgradesTo":"Unit_Swordsman",
-		"uniques":["[+1] Sight",
-		"[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
-		"[+97]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
-		"Only available <before discovering [Tech_Apprentices]>",
-		"Era_Ancient"]
 	},
 	{//剑客
 		"name":"Unit_Swordsman",
@@ -1394,6 +1395,23 @@
 		"Instantly consumes [5] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
+	},
+	{//汉朝-羽林军
+		"name":"Unit_ImperialGuard",
+		"replaces":"Unit_Swordsman",
+		"uniqueTo":"Nation_Han",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":186,//35
+		"movement":2,
+		"cost":90,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Hoplite",
+		"requiredTech": "Tech_Alchemy",
+		"obsoleteTech": "Tech_Apprentices",
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"],
+		"promotions":["[Unit_ImperialGuard] ability"]
 	},
 	{//披甲战士
 		"name":"Unit_Hoplite",
@@ -1458,7 +1476,7 @@
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"],
 		"promotions":["[Unit_Sudanese_Paramilitary] ability"]
 	},
-	{
+	{//线列步兵
 		"name":"Unit_Line_Infantry",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":641,//65
@@ -1472,7 +1490,7 @@
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
 		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>"]
 	},
-	{
+	{//步兵
 		"name":"Unit_Infantry",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":968,//968
@@ -1488,7 +1506,7 @@
 		"Era_Modern",
 		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>"]
 	},
-	{
+	{//机械化步兵
 		"name":"Unit_Mechanized_Infantry",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":1462,//85
@@ -1715,6 +1733,22 @@
 		"strength":194,//36
 		"movement":4,
 		"cost":80,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Horse_Archer",
+		"requiredTech": "Tech_Horseback riding",
+		"obsoleteTech": "Tech_Castle",
+		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
+		"Era_Classical"]
+	},
+	{//汉朝-虎贲军
+		"name":"Unit_Tiger_Leopard_Army",
+		"replaces":"Unit_Horseman",
+		"uniqueTo":"Nation_Han",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":211,
+		"movement":5,
+		"cost":90,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
