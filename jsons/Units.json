@@ -1299,8 +1299,7 @@
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["Era_Ancient",
-		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>",
-		"Costs [1] [Gold] per turn"]
+		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//高卢-高卢枪佣兵
 		"name":"Unit_Gallic_gun_mercenary",
@@ -1503,6 +1502,24 @@
 		"obsoleteTech": "Tech_Satellite",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"[-64]% Strength <when below [0] [Resource_Oil]>",
+		"Era_Modern",
+		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>"]
+	},
+	{//中国-红军
+		"name":"Unit_RedArmy",
+		"replaces":"Unit_Infantry",
+		"uniqueTo":"Nation_PRC",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":968,//968
+		"movement":2,
+		"cost":645,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Mechanized_Infantry",
+		"requiredTech": "Tech_Part specification",
+		"obsoleteTech": "Tech_Satellite",
+		"uniques":["All tiles cost 1 movement",
+		"[+23]% Strength <for units with [double star]>",
+		"[+51]% Strength <for units with [triple star]>",
 		"Era_Modern",
 		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>"]
 	},

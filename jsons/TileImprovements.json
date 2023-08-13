@@ -948,6 +948,23 @@
 			"Can only be built on [River] tiles",
 			"District_Class_Wonder"]
 	},
+	{//埃特曼安吉神庙
+		"name":"District_Etemenanki_Temple",
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"happiness":-10,
+		"faith":-10,
+		"terrainsCanBeBuiltOn": ["Landform_Swamp","Landform_Alluvial plain"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"District_Class_Wonder"]
+	},
 	{//阿耳忒弥斯神庙
 		"name":"District_The_Temple_of_Artemis",
 		"food": -10,

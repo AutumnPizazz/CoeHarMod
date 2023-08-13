@@ -2801,6 +2801,7 @@
 		"uniques": ["Unsellable",
         "Provides [1] [Resource_GreatPerson_Class_General]",
         "Provides [1] [Resource_GreatPerson_Class_General] <in cities with a [Governor_Pingala_III]>",
+        "Provides [1] [Resource_district_limitation] <for [Nation_PRC]>",
 		"Cost increases by [6] per owned city",
         "Creates a [District_Army] improvement on a specific tile",
         "Building_Classification_District_Unique",
@@ -2891,6 +2892,30 @@
         "Provides [1] [Resource_Coal]","Provides [1] [Resource_Oil]",
         "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion_Army_Combat_Training_III] promotion",
 		"Cost increases by [6] per owned city",
+        "Building_Classification_Military_Encampment_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+	},
+	{//中国-党支部
+		"name": "Building_PartyBranch",
+        "replaces":"Building_Military_Academy",
+        "uniqueTo":"Nation_PRC",
+		"cost":160,
+		"hurryCostModifier":-33,
+		"maintenance": 3,
+		"production":4,
+		"requiredBuilding": "Building_Armory",
+		"requiredTech": "Tech_Military science",
+		"specialistSlots": {"Specialist_Army logistics": 1},
+//		"greatPersonPoints": {"GreatPerson_Class_General": 1},
+		"uniques": [
+        "[+3 Production] per [5] population [in this city]",
+        "[+100]% Production when constructing [Unit_RedArmy] units [in this city]",
+        "Provides [1] [Resource_GreatPerson_Class_General]",
+        "Provides [1] [Resource_GreatPerson_Class_General] <in cities with a [Governor_Pingala_III]>",
+        "Provides [1] [Resource_Coal]","Provides [1] [Resource_Oil]",
+        "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion_Army_Combat_Training_III] promotion",
+		"Cost increases by [3] per owned city",
         "Building_Classification_Military_Encampment_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]
@@ -3388,6 +3413,19 @@
             "Wonder_Class_Ancient"],
         "requiredTech": "Tech_Irrigation",
         "quote": "通过楼梯可以到达顶层，旁边是抽水机，雇佣了大量工人来齐心协力从幼发拉底河抽水到花园。\n——斯特拉博"
+    },	
+	{//埃特曼安吉神庙
+        "name": "Artificialwonder_Etemenanki_Temple",
+        "cost":180,
+        "science":2,
+        "isWonder": true,
+        "uniques": ["[+1 Production, +1 Science] from [Landform_Alluvial plain] tiles [in this city]",
+            "[+1 Production, +2 Science] from every [Landform_Swamp]",
+            "Creates a [District_Etemenanki_Temple] improvement on a specific tile",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
+            "Wonder_Class_Ancient"],
+        "requiredTech": "Tech_Writing",
+        "quote": "“来吧，我们来建一座城，城里有一座直达云霄的高塔，我们将因此扬名立万。”\n——《创世纪》"
     },	
     {//阿尔忒弥斯神庙
         "name": "Artificialwonder_The_Temple_of_Artemis",
