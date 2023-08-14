@@ -1082,7 +1082,7 @@
 	{//I级吸血鬼
 		"name":"Unit_VampireI",
 		"unitType":"Unit_Type_Vampire",
-		"strength":113,//23
+		"strength":118,//24
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"requiredResource":"Resource_remaining_available_vampire_count",
@@ -1094,7 +1094,7 @@
 	{//II级吸血鬼
 		"name":"Unit_VampireII",
 		"unitType":"Unit_Type_Vampire",
-		"strength":211,//38
+		"strength":220,//39
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"requiredResource":"Resource_remaining_available_vampire_count",
@@ -1106,7 +1106,7 @@
 	{//III级吸血鬼
 		"name":"Unit_VampireIII",
 		"unitType":"Unit_Type_Vampire",
-		"strength":319,//48
+		"strength":332,//49
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"requiredResource":"Resource_remaining_available_vampire_count",
@@ -1118,7 +1118,7 @@
 	{//IV级吸血鬼
 		"name":"Unit_VampireIV",
 		"unitType":"Unit_Type_Vampire",
-		"strength":482,//58
+		"strength":501,//59
 		"movement":3,
 		"promotions":["Promotion_Blood"],
 		"requiredResource":"Resource_remaining_available_vampire_count",
@@ -1130,7 +1130,7 @@
 	{//V级吸血鬼
 		"name":"Unit_VampireV",
 		"unitType":"Unit_Type_Vampire",
-		"strength":1098,//78
+		"strength":1142,//79
 		"movement":4,
 		"promotions":["Promotion_Blood"],
 		"requiredResource":"Resource_remaining_available_vampire_count",
@@ -1142,7 +1142,7 @@
 	{//VI级吸血鬼
 		"name":"Unit_VampireVI",
 		"unitType":"Unit_Type_Vampire",
-		"strength":1657,//88
+		"strength":1724,//89
 		"movement":4,
 		"promotions":["Promotion_Blood"],
 		"requiredResource":"Resource_remaining_available_vampire_count",
