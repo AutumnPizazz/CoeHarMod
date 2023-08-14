@@ -12,7 +12,14 @@
             "name": "Pantheon_Ocean god",
             "type": "Pantheon",
             "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]",
-            "[+1 Production] from every [Improvement_Fishery]"]
+            "[+1 Production] [in all coastal cities]",
+            "Discover [Tech_Nautical art]"]
+        },
+        {//捕鱼传统
+            "name": "Pantheon_Fishing_Tradition",
+            "type": "Pantheon",
+            "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]",
+            "[+1 Production] from every [Water resource]"]
         },
         {//潮汐女神
             "name": "Pantheon_Tidal goddess",
@@ -29,7 +36,7 @@
             "name": "Pantheon_Earth goddess",
             "type": "Pantheon",
             "uniques": ["[+2 Faith] from [Landform_Hill] tiles without [Class_Usual_Improvement] [in all cities]",
-            "[+4 Faith] from every [Mountain]"]
+            "[+5 Faith] from every [Mountain]"]
         },
         {//锻造之神
             "name": "Pantheon_God of the forge",
@@ -39,7 +46,7 @@
             "Provides [2] [Resource_Horse] <in cities with a [Building_Palace]>",
             "Provides [2] [Resource_Iron] <in cities with a [Building_Palace]>"]
         },
-        {//守护之神
+        {//门神
             "name": "Pantheon_Guardian god",
             "type": "Pantheon",
             "uniques": ["[+18]% Strength for cities <when defending>",
@@ -48,8 +55,10 @@
         {//丰产仪式
             "name": "Pantheon_Harvest festival",
             "type": "Pantheon",
-            "uniques": ["Free Farmer appears",
-            "[+1 Food, +1 Production] from every [Building_Granary]"]
+            "uniques": ["Gain a free '[Building_Granary]' in capital",
+            "May buy [Building_Granary] buildings with [Faith] for [2] times their normal Production cost",
+            "[+1 Food] from every [Building_Granary]",
+            "Free [Unit_Farmer] appears"]
         },
         {//工匠之神
             "name": "Pantheon_God of craftsmen",
@@ -59,17 +68,20 @@
         {//河神
             "name": "Pantheon_River god",
             "type": "Pantheon",
-            "uniques": ["[+1 Food, +1 Production] in cities on [River] tiles"]
+            "uniques": ["[+1 Happiness, +1 Culture] in cities on [River] tiles",
+            "Each riverside city +2 housing"]
         },
         {//雨神
             "name": "Pantheon_Rain god",
             "type": "Pantheon",
-            "uniques": ["[+1 Happiness, -1 Production] [in all cities]"]
+            "uniques": ["All cities +1 housing",
+            "Each non-riverside city +1 housing"]
         },
         {//火之女神
             "name": "Pantheon_Goddess of fire",
             "type": "Pantheon",
-            "uniques": ["[+3 Faith, +1 Food, +1 Production] from every [Landform_Geothermal fissure]"]
+            "uniques": ["[+1 Food, +1 Production, +1 Faith] from every [Landform_Geothermal fissure]",
+            "Colleges grant an additional +1 adjacency bonus to '[Landform_Geothermal fissure]'"]
         },
         {//极光之舞
             "name": "Pantheon_Dance of the aurora",
@@ -96,25 +108,21 @@
         {//节庆女神
             "name": "Pantheon_Goddess of festivals",
             "type": "Pantheon",
-            "uniques": ["[+1 Culture, +1 Production] from every [Improvement_Plantation]"]
+            "uniques": ["[+1 Culture, +1 Production] from every [Improvement_Plantation]",
+            "Free [Unit_Plantation_Worker] appears"]
         },
-        {//天空之神
-            "name": "Pantheon_Sky god",
+        {//长生天
+            "name": "Pantheon_Longevity_Heaven",
             "type": "Pantheon",
-            "uniques": ["[+1 Culture, +1 Production] from every [Improvement_Pasture]"]
+            "uniques": ["[+1 Production] from every [Improvement_Pasture]",
+            "[+1 Faith, +1 Culture] from [Improvement_Pasture] tiles [in all cities] <in cities with a [Building_Holy_Site_Unique]>"]
         },
         {//芦苇和沼泽地里的夫人
             "name": "Pantheon_Lady of the reeds and marshes",
             "type": "Pantheon",
-            "uniques": ["[+2 Production] from every [Landform_Swamp]",
+            "uniques": ["[+2 Production, +1 Science] from every [Landform_Swamp]",
             "[+2 Production] from every [Landform_Oasis]",
-            "[+2 Production] from every [Landform_Alluvial plain]",
-            /*
-            "[+1 Production] from every [Landform_Swamp] <after discovering [Civic_Theology]>",
-            "[+1 Production] from every [Landform_Oasis] <after discovering [Civic_Theology]>",
-            "[+1 Production] from every [Landform_Alluvial plain] <after discovering [Civic_Theology]>"
-            */
-        ]
+            "[+2 Production] from every [Landform_Alluvial plain]"]
         },
         {//神圣道路
             "name": "Pantheon_Sacred way",
@@ -150,11 +158,18 @@
             "Earn [8]% of [Military] unit's [Strength] as [Culture] when killed within 4 tiles of a city following this religion",
             "Earn [30]% of [Military] unit's [Strength] as [Gold] when killed within 4 tiles of a city following this religion"]
         },
-        {//众神纪念碑
+        {//主神纪念碑
             "name": "Pantheon_Monument to the main god",
             "type": "Pantheon",
-            "uniques": ["[+35]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-            "[+20]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]"]
+            "uniques": ["The first two cities receive a free '[Building_Monument]'",
+            "May buy [Building_Monument] buildings with [Faith] for [2] times their normal Production cost",
+            "[+10]% [Culture] from every [Building_Monument]"]
+        },
+        {//众神纪念碑
+            "name": "Pantheon_Monument_to_the_Gods",
+            "type": "Pantheon",
+            "uniques": ["[+35]% Production when constructing [Wonder_Class_Ancient] wonders [in all cities]",
+            "[+20]% Production when constructing [Wonder_Class_Classical] wonders [in all cities]"]
         },
         {//宗教偶像
             "name": "Pantheon_Religious idol",
@@ -165,7 +180,8 @@
         {//宗教移民
             "name": "Pantheon_Religious migrant",
             "type": "Pantheon",
-            "uniques": ["Free Settler appears",
+            "uniques": ["Free [Unit_Settler] appears",
+            "+1 Movement for '[Unit_Settler]' units",
             "[-15]% Culture cost of natural border growth [in all cities]"]
         },
         {//恩惠女神
