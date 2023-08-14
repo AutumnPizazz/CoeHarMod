@@ -17,7 +17,8 @@
         {//潮汐女神
             "name": "Pantheon_Tidal goddess",
             "type": "Pantheon",
-            "uniques": ["[+2 Culture] from every [Improvement_Fishing_Boat]"]
+            "uniques": ["[+1 Culture] from every [Improvement_Fishing_Boat]",
+            "[+1 Culture] from every [Improvement_Fishing_Boat] <after discovering [Civic_Earth protection]>"]
         },
         {//城市守护女神
             "name": "Pantheon_City guardian goddess",
@@ -33,8 +34,10 @@
         {//锻造之神
             "name": "Pantheon_God of the forge",
             "type": "Pantheon",
-            "uniques": ["[+25]% Production when constructing [{Era_Ancient} {Military} {Land}] units [in all cities]",
-            "[+25]% Production when constructing [{Era_Classical} {Military} {Land}] units [in all cities]"]
+            "uniques": ["[+25]% Production when constructing [{Era_Ancient} {Military}] units [in all cities]",
+            "[+25]% Production when constructing [{Era_Classical} {Military}] units [in all cities]",
+            "Provides [2] [Resource_Horse] <in cities with a [Building_Palace]>",
+            "Provides [2] [Resource_Iron] <in cities with a [Building_Palace]>"]
         },
         {//守护之神
             "name": "Pantheon_Guardian god",
@@ -51,8 +54,7 @@
         {//工匠之神
             "name": "Pantheon_God of craftsmen",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from [Strategic resource] tiles [in all cities]",
-            "[+1 Production] from [Strategic resource] tiles [in all cities] <after discovering [Tech_Build]>"]
+            "uniques": ["[+1 Production, +1 Gold, +1 Faith] from [Strategic resource] tiles [in all cities] <after [25] turns>"]
         },
         {//河神
             "name": "Pantheon_River god",
@@ -123,7 +125,8 @@
         {//神圣之光
             "name": "Pantheon_Sacred light",
             "type": "Pantheon",
-            "uniques": ["Provides 1 GreatPerson_Class_Scientist_Progress1, Provides 1 GreatPerson_Class_Merchant_Progress1"]
+            "uniques": ["Provides [1] [Resource_GreatPerson_Class_Scientist] <in cities with a [Building_Palace]>",
+            "Provides [1] [Resource_GreatPerson_Class_Merchant] <in cities with a [Building_Palace]>"]
         },
         {//石圈
             "name": "Pantheon_Stone circle",

@@ -51,13 +51,13 @@
 		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Lijia",
-		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending\nFor every city with nine or more population +2 science +2 culture +3 Gold for every 3 population",
+		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending\nFor every city with nine or more population +2 science +2 culture +3 Gold, +1 Happiness for every 3 population",
 		"uniques": ["Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [100]%",
 		"Enables conversion of city production to [Gold]",
 		"Production to [Gold] conversion in cities changed by [100]%",
 		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>",
-		"[+2 Science, +2 Culture] per [3] population [in all cities] <in cities with at least [9] [Population]>",
+		"[+2 Science, +2 Culture, +1 Happiness] per [3] population [in all cities] <in cities with at least [9] [Population]>",
 		"[+1 Gold] per [1] population [in all cities] <in cities with at least [9] [Population]>"],
 	
 		"cities": ["北京", "南京", "苏州", "杭州", "西安", "开封", "武汉", "长沙", "福州", "广州", "泉州", "宁波", "绍兴", "温州", "台州", "扬州", "成都", "昆明", "兰州", "郑州"],
@@ -407,8 +407,8 @@
 		"preferredVictoryType": "Victory type_Domination",
 		
 		"uniqueName": "Cyrus Terminator",
-		"uniques": ["May buy [Unit_Type_Light_Cavalry] units with [Faith] [in all cities]",
-		"[Faith] cost of purchasing [Unit_Type_Light_Cavalry] units [-15]% <after discovering [Civic_Divin right of Kings]>",
+		"uniques": ["May buy [Unit_Type_Light_Cavalry] units with [Faith] for [1] times their normal Production cost",
+		"[Faith] cost of purchasing [Unit_Type_Light_Cavalry] units [-20]% <after discovering [Civic_Divin right of Kings]>",
 		"Double quantity of [Resource_Horse] produced"],
 		
 		"cities": ["Pokrovka","Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop","Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov","Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"],

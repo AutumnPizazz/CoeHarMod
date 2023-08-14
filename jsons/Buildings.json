@@ -71,6 +71,7 @@
 		"uniques":["[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
             "[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
             "[+18]% Strength <for [Unit_Type_Short_Ranged_Naval] units>",
+            "[+25]% XP gained from combat",
             "Provides [2] [Resource_Military policy slot]",
             "Provides [1] [Resource_Economic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
@@ -88,7 +89,7 @@
 		"hurryCostModifier":-33,
         "requiredTech":"Civic_Political philosophy",
 		"uniques":["[+1 Happiness] [in all cities] <in cities with a [Building_Classification_District_Unique]>",
-            "Provides [2] [Resource_house_limitation] <in cities with a [Building_Classification_District_Unique]>",
+            "Provides 2 '[Resource_house_limitation]' in cities with a Building_Classification_District_Unique",
             "Provides [2] [Resource_Economic policy slot]",
             "Provides [1] [Resource_Diplomatic policy slot]",
             "Provides [1] [Resource_Generic policy slot]",
@@ -167,8 +168,8 @@
 		"cost": 30,
 		"hurryCostModifier":-33,
         "requiredTech":"Civic_Exploration",
-		"uniques":["[+10]% [Gold] [in all cities]",
-            "[+35]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities]",
+		"uniques":["[+15]% [Gold] [in all cities]",
+            "[+50]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities]",
             "Provides [1] [Resource_Military policy slot]",
             "Provides [2] [Resource_Economic policy slot]",
             "Provides [2] [Resource_Diplomatic policy slot]",
@@ -186,7 +187,7 @@
 		"cost": 40,
 		"hurryCostModifier":-33,
         "requiredTech":"Civic_Right to vote",
-		"uniques":["[+4 Food, +4 Production] from each Trade Route",
+		"uniques":["[+4 Food, +4 Production, +2 Happiness] from each Trade Route",
             "[Gold] cost of purchasing items in cities [-15]%",
             "Provides [1] [Resource_Military policy slot]",
             "Provides [3] [Resource_Economic policy slot]",
@@ -206,7 +207,7 @@
 		"hurryCostModifier":-33,
         "requiredTech":"Civic_Class struggle",
 		"uniques":["[+10]% [Science] [in all cities]",
-            "[+3 Production] per [5] population [in all cities]",
+            "[+3 Production, +2 Happiness] per [5] population [in all cities]",
             "Provides [3] [Resource_Military policy slot]",
             "Provides [3] [Resource_Economic policy slot]",
             "Provides [1] [Resource_Diplomatic policy slot]",
@@ -1192,8 +1193,6 @@
         "Free [Unit_Farmer] appears <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
         "Free [Unit_Settler] appears <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
-        "Provides [1] [Resource_GreatPerson_Class_Scientist] <after adopting [Pantheon_Religious idol]>",
-        "Provides [1] [Resource_GreatPerson_Class_Merchant] <after adopting [Pantheon_Religious idol]>",//万神殿神圣之光修正
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
         "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
@@ -2387,7 +2386,7 @@
         "name":"Building_BowlingAlley",
         "replaces":"Building_Arena",
         "uniqueTo":"Nation_Aztec",
-        "cost":140,
+        "cost":70,
 		"hurryCostModifier":-33,
         "maintenance": 1,
         "culture":3,
@@ -2397,7 +2396,7 @@
         "requiredTech":"Civic_Games and entertainment",
         "requiredBuilding":"Building_Entertainment_Complex_Unique",
         "uniques": [
-        "Cost increases by [6] per owned city",
+        "Cost increases by [3] per owned city",
         "Building_Classification_Entertainment_Complex_District",
         "Destroyed when the city is captured",
         "Unsellable"]
@@ -4571,8 +4570,8 @@
         "name":"E_qiangpolaoyi",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
+        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Classical] wonders [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic_Divin right of Kings]>",
@@ -4723,30 +4722,15 @@
         "name":"E_geteshijianzhu",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Medieval] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Renaissance] buildings [in all cities]",
+        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Classical] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Medieval] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Renaissance] wonders [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic_Civil engineering]>",
         "Destroyed when the city is captured",
         "Class_General_Policy"],
-        "requiredTech":"Civic_Divin right of Kings"
-    },
-    {
-        "name":"E_geteshijianzhu",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Classical] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Medieval] buildings [in all cities]",
-        "[+15]% Production when constructing [Wonder_Class_Renaissance] buildings [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Civil engineering]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
         "requiredTech":"Civic_Divin right of Kings"
     },
     {
@@ -4846,7 +4830,7 @@
         "name":"E_motiandalou",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+15]% Production when constructing [World Wonder] buildings [in all cities]",
+        "uniques":["[+15]% Production when constructing [All] wonders [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
@@ -5559,11 +5543,12 @@
         "Automatically built in all cities where it is buildable",
         "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
         "Never destroyed when the city is captured",
+        "Provides [2] [Resource_house_limitation] <in cities with a [Building_Classification_District_Unique]> <if [Government_Classical_Republic] is constructed>",//古典共和修正
         "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
         "Provides [-2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
         "Provides [2] [Resource_house_limitation] <in [Coastal] tiles>",//淡水住房修正
         "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
-        "Provides [+2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
+        "Provides [2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
         "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
 ],
         "replacementTextForUniques":" "
