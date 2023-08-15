@@ -1190,10 +1190,10 @@
         "[-70]% [Production] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource_Influence]>",//允许买使者
-        "Gain a free [Building_Granary] [in capital] <upon adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
-        "[+1] Movement <for [Unit_Settler] units> <upon adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
+        "Gain a free [Building_Granary] [in capital] <after adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
+        "[+1] Movement <for [Unit_Settler] units> <after adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
-        "Provides the cheapest [Culture] building in your first [2] cities for free <upon adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
+        "Provides the cheapest [Culture] building in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
         "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
