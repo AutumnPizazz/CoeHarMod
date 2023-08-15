@@ -124,7 +124,6 @@
 		"RGB": [102, 102, 102],
 		"uniques": ["Rough terrain",
             "Has an elevation of [3] for visibility calculations",
-			"Must not be on [6] largest landmasses",
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [40] damage",
             "Always Fertility [-2] for Map Generation",

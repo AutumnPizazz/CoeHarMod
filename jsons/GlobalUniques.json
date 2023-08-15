@@ -18,6 +18,7 @@
         "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
 		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
+        "May buy [Building_Classification_Governor] buildings for [0] [Gold] [in all cities]",//总督建筑0元购
 		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
 //废案  "[+1 Culture] per [5] population [in all cities]",//人头琴调整
         "[+1 Culture] [in all cities] <in cities with at least [1] [Population]>",

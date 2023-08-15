@@ -562,7 +562,7 @@
     /*文明特色总督*/
     {//大维齐尔I
         "name": "Governor_GrandVizier_I",
-        "cost": 0,
+        "cost": 100,
         "uniques":["[+20]% Production when constructing [Military] units [in all cities]",
             "[+23]% Strength <for [Military] units> <vs cities> <when attacking>",
             "Only available <starting from the [Era_Ancient]>",
@@ -578,7 +578,7 @@
     },
     {//大维齐尔II
         "name": "Governor_GrandVizier_II",
-        "cost": 0,
+        "cost": 100,
         "cityStrength":"50",
         "requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_GrandVizier_I",
@@ -596,7 +596,7 @@
     },
     {//大维齐尔III
         "name": "Governor_GrandVizier_III",
-        "cost": 0,
+        "cost": 100,
         "requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_GrandVizier_II",
         "uniques":["Free Technology",
@@ -614,7 +614,7 @@
     },
     {//大维齐尔IV
         "name": "Governor_GrandVizier_IV",
-        "cost": 0,
+        "cost": 100,
         "requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_GrandVizier_III",
         "uniques":[
@@ -635,7 +635,7 @@
     /*通用总督建筑*/
 	{
 	    "name": "Governor_Magnus_I",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+1 Production] from [Vegetation] tiles [in this city]",
             "Unsellable",
@@ -648,7 +648,7 @@
     },
     {
 	    "name": "Governor_Magnus_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Magnus_I",
 		"uniques":["[+2 Food] from each Trade Route",
@@ -661,7 +661,7 @@
     },
     {
 	    "name": "Governor_Magnus_IIIA",
-		"cost": 1,
+        "cost": 100,
         "production":8,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Magnus_IIA",
@@ -674,7 +674,7 @@
     },
     {
 	    "name": "Governor_Magnus_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Magnus_I",
 		"uniques":["[+50]% Production when constructing [Unit_Settler] units [in this city]",
@@ -686,7 +686,7 @@
     },
     {
 	    "name": "Governor_Magnus_IIIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Magnus_IIB",
 		"uniques":["Provides [3] [Resource_Horse] <after discovering [Tech_Animal husbandry]>",
@@ -703,7 +703,7 @@
     },
     {
 	    "name": "Governor_Magnus_IV",
-		"cost": 1,
+        "cost": 100,
 		"percentStatBonus": {"production": 25},
 		"requiredResource": "Resource_Governor title",
 		"uniques":[
@@ -717,7 +717,7 @@
     },
     {
 	    "name": "Governor_Reyna_I",
-		"cost": 1,
+        "cost": 100,
         "gold":2,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+2 Gold] from each Trade Route",
@@ -731,7 +731,7 @@
     },
     {//瑞娜IIA
 	    "name": "Governor_Reyna_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Reyna_I",
 		"uniques":["[+100]% Yield from every [Class_Commercial_Hub] <in this city>",
@@ -744,7 +744,7 @@
     },
     {
 	    "name": "Governor_Reyna_IIIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Reyna_IIA",
 		"uniques":["[+2 Gold] per [1] population [in this city]",
@@ -756,7 +756,7 @@
     },
     {
 	    "name": "Governor_Reyna_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Reyna_I",
 		"uniques":["[+2 Gold] from [Improvement_Protection_Zone] tiles [in this city]",
@@ -768,7 +768,7 @@
     },
     {
 	    "name": "Governor_Reyna_IIIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Reyna_IIB",
 		"uniques":["[Gold] cost of purchasing items in cities [-15]%",
@@ -780,7 +780,7 @@
     },
     {
 	    "name": "Governor_Reyna_IV",
-		"cost": 1,
+        "cost": 100,
 		"percentStatBonus": {"production": 25},
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+5 Gold] from every [Improvement_GeothermalPowerPlant]",
@@ -794,7 +794,7 @@
     },
     {
 	    "name": "Governor_Amani_I",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["City-State territory always counts as friendly territory",
             "Unsellable",
@@ -807,7 +807,7 @@
     },
     {
 	    "name": "Governor_Amani_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Amani_I",
 		"uniques":["Provides [2] [Resource_Diplomatic favor]",
@@ -819,7 +819,7 @@
     },
     {
 	    "name": "Governor_Amani_IIIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Amani_IIA",
 		"uniques":[
@@ -832,7 +832,7 @@
     },
     {
 	    "name": "Governor_Amani_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Amani_I",
 		"uniques":["[+4 Happiness] [in this city]",
@@ -843,7 +843,7 @@
     },
     {
 	    "name": "Governor_Amani_IIIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Amani_IIB",
 		"uniques":["Free [Unit_Spy] appears",
@@ -855,7 +855,7 @@
     },
     {
 	    "name": "Governor_Amani_IV",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["Resting point for Influence with City-States is increased by [60]",
             "City-State Influence recovers at twice the normal rate",
@@ -869,7 +869,7 @@
     },
     {
 	    "name": "Governor_Victor_I",
-		"cost": 1,
+        "cost": 100,
         "cityStrength":50,
 		"requiredResource": "Resource_Governor title",
 		"uniques":[
@@ -883,7 +883,7 @@
     },
     {
 	    "name": "Governor_Victor_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Victor_I",
 		"uniques":["[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -895,7 +895,7 @@
     },
     {
 	    "name": "Governor_Victor_IIIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Victor_IIA",
 		"uniques":["All newly-trained [Military] units [in this city] receive the [Promotion_Lord_Training] promotion",
@@ -907,7 +907,7 @@
     },
     {
 	    "name": "Governor_Victor_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Victor_I",
 		"uniques":["[+18]% Strength <for [Military] units> <when defending> <in cities with a [Building_Military_Encampment_Unique]>",
@@ -919,7 +919,7 @@
     },
     {
 	    "name": "Governor_Victor_IIIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Victor_IIB",
 //        "xpForNewUnits":10,
@@ -932,7 +932,7 @@
     },
     {
 	    "name": "Governor_Victor_IV",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 //        "xpForNewUnits":20,
 		"uniques":["New [Military] units start with [20] Experience [in this city]",
@@ -946,7 +946,7 @@
     },
     {
 	    "name": "Governor_Pingala_I",
-		"cost": 1,
+        "cost": 100,
         "percentStatBonus":{"science":8,"culture":6},
 		"requiredResource": "Resource_Governor title",
 		"uniques":[
@@ -960,7 +960,7 @@
     },
     {
 	    "name": "Governor_Pingala_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Pingala_I",
 		"uniques":["[+1 Science] per [1] population [in this city]",
@@ -972,7 +972,7 @@
     },
     {
 	    "name": "Governor_Pingala_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Pingala_I",
 		"uniques":["[+1 Culture] per [1] population [in this city]",
@@ -984,7 +984,7 @@
     },
     {
 	    "name": "Governor_Pingala_III",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["+100% Great Person generation in this city(only for buildings)",
             "Only available <in cities with a [Governor_Pingala_IIA]>",
@@ -997,7 +997,7 @@
     },
     {
 	    "name": "Governor_Pingala_IVA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[2] Free Technologies",//将来会和旅游业绩相关
             "Unsellable",
@@ -1009,7 +1009,7 @@
     },
     {
 	    "name": "Governor_Pingala_IVB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+50]% Production when constructing [Unit_Class_Space_Race] units [in this city]",
             "Unsellable",
@@ -1021,7 +1021,7 @@
     },
     {
 	    "name": "Governor_Liang_I",
-		"cost": 1,
+        "cost": 100,
         "cityStrength":30,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["All newly-trained [Unit_Type_Civilian] units [in this city] receive the [Promotion_Union_Leader] promotion",
@@ -1035,7 +1035,7 @@
     },
     {
 	    "name": "Governor_Liang_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Liang_I",
 		"uniques":["[+40]% Production when constructing [Building_Classification_District_Unique] buildings [in this city]",
@@ -1047,7 +1047,7 @@
     },
     {
 	    "name": "Governor_Liang_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Liang_I",
 		"uniques":["May buy [Unit_Fishery] units for [300] [Gold] [in this city] at an increasing price ([75])",
@@ -1060,7 +1060,7 @@
     },
     {
 	    "name": "Governor_Liang_III",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+1 Production] from [Improvement_Protection_Zone] tiles [in this city]",
             "Only available <in cities with a [Governor_Liang_IIA]>",
@@ -1073,7 +1073,7 @@
     },
     {
 	    "name": "Governor_Liang_IVA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+100]% Production when constructing [Unit_Class_Builder] units [in this city]",
             "Unsellable",
@@ -1085,7 +1085,7 @@
     },
     {
 	    "name": "Governor_Liang_IVB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+1 Culture] from [Improvement_Protection_Zone] tiles [in this city]",//将来和市立公园有关
             "Unsellable",
@@ -1097,7 +1097,7 @@
     },
     {
 	    "name": "Governor_Moksha_I",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+2 Faith] from every [Building_Classification_District_Unique] <in this city>",
             "Unsellable",
@@ -1110,7 +1110,7 @@
     },
     {
 	    "name": "Governor_Moksha_IIA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Moksha_I",
 		"uniques":["May choose [1] additional belief(s) of any type when [enhancing] a religion",
@@ -1122,7 +1122,7 @@
     },
     {
 	    "name": "Governor_Moksha_IIB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_Moksha_I",
 		"uniques":["Enables conversion of city production to [Faith] <in this city>",
@@ -1136,7 +1136,7 @@
     },
     {
 	    "name": "Governor_Moksha_III",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[Unit_Missionary] units built [in this city] can [Spread Religion] [2] extra times",
             "Only available <in cities with a [Governor_Moksha_IIA]>",
@@ -1149,7 +1149,7 @@
     },
     {
 	    "name": "Governor_Moksha_IVA",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[Faith] cost of purchasing items in cities [-15]%",
             "Unsellable",
@@ -1161,7 +1161,7 @@
     },
     {
 	    "name": "Governor_Moksha_IVB",
-		"cost": 1,
+        "cost": 100,
 		"requiredResource": "Resource_Governor title",
 		"uniques":["[+400]% Natural religion spread [in all cities]",
             "Unsellable",
@@ -1194,6 +1194,7 @@
         "[+1] Movement <for [Unit_Settler] units> <after adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
         "Provides the cheapest [Culture] building in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
+        "[+1] Movement <for [Unit_Type_Scout] units> <after adopting [Pantheon_Society of Enlightenment]>",//万神殿启蒙会修正
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
         "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
@@ -3247,6 +3248,7 @@
         "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [5] to [6] neighboring [Desert] tiles>",
         "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [6] to [7] neighboring [Desert] tiles>",
         "Only available <after adopting [Pantheon_Desert customs]>",
+        "Automatically built in all cities where it is buildable",
         "Destroyed when the city is captured",
         "Unsellable"],
         "replacementTextForUniques":"Holy Land gets the standard adjacent bonus against desert",
@@ -3254,6 +3256,28 @@
             {
                 "text":"Pantheon_Desert customs",
                 "link":"Belief/Pantheon_Desert customs"
+            }
+        ]
+    },
+    {//神圣道路
+        "name":"Building_Sacred way",
+        "cost":0,
+        "uniques":[
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [1] to [6] neighboring [Vegetation] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [2] to [6] neighboring [Vegetation] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [3] to [6] neighboring [Vegetation] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [4] to [6] neighboring [Vegetation] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [5] to [6] neighboring [Vegetation] tiles>",
+        "[+1 Faith] from [Class_Holy_Site] tiles [in this city] <with [6] to [7] neighboring [Vegetation] tiles>",
+        "Only available <after adopting [Pantheon_Sacred way]>",
+        "Automatically built in all cities where it is buildable",
+        "Destroyed when the city is captured",
+        "Unsellable"],
+        "replacementTextForUniques":"The Holy Site receives a standard adjacency bonus for vegetation",
+        "civilopediaText":[
+            {
+                "text":"Pantheon_Sacred way",
+                "link":"Belief/Pantheon_Sacred way"
             }
         ]
     },
@@ -5551,9 +5575,11 @@
         "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
         "Provides [2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
         "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
-        "Provides [4] [Resource_house_limitation] <in [River] tiles> <after adopting [Pantheon_River god]>",//万神殿河神修正
+        "Provides [2] [Resource_house_limitation] <in [River] tiles> <after adopting [Pantheon_River god]>",//万神殿河神修正
         "Provides [2] [Resource_house_limitation] <after adopting [Pantheon_Rain god]>",//万神殿雨神修正
         "Provides [2] [Resource_house_limitation] <in tiles without [River]> <after adopting [Pantheon_Rain god]>",//万神殿雨神修正
+        "Provides [2] [Resource_house_limitation] <in [Landform_Hill] tiles> <after adopting [Pantheon_Legend_of_El_Dorado]>",//万神殿黄金国传说修正
+        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles> <after adopting [Pantheon_Mazu_Belief]>",//万神殿妈祖信仰修正
 ],
 //        "replacementTextForUniques":" "
     },
