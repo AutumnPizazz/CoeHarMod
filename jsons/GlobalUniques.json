@@ -1,6 +1,8 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "[-23]% Strength <for [Military] units> <when below [75] HP> <vs [Nation_France] units>",//法兰西国家技能
+
         "[-15]% growth [in all cities] <when between [-2] and [0] Happiness>",
         "[-30]% growth [in all cities] <when between [-4] and [-2] Happiness>",
         "[-45]% growth [in all cities] <when between [-6] and [-4] Happiness>",
@@ -15,24 +17,19 @@
         "Rebel units may spawn <when below [-15] Happiness>",//宜居度过低会产生叛军
 		"[-100]% Strength for cities <when attacking> <in cities without a [Building_Ancient_Walls]>",//取消初始城市攻击
 
+
         "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
 		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
         "May buy [Building_Classification_Governor] buildings for [0] [Gold] [in all cities]",//总督建筑0元购
 		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
-//废案  "[+1 Culture] per [5] population [in all cities]",//人头琴调整
         "[+1 Culture] [in all cities] <in cities with at least [1] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [6] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [11] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [16] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [21] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",//新版人头琴调整
-
-
-/*      "[+1 Happiness] in cities on [Fresh Water] tiles",
-        "[-1 Happiness] [in all cities] <in cities without a [Class_Raceline]>",//每个非淡水且未修建水渠的城市-1脸-1粮*/
-
+        "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",//人头琴调整
 
 
         /*市政(文化)树修正*/

@@ -551,7 +551,26 @@
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool","Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester","Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton","Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
-	  }
+	},
+	{//法兰西
+		"name": "Nation_France",
+		"leaderName": "Napoleon",
+		"adjective": ["French"],
+		"outerColor": [0, 48, 135],
+		"innerColor": [255, 255, 255],
+		
+		"startBias": ["Grassland","Avoid [Landform_Forest]"],
+		"preferredVictoryType": "Victory type_Domination",
+		
+		"uniqueName": "Corsican Monster",
+		"uniques": ["Enemy units with health below 75 have a -23% combat effectiveness against our units",
+		"Heals [15] damage if it kills a unit <for [Military] units>",
+		"Earn [50]% of the damage done to [City] units as [Gold]"],
+		
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble","Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes","Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon","Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+		
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	}
 
 
 

@@ -313,6 +313,7 @@
             "Destroyed when the city is captured",
             "Can only be built [in capital]",
             "Limited to [1] per Civilization",
+            "Triggers a global alert upon completion",
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
 	{//虚空吟唱者II
@@ -370,8 +371,7 @@
     },
     {//黑暗召唤塔
         "name":"Building_DarkCallTower",
-        "uniques":["[+1 Happiness] per [3] population [in this city]",
-        "[-50]% growth [in this city]",
+        "uniques":["[+1 Happiness] per [4] population [in this city]",
 		"Unsellable","Unbuildable",
         "Destroyed when the city is captured",
         "Hidden when [Pattern_Camorrist] Victory is disabled"]
@@ -389,6 +389,7 @@
             "Destroyed when the city is captured",
             "Can only be built [in capital]",
             "Limited to [1] per Civilization",
+            "Triggers a global alert upon completion",
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
 	{//弥涅耳瓦夜莺II
@@ -450,6 +451,7 @@
             "Destroyed when the city is captured",
             "Can only be built [in capital]",
             "Limited to [1] per Civilization",
+            "Triggers a global alert upon completion",
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
 	{//黄金黎明II
@@ -511,6 +513,7 @@
             "Destroyed when the city is captured",
             "Can only be built [in capital]",
             "Limited to [1] per Civilization",
+            "Triggers a global alert upon completion",
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
     {//血色契约II
@@ -5212,6 +5215,21 @@
         "requiredTech":"Civic_Social media"
     },
     //通用政策卡
+    {//法兰西-法国民法典
+        "name":"G_French_Civil_Code",
+        "uniqueTo":"Nation_France",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+50]% [Production] [in annexed cities]",
+        "[+25]% [Science] [in annexed cities]",
+        "[+25]% [Culture] [in annexed cities]",
+        "[+1] Movement <for [Unit_Musketeer] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
     {
         "name":"G_jiangjun",
         "cost":0,

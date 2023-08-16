@@ -1475,6 +1475,22 @@
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"],
 		"promotions":["[Unit_Sudanese_Paramilitary] ability"]
 	},
+	{//法兰西-法国火枪手
+		"name":"Unit_Musketeer",
+		"replaces":"Unit_Musketman",
+		"uniqueTo":"Nation_France",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":462,
+		"movement":2,
+		"cost":192,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Line_Infantry",
+		"requiredTech": "Tech_Gunpowder",
+		"obsoleteTech": "Tech_Military science",
+		"uniques":["Instantly consumes [5] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"]
+	},
 	{//线列步兵
 		"name":"Unit_Line_Infantry",
 		"unitType":"Unit_Type_Melee_Infantry",
