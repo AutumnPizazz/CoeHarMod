@@ -1489,6 +1489,23 @@
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
 		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>"]
 	},
+	{//英吉利-红衫军
+		"name":"Unit_Redcoats",
+		"replaces":"Unit_Line_Infantry",
+		"uniqueTo":"Nation_England",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":789,//70
+		"movement":2,
+		"cost":360,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Infantry",
+		"requiredTech": "Tech_Military science",
+		"obsoleteTech": "Tech_Part specification",
+		"uniques":["[+23]% Strength <on foreign continents>",
+		"Instantly consumes [5] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
+		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>"]
+	},
 	{//步兵
 		"name":"Unit_Infantry",
 		"unitType":"Unit_Type_Melee_Infantry",
@@ -1508,7 +1525,7 @@
 	{//中国-红军
 		"name":"Unit_RedArmy",
 		"replaces":"Unit_Infantry",
-		"uniqueTo":"Nation_PRC",
+		"uniqueTo":"Nation_SRC",
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":968,//968
 		"movement":2,

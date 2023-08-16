@@ -2802,7 +2802,7 @@
 		"uniques": ["Unsellable",
         "Provides [1] [Resource_GreatPerson_Class_General]",
         "Provides [1] [Resource_GreatPerson_Class_General] <in cities with a [Governor_Pingala_III]>",
-        "Provides [1] [Resource_district_limitation] <for [Nation_PRC]>",
+        "Provides [1] [Resource_district_limitation] <for [Nation_SRC]>",
 		"Cost increases by [6] per owned city",
         "Creates a [District_Army] improvement on a specific tile",
         "Building_Classification_District_Unique",
@@ -2900,7 +2900,7 @@
 	{//中国-党支部
 		"name": "Building_PartyBranch",
         "replaces":"Building_Military_Academy",
-        "uniqueTo":"Nation_PRC",
+        "uniqueTo":"Nation_SRC",
 		"cost":160,
 		"hurryCostModifier":-33,
 		"maintenance": 3,
@@ -2951,7 +2951,7 @@
 	},
 
     /*港口区域建筑*/
-    {
+    {//港口地标
 		"name": "Building_Port_Unique",
 		"cost": 44,
 		"hurryCostModifier":-33,
@@ -2966,6 +2966,27 @@
         "Unsellable",
         "Must be next to [Coast]",
 		"Cost increases by [6] per owned city",
+        "Creates a [District_Harbor] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Never destroyed when the city is captured",
+        "Cannot be purchased"]
+	},
+    {//英吉利-皇家海军船坞
+		"name": "Building_Royal_Navy_Dockyard",
+        "replaces":"Building_Port_Unique",
+        "uniqueTo":"Nation_England",
+		"cost": 22,
+		"hurryCostModifier":-33,
+		"maintenance": 1,
+		"requiredTech": "Tech_Astronomical navigation",
+        "requiredResource":"Resource_district_limitation",
+		"specialistSlots": {"Specialist_Army logistics": 1},
+		"uniques": ["All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_The_Empire_on_which_the_sun_never_sets] promotion",
+        "Provides [1] [Resource_GreatPerson_Class_Admiral]",
+        "Provides [1] [Resource_GreatPerson_Class_Admiral] <in cities with a [Governor_Pingala_III]>",
+        "Unsellable",
+        "Must be next to [Coast]",
+		"Cost increases by [3] per owned city",
         "Creates a [District_Harbor] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Never destroyed when the city is captured",

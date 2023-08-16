@@ -181,7 +181,7 @@
             "name": "Pantheon_Religious migrant",
             "type": "Pantheon",
             "uniques": ["Free [Unit_Settler] appears",
-            "+1 Movement for '[Unit_Settler]' units",
+            "'[Unit_Settler]'+1 Movement for Settler units",
             "[-15]% Culture cost of natural border growth [in all cities]"]
         },
         {//恩惠女神
@@ -217,7 +217,7 @@
             "name": "Pantheon_Society of Enlightenment",
             "type": "Pantheon",
             "uniques": ["Free [Unit_Scout] appears",
-            "+1 Movement for '[Unit_Type_Scout]' units"]
+            "'[Unit_Type_Scout]'+1 Movement for Scout(Type) units"]
         },
         {//德鲁伊传统
             "name": "Pantheon_Druidic_Tradition",

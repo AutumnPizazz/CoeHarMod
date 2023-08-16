@@ -1153,6 +1153,10 @@
 		"name": "[Unit_ImperialGuard] ability",
 		"uniques": ["[+33]% Strength decreasing with distance from the capital"]
 	},
+	{//英吉利-日不落帝国
+		"name": "Promotion_The_Empire_on_which_the_sun_never_sets",
+		"uniques": ["[+1] Movement"]
+	},
 
 
 ]
