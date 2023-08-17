@@ -61,7 +61,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_1_Government"]
     },	
     {//寡头政体
 	    "name": "Government_Oligarchy",
@@ -81,7 +82,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_2_Government"]
     },
     {//古典共和
 	    "name": "Government_Classical_Republic",
@@ -99,7 +101,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_2_Government"]
     },
     {//独裁统治
 	    "name": "Government_Autocracy",
@@ -120,7 +123,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_2_Government"]
     },
     {//君主制
 	    "name": "Government_Monarchy",
@@ -142,7 +146,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_3_Government"]
     },
     {//神权政体
 	    "name": "Government_Theocracy",
@@ -161,7 +166,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_3_Government"]
     },
     {//商人共和国
 	    "name": "Government_Merchant_Republic",
@@ -180,7 +186,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_3_Government"]
     },
     {//民主主义
 	    "name": "Government_Democracy",
@@ -199,7 +206,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_4_Government"]
     },
     {//共产主义
 	    "name": "Government_Communism",
@@ -218,7 +226,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_4_Government"]
     },
     {//法西斯主义
 	    "name": "Government_Fascism",
@@ -237,7 +246,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_4_Government"]
     },
     {//合成专家统治
 	    "name": "Government_Synthetic_Empire",
@@ -257,7 +267,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_5_Government"]
     },
     {//数字化民主
 	    "name": "Government_Digital_Democracy",
@@ -277,7 +288,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_5_Government"]
     },
     {//团体自由意志主义
 	    "name": "Government_Corporate_Libertarianism",
@@ -297,7 +309,8 @@
             "Only available <in cities without a [Building_Classification_Level_Government]>",
             "Can only be built [in capital]",
             "Triggers a global alert upon completion",
-            "Building_Classification_Level_Government"]
+            "Building_Classification_Level_Government",
+            "Building_Classification_Level_5_Government"]
     },
 
     /*秘密结社建筑*/
@@ -1501,12 +1514,11 @@
         "Can only be built [in capital]",
         "Cannot be purchased"]
 	},
-    {
+    {//祠堂
         "name":"Building_Ancestral_Hall",
         "cost":140,
 		"hurryCostModifier":-33,
         "maintenance":1,
-        "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "[+50]% Production when constructing [Unit_Settler] units [in this city]",
@@ -1517,6 +1529,7 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_2_Government] is constructed>",
 		"Unsellable"]
     },
     {//谒见厅
@@ -1524,7 +1537,6 @@
         "cost":140,
 		"hurryCostModifier":-33,
         "maintenance":1,
-        "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "[+1 Happiness, +2 Food] [in all cities] <in cities with a [Building_Classification_Governor_Level_1]>",
@@ -1534,6 +1546,7 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_2_Government] is constructed>",
 		"Unsellable"]
     },
     {//军阀宝座
@@ -1541,7 +1554,6 @@
         "cost":140,
 		"hurryCostModifier":-33,
         "maintenance":1,
-        "requiredTech":"Civic_Political philosophy",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "[+25]% [Production] [in all cities] <for [5] turns> <upon conquering a city>",
@@ -1551,6 +1563,7 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_2_Government] is constructed>",
 		"Unsellable"]
     },
     {//情报局
@@ -1558,7 +1571,6 @@
         "cost":280,
 		"hurryCostModifier":-33,
         "maintenance":2,
-        "requiredTech":"Civic_Divin right of Kings",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "[+1] Sight <for [All] units>",
@@ -1569,6 +1581,7 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_3_Government] is constructed>",
 		"Unsellable"]
     },
     {//外交部
@@ -1576,7 +1589,6 @@
         "cost":280,
 		"hurryCostModifier":-33,
         "maintenance":2,
-        "requiredTech":"Civic_Divin right of Kings",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "Provides [3] [Resource_Diplomatic favor]",
@@ -1589,14 +1601,14 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_3_Government] is constructed>",
 		"Unsellable"]
     },
-    {
+    {//骑士团长礼拜堂
         "name":"Building_Order_of_Friars",
         "cost":280,
 		"hurryCostModifier":-33,
         "maintenance":2,
-        "requiredTech":"Civic_Divin right of Kings",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before discovering [Civic_Nationalism]>",
@@ -1608,14 +1620,14 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_3_Government] is constructed>",
 		"Unsellable"]
     },
-    {
+    {//国家历史博物馆
         "name":"Building_National_History_Museum",
         "cost":430,
 		"hurryCostModifier":-33,
         "maintenance":3,
-        "requiredTech":"Civic_Capitalism",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "[+30]% [Culture] [in all cities]",
@@ -1626,14 +1638,14 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_4_Government] is constructed>",
 		"Unsellable"]
     },
-    {
+    {//皇家学会
         "name":"Building_Royal_Society",
         "cost":430,
 		"hurryCostModifier":-33,
         "maintenance":3,
-        "requiredTech":"Civic_Capitalism",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "[+25]% [Science] [in all cities]",
@@ -1644,14 +1656,14 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_4_Government] is constructed>",
 		"Unsellable"]
     },
-    {
+    {//作战部
         "name":"Building_War_Department",
         "cost":430,
 		"hurryCostModifier":-33,
         "maintenance":3,
-        "requiredTech":"Civic_Capitalism",
         "requiredBuilding":"Building_Government_Plaza_Unique",
 		"uniques": [
         "Heals [20] damage if it kills a unit",
@@ -1661,6 +1673,7 @@
 		"Cost increases by [6] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_4_Government] is constructed>",
 		"Unsellable"]
     },
 
@@ -4181,6 +4194,7 @@
         "cost":0,
         "requiredResource":"Resource_Military policy slot",
         "uniques":["[+1 Production, +1 Happiness] [in all cities with a garrison]",
+        "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <in cities without a [M_lengbao]>",
         "Only available <before discovering [Civic_Scorched earth strategy]>",
@@ -5596,6 +5610,136 @@
         "Class_General_Policy"],
         "requiredTech":"Civic_Cultural hegemony"
     },
+    //政体传承卡
+    {//寡头传承
+        "name":"G_guatouchuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
+        "[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
+        "[+18]% Strength <for [Unit_Type_Short_Ranged_Naval] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_3_Government] is constructed>",
+        "Only available <in cities without a [G_gonghechuancheng]>",
+        "Only available <in cities without a [G_zhuanzhichuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//共和传承
+        "name":"G_gonghechuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+1 Happiness] [in all cities] <in cities with a [Building_Classification_District_Unique]>",
+        "Provides 2 '[Resource_house_limitation]' in cities with a Building_Classification_District_Unique",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_3_Government] is constructed>",
+        "Only available <in cities without a [G_guatouchuancheng]>",
+        "Only available <in cities without a [G_zhuanzhichuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//专制传承
+        "name":"G_zhuanzhichuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+10]% Production when constructing [All] wonders [in all cities]",
+        "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building_Classification_Government_Plaza_District]",
+        "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building_Classification_Foreign_Quarter_District]",
+        "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building_Palace]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_3_Government] is constructed>",
+        "Only available <in cities without a [G_guatouchuancheng]>",
+        "Only available <in cities without a [G_gonghechuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//君主传承
+        "name":"G_junzhuchuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+2 Food, +1 Happiness] from every [Building_Classification_Wall]",
+        "Resting point for Influence with City-States is increased by [20]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_4_Government] is constructed>",
+        "Only available <in cities without a [G_shenquanchuancheng]>",
+        "Only available <in cities without a [G_zhongshangchuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//神权传承
+        "name":"G_shenquanchuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+1 Faith] per [2] population [in all cities]",
+        "[Faith] cost of purchasing items in cities [-15]%",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_4_Government] is constructed>",
+        "Only available <in cities without a [G_junzhuchuancheng]>",
+        "Only available <in cities without a [G_zhongshangchuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//重商传承
+        "name":"G_zhongshangchuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+15]% [Gold] [in all cities]",
+        "[+50]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_4_Government] is constructed>",
+        "Only available <in cities without a [G_junzhuchuancheng]>",
+        "Only available <in cities without a [G_shenquanchuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//民主传承
+        "name":"G_minzhuchuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+4 Food, +4 Production, +2 Happiness] from each Trade Route",
+        "[Gold] cost of purchasing items in cities [-15]%",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_5_Government] is constructed>",
+        "Only available <in cities without a [G_gongchanchuancheng]>",
+        "Only available <in cities without a [G_faxisichuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//共产传承
+        "name":"G_gongchanchuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+10]% [Science] [in all cities]",
+        "[+3 Production, +2 Happiness] per [5] population [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_5_Government] is constructed>",
+        "Only available <in cities without a [G_minzhuchuancheng]>",
+        "Only available <in cities without a [G_faxisichuancheng]>",
+        "Class_General_Policy"]
+    },
+    {//法西斯传承
+        "name":"G_faxisichuancheng",
+        "cost":0,
+        "requiredResource":"Resource_Generic policy slot",
+        "uniques":["[+23]% Strength <for [Military] units>",
+        "[+35]% Production when constructing [All] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_5_Government] is constructed>",
+        "Only available <in cities without a [G_minzhuchuancheng]>",
+        "Only available <in cities without a [G_gongchanchuancheng]>",
+        "Class_General_Policy"]
+    },
     
     
     /*住房系统*/
@@ -5608,6 +5752,7 @@
         "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
         "Never destroyed when the city is captured",
         "Provides [2] [Resource_house_limitation] <in cities with a [Building_Classification_District_Unique]> <if [Government_Classical_Republic] is constructed>",//古典共和修正
+        "Provides [2] [Resource_house_limitation] <in cities with a [Building_Classification_District_Unique]> <if [G_gonghechuancheng] is constructed>",//共和传承修正
         "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
         "Provides [-2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
         "Provides [2] [Resource_house_limitation] <in [Coastal] tiles>",//淡水住房修正
@@ -5620,7 +5765,7 @@
         "Provides [2] [Resource_house_limitation] <in [Landform_Hill] tiles> <after adopting [Pantheon_Legend_of_El_Dorado]>",//万神殿黄金国传说修正
         "Provides [2] [Resource_house_limitation] <in [Coastal] tiles> <after adopting [Pantheon_Mazu_Belief]>",//万神殿妈祖信仰修正
 ],
-//        "replacementTextForUniques":" "
+        "replacementTextForUniques":" "
     },
     {
         "name":"Building_House2",

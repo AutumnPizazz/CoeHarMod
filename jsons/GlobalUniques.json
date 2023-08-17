@@ -1,7 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-23]% Strength <for [Military] units> <when below [75] HP> <vs [Nation_France] units>",//法兰西国家技能
+        "[-23]% Strength <for [Military] units> <when below [50] HP> <vs [Nation_France] units>",//法兰西国家技能
 
         "[-15]% growth [in all cities] <when between [-2] and [0] Happiness>",
         "[-30]% growth [in all cities] <when between [-4] and [-2] Happiness>",
