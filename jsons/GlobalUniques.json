@@ -32,6 +32,17 @@
         "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",//人头琴调整
 
 
+        /*政策槽位不可为负数*/
+        "Nullifies [Science] [in all cities] <when below [0] [Resource_Military policy slot]>",
+        "Nullifies [Culture] [in all cities] <when below [0] [Resource_Military policy slot]>",
+        "Nullifies [Science] [in all cities] <when below [0] [Resource_Economic policy slot]>",
+        "Nullifies [Culture] [in all cities] <when below [0] [Resource_Economic policy slot]>",
+        "Nullifies [Science] [in all cities] <when below [0] [Resource_Diplomatic policy slot]>",
+        "Nullifies [Culture] [in all cities] <when below [0] [Resource_Diplomatic policy slot]>",
+        "Nullifies [Science] [in all cities] <when below [0] [Resource_Generic policy slot]>",
+        "Nullifies [Culture] [in all cities] <when below [0] [Resource_Generic policy slot]>",
+
+
         /*市政(文化)树修正*/
         "May buy [Unit_Code] units for [20] [Culture] [in capital]",
         "May buy [Unit_Skill] units for [40] [Culture] [in capital]",
