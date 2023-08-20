@@ -1777,7 +1777,7 @@
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Era_Ancient"]
 	},
-	{//骑手
+	{//骑手(小马)
 		"name":"Unit_Horseman",
 		"unitType":"Unit_Type_Light_Cavalry",
 		"strength":194,//36
@@ -1806,6 +1806,24 @@
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Era_Classical"]
+	},
+	{//马其顿-伙友骑兵
+		"name":"Unit_Hetairoi",
+		"replaces":"Unit_Horseman",
+		"uniqueTo":"Nation_Macedonia",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":194,//36
+		"movement":4,
+		"cost":80,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Horse_Archer",
+		"requiredTech": "Tech_Horseback riding",
+		"obsoleteTech": "Tech_Castle",
+		"uniques":["[+50]% to Flank Attack bonuses",
+		"Instantly consumes [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
+		"Era_Classical"],
+		"promotions":["Promotion_zhuiliezhe"]
 	},
 	{//骑士
 		"name":"Unit_Horse_Archer",
@@ -1894,6 +1912,7 @@
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
 		"uniques":["[+2] Movement <in [Open terrain] tiles>",
+		"Rough terrain penalty",
 		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion_chongfeng]>",
 		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
 		"Era_Ancient"]

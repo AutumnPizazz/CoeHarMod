@@ -54,13 +54,17 @@
     {
         "name": "Unit_Type_Light_Cavalry",
         "movementType": "Land",
-        "uniques":["[-39]% Strength <vs cities> <when attacking>","Ignores Zone of Control",
+        "uniques":["[-39]% Strength <vs cities> <when attacking>",
+        "[+39]% Strength <vs cities> <when attacking> <for [Nation_Macedonia]>",//马其顿文明能力
+        "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {
         "name": "Unit_Type_Heavy_Cavalry",
         "movementType": "Land",
-        "uniques":["[-23]% Strength <vs cities> <when attacking>","Ignores Zone of Control",
+        "uniques":["[-23]% Strength <vs cities> <when attacking>",
+        "[+23]% Strength <vs cities> <when attacking> <for [Nation_Macedonia]>",//马其顿文明能力
+        "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {

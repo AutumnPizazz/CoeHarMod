@@ -571,6 +571,24 @@
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//马其顿
+		"name": "Nation_Macedonia",
+		"leaderName": "Alexander the Great",
+		"adjective": ["Macedonian"],
+		"outerColor": [22, 45, 70],
+		"innerColor": [140, 165, 185],
+
+		"startBias": ["Landform_Hill"],
+		"preferredVictoryType": "Victory type_Domination",
+
+		"uniqueName": "Until the end of the world",
+		"uniques": [""],
+		"uniqueText":"When implementing an oligarchic regime or oligarchic succession, cavalry units also receive an 18% boost in combat effectiveness\nCavalry units attacking cities do not suffer a penalty in combat effectiveness",
+
+		"cities": ["Pella", "Amphipolis", "Alexandria", "Babylon", "Susa", "Persepolis", "Gordion", "Thebes", "Memphis", "Tyre", "Athens", "Miletus", "Ephesus", "Tarsus", "Sparta", "Rhodes", "Corinth", "Delphi", "Olympia", "Argos", "Megalopolis", "Philippi", "Thessaloniki", "Knossos", "Pydna", "Patras", "Larissa", "Nicomedia", "Chalcis"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	}
 
 
 

@@ -72,6 +72,8 @@
 		"uniques":["[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
             "[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
             "[+18]% Strength <for [Unit_Type_Short_Ranged_Naval] units>",
+            "[+18]% Strength <for [Unit_Type_Light_Cavalry] units> <for [Nation_Macedonia]>",//马其顿文明能力
+            "[+18]% Strength <for [Unit_Type_Heavy_Cavalry] units> <for [Nation_Macedonia]>",//马其顿文明能力
             "[+25]% XP gained from combat",
             "Provides [2] [Resource_Military policy slot]",
             "Provides [1] [Resource_Economic policy slot]",
@@ -710,6 +712,7 @@
             "Provides [2] [Resource_Niter] <after discovering [Tech_Military engineering]>",
             "Provides [2] [Resource_Coal] <after discovering [Tech_Industrialization]>",
             "Provides [2] [Resource_Oil] <after discovering [Tech_Refining]>",
+            "Provides [2] [Resource_Aluminum] <after discovering [Tech_Radio]>",
             "Provides [1] [Resource_Uranium] <after discovering [Tech_Joint operations]>",
             "Unsellable",
             "Destroyed when the city is captured",
@@ -1561,6 +1564,29 @@
         "Only available <in cities without a [Building_Ancestral_Hall]>",
         "Only available <in cities without a [Building_Audience_Chamber]>",
 		"Cost increases by [6] per owned city",
+        "Building_Classification_Government_Plaza_District",
+        "Destroyed when the city is captured",
+        "Only available <if [Building_Classification_Level_2_Government] is constructed>",
+		"Unsellable"]
+    },
+    {//马其顿-斯特拉泰吉翁
+        "name":"Building_Stratigeion",
+        "replaces":"Building_Warlord_Throne",
+        "uniqueTo":"Nation_Macedonia",
+        "cost":70,
+		"hurryCostModifier":-33,
+        "maintenance":1,
+        "requiredBuilding":"Building_Government_Plaza_Unique",
+		"uniques": [
+        "[+40]% [Production] [in all cities] <for [5] turns> <upon conquering a city>",
+        "[+2 Happiness, +4 Science, +4 Culture] [in annexed cities]",
+        "Provides [2] [Resource_Horse] <after discovering [Tech_Animal husbandry]>",
+        "Provides [2] [Resource_Iron] <after discovering [Tech_Copper casting]>",
+        "Provides [2] [Resource_Niter] <after discovering [Tech_Military engineering]>",
+        "Provides [1] [Resource_Governor title]",
+        "Only available <in cities without a [Building_Ancestral_Hall]>",
+        "Only available <in cities without a [Building_Audience_Chamber]>",
+		"Cost increases by [3] per owned city",
         "Building_Classification_Government_Plaza_District",
         "Destroyed when the city is captured",
         "Only available <if [Building_Classification_Level_2_Government] is constructed>",
@@ -5618,6 +5644,8 @@
         "uniques":["[+18]% Strength <for [Unit_Type_Melee_Infantry] units>",
         "[+18]% Strength <for [Unit_Type_Anti_Cavalry] units>",
         "[+18]% Strength <for [Unit_Type_Short_Ranged_Naval] units>",
+        "[+18]% Strength <for [Unit_Type_Light_Cavalry] units> <for [Nation_Macedonia]>",//马其顿文明能力
+        "[+18]% Strength <for [Unit_Type_Heavy_Cavalry] units> <for [Nation_Macedonia]>",//马其顿文明能力
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
