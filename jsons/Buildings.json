@@ -1212,7 +1212,7 @@
         "Gain a free [Building_Granary] [in capital] <after adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
         "[+1] Movement <for [Unit_Settler] units> <after adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
-        "Provides the cheapest [Culture] building in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
+        "Provides a [Building_Monument] in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
         "[+1] Movement <for [Unit_Type_Scout] units> <after adopting [Pantheon_Society of Enlightenment]>",//万神殿启蒙会修正
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正

@@ -319,7 +319,8 @@
         {//武僧
             "name": "Follower belief_Martial arts",
             "type": "Follower",
-            "uniques": ["All Melee Infantry units can be transfered as Monk"]
+            "uniques": ["All Melee Infantry units can be transfered as Monk",
+            "Provides [5] [Resource_Remaining_Monks]"]
         },
         {//耶稣会教育
             "name": "Follower belief_Jesuit education",

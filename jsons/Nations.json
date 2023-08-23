@@ -588,6 +588,26 @@
 		"cities": ["Pella", "Amphipolis", "Alexandria", "Babylon", "Susa", "Persepolis", "Gordion", "Thebes", "Memphis", "Tyre", "Athens", "Miletus", "Ephesus", "Tarsus", "Sparta", "Rhodes", "Corinth", "Delphi", "Olympia", "Argos", "Megalopolis", "Philippi", "Thessaloniki", "Knossos", "Pydna", "Patras", "Larissa", "Nicomedia", "Chalcis"],
 
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
+	{//印加
+		"name": "Nation_Inca",
+		"leaderName": "Pachacuti",
+		"adjective": ["Incan"],
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+		
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Victory type_Science",
+		
+		"uniqueName": "Mita System",
+		"uniques": ["[+2 Production] from every [Mountain]",
+		"[+1 Production] from every [Mountain] <after discovering [Tech_Industrialization]>",
+		"Land units may cross [Mountain] tiles after the first [Unit_Mountain_Road_Network] is earned"],
+//		"uniqueText": "",
+		
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos","Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha","Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac","Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+		
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	}
 
 

@@ -1911,5 +1911,28 @@
 		"Can only be built on [Landform_Hill] tiles",
 		"Class_Usual_Improvement"]
 	},
+	{//印加-梯田农场
+		"name": "Improvement_Terrace_Farm",
+		"uniqueTo": "Nation_Inca",
+		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"food": 1,
+		"uniques": ["[+1 Food] for each adjacent [Mountain]",
+			"[+2 Production] for each adjacent [Distinct_Raceline]",
+			"[+1 Production] from [Fresh water] tiles",
+            "Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "Civic_Basic trade",
+		"shortcutKey": "F"
+	},
+	{//印加-山地路网
+		"name": "Improvement_Mountain_Road_Network",
+		"uniqueTo": "Nation_Inca",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"food": 1,
+		"uniques": [
+		"[+1 Food] for each adjacent [Improvement_Terrace_Farm]",
+//		"Reduce the mobility penalty of being in the mountain range by half"
+	],
+		"techRequired": "Civic_Basic trade"
+	},
 
 ]

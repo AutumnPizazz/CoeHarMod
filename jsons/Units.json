@@ -993,13 +993,40 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
+	{//印加-梯田农民
+		"name": "Unit_Terrace_Farm",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Inca",
+		"movement": 2,
+		"requiredTech":"Civic_Basic trade",
+		"uniques": ["Can instantly construct a [Improvement_Terrace_Farm] improvement <[2] times>",
+			"Can instantly construct a [Improvement_Terrace_Farm] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+	{//印加-山路工人
+		"name": "Unit_Mountain_Road_Network",
+		"unitType": "Unit_Type_Civilian",
+		"uniqueTo":"Nation_Inca",
+		"movement": 2,
+		"requiredTech":"Civic_Basic trade",
+		"uniques": ["Can instantly construct a [Improvement_Mountain_Road_Network] improvement <by consuming this unit>",
+			"Unit_Class_Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
+
+
+
+	//文明特色改良建造者在这里!
 	/*开拓者*/
 	{
 		"name":"Unit_Settler",
 		"unitType":"Unit_Type_Civilian",
 		"movement":2,
 		"cost":120,
-		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]>","Requires at least [2] population","[+1] Sight"]
+		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]>","Requires at least [2] population","[+1] Sight"]
 	},
 
 	/*使者*/
@@ -1008,7 +1035,7 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":4,
 		"uniques":["Unbuildable",
-		"Gain [-175] [Gold] <after which this unit is consumed>",
+		"Gain [-175] [Gold]",
 		"Instantly consumes [40] [Resource_Influence]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]

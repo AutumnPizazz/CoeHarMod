@@ -359,6 +359,12 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
 	},
+	{//武僧剩余数量
+		"name": "Resource_Remaining_Monks",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},
 	{//大科学家点数
 		"name":"Resource_GreatPerson_Class_Scientist",
 		"resourceType": "Strategic",
