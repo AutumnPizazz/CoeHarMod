@@ -602,7 +602,8 @@
 		"uniqueName": "Mita System",
 		"uniques": ["[+2 Production] from every [Mountain]",
 		"[+1 Production] from every [Mountain] <after discovering [Tech_Industrialization]>",
-		"Land units may cross [Mountain] tiles after the first [Unit_Mountain_Road_Network] is earned"],
+		"Receive free [GreatPerson_Class_Scientist] when you discover [Civic_Basic trade]",
+		"Land units may cross [Mountain] tiles after the first [GreatPerson_Class_Scientist] is earned"],
 //		"uniqueText": "",
 		
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos","Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha","Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac","Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],

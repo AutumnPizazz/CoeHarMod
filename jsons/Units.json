@@ -1011,7 +1011,8 @@
 		"uniqueTo":"Nation_Inca",
 		"movement": 2,
 		"requiredTech":"Civic_Basic trade",
-		"uniques": ["Can instantly construct a [Improvement_Mountain_Road_Network] improvement <by consuming this unit>",
+		"uniques": [
+			"Can instantly construct a [Improvement_Mountain_Road_Network] improvement <by consuming this unit>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
