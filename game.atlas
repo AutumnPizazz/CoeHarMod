@@ -387,35 +387,35 @@ ReligionIcons/Bahai Faith
   orig: 271, 179
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/CrosshatchHexagon
+TileSets/HexaRealm/CrosshatchHexagon
   rotate: false
   xy: 4, 24
   size: 273, 236
   orig: 273, 236
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Hexagon
+TileSets/HexaRealm/Hexagon
   rotate: false
   xy: 1210, 1331
   size: 416, 360
   orig: 416, 360
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Highlight
+TileSets/HexaRealm/Highlight
   rotate: false
   xy: 1210, 1699
   size: 450, 315
   orig: 450, 315
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_The_Giants_Causeway
+TileSets/HexaRealm/Tiles/Naturalwonder_The_Giants_Causeway
   rotate: false
   xy: 652, 1119
   size: 385, 337
   orig: 385, 337
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Terrain_Volcano
+TileSets/HexaRealm/Tiles/Terrain_Volcano
   rotate: false
   xy: 562, 811
   size: 300, 300
@@ -960,35 +960,35 @@ ResourceIcons/Resource_Gold
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Manufactory
+TileSets/HexaRealm/Tiles/Improvement_Manufactory
   rotate: false
   xy: 4, 4
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Forest
+TileSets/HexaRealm/Tiles/Landform_Forest
   rotate: false
   xy: 4, 4
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Geothermal fissure
+TileSets/HexaRealm/Tiles/Landform_Geothermal fissure
   rotate: false
   xy: 532, 532
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Rainforest
+TileSets/HexaRealm/Tiles/Landform_Rainforest
   rotate: false
   xy: 796, 796
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Zhangye_Danxia
+TileSets/HexaRealm/Tiles/Naturalwonder_Zhangye_Danxia
   rotate: false
   xy: 796, 564
   size: 256, 224
@@ -2331,7 +2331,7 @@ ResourceIcons/Resource_Wine
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Crosshair
+TileSets/HexaRealm/Crosshair
   rotate: false
   xy: 1852, 1915
   size: 174, 125
@@ -2409,28 +2409,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Building_BowlingAlley
   rotate: false
-  xy: 1908, 748
+  xy: 1337, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building_DivinelyOrdainedRules
   rotate: false
-  xy: 1228, 720
+  xy: 1445, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Byzantium
   rotate: false
-  xy: 1228, 720
+  xy: 1445, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building_Domination_Victory
   rotate: false
-  xy: 1336, 720
+  xy: 1553, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2451,7 +2451,7 @@ BuildingIcons/Building_Lighthouse
   index: -1
 BuildingIcons/Building_Lijia
   rotate: false
-  xy: 1444, 720
+  xy: 1661, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2759,7 +2759,7 @@ BuildingIcons/Building_University
   index: -1
 BuildingIcons/Building_Utopia_Project
   rotate: false
-  xy: 1552, 720
+  xy: 1769, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3634,434 +3634,434 @@ BuildingIcons/Government_Theocracy
   index: -1
 BuildingIcons/Governor_Amani_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Amani_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Amani_IIIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Amani_IIIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Amani_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_BloodContract_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_BloodContract_II
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_BloodContract_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_BloodContract_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GoldenDawn_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GoldenDawn_II
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GoldenDawn_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GoldenDawn_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GrandVizier_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GrandVizier_II
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GrandVizier_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_GrandVizier_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Liang_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Liang_IIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Liang_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Liang_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Liang_IVA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Liang_IVB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Magnus_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Magnus_IIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Magnus_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Magnus_IIIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Magnus_IIIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Magnus_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_MinervaNightingale_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_MinervaNightingale_II
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_MinervaNightingale_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_MinervaNightingale_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Moksha_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Moksha_IIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Moksha_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Moksha_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Moksha_IVA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Moksha_IVB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Pingala_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Pingala_IIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Pingala_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Pingala_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Pingala_IVA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Pingala_IVB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Reyna_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Reyna_IIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Reyna_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Reyna_IIIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Reyna_IIIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Reyna_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Victor_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Victor_IIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Victor_IIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Victor_IIIA
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Victor_IIIB
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Victor_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Voidchoner_I
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Voidchoner_II
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Voidchoner_III
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor_Voidchoner_IV
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_Governor title
   rotate: false
-  xy: 1228, 544
+  xy: 1228, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4348,91 +4348,91 @@ ResourceIcons/Resource_Military policy slot
   index: -1
 ImprovementIcons/Cancel improvement order
   rotate: false
-  xy: 1660, 720
+  xy: 1877, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Railroad
   rotate: false
-  xy: 1660, 720
+  xy: 1877, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Road
   rotate: false
-  xy: 1660, 720
+  xy: 1877, 720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Encampment
   rotate: false
-  xy: 1336, 504
+  xy: 1336, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Farm
   rotate: false
-  xy: 1228, 436
+  xy: 1336, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Fishery
   rotate: false
-  xy: 1444, 504
+  xy: 1336, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Fishing_Boat
   rotate: false
-  xy: 1552, 504
+  xy: 1444, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Fort
   rotate: false
-  xy: 1660, 504
+  xy: 1552, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_RomeFort
   rotate: false
-  xy: 1660, 504
+  xy: 1552, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Fortification
   rotate: false
-  xy: 1768, 504
+  xy: 1660, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Kurgan
   rotate: false
-  xy: 1876, 424
+  xy: 1768, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Lumber_Mill
   rotate: false
-  xy: 1336, 396
+  xy: 1876, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Mine
   rotate: false
-  xy: 1228, 328
+  xy: 1444, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4460,182 +4460,182 @@ ImprovementIcons/Improvement_Offshore_Oil_Rig
   index: -1
 ImprovementIcons/Improvement_Oil_Well
   rotate: false
-  xy: 1552, 396
+  xy: 1444, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Pasture
   rotate: false
-  xy: 1660, 396
+  xy: 1444, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Plantation
   rotate: false
-  xy: 1768, 396
+  xy: 1444, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Prophet
   rotate: false
-  xy: 1876, 316
+  xy: 1552, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Quarry
   rotate: false
-  xy: 1228, 220
+  xy: 1660, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Seastead
   rotate: false
-  xy: 1228, 112
+  xy: 1768, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement_Terrace_Farm
   rotate: false
-  xy: 1228, 4
+  xy: 1876, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Arabia
   rotate: false
-  xy: 1336, 288
+  xy: 1552, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Aztec
   rotate: false
-  xy: 1444, 288
+  xy: 1552, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Babylon
   rotate: false
-  xy: 1552, 288
+  xy: 1552, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Egypt
   rotate: false
-  xy: 1660, 288
+  xy: 1552, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_France
   rotate: false
-  xy: 1768, 288
+  xy: 1660, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Gaul
   rotate: false
-  xy: 1876, 208
+  xy: 1768, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Germany
   rotate: false
-  xy: 1336, 100
+  xy: 1876, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Greece
   rotate: false
-  xy: 1444, 180
+  xy: 1660, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Han
   rotate: false
-  xy: 1552, 180
+  xy: 1660, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Ming
   rotate: false
-  xy: 1552, 180
+  xy: 1660, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Qin
   rotate: false
-  xy: 1552, 180
+  xy: 1660, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Tang
   rotate: false
-  xy: 1552, 180
+  xy: 1660, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Inca
   rotate: false
-  xy: 1660, 180
+  xy: 1660, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Korea
   rotate: false
-  xy: 1768, 180
+  xy: 1768, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Mali
   rotate: false
-  xy: 1876, 100
+  xy: 1876, 288
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Maya
   rotate: false
-  xy: 1444, 72
+  xy: 1768, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Ottoman
   rotate: false
-  xy: 1552, 72
+  xy: 1768, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_PRC
   rotate: false
-  xy: 1660, 72
+  xy: 1876, 180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation_Persia
   rotate: false
-  xy: 1768, 72
+  xy: 1876, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4656,7 +4656,7 @@ ReligionIcons/Orthodox Christianity
   index: -1
 ReligionIcons/Shamanism
   rotate: false
-  xy: 1636, 964
+  xy: 1772, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -4703,107 +4703,135 @@ ResourceIcons/Resource_Lobster
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Resource_New_Deal_Legislation
+ResourceIcons/Resource_Military_Maintenance1
   rotate: false
   xy: 956, 12
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Resource_Porcelain
+ResourceIcons/Resource_Military_Maintenance2
+  rotate: false
+  xy: 956, 12
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource_Military_Maintenance3
+  rotate: false
+  xy: 956, 12
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource_Nuclear_Device_Maintenance
+  rotate: false
+  xy: 956, 12
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource_New_Deal_Legislation
   rotate: false
   xy: 1092, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+ResourceIcons/Resource_Porcelain
+  rotate: false
+  xy: 1228, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 ResourceIcons/Resource_Remaining_Monks
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_Monk
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_MonkI
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_MonkII
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_MonkIII
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_MonkIV
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_MonkV
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit_MonkVI
-  rotate: false
-  xy: 1228, 964
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ResourceIcons/Resource_Rubber
   rotate: false
   xy: 1364, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Resource_district_limitation
+UnitIcons/Unit_Monk
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkI
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkII
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkIII
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkIV
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkV
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit_MonkVI
+  rotate: false
+  xy: 1364, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource_Rubber
   rotate: false
   xy: 1500, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+ResourceIcons/Resource_district_limitation
+  rotate: false
+  xy: 1636, 964
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 StatIcons/Culture
   rotate: false
-  xy: 1768, 720
+  xy: 1228, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 1876, 640
+  xy: 1228, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 1336, 612
+  xy: 1228, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4815,21 +4843,21 @@ TechIcons/Initial tech_civic_Agriculture
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/Generic
+TileSets/HexaRealm/Arrows/Generic
   rotate: false
-  xy: 1228, 652
+  xy: 1228, 436
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Hukou_Waterfall
+TileSets/HexaRealm/Tiles/Naturalwonder_Hukou_Waterfall
   rotate: false
   xy: 1772, 1780
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Mount_Tai
+TileSets/HexaRealm/Tiles/Naturalwonder_Mount_Tai
   rotate: false
   xy: 1908, 1780
   size: 128, 128
@@ -4985,63 +5013,63 @@ UnitIcons/GreatPerson_Class_Scientist_Progress3
   index: -1
 UnitIcons/GreatPerson_Class_Artist
   rotate: false
-  xy: 1444, 612
+  xy: 1228, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_GreatPerson_Class_Artist
   rotate: false
-  xy: 1444, 612
+  xy: 1228, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/GreatPerson_Class_Engineer
   rotate: false
-  xy: 1552, 612
+  xy: 1228, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_GreatPerson_Class_Engineer
   rotate: false
-  xy: 1552, 612
+  xy: 1228, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/GreatPerson_Class_General
   rotate: false
-  xy: 1660, 612
+  xy: 1336, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_GreatPerson_Class_General
   rotate: false
-  xy: 1660, 612
+  xy: 1336, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Grand_Marshal
   rotate: false
-  xy: 1660, 612
+  xy: 1336, 612
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/GreatPerson_Class_Merchant
   rotate: false
-  xy: 1768, 612
+  xy: 1336, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_GreatPerson_Class_Merchant
   rotate: false
-  xy: 1768, 612
+  xy: 1336, 504
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -5062,525 +5090,525 @@ ResourceIcons/Resource_GreatPerson_Class_Prophet
   index: -1
 UnitIcons/GreatPerson_Class_Scientist
   rotate: false
-  xy: 1876, 532
+  xy: 1336, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource_GreatPerson_Class_Scientist
   rotate: false
-  xy: 1876, 532
+  xy: 1336, 396
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Administration
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Basic trade
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Capitalism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Civil engineering
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Class struggle
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Code
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Cold War
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Colonialism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Cultural hegemony
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Cultural heritage
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Decentralized sovereighty
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Defensive tactics
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Divin right of Kings
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Drama and poetry
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Early Empire
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Earth protection
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Emergency deployment
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Enlightenment
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Environmentalism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Exploration
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Feudalism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Foreigh service
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Future Municipal
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Games and entertainment
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Global warming mitigation
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Globalization
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_History
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Humanism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Ideology
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Information warfare
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Mass media
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Medieval bazaar
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Mercantilism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Mercenaries
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Military tradition
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Military training
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Mobilization
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Mysticism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_National labor force
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Nationalism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Natural history
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Naval tradition
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Near-future governance
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Necessity expedition
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Nuclear program
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Opera and ballet
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Optimization command
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Political adventures
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Political philosophy
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Professional sports
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Reformed church
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Right to vote
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Scorched earth strategy
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Skill
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Smart power foctrine
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Social media
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Space race
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Theology
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Thw worker's union
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Tolalitarianism
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Urbanization
   rotate: false
-  xy: 1772, 964
+  xy: 1908, 964
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_ImperialGuard
   rotate: false
-  xy: 1908, 964
+  xy: 1092, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Ming_GreatWall
   rotate: false
-  xy: 1092, 828
+  xy: 1092, 692
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Missionary
   rotate: false
-  xy: 1092, 692
+  xy: 1092, 556
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Mountain_Road_Network
   rotate: false
-  xy: 1092, 556
+  xy: 1092, 420
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_MudaoSoldier
   rotate: false
-  xy: 1092, 420
+  xy: 1092, 284
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Rocket_Artillery
   rotate: false
-  xy: 1908, 856
+  xy: 1228, 720
   size: 101, 100
   orig: 101, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Tiger_Leopard_Army
   rotate: false
-  xy: 1092, 284
+  xy: 1092, 148
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Vampire2
   rotate: false
-  xy: 1092, 148
+  xy: 1092, 12
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Vampire3
   rotate: false
-  xy: 1092, 12
+  xy: 1228, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Voidchoner_ConsumerI
   rotate: false
-  xy: 1228, 828
+  xy: 1364, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Voidchoner_ConsumerII
   rotate: false
-  xy: 1364, 828
+  xy: 1500, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit_Voidchoner_ConsumerIII
   rotate: false
-  xy: 1500, 828
+  xy: 1636, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -6469,14 +6497,14 @@ UnitPromotionIcons/Promotion_zuocanghujia
   index: -1
 UnitPromotionIcons/double star
   rotate: false
-  xy: 1636, 828
+  xy: 1772, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/triple star
   rotate: false
-  xy: 1772, 828
+  xy: 1908, 828
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -6676,1869 +6704,1869 @@ TechIcons/Tech_Steel
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/UnitAttacked
+TileSets/HexaRealm/Arrows/UnitAttacked
   rotate: false
   xy: 436, 1875
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/UnitHasAttacked
+TileSets/HexaRealm/Arrows/UnitHasAttacked
   rotate: false
   xy: 544, 1983
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/UnitMoved
+TileSets/HexaRealm/Arrows/UnitMoved
   rotate: false
   xy: 4, 1335
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/UnitMoving
+TileSets/HexaRealm/Arrows/UnitMoving
   rotate: false
   xy: 112, 1443
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/UnitTeleported
+TileSets/HexaRealm/Arrows/UnitTeleported
   rotate: false
   xy: 220, 1552
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Arrows/UnitWithdrew
+TileSets/HexaRealm/Arrows/UnitWithdrew
   rotate: false
   xy: 328, 1659
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConcaveConvexInner
+TileSets/HexaRealm/Borders/ConcaveConvexInner
   rotate: false
   xy: 1084, 1704
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConcaveConvexOuter
+TileSets/HexaRealm/Borders/ConcaveConvexOuter
   rotate: false
   xy: 1192, 1812
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConcaveInner
+TileSets/HexaRealm/Borders/ConcaveInner
   rotate: false
   xy: 1300, 1920
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConcaveOuter
+TileSets/HexaRealm/Borders/ConcaveOuter
   rotate: false
   xy: 1408, 2028
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConvexConcaveInner
+TileSets/HexaRealm/Borders/ConvexConcaveInner
   rotate: false
   xy: 4, 556
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConvexConcaveOuter
+TileSets/HexaRealm/Borders/ConvexConcaveOuter
   rotate: false
   xy: 112, 664
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConvexInner
+TileSets/HexaRealm/Borders/ConvexInner
   rotate: false
   xy: 220, 773
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Borders/ConvexOuter
+TileSets/HexaRealm/Borders/ConvexOuter
   rotate: false
   xy: 328, 880
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Railroad
+TileSets/HexaRealm/Railroad
   rotate: false
   xy: 4, 4
   size: 60, 32
   orig: 60, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Road
+TileSets/HexaRealm/Road
   rotate: false
   xy: 1156, 1516
   size: 60, 32
   orig: 60, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Ancient ruins
+TileSets/HexaRealm/Tiles/Ancient ruins
   rotate: false
   xy: 652, 1123
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Barbarian encampment
+TileSets/HexaRealm/Tiles/Barbarian encampment
   rotate: false
   xy: 760, 1231
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Barbarian encampmentT
+TileSets/HexaRealm/Tiles/Barbarian encampmentT
   rotate: false
   xy: 868, 1339
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/City center
+TileSets/HexaRealm/Tiles/City center
   rotate: false
   xy: 976, 1446
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/City ruins
+TileSets/HexaRealm/Tiles/City ruins
   rotate: false
   xy: 1084, 1632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Coast
+TileSets/HexaRealm/Tiles/Coast
   rotate: false
   xy: 1192, 1748
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert
+TileSets/HexaRealm/Tiles/Desert
   rotate: false
   xy: 1300, 1856
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert+Landform_Hill
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill
   rotate: false
   xy: 112, 600
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout
   rotate: false
   xy: 328, 816
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout2
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout2
   rotate: false
   xy: 1084, 1568
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert+Landform_Hill2
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill2
   rotate: false
   xy: 220, 709
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert2
+TileSets/HexaRealm/Tiles/Desert2
   rotate: false
   xy: 1408, 1964
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Desert3
+TileSets/HexaRealm/Tiles/Desert3
   rotate: false
   xy: 4, 492
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Distict_Academy_of_Classical_Learning
+TileSets/HexaRealm/Tiles/Distict_Academy_of_Classical_Learning
   rotate: false
   xy: 4, 428
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Campus
+TileSets/HexaRealm/Tiles/District_Campus
   rotate: false
   xy: 4, 428
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Mayan_Observatory
+TileSets/HexaRealm/Tiles/District_Mayan_Observatory
   rotate: false
   xy: 4, 428
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Distict_BeachLandmark
+TileSets/HexaRealm/Tiles/Distict_BeachLandmark
   rotate: false
   xy: 4, 364
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Distinct_Raceline
+TileSets/HexaRealm/Tiles/Distinct_Raceline
   rotate: false
   xy: 4, 364
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Distinct_Protection_Zone
+TileSets/HexaRealm/Tiles/Distinct_Protection_Zone
   rotate: false
   xy: 4, 300
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Acropolis
+TileSets/HexaRealm/Tiles/District_Acropolis
   rotate: false
   xy: 4, 236
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Theater_Square
+TileSets/HexaRealm/Tiles/District_Theater_Square
   rotate: false
   xy: 4, 236
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Army
+TileSets/HexaRealm/Tiles/District_Army
   rotate: false
   xy: 4, 172
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Commercial_Association
+TileSets/HexaRealm/Tiles/District_Commercial_Association
   rotate: false
   xy: 4, 108
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Industrial_Zone
+TileSets/HexaRealm/Tiles/District_Industrial_Zone
   rotate: false
   xy: 4, 108
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Oppidum
+TileSets/HexaRealm/Tiles/District_Oppidum
   rotate: false
   xy: 4, 108
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Commercial_Hub
+TileSets/HexaRealm/Tiles/District_Commercial_Hub
   rotate: false
   xy: 4, 44
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Mandingo_Market
+TileSets/HexaRealm/Tiles/District_Mandingo_Market
   rotate: false
   xy: 4, 44
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Entertainment_Complex
+TileSets/HexaRealm/Tiles/District_Entertainment_Complex
   rotate: false
   xy: 1084, 1504
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Foreign_Quarter
+TileSets/HexaRealm/Tiles/District_Foreign_Quarter
   rotate: false
   xy: 760, 1167
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Government_Plaza
+TileSets/HexaRealm/Tiles/District_Government_Plaza
   rotate: false
   xy: 760, 1167
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Mayab
+TileSets/HexaRealm/Tiles/District_Mayab
   rotate: false
   xy: 760, 1167
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Harbor
+TileSets/HexaRealm/Tiles/District_Harbor
   rotate: false
   xy: 868, 1276
   size: 64, 55
   orig: 64, 55
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Holy_Site
+TileSets/HexaRealm/Tiles/District_Holy_Site
   rotate: false
   xy: 976, 1382
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Lavra_Monastery
+TileSets/HexaRealm/Tiles/District_Lavra_Monastery
   rotate: false
   xy: 976, 1382
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Spaceport
+TileSets/HexaRealm/Tiles/District_Spaceport
   rotate: false
   xy: 544, 1053
   size: 65, 58
   orig: 65, 58
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/District_Water_Park
+TileSets/HexaRealm/Tiles/District_Water_Park
   rotate: false
   xy: 544, 989
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland
+TileSets/HexaRealm/Tiles/Grassland
   rotate: false
   xy: 510, 925
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland+Landform_Hill
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill
   rotate: false
   xy: 832, 1212
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout
   rotate: false
   xy: 1120, 1440
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout2
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout2
   rotate: false
   xy: 1120, 1376
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland+Landform_Hill2
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill2
   rotate: false
   xy: 832, 1148
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland2
+TileSets/HexaRealm/Tiles/Grassland2
   rotate: false
   xy: 1048, 1440
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Grassland3
+TileSets/HexaRealm/Tiles/Grassland3
   rotate: false
   xy: 1048, 1376
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_EarthVeinsExploiter
+TileSets/HexaRealm/Tiles/Improvement_EarthVeinsExploiter
   rotate: false
   xy: 940, 1318
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Encampment
+TileSets/HexaRealm/Tiles/Improvement_Encampment
   rotate: false
   xy: 940, 1254
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Encampment-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Encampment-Era_Industrial
   rotate: false
   xy: 1012, 1312
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Farm
+TileSets/HexaRealm/Tiles/Improvement_Farm
   rotate: false
   xy: 1084, 1312
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Farm+Resource_Wheat
+TileSets/HexaRealm/Tiles/Improvement_Farm+Resource_Wheat
   rotate: false
   xy: 1012, 1248
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Farm-Pillaged
+TileSets/HexaRealm/Tiles/Improvement_Farm-Pillaged
   rotate: false
   xy: 1084, 1248
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmD
+TileSets/HexaRealm/Tiles/Improvement_FarmD
   rotate: false
   xy: 1156, 1312
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmDH
+TileSets/HexaRealm/Tiles/Improvement_FarmDH
   rotate: false
   xy: 1156, 1248
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmG
+TileSets/HexaRealm/Tiles/Improvement_FarmG
   rotate: false
   xy: 904, 1190
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmGH
+TileSets/HexaRealm/Tiles/Improvement_FarmGH
   rotate: false
   xy: 904, 1126
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmP
+TileSets/HexaRealm/Tiles/Improvement_FarmP
   rotate: false
   xy: 976, 1184
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmPH
+TileSets/HexaRealm/Tiles/Improvement_FarmPH
   rotate: false
   xy: 1048, 1184
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmS
+TileSets/HexaRealm/Tiles/Improvement_FarmS
   rotate: false
   xy: 1120, 1184
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmSH
+TileSets/HexaRealm/Tiles/Improvement_FarmSH
   rotate: false
   xy: 976, 1120
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmT
+TileSets/HexaRealm/Tiles/Improvement_FarmT
   rotate: false
   xy: 1048, 1120
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FarmTH
+TileSets/HexaRealm/Tiles/Improvement_FarmTH
   rotate: false
   xy: 1120, 1120
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fishing_Boat
+TileSets/HexaRealm/Tiles/Improvement_Fishing_Boat
   rotate: false
   xy: 1192, 1184
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fishing_Boat-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Fishing_Boat-Era_Industrial
   rotate: false
   xy: 1192, 1120
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fort
+TileSets/HexaRealm/Tiles/Improvement_Fort
   rotate: false
   xy: 617, 1055
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_RomeFort
+TileSets/HexaRealm/Tiles/Improvement_RomeFort
   rotate: false
   xy: 617, 1055
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fort-Era_Atomic
+TileSets/HexaRealm/Tiles/Improvement_Fort-Era_Atomic
   rotate: false
   xy: 582, 925
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_RomeFort-Era_Atomic
+TileSets/HexaRealm/Tiles/Improvement_RomeFort-Era_Atomic
   rotate: false
   xy: 582, 925
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fort-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Fort-Era_Industrial
   rotate: false
   xy: 616, 989
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_RomeFort-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_RomeFort-Era_Industrial
   rotate: false
   xy: 616, 989
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FortT
+TileSets/HexaRealm/Tiles/Improvement_FortT
   rotate: false
   xy: 654, 925
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_RomeFortT
+TileSets/HexaRealm/Tiles/Improvement_RomeFortT
   rotate: false
   xy: 654, 925
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FortT-Era_Atomic
+TileSets/HexaRealm/Tiles/Improvement_FortT-Era_Atomic
   rotate: false
   xy: 1497, 1987
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_RomeFortT-Era_Atomic
+TileSets/HexaRealm/Tiles/Improvement_RomeFortT-Era_Atomic
   rotate: false
   xy: 1497, 1987
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FortT-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_FortT-Era_Industrial
   rotate: false
   xy: 1569, 1987
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_RomeFortT-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_RomeFortT-Era_Industrial
   rotate: false
   xy: 1569, 1987
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fortification
+TileSets/HexaRealm/Tiles/Improvement_Fortification
   rotate: false
   xy: 1641, 1979
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Fortification-Era_Atomic
+TileSets/HexaRealm/Tiles/Improvement_Fortification-Era_Atomic
   rotate: false
   xy: 1713, 1979
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FortificationT
+TileSets/HexaRealm/Tiles/Improvement_FortificationT
   rotate: false
   xy: 1785, 1979
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_FortificationT-Era_Atomic
+TileSets/HexaRealm/Tiles/Improvement_FortificationT-Era_Atomic
   rotate: false
   xy: 1857, 1979
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Lumber_Mill
+TileSets/HexaRealm/Tiles/Improvement_Lumber_Mill
   rotate: false
   xy: 1929, 1987
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Lumber_Mill-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Lumber_Mill-Era_Industrial
   rotate: false
   xy: 417, 839
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Lumber_MillT
+TileSets/HexaRealm/Tiles/Improvement_Lumber_MillT
   rotate: false
   xy: 689, 1059
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Lumber_MillT-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Lumber_MillT-Era_Industrial
   rotate: false
   xy: 220, 645
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Mine
+TileSets/HexaRealm/Tiles/Improvement_Mine
   rotate: false
   xy: 510, 861
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Mine-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Mine-Era_Industrial
   rotate: false
   xy: 582, 861
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_MineT
+TileSets/HexaRealm/Tiles/Improvement_MineT
   rotate: false
   xy: 654, 861
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_MineT-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_MineT-Era_Industrial
   rotate: false
   xy: 1300, 1792
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Offshore_Oil_Rig
+TileSets/HexaRealm/Tiles/Improvement_Offshore_Oil_Rig
   rotate: false
   xy: 1408, 1900
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Oil+Offshore Platform
+TileSets/HexaRealm/Tiles/Resource_Oil+Offshore Platform
   rotate: false
   xy: 1408, 1900
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Oil_Well
+TileSets/HexaRealm/Tiles/Improvement_Oil_Well
   rotate: false
   xy: 1480, 1922
   size: 64, 57
   orig: 64, 57
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Oil+Oil well
+TileSets/HexaRealm/Tiles/Resource_Oil+Oil well
   rotate: false
   xy: 1480, 1922
   size: 64, 57
   orig: 64, 57
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Pasture
+TileSets/HexaRealm/Tiles/Improvement_Pasture
   rotate: false
   xy: 1552, 1923
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Pasture-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Pasture-Era_Industrial
   rotate: false
   xy: 1624, 1915
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Plantation
+TileSets/HexaRealm/Tiles/Improvement_Plantation
   rotate: false
   xy: 1696, 1915
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Prophet
+TileSets/HexaRealm/Tiles/Improvement_Prophet
   rotate: false
   xy: 1768, 1907
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_ProphetT
+TileSets/HexaRealm/Tiles/Improvement_ProphetT
   rotate: false
   xy: 1840, 1907
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Quarry
+TileSets/HexaRealm/Tiles/Improvement_Quarry
   rotate: false
   xy: 1372, 1836
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Quarry-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_Quarry-Era_Industrial
   rotate: false
   xy: 1372, 1772
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_QuarryT
+TileSets/HexaRealm/Tiles/Improvement_QuarryT
   rotate: false
   xy: 1444, 1836
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_QuarryT-Era_Industrial
+TileSets/HexaRealm/Tiles/Improvement_QuarryT-Era_Industrial
   rotate: false
   xy: 1444, 1772
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Improvement_Terrace_Farm
+TileSets/HexaRealm/Tiles/Improvement_Terrace_Farm
   rotate: false
   xy: 112, 536
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/JungleG
+TileSets/HexaRealm/Tiles/JungleG
   rotate: false
   xy: 184, 581
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/JungleGLow
+TileSets/HexaRealm/Tiles/JungleGLow
   rotate: false
   xy: 184, 517
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/JungleGUp
+TileSets/HexaRealm/Tiles/JungleGUp
   rotate: false
   xy: 256, 581
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/JungleP
+TileSets/HexaRealm/Tiles/JungleP
   rotate: false
   xy: 256, 517
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/JunglePLow
+TileSets/HexaRealm/Tiles/JunglePLow
   rotate: false
   xy: 76, 472
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/JunglePUp
+TileSets/HexaRealm/Tiles/JunglePUp
   rotate: false
   xy: 76, 408
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Lakes
+TileSets/HexaRealm/Tiles/Lakes
   rotate: false
   xy: 76, 344
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Alluvial plain
+TileSets/HexaRealm/Tiles/Landform_Alluvial plain
   rotate: false
   xy: 76, 280
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Floodplain
+TileSets/HexaRealm/Tiles/Landform_Floodplain
   rotate: false
   xy: 76, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestG
+TileSets/HexaRealm/Tiles/Landform_ForestG
   rotate: false
   xy: 76, 152
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestGH
+TileSets/HexaRealm/Tiles/Landform_ForestGH
   rotate: false
   xy: 76, 88
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestGHLow
+TileSets/HexaRealm/Tiles/Landform_ForestGHLow
   rotate: false
   xy: 76, 24
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestGHUp
+TileSets/HexaRealm/Tiles/Landform_ForestGHUp
   rotate: false
   xy: 148, 453
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestGLow
+TileSets/HexaRealm/Tiles/Landform_ForestGLow
   rotate: false
   xy: 148, 389
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestGUp
+TileSets/HexaRealm/Tiles/Landform_ForestGUp
   rotate: false
   xy: 220, 453
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestP
+TileSets/HexaRealm/Tiles/Landform_ForestP
   rotate: false
   xy: 148, 325
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestPH
+TileSets/HexaRealm/Tiles/Landform_ForestPH
   rotate: false
   xy: 220, 389
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestPHLow
+TileSets/HexaRealm/Tiles/Landform_ForestPHLow
   rotate: false
   xy: 148, 261
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestPHUp
+TileSets/HexaRealm/Tiles/Landform_ForestPHUp
   rotate: false
   xy: 220, 325
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestPLow
+TileSets/HexaRealm/Tiles/Landform_ForestPLow
   rotate: false
   xy: 148, 197
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestPUp
+TileSets/HexaRealm/Tiles/Landform_ForestPUp
   rotate: false
   xy: 220, 261
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestT
+TileSets/HexaRealm/Tiles/Landform_ForestT
   rotate: false
   xy: 148, 133
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestTH
+TileSets/HexaRealm/Tiles/Landform_ForestTH
   rotate: false
   xy: 220, 197
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestTLow
+TileSets/HexaRealm/Tiles/Landform_ForestTLow
   rotate: false
   xy: 148, 69
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_ForestTUp
+TileSets/HexaRealm/Tiles/Landform_ForestTUp
   rotate: false
   xy: 220, 133
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Ice cap
+TileSets/HexaRealm/Tiles/Landform_Ice cap
   rotate: false
   xy: 220, 69
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Landform_Hill
+TileSets/HexaRealm/Tiles/Landform_Landform_Hill
   rotate: false
   xy: 148, 5
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Nuclear fallout
+TileSets/HexaRealm/Tiles/Landform_Nuclear fallout
   rotate: false
   xy: 220, 5
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Oasis
+TileSets/HexaRealm/Tiles/Landform_Oasis
   rotate: false
   xy: 292, 453
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Reef
+TileSets/HexaRealm/Tiles/Landform_Reef
   rotate: false
   xy: 292, 389
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Landform_Swamp
+TileSets/HexaRealm/Tiles/Landform_Swamp
   rotate: false
   xy: 292, 325
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Mountain
+TileSets/HexaRealm/Tiles/Mountain
   rotate: false
   xy: 292, 253
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Mountain-1
+TileSets/HexaRealm/Tiles/Mountain-1
   rotate: false
   xy: 292, 253
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Mountain2
+TileSets/HexaRealm/Tiles/Mountain2
   rotate: false
   xy: 292, 181
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Delicate_Arch
+TileSets/HexaRealm/Tiles/Naturalwonder_Delicate_Arch
   rotate: false
   xy: 292, 117
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_El_Dorado
+TileSets/HexaRealm/Tiles/Naturalwonder_El_Dorado
   rotate: false
   xy: 292, 53
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Fountain_of_Youth
+TileSets/HexaRealm/Tiles/Naturalwonder_Fountain_of_Youth
   rotate: false
   xy: 1192, 1684
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Great_Barrier_Reef
+TileSets/HexaRealm/Tiles/Naturalwonder_Great_Barrier_Reef
   rotate: false
   xy: 1264, 1728
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Ha_Long_Bay
+TileSets/HexaRealm/Tiles/Naturalwonder_Ha_Long_Bay
   rotate: false
   xy: 1264, 1664
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Naturalwonder_Pantanal
+TileSets/HexaRealm/Tiles/Naturalwonder_Pantanal
   rotate: false
   xy: 1336, 1708
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Ocean
+TileSets/HexaRealm/Tiles/Ocean
   rotate: false
   xy: 1408, 1708
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains
+TileSets/HexaRealm/Tiles/Plains
   rotate: false
   xy: 1336, 1644
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains+Landform_Hill
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill
   rotate: false
   xy: 1156, 1556
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains+Landform_Hill+Fallout2
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill+Fallout2
   rotate: false
   xy: 1480, 1644
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains+Landform_Hill+Landform_Nuclear fallout
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill+Landform_Nuclear fallout
   rotate: false
   xy: 1228, 1600
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains+Landform_Hill2
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill2
   rotate: false
   xy: 1480, 1708
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains2
+TileSets/HexaRealm/Tiles/Plains2
   rotate: false
   xy: 1408, 1644
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Plains3
+TileSets/HexaRealm/Tiles/Plains3
   rotate: false
   xy: 1156, 1620
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Aluminum
+TileSets/HexaRealm/Tiles/Resource_Aluminum
   rotate: false
   xy: 1228, 1536
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Bananas
+TileSets/HexaRealm/Tiles/Resource_Bananas
   rotate: false
   xy: 1300, 1580
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Bananas+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Bananas+Improvement_Plantation
   rotate: false
   xy: 1372, 1580
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Cattle
+TileSets/HexaRealm/Tiles/Resource_Cattle
   rotate: false
   xy: 1444, 1580
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_CattleP
+TileSets/HexaRealm/Tiles/Resource_CattleP
   rotate: false
   xy: 1444, 1580
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Cattle+Improvement_Pasture
+TileSets/HexaRealm/Tiles/Resource_Cattle+Improvement_Pasture
   rotate: false
   xy: 1300, 1516
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Cattle+Pasture-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Cattle+Pasture-Era_Industrial
   rotate: false
   xy: 1372, 1516
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_CattleG
+TileSets/HexaRealm/Tiles/Resource_CattleG
   rotate: false
   xy: 1444, 1516
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Citrus
+TileSets/HexaRealm/Tiles/Resource_Citrus
   rotate: false
   xy: 1516, 1580
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Citrus+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Citrus+Improvement_Plantation
   rotate: false
   xy: 1516, 1516
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Coal
+TileSets/HexaRealm/Tiles/Resource_Coal
   rotate: false
   xy: 328, 752
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Copper
+TileSets/HexaRealm/Tiles/Resource_Copper
   rotate: false
   xy: 400, 775
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Cotton
+TileSets/HexaRealm/Tiles/Resource_Cotton
   rotate: false
   xy: 292, 688
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Cotton+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Cotton+Improvement_Plantation
   rotate: false
   xy: 364, 688
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Crab
+TileSets/HexaRealm/Tiles/Resource_Crab
   rotate: false
   xy: 328, 624
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Deer
+TileSets/HexaRealm/Tiles/Resource_Deer
   rotate: false
   xy: 328, 560
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Deer+Improvement_Encampment
+TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_Encampment
   rotate: false
   xy: 400, 624
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Deer+Improvement_Encampment-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_Encampment-Era_Industrial
   rotate: false
   xy: 400, 560
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Deer+Improvement_EncampmentT
+TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_EncampmentT
   rotate: false
   xy: 364, 496
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Deer+Improvement_EncampmentT-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_EncampmentT-Era_Industrial
   rotate: false
   xy: 364, 432
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Dye
+TileSets/HexaRealm/Tiles/Resource_Dye
   rotate: false
   xy: 364, 368
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Dye+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Dye+Improvement_Plantation
   rotate: false
   xy: 364, 304
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_EarthVeins
+TileSets/HexaRealm/Tiles/Resource_EarthVeins
   rotate: false
   xy: 364, 240
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Fish
+TileSets/HexaRealm/Tiles/Resource_Fish
   rotate: false
   xy: 364, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Gem
+TileSets/HexaRealm/Tiles/Resource_Gem
   rotate: false
   xy: 364, 112
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Gold
+TileSets/HexaRealm/Tiles/Resource_Gold
   rotate: false
   xy: 364, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Horse
+TileSets/HexaRealm/Tiles/Resource_Horse
   rotate: false
   xy: 436, 496
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Horse+Pasture
+TileSets/HexaRealm/Tiles/Resource_Horse+Pasture
   rotate: false
   xy: 436, 432
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Horse+Pasture-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Horse+Pasture-Era_Industrial
   rotate: false
   xy: 436, 368
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Incense
+TileSets/HexaRealm/Tiles/Resource_Incense
   rotate: false
   xy: 436, 304
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Incense+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Incense+Improvement_Plantation
   rotate: false
   xy: 436, 240
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Iron
+TileSets/HexaRealm/Tiles/Resource_Iron
   rotate: false
   xy: 436, 176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Ivory
+TileSets/HexaRealm/Tiles/Resource_Ivory
   rotate: false
   xy: 436, 112
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Ivory+Improvement_Encampment
+TileSets/HexaRealm/Tiles/Resource_Ivory+Improvement_Encampment
   rotate: false
   xy: 436, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Ivory+Improvement_Encampment-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Ivory+Improvement_Encampment-Era_Industrial
   rotate: false
   xy: 1228, 1472
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Leather
+TileSets/HexaRealm/Tiles/Resource_Leather
   rotate: false
   xy: 1300, 1452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Leather+Improvement_Encampment
+TileSets/HexaRealm/Tiles/Resource_Leather+Improvement_Encampment
   rotate: false
   xy: 1372, 1452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Leather+Improvement_Encampment-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Leather+Improvement_Encampment-Era_Industrial
   rotate: false
   xy: 1444, 1452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_LeatherT
+TileSets/HexaRealm/Tiles/Resource_LeatherT
   rotate: false
   xy: 1516, 1452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_LeatherT+Improvement_Encampment
+TileSets/HexaRealm/Tiles/Resource_LeatherT+Improvement_Encampment
   rotate: false
   xy: 1192, 1408
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_LeatherT+Improvement_Encampment-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_LeatherT+Improvement_Encampment-Era_Industrial
   rotate: false
   xy: 1912, 1915
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Marble
+TileSets/HexaRealm/Tiles/Resource_Marble
   rotate: false
   xy: 1552, 1859
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Marble+Improvement_Quarry
+TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_Quarry
   rotate: false
   xy: 1624, 1851
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Marble+Improvement_Quarry-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_Quarry-Era_Industrial
   rotate: false
   xy: 1696, 1851
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Marble+Improvement_QuarryT
+TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_QuarryT
   rotate: false
   xy: 1768, 1843
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Marble+Improvement_QuarryT-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_QuarryT-Era_Industrial
   rotate: false
   xy: 1840, 1843
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Oil
+TileSets/HexaRealm/Tiles/Resource_Oil
   rotate: false
   xy: 1912, 1851
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_OilS
+TileSets/HexaRealm/Tiles/Resource_OilS
   rotate: false
   xy: 1516, 1795
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Pearls
+TileSets/HexaRealm/Tiles/Resource_Pearls
   rotate: false
   xy: 1588, 1787
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Salt
+TileSets/HexaRealm/Tiles/Resource_Salt
   rotate: false
   xy: 1660, 1787
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Sheep
+TileSets/HexaRealm/Tiles/Resource_Sheep
   rotate: false
   xy: 1732, 1779
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Sheep+Pasture
+TileSets/HexaRealm/Tiles/Resource_Sheep+Pasture
   rotate: false
   xy: 1804, 1779
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Sheep+Pasture-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Sheep+Pasture-Era_Industrial
   rotate: false
   xy: 1876, 1779
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Silk
+TileSets/HexaRealm/Tiles/Resource_Silk
   rotate: false
   xy: 1948, 1787
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Silk+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Silk+Improvement_Plantation
   rotate: false
   xy: 1552, 1723
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Silver
+TileSets/HexaRealm/Tiles/Resource_Silver
   rotate: false
   xy: 1624, 1723
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Spices
+TileSets/HexaRealm/Tiles/Resource_Spices
   rotate: false
   xy: 1552, 1659
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Spices+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Spices+Improvement_Plantation
   rotate: false
   xy: 1624, 1659
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Stone
+TileSets/HexaRealm/Tiles/Resource_Stone
   rotate: false
   xy: 1588, 1595
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Stone+Improvement_Quarry-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_Quarry-Era_Industrial
   rotate: false
   xy: 1588, 1531
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Stone+Improvement_QuarryT
+TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_QuarryT
   rotate: false
   xy: 1588, 1467
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Stone+Improvement_QuarryT-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_QuarryT-Era_Industrial
   rotate: false
   xy: 1696, 1715
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Stone+Improvement_Quarryy
+TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_Quarryy
   rotate: false
   xy: 1768, 1715
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_StoneD
+TileSets/HexaRealm/Tiles/Resource_StoneD
   rotate: false
   xy: 1840, 1715
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_StoneD+Improvement_Quarry
+TileSets/HexaRealm/Tiles/Resource_StoneD+Improvement_Quarry
   rotate: false
   xy: 1696, 1651
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_StoneD+Improvement_Quarry-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_StoneD+Improvement_Quarry-Era_Industrial
   rotate: false
   xy: 1768, 1651
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Sugar
+TileSets/HexaRealm/Tiles/Resource_Sugar
   rotate: false
   xy: 1840, 1651
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Sugar+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Sugar+Improvement_Plantation
   rotate: false
   xy: 1912, 1707
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Truffles
+TileSets/HexaRealm/Tiles/Resource_Truffles
   rotate: false
   xy: 1912, 1643
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Truffles+Improvement_Encampment
+TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_Encampment
   rotate: false
   xy: 1660, 1587
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Truffles+Improvement_Encampment-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_Encampment-Era_Industrial
   rotate: false
   xy: 1660, 1523
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Truffles+Improvement_EncampmentT
+TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_EncampmentT
   rotate: false
   xy: 1732, 1587
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Truffles+Improvement_EncampmentT-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_EncampmentT-Era_Industrial
   rotate: false
   xy: 1732, 1523
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Uranium
+TileSets/HexaRealm/Tiles/Resource_Uranium
   rotate: false
   xy: 1804, 1587
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Whales
+TileSets/HexaRealm/Tiles/Resource_Whales
   rotate: false
   xy: 1804, 1523
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Whales+Improvement_Fishing_Boat
+TileSets/HexaRealm/Tiles/Resource_Whales+Improvement_Fishing_Boat
   rotate: false
   xy: 1660, 1459
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Whales+Improvement_Fishing_Boat-Era_Industrial
+TileSets/HexaRealm/Tiles/Resource_Whales+Improvement_Fishing_Boat-Era_Industrial
   rotate: false
   xy: 1732, 1459
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Wheat
+TileSets/HexaRealm/Tiles/Resource_Wheat
   rotate: false
   xy: 1804, 1459
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Wine
+TileSets/HexaRealm/Tiles/Resource_Wine
   rotate: false
   xy: 1876, 1579
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Resource_Wine+Improvement_Plantation
+TileSets/HexaRealm/Tiles/Resource_Wine+Improvement_Plantation
   rotate: false
   xy: 1876, 1515
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/River-Bottom
+TileSets/HexaRealm/Tiles/River-Bottom
   rotate: false
   xy: 1876, 1451
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/River-BottomLeft
+TileSets/HexaRealm/Tiles/River-BottomLeft
   rotate: false
   xy: 1948, 1579
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/River-BottomRight
+TileSets/HexaRealm/Tiles/River-BottomRight
   rotate: false
   xy: 1948, 1515
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/RuinsD
+TileSets/HexaRealm/Tiles/RuinsD
   rotate: false
   xy: 1948, 1451
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/RuinsG
+TileSets/HexaRealm/Tiles/RuinsG
   rotate: false
   xy: 1588, 1403
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/RuinsT
+TileSets/HexaRealm/Tiles/RuinsT
   rotate: false
   xy: 1660, 1395
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow
+TileSets/HexaRealm/Tiles/Snow
   rotate: false
   xy: 1732, 1395
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow+Landform_Hill
+TileSets/HexaRealm/Tiles/Snow+Landform_Hill
   rotate: false
   xy: 1948, 1387
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout
+TileSets/HexaRealm/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout
   rotate: false
   xy: 544, 797
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout2
+TileSets/HexaRealm/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout2
   rotate: false
   xy: 616, 797
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow+Landform_Hill2
+TileSets/HexaRealm/Tiles/Snow+Landform_Hill2
   rotate: false
   xy: 472, 775
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow2
+TileSets/HexaRealm/Tiles/Snow2
   rotate: false
   xy: 1804, 1395
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Snow3
+TileSets/HexaRealm/Tiles/Snow3
   rotate: false
   xy: 1876, 1387
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra
+TileSets/HexaRealm/Tiles/Tundra
   rotate: false
   xy: 436, 711
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra+Landform_Hill
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill
   rotate: false
   xy: 580, 733
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra+Landform_Hill+Fallout2
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill+Fallout2
   rotate: false
   xy: 472, 647
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra+Landform_Hill+Landform_Nuclear fallout
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill+Landform_Nuclear fallout
   rotate: false
   xy: 472, 583
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra+Landform_Hill2
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill2
   rotate: false
   xy: 652, 733
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra2
+TileSets/HexaRealm/Tiles/Tundra2
   rotate: false
   xy: 688, 797
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/Tundra3
+TileSets/HexaRealm/Tiles/Tundra3
   rotate: false
   xy: 508, 711
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/奇观
+TileSets/HexaRealm/Tiles/奇观
   rotate: false
   xy: 724, 733
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/社区
+TileSets/HexaRealm/Tiles/社区
   rotate: false
   xy: 544, 647
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/Tiles/航空港
+TileSets/HexaRealm/Tiles/航空港
   rotate: false
   xy: 544, 583
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm - The Coexistence in Harmony/TopBorder
+TileSets/HexaRealm/TopBorder
   rotate: false
   xy: 292, 17
   size: 32, 28

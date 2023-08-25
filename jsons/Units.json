@@ -501,7 +501,16 @@
 			"Instantly consumes [90] [Resource_GreatPerson_Class_Merchant] <after [60] turns> <before [90] turns>",
 			"Instantly consumes [120] [Resource_GreatPerson_Class_Merchant] <after [90] turns> <before [120] turns>",
 			"Instantly consumes [150] [Resource_GreatPerson_Class_Merchant] <after [120] turns>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Gain [200] [Gold] <by consuming this unit> <during the [Era_Ancient]>",
+			"Gain [400] [Gold] <by consuming this unit> <during the [Era_Classical]>",
+			"Gain [750] [Gold] <by consuming this unit> <during the [Era_Medieval]>",
+			"Gain [1200] [Gold] <by consuming this unit> <during the [Era_Renaissance]>",
+			"Gain [1800] [Gold] <by consuming this unit> <during the [Era_Industrial]>",
+			"Gain [2500] [Gold] <by consuming this unit> <during the [Era_Modern]>",
+			"Gain [4000] [Gold] <by consuming this unit> <during the [Era_Atomic]>",
+			"Gain [5500] [Gold] <by consuming this unit> <starting from the [Era_Information]>",
+			"Great Person - [Gold]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
 	{//大工程师
@@ -1068,14 +1077,17 @@
 		"unitType":"Unit_Type_Melee_Infantry",
 		"strength":200,
 		"movement":3,
-		"uniques":["Cannot attack",
+		"uniques":[
+		"Cannot attack",
 		"Ignores terrain cost",
 		"May enter foreign tiles without open borders",
 		"Invisible to others",
 		"Can see invisible [Unit_Spy] units",
 		"Never appears as a Barbarian unit",
 		"Free [Unit_Spy] appears <upon being defeated>",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//空灵吟唱I
 		"name":"Unit_Voidchoner_ConsumerI",
@@ -1117,7 +1129,8 @@
 		"uniques":[
 		"Can transform to [Unit_VampireII] <after discovering [Tech_Alchemy]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//II级吸血鬼
 		"name":"Unit_VampireII",
@@ -1129,7 +1142,8 @@
 		"uniques":[
 		"Can transform to [Unit_VampireIII] <after discovering [Tech_Apprentices]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//III级吸血鬼
 		"name":"Unit_VampireIII",
@@ -1141,7 +1155,8 @@
 		"uniques":[
 		"Can transform to [Unit_VampireIV] <after discovering [Tech_Gunpowder]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//IV级吸血鬼
 		"name":"Unit_VampireIV",
@@ -1153,7 +1168,8 @@
 		"uniques":[
 		"Can transform to [Unit_VampireV] <after discovering [Tech_Part specification]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//V级吸血鬼
 		"name":"Unit_VampireV",
@@ -1165,7 +1181,8 @@
 		"uniques":[
 		"Can transform to [Unit_VampireVI] <after discovering [Tech_Satellite]>",
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//VI级吸血鬼
 		"name":"Unit_VampireVI",
@@ -1176,7 +1193,8 @@
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
-		"Unbuildable", "Uncapturable"]
+		"Unbuildable", "Uncapturable",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 
 	/*宗教单位*/
@@ -1210,46 +1228,58 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":123,//25
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"]
+		"uniques":["Unbuildable","Religious Unit",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//II级武僧
 		"name":"Unit_MonkII",
 		"unitType":"Unit_Type_Monk",
 		"strength":229,//40
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"]
+		"uniques":["Unbuildable","Religious Unit",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//III级武僧
 		"name":"Unit_MonkIII",
 		"unitType":"Unit_Type_Monk",
 		"strength":346,//50
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"]
+		"uniques":["Unbuildable","Religious Unit",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//IV级武僧
 		"name":"Unit_MonkIV",
 		"unitType":"Unit_Type_Monk",
 		"strength":523,//60
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"]
+		"uniques":["Unbuildable","Religious Unit",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//V级武僧
 		"name":"Unit_MonkV",
 		"unitType":"Unit_Type_Monk",
 		"strength":789,//70
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"]
+		"uniques":["Unbuildable","Religious Unit",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
 	{//VI级武僧
 		"name":"Unit_MonkVI",
 		"unitType":"Unit_Type_Monk",
 		"strength":1191,//80
 		"movement":3,
-		"uniques":["Unbuildable","Religious Unit"]
+		"uniques":["Unbuildable","Religious Unit",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
 
 	/*侦察单位*/
-	{
+	{//侦察兵
 		"name":"Unit_Scout",
 		"unitType":"Unit_Type_Scout",
 		"strength":66,//10
@@ -1260,7 +1290,7 @@
 		"obsoleteTech": "Tech_Mechanical",
 		"uniques":["Rough terrain penalty","Era_Ancient"]
 	},
-	{
+	{//散兵
 		"name":"Unit_Ranger",
 		"unitType":"Unit_Type_Scout",
 		"strength":100,//20
@@ -1272,9 +1302,11 @@
 		"upgradesTo":"Unit_Cavalry2",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
-		"uniques":["Era_Medieval"]
+		"uniques":["Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
-	{
+	{//游骑兵
 		"name":"Unit_Cavalry2",
 		"unitType":"Unit_Type_Scout",
 		"strength":270,//45
@@ -1286,7 +1318,10 @@
 		"upgradesTo":"Unit_SpecOps",
 		"requiredTech": "Tech_Rifling",
 		"obsoleteTech": "Tech_Plastic",
-		"uniques":["Era_Industrial"]
+		"uniques":["Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
 	{//特种部队
 		"name":"Unit_SpecOps",
@@ -1298,7 +1333,10 @@
 		"cost":520,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Plastic",
-		"uniques":["May Paradrop up to [6] tiles from inside friendly territory","Era_Atomic"]
+		"uniques":["May Paradrop up to [6] tiles from inside friendly territory","Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
 
 	/*短程步兵*/
@@ -1326,7 +1364,8 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
-		"uniques":["Era_Ancient",
+		"uniques":[
+		"Era_Ancient",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//高卢-高卢枪佣兵
@@ -1380,7 +1419,9 @@
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
-		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//罗马-罗马军团
 		"name":"Unit_Roman_Legion",
@@ -1402,7 +1443,9 @@
 			"Can build [Remove Landform_Swamp] improvements on tiles",
 			"Instantly consumes [8] [Resource_Iron]",
 			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
-			"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
+			"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
+			"Consumes [-1] [Resource_Military_Maintenance1]",
+			"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//波斯-长生军
 		"name":"Unit_Immortal",
@@ -1421,7 +1464,9 @@
 		"uniques":["[-28]% Strength <when attacking>",
 		"Instantly consumes [5] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
-		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//汉朝-羽林军
 		"name":"Unit_ImperialGuard",
@@ -1437,7 +1482,9 @@
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
-		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>"],
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"promotions":["[Unit_ImperialGuard] ability"]
 	},
 	{//披甲战士
@@ -1452,7 +1499,10 @@
 		"obsoleteTech": "Tech_Gunpowder",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
-		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
 	{//唐朝-陌刀手
 		"name":"Unit_MudaoSoldier",
@@ -1469,7 +1519,10 @@
 		"uniques":["[1] additional attacks per turn",
 		"Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
-		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
 	{//火枪手
 		"name":"Unit_Musketman",
@@ -1483,7 +1536,10 @@
 		"obsoleteTech": "Tech_Military science",
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
-		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
 	{//奥斯曼-苏丹亲兵
 		"name":"Unit_Sudanese_Paramilitary",
@@ -1497,10 +1553,13 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
-		"uniques":["[-2] population in a random city <upon being defeated>",
+		"uniques":["[-1] population in a random city <upon being defeated>",
 		"Instantly consumes [15] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
-		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"],
+		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"],
 		"promotions":["[Unit_Sudanese_Paramilitary] ability"]
 	},
 	{//法兰西-法国火枪手
@@ -1517,7 +1576,10 @@
 		"obsoleteTech": "Tech_Military science",
 		"uniques":["Instantly consumes [5] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
-		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
 	{//线列步兵
 		"name":"Unit_Line_Infantry",
@@ -1531,7 +1593,10 @@
 		"obsoleteTech": "Tech_Part specification",
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
-		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
 	{//英吉利-红衫军
 		"name":"Unit_Redcoats",
@@ -1548,7 +1613,10 @@
 		"uniques":["[+23]% Strength <on foreign continents>",
 		"Instantly consumes [5] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
-		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
 	{//步兵
 		"name":"Unit_Infantry",
@@ -1564,7 +1632,10 @@
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"[-64]% Strength <when below [0] [Resource_Oil]>",
 		"Era_Modern",
-		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
 	{//中国-红军
 		"name":"Unit_RedArmy",
@@ -1582,7 +1653,9 @@
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
 		"Era_Modern",
-		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>"]
+		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//机械化步兵
 		"name":"Unit_Mechanized_Infantry",
@@ -1593,7 +1666,10 @@
 		"hurryCostModifier":-33,
 		"requiredResource": "Resource_Oil",
 		"requiredTech": "Tech_Satellite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},	
 	
 	/*长程步兵*/
@@ -1622,7 +1698,8 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["Era_Ancient"]
+		"uniques":["Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//玛雅-投枪手
 		"name":"Unit_Javelin",
@@ -1638,7 +1715,8 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient"]
+		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//弩手
 		"name":"Unit_Crossbowman",
@@ -1652,7 +1730,10 @@
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["Era_Medieval"]
+		"uniques":["Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
 	{//明朝-虎蹲炮
 		"name":"Unit_TigerCrouchCannon",
@@ -1668,7 +1749,10 @@
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>","Era_Medieval"]
+		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>","Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
 	{//野战加农炮
 		"name":"Unit_Field_Cannon",
@@ -1682,7 +1766,10 @@
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
-		"uniques":["Era_Industrial"]
+		"uniques":["Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
 	{//朝鲜-火车
 		"name":"Unit_Hwacha",
@@ -1698,9 +1785,12 @@
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
-		"uniques":["Must set up to ranged attack","Era_Industrial"]
+		"uniques":["Must set up to ranged attack","Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//机关枪队
 		"name":"Unit_Machine_Gun",
 		"unitType":"Unit_Type_Ranged_Infantry",
 		"strength":756,//70
@@ -1710,11 +1800,14 @@
 		"cost":540,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Advanced ballistics",
-		"uniques":["Era_Atomic"]
+		"uniques":["Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
 
 	/*攻城*/
-	{
+	{//石弩
 		"name":"Unit_Trebuchet",
 		"unitType":"Unit_Type_Siege",
 		"strength":118,//25
@@ -1726,9 +1819,11 @@
 		"upgradesTo":"Unit_Battering_Ram",
 		"requiredTech": "Tech_Project",
 		"obsoleteTech": "Tech_Military engineering",
-		"uniques":["Era_Classical"]
+		"uniques":["Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
-	{
+	{//投石机
 		"name":"Unit_Battering_Ram",
 		"unitType":"Unit_Type_Siege",
 		"strength":186,//35
@@ -1740,9 +1835,12 @@
 		"upgradesTo":"Unit_Siege_Tower",
 		"requiredTech": "Tech_Military engineering",
 		"obsoleteTech": "Tech_Metal casting",
-		"uniques":["Era_Medieval"]
+		"uniques":["Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//射石炮
 		"name":"Unit_Siege_Tower",
 		"unitType":"Unit_Type_Siege",
 		"strength":281,//45
@@ -1756,9 +1854,12 @@
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Steel",
 		"uniques":["Era_Renaissance",
-		"[-64]% Strength <when below [0] [Resource_Niter]>"]
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//大炮
 		"name":"Unit_Artillery",
 		"unitType":"Unit_Type_Siege",
 		"strength":501,//60
@@ -1771,9 +1872,12 @@
 		"upgradesTo":"Unit_Rocket_Artillery",
 		"requiredTech": "Tech_Steel",
 		"obsoleteTech": "Tech_Guidance system",
-		"uniques":["Era_Modern"]
+		"uniques":["Era_Modern",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//火箭炮
 		"name":"Unit_Rocket_Artillery",
 		"unitType":"Unit_Type_Siege",
 		"strength":789,//70
@@ -1784,7 +1888,10 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Guidance system",
-		"uniques":["Era_Information"]
+		"uniques":["Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*轻骑兵*/
@@ -1803,7 +1910,8 @@
 		"obsoleteTech": "Tech_Castle",
 		"uniques":["Instantly consumes [4] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Ancient"]
+		"Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//骑手(小马)
 		"name":"Unit_Horseman",
@@ -1817,7 +1925,9 @@
 		"obsoleteTech": "Tech_Castle",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical"]
+		"Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//汉朝-虎贲军
 		"name":"Unit_Tiger_Leopard_Army",
@@ -1833,7 +1943,9 @@
 		"obsoleteTech": "Tech_Castle",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical"]
+		"Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//马其顿-伙友骑兵
 		"name":"Unit_Hetairoi",
@@ -1850,10 +1962,12 @@
 		"uniques":["[+50]% to Flank Attack bonuses",
 		"Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical"],
+		"Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"promotions":["Promotion_zhuiliezhe"]
 	},
-	{//骑士
+	{//追猎者
 		"name":"Unit_Horse_Archer",
 		"unitType":"Unit_Type_Light_Cavalry",
 		"strength":281,//46
@@ -1864,7 +1978,10 @@
 		"requiredTech": "Tech_Castle",
 		"obsoleteTech": "Tech_Military science",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
-		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Medieval"]
+		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
 	{//骑兵
 		"name":"Unit_Cavalry",
@@ -1877,7 +1994,10 @@
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
-		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial"]
+		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
 	{//俄罗斯-哥萨克骑兵
 		"name":"Unit_Cossack",
@@ -1894,9 +2014,12 @@
 		"uniques":["Can move after attacking",
 		"[+23]% Strength <when fighting in [Friendly Land] tiles>",
 		"Instantly consumes [10] [Resource_Horse]",
-		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial"]
+		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//直升飞机
 		"name":"Unit_Helicopter",
 		"unitType":"Unit_Type_Light_Cavalry",
 		"strength":1462,//86
@@ -1909,7 +2032,10 @@
 		"Can see over obstacles",
 		"Can pass through impassable tiles",
 		"All tiles cost 1 movement",
-		"Era_Atomic"]
+		"Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
 
 	/*重骑兵*/
@@ -1923,7 +2049,8 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
-		"uniques":["[+1] Movement <in [Open terrain] tiles>","Era_Ancient"]
+		"uniques":["[+1] Movement <in [Open terrain] tiles>","Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//埃及-贵族世袭战车射手
 		"name":"Unit_Hereditary_Noble_Chariot_Archer",
@@ -1943,7 +2070,8 @@
 		"Rough terrain penalty",
 		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion_chongfeng]>",
 		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
-		"Era_Ancient"]
+		"Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//骑士
 		"name":"Unit_Knight",
@@ -1956,7 +2084,10 @@
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
 	{//马里-曼德卡鲁骑兵
 		"name":"Unit_Mandekalu_Cavalry",
@@ -1972,7 +2103,10 @@
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Earn [35]% of killed [Military] unit's [Strength] as [Gold]",
 		"Instantly consumes [8] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
 	{//阿拉伯-奴隶兵
 		"name":"Unit_Mamluk",
@@ -1987,7 +2121,10 @@
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"],
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"],
 		"promotions":["[Unit_Mamluk] ability"]
 	},
 	{//拜占庭-甲胄骑兵
@@ -2005,9 +2142,12 @@
 		"uniques":["[+13]% Strength bonus for [Military] units within [1] tiles",
 		"[+23]% Strength <vs cities> <when attacking>",
 		"Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//胸甲骑兵
 		"name":"Unit_Cuirassier",
 		"unitType":"Unit_Type_Heavy_Cavalry",
 		"strength":614,//64
@@ -2018,9 +2158,12 @@
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Internal combustion engine",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Industrial"]
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//坦克
 		"name":"Unit_Tank",
 		"unitType":"Unit_Type_Heavy_Cavalry",
 		"strength":1462,//85
@@ -2032,9 +2175,12 @@
 		"requiredTech": "Tech_Internal combustion engine",
 		"obsoleteTech": "Tech_Composite",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
-		"[-64]% Strength <when below [0] [Resource_Oil]>","Era_Modern"]
+		"[-64]% Strength <when below [0] [Resource_Oil]>","Era_Modern",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//现代坦克
 		"name":"Unit_Modern_Armor",
 		"unitType":"Unit_Type_Heavy_Cavalry",
 		"strength":2207,//95
@@ -2043,7 +2189,10 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Composite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*抗骑兵*/
@@ -2057,7 +2206,8 @@
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
-		"uniques":["Era_Ancient"]
+		"uniques":["Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//希腊-重装步兵
 		"name":"Unit_Heavy_Infantry",
@@ -2071,9 +2221,10 @@
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
-		"uniques":["Era_Ancient","[+51]% Strength <when adjacent to a [Unit_Heavy_Infantry] unit>"]
+		"uniques":["Era_Ancient","[+51]% Strength <when adjacent to a [Unit_Heavy_Infantry] unit>",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
-	{
+	{//长矛兵
 		"name":"Unit_Pikeman",
 		"unitType":"Unit_Type_Anti_Cavalry",
 		"strength":270,//45
@@ -2083,9 +2234,11 @@
 		"upgradesTo":"Unit_Pike_and_Shot",
 		"requiredTech": "Tech_Tactics",
 		"obsoleteTech": "Tech_Metal casting",
-		"uniques":["Era_Medieval"]
+		"uniques":["Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
-	{
+	{//枪刺与射击方阵
 		"name":"Unit_Pike_and_Shot",
 		"unitType":"Unit_Type_Anti_Cavalry",
 		"strength":408,//55
@@ -2095,9 +2248,12 @@
 		"upgradesTo":"Unit_Anti_Tank_Crew",
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Chemistry",
-		"uniques":["Era_Renaissance"]
+		"uniques":["Era_Renaissance",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//反坦克组
 		"name":"Unit_Anti_Tank_Crew",
 		"unitType":"Unit_Type_Anti_Cavalry",
 		"strength":968,//75
@@ -2107,9 +2263,12 @@
 		"upgradesTo":"Unit_Modern_Anti_Tank_Crew",
 		"requiredTech": "Tech_Chemistry",
 		"obsoleteTech": "Tech_Composite",
-		"uniques":["Era_Modern"]
+		"uniques":["Era_Modern",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//现代反坦克组
 		"name":"Unit_Modern_Anti_Tank_Crew",
 		"unitType":"Unit_Type_Anti_Cavalry",
 		"strength":1462,//85
@@ -2117,11 +2276,14 @@
 		"cost":580,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Composite",
-		"uniques":["Era_Information"]
+		"uniques":["Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*短程海军*/
-	{
+	{//桨帆船
 		"name":"Unit_Galley",
 		"unitType":"Unit_Type_Short_Ranged_Naval",
 		"strength":151,//30
@@ -2129,11 +2291,12 @@
 		"cost":65,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Trireme",
-		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Ancient"],
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Ancient",
+		"Consumes [-1] [Resource_Military_Maintenance1]"],
 		"requiredTech": "Tech_Nautical art",
 		"obsoleteTech": "Tech_Cartography"
 	},
-	{
+	{//轻快帆船
 		"name":"Unit_Trireme",
 		"unitType":"Unit_Type_Short_Ranged_Naval",
 		"strength":425,//55
@@ -2143,9 +2306,12 @@
 		"upgradesTo":"Unit_Frigate",
 		"requiredTech": "Tech_Cartography",
 		"obsoleteTech": "Tech_Steam power",
-		"uniques":["Era_Medieval"]
+		"uniques":["Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//装甲舰
 		"name":"Unit_Frigate",
 		"unitType":"Unit_Type_Short_Ranged_Naval",
 		"strength":789,//70
@@ -2157,9 +2323,12 @@
 		"requiredTech": "Tech_Steam power",
 		"obsoleteTech": "Tech_Joint operations",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
-		"[-64]% Strength <when below [0] [Resource_Coal]>","Era_Industrial"]
+		"[-64]% Strength <when below [0] [Resource_Coal]>","Era_Industrial",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//驱逐舰
 		"name":"Unit_Destroyer",
 		"unitType":"Unit_Type_Short_Ranged_Naval",
 		"strength":1401,//85
@@ -2170,8 +2339,11 @@
 		"requiredTech": "Tech_Joint operations",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
-			"[+23]% Strength <vs [Unit_Type_Missile] units>",
-			"Era_Atomic"]
+		"[+23]% Strength <vs [Unit_Type_Missile] units>",
+		"Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
 
 	/*长程海军*/
@@ -2185,7 +2357,9 @@
 		"cost":120,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cruiser",
-		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical"],
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"requiredTech": "Tech_Shipbuilding",
 		"obsoleteTech": "Tech_Crossail device"
 	},
@@ -2201,11 +2375,13 @@
 		"cost":120,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cruiser",
-		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical"],
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"requiredTech": "Tech_Shipbuilding",
 		"obsoleteTech": "Tech_Crossail device"
 	},
-	{
+	{//护卫舰
 		"name":"Unit_Cruiser",
 		"unitType":"Unit_Type_Long_Ranged_Naval",
 		"strength":281,//45
@@ -2219,9 +2395,12 @@
 		"requiredTech": "Tech_Crossail device",
 		"obsoleteTech": "Tech_Refining",
 		"uniques":["Instantly consumes [1] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance"]
+		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//战舰
 		"name":"Unit_Battleship",
 		"unitType":"Unit_Type_Long_Ranged_Naval",
 		"strength":501,//60
@@ -2237,10 +2416,13 @@
 		"obsoleteTech": "Tech_Laser",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
-			"[+118]% Strength <vs [Unit_Type_Missile] units>",
-			"Era_Modern"]
+		"[+118]% Strength <vs [Unit_Type_Missile] units>",
+		"Era_Modern",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//导弹巡洋舰
 		"name":"Unit_Missile_Cruiser",
 		"unitType":"Unit_Type_Long_Ranged_Naval",
 		"strength":968,//75
@@ -2254,7 +2436,10 @@
 		"requiredTech": "Tech_Laser",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 			"[+118]% Strength <vs [Unit_Type_Missile] units>",
-			"Era_Information"]
+			"Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*海军袭击者*/
@@ -2270,7 +2455,10 @@
 		"upgradesTo":"Unit_Submarine",
 		"requiredTech": "Civic_Mercantilism",
 		"obsoleteTech": "Tech_Electricity",
-		"uniques":["Era_Renaissance"]
+		"uniques":["Era_Renaissance",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-2] [Resource_Military_Maintenance3]"]
 	},
 	{//潜艇
 		"name":"Unit_Submarine",
@@ -2285,7 +2473,10 @@
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern"]
+		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
 	{//神罗-u艇
 		"name":"Unit_U_Boat",
@@ -2303,9 +2494,13 @@
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
 		"uniques":["[+51]% Strength <when fighting in [Ocean] tiles>",
-		"Instantly consumes [1] [Resource_Oil]","Era_Modern"]
+		"[+1] Sight",
+		"Instantly consumes [1] [Resource_Oil]","Era_Modern",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//核潜艇
 		"name":"Unit_Nuclear_Submarine",
 		"unitType":"Unit_Type_Naval_Attacker",
 		"strength":1191,//80
@@ -2317,11 +2512,14 @@
 		"requiredTech": "Tech_Telecommunication",
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
 			"[-64]% Strength <when below [0] [Resource_Uranium]>",
-			"Can carry [2] [Unit_Type_Missile] units","Era_Information"]
+			"Can carry [2] [Unit_Type_Missile] units","Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*航空母舰*/
-	{
+	{//航空母舰
 		"name":"Unit_Aircraft_Carrier",
 		"unitType":"Unit_Type_Aircraft_Carrier",
 		"strength":615,//65
@@ -2331,11 +2529,14 @@
 		"cost":540,
 		"hurryCostModifier":-33,
 		"requiredTech":"Tech_Joint operations",
-		"uniques":["Era_Atomic"]
+		"uniques":["Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
 
 	/*战斗机*/
-	{
+	{//双翼机
 		"name":"Unit_Triplane",
 		"unitType":"Unit_Type_Fighter",
 		"strength":1142,//80
@@ -2352,9 +2553,12 @@
 		"uniques":["[75]% chance to intercept air attacks",
 			"Instantly consumes [1] [Resource_Oil]",
 			"Unit_Class_Aircraft",
-			"Era_Modern"]
+			"Era_Modern",
+			"Consumes [-1] [Resource_Military_Maintenance1]",
+			"Consumes [-1] [Resource_Military_Maintenance2]",
+			"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//战斗机
 		"name":"Unit_Fighter",
 		"unitType":"Unit_Type_Fighter",
 		"strength":2603,//100
@@ -2372,9 +2576,12 @@
 			"Instantly consumes [1] [Resource_Aluminum]",
 			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Atomic"]
+			"Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//喷气式战斗机
 		"name":"Unit_Jet_Fighter",
 		"unitType":"Unit_Type_Fighter",
 		"strength":3933,//110
@@ -2390,11 +2597,14 @@
 			"Instantly consumes [1] [Resource_Aluminum]",
 			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Information"]
+			"Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*轰炸机*/
-	{
+	{//轰炸机
 		"name":"Unit_Bomber",
 		"unitType":"Unit_Type_Bomber",
 		"strength":1401,//85
@@ -2410,9 +2620,12 @@
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
 		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Atomic"]
+			"Era_Atomic",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
-	{
+	{//喷气式轰炸机
 		"name":"Unit_Jet_Bomber",
 		"unitType":"Unit_Type_Bomber",
 		"strength":1724,//90
@@ -2426,11 +2639,14 @@
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
 		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Information"]
+			"Era_Information",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-6] [Resource_Military_Maintenance3]"]
 	},
 
 	/*导弹头*/
-	{
+	{//核弹头
 		"name":"Unit_Nuclear_Device",
 		"unitType":"Unit_Type_Missile",
 		"strength":1724,//90
@@ -2443,9 +2659,10 @@
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
 		"Nuclear weapon of Strength [1]",
 		"Only available <if [Building_Manhattan_Project] is constructed>",
-		"Blast radius [1]"]
+		"Blast radius [1]",
+		"Consumes [-1] [Resource_Nuclear_Device_Maintenance]"]
 	},
-	{
+	{//热核弹头
 		"name":"Unit_Thermonuclear_Device",
 		"unitType":"Unit_Type_Missile",
 		"strength":6190,//120
@@ -2458,7 +2675,8 @@
 		"uniques":["Instantly consumes [20] [Resource_Uranium]",
 		"Nuclear weapon of Strength [2]",
 		"Only available <if [Building_Ivy_League_Project] is constructed>",
-		"Blast radius [2]"]
+		"Blast radius [2]",
+		"Consumes [-2] [Resource_Nuclear_Device_Maintenance]"]
 	},
 
 	/*末日机甲*/
@@ -2472,7 +2690,10 @@
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Robotics",
 		"uniques":["Consumes [3] [Resource_Uranium]",
-		"[-64]% Strength <when below [0] [Resource_Uranium]>"]
+		"[-64]% Strength <when below [0] [Resource_Uranium]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-13] [Resource_Military_Maintenance3]"]
 	},
 
 	/*太空计划*/

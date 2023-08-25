@@ -407,6 +407,41 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Stockpiled"]
 	},
+	{//军队维护费(征兵可减免)
+		"name": "Resource_Military_Maintenance1",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded",
+//		"[-1 Gold]",
+//		"[+1 Gold] <if [M_zhengbing] is constructed>",
+		"Not shown on world screen"]
+	},
+	{//军队维护费(动员可减免)
+		"name": "Resource_Military_Maintenance2",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded",
+//		"[-1 Gold]",
+//		"[+1 Gold] <if [M_quanmindongyuan] is constructed>",
+		"Not shown on world screen"]
+	},
+	{//军队维护费(不可减免)
+		"name": "Resource_Military_Maintenance3",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded",
+//		"[-1 Gold]",
+		"Not shown on world screen"]
+	},
+	{//核装置维护费
+		"name": "Resource_Nuclear_Device_Maintenance",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded",
+//		"[-16 Gold]",
+//		"[+8 Gold] <if [M_ercigongjinengli] is constructed>",
+		"Not shown on world screen"]
+	},
 	{//美利坚-新政法案
 		"name": "Resource_New_Deal_Legislation",
 		"revealedBy": "Tech_UniqueToUnitedStates",
