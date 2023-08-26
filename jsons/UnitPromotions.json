@@ -57,6 +57,7 @@
 	{//血族
 		"name":"Promotion_Blood",
 		"uniques":["It proves that you are a blood",
+		"[-1 Gold]",
 		"This Unit gains the [Promotion_Bloodthirsty I] promotion <for units with [Promotion_Blood]> <upon defeating a [Military] unit>",
 		"[-10] HP when healing"
 	]
