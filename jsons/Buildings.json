@@ -5097,7 +5097,7 @@
         "requiredResource":"Resource_Economic policy slot",
         "uniques":["[-2 Happiness] [in all cities]",
         "[+1 Production] per [1] population [in capital]",
-        "[+1 Production] per [3] population [in other cities]",
+        "[+1 Production] per [3] population [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
