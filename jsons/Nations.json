@@ -612,7 +612,27 @@
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos","Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha","Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac","Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
-	}
+	},
+	{//印度
+		"name": "Nation_India",
+		"leaderName": "Mahatma Gandhi",
+		"adjective": ["Indian"],
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Victory type_Religion",
+		"uniqueName": "Non-violent non-cooperation",
+		"uniques": ["Gain [100] [Faith] <upon declaring friendship>",
+		"[Unit_Missionary] units built [in all cities] can [Spread Religion] [2] extra times",
+		"[+2 Faith] from each Trade Route"
+		],
+
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 

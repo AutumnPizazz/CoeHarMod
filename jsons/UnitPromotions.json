@@ -1157,6 +1157,9 @@
 		"name": "Promotion_The_Empire_on_which_the_sun_never_sets",
 		"uniques": ["[+1] Movement","[+1] Sight"]
 	},
-
+	{//印度-战象能力
+		"name": "[Unit_Varu] ability",
+		"uniques": ["[-18]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
 
 ]

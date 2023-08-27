@@ -5090,17 +5090,19 @@
         "Class_Economic_Policy"],
         "requiredTech":"Civic_Code"
     },
-    {
-        "name":"E_chengshiguihua",
+    {//印度-经济-畸形城市化
+        "name":"E_Dysfunctional_Urbanization",
+        "uniqueTo":"Nation_India",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[+1 Production] [in all cities]",
+        "uniques":["[-2 Happiness] [in all cities]",
+        "[+1 Production] per [1] population [in capital]",
+        "[+1 Production] per [3] population [in other cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Enlightenment]>",
         "Destroyed when the city is captured",
         "Class_Economic_Policy"],
-        "requiredTech":"Civic_Code"
+        "requiredTech":"Civic_Urbanization"
     },
     //外交政策卡
     {

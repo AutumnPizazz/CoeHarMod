@@ -1014,6 +1014,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
+	/*删掉
 	{//印加-山路工人
 		"name": "Unit_Mountain_Road_Network",
 		"unitType": "Unit_Type_Civilian",
@@ -1025,7 +1026,7 @@
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},
+	},*/
 
 
 
@@ -1303,6 +1304,25 @@
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
 		"uniques":["Era_Medieval",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
+	},
+	{//印加-瓦剌卡战士
+		"name":"Unit_Warak'aq",
+		"replaces":"Unit_Ranger",
+		"uniqueTo":"Nation_Inca",
+		"unitType":"Unit_Type_Scout",
+		"strength":100,//20
+		"rangedStrength": 229,//40
+		"range":1,
+		"movement":3,
+		"cost":150,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Cavalry2",
+		"requiredTech": "Tech_Mechanical",
+		"obsoleteTech": "Tech_Rifling",
+		"uniques":["[1] additional attacks per turn",
+		"Era_Medieval",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -2072,6 +2092,23 @@
 		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
 		"Era_Ancient",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
+	},
+	{//印度-战象
+		"name":"Unit_Varu",
+		"replaces":"Unit_Chariot",
+		"uniqueTo":"Nation_India",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":229,//40
+		"movement":2,
+		"cost":120,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Knight",
+		"requiredTech": "Tech_Horseback riding",
+		"obsoleteTech": "Tech_Stirrups",
+		"uniques":["Era_Classical",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"],
+		"promotions":["[Unit_Varu] ability"]
 	},
 	{//骑士
 		"name":"Unit_Knight",

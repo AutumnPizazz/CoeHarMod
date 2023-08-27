@@ -1923,16 +1923,18 @@
 		"techRequired": "Civic_Basic trade",
 		"shortcutKey": "F"
 	},
+	/*删掉
 	{//印加-山地路网
 		"name": "Improvement_Mountain_Road_Network",
 		"uniqueTo": "Nation_Inca",
-		"terrainsCanBeBuiltOn": ["Mountain"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"uniques": [
 		"[+1 Food] for each adjacent [Improvement_Terrace_Farm]",
+		"Can only be built on [Mountain] tiles"
 //		"Reduce the mobility penalty of being in the mountain range by half"
 	],
 		"techRequired": "Civic_Basic trade"
-	},
+	},*/
 
 ]
