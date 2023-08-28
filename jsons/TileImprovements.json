@@ -620,13 +620,12 @@
 	},
 	{//海洋家园
 		"name": "Improvement_Seastead",
-		"terrainsCanBeBuiltOn": ["Ocean"],
+		"terrainsCanBeBuiltOn": ["Ocean","Coast"],
 		"food": 2,
 		"techRequired": "Tech_Ocean home",
 		"uniques": ["Provides [1] [Resource_house_limitation]",
 		"[+1 Production] for each adjacent [Improvement_Fishing_Boat]",
 		"[+1 Culture] for each adjacent [Landform_Reef]",
-		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
 		"Class_Usual_Improvement"]
 	},
@@ -1923,18 +1922,15 @@
 		"techRequired": "Civic_Basic trade",
 		"shortcutKey": "F"
 	},
-	/*删掉
 	{//印加-山地路网
 		"name": "Improvement_Mountain_Road_Network",
 		"uniqueTo": "Nation_Inca",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Mountain"],
 		"food": 1,
 		"uniques": [
-		"[+1 Food] for each adjacent [Improvement_Terrace_Farm]",
-		"Can only be built on [Mountain] tiles"
-//		"Reduce the mobility penalty of being in the mountain range by half"
+		"[+1 Food] for each adjacent [Improvement_Terrace_Farm]"
 	],
 		"techRequired": "Civic_Basic trade"
-	},*/
+	},
 
 ]

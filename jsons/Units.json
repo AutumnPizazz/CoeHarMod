@@ -827,7 +827,7 @@
 			"Unit_Class_Builder","Unbuildable",
 			"Will not be displayed in Civilopedia"]
 	},
-	{
+	{//海洋家园建造者
 		"name": "Unit_Ocean_Home_Builder",
 		"unitType": "Unit_Type_Civilian_Ship",
 		"movement": 2,
@@ -1014,7 +1014,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
-	/*删掉
+	
 	{//印加-山路工人
 		"name": "Unit_Mountain_Road_Network",
 		"unitType": "Unit_Type_Civilian",
@@ -1026,7 +1026,7 @@
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},*/
+	},
 
 
 
