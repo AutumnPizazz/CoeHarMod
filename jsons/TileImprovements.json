@@ -1916,8 +1916,8 @@
 		"terrainsCanBeBuiltOn": ["Landform_Hill"],
 		"food": 1,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]",
-			"[+2 Production] for each adjacent [Distinct_Raceline]",
-			"[+1 Production] from [Fresh water] tiles",
+			"[+1 Production] for each adjacent [Distinct_Raceline]",
+			"[+1 Production] from [Fresh water] tiles <after discovering [Tech_Project]>",
             "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "Civic_Basic trade",
 		"shortcutKey": "F"

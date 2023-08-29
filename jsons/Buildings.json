@@ -4628,6 +4628,32 @@
         "requiredTech":"Civic_Globalization"
     },
     //经济政策卡
+    {//君主崇拜
+        "name":"E_junzhuchongbai",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "gold":1,
+        "faith":2,
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Theology]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Code"
+    },
+    {//经济-城市规划
+        "name":"E_chengshiguihua",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Production] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Feudalism]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Code"
+    },
     {//经济-服役
         "name":"E_fuyi",
         "cost":0,
@@ -5075,20 +5101,6 @@
         "Destroyed when the city is captured",
         "Class_Economic_Policy"],
         "requiredTech":"Civic_Social media"
-    },
-    {
-        "name":"E_junzhuchongbai",
-        "cost":0,
-        "requiredResource":"Resource_Economic policy slot",
-        "gold":1,
-        "faith":2,
-        "uniques":[
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <before discovering [Civic_Theology]>",
-        "Destroyed when the city is captured",
-        "Class_Economic_Policy"],
-        "requiredTech":"Civic_Code"
     },
     {//印度-经济-畸形城市化
         "name":"E_Dysfunctional_Urbanization",
