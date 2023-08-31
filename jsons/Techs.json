@@ -10,7 +10,7 @@
 				"name": "Initial tech_civic_Agriculture",
 				"row": 8,
 				"quote": "农家之人，务本之谓也，务本而已，则富可保矣。\n——《周礼·天官·农师》",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech","Enables Defensive Pacts"]
 			},
 			{
 				"name": "Tech_UniqueToGoldenDawn",

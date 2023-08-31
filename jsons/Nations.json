@@ -633,6 +633,33 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//毛利
+		"name": "Nation_Maori",
+		"leaderName": "Kupe",
+		"adjective": ["Maori"],
+		"outerColor": [217,89,0],
+		"innerColor": [255,255,75],
+
+		"startBias": ["Ocean"],
+		"preferredVictoryType": "Victory type_Culture",
+		"uniqueName": "Mana",
+		"uniques": ["Enables embarkation for land units <starting from the [Era_Ancient]>",
+		"Enables [All] units to enter ocean tiles <starting from the [Era_Ancient]>",
+		"[+1] Movement <for [Embarked] units>",
+		"[+1 Food] from every [Improvement_Fishing_Boat]",
+		"Cannot build [Unit_Lumberjack] units",
+		"[+1 Production] from [Vegetation] tiles without [Improvement_Lumber_Mill] [in all coastal cities]",
+		"[+1 Production] from [Vegetation] tiles without [Improvement_Lumber_Mill] [in all coastal cities] <after discovering [Civic_Mercantilism]>",
+		"[+2 Production] from [Vegetation] tiles without [Improvement_Lumber_Mill] [in all coastal cities] <after discovering [Civic_Earth protection]>",
+		"Discover [Tech_Nautical art] <upon founding a city>",
+		"[+2 Science, +2 Culture] <before discovering [Tech_Nautical art]>"
+		],
+
+		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui","Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu","Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia","Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 

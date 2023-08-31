@@ -1918,7 +1918,8 @@
 		"uniques": ["[+1 Food] for each adjacent [Mountain]",
 			"[+1 Production] for each adjacent [Distinct_Raceline]",
 			"[+1 Production] from [Fresh water] tiles <after discovering [Tech_Project]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"],
+            "Pillaging this improvement yields approximately [+20 Gold]",
+			"Class_Usual_Improvement"],
 		"techRequired": "Civic_Basic trade",
 		"shortcutKey": "F"
 	},
@@ -1932,5 +1933,14 @@
 	],
 		"techRequired": "Civic_Basic trade"
 	},
-
+	{//毛利-帕堡
+		"name": "Improvement_Pabo",
+		"uniqueTo": "Nation_Maori",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		"Gives a defensive bonus of [+23]%",
+		"Adjacent enemy units ending their turn take [5] damage"
+	],
+		"techRequired": "Tech_Alchemy"
+	},
 ]

@@ -778,8 +778,7 @@
 		"name": "Unit_Farmer",
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
-		"uniques": ["Can instantly construct a [Improvement_Farm] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Farm] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Farm] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 50
@@ -789,8 +788,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Mining",
-		"uniques": ["Can instantly construct a [Improvement_Mine] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Mine] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Mine] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -800,8 +798,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Mining",
-		"uniques": ["Can instantly construct a [Improvement_Quarry] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Quarry] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Quarry] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -811,8 +808,7 @@
 		"unitType": "Unit_Type_Civilian_Ship",
 		"movement": 2,
 		"requiredTech":"Tech_Nautical art",
-		"uniques": ["Can instantly construct a [Improvement_Fishing_Boat] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Fishing_Boat] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Fishing_Boat] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 50
@@ -822,8 +818,7 @@
 		"unitType": "Unit_Type_Civilian_Ship",
 		"movement": 2,
 		"requiredTech":"Tech_Nautical art",
-		"uniques": ["Can instantly construct a [Improvement_Fishery] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Fishery] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Fishery] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder","Unbuildable",
 			"Will not be displayed in Civilopedia"]
 	},
@@ -832,8 +827,7 @@
 		"unitType": "Unit_Type_Civilian_Ship",
 		"movement": 2,
 		"requiredTech":"Tech_Ocean home",
-		"uniques": ["Can instantly construct a [Improvement_Seastead] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Seastead] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Seastead] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -843,8 +837,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Animal husbandry",
-		"uniques": ["Can instantly construct a [Improvement_Pasture] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Pasture] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Pasture] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -854,8 +847,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Irrigation",
-		"uniques": ["Can instantly construct a [Improvement_Plantation] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Plantation] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Plantation] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 50
@@ -865,8 +857,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Animal husbandry",
-		"uniques": ["Can instantly construct a [Improvement_Encampment] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Encampment] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Encampment] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 50
@@ -876,8 +867,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Build",
-		"uniques": ["Can instantly construct a [Improvement_Lumber_Mill] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Lumber_Mill] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Lumber_Mill] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -887,8 +877,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Refining",
-		"uniques": ["Can instantly construct a [Improvement_Oil_Well] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Oil_Well] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Oil_Well] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -898,8 +887,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Tech_Plastic",
-		"uniques": ["Can instantly construct a [Improvement_Offshore_Oil_Rig] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Offshore_Oil_Rig] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Offshore_Oil_Rig] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -909,8 +897,7 @@
 		"unitType": "Unit_Type_Civilian",
 		"movement": 2,
 		"requiredTech":"Civic_Earth protection",
-		"uniques": ["Can instantly construct a [Improvement_Manufactory] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Manufactory] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Manufactory] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -960,8 +947,7 @@
 		"uniqueTo":"Nation_Ming",
 		"movement": 2,
 		"requiredTech":"Tech_Bricklaying",
-		"uniques": ["Can instantly construct a [Improvement_Ming_GreatWall] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Ming_GreatWall] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Ming_GreatWall] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -972,8 +958,7 @@
 		"uniqueTo":"Nation_Egypt",
 		"movement": 2,
 		"requiredTech":"Civic_Skill",
-		"uniques": ["Can instantly construct a [Improvement_Sphinx] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Sphinx] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Sphinx] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 40
@@ -984,8 +969,7 @@
 		"uniqueTo":"Nation_Persia",
 		"movement": 2,
 		"requiredTech":"Civic_Early Empire",
-		"uniques": ["Can instantly construct a [Improvement_PersianCourtyard] improvement <[2] times>",
-			"Can instantly construct a [Improvement_PersianCourtyard] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_PersianCourtyard] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -996,8 +980,7 @@
 		"uniqueTo":"Nation_Scythia",
 		"movement": 2,
 		"requiredTech":"Tech_Animal husbandry",
-		"uniques": ["Can instantly construct a [Improvement_Kurgan] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Kurgan] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Kurgan] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -1008,8 +991,7 @@
 		"uniqueTo":"Nation_Inca",
 		"movement": 2,
 		"requiredTech":"Civic_Basic trade",
-		"uniques": ["Can instantly construct a [Improvement_Terrace_Farm] improvement <[2] times>",
-			"Can instantly construct a [Improvement_Terrace_Farm] improvement <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Improvement_Terrace_Farm] improvement <[3] times> <after which this unit is consumed>",
 			"Unit_Class_Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
@@ -1506,6 +1488,26 @@
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"promotions":["[Unit_ImperialGuard] ability"]
+	},
+	{//毛利-托阿勇士
+		"name":"Unit_Toa",
+		"replaces":"Unit_Swordsman",
+		"uniqueTo":"Nation_Maori",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":211,//38
+		"movement":2,
+		"cost":120,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Hoplite",
+		"requiredTech": "Tech_Alchemy",
+		"obsoleteTech": "Tech_Apprentices",
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"[-23]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"Can instantly construct a [Improvement_Pabo] improvement <[1] times>",
+		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//披甲战士
 		"name":"Unit_Hoplite",
