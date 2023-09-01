@@ -46,6 +46,18 @@
         "Destroyed when the city is captured"],
         "quote":"大明宫，盛世华章，凝聚着唐朝的辉煌与文化。它是帝王权力的象征，也是智慧与艺术的殿堂。在大明宫中，历史的笔触与壮丽的建筑交织，彰显着唐朝的荣光。步入其中，仿佛穿越时空，感受着文人墨客的灵感与壮丽宴会的热闹。大明宫见证了盛唐时期的繁荣与开放，它是文化交流的中心，让世界见证着唐朝的伟大。在大明宫中，历史的奇迹与人文的智慧交汇，永远铭刻在人们的心中。"
     },
+    {//印度尼西亚-波罗勉宫
+        "name":"Building_Baromian",
+        "uniqueTo":"Nation_Indonesia",
+        "isWonder":true,
+        "cost":400,
+        "requiredTech":"Tech_Shipbuilding",
+        "uniques":["May buy [{Water} {Military}] units with [Faith] for [1] times their normal Production cost",
+        "[+3 Faith] [in all coastal cities]",
+        "[+2 Faith] from every [Building_Classification_Port_District]",
+        "Destroyed when the city is captured"],
+        "quote":"波罗勉宫，如同印度尼西亚的一颗璀璨明珠，悠久的历史和独特的文化赋予了它无比的魅力。这座宫殿的每一寸细节，无论是雕刻还是建筑风格，都体现了印度尼西亚人民的智慧和匠心。它是我们的骄傲，也是我们传承历史和弘扬文化的重要载体。让我们一同尊重并爱护这座美丽的宫殿，让它的光芒永远闪耀在印度尼西亚的大地上。"
+    },
 
     /*政体建筑*/
 	{//酋邦
@@ -2687,6 +2699,26 @@
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
 		"Cost increases by [6] per owned city",
+        "Building_Classification_Industrial_Zone_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+	},
+	{//日本-电子厂
+        "name":"Building_Electronic_Factory",
+		"replaces": "Building_Factory",
+        "uniqueTo":"Nation_Japan",
+		"cost":160,
+		"hurryCostModifier":-33,
+        "culture":4,
+		"maintenance": 2,
+		"production":4,
+		"requiredBuilding": "Building_Workshop",
+		"requiredTech": "Tech_Industrialization",
+		"specialistSlots": {"Specialist_Engineer": 1},
+		"uniques": [
+        "Provides [1] [Resource_GreatPerson_Class_Engineer]",
+        "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
+		"Cost increases by [3] per owned city",
         "Building_Classification_Industrial_Zone_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]

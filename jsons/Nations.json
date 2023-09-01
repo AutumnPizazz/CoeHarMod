@@ -660,6 +660,49 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//日本
+		"name": "Nation_Japan",
+		"leaderName": "Hojo Tokimune",
+		"adjective": ["Japanese"],
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Victory type_Domination",
+
+		"uniqueName": "Kamikaze",
+		"uniques": ["[+1] Movement <for [All] units> <in [Coastal] tiles>",
+		"[+13]% Strength <for [Military] units> <when fighting in [Coastal] tiles>",
+		"[+100]% Production when constructing [Building_Holy_Site_Unique] buildings [in all cities]",
+		"[+100]% Production when constructing [Building_Theater_Square_Unique] buildings [in all cities]",
+		"[+100]% Production when constructing [Building_Military_Encampment_Unique] buildings [in all cities]"
+		],
+
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama","Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen","Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori","Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
+	{//印度尼西亚
+		"name": "Nation_Indonesia",
+		"leaderName": "Gitarja",
+		"adjective": ["Indonesian"],
+		"innerColor": [239, 138, 56],
+		"outerColor": [14, 82, 150],
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Victory type_Domination",
+
+		"uniqueName": "Country of Thousand Islands",
+		"uniques": ["[+1 Happiness] [in all coastal cities]",
+		"The Campus District and the Holy District enjoy a standard adjacent increment to the coast"
+		],
+
+		"cities": ["Surabaya", "Yogyakarta", "Denpasar", "Jakarta", "Bandung", "Medan", "Semarang", "Makassar", "Palembang", "Tangerang", "Depok", "Batam", "Bekasi", "Solo", "Banjarmasin", "Serang", "Padang", "Pekanbaru", "Bandar Lampung", "Surakarta", "Malang", "Bogor", "Cimahi", "Pontianak", "Manado", "Balikpapan", "Banda Aceh", "Jambi", "Mataram", "Kupang", "Palu"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 

@@ -1546,6 +1546,28 @@
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-1] [Resource_Military_Maintenance3]"]
 	},
+	{//日本-武士
+		"name":"Unit_Japanese_Samurai",
+		"replaces":"Unit_Hoplite",
+		"uniqueTo":"Nation_Japan",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":319,//48
+		"movement":2,
+		"cost":160,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Musketman",
+		"requiredTech": "Tech_Apprentices",
+		"obsoleteTech": "Tech_Gunpowder",
+		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
+		"Damage is ignored when determining unit Strength",
+		"Heal this unit by [5] HP <upon ending a turn in a [Coastal] tile>",
+		"Era_Medieval",
+		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-1] [Resource_Military_Maintenance3]"]
+	},
 	{//火枪手
 		"name":"Unit_Musketman",
 		"unitType":"Unit_Type_Melee_Infantry",
@@ -2435,6 +2457,30 @@
 		"obsoleteTech": "Tech_Refining",
 		"uniques":["Instantly consumes [1] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]",
+		"Consumes [-3] [Resource_Military_Maintenance3]"]
+	},
+	{//印度尼西亚-戎克船
+		"name":"Unit_Jong",
+		"replaces":"Unit_Cruiser",
+		"uniqueTo":"Nation_Indonesia",
+		"unitType":"Unit_Type_Long_Ranged_Naval",
+		"strength":281,//45
+		"rangedStrength":408,//55
+		"range":2,
+		"movement":4,
+		"cost":280,
+		"hurryCostModifier":-33,
+		"requiredResource":"Resource_Niter",
+		"upgradesTo":"Unit_Battleship",
+		"requiredTech": "Tech_Crossail device",
+		"obsoleteTech": "Tech_Refining",
+		"uniques":["Instantly consumes [1] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
+		"[+1] Movement <when adjacent to a [GreatPerson_Class_Admiral] unit>",
+		"[+23]% Strength <when adjacent to a [GreatPerson_Class_Admiral] unit>",
+		"Era_Renaissance",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
