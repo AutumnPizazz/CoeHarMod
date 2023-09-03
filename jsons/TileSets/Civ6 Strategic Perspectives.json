@@ -8,6 +8,19 @@
 		"Plains+Landform_Hill+Landform_Forest":["Plains+Landform_Hill","Landform_Forest"],
 		"Tundra+Landform_Hill+Landform_Forest":["Tundra+Landform_Hill","Landform_Forest"],
 
+		"Plains+Landform_Nuclear fallout":["Plains","Landform_Nuclear fallout"],
+		"Grassland+Landform_Nuclear fallout":["Grassland","Landform_Nuclear fallout"],
+		"Tundra+Landform_Nuclear fallout":["Tundra","Landform_Nuclear fallout"],
+		"Desert+Landform_Nuclear fallout":["Desert","Landform_Nuclear fallout"],
+		"Snow+Landform_Nuclear fallout":["Snow","Landform_Nuclear fallout"],
+		
+		"Plains+Landform_Hill+Landform_Nuclear fallout":["Plains+Landform_Hill","Landform_Nuclear fallout"],
+		"Grassland+Landform_Hill+Landform_Nuclear fallout":["Grassland+Landform_Hill","Landform_Nuclear fallout"],
+		"Tundra+Landform_Hill+Landform_Nuclear fallout":["Tundra+Landform_Hill","Landform_Nuclear fallout"],
+		"Desert+Landform_Hill+Landform_Nuclear fallout":["Desert+Landform_Hill","Landform_Nuclear fallout"],
+		"Snow+Landform_Hill+Landform_Nuclear fallout":["Snow+Landform_Hill","Landform_Nuclear fallout"],
+
+
 
 
 

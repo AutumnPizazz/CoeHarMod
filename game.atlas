@@ -359,11 +359,25 @@ ReligionIcons/Bahai Faith
   orig: 271, 179
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/CrosshatchHexagon
+  rotate: false
+  xy: 652, 695
+  size: 273, 236
+  orig: 273, 236
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/CrosshatchHexagon
   rotate: false
   xy: 652, 695
   size: 273, 236
   orig: 273, 236
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Hexagon
+  rotate: false
+  xy: 1210, 1354
+  size: 416, 360
+  orig: 416, 360
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Hexagon
@@ -373,11 +387,25 @@ TileSets/HexaRealm/Hexagon
   orig: 416, 360
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Highlight
+  rotate: false
+  xy: 1210, 1722
+  size: 450, 315
+  orig: 450, 315
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Highlight
   rotate: false
   xy: 1210, 1722
   size: 450, 315
   orig: 450, 315
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_The_Giants_Causeway
+  rotate: false
+  xy: 1198, 1009
+  size: 385, 337
+  orig: 385, 337
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_The_Giants_Causeway
@@ -939,16 +967,23 @@ ResourceIcons/Resource_Corn
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Improvement_Manufactory
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Manufactory
   rotate: false
   xy: 1324, 1324
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Landform_Forest
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Forest
   rotate: false
   xy: 1324, 1324
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Geothermal fissure
+  rotate: false
+  xy: 532, 268
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -960,11 +995,18 @@ TileSets/HexaRealm/Tiles/Landform_Geothermal fissure
   orig: 256, 256
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Landform_Rainforest
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Rainforest
   rotate: false
   xy: 796, 532
   size: 256, 256
   orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Zhangye_Danxia
+  rotate: false
+  xy: 1324, 828
+  size: 256, 224
+  orig: 256, 224
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_Zhangye_Danxia
@@ -1818,6 +1860,13 @@ ResourceIcons/Resource_Wine
   xy: 532, 464
   size: 256, 256
   orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Crosshair
+  rotate: false
+  xy: 1852, 1915
+  size: 174, 125
+  orig: 174, 125
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Crosshair
@@ -4647,6 +4696,13 @@ TechIcons/Initial tech_civic_Agriculture
   orig: 128, 128
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/Generic
+  rotate: false
+  xy: 1908, 356
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Arrows/Generic
   rotate: false
   xy: 1908, 356
@@ -4654,9 +4710,23 @@ TileSets/HexaRealm/Arrows/Generic
   orig: 100, 60
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Hukou_Waterfall
+  rotate: false
+  xy: 684, 1364
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_Hukou_Waterfall
   rotate: false
   xy: 684, 1364
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Mount_Tai
+  rotate: false
+  xy: 684, 1228
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -6258,35 +6328,35 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 EmojiIcons/Culture
   rotate: false
-  xy: 472, 418
+  xy: 1984, 1762
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Food
   rotate: false
-  xy: 1408, 1235
+  xy: 1984, 1538
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Gold
   rotate: false
-  xy: 1984, 1490
+  xy: 1984, 1480
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Production
   rotate: false
-  xy: 530, 418
+  xy: 1984, 1422
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Science
   rotate: false
-  xy: 588, 418
+  xy: 1984, 1306
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -6643,7 +6713,7 @@ NationIcons/Nation_UnitedStates
   index: -1
 ResourceIcons/Resource_Diplomatic favor
   rotate: false
-  xy: 1408, 1177
+  xy: 1984, 1364
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -6725,9 +6795,23 @@ TechIcons/Tech_Steel
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/UnitAttacked
+  rotate: false
+  xy: 436, 1336
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Arrows/UnitAttacked
   rotate: false
   xy: 436, 1336
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/UnitHasAttacked
+  rotate: false
+  xy: 544, 1444
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
@@ -6739,9 +6823,23 @@ TileSets/HexaRealm/Arrows/UnitHasAttacked
   orig: 100, 60
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/UnitMoved
+  rotate: false
+  xy: 652, 1552
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Arrows/UnitMoved
   rotate: false
   xy: 652, 1552
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/UnitMoving
+  rotate: false
+  xy: 760, 1660
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
@@ -6753,9 +6851,23 @@ TileSets/HexaRealm/Arrows/UnitMoving
   orig: 100, 60
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/UnitTeleported
+  rotate: false
+  xy: 868, 1768
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Arrows/UnitTeleported
   rotate: false
   xy: 868, 1768
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Arrows/UnitWithdrew
+  rotate: false
+  xy: 976, 1876
   size: 100, 60
   orig: 100, 60
   offset: 0, 0
@@ -6767,9 +6879,23 @@ TileSets/HexaRealm/Arrows/UnitWithdrew
   orig: 100, 60
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConcaveConvexInner
+  rotate: false
+  xy: 976, 1313
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Borders/ConcaveConvexInner
   rotate: false
   xy: 976, 1313
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConcaveConvexOuter
+  rotate: false
+  xy: 1084, 1381
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
@@ -6781,9 +6907,23 @@ TileSets/HexaRealm/Borders/ConcaveConvexOuter
   orig: 81, 15
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConcaveInner
+  rotate: false
+  xy: 1192, 1489
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Borders/ConcaveInner
   rotate: false
   xy: 1192, 1489
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConcaveOuter
+  rotate: false
+  xy: 1300, 1597
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
@@ -6795,9 +6935,23 @@ TileSets/HexaRealm/Borders/ConcaveOuter
   orig: 81, 15
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConvexConcaveInner
+  rotate: false
+  xy: 1408, 1704
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Borders/ConvexConcaveInner
   rotate: false
   xy: 1408, 1704
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConvexConcaveOuter
+  rotate: false
+  xy: 1516, 1813
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
@@ -6809,9 +6963,23 @@ TileSets/HexaRealm/Borders/ConvexConcaveOuter
   orig: 81, 15
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConvexInner
+  rotate: false
+  xy: 1624, 1921
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Borders/ConvexInner
   rotate: false
   xy: 1624, 1921
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Borders/ConvexOuter
+  rotate: false
+  xy: 1732, 2029
   size: 81, 15
   orig: 81, 15
   offset: 0, 0
@@ -6823,6 +6991,34 @@ TileSets/HexaRealm/Borders/ConvexOuter
   orig: 81, 15
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Landform_Nuclear fallout
+  rotate: false
+  xy: 1912, 1452
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Nuclear fallout
+  rotate: false
+  xy: 1912, 1452
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Landform_Nuclear fallout
+  rotate: false
+  xy: 1912, 1452
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Railroad
+  rotate: false
+  xy: 4, 4
+  size: 60, 32
+  orig: 60, 32
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Railroad
   rotate: false
   xy: 4, 4
@@ -6830,249 +7026,410 @@ TileSets/HexaRealm/Railroad
   orig: 60, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Road
+TileSets/Civ6 Strategic Perspectives/Road
   rotate: false
-  xy: 1984, 1548
+  xy: 1984, 1820
   size: 60, 32
   orig: 60, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Ancient ruins
+TileSets/HexaRealm/Road
   rotate: false
-  xy: 220, 368
-  size: 64, 56
-  orig: 64, 56
+  xy: 1984, 1820
+  size: 60, 32
+  orig: 60, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Barbarian encampment
+TileSets/Civ6 Strategic Perspectives/Tiles/Ancient ruins
   rotate: false
-  xy: 328, 477
-  size: 64, 56
-  orig: 64, 56
+  xy: 220, 360
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Barbarian encampmentT
+TileSets/Civ6 Strategic Perspectives/Tiles/Barbarian encampment
   rotate: false
   xy: 436, 624
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center
+TileSets/Civ6 Strategic Perspectives/Tiles/City center
   rotate: false
-  xy: 544, 732
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City ruins
-  rotate: false
-  xy: 652, 832
+  xy: 760, 940
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Coast
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Ancient
   rotate: false
-  xy: 760, 948
+  xy: 760, 940
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Classical
+  rotate: false
+  xy: 760, 940
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Atomic
+  rotate: false
+  xy: 976, 1233
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Information
+  rotate: false
+  xy: 976, 1233
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Far-future
+  rotate: false
+  xy: 1192, 1404
+  size: 64, 77
+  orig: 64, 77
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Near-future
+  rotate: false
+  xy: 1192, 1404
+  size: 64, 77
+  orig: 64, 77
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Industrial
+  rotate: false
+  xy: 1300, 1519
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Modern
+  rotate: false
+  xy: 1300, 1519
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Medieval
+  rotate: false
+  xy: 1408, 1632
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City center-Era_Renaissance
+  rotate: false
+  xy: 1408, 1632
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/City ruins
+  rotate: false
+  xy: 1516, 1741
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City ruins
+  rotate: false
+  xy: 1516, 1741
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Coast
+  rotate: false
+  xy: 1624, 1849
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Lakes
+  rotate: false
+  xy: 1624, 1849
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Desert
+  rotate: false
+  xy: 4, 44
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Desert
+TileSets/Civ6 Strategic Perspectives/Tiles/Desert+Landform_Hill
   rotate: false
-  xy: 868, 1056
+  xy: 544, 668
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Desert+Landform_Hill
+TileSets/Civ6 Strategic Perspectives/Tiles/Desert+Landform_Hill2
   rotate: false
-  xy: 1300, 1533
+  xy: 868, 992
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout
+TileSets/Civ6 Strategic Perspectives/Tiles/Distict_Academy_of_Classical_Learning
   rotate: false
-  xy: 1516, 1749
+  xy: 78, 114
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Campus
+  rotate: false
+  xy: 78, 114
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Mayan_Observatory
+  rotate: false
+  xy: 78, 114
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Distict_BeachLandmark
+  rotate: false
+  xy: 400, 413
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout2
+TileSets/Civ6 Strategic Perspectives/Tiles/Distinct_Raceline
   rotate: false
-  xy: 1624, 1857
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Desert+Landform_Hill2
-  rotate: false
-  xy: 1408, 1640
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Desert2
-  rotate: false
-  xy: 976, 1249
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Desert3
-  rotate: false
-  xy: 1192, 1425
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Distict_Academy_of_Classical_Learning
-  rotate: false
-  xy: 1732, 1965
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/District_Campus
-  rotate: false
-  xy: 1732, 1965
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/District_Mayan_Observatory
-  rotate: false
-  xy: 1732, 1965
+  xy: 400, 413
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Distict_BeachLandmark
   rotate: false
-  xy: 4, 44
+  xy: 400, 413
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Distinct_Raceline
   rotate: false
-  xy: 4, 44
+  xy: 400, 413
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Distinct_Protection_Zone
+  rotate: false
+  xy: 292, 349
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Distinct_Protection_Zone
   rotate: false
-  xy: 436, 560
+  xy: 292, 349
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Acropolis
+  rotate: false
+  xy: 364, 349
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Theater_Square
+  rotate: false
+  xy: 364, 349
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Acropolis
   rotate: false
-  xy: 1084, 1317
+  xy: 364, 349
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Theater_Square
   rotate: false
-  xy: 1084, 1317
+  xy: 364, 349
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Army
+  rotate: false
+  xy: 292, 285
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Army
   rotate: false
-  xy: 328, 413
+  xy: 292, 285
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Commercial_Association
+  rotate: false
+  xy: 364, 285
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Industrial_Zone
+  rotate: false
+  xy: 364, 285
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Oppidum
+  rotate: false
+  xy: 364, 285
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Commercial_Association
   rotate: false
-  xy: 220, 304
+  xy: 364, 285
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Industrial_Zone
   rotate: false
-  xy: 220, 304
+  xy: 364, 285
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Oppidum
   rotate: false
-  xy: 220, 304
+  xy: 364, 285
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/District_Commercial_Hub
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Commercial_Hub
   rotate: false
-  xy: 544, 668
-  size: 64, 56
-  orig: 64, 56
+  xy: 508, 588
+  size: 64, 72
+  orig: 64, 72
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/District_Mandingo_Market
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Mandingo_Market
   rotate: false
-  xy: 544, 668
+  xy: 508, 588
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Entertainment_Complex
+  rotate: false
+  xy: 616, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Entertainment_Complex
   rotate: false
-  xy: 760, 884
+  xy: 616, 648
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Foreign_Quarter
+  rotate: false
+  xy: 832, 928
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Government_Plaza
+  rotate: false
+  xy: 832, 928
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Mayab
+  rotate: false
+  xy: 832, 928
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Foreign_Quarter
   rotate: false
-  xy: 868, 992
+  xy: 832, 928
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Government_Plaza
   rotate: false
-  xy: 868, 992
+  xy: 832, 928
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Mayab
   rotate: false
-  xy: 868, 992
+  xy: 832, 928
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/District_Harbor
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Harbor
   rotate: false
-  xy: 112, 195
+  xy: 832, 865
   size: 64, 55
   orig: 64, 55
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/District_Holy_Site
+TileSets/HexaRealm/Tiles/District_Harbor
   rotate: false
-  xy: 652, 768
-  size: 64, 56
-  orig: 64, 56
+  xy: 832, 865
+  size: 64, 55
+  orig: 64, 55
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/District_Lavra_Monastery
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Holy_Site
   rotate: false
-  xy: 652, 768
-  size: 64, 56
-  orig: 64, 56
+  xy: 436, 333
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Lavra_Monastery
+  rotate: false
+  xy: 436, 333
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Spaceport
+  rotate: false
+  xy: 112, 258
+  size: 65, 58
+  orig: 65, 58
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/District_Spaceport
@@ -7082,203 +7439,343 @@ TileSets/HexaRealm/Tiles/District_Spaceport
   orig: 65, 58
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District_Water_Park
+  rotate: false
+  xy: 508, 524
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/District_Water_Park
   rotate: false
-  xy: 78, 131
+  xy: 508, 524
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland
+TileSets/Civ6 Strategic Perspectives/Tiles/Grassland
   rotate: false
-  xy: 400, 477
+  xy: 688, 712
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Landform_Hill
+TileSets/Civ6 Strategic Perspectives/Tiles/Grassland+Landform_Hill
   rotate: false
-  xy: 364, 349
+  xy: 580, 520
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout
-  rotate: false
-  xy: 364, 285
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout2
-  rotate: false
-  xy: 508, 604
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Landform_Hill2
-  rotate: false
-  xy: 292, 285
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland2
-  rotate: false
-  xy: 400, 413
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland3
-  rotate: false
-  xy: 292, 349
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_EarthVeinsExploiter
-  rotate: false
-  xy: 508, 540
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Encampment
-  rotate: false
-  xy: 724, 820
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Encampment-Era_Industrial
-  rotate: false
-  xy: 724, 756
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Farm
-  rotate: false
-  xy: 832, 928
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Farm+Resource_Wheat
-  rotate: false
-  xy: 832, 864
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Farm-Pillaged
-  rotate: false
-  xy: 436, 349
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_FarmD
-  rotate: false
-  xy: 436, 285
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_FarmDH
-  rotate: false
-  xy: 580, 604
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_FarmG
-  rotate: false
-  xy: 580, 540
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_FarmGH
+TileSets/Civ6 Strategic Perspectives/Tiles/Grassland+Landform_Hill2
   rotate: false
   xy: 904, 928
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_EarthVeinsExploiter
+  rotate: false
+  xy: 724, 520
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_EarthVeinsExploiter
+  rotate: false
+  xy: 724, 520
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Encampment
+  rotate: false
+  xy: 472, 452
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Encampment-Pillaged
+  rotate: false
+  xy: 688, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Encampment-Pillaged2
+  rotate: false
+  xy: 760, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Farm
+  rotate: false
+  xy: 150, 130
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Farm
+  rotate: false
+  xy: 150, 130
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Farm+Resource_Wheat
+  rotate: false
+  xy: 184, 194
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Farm+Resource_Wheat
+  rotate: false
+  xy: 184, 194
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Farm-Pillaged
+  rotate: false
+  xy: 222, 130
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Farm-Pillaged
+  rotate: false
+  xy: 222, 130
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmD
+  rotate: false
+  xy: 1173, 1340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_FarmD
+  rotate: false
+  xy: 1173, 1340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmDH
+  rotate: false
+  xy: 1821, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_FarmDH
+  rotate: false
+  xy: 1821, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmG
+  rotate: false
+  xy: 1893, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_FarmG
+  rotate: false
+  xy: 1893, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmGH
+  rotate: false
+  xy: 1965, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_FarmGH
+  rotate: false
+  xy: 1965, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmP
+  rotate: false
+  xy: 1732, 1901
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Improvement_FarmP
   rotate: false
-  xy: 904, 864
+  xy: 1732, 1901
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmPH
+  rotate: false
+  xy: 1804, 1924
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FarmPH
   rotate: false
-  xy: 796, 800
+  xy: 1804, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmS
+  rotate: false
+  xy: 1876, 1924
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FarmS
   rotate: false
-  xy: 868, 800
+  xy: 1876, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmSH
+  rotate: false
+  xy: 1948, 1924
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FarmSH
   rotate: false
-  xy: 796, 736
+  xy: 1948, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmT
+  rotate: false
+  xy: 1804, 1860
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FarmT
   rotate: false
-  xy: 868, 736
+  xy: 1804, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FarmTH
+  rotate: false
+  xy: 1876, 1860
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FarmTH
   rotate: false
-  xy: 472, 476
+  xy: 1876, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fishing_Boat
+  rotate: false
+  xy: 1948, 1860
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fishing_Boat
   rotate: false
-  xy: 544, 476
+  xy: 1948, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fishing_Boat-Era_Industrial
+  rotate: false
+  xy: 796, 801
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fishing_Boat-Era_Industrial
   rotate: false
-  xy: 616, 704
+  xy: 796, 801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fort
+  rotate: false
+  xy: 868, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Pabo
+  rotate: false
+  xy: 868, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_RomeFort
+  rotate: false
+  xy: 868, 800
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fort
   rotate: false
-  xy: 940, 800
+  xy: 868, 800
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Pabo
   rotate: false
-  xy: 940, 800
+  xy: 868, 800
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_RomeFort
+  rotate: false
+  xy: 868, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fort-Era_Atomic
+  rotate: false
+  xy: 940, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Pabo-Era_Atomic
+  rotate: false
+  xy: 940, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_RomeFort-Era_Atomic
   rotate: false
   xy: 940, 800
   size: 64, 56
@@ -7287,406 +7784,784 @@ TileSets/HexaRealm/Tiles/Improvement_RomeFort
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fort-Era_Atomic
   rotate: false
-  xy: 940, 736
+  xy: 940, 800
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Pabo-Era_Atomic
   rotate: false
-  xy: 940, 736
+  xy: 940, 800
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_RomeFort-Era_Atomic
   rotate: false
-  xy: 940, 736
+  xy: 940, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fort-Era_Industrial
+  rotate: false
+  xy: 150, 66
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Pabo-Era_Industrial
+  rotate: false
+  xy: 150, 66
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_RomeFort-Era_Industrial
+  rotate: false
+  xy: 150, 66
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fort-Era_Industrial
   rotate: false
-  xy: 616, 476
+  xy: 150, 66
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Pabo-Era_Industrial
   rotate: false
-  xy: 616, 476
+  xy: 150, 66
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_RomeFort-Era_Industrial
   rotate: false
-  xy: 616, 476
+  xy: 150, 66
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FortT
+  rotate: false
+  xy: 222, 66
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_PaboT
+  rotate: false
+  xy: 222, 66
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_RomeFortT
+  rotate: false
+  xy: 222, 66
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FortT
   rotate: false
-  xy: 150, 131
+  xy: 222, 66
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_PaboT
   rotate: false
-  xy: 150, 131
+  xy: 222, 66
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_RomeFortT
   rotate: false
-  xy: 150, 131
+  xy: 222, 66
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FortT-Era_Atomic
+  rotate: false
+  xy: 78, 50
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_PaboT-Era_Atomic
+  rotate: false
+  xy: 78, 50
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_RomeFortT-Era_Atomic
+  rotate: false
+  xy: 78, 50
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FortT-Era_Atomic
   rotate: false
-  xy: 1821, 1988
+  xy: 78, 50
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_PaboT-Era_Atomic
   rotate: false
-  xy: 1821, 1988
+  xy: 78, 50
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_RomeFortT-Era_Atomic
   rotate: false
-  xy: 1821, 1988
+  xy: 78, 50
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FortT-Era_Industrial
+  rotate: false
+  xy: 1696, 1837
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_PaboT-Era_Industrial
+  rotate: false
+  xy: 1696, 1837
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_RomeFortT-Era_Industrial
+  rotate: false
+  xy: 1696, 1837
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FortT-Era_Industrial
   rotate: false
-  xy: 1893, 1988
+  xy: 1696, 1837
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_PaboT-Era_Industrial
   rotate: false
-  xy: 1893, 1988
+  xy: 1696, 1837
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_RomeFortT-Era_Industrial
   rotate: false
-  xy: 1893, 1988
+  xy: 1696, 1837
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fortification
+  rotate: false
+  xy: 1624, 1777
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fortification
   rotate: false
-  xy: 1965, 1980
+  xy: 1624, 1777
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Fortification-Era_Atomic
+  rotate: false
+  xy: 1696, 1765
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Fortification-Era_Atomic
   rotate: false
-  xy: 78, 59
+  xy: 1696, 1765
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FortificationT
+  rotate: false
+  xy: 1768, 1788
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FortificationT
   rotate: false
-  xy: 150, 59
+  xy: 1768, 1788
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_FortificationT-Era_Atomic
+  rotate: false
+  xy: 1840, 1788
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_FortificationT-Era_Atomic
   rotate: false
-  xy: 1516, 1677
+  xy: 1840, 1788
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Lumber_Mill
+  rotate: false
+  xy: 1912, 1796
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Improvement_Lumber_Mill
   rotate: false
-  xy: 1192, 1361
+  xy: 1912, 1796
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Lumber_Mill-Era_Industrial
+  rotate: false
+  xy: 1768, 1724
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Lumber_Mill-Era_Industrial
   rotate: false
-  xy: 1300, 1469
+  xy: 1768, 1724
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Lumber_MillT
+  rotate: false
+  xy: 1840, 1724
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Lumber_MillT
   rotate: false
-  xy: 1264, 1405
+  xy: 1840, 1724
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Lumber_MillT-Era_Industrial
+  rotate: false
+  xy: 1912, 1732
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Lumber_MillT-Era_Industrial
   rotate: false
-  xy: 1264, 1341
+  xy: 1912, 1732
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Mine
+  rotate: false
+  xy: 1588, 1713
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Mine
   rotate: false
-  xy: 1336, 1405
+  xy: 1588, 1713
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Mine-Era_Industrial
+  rotate: false
+  xy: 1588, 1649
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Mine-Era_Industrial
   rotate: false
-  xy: 1336, 1341
+  xy: 1588, 1649
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_MineT
+  rotate: false
+  xy: 1660, 1701
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_MineT
   rotate: false
-  xy: 1624, 1793
+  xy: 1660, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_MineT-Era_Industrial
+  rotate: false
+  xy: 1660, 1637
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_MineT-Era_Industrial
   rotate: false
-  xy: 1588, 1729
+  xy: 1660, 1637
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Offshore_Oil_Rig
+  rotate: false
+  xy: 1732, 1660
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Oil+Offshore Platform
+  rotate: false
+  xy: 1732, 1660
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Improvement_Offshore_Oil_Rig
   rotate: false
-  xy: 1588, 1665
+  xy: 1732, 1660
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Oil+Offshore Platform
   rotate: false
-  xy: 1588, 1665
+  xy: 1732, 1660
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Oil_Well
+  rotate: false
+  xy: 1804, 1659
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Oil+Oil well
+  rotate: false
+  xy: 1804, 1659
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Improvement_Oil_Well
   rotate: false
-  xy: 1660, 1728
+  xy: 1804, 1659
   size: 64, 57
   orig: 64, 57
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Oil+Oil well
   rotate: false
-  xy: 1660, 1728
+  xy: 1804, 1659
   size: 64, 57
   orig: 64, 57
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Improvement_Pasture
-  rotate: false
-  xy: 1660, 1664
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Pasture-Era_Industrial
-  rotate: false
-  xy: 1732, 1901
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Plantation
-  rotate: false
-  xy: 1804, 1924
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Prophet
-  rotate: false
-  xy: 1876, 1916
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_ProphetT
-  rotate: false
-  xy: 1948, 1908
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Quarry
-  rotate: false
-  xy: 1804, 1860
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Quarry-Era_Industrial
-  rotate: false
-  xy: 1876, 1852
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_QuarryT
-  rotate: false
-  xy: 1948, 1844
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_QuarryT-Era_Industrial
-  rotate: false
-  xy: 1732, 1837
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Improvement_Terrace_Farm
-  rotate: false
-  xy: 1804, 1796
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleG
-  rotate: false
-  xy: 1876, 1788
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleGLow
-  rotate: false
-  xy: 1732, 1773
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleGUp
-  rotate: false
-  xy: 1732, 1709
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleP
-  rotate: false
-  xy: 1804, 1732
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JunglePLow
-  rotate: false
-  xy: 1948, 1780
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JunglePUp
-  rotate: false
-  xy: 1876, 1724
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Lakes
-  rotate: false
-  xy: 1948, 1716
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Landform_Alluvial plain
-  rotate: false
-  xy: 1732, 1645
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Landform_Floodplain
-  rotate: false
-  xy: 1804, 1668
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Landform_ForestG
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Pasture
   rotate: false
   xy: 1876, 1660
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Improvement_Pasture
+  rotate: false
+  xy: 1876, 1660
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Pasture-Era_Industrial
+  rotate: false
+  xy: 1732, 1596
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Pasture-Era_Industrial
+  rotate: false
+  xy: 1732, 1596
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Plantation
+  rotate: false
+  xy: 1804, 1595
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Plantation
+  rotate: false
+  xy: 1804, 1595
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Prophet
+  rotate: false
+  xy: 1876, 1588
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Prophet
+  rotate: false
+  xy: 1876, 1588
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_ProphetT
+  rotate: false
+  xy: 1948, 1660
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_ProphetT
+  rotate: false
+  xy: 1948, 1660
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Quarry
+  rotate: false
+  xy: 1948, 1596
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Quarry
+  rotate: false
+  xy: 1948, 1596
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Quarry-Era_Industrial
+  rotate: false
+  xy: 940, 1056
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Quarry-Era_Industrial
+  rotate: false
+  xy: 940, 1056
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_QuarryT
+  rotate: false
+  xy: 940, 992
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_QuarryT
+  rotate: false
+  xy: 940, 992
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_QuarryT-Era_Industrial
+  rotate: false
+  xy: 976, 928
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_QuarryT-Era_Industrial
+  rotate: false
+  xy: 976, 928
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Terrace_Farm
+  rotate: false
+  xy: 1048, 1241
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Terrace_Farm-Pillaged
+  rotate: false
+  xy: 1120, 1245
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Improvement_Terrace_Farm-Pillaged2
+  rotate: false
+  xy: 1192, 1268
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/JungleG
+  rotate: false
+  xy: 1245, 1340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 1245, 1340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Rainforest
+  rotate: false
+  xy: 1245, 1340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/JungleGLow
+  rotate: false
+  xy: 1264, 1276
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleGLow
+  rotate: false
+  xy: 1264, 1276
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/JungleGUp
+  rotate: false
+  xy: 1012, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleGUp
+  rotate: false
+  xy: 1012, 800
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/JungleP
+  rotate: false
+  xy: 1192, 1204
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleP
+  rotate: false
+  xy: 1192, 1204
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/JunglePLow
+  rotate: false
+  xy: 1264, 1212
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JunglePLow
+  rotate: false
+  xy: 1264, 1212
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/JunglePUp
+  rotate: false
+  xy: 1120, 1181
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JunglePUp
+  rotate: false
+  xy: 1120, 1181
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Alluvial plain
+  rotate: false
+  xy: 976, 1169
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Alluvial plain
+  rotate: false
+  xy: 976, 1169
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Floodplain
+  rotate: false
+  xy: 1192, 1140
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Floodplain
+  rotate: false
+  xy: 1192, 1140
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestGH
+  rotate: false
+  xy: 1264, 1148
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestGH
   rotate: false
-  xy: 1948, 1652
+  xy: 1264, 1148
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestGHLow
+  rotate: false
+  xy: 1120, 1117
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestGHLow
   rotate: false
-  xy: 1804, 1604
+  xy: 1120, 1117
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestGHUp
+  rotate: false
+  xy: 1048, 1113
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestGHUp
   rotate: false
-  xy: 1876, 1596
+  xy: 1048, 1113
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestGLow
+  rotate: false
+  xy: 1012, 1049
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestGLow
   rotate: false
-  xy: 1948, 1588
+  xy: 1012, 1049
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestGUp
+  rotate: false
+  xy: 1084, 1049
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestGUp
   rotate: false
-  xy: 976, 1185
+  xy: 1084, 1049
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestP
+  rotate: false
+  xy: 1156, 1053
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestP
   rotate: false
-  xy: 961, 1121
+  xy: 1156, 1053
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestPH
+  rotate: false
+  xy: 1408, 1568
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestPH
   rotate: false
-  xy: 1408, 1576
+  xy: 1408, 1568
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestPHLow
+  rotate: false
+  xy: 1480, 1613
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -7698,6 +8573,13 @@ TileSets/HexaRealm/Tiles/Landform_ForestPHLow
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestPHUp
+  rotate: false
+  xy: 1480, 1549
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestPHUp
   rotate: false
   xy: 1480, 1549
@@ -7705,935 +8587,2069 @@ TileSets/HexaRealm/Tiles/Landform_ForestPHUp
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestPLow
+  rotate: false
+  xy: 1552, 1585
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestPLow
   rotate: false
-  xy: 1552, 1601
+  xy: 1552, 1585
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestPUp
+  rotate: false
+  xy: 1552, 1521
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestPUp
   rotate: false
-  xy: 1552, 1537
+  xy: 1552, 1521
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestT
+  rotate: false
+  xy: 1624, 1573
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestT
   rotate: false
-  xy: 1372, 1512
+  xy: 1624, 1573
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestTH
+  rotate: false
+  xy: 1624, 1509
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestTH
   rotate: false
-  xy: 1624, 1600
+  xy: 1624, 1509
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestTLow
+  rotate: false
+  xy: 1696, 1532
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestTLow
   rotate: false
-  xy: 1624, 1536
+  xy: 1696, 1532
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestTUp
+  rotate: false
+  xy: 1768, 1531
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landform_ForestTUp
   rotate: false
-  xy: 1696, 1581
+  xy: 1768, 1531
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Landform_Ice cap
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Ice cap
   rotate: false
-  xy: 1696, 1517
-  size: 64, 56
-  orig: 64, 56
+  xy: 1696, 1460
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Landform_Landform_Hill
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Ice cap2
   rotate: false
-  xy: 1768, 1540
-  size: 64, 56
-  orig: 64, 56
+  xy: 1840, 1516
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Landform_Nuclear fallout
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Ice cap3
   rotate: false
-  xy: 1768, 1476
+  xy: 1840, 1452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Landform_Oasis
-  rotate: false
-  xy: 1840, 1532
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Landform_Reef
-  rotate: false
-  xy: 1840, 1468
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Landform_Swamp
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Landform_Hill
   rotate: false
   xy: 1912, 1524
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Mountain
+TileSets/HexaRealm/Tiles/Landform_Landform_Hill
   rotate: false
-  xy: 1912, 1452
+  xy: 1912, 1524
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Oasis
+  rotate: false
+  xy: 1840, 1380
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Mountain-1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Reef
   rotate: false
-  xy: 1912, 1452
+  xy: 1264, 1417
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Mountain2
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Reef2
   rotate: false
-  xy: 940, 1048
+  xy: 1336, 1432
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Reef3
+  rotate: false
+  xy: 1408, 1432
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Reef4
+  rotate: false
+  xy: 1480, 1477
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_Swamp
+  rotate: false
+  xy: 1552, 1457
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Swamp
+  rotate: false
+  xy: 1552, 1457
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Mountain
+  rotate: false
+  xy: 1624, 1437
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Mountain2
+  rotate: false
+  xy: 1480, 1405
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Mountain3
+  rotate: false
+  xy: 1624, 1357
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Delicate_Arch
+  rotate: false
+  xy: 1768, 1339
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_Delicate_Arch
   rotate: false
-  xy: 688, 692
+  xy: 1768, 1339
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_El_Dorado
+  rotate: false
+  xy: 1696, 1324
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_El_Dorado
   rotate: false
-  xy: 1012, 1057
+  xy: 1696, 1324
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Naturalwonder_Fountain_of_Youth
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Fountain_of_Youth
   rotate: false
-  xy: 1033, 1121
+  xy: 1840, 1316
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Great_Barrier_Reef
+  rotate: false
+  xy: 1768, 1275
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_Great_Barrier_Reef
   rotate: false
-  xy: 1084, 1057
+  xy: 1768, 1275
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Naturalwonder_Ha_Long_Bay
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Ha_Long_Bay
   rotate: false
-  xy: 185, 240
+  xy: 1840, 1236
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Ha_Long_Bay2
+  rotate: false
+  xy: 1912, 1180
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Naturalwonder_Pantanal
+  rotate: false
+  xy: 1336, 1368
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naturalwonder_Pantanal
   rotate: false
-  xy: 257, 221
+  xy: 1336, 1368
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Ocean
+TileSets/Civ6 Strategic Perspectives/Tiles/Ocean
   rotate: false
-  xy: 329, 221
+  xy: 1408, 1360
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Plains
+  rotate: false
+  xy: 1552, 1321
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains
+TileSets/Civ6 Strategic Perspectives/Tiles/Plains+Landform_Hill
   rotate: false
-  xy: 401, 221
+  xy: 1840, 1172
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains+Landform_Hill
+TileSets/Civ6 Strategic Perspectives/Tiles/Plains+Landform_Hill2
   rotate: false
-  xy: 1084, 993
+  xy: 1408, 1296
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains+Landform_Hill+Fallout2
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Aluminum
   rotate: false
-  xy: 976, 865
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Landform_Hill+Landform_Nuclear fallout
-  rotate: false
-  xy: 1048, 929
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Landform_Hill2
-  rotate: false
-  xy: 976, 929
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains2
-  rotate: false
-  xy: 473, 221
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains3
-  rotate: false
-  xy: 1012, 993
+  xy: 1552, 1257
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Aluminum
   rotate: false
-  xy: 1048, 865
+  xy: 1552, 1257
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Bananas
+  rotate: false
+  xy: 1336, 1176
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Bananas
   rotate: false
-  xy: 1012, 801
+  xy: 1336, 1176
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Bananas+Improvement_Plantation
+  rotate: false
+  xy: 1624, 1229
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Bananas+Improvement_Plantation
   rotate: false
-  xy: 1012, 737
+  xy: 1624, 1229
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Cattle
+  rotate: false
+  xy: 1696, 1196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_CattleP
+  rotate: false
+  xy: 1696, 1196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Cattle
   rotate: false
-  xy: 1120, 929
+  xy: 1696, 1196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_CattleP
   rotate: false
-  xy: 1120, 929
+  xy: 1696, 1196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Cattle+Improvement_Pasture
+  rotate: false
+  xy: 1480, 1213
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Cattle+Improvement_Pasture
   rotate: false
-  xy: 1120, 865
+  xy: 1480, 1213
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Cattle+Pasture-Era_Industrial
+  rotate: false
+  xy: 1408, 1168
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Cattle+Pasture-Era_Industrial
   rotate: false
-  xy: 1084, 801
+  xy: 1408, 1168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_CattleG
+  rotate: false
+  xy: 1552, 1193
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_CattleG
   rotate: false
-  xy: 1084, 737
+  xy: 1552, 1193
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Citrus
+  rotate: false
+  xy: 1624, 1165
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Citrus
   rotate: false
-  xy: 1156, 801
+  xy: 1624, 1165
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Citrus+Improvement_Plantation
+  rotate: false
+  xy: 1480, 1149
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Citrus+Improvement_Plantation
   rotate: false
-  xy: 1156, 737
+  xy: 1480, 1149
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Coal
+  rotate: false
+  xy: 1552, 1129
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Coal
   rotate: false
-  xy: 1192, 1297
+  xy: 1552, 1129
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Copper
+  rotate: false
+  xy: 1768, 1147
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Copper
   rotate: false
-  xy: 1264, 1277
+  xy: 1768, 1147
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Cotton
+  rotate: false
+  xy: 1696, 1132
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Cotton
   rotate: false
-  xy: 1336, 1277
+  xy: 1696, 1132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Cotton+Improvement_Plantation
+  rotate: false
+  xy: 1624, 1101
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Cotton+Improvement_Plantation
   rotate: false
-  xy: 1192, 1233
+  xy: 1624, 1101
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Crab
+  rotate: false
+  xy: 1336, 1112
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Crab
   rotate: false
-  xy: 1264, 1213
+  xy: 1336, 1112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Deer
+  rotate: false
+  xy: 1408, 1104
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Deer
   rotate: false
-  xy: 1336, 1213
+  xy: 1408, 1104
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Deer+Improvement_Encampment
+  rotate: false
+  xy: 1480, 1085
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_Encampment
   rotate: false
-  xy: 1192, 1169
+  xy: 1480, 1085
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Deer+Improvement_Encampment-Era_Industrial
+  rotate: false
+  xy: 1552, 1065
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_Encampment-Era_Industrial
   rotate: false
-  xy: 1264, 1149
+  xy: 1552, 1065
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Deer+Improvement_EncampmentT
+  rotate: false
+  xy: 1264, 1084
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_EncampmentT
   rotate: false
-  xy: 1336, 1149
+  xy: 1264, 1084
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Deer+Improvement_EncampmentT-Era_Industrial
+  rotate: false
+  xy: 1624, 1037
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Deer+Improvement_EncampmentT-Era_Industrial
   rotate: false
-  xy: 1192, 1105
+  xy: 1624, 1037
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Dye
+  rotate: false
+  xy: 1696, 1068
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Dye
   rotate: false
-  xy: 1264, 1085
+  xy: 1696, 1068
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Dye+Improvement_Plantation
+  rotate: false
+  xy: 1768, 1083
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Dye+Improvement_Plantation
   rotate: false
-  xy: 1336, 1085
+  xy: 1768, 1083
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_EarthVeins
+  rotate: false
+  xy: 1840, 1108
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_EarthVeins
   rotate: false
-  xy: 1156, 1041
+  xy: 1840, 1108
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Fish
+  rotate: false
+  xy: 1912, 1116
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Fish
   rotate: false
-  xy: 1048, 1249
+  xy: 1912, 1116
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Gem
+  rotate: false
+  xy: 1336, 1048
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Gem
   rotate: false
-  xy: 1048, 1185
+  xy: 1336, 1048
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Gold
+  rotate: false
+  xy: 1408, 1040
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Gold
   rotate: false
-  xy: 1120, 1253
+  xy: 1408, 1040
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Horse
+  rotate: false
+  xy: 1480, 1021
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Horse
   rotate: false
-  xy: 1120, 1189
+  xy: 1480, 1021
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Horse+Pasture
+  rotate: false
+  xy: 1552, 1001
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Horse+Pasture
   rotate: false
-  xy: 1120, 1125
+  xy: 1552, 1001
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Horse+Pasture-Era_Industrial
+  rotate: false
+  xy: 1624, 973
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Horse+Pasture-Era_Industrial
   rotate: false
-  xy: 760, 672
+  xy: 1624, 973
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Incense
+  rotate: false
+  xy: 1696, 1004
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Incense
   rotate: false
-  xy: 832, 672
+  xy: 1696, 1004
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Incense+Improvement_Plantation
+  rotate: false
+  xy: 1768, 1019
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Incense+Improvement_Plantation
   rotate: false
-  xy: 904, 672
+  xy: 1768, 1019
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Iron
+  rotate: false
+  xy: 1840, 1044
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Iron
   rotate: false
-  xy: 976, 672
+  xy: 1840, 1044
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Ivory
+  rotate: false
+  xy: 1912, 1052
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Ivory
   rotate: false
-  xy: 1048, 673
+  xy: 1912, 1052
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Ivory+Improvement_Encampment
+  rotate: false
+  xy: 1696, 940
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Ivory+Improvement_Encampment
   rotate: false
-  xy: 1120, 673
+  xy: 1696, 940
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Ivory+Improvement_Encampment-Era_Industrial
+  rotate: false
+  xy: 1768, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Ivory+Improvement_Encampment-Era_Industrial
   rotate: false
-  xy: 1192, 673
+  xy: 1768, 955
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Leather
+  rotate: false
+  xy: 1840, 980
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Leather
   rotate: false
-  xy: 688, 628
+  xy: 1840, 980
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Leather+Improvement_Encampment
+  rotate: false
+  xy: 1912, 988
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Leather+Improvement_Encampment
   rotate: false
-  xy: 760, 608
+  xy: 1912, 988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Leather+Improvement_Encampment-Era_Industrial
+  rotate: false
+  xy: 1840, 916
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Leather+Improvement_Encampment-Era_Industrial
   rotate: false
-  xy: 832, 608
+  xy: 1840, 916
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_LeatherT
+  rotate: false
+  xy: 1912, 924
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_LeatherT
   rotate: false
-  xy: 904, 608
+  xy: 1912, 924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_LeatherT+Improvement_Encampment
+  rotate: false
+  xy: 1768, 891
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_LeatherT+Improvement_Encampment
   rotate: false
-  xy: 976, 608
+  xy: 1768, 891
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_LeatherT+Improvement_Encampment-Era_Industrial
+  rotate: false
+  xy: 1840, 852
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_LeatherT+Improvement_Encampment-Era_Industrial
   rotate: false
-  xy: 1048, 609
+  xy: 1840, 852
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Marble
+  rotate: false
+  xy: 1912, 860
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Marble
   rotate: false
-  xy: 1120, 609
+  xy: 1912, 860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Marble+Improvement_Quarry
+  rotate: false
+  xy: 1912, 796
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_Quarry
   rotate: false
-  xy: 1192, 609
+  xy: 1912, 796
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Marble+Improvement_Quarry-Era_Industrial
+  rotate: false
+  xy: 1048, 985
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_Quarry-Era_Industrial
   rotate: false
-  xy: 652, 564
+  xy: 1048, 985
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Marble+Improvement_QuarryT
+  rotate: false
+  xy: 1048, 921
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_QuarryT
   rotate: false
-  xy: 1228, 1021
+  xy: 1048, 921
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Marble+Improvement_QuarryT-Era_Industrial
+  rotate: false
+  xy: 1120, 985
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Marble+Improvement_QuarryT-Era_Industrial
   rotate: false
-  xy: 1300, 1021
+  xy: 1120, 985
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Oil
+  rotate: false
+  xy: 1120, 921
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Oil
   rotate: false
-  xy: 1372, 1021
+  xy: 1120, 921
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_OilS
+  rotate: false
+  xy: 1192, 989
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_OilS
   rotate: false
-  xy: 724, 544
+  xy: 1192, 989
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Pearls
+  rotate: false
+  xy: 1264, 1020
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Pearls
   rotate: false
-  xy: 796, 544
+  xy: 1264, 1020
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Salt
+  rotate: false
+  xy: 1192, 925
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Salt
   rotate: false
-  xy: 868, 544
+  xy: 1192, 925
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Sheep
+  rotate: false
+  xy: 1264, 956
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Sheep
   rotate: false
-  xy: 940, 544
+  xy: 1264, 956
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Sheep+Pasture
+  rotate: false
+  xy: 1336, 984
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Sheep+Pasture
   rotate: false
-  xy: 1012, 544
+  xy: 1336, 984
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Sheep+Pasture-Era_Industrial
+  rotate: false
+  xy: 1408, 976
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Sheep+Pasture-Era_Industrial
   rotate: false
-  xy: 1084, 545
+  xy: 1408, 976
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Silk
+  rotate: false
+  xy: 1480, 957
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Silk
   rotate: false
-  xy: 1156, 545
+  xy: 1480, 957
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Silk+Improvement_Plantation
+  rotate: false
+  xy: 1552, 937
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Silk+Improvement_Plantation
   rotate: false
-  xy: 1228, 545
+  xy: 1552, 937
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Silver
+  rotate: false
+  xy: 1624, 909
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Silver
   rotate: false
-  xy: 688, 480
+  xy: 1624, 909
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Spices
+  rotate: false
+  xy: 1696, 876
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Spices
   rotate: false
-  xy: 760, 480
+  xy: 1696, 876
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Spices+Improvement_Plantation
+  rotate: false
+  xy: 1768, 827
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Spices+Improvement_Plantation
   rotate: false
-  xy: 832, 480
+  xy: 1768, 827
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Stone
+  rotate: false
+  xy: 1840, 788
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Stone
   rotate: false
-  xy: 904, 480
+  xy: 1840, 788
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Stone+Improvement_Quarry-Era_Industrial
+  rotate: false
+  xy: 1336, 920
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_Quarry-Era_Industrial
   rotate: false
-  xy: 976, 480
+  xy: 1336, 920
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Stone+Improvement_QuarryT
+  rotate: false
+  xy: 1408, 912
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_QuarryT
   rotate: false
-  xy: 1048, 480
+  xy: 1408, 912
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Stone+Improvement_QuarryT-Era_Industrial
+  rotate: false
+  xy: 1264, 892
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_QuarryT-Era_Industrial
   rotate: false
-  xy: 1120, 481
+  xy: 1264, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Stone+Improvement_Quarryy
+  rotate: false
+  xy: 1480, 893
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Stone+Improvement_Quarryy
   rotate: false
-  xy: 1192, 481
+  xy: 1480, 893
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_StoneD
+  rotate: false
+  xy: 1552, 873
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_StoneD
   rotate: false
-  xy: 1264, 481
+  xy: 1552, 873
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_StoneD+Improvement_Quarry
+  rotate: false
+  xy: 1624, 845
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_StoneD+Improvement_Quarry
   rotate: false
-  xy: 688, 416
+  xy: 1624, 845
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_StoneD+Improvement_Quarry-Era_Industrial
+  rotate: false
+  xy: 1696, 812
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_StoneD+Improvement_Quarry-Era_Industrial
   rotate: false
-  xy: 760, 416
+  xy: 1696, 812
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Sugar
+  rotate: false
+  xy: 1768, 763
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Sugar
   rotate: false
-  xy: 832, 416
+  xy: 1768, 763
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Resource_Sugar+Improvement_Plantation
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Sugar+Improvement_Plantation
   rotate: false
-  xy: 904, 408
+  xy: 1192, 853
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Resource_Sugar+Improvement_Plantation
+  rotate: false
+  xy: 1192, 853
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Truffles
+  rotate: false
+  xy: 1264, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Resource_Truffles
   rotate: false
-  xy: 976, 416
+  xy: 1264, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Truffles+Improvement_Encampment
+  rotate: false
+  xy: 1336, 856
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_Encampment
   rotate: false
-  xy: 1048, 416
+  xy: 1336, 856
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Truffles+Improvement_Encampment-Era_Industrial
+  rotate: false
+  xy: 1408, 848
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_Encampment-Era_Industrial
   rotate: false
-  xy: 1120, 417
+  xy: 1408, 848
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Truffles+Improvement_EncampmentT
+  rotate: false
+  xy: 1480, 829
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_EncampmentT
   rotate: false
-  xy: 1192, 417
+  xy: 1480, 829
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Truffles+Improvement_EncampmentT-Era_Industrial
+  rotate: false
+  xy: 1552, 809
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Truffles+Improvement_EncampmentT-Era_Industrial
   rotate: false
-  xy: 1264, 417
+  xy: 1552, 809
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Uranium
+  rotate: false
+  xy: 1624, 781
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Uranium
   rotate: false
-  xy: 976, 352
+  xy: 1624, 781
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Whales
+  rotate: false
+  xy: 1696, 748
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Whales
   rotate: false
-  xy: 1048, 352
+  xy: 1696, 748
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Whales+Improvement_Fishing_Boat
+  rotate: false
+  xy: 1336, 792
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Whales+Improvement_Fishing_Boat
   rotate: false
-  xy: 1120, 353
+  xy: 1336, 792
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Whales+Improvement_Fishing_Boat-Era_Industrial
+  rotate: false
+  xy: 1408, 784
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Whales+Improvement_Fishing_Boat-Era_Industrial
   rotate: false
-  xy: 1192, 353
+  xy: 1408, 784
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Wheat
+  rotate: false
+  xy: 1480, 765
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Wheat
   rotate: false
-  xy: 1264, 353
+  xy: 1480, 765
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Wine
+  rotate: false
+  xy: 1552, 745
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Wine
   rotate: false
-  xy: 222, 157
+  xy: 1552, 745
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Resource_Wine+Improvement_Plantation
+  rotate: false
+  xy: 1624, 717
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Resource_Wine+Improvement_Plantation
   rotate: false
-  xy: 222, 93
+  xy: 1624, 717
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/River-Bottom
+  rotate: false
+  xy: 1696, 684
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/River-Bottom
   rotate: false
-  xy: 294, 157
+  xy: 1696, 684
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/River-BottomLeft
+  rotate: false
+  xy: 1768, 699
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/River-BottomLeft
   rotate: false
-  xy: 294, 93
+  xy: 1768, 699
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/River-BottomRight
+  rotate: false
+  xy: 1840, 724
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/River-BottomRight
   rotate: false
-  xy: 366, 157
+  xy: 1840, 724
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/RuinsD
+  rotate: false
+  xy: 1912, 732
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/RuinsD
   rotate: false
-  xy: 366, 93
+  xy: 1912, 732
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/RuinsG
+  rotate: false
+  xy: 1840, 660
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/RuinsG
   rotate: false
-  xy: 438, 157
+  xy: 1840, 660
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/RuinsT
+  rotate: false
+  xy: 1912, 668
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/RuinsT
   rotate: false
-  xy: 438, 93
+  xy: 1912, 668
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Snow
+TileSets/Civ6 Strategic Perspectives/Tiles/Snow
   rotate: false
-  xy: 222, 29
+  xy: 1768, 635
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Snow+Landform_Hill
+  rotate: false
+  xy: 1084, 857
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Landform_Hill
   rotate: false
-  xy: 438, 29
+  xy: 1084, 857
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout
+  rotate: false
+  xy: 1156, 789
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout
   rotate: false
-  xy: 510, 93
+  xy: 1156, 789
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout2
+  rotate: false
+  xy: 544, 392
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Landform_Hill+Landform_Nuclear fallout2
   rotate: false
-  xy: 510, 29
+  xy: 544, 392
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Snow+Landform_Hill2
+  rotate: false
+  xy: 1084, 793
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Landform_Hill2
   rotate: false
-  xy: 510, 157
+  xy: 1084, 793
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Snow2
+TileSets/Civ6 Strategic Perspectives/Tiles/Tundra
   rotate: false
-  xy: 294, 29
+  xy: 616, 392
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Snow3
+TileSets/Civ6 Strategic Perspectives/Tiles/Tundra+Landform_Hill
   rotate: false
-  xy: 366, 29
+  xy: 580, 328
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Tundra
+TileSets/Civ6 Strategic Perspectives/Tiles/Tundra+Landform_Hill2
   rotate: false
-  xy: 1444, 1485
+  xy: 580, 264
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Tundra+Landform_Hill
+TileSets/Civ6 Strategic Perspectives/Tiles/奇观
   rotate: false
-  xy: 1444, 1421
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Landform_Hill+Fallout2
-  rotate: false
-  xy: 1588, 1408
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Landform_Hill+Landform_Nuclear fallout
-  rotate: false
-  xy: 1660, 1453
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Landform_Hill2
-  rotate: false
-  xy: 1516, 1409
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra2
-  rotate: false
-  xy: 1516, 1473
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra3
-  rotate: false
-  xy: 1588, 1472
+  xy: 724, 256
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/奇观
   rotate: false
-  xy: 1660, 1389
+  xy: 724, 256
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/社区
+  rotate: false
+  xy: 796, 320
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/社区
   rotate: false
-  xy: 1408, 1357
+  xy: 796, 320
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/航空港
+  rotate: false
+  xy: 796, 256
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/航空港
   rotate: false
-  xy: 1408, 1293
+  xy: 796, 256
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/TopBorder
+TileSets/Civ6 Strategic Perspectives/TopBorder
   rotate: false
-  xy: 616, 668
+  xy: 724, 776
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/TopBorder
+  rotate: false
+  xy: 724, 776
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ancient ruins
+  rotate: false
+  xy: 328, 477
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Barbarian encampment
+  rotate: false
+  xy: 544, 732
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Barbarian encampmentT
+  rotate: false
+  xy: 652, 840
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 868, 1056
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coast
+  rotate: false
+  xy: 1732, 1965
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 436, 560
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill
+  rotate: false
+  xy: 652, 776
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout
+  rotate: false
+  xy: 220, 296
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill+Landform_Nuclear fallout2
+  rotate: false
+  xy: 760, 876
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Landform_Hill2
+  rotate: false
+  xy: 112, 194
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert2
+  rotate: false
+  xy: 1084, 1317
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert3
+  rotate: false
+  xy: 328, 413
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Distict_Academy_of_Classical_Learning
+  rotate: false
+  xy: 400, 477
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District_Campus
+  rotate: false
+  xy: 400, 477
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District_Mayan_Observatory
+  rotate: false
+  xy: 400, 477
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District_Commercial_Hub
+  rotate: false
+  xy: 616, 712
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District_Mandingo_Market
+  rotate: false
+  xy: 616, 712
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District_Holy_Site
+  rotate: false
+  xy: 436, 269
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District_Lavra_Monastery
+  rotate: false
+  xy: 436, 269
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland
+  rotate: false
+  xy: 688, 648
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill
+  rotate: false
+  xy: 652, 520
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout
+  rotate: false
+  xy: 724, 812
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill+Landform_Nuclear fallout2
+  rotate: false
+  xy: 724, 584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Landform_Hill2
+  rotate: false
+  xy: 904, 864
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland2
+  rotate: false
+  xy: 580, 584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland3
+  rotate: false
+  xy: 652, 584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Encampment
+  rotate: false
+  xy: 544, 456
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Encampment-Era_Industrial
+  rotate: false
+  xy: 616, 456
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Manufactory
+  rotate: false
+  xy: 1516, 1677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/Landform_ForestG
+  rotate: false
+  xy: 1516, 1677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Forest
+  rotate: false
+  xy: 1516, 1677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_ForestG
+  rotate: false
+  xy: 1516, 1677
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement_Terrace_Farm
+  rotate: false
+  xy: 976, 864
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lakes
+  rotate: false
+  xy: 1048, 1177
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Ice cap
+  rotate: false
+  xy: 1768, 1467
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Nuclear fallout
+  rotate: false
+  xy: 1768, 1403
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Oasis
+  rotate: false
+  xy: 1912, 1388
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform_Reef
+  rotate: false
+  xy: 1372, 1504
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain
+  rotate: false
+  xy: 1696, 1388
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain1
+  rotate: false
+  xy: 1696, 1388
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain2
+  rotate: false
+  xy: 1552, 1385
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder_Fountain_of_Youth
+  rotate: false
+  xy: 1912, 1324
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder_Ha_Long_Bay
+  rotate: false
+  xy: 1912, 1260
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ocean
+  rotate: false
+  xy: 1480, 1341
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains
+  rotate: false
+  xy: 1624, 1293
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill
+  rotate: false
+  xy: 1336, 1304
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill+Fallout2
+  rotate: false
+  xy: 1480, 1277
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill+Landform_Nuclear fallout
+  rotate: false
+  xy: 1408, 1232
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Landform_Hill2
+  rotate: false
+  xy: 1336, 1240
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains2
+  rotate: false
+  xy: 1696, 1260
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains3
+  rotate: false
+  xy: 1768, 1211
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow
+  rotate: false
+  xy: 1840, 596
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow2
+  rotate: false
+  xy: 1912, 604
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow3
+  rotate: false
+  xy: 1912, 540
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra
+  rotate: false
+  xy: 688, 384
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill
+  rotate: false
+  xy: 508, 264
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill+Fallout2
+  rotate: false
+  xy: 724, 320
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill+Landform_Nuclear fallout
+  rotate: false
+  xy: 652, 256
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Landform_Hill2
+  rotate: false
+  xy: 652, 320
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra2
+  rotate: false
+  xy: 760, 384
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra3
+  rotate: false
+  xy: 508, 328
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/GreatPerson_Class_Engineer

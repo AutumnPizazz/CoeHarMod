@@ -330,7 +330,8 @@
 		"preferredVictoryType": "Victory type_Science",
 		
 		"uniqueName": "Roosevelt's New Deal",
-		"uniques": ["Discover [Tech_UniqueToUnitedStates]",
+		"uniques": [
+		"Starts with [Tech_UniqueToUnitedStates]",
 		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon entering a Golden Age>",
 		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon constructing [Building_Classification_College_District] [in capital]>",
 		"Instantly provides [1] [Resource_New_Deal_Legislation] <upon discovering [Tech_Economy]>",

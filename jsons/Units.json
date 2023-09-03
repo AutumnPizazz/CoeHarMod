@@ -470,11 +470,11 @@
 		"name": "GreatPerson_Class_Artist",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-		"Instantly consumes [30] [Resource_GreatPerson_Class_Artist] <before [30] turns>",
-		"Instantly consumes [60] [Resource_GreatPerson_Class_Artist] <after [30] turns> <before [60] turns>",
-		"Instantly consumes [90] [Resource_GreatPerson_Class_Artist] <after [60] turns> <before [90] turns>",
-		"Instantly consumes [120] [Resource_GreatPerson_Class_Artist] <after [90] turns> <before [120] turns>",
-		"Instantly consumes [150] [Resource_GreatPerson_Class_Artist] <after [120] turns>",
+		"Costs [30] [Resource_GreatPerson_Class_Artist] <before [30] turns>",
+		"Costs [60] [Resource_GreatPerson_Class_Artist] <after [30] turns> <before [60] turns>",
+		"Costs [90] [Resource_GreatPerson_Class_Artist] <after [60] turns> <before [90] turns>",
+		"Costs [120] [Resource_GreatPerson_Class_Artist] <after [90] turns> <before [120] turns>",
+		"Costs [150] [Resource_GreatPerson_Class_Artist] <after [120] turns>",
             "Empire enters a [16]-turn Golden Age <by consuming this unit>",
             "Great Person - [Culture]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -483,11 +483,11 @@
 		"name": "GreatPerson_Class_Scientist",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_Scientist] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_Scientist] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_Scientist] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_Scientist] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_Scientist] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_Scientist] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_Scientist] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_Scientist] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_Scientist] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_Scientist] <after [120] turns>",
             "Can hurry technology research",
             "Great Person - [Science]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -496,11 +496,11 @@
 		"name": "GreatPerson_Class_Merchant",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_Merchant] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_Merchant] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_Merchant] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_Merchant] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_Merchant] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_Merchant] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_Merchant] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_Merchant] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_Merchant] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_Merchant] <after [120] turns>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Gain [200] [Gold] <by consuming this unit> <during the [Era_Ancient]>",
 			"Gain [400] [Gold] <by consuming this unit> <during the [Era_Classical]>",
@@ -517,11 +517,11 @@
 		"name": "GreatPerson_Class_Engineer",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_Engineer] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_Engineer] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_Engineer] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_Engineer] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_Engineer] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_Engineer] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_Engineer] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_Engineer] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_Engineer] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_Engineer] <after [120] turns>",
 			"Can speed up construction of a building",
             "Great Person - [Production]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -530,11 +530,11 @@
 		"name": "GreatPerson_Class_Prophet",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_Prophet] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_Prophet] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_Prophet] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_Prophet] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_Prophet] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_Prophet] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_Prophet] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_Prophet] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_Prophet] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_Prophet] <after [120] turns>",
             "Can instantly construct a [Improvement_Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
@@ -550,11 +550,11 @@
 		"name": "GreatPerson_Class_General",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_General] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_General] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_General] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_General] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
 			"Can transform to [Unit_Grand_Marshal] <for [Nation_Qin]>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation_Tang]> <if [Building_TheGrandPalace] is constructed>",
@@ -568,11 +568,11 @@
 		"uniqueTo":"Nation_Qin",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_General] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_General] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_General] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_General] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation_Tang]> <if [Building_TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
@@ -592,11 +592,11 @@
 		"name": "GreatPerson_Class_Admiral",
 		"unitType": "Unit_Type_Civilian_Ship",
 		"uniques": [
-			"Instantly consumes [30] [Resource_GreatPerson_Class_Admiral] <before [30] turns>",
-			"Instantly consumes [60] [Resource_GreatPerson_Class_Admiral] <after [30] turns> <before [60] turns>",
-			"Instantly consumes [90] [Resource_GreatPerson_Class_Admiral] <after [60] turns> <before [90] turns>",
-			"Instantly consumes [120] [Resource_GreatPerson_Class_Admiral] <after [90] turns> <before [120] turns>",
-			"Instantly consumes [150] [Resource_GreatPerson_Class_Admiral] <after [120] turns>",
+			"Costs [30] [Resource_GreatPerson_Class_Admiral] <before [30] turns>",
+			"Costs [60] [Resource_GreatPerson_Class_Admiral] <after [30] turns> <before [60] turns>",
+			"Costs [90] [Resource_GreatPerson_Class_Admiral] <after [60] turns> <before [90] turns>",
+			"Costs [120] [Resource_GreatPerson_Class_Admiral] <after [90] turns> <before [120] turns>",
+			"Costs [150] [Resource_GreatPerson_Class_Admiral] <after [120] turns>",
             "[23]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Great Person - [War]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 5
@@ -1029,7 +1029,7 @@
 		"movement":4,
 		"uniques":["Unbuildable",
 		"Gain [-175] [Gold]",
-		"Instantly consumes [40] [Resource_Influence]",
+		"Costs [40] [Resource_Influence]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [Victory type_Diplomacy] Victory is disabled"]
 	},
@@ -1270,8 +1270,9 @@
 		"cost":30,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Ranger",
+		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["Rough terrain penalty","Era_Ancient"]
+		"uniques":["Rough terrain penalty"]
 	},
 	{//散兵
 		"name":"Unit_Ranger",
@@ -1285,7 +1286,7 @@
 		"upgradesTo":"Unit_Cavalry2",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
-		"uniques":["Era_Medieval",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -1304,7 +1305,6 @@
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
 		"uniques":["[1] additional attacks per turn",
-		"Era_Medieval",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -1320,7 +1320,7 @@
 		"upgradesTo":"Unit_SpecOps",
 		"requiredTech": "Tech_Rifling",
 		"obsoleteTech": "Tech_Plastic",
-		"uniques":["Era_Industrial",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -1335,7 +1335,7 @@
 		"cost":520,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Plastic",
-		"uniques":["May Paradrop up to [6] tiles from inside friendly territory","Era_Atomic",
+		"uniques":["May Paradrop up to [6] tiles from inside friendly territory",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
@@ -1351,11 +1351,12 @@
 		"cost":35,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
+		"requiredTech":"Initial tech_civic_Agriculture",
+		"obsoleteTech":"Tech_Alchemy",
 		"uniques":["[+1] Sight",
 		"[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
 		"[+97]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
-		"Only available <before discovering [Tech_Apprentices]>",
-		"Era_Ancient"]
+		"Only available <before discovering [Tech_Apprentices]>"]
 	},
 	{//勇士
 		"name":"Unit_Warrior",
@@ -1365,9 +1366,9 @@
 		"cost":40,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
+		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":[
-		"Era_Ancient",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//高卢-高卢枪佣兵
@@ -1390,7 +1391,6 @@
 		"[+51]% Strength <vs [Era_Information] units>",
 		"[+51]% Strength <vs [Era_Near-future] units>",
 		"[+51]% Strength <vs [Era_Far-future] units>",
-		"Era_Ancient",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"],
 		"replacementTextForUniques":"+51% combat power against more advanced era units"
 	},
@@ -1406,7 +1406,6 @@
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
-		"Era_Ancient",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//剑客
@@ -1419,8 +1418,8 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1443,8 +1442,8 @@
 			"Can build [Remove Landform_Rainforest] improvements on tiles",
 			"Can build [Remove Landform_Nuclear fallout] improvements on tiles",
 			"Can build [Remove Landform_Swamp] improvements on tiles",
-			"Instantly consumes [8] [Resource_Iron]",
-			"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+			"Costs [8] [Resource_Iron]",
+			"[-64]% Strength <when below [0] [Resource_Iron]>",
 			"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
 			"Consumes [-1] [Resource_Military_Maintenance1]",
 			"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1464,8 +1463,8 @@
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
 		"uniques":["[-28]% Strength <when attacking>",
-		"Instantly consumes [5] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"Costs [5] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1482,8 +1481,8 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
@@ -1501,8 +1500,8 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Classical",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"[-23]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"Can instantly construct a [Improvement_Pabo] improvement <[1] times>",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
@@ -1519,8 +1518,8 @@
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1539,8 +1538,8 @@
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
 		"uniques":["[1] additional attacks per turn",
-		"Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1558,11 +1557,10 @@
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
+		"uniques":["Costs [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Damage is ignored when determining unit Strength",
 		"Heal this unit by [5] HP <upon ending a turn in a [Coastal] tile>",
-		"Era_Medieval",
 		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1578,8 +1576,8 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
-		"uniques":["Instantly consumes [10] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"uniques":["Costs [10] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1598,8 +1596,8 @@
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
 		"uniques":["[-1] population in a random city <upon being defeated>",
-		"Instantly consumes [15] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"Costs [15] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1618,8 +1616,8 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
-		"uniques":["Instantly consumes [5] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"uniques":["Costs [5] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1635,8 +1633,8 @@
 		"upgradesTo":"Unit_Infantry",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
-		"uniques":["Instantly consumes [10] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
+		"uniques":["Costs [10] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1655,8 +1653,8 @@
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
 		"uniques":["[+23]% Strength <on foreign continents>",
-		"Instantly consumes [5] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Industrial",
+		"Costs [5] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1673,9 +1671,8 @@
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
 		"obsoleteTech": "Tech_Satellite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]",
+		"uniques":["Costs [1] [Resource_Oil]",
 		"[-64]% Strength <when below [0] [Resource_Oil]>",
-		"Era_Modern",
 		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1696,7 +1693,6 @@
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
-		"Era_Modern",
 		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1710,7 +1706,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource": "Resource_Oil",
 		"requiredTech": "Tech_Satellite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information",
+		"uniques":["Costs [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -1728,7 +1724,7 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Archer",
 		"obsoleteTech": "Tech_Archey",
-		"uniques":["Era_Ancient"]
+		"uniques":[]
 	},
 	{//弓箭手
 		"name":"Unit_Archer",
@@ -1742,7 +1738,7 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["Era_Ancient",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//玛雅-投枪手
@@ -1759,7 +1755,7 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
-		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>","Era_Ancient",
+		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//弩手
@@ -1774,7 +1770,7 @@
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["Era_Medieval",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-1] [Resource_Military_Maintenance3]"]
@@ -1793,7 +1789,7 @@
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>","Era_Medieval",
+		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-1] [Resource_Military_Maintenance3]"]
@@ -1810,7 +1806,7 @@
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
-		"uniques":["Era_Industrial",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -1829,7 +1825,7 @@
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
-		"uniques":["Must set up to ranged attack","Era_Industrial",
+		"uniques":["Must set up to ranged attack",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -1844,7 +1840,7 @@
 		"cost":540,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Advanced ballistics",
-		"uniques":["Era_Atomic",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -1863,7 +1859,7 @@
 		"upgradesTo":"Unit_Battering_Ram",
 		"requiredTech": "Tech_Project",
 		"obsoleteTech": "Tech_Military engineering",
-		"uniques":["Era_Classical",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -1879,7 +1875,7 @@
 		"upgradesTo":"Unit_Siege_Tower",
 		"requiredTech": "Tech_Military engineering",
 		"obsoleteTech": "Tech_Metal casting",
-		"uniques":["Era_Medieval",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-1] [Resource_Military_Maintenance3]"]
@@ -1897,7 +1893,7 @@
 		"upgradesTo":"Unit_Artillery",
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Steel",
-		"uniques":["Era_Renaissance",
+		"uniques":[
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1916,7 +1912,7 @@
 		"upgradesTo":"Unit_Rocket_Artillery",
 		"requiredTech": "Tech_Steel",
 		"obsoleteTech": "Tech_Guidance system",
-		"uniques":["Era_Modern",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -1932,7 +1928,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Guidance system",
-		"uniques":["Era_Information",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -1952,9 +1948,8 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Animal husbandry",
 		"obsoleteTech": "Tech_Castle",
-		"uniques":["Instantly consumes [4] [Resource_Horse]",
+		"uniques":["Costs [4] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Ancient",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//骑手(小马)
@@ -1967,9 +1962,8 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
-		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"uniques":["Costs [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -1985,9 +1979,8 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
-		"uniques":["Instantly consumes [10] [Resource_Horse]",
+		"uniques":["Costs [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -2004,9 +1997,8 @@
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
 		"uniques":["[+50]% to Flank Attack bonuses",
-		"Instantly consumes [10] [Resource_Horse]",
+		"Costs [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
-		"Era_Classical",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"promotions":["Promotion_zhuiliezhe"]
@@ -2021,8 +2013,8 @@
 		"upgradesTo":"Unit_Cavalry",
 		"requiredTech": "Tech_Castle",
 		"obsoleteTech": "Tech_Military science",
-		"uniques":["Instantly consumes [10] [Resource_Horse]",
-		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Medieval",
+		"uniques":["Costs [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-1] [Resource_Military_Maintenance3]"]
@@ -2037,8 +2029,8 @@
 		"upgradesTo":"Unit_Helicopter",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
-		"uniques":["Instantly consumes [10] [Resource_Horse]",
-		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial",
+		"uniques":["Costs [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -2057,8 +2049,8 @@
 		"obsoleteTech": "Tech_Synthetic",
 		"uniques":["Can move after attacking",
 		"[+23]% Strength <when fighting in [Friendly Land] tiles>",
-		"Instantly consumes [10] [Resource_Horse]",
-		"[-64]% Strength <when below [0] [Resource_Horse]>","Era_Industrial",
+		"Costs [10] [Resource_Horse]",
+		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -2072,12 +2064,10 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Synthetic",
-		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+		"uniques":["Costs [1] [Resource_Aluminum]",
 		"Can see over obstacles",
 		"Can pass through impassable tiles",
-		"All tiles cost 1 movement",
-		"Era_Atomic",
-		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"All tiles cost 1 movement",		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
@@ -2093,7 +2083,7 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
-		"uniques":["[+1] Movement <in [Open terrain] tiles>","Era_Ancient",
+		"uniques":["[+1] Movement <in [Open terrain] tiles>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//埃及-贵族世袭战车射手
@@ -2114,7 +2104,6 @@
 		"Rough terrain penalty",
 		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion_chongfeng]>",
 		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
-		"Era_Ancient",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//印度-战象
@@ -2129,7 +2118,7 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Stirrups",
-		"uniques":["Era_Classical",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"promotions":["[Unit_Varu] ability"]
@@ -2144,8 +2133,8 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2163,8 +2152,8 @@
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["Earn [35]% of killed [Military] unit's [Strength] as [Gold]",
-		"Instantly consumes [8] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Costs [8] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2181,8 +2170,8 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"],
@@ -2202,8 +2191,8 @@
 		"obsoleteTech": "Tech_Ballistics",
 		"uniques":["[+13]% Strength bonus for [Military] units within [1] tiles",
 		"[+23]% Strength <vs cities> <when attacking>",
-		"Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Medieval",
+		"Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2218,8 +2207,8 @@
 		"upgradesTo":"Unit_Tank",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Internal combustion engine",
-		"uniques":["Instantly consumes [10] [Resource_Iron]",
-		"[-64]% Strength <when below [0] [Resource_Iron]>","Era_Industrial",
+		"uniques":["Costs [10] [Resource_Iron]",
+		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -2235,8 +2224,8 @@
 		"upgradesTo":"Unit_Modern_Armor",
 		"requiredTech": "Tech_Internal combustion engine",
 		"obsoleteTech": "Tech_Composite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]",
-		"[-64]% Strength <when below [0] [Resource_Oil]>","Era_Modern",
+		"uniques":["Costs [1] [Resource_Oil]",
+		"[-64]% Strength <when below [0] [Resource_Oil]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -2250,7 +2239,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Composite",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Information",
+		"uniques":["Costs [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2267,7 +2256,7 @@
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
-		"uniques":["Era_Ancient",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//希腊-重装步兵
@@ -2282,7 +2271,7 @@
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
-		"uniques":["Era_Ancient","[+51]% Strength <when adjacent to a [Unit_Heavy_Infantry] unit>",
+		"uniques":["[+51]% Strength <when adjacent to a [Unit_Heavy_Infantry] unit>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//长矛兵
@@ -2295,7 +2284,7 @@
 		"upgradesTo":"Unit_Pike_and_Shot",
 		"requiredTech": "Tech_Tactics",
 		"obsoleteTech": "Tech_Metal casting",
-		"uniques":["Era_Medieval",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
@@ -2309,7 +2298,7 @@
 		"upgradesTo":"Unit_Anti_Tank_Crew",
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Chemistry",
-		"uniques":["Era_Renaissance",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2324,7 +2313,7 @@
 		"upgradesTo":"Unit_Modern_Anti_Tank_Crew",
 		"requiredTech": "Tech_Chemistry",
 		"obsoleteTech": "Tech_Composite",
-		"uniques":["Era_Modern",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2337,7 +2326,7 @@
 		"cost":580,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Composite",
-		"uniques":["Era_Information",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2352,7 +2341,7 @@
 		"cost":65,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Trireme",
-		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Ancient",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"],
 		"requiredTech": "Tech_Nautical art",
 		"obsoleteTech": "Tech_Cartography"
@@ -2367,7 +2356,7 @@
 		"upgradesTo":"Unit_Frigate",
 		"requiredTech": "Tech_Cartography",
 		"obsoleteTech": "Tech_Steam power",
-		"uniques":["Era_Medieval",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2383,8 +2372,8 @@
 		"upgradesTo":"Unit_Destroyer",
 		"requiredTech": "Tech_Steam power",
 		"obsoleteTech": "Tech_Joint operations",
-		"uniques":["Instantly consumes [1] [Resource_Coal]",
-		"[-64]% Strength <when below [0] [Resource_Coal]>","Era_Industrial",
+		"uniques":["Costs [1] [Resource_Coal]",
+		"[-64]% Strength <when below [0] [Resource_Coal]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -2398,10 +2387,9 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Joint operations",
-		"uniques":["Instantly consumes [1] [Resource_Coal]",
+		"uniques":["Costs [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
 		"[+23]% Strength <vs [Unit_Type_Missile] units>",
-		"Era_Atomic",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
@@ -2418,7 +2406,7 @@
 		"cost":120,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cruiser",
-		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"requiredTech": "Tech_Shipbuilding",
@@ -2436,7 +2424,7 @@
 		"cost":120,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Cruiser",
-		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>","Era_Classical",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"requiredTech": "Tech_Shipbuilding",
@@ -2455,8 +2443,8 @@
 		"upgradesTo":"Unit_Battleship",
 		"requiredTech": "Tech_Crossail device",
 		"obsoleteTech": "Tech_Refining",
-		"uniques":["Instantly consumes [1] [Resource_Niter]",
-		"[-64]% Strength <when below [0] [Resource_Niter]>","Era_Renaissance",
+		"uniques":["Costs [1] [Resource_Niter]",
+		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -2476,11 +2464,10 @@
 		"upgradesTo":"Unit_Battleship",
 		"requiredTech": "Tech_Crossail device",
 		"obsoleteTech": "Tech_Refining",
-		"uniques":["Instantly consumes [1] [Resource_Niter]",
+		"uniques":["Costs [1] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"[+1] Movement <when adjacent to a [GreatPerson_Class_Admiral] unit>",
 		"[+23]% Strength <when adjacent to a [GreatPerson_Class_Admiral] unit>",
-		"Era_Renaissance",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-3] [Resource_Military_Maintenance3]"]
@@ -2499,10 +2486,9 @@
 		"upgradesTo":"Unit_Missile_Cruiser",
 		"requiredTech": "Tech_Refining",
 		"obsoleteTech": "Tech_Laser",
-		"uniques":["Instantly consumes [1] [Resource_Coal]",
+		"uniques":["Costs [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
 		"[+118]% Strength <vs [Unit_Type_Missile] units>",
-		"Era_Modern",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -2519,9 +2505,9 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Laser",
-		"uniques":["Instantly consumes [1] [Resource_Oil]",
+		"uniques":["Costs [1] [Resource_Oil]",
 			"[+118]% Strength <vs [Unit_Type_Missile] units>",
-			"Era_Information",
+			
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2540,7 +2526,7 @@
 		"upgradesTo":"Unit_Submarine",
 		"requiredTech": "Civic_Mercantilism",
 		"obsoleteTech": "Tech_Electricity",
-		"uniques":["Era_Renaissance",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-2] [Resource_Military_Maintenance3]"]
@@ -2558,7 +2544,7 @@
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
-		"uniques":["Instantly consumes [1] [Resource_Oil]","Era_Modern",
+		"uniques":["Costs [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -2580,7 +2566,7 @@
 		"obsoleteTech": "Tech_Telecommunication",
 		"uniques":["[+51]% Strength <when fighting in [Ocean] tiles>",
 		"[+1] Sight",
-		"Instantly consumes [1] [Resource_Oil]","Era_Modern",
+		"Costs [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -2595,9 +2581,9 @@
 		"cost":680,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Telecommunication",
-		"uniques":["Instantly consumes [10] [Resource_Uranium]",
+		"uniques":["Costs [10] [Resource_Uranium]",
 			"[-64]% Strength <when below [0] [Resource_Uranium]>",
-			"Can carry [2] [Unit_Type_Missile] units","Era_Information",
+			"Can carry [2] [Unit_Type_Missile] units",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2614,7 +2600,7 @@
 		"cost":540,
 		"hurryCostModifier":-33,
 		"requiredTech":"Tech_Joint operations",
-		"uniques":["Era_Atomic",
+		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
@@ -2636,9 +2622,9 @@
 		"requiredTech": "Tech_Flight",
 		"obsoleteTech": "Tech_Modern aviation",
 		"uniques":["[75]% chance to intercept air attacks",
-			"Instantly consumes [1] [Resource_Oil]",
+			"Costs [1] [Resource_Oil]",
 			"Unit_Class_Aircraft",
-			"Era_Modern",
+			
 			"Consumes [-1] [Resource_Military_Maintenance1]",
 			"Consumes [-1] [Resource_Military_Maintenance2]",
 			"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -2658,10 +2644,10 @@
 		"requiredTech": "Tech_Modern aviation",
 		"obsoleteTech": "Tech_Laser",
 		"uniques":["[75]% chance to intercept air attacks",
-			"Instantly consumes [1] [Resource_Aluminum]",
+			"Costs [1] [Resource_Aluminum]",
 			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Atomic",
+			
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
@@ -2679,10 +2665,10 @@
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Laser",
 		"uniques":["[75]% chance to intercept air attacks",
-			"Instantly consumes [1] [Resource_Aluminum]",
+			"Costs [1] [Resource_Aluminum]",
 			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Information",
+			
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2702,10 +2688,10 @@
 		"upgradesTo":"Unit_Jet_Bomber",
 		"requiredTech": "Tech_Modern aviation",
 		"obsoleteTech": "Tech_Stealth",
-		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+		"uniques":["Costs [1] [Resource_Aluminum]",
 		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Atomic",
+			
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
@@ -2721,10 +2707,10 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Stealth",
-		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
+		"uniques":["Costs [1] [Resource_Aluminum]",
 		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
-			"Era_Information",
+			
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2741,7 +2727,7 @@
 		"cost":1100,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nuclear fission",
-		"uniques":["Instantly consumes [10] [Resource_Uranium]",
+		"uniques":["Costs [10] [Resource_Uranium]",
 		"Nuclear weapon of Strength [1]",
 		"Only available <if [Building_Manhattan_Project] is constructed>",
 		"Blast radius [1]",
@@ -2757,7 +2743,7 @@
 		"cost":1600,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nuclear Fusion",
-		"uniques":["Instantly consumes [20] [Resource_Uranium]",
+		"uniques":["Costs [20] [Resource_Uranium]",
 		"Nuclear weapon of Strength [2]",
 		"Only available <if [Building_Ivy_League_Project] is constructed>",
 		"Blast radius [2]",
