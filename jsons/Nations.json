@@ -146,19 +146,10 @@
 
 		"startBias": ["Plains"],
 		"uniqueName": "Babylonian gods",
-		"uniqueText":"Every time a library is built, it immediately completes the study of a technology in the current era, or in the ancient era, a technology in the classical era",
-		"uniques": ["[1] free random researchable Tech(s) from the [Era_Classical] <during the [Era_Ancient]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Classical] <during the [Era_Classical]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Medieval] <during the [Era_Medieval]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Medieval] <during the [Era_Medieval]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Renaissance] <during the [Era_Renaissance]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Industrial] <during the [Era_Industrial]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Modern] <during the [Era_Modern]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Atomic] <during the [Era_Atomic]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Information] <during the [Era_Information]> <upon constructing [Building_Library]>",
-		"[1] free random researchable Tech(s) from the [Era_Near-future] <during the [Era_Near-future]> <upon constructing [Building_Library]>"],
+		"uniques": ["Free Technology <upon constructing [Building_Library]>",
+		"[-2 Science] from every [Building_Library]"],
 
-		"cities": ["Babylon", "Uruk", "Nineveh", "Lagash", "Nippur", "Eridu", "Sippar", "Kish", "Borsippa", "Akkad", "Dūr-Kurigalzu", "Isin", "Shuruppak", "Kuara", "Kutalla", "Shaduppum", "Kishgal", "Marad", "Opis", "Zamua"],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna","Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi","Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab","Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
 
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},

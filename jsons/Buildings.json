@@ -3659,13 +3659,13 @@
         "quote": "灯塔是所有目光的焦点。\n——亨利·大卫·梭罗"
     },
 	{//博尔戈尔山
-        "name": "Artificialwonder_Mount_Kilimanjaro",
+        "name": "Artificialwonder_Jebel_Barkal",
         "cost":400,
         "isWonder": true,
         "faith":4,
         "uniques": ["[+4 Faith] <after discovering [Tech_Mechanical]>",
             "Provides [5] [Resource_Iron]",
-            "Creates a [District_Mount_Kilimanjaro] improvement on a specific tile",
+            "Creates a [District_Jebel_Barkal] improvement on a specific tile",
             "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Classical"],
         "requiredTech": "Tech_Alchemy",
@@ -3825,6 +3825,18 @@
             "Wonder_Class_Medieval"],
         "requiredTech": "Tech_Buttresses",
         "quote": "它是一座华丽的重要纪念碑，是跨文化宝藏…除非和直到它能被两种宗教和谐共享——这真是一个伟大的想法——它应该被建成世俗的模样，以此向这两种宗教致敬，是它们让纪念碑如此华丽。\n——牛博·武约维奇"
+    },
+	{//休伊神庙
+        "name": "Artificialwonder_Huiyi_Temple",
+        "cost":710,
+        "isWonder": true,
+        "uniques": ["[+1 Food, +1 Production] from every [Lakes]",
+            "[+1 Happiness] from [Lakes] tiles [in this city]",
+            "Creates a [District_Huiyi_Temple] improvement on a specific tile",
+            "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
+            "Wonder_Class_Medieval"],
+        "requiredTech": "Tech_Tactics",
+        "quote": "但维齐洛波奇特利非常生气，作为牺牲，穿过了4个房间，献身于太阳神，天空中的太阳消失了，或再次出现了。\n——福莱·迪亚哥·杜兰"
     },
 	{//基尔瓦基斯瓦尼
         "name": "Artificialwonder_Kilwa_Kisiwani",

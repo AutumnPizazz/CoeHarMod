@@ -1065,7 +1065,7 @@
 			"District_Class_Wonder"]
 	},
 	{//博尔戈尔山
-		"name":"District_Mount_Kilimanjaro",
+		"name":"District_Jebel_Barkal",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1277,6 +1277,24 @@
 		"happiness":-10,
 		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],//看情况改
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Must be next to [District_Holy_Site]",
+			"District_Class_Wonder"]
+	},
+	{//休伊神庙
+		"name":"District_Huiyi_Temple",
+		"food": -10,
+		"production":-10,
+		"gold":-10,
+		"science":-10,
+		"culture":-10,
+		"happiness":-10,
+		"faith":-10,
+		"terrainsCanBeBuiltOn": ["Lakes"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
