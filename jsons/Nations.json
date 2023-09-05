@@ -704,6 +704,27 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//腓尼基
+		"name": "Nation_Phoenicia",
+		"leaderName": "Dido",
+		"adjective": ["Phoenician"],
+		"outerColor": [109,0,205],
+		"innerColor": [117,163,243],
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Victory type_Domination",
+
+		"uniqueName": "Mediterranean Colony",
+		"uniques": ["Starts with [Tech_Writing]",
+		"[+2] Movement <for [{Embarked} {Unit_Settler}] units>",
+		"[+50]% Production when constructing [All] buildings [in all cities] <in cities with a [Building_Government_Plaza_Unique]>"
+		],
+
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia","Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus","Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula","Saldae"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 

@@ -2346,6 +2346,21 @@
 		"requiredTech": "Tech_Nautical art",
 		"obsoleteTech": "Tech_Cartography"
 	},
+	{//腓尼基-双层桨座战船
+		"name":"Unit_Double_Deck_Paddle_Steamer",
+		"replaces":"Unit_Galley",
+		"uniqueTo":"Nation_Phoenicia",
+		"unitType":"Unit_Type_Short_Ranged_Naval",
+		"strength":186,//35
+		"movement":4,
+		"cost":65,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Trireme",
+		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]"],
+		"requiredTech": "Tech_Nautical art",
+		"obsoleteTech": "Tech_Cartography"
+	},
 	{//轻快帆船
 		"name":"Unit_Trireme",
 		"unitType":"Unit_Type_Short_Ranged_Naval",

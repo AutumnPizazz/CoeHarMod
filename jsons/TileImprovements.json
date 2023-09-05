@@ -474,6 +474,27 @@
 					"Classification_District",
 					"Class_Harbor"]
 	},
+	{//腓尼基-U形港
+		"name": "District_U_shaped_Harbor",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"food": -10,
+		"production":-10,
+		"science":-10,
+		"culture":-10,
+		"faith":-10,
+		"happiness":-10,
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"[+1 Gold] for each adjacent [Classification_District]",
+					"[+1 Gold] for each adjacent [Classification_Resource on water]",
+					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+					"[+2 Gold] for each adjacent [City center]",
+					"Removes removable features when built",
+					"Irremovable",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District",
+					"Class_Harbor"]
+	},
 	{//军营
 		"name": "District_Army",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
