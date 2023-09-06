@@ -1019,7 +1019,10 @@
 		"unitType":"Unit_Type_Civilian",
 		"movement":2,
 		"cost":120,
-		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]>","Requires at least [2] population","[+1] Sight"]
+		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]>",
+		"[+2] Movement <before [2] turns>",
+		"Requires at least [2] population",
+		"[+1] Sight"]
 	},
 
 	/*使者*/
@@ -2104,7 +2107,8 @@
 		"Rough terrain penalty",
 		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion_chongfeng]>",
 		"[+23]% Strength <when attacking> <for units with [Promotion_chongfeng]>",
-		"Consumes [-1] [Resource_Military_Maintenance1]"]
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
 	{//印度-战象
 		"name":"Unit_Varu",

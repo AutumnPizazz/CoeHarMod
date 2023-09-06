@@ -50,15 +50,25 @@
 		"startBias": ["Landform_Rainforest","Landform_Swamp"],
 		"preferredVictoryType": "Victory type_Culture",
 
-		"uniqueName": "Lijia",
-		"uniqueText":"Feature projects are allowed to convert capacity into faith or gold in a 2:1 ratios\n+28% Strength for Military units when fighting in Ming GreatWall tiles when defending\nFor every city with nine or more population +2 science +2 culture +3 Gold, +1 Happiness for every 3 population",
-		"uniques": ["Enables conversion of city production to [Faith]",
+		"uniqueName": "Yongle Prosperity",
+		"uniqueText":"人口不小于10的城市(大城市)的数量=1时,帝国[+6 Science][+6 Culture][+12 Gold]且这些城市每5人口[+1 Happiness]\n大城市数量=2时,帝国[+18 Science][+18 Culture][+30 Gold]且这些城市每4人口[+1 Happiness]\n大城市数量≥3时,帝国[+30 Science][+30 Culture][+50 Gold]且这些城市每3人口[+1 Happiness]",
+		"uniques": [
+			"[+6 Science, +6 Culture, +12 Gold] <when above [0] [Resource_Large_City_Number]> <when below [2] [Resource_Large_City_Number]>",
+			"[+1 Happiness] per [5] population [in all cities] <in cities with at least [10] [Population]> <when above [0] [Resource_Large_City_Number]> <when below [2] [Resource_Large_City_Number]>",
+			"[+18 Science, +18 Culture, +30 Gold] <when above [1] [Resource_Large_City_Number]> <when below [3] [Resource_Large_City_Number]>",
+			"[+1 Happiness] per [4] population [in all cities] <in cities with at least [10] [Population]> <when above [1] [Resource_Large_City_Number]> <when below [3] [Resource_Large_City_Number]>",
+			"[+30 Science, +30 Culture, +50 Gold] <when above [2] [Resource_Large_City_Number]>",
+			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource_Large_City_Number]>"
+
+
+/*old uniques
+		"Enables conversion of city production to [Faith]",
 		"Production to [Faith] conversion in cities changed by [100]%",
 		"Enables conversion of city production to [Gold]",
 		"Production to [Gold] conversion in cities changed by [100]%",
 		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>",
 		"[+2 Science, +2 Culture, +1 Happiness] per [3] population [in all cities] <in cities with at least [9] [Population]>",
-		"[+1 Gold] per [1] population [in all cities] <in cities with at least [9] [Population]>"],
+		"[+1 Gold] per [1] population [in all cities] <in cities with at least [9] [Population]>"*/],
 	
 		"cities": ["北京", "南京", "苏州", "杭州", "西安", "开封", "武汉", "长沙", "福州", "广州", "泉州", "宁波", "绍兴", "温州", "台州", "扬州", "成都", "昆明", "兰州", "郑州"],
 
@@ -110,11 +120,12 @@
 		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Mother Nile",
-		"uniques": ["[+1] Movement <for [All] units> <in [River] tiles>",
-		"[+13]% Strength <for [Military] units> <when fighting in [River] tiles>",
-		"[+1 Happiness, +2 Food] in cities on [River] tiles"],
+		"uniques": ["[+1] Movement <for [Military] units> <in [River] tiles> <after discovering [Tech_Wheels]>",
+		"[+1 Happiness, +2 Food] in cities on [River] tiles",
+		"Provides 1 House for cities on a river",
+		"[+1 Happiness, +2 Food] from each Trade Route"],
 	
-		"cities": ["Thebes", "Memphis", "Alexandria", "Heliopolis", "Abydos", "Abu Simbel", "Karnak", "Luxor", "Giza", "Dendera", "Amarna", "Mendes", "Bubastis", "Tanis", "Pi-Ramesses", "Edfu", "Esna", "Philae", "Elephantine", "Aswan"],
+		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis","Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris","Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
 			
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},

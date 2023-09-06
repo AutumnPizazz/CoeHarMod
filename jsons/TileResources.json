@@ -442,6 +442,18 @@
 //		"[+8 Gold] <if [M_ercigongjinengli] is constructed>",
 		"Not shown on world screen"]
 	},
+	{//城市数量
+		"name":"Resource_City_Number",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},
+	{//大城市数量
+		"name":"Resource_Large_City_Number",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},
 	{//美利坚-新政法案
 		"name": "Resource_New_Deal_Legislation",
 		"revealedBy": "Tech_UniqueToUnitedStates",

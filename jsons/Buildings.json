@@ -5894,6 +5894,8 @@
         "Automatically built in all cities where it is buildable",
         "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
         "Never destroyed when the city is captured",
+        "Provides [1] [Resource_City_Number]",
+        "Provides [1] [Resource_Large_City_Number] <in cities with at least [10] [Population]>",
         "Provides [2] [Resource_house_limitation] <in cities with a [Building_Classification_District_Unique]> <if [Government_Classical_Republic] is constructed>",//古典共和修正
         "Provides [2] [Resource_house_limitation] <in cities with a [Building_Classification_District_Unique]> <if [G_gonghechuancheng] is constructed>",//共和传承修正
         "Provides [6] [Resource_house_limitation] <in [Fresh Water] tiles>",
@@ -5902,6 +5904,7 @@
         "Provides [-6] [Resource_house_limitation] <in [Fresh Water] tiles> <for [Nation_Maya]>",
         "Provides [2] [Resource_house_limitation] <in [Fresh Water] [Coastal] tiles>",
         "Provides [-2] [Resource_house_limitation] <in [Coastal] tiles> <for [Nation_Maya]>",//淡水住房修正-对玛雅
+        "Provides [2] [Resource_house_limitation] <in [River] tiles> <for [Nation_Egypt]>",//埃及沿河城市住房修正
         "Provides [2] [Resource_house_limitation] <in [River] tiles> <after adopting [Pantheon_River god]>",//万神殿河神修正
         "Provides [2] [Resource_house_limitation] <after adopting [Pantheon_Rain god]>",//万神殿雨神修正
         "Provides [2] [Resource_house_limitation] <in tiles without [River]> <after adopting [Pantheon_Rain god]>",//万神殿雨神修正

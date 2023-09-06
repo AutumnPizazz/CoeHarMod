@@ -1908,7 +1908,7 @@
 		"uniqueTo":"Nation_Egypt",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture":1,
-		"faith":1,
+		"food":1,
 		"techRequired": "Civic_Skill",
 		"uniques": ["Provides [1] [Resource_house_limitation]",
 		"[+1 Culture] <after discovering [Civic_Natural history]>",
