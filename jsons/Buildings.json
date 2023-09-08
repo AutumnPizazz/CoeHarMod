@@ -3133,8 +3133,31 @@
         "requiredTech":"Tech_Astronomical navigation",
         "requiredBuilding":"Building_Port_Unique",
 		"specialistSlots": {"Specialist_Army logistics": 1},
-//		"greatPersonPoints": {"GreatPerson_Class_Admiral": 1},
 		"uniques": ["Provides [4] [Resource_house_limitation]",
+        "Provides [1] [Resource_GreatPerson_Class_Admiral]",
+        "Provides [1] [Resource_GreatPerson_Class_Admiral] <in cities with a [Governor_Pingala_III]>",
+        "[+1 Food] from [Coast] tiles [in this city]",
+        "[+1 Food] from [Lakes] tiles [in this city]",
+        "[+1 Food] from [Ocean] tiles [in this city]",
+        "Connects trade routes over water",
+        "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion_Navy_Combat_Training_I] promotion",
+		"Cost increases by [6] per owned city",
+        "Building_Classification_Port_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+    },
+    {//西班牙-西班牙灯塔
+        "name":"Building_SpanishLighthouse",
+        "replaces":"Building_Lighthouse",
+        "uniqueTo":"Nation_Spain",
+        "cost":110,
+		"hurryCostModifier":-33,
+        "maintenance":1,
+        "requiredTech":"Tech_Astronomical navigation",
+        "requiredBuilding":"Building_Port_Unique",
+		"specialistSlots": {"Specialist_Army logistics": 1},
+		"uniques": ["[+50]% [Gold] from Trade Routes",
+        "Provides [4] [Resource_house_limitation]",
         "Provides [1] [Resource_GreatPerson_Class_Admiral]",
         "Provides [1] [Resource_GreatPerson_Class_Admiral] <in cities with a [Governor_Pingala_III]>",
         "[+1 Food] from [Coast] tiles [in this city]",
@@ -3188,12 +3211,11 @@
         "Never destroyed when the city is captured",
 		"Unsellable"]
     },
-	{
+	{//码头(舰队训练)
 		"name": "Building_Naval_Yard",
 		"cost":1,
 		"requiredBuilding": "Building_Dock",
 		"requiredTech": "Civic_Nationalism",
-//        "cannotBeBuiltWith":"Building_Invincible_Armada_Naval_Yard",
 		"uniques": [
         "[-40]% Production when constructing [{Military} {Water}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+60]%",
@@ -3202,18 +3224,47 @@
         "Only available <in cities without a [Building_Invincible_Armada_Naval_Yard]>"
         ]
 	},
-	{
+	{//码头(无敌舰队训练)
 		"name": "Building_Invincible_Armada_Naval_Yard",
 		"cost":1,
 		"requiredBuilding": "Building_Dock",
 		"requiredTech": "Civic_Mobilization",
-//        "cannotBeBuiltWith":"Building_Naval_Yard",
 		"uniques": [
         "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
         "[Gold] cost of purchasing items in cities [+233]%",
-        "All newly-trained [{Military} {Land}] units [in this city] receive the [triple star] promotion",
+        "All newly-trained [{Military} {Water}] units [in this city] receive the [triple star] promotion",
         "Never destroyed when the city is captured",
         "Only available <in cities without a [Building_Naval_Yard]>"
+        ]
+	},
+	{//西班牙-造船厂(舰队训练)
+		"name": "Building_Spanish_Naval_Yard",
+        "replaces":"Building_Naval_Yard",
+        "uniqueTo":"Nation_Spain",
+		"cost":1,
+		"requiredBuilding": "Building_Shipyard",
+		"requiredTech": "Civic_Exploration",
+		"uniques": [
+        "[-40]% Production when constructing [{Military} {Water}] units [in this city]",
+        "[Gold] cost of purchasing items in cities [+60]%",
+        "All newly-trained [{Military} {Water}] units [in this city] receive the [double star] promotion",
+        "Never destroyed when the city is captured",
+        "Only available <in cities without a [Building_Spanish_Invincible_Armada_Naval_Yard]>"
+        ]
+	},
+	{//西班牙-造船厂(无敌舰队训练)
+		"name": "Building_Spanish_Invincible_Armada_Naval_Yard",
+        "replaces":"Building_Invincible_Armada_Naval_Yard",
+        "uniqueTo":"Nation_Spain",
+		"cost":1,
+		"requiredBuilding": "Building_Shipyard",
+		"requiredTech": "Civic_Mercantilism",
+		"uniques": [
+        "[-70]% Production when constructing [{Military} {Land}] units [in this city]",
+        "[Gold] cost of purchasing items in cities [+233]%",
+        "All newly-trained [{Military} {Water}] units [in this city] receive the [triple star] promotion",
+        "Never destroyed when the city is captured",
+        "Only available <in cities without a [Building_Spanish_Naval_Yard]>"
         ]
 	},
 
@@ -3249,7 +3300,7 @@
         "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
-    {//罗马-浴场地标
+    {//罗马-浴场
 		"name": "Building_BeachLandmark",
         "replaces":"Building_Raceline_Unique",
         "uniqueTo":"Nation_Rome",
@@ -3262,6 +3313,23 @@
         "Cost increases by [3] per owned city",
         "Unsellable",
         "Creates a [Distict_BeachLandmark] improvement on a specific tile",
+        "Building_Classification_District_Unique",
+        "Building_Classification_Raceline_District",
+        "Never destroyed when the city is captured",
+        "Cannot be purchased"]
+	},
+    {//冰岛-草屋
+		"name": "Building_Torfbair",
+        "replaces":"Building_Raceline_Unique",
+        "uniqueTo":"Nation_Iceland",
+		"cost": 18,
+		"hurryCostModifier":-33,
+		"maintenance": 1,
+		"requiredTech": "Civic_Early Empire",
+		"uniques": ["Provides [6] [Resource_house_limitation]",
+        "Cost increases by [3] per owned city",
+        "Unsellable",
+        "Creates a [District_Torfbair] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Building_Classification_Raceline_District",
         "Never destroyed when the city is captured",

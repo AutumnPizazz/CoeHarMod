@@ -116,6 +116,17 @@
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
 	},
+	{//大河
+		"name": "LargeRiver",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [0, 171, 169],
+		"uniques": ["Fresh water","Doesn't generate naturally",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations",
+				]
+	},
 	{//山脉
 		"name": "Mountain",
 		"type": "Land",
@@ -129,24 +140,6 @@
             "Units ending their turn on this terrain take [15] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"
-		]
-	},
-	{//火山
-		"name": "Terrain_Volcano",
-		"type": "Land",
-		"impassable": true,
-		"defenceBonus": 0.5,
-		"RGB": [255, 69, 0],
-		"food":-5,
-		"production":-5,
-		"gold":-5,
-		"uniques": ["Rough terrain","Rare feature",
-            "Has an elevation of [3] for visibility calculations",
-            "Occurs in chains at high elevations",
-            "Units ending their turn on this terrain take [49] damage",
-            "Always Fertility [-2] for Map Generation",
-            "Considered [Undesirable] when determining start locations",
-//			"Neighboring tiles will convert to [Landform_Volcanic soil]"
 		]
 	},
 	{//雪原
@@ -178,11 +171,11 @@
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
-					"[+14] Strength for cities built on this terrain",
+					"[14] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
 					"Occurs in groups around high elevations",
 					"[+1] to Fertility for Map Generation",
-					"A Region is formed with at least [25]% [Landform_Hill] tiles, with priority [3]",
+					"A Region is formed with at least [35]% [Landform_Hill] tiles, with priority [3]",
 					"Base Terrain on this tile is not counted for Region determination",
 					"Starts in regions of this type receive an extra [Resource_Sheep]",
 					"Considered [Desirable] when determining start locations",
@@ -208,8 +201,8 @@
 					"A Region can not contain more [Landform_Rainforest] tiles than [Landform_Forest] tiles",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
-					"Considered [Food] when determining start locations <in [Landform_Forest] Regions>",
-					"Considered [Food] when determining start locations <in [Tundra] Regions>",
+					"Considered [Production] when determining start locations <in [Landform_Forest] Regions>",
+					"Considered [Production] when determining start locations <in [Tundra] Regions>",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [
 			{
@@ -286,6 +279,7 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.13,
+		"overrideStats": true,
 		"occursOn": ["Desert"],
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
@@ -326,17 +320,47 @@
 		"unbuildable": false,
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature",
-		"[+1] to Fertility for Map Generation"]
+		"[+2] to Fertility for Map Generation"]
 	},
 	{//地热裂缝
 		"name": "Landform_Geothermal fissure",
 		"type": "TerrainFeature",
 		"science": 1,
+		"movementCost": 1,
 		"unbuildable": false,
 		"occursOn": ["Plains","Tundra","Grassland","Snow"],
 		"uniques": ["Rare feature","Never receives any resources",
 		"[+1] to Fertility for Map Generation"]
     },
+	{//火山
+		"name": "Landform_Volcano",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"defenceBonus": 0.48,
+		"movementCost": 5,
+		"RGB": [255, 69, 0],
+		"occursOn": ["Grassland","Plains","Tundra","Desert","Snow","Ocean"],
+		"uniques": ["Never receives any resources","Doesn't generate naturally",
+			"Occurs in groups of [1] to [1] tiles",
+            "Has an elevation of [3] for visibility calculations",
+            "Occurs in chains at high elevations",
+//            "Units ending their turn on this terrain take [80] damage",
+		]
+	},
+	{//火山土
+		"name": "Landform_Volcanic_Soil",
+		"type": "TerrainFeature",
+		"defenceBonus": -0.13,
+		"occursOn": ["Grassland","Plains","Tundra","Desert","Snow"],
+		"uniques": ["Doesn't generate naturally",
+            "Units ending their turn on this terrain take [25] damage",
+			"[+1 Food] <after [10] turns>",
+			"[+1 Production] <after [15] turns>",
+			"[+1 Food] <after [30] turns>",
+			"[+1 Production] <after [40] turns>",
+			"[+1 Science] <after [50] turns>"
+		]
+	},
 
 	//自然奇观
 	{//大堡礁

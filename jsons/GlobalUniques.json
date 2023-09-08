@@ -43,6 +43,7 @@
         "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",//人头琴调整
         "May buy [Building_EconomicVictory] buildings for [50000] [Gold] [in capital]",//经济胜利配套
+        "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>",//沿大河城市加速发展
 
 
 

@@ -20,6 +20,12 @@
 		"Desert+Landform_Hill+Landform_Nuclear fallout":["Desert+Landform_Hill","Landform_Nuclear fallout"],
 		"Snow+Landform_Hill+Landform_Nuclear fallout":["Snow+Landform_Hill","Landform_Nuclear fallout"],
 
+		"Plains+Landform_Hill+Landform_Volcanic_Soil":["Plains+Landform_Hill","Landform_Volcanic_Soil"],
+		"Grassland+Landform_Hill+Landform_Volcanic_Soil":["Grassland+Landform_Hill","Landform_Volcanic_Soil"],
+		"Tundra+Landform_Hill+Landform_Volcanic_Soil":["Tundra+Landform_Hill","Landform_Volcanic_Soil"],
+		"Desert+Landform_Hill+Landform_Volcanic_Soil":["Desert+Landform_Hill","Landform_Volcanic_Soil"],
+		"Snow+Landform_Hill+Landform_Volcanic_Soil":["Snow+Landform_Hill","Landform_Volcanic_Soil"],
+
 
 
 

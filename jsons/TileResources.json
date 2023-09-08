@@ -78,7 +78,7 @@
 	{//鱼
 		"name": "Resource_Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
+		"terrainsCanBeFoundOn": ["Coast","LargeRiver"],
 		"food": 1,
 		"improvement": "Improvement_Fishing_Boat",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>","Classification_Resource on water"]

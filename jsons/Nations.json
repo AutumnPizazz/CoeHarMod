@@ -727,6 +727,54 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//冰岛
+		"name": "Nation_Iceland",
+		"leaderName": "Ingolfur Arnarson",
+		"adjective": ["Icelandic"],
+		"outerColor": [1, 41, 84], // 外深蓝色
+		"innerColor": [255, 255, 255], // 内白色
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Victory type_Science",
+
+		"uniqueName": "Bill of Settlement",
+		"uniques": ["[+1] Movement <for [Unit_Settler] units>",
+		"[+1] Sight <for [Unit_Settler] units>",
+		"[+1] Movement <for [Unit_Type_Scout] units>",
+		"[+1] Sight <for [Unit_Type_Scout] units>",
+		"Provides [2] [Resource_GreatPerson_Class_Artist] <during a Golden Age>",
+		"[+1 Science, +1 Culture] from every [Landform_Volcano]",
+		"[+1 Science, +1 Culture] from every [Landform_Volcanic_Soil]",
+		"[+1 Science, +1 Culture] from every [Landform_Geothermal fissure]",
+		"[+1 Science, +1 Culture] from every [Natural Wonder]"
+		],
+
+		"cities": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri", "Reykjanesbaer", "Gardabaer", "Mosfellsbaer", "Akranes", "Selfoss", "Saudarkrokur", "Isafjordur", "Egilsstadir", "Borgarnes", "Husavik", "Hveragerdi", "Seydisfjordur", "Njardvik", "Siglufjordur", "Grindavik", "Dalvik", "Hvolsvollur", "Olafsvik", "Stykkisholmur", "Sandgerdi", "Sauoarkrokur", "Eskifjordur", "Faskrudsfjordur", "Vik", "Hofn", "Sudureyri", "Keflavik"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
+	{//西班牙
+		"name": "Nation_Spain",
+		"leaderName": "Philip II",
+		"adjective": ["Spanish"],
+		"outerColor": [84,26,26],
+		"innerColor": [255,168,168],
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Victory type_Domination",
+
+		"uniqueName": "Treasure Fleet",
+		"uniques": ["[+20]% [Production] [in all cities] <on foreign continents>",
+		"[+50]% [Gold] [in all cities] <on foreign continents>",
+		"[+1 Production, +2 Faith, +3 Gold] from each Trade Route"
+		],
+
+		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida","Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao","San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 

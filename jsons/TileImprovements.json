@@ -453,7 +453,7 @@
 	},
 	{//港口
 		"name": "District_Harbor",
-		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"terrainsCanBeBuiltOn": ["Coast","Lakes","LargeRiver"],
 		"food": -10,
 		"production":-10,
 		"science":-10,
@@ -555,6 +555,26 @@
 					"Classification_District",
 					"Class_Raceline"]
 	},
+	{//冰岛-草屋
+		"name": "District_Torfbair",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"food":2,
+		"production":2,
+		"uniques": ["Great Improvement",
+					"Can only be built on [River] tiles",
+					"Tile provides yield without assigned population",
+					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Removes removable features when built",
+					"Irremovable",
+					"[+4 Happiness] for each adjacent [Naturalwonder_Hukou_Waterfall]",
+					"[+1 Food, +1 Production] for each adjacent [Landform_Volcano]",
+					"[+1 Food, +1 Production] for each adjacent [Landform_Volcanic_Soil]",
+					"[+1 Food, +1 Production] for each adjacent [Landform_Geothermal fissure]",
+					"[+1 Food, +1 Production] for each adjacent [Natural Wonder]",
+					"Ensures a minimum tile yield of [+2 Production, +2 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Classification_District",
+					"Class_Raceline"]
+	},
 	{//保护区
 		"name": "Distinct_Protection_Zone",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -633,7 +653,7 @@
 	},
 	{//渔场
 		"name": "Improvement_Fishery",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Coast","LargeRiver"],
 		"food": 1,
 		"techRequired": "Tech_Nautical art",
 		"uniques": ["Provides [1] [Resource_house_limitation]",
@@ -729,7 +749,7 @@
 	},
 	{//渔船
 		"name": "Improvement_Fishing_Boat",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Coast","LargeRiver"],
 		"food": 1,
 		"techRequired": "Tech_Nautical art",
 		"uniques": ["Provides [1] [Resource_house_limitation]",
