@@ -2676,10 +2676,10 @@
         "requiredTech":"Tech_Apprentices",
         "requiredBuilding":"Building_Industrial_Zone_Unique",
 		"specialistSlots": {"Specialist_Engineer": 1},
-//		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
+        "All newly-trained [Military] units [in this city] receive the [Promotion_Bolshevik I] promotion <for [Nation_SU]>",
 		"Cost increases by [6] per owned city",
         "Building_Classification_Industrial_Zone_District",
         "Never destroyed when the city is captured",
@@ -2694,10 +2694,10 @@
 		"requiredBuilding": "Building_Workshop",
 		"requiredTech": "Tech_Industrialization",
 		"specialistSlots": {"Specialist_Engineer": 1},
-//		"greatPersonPoints": {"GreatPerson_Class_Engineer": 1},
 		"uniques": [
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
+        "All newly-trained [Military] units [in this city] receive the [Promotion_Bolshevik II] promotion <for [Nation_SU]>",
 		"Cost increases by [6] per owned city",
         "Building_Classification_Industrial_Zone_District",
         "Never destroyed when the city is captured",
@@ -2723,7 +2723,7 @@
         "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
-    {
+    {//工厂(通电)
 		"name": "Building_Powered_Factory",
 		"cost":1,
 		"hurryCostModifier":-33,
@@ -2748,6 +2748,7 @@
 		"uniques": [
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
+        "All newly-trained [Military] units [in this city] receive the [Promotion_Bolshevik III] promotion <for [Nation_SU]>",
         "Provides [4] [Resource_Electricity]",
 		"Cost increases by [6] per owned city",
         "Only available <in cities without a [Building_Oil_Power_Plant]>",
@@ -2814,6 +2815,7 @@
 		"uniques": [
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
+        "All newly-trained [Military] units [in this city] receive the [Promotion_Bolshevik III] promotion <for [Nation_SU]>",
         "Never destroyed when the city is captured",
         "Provides [4] [Resource_Electricity]",
 		"Cost increases by [6] per owned city",
@@ -2880,6 +2882,7 @@
 		"uniques": [
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
+        "All newly-trained [Military] units [in this city] receive the [Promotion_Bolshevik III] promotion <for [Nation_SU]>",
         "Never destroyed when the city is captured",
         "Provides [16] [Resource_Electricity]",
 		"Cost increases by [6] per owned city",
@@ -5145,12 +5148,27 @@
         "Class_Economic_Policy"],
         "requiredTech":"Civic_Scorched earth strategy"
     },
-    {
+    {//经济-市场经济
         "name":"E_shichangjingji",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
         "uniques":["[+1 Gold, +2 Culture] from [Luxury resource] tiles [in all cities] <in cities with a [Building_Market]>",
         "[+1 Gold, +2 Science] from [Strategic resource] tiles [in all cities] <in cities with a [Building_Market]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Capitalism"
+    },
+    {//苏联-经济-计划经济
+        "name":"E_jihuajingji",
+        "replaces":"E_shichangjingji",
+        "uniqueTo":"Nation_SU",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Science, +1 Culture, +1 Production] from [Strategic resource] tiles [in all cities] <in cities with a [Building_Workshop]>",
+        "[+1 Science, +1 Culture, +1 Production] from [Luxury resource] tiles [in all cities] <in cities with a [Building_Workshop]>",
+        "[+1 Science, +1 Culture, +1 Production] from [Bonus resource] tiles [in all cities] <in cities with a [Building_Workshop]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",

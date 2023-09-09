@@ -1701,7 +1701,7 @@
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{//中国-红军
+	{//苏维埃中国-中国红军
 		"name":"Unit_RedArmy",
 		"replaces":"Unit_Infantry",
 		"uniqueTo":"Nation_SRC",
@@ -1709,6 +1709,25 @@
 		"strength":968,//968
 		"movement":2,
 		"cost":645,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Mechanized_Infantry",
+		"requiredTech": "Tech_Part specification",
+		"obsoleteTech": "Tech_Satellite",
+		"uniques":["All tiles cost 1 movement",
+		"[+23]% Strength <for units with [double star]>",
+		"[+51]% Strength <for units with [triple star]>",
+		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"Consumes [-1] [Resource_Military_Maintenance2]"]
+	},
+	{//苏联-苏联红军
+		"name":"Unit_SovietRedArmy",
+		"replaces":"Unit_Infantry",
+		"uniqueTo":"Nation_SU",
+		"unitType":"Unit_Type_Melee_Infantry",
+		"strength":968,//968
+		"movement":2,
+		"cost":387,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
@@ -1746,6 +1765,7 @@
 		"cost":35,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Archer",
+		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Archey",
 		"uniques":[]
 	},

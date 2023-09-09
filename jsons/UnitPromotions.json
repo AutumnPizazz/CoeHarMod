@@ -1161,5 +1161,17 @@
 		"name": "[Unit_Varu] ability",
 		"uniques": ["[-18]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
+	{//苏联-布尔什维克I级
+		"name": "Promotion_Bolshevik I",
+		"uniques": ["[+13]% Strength","[+1] Movement"]
+	},
+	{//苏联-布尔什维克II级
+		"name": "Promotion_Bolshevik II",
+		"uniques": ["[+13]% Strength","[+1] Movement"]
+	},
+	{//苏联-布尔什维克III级
+		"name": "Promotion_Bolshevik III",
+		"uniques": ["[+13]% Strength","[+1] Movement"]
+	},
 
 ]

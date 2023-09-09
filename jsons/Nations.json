@@ -120,7 +120,7 @@
 		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Mother Nile",
-		"uniques": ["[+1] Movement <for [Military] units> <in [River] tiles> <after discovering [Tech_Wheels]>",
+		"uniques": [
 		"[+1 Happiness, +2 Food] in cities on [River] tiles",
 		"Provides 1 House for cities on a river",
 		"[+1 Happiness, +2 Food] from each Trade Route"],
@@ -771,6 +771,30 @@
 		],
 
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida","Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao","San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
+	{//苏联
+		"name": "Nation_SU",
+		"leaderName": "Stalin",
+		"adjective": ["Soviet"],
+		"outerColor": [220, 20, 60], // 猩红色
+		"innerColor": [255, 200, 0], 
+
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Victory type_Science",
+
+		"uniqueName": "Heavy Industrialization and Agriculture Collectivization",
+		"uniques": ["Each building in the Industrial District (Workshop, Factory, and Power Plant) provides a +13% Strength and +1 Movement for new Military Units trained in the city",
+		"[+1 Production] from each [Improvement_Farm] but pay extra 1 [Gold] for one",
+		"[+50]% [Production] [in all cities] <if [Government_Communism] is constructed>",
+		"[-50]% [Gold] [in all cities] <if [Government_Communism] is constructed>",
+		"[+50]% [Production] [in all cities] <if [G_gongchanchuancheng] is constructed>",
+		"[-50]% [Gold] [in all cities] <if [G_gongchanchuancheng] is constructed>"
+		],
+
+		"cities": ["Moscow", "Saint Petersburg", "Kyiv", "Minsk", "Tashkent", "Kazan", "Almaty", "Yerevan", "Baku", "Tbilisi", "Nur-Sultan", "Vilnius", "Riga", "Astana", "Dushanbe", "Osh", "Bishkek", "Ashgabat", "Yekaterinburg", "Novosibirsk", "Samara", "Omsk", "Chelyabinsk", "Ufa", "Volgograd", "Perm", "Krasnoyarsk", "Voronezh", "Rostov-on-Don", "Ulyanovsk"],
 
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
