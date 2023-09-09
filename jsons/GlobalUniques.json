@@ -46,8 +46,21 @@
         "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>",//沿大河城市加速发展
 
 
+        /*高宜居度奖励*/
+        "[+10]% [Prodution] [in all cities] <when above [9] Happiness>",
+        "[+10]% [Science] [in all cities] <when above [9] Happiness>",
+        "[+10]% [Culture] [in all cities] <when above [9] Happiness>",
+        "[+10]% [Gold] [in all cities] <when above [9] Happiness>",
+        "[+10]% [Faith] [in all cities] <when above [9] Happiness>",
+        "[+15]% [Prodution] [in all cities] <when above [19] Happiness>",
+        "[+15]% [Science] [in all cities] <when above [19] Happiness>",
+        "[+15]% [Culture] [in all cities] <when above [19] Happiness>",
+        "[+15]% [Gold] [in all cities] <when above [19] Happiness>",
+        "[+15]% [Faith] [in all cities] <when above [19] Happiness>",
 
-        /*政策槽位不可为负数*/
+
+
+        /*政策槽位不宜为负数*/
         "Nullifies [Science] [in all cities] <when below [0] [Resource_Military policy slot]>",
         "Nullifies [Culture] [in all cities] <when below [0] [Resource_Military policy slot]>",
         "Nullifies [Science] [in all cities] <when below [0] [Resource_Economic policy slot]>",
