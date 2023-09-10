@@ -47,16 +47,16 @@
 
 
         /*高宜居度奖励*/
-        "[+10]% [Production] [in all cities] <when above [9] Happiness>",
-        "[+10]% [Science] [in all cities] <when above [9] Happiness>",
-        "[+10]% [Culture] [in all cities] <when above [9] Happiness>",
-        "[+10]% [Gold] [in all cities] <when above [9] Happiness>",
-        "[+10]% [Faith] [in all cities] <when above [9] Happiness>",
-        "[+15]% [Production] [in all cities] <when above [19] Happiness>",
-        "[+15]% [Science] [in all cities] <when above [19] Happiness>",
-        "[+15]% [Culture] [in all cities] <when above [19] Happiness>",
-        "[+15]% [Gold] [in all cities] <when above [19] Happiness>",
-        "[+15]% [Faith] [in all cities] <when above [19] Happiness>",
+        "[+10]% [Production] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Science] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Culture] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Gold] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Faith] [in all cities] <when between [10] and [19] Happiness>",
+        "[+25]% [Production] [in all cities] <when between [20] and [100000] Happiness>",
+        "[+25]% [Science] [in all cities] <when between [20] and [100000] Happiness>",
+        "[+25]% [Culture] [in all cities] <when between [20] and [100000] Happiness>",
+        "[+25]% [Gold] [in all cities] <when between [20] and [100000] Happiness>",
+        "[+25]% [Faith] [in all cities] <when between [20] and [100000] Happiness>",
 
 
 
