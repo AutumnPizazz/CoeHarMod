@@ -1173,5 +1173,9 @@
 		"name": "Promotion_Bolshevik III",
 		"uniques": ["[+13]% Strength","[+1] Movement"]
 	},
+	{//元朝-急行军
+		"name": "Promotion_FastMove",
+		"uniques": ["[+1] Movement"]
+	},
 
 ]

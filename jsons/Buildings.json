@@ -58,6 +58,18 @@
         "Destroyed when the city is captured"],
         "quote":"波罗勉宫，如同印度尼西亚的一颗璀璨明珠，悠久的历史和独特的文化赋予了它无比的魅力。这座宫殿的每一寸细节，无论是雕刻还是建筑风格，都体现了印度尼西亚人民的智慧和匠心。它是我们的骄傲，也是我们传承历史和弘扬文化的重要载体。让我们一同尊重并爱护这座美丽的宫殿，让它的光芒永远闪耀在印度尼西亚的大地上。"
     },
+    {//元朝-行中书省
+        "name":"Building_ExecutiveSecretariat",
+        "requiredTech":"Tech_Civilian education",
+        "uniqueTo":"Nation_Yuan",
+        "cost":0,
+        "uniques":["Provides [1] [Resource_City_Number]",
+        "[+25]% Unhappiness from [Population] [in this city]",
+        "Can only be built [in all cities] <in cities without a [Building_Palace]>",
+        "Automatically built in all cities where it is buildable",
+        "Unsellable",
+        "Destroyed when the city is captured"]
+    },
 
     /*政体建筑*/
 	{//酋邦
@@ -1222,6 +1234,8 @@
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource_Influence]>",//允许买使者
         "Gain a free [Building_Granary] [in capital] <after adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
+        "Provides [2] [Resource_Horse] <after adopting [Pantheon_God of the forge]>",//万神殿锻造之神修正
+        "Provides [2] [Resource_Iron] <after adopting [Pantheon_God of the forge]>",//万神殿锻造之神修正
         "[+1] Movement <for [Unit_Settler] units> <after adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
         "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
         "Provides a [Building_Monument] in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
@@ -2634,8 +2648,8 @@
 		"requiredTech": "Tech_Alchemy",
         "requiredResource":"Resource_district_limitation",
 		"specialistSlots": {"Specialist_Engineer": 2},
-//		"greatPersonPoints": {"GreatPerson_Class_Engineer": 2},
 		"uniques": ["[+1 Production] from [Improvement_Quarry] tiles [in this city]",
+        "Discover [Tech_Apprentices]",
         "Unsellable",
         "Provides [1] [Resource_GreatPerson_Class_Engineer]",
         "Provides [1] [Resource_GreatPerson_Class_Engineer] <in cities with a [Governor_Pingala_III]>",
@@ -2645,7 +2659,7 @@
         "Never destroyed when the city is captured",
         "Cannot be purchased"]
 	},
-    {//神罗-商业同业公会
+    {//德意志-商业同业公会
 		"name": "Building_Commercial_Association",
         "replaces":"Building_Industrial_Zone_Unique",
         "uniqueTo":"Nation_Germany",
@@ -2954,13 +2968,37 @@
         "maintenance":1,
         "requiredTech":"Tech_Horseback riding",
         "requiredBuilding":"Building_Military_Encampment_Unique",
-//        "cannotBeBuiltWith":"Building_Barracks",
 		"specialistSlots": {"Specialist_Army logistics": 1},
-//		"greatPersonPoints": {"GreatPerson_Class_General": 1},
 		"uniques": ["Provides [2] [Resource_house_limitation]",
         "Provides [1] [Resource_GreatPerson_Class_General]",
         "Provides [1] [Resource_GreatPerson_Class_General] <in cities with a [Governor_Pingala_III]>",
         "Provides [1] [Resource_Horse]",
+        "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
+        "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
+        "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
+        "Only available <in cities without a [Building_Barracks]>",
+		"Cost increases by [6] per owned city",
+        "Building_Classification_Military_Encampment_District",
+        "Never destroyed when the city is captured",
+		"Unsellable"]
+    },
+    {//元朝-斡耳朵
+        "name":"Building_Ordo",
+        "replaces":"Building_Stable",
+        "uniqueTo":"Nation_Yuan",
+        "cost":55,
+		"hurryCostModifier":-33,
+        "production":1,
+        "maintenance":1,
+        "requiredTech":"Tech_Horseback riding",
+        "requiredBuilding":"Building_Military_Encampment_Unique",
+		"specialistSlots": {"Specialist_Army logistics": 1},
+		"uniques": ["Provides [2] [Resource_house_limitation]",
+        "Provides [1] [Resource_GreatPerson_Class_General]",
+        "Provides [1] [Resource_GreatPerson_Class_General] <in cities with a [Governor_Pingala_III]>",
+        "Provides [3] [Resource_Horse]",
+        "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_FastMove] promotion",
+        "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_FastMove] promotion",
         "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",

@@ -84,9 +84,11 @@
 		"preferredVictoryType": "Victory type_Conquest",
 
 		"uniqueName": "Halltarstadt",
-		"uniques": ["Discover [Tech_Apprentices] <upon constructing [Building_Oppidum]>",
-		"[+1 Culture] from every [Improvement_Mine] <after discovering [Civic_Humanism]>",
-		"[+23]% Strength <for [Melee Infantry, Ranged Infantry and Anti Cavalry units] units> <when adjacent to a [Melee Infantry, Ranged Infantry and Anti Cavalry units] unit>",
+		"uniques": [
+		"[+1 Culture] from every [Improvement_Mine] <after discovering [Tech_Apprentices]>",
+		"[+23]% Strength <for [Unit_Type_Melee_Infantry] units> <when adjacent to a [{Military} {Land}] unit>",
+		"[+23]% Strength <for [Unit_Type_Anti_Cavalry] units> <when adjacent to a [{Military} {Land}] unit>",
+		"[+23]% Strength <for [Unit_Type_Ranged_Infantry] units> <when adjacent to a [{Military} {Land}] unit>",
 		"[+34]% Strength <for [Military] units> <when fighting in [District_Oppidum] tiles> <when defending>"],
 		
 		"cities": ["Lutetia", "Gergovia", "Alesia", "Bibracte", "Mediolanum", "Aedica", "Edua", "Divodurum", "Noviodunum", "Vesontio", "Briva Curretia", "Lugdunum", "Nemetocenna", "Vindonissa", "Alesia Mandubiorum", "Bibracte Allobrogum", "Noviodunum Biturigum", "Avaricum", "Cabillonum", "Durocortorum"],
@@ -502,7 +504,8 @@
 		"uniques": ["[+1 Culture] from every [Building_Palace]",
 		"[+1 Culture] from every [Building_Palace] <after discovering [Civic_National labor force]>",
 		"[+1 Culture] from every [Building_Library]",
-		"[+1 Culture] from every [Building_Library] <after discovering [Tech_Civilian education]>"],
+		"[+1 Culture] from every [Building_Library] <after discovering [Tech_Civilian education]>",
+		"[+25]% [Science] [in all cities] <in cities with a [Building_Library]> <during a Golden Age>"],
 		
 		"cities": ["长安", "洛阳", "雒县", "邯郸", "许昌", "平阳", "襄阳", "成皋", "开封", "武阳", "巩县", "丰县", "梁县", "汝南", "颍川", "沛县", "宛县", "南阳", "陈留", "阳翟", "虎牙", "东海", "寿春", "彭城", "泰山", "温县", "安阳", "延津", "河阳", "蓟县"],
 		
@@ -787,7 +790,8 @@
 
 		"uniqueName": "Heavy Industrialization and Agriculture Collectivization",
 		"uniques": ["Each building in the Industrial District (Workshop, Factory, and Power Plant) provides a +13% Strength and +1 Movement for new Military Units trained in the city",
-		"[+1 Production] from each [Improvement_Farm] but pay extra 1 [Gold] for one",
+		"[+1 Production] from every [Improvement_Farm]",
+		"[-1 Gold] per [2] population [in all cities]",
 		"[+50]% [Production] [in all cities] <if [Government_Communism] is constructed>",
 		"[-50]% [Gold] [in all cities] <if [Government_Communism] is constructed>",
 		"[+50]% [Production] [in all cities] <if [G_gongchanchuancheng] is constructed>",
@@ -795,6 +799,31 @@
 		],
 
 		"cities": ["Moscow", "Saint Petersburg", "Kyiv", "Minsk", "Tashkent", "Kazan", "Almaty", "Yerevan", "Baku", "Tbilisi", "Nur-Sultan", "Vilnius", "Riga", "Astana", "Dushanbe", "Osh", "Bishkek", "Ashgabat", "Yekaterinburg", "Novosibirsk", "Samara", "Omsk", "Chelyabinsk", "Ufa", "Volgograd", "Perm", "Krasnoyarsk", "Voronezh", "Rostov-on-Don", "Ulyanovsk"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
+	{//元朝
+		"name": "Nation_Yuan",
+		"leaderName": "Kublai",
+		"adjective": ["Yuan"],
+		"outerColor": [254, 215, 0], // 外金德色
+		"innerColor": [207, 20, 43], // 内深红色
+
+		"startBias": ["Grassland","Avoid [Mountain]"],
+		"preferredVictoryType": "Victory type_Domination",
+
+		"uniqueName": "Magnificent Qian Yuan",
+		"uniques": ["[+4 Production] [in all cities] <when above [5] [Resource_City_Number]>",
+		"[+50]% Production when constructing [Unit_Type_Light_Cavalry] units [in all cities] <when above [9] [Resource_City_Number]>",
+		"[+50]% Production when constructing [Unit_Type_Heavy_Cavalry] units [in all cities] <when above [9] [Resource_City_Number]>",
+		"Double quantity of [Resource_Horse] produced <when above [9] [Resource_City_Number]>",
+		"[+51]% Strength <for [Unit_Type_Light_Cavalry] units> <vs [Unit_Type_Anti_Cavalry] units> <when above [15] [Resource_City_Number]>",
+		"[+51]% Strength <for [Unit_Type_Heavy_Cavalry] units> <vs [Unit_Type_Anti_Cavalry] units> <when above [15] [Resource_City_Number]>"
+		],
+		"uniqueText":"当城市数量≥6时,每座城市[+4 Production]\n当城市数量≥10时,所有城市训练骑兵单位+50%[Production]且[Resource_Horse]产量翻倍\n当城市数量≥16时,骑兵对战抗骑兵单位+51%战斗力且经验获取速度+100%",
+
+		"cities": ["上都","中都","大都","兴庆","上都路","大名","析津","大德","清宁","大安","德兴","宣德","和宁","益都","海都","元和","上都留守司","顺德","辽阳","宁夏","惠州","潮州","柳州","广州","杭州","和林","天水","甘州","肃州","瓜州","沙州","亦集乃"],		  
 
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
