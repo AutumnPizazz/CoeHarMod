@@ -366,7 +366,7 @@
 			"Classification_District",
 			"Class_Industrial_Zone"]
 	},
-	{//神罗-商业同业公会
+	{//德意志-商业同业公会
 		"name": "District_Commercial_Association",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
 		"food": -10,
@@ -603,8 +603,6 @@
 		"techRequired": "Initial tech_civic_Agriculture",
 		"uniques": ["Provides [1] [Resource_house_limitation]",
 		"Provides [1] [Resource_house_limitation] <for [Nation_Maya]>",
-		"[+1 Production] <for [Nation_SU]>",
-		"Costs [1] [Gold] per turn <for [Nation_SU]>",
 		"[+1 Food] <with [2] to [3] neighboring [Improvement_Farm] tiles> <after discovering [Civic_Feudalism]> <before discovering [Tech_Part specification]>",
 		"[+2 Food] <with [4] to [5] neighboring [Improvement_Farm] tiles> <after discovering [Civic_Feudalism]> <before discovering [Tech_Part specification]>",
 		"[+3 Food] <with [6] to [7] neighboring [Improvement_Farm] tiles> <after discovering [Civic_Feudalism]> <before discovering [Tech_Part specification]>",

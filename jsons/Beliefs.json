@@ -43,8 +43,8 @@
             "type": "Pantheon",
             "uniques": ["[+25]% Production when constructing [{Era_Ancient} {Military}] units [in all cities]",
             "[+25]% Production when constructing [{Era_Classical} {Military}] units [in all cities]",
-            "Provides [2] [Resource_Horse] <in cities with a [Building_Palace]>",
-            "Provides [2] [Resource_Iron] <in cities with a [Building_Palace]>"]
+            "Provides 2 '[Resource_Horse]'Horse per turn",
+            "Provides 2 '[Resource_Iron]'Icon per turn"]
         },
         {//门神
             "name": "Pantheon_Guardian god",

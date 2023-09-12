@@ -1386,16 +1386,16 @@
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
 		"uniques":["[+51]% Strength <vs [Era_Classical] units>",
-		"[+51]% Strength <vs [Era_Medieval] units>",
-		"[+51]% Strength <vs [Era_Renaissance] units>",
-		"[+51]% Strength <vs [Era_Industrial] units>",
-		"[+51]% Strength <vs [Era_Modern] units>",
-		"[+51]% Strength <vs [Era_Atomic] units>",
-		"[+51]% Strength <vs [Era_Information] units>",
-		"[+51]% Strength <vs [Era_Near-future] units>",
-		"[+51]% Strength <vs [Era_Far-future] units>",
+		"[+102]% Strength <vs [Era_Medieval] units>",
+		"[+153]% Strength <vs [Era_Renaissance] units>",
+		"[+204]% Strength <vs [Era_Industrial] units>",
+		"[+255]% Strength <vs [Era_Modern] units>",
+		"[+306]% Strength <vs [Era_Atomic] units>",
+		"[+357]% Strength <vs [Era_Information] units>",
+		"[+408]% Strength <vs [Era_Near-future] units>",
+		"[+459]% Strength <vs [Era_Far-future] units>",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"],
-		"replacementTextForUniques":"+51% combat power against more advanced era units"
+		"replacementTextForUniques":"+51x% Combat power against more advanced era units (x is the number of eras crossed)"
 	},
 	{//阿兹特克-雄鹰战士
 		"name":"Unit_EagleWarrior",
@@ -2626,7 +2626,7 @@
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-4] [Resource_Military_Maintenance3]"]
 	},
-	{//神罗-u艇
+	{//德意志-u艇
 		"name":"Unit_U_Boat",
 		"replaces":"Unit_Submarine",
 		"uniqueTo":"Nation_Germany",

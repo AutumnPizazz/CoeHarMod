@@ -14,20 +14,19 @@
         "movementType": "Water",
         "uniques":[]
     },
-    {
+    {//侦察
         "name": "Unit_Type_Scout",
         "movementType": "Land",
         "uniques":["This Unit gains [10] XP <upon discovering a Natural Wonder>","Heal this unit by [50] HP <for [All] units> <upon being promoted>"
     ]
     },
-    {
+    {//短程步兵
         "name": "Unit_Type_Melee_Infantry",
         "movementType": "Land",
         "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
-        "Melee Infantry, Ranged Infantry and Anti Cavalry units"]
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//武僧
         "name": "Unit_Type_Monk",
         "movementType": "Land",
         "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
@@ -37,23 +36,22 @@
         "Only available <when above [0] [Resource_Remaining_Monks]>",
         "Cannot be purchased"]
     },
-    {
+    {//长程步兵
         "name": "Unit_Type_Ranged_Infantry",
         "movementType": "Land",
         "uniques":["[-34]% Strength <vs cities> <when attacking> <during the [Era_Ancient]>",
         "[-58]% Strength <vs cities> <when attacking> <during the [Era_Classical]>",
         "[-96]% Strength <vs cities> <when attacking> <starting from the [Era_Medieval]>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
-        "Melee Infantry, Ranged Infantry and Anti Cavalry units"]
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//攻城
         "name": "Unit_Type_Siege",
         "movementType": "Land",
-        "uniques":["[+23]% Strength <vs cities> <when attacking>",
+        "uniques":["[+51]% Strength <vs cities> <when attacking>",
         "Must set up to ranged attack",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//轻骑兵
         "name": "Unit_Type_Light_Cavalry",
         "movementType": "Land",
         "uniques":["[-39]% Strength <vs cities> <when attacking>",
@@ -61,7 +59,7 @@
         "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//重骑兵
         "name": "Unit_Type_Heavy_Cavalry",
         "movementType": "Land",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
@@ -69,26 +67,25 @@
         "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//抗骑兵
         "name": "Unit_Type_Anti_Cavalry",
         "movementType": "Land",
         "uniques":["[+51]% Strength <vs [Unit_Type_Light_Cavalry] units>",
         "[+51]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
-        "Melee Infantry, Ranged Infantry and Anti Cavalry units"]
+        "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//短程海军
         "name": "Unit_Type_Short_Ranged_Naval",
         "movementType": "Water",
         "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//长程海军
         "name": "Unit_Type_Long_Ranged_Naval",
         "movementType": "Water",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
-    {
+    {//海军袭击者
         "name": "Unit_Type_Naval_Attacker",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles",
