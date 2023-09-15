@@ -555,7 +555,6 @@
 			"Instantly consumes [90] [Resource_GreatPerson_Class_General] <after [60] turns> <before [90] turns>",
 			"Instantly consumes [120] [Resource_GreatPerson_Class_General] <after [90] turns> <before [120] turns>",
 			"Instantly consumes [150] [Resource_GreatPerson_Class_General] <after [120] turns>",
-			"Can transform to [Unit_Grand_Marshal] <for [Nation_Qin]>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation_Tang]> <if [Building_TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement_Fortification] improvement <by consuming this unit>",
@@ -632,7 +631,8 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":80,
 		"uniques": ["Instantly provides [10] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building_Commercial_Hub_Unique]>"],
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]>",
+		"Cannot be purchased"],
 		"movement":2
 	},
 	{//大商人项目2
@@ -640,7 +640,8 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [30] turns>"],
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [30] turns>",
+		"Cannot be purchased"],
 		"movement":2
 	},
 	{//大商人项目3
@@ -648,7 +649,8 @@
 		"unitType": "Unit_Type_Project_Great_Person",
 		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource_GreatPerson_Class_Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [60] turns>"],
+		"Only available <in cities with a [Building_Commercial_Hub_Unique]> <after [60] turns>",
+		"Cannot be purchased"],
 		"movement":2
 	},
 	{//大艺术家项目1
@@ -1111,6 +1113,7 @@
 		"strength":118,//24
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Can transform to [Unit_VampireII] <after discovering [Tech_Alchemy]>",
@@ -1124,6 +1127,7 @@
 		"strength":220,//39
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Can transform to [Unit_VampireIII] <after discovering [Tech_Apprentices]>",
@@ -1137,6 +1141,7 @@
 		"strength":332,//49
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Can transform to [Unit_VampireIV] <after discovering [Tech_Gunpowder]>",
@@ -1150,6 +1155,7 @@
 		"strength":501,//59
 		"movement":3,
 		"promotions":["Promotion_Blood"],
+		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Can transform to [Unit_VampireV] <after discovering [Tech_Part specification]>",
@@ -1163,6 +1169,7 @@
 		"strength":1142,//79
 		"movement":4,
 		"promotions":["Promotion_Blood"],
+		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Can transform to [Unit_VampireVI] <after discovering [Tech_Satellite]>",
@@ -1176,6 +1183,7 @@
 		"strength":1724,//89
 		"movement":4,
 		"promotions":["Promotion_Blood"],
+		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource_remaining_available_vampire_count",
 		"uniques":[
 		"Hidden when [Pattern_Camorrist] Victory is disabled",
@@ -1214,6 +1222,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":123,//25
 		"movement":3,
+		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -1222,6 +1231,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":229,//40
 		"movement":3,
+		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -1230,6 +1240,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":346,//50
 		"movement":3,
+		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1239,6 +1250,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":523,//60
 		"movement":3,
+		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1248,6 +1260,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":789,//70
 		"movement":3,
+		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1258,6 +1271,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":1191,//80
 		"movement":3,
+		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1275,6 +1289,7 @@
 		"upgradesTo":"Unit_Ranger",
 		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Mechanical",
+		"attackSound": "nonmetalhit",
 		"uniques":["Rough terrain penalty"]
 	},
 	{//散兵
@@ -1289,6 +1304,7 @@
 		"upgradesTo":"Unit_Cavalry2",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
+		"attackSound": "arrow",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1307,6 +1323,7 @@
 		"upgradesTo":"Unit_Cavalry2",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Rifling",
+		"attackSound": "arrow",
 		"uniques":["[1] additional attacks per turn",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1323,6 +1340,7 @@
 		"upgradesTo":"Unit_SpecOps",
 		"requiredTech": "Tech_Rifling",
 		"obsoleteTech": "Tech_Plastic",
+		"attackSound": "shot",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1338,6 +1356,7 @@
 		"cost":520,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Plastic",
+		"attackSound": "shot",
 		"uniques":["May Paradrop up to [6] tiles from inside friendly territory",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1356,6 +1375,7 @@
 		"upgradesTo":"Unit_Swordsman",
 		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech":"Tech_Alchemy",
+		"attackSound": "nonmetalhit",
 		"uniques":["[+1] Sight",
 		"[+97]% Strength <vs [Unit_Type_Light_Cavalry] units>",
 		"[+97]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
@@ -1371,6 +1391,7 @@
 		"upgradesTo":"Unit_Swordsman",
 		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Alchemy",
+		"attackSound": "nonmetalhit",
 		"uniques":[
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
@@ -1385,6 +1406,7 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
+		"attackSound": "nonmetalhit",
 		"uniques":["[+51]% Strength <vs [Era_Classical] units>",
 		"[+102]% Strength <vs [Era_Medieval] units>",
 		"[+153]% Strength <vs [Era_Renaissance] units>",
@@ -1408,6 +1430,7 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
 		"obsoleteTech": "Tech_Alchemy",
+		"attackSound": "nonmetalhit",
 		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
@@ -1421,6 +1444,7 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
@@ -1439,6 +1463,7 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
+		"attackSound": "nonmetalhit",
 		"uniques":["Can instantly construct a [Improvement_RomeFort] improvement <[1] times>",
 			"[+18]% Strength <when defending> <in [Improvement_RomeFort] tiles>",
 			"Can build [Remove Landform_Forest] improvements on tiles",
@@ -1465,6 +1490,7 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
+		"attackSound": "shot",
 		"uniques":["[-28]% Strength <when attacking>",
 		"Instantly consumes [5] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
@@ -1484,6 +1510,7 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkII] <after adopting [Follower belief_Martial arts]>",
@@ -1503,6 +1530,7 @@
 		"upgradesTo":"Unit_Hoplite",
 		"requiredTech": "Tech_Alchemy",
 		"obsoleteTech": "Tech_Apprentices",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"[-23]% Strength for enemy [Military] units in adjacent [All] tiles",
@@ -1521,6 +1549,7 @@
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Can transform to [Unit_MonkIII] <after adopting [Follower belief_Martial arts]>",
@@ -1540,6 +1569,7 @@
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
+		"attackSound": "nonmetalhit",
 		"uniques":["[1] additional attacks per turn",
 		"Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
@@ -1560,6 +1590,7 @@
 		"upgradesTo":"Unit_Musketman",
 		"requiredTech": "Tech_Apprentices",
 		"obsoleteTech": "Tech_Gunpowder",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Damage is ignored when determining unit Strength",
@@ -1579,6 +1610,7 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
+		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
@@ -1598,6 +1630,7 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
+		"attackSound": "metalhit",
 		"uniques":["[-1] population in a random city <upon being defeated>",
 		"Instantly consumes [15] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
@@ -1619,6 +1652,7 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
+		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [5] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkIV] <after adopting [Follower belief_Martial arts]>",
@@ -1638,6 +1672,7 @@
 		"upgradesTo":"Unit_Line_Infantry",
 		"requiredTech": "Tech_Gunpowder",
 		"obsoleteTech": "Tech_Military science",
+		"attackSound": "metalhit",
 		"uniques":["[+51]% Strength <when adjacent to a [Unit_Missionary] unit>",
 		"Instantly consumes [10] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
@@ -1656,6 +1691,7 @@
 		"upgradesTo":"Unit_Infantry",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
+		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [10] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Can transform to [Unit_MonkV] <after adopting [Follower belief_Martial arts]>",
@@ -1675,6 +1711,7 @@
 		"upgradesTo":"Unit_Infantry",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Part specification",
+		"attackSound": "metalhit",
 		"uniques":["[+23]% Strength <on foreign continents>",
 		"Instantly consumes [5] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
@@ -1694,6 +1731,7 @@
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
 		"obsoleteTech": "Tech_Satellite",
+		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"[-64]% Strength <when below [0] [Resource_Oil]>",
 		"Can transform to [Unit_MonkVI] <after adopting [Follower belief_Martial arts]>",
@@ -1713,6 +1751,7 @@
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
 		"obsoleteTech": "Tech_Satellite",
+		"attackSound": "RedArmy",
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
@@ -1732,6 +1771,7 @@
 		"upgradesTo":"Unit_Mechanized_Infantry",
 		"requiredTech": "Tech_Part specification",
 		"obsoleteTech": "Tech_Satellite",
+		"attackSound": "RedArmy",
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
@@ -1748,6 +1788,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource": "Resource_Oil",
 		"requiredTech": "Tech_Satellite",
+		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1767,6 +1808,7 @@
 		"upgradesTo":"Unit_Archer",
 		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Archey",
+		"attackSound": "arrow",
 		"uniques":[]
 	},
 	{//弓箭手
@@ -1781,6 +1823,7 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
+		"attackSound": "arrow",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -1798,6 +1841,7 @@
 		"upgradesTo":"Unit_Crossbowman",
 		"requiredTech": "Tech_Archey",
 		"obsoleteTech": "Tech_Mechanical",
+		"attackSound": "arrow",
 		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -1813,6 +1857,7 @@
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
+		"attackSound": "arrow",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1832,6 +1877,7 @@
 		"upgradesTo":"Unit_Field_Cannon",
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
+		"attackSound": "shot",
 		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1849,6 +1895,7 @@
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
+		"attackSound": "shot",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1868,6 +1915,7 @@
 		"upgradesTo":"Unit_Machine_Gun",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Advanced ballistics",
+		"attackSound": "shot",
 		"uniques":["Must set up to ranged attack",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1883,6 +1931,7 @@
 		"cost":540,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Advanced ballistics",
+		"attackSound": "bombing",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1902,6 +1951,7 @@
 		"upgradesTo":"Unit_Battering_Ram",
 		"requiredTech": "Tech_Project",
 		"obsoleteTech": "Tech_Military engineering",
+		"attackSound": "throw",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1918,6 +1968,7 @@
 		"upgradesTo":"Unit_Siege_Tower",
 		"requiredTech": "Tech_Military engineering",
 		"obsoleteTech": "Tech_Metal casting",
+		"attackSound": "throw",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1936,6 +1987,7 @@
 		"upgradesTo":"Unit_Artillery",
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Steel",
+		"attackSound": "throw",
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -1955,6 +2007,7 @@
 		"upgradesTo":"Unit_Rocket_Artillery",
 		"requiredTech": "Tech_Steel",
 		"obsoleteTech": "Tech_Guidance system",
+		"attackSound": "missile",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1971,6 +2024,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Guidance system",
+		"attackSound": "missile",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -1991,8 +2045,24 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Animal husbandry",
 		"obsoleteTech": "Tech_Castle",
+		"attackSound":"arrow",
 		"uniques":["Instantly consumes [4] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
+	},
+	{//蛮族-蛮族骑手
+		"name":"Unit_Horseman_Barbarians",
+		"uniqueTo":"Barbarians",
+		"unitType":"Unit_Type_Light_Cavalry",
+		"strength":100,//20
+		"movement":4,
+		"cost":40,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Horseman",
+		"requiredTech": "Initial tech_civic_Agriculture",
+		"obsoleteTech": "Tech_Horseback riding",
+		"attackSound":"horse",
+		"uniques":["Instantly consumes [5] [Resource_Horse]",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//骑手(小马)
@@ -2005,6 +2075,7 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
+		"attackSound":"horse",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2022,6 +2093,7 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
+		"attackSound":"horse",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2039,6 +2111,7 @@
 		"upgradesTo":"Unit_Horse_Archer",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Castle",
+		"attackSound":"horse",
 		"uniques":["[+50]% to Flank Attack bonuses",
 		"Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
@@ -2056,6 +2129,7 @@
 		"upgradesTo":"Unit_Cavalry",
 		"requiredTech": "Tech_Castle",
 		"obsoleteTech": "Tech_Military science",
+		"attackSound":"horse",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2072,6 +2146,7 @@
 		"upgradesTo":"Unit_Helicopter",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
+		"attackSound":"horse",
 		"uniques":["Instantly consumes [10] [Resource_Horse]",
 		"[-64]% Strength <when below [0] [Resource_Horse]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2090,6 +2165,7 @@
 		"upgradesTo":"Unit_Helicopter",
 		"requiredTech": "Tech_Military science",
 		"obsoleteTech": "Tech_Synthetic",
+		"attackSound":"horse",
 		"uniques":["Can move after attacking",
 		"[+23]% Strength <when fighting in [Friendly Land] tiles>",
 		"Instantly consumes [10] [Resource_Horse]",
@@ -2107,10 +2183,12 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Synthetic",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
 		"Can see over obstacles",
 		"Can pass through impassable tiles",
-		"All tiles cost 1 movement",		"Consumes [-1] [Resource_Military_Maintenance1]",
+		"All tiles cost 1 movement",
+		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-5] [Resource_Military_Maintenance3]"]
 	},
@@ -2126,6 +2204,7 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
+		"attackSound":"cannon",
 		"uniques":["[+1] Movement <in [Open terrain] tiles>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -2143,6 +2222,7 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Wheels",
 		"obsoleteTech": "Tech_Stirrups",
+		"attackSound":"arrow",
 		"uniques":["[+2] Movement <in [Open terrain] tiles>",
 		"Rough terrain penalty",
 		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion_chongfeng]>",
@@ -2162,6 +2242,7 @@
 		"upgradesTo":"Unit_Knight",
 		"requiredTech": "Tech_Horseback riding",
 		"obsoleteTech": "Tech_Stirrups",
+		"attackSound":"elephant",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
@@ -2177,6 +2258,7 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
+		"attackSound":"cannon",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2195,6 +2277,7 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
+		"attackSound":"cannon",
 		"uniques":["Earn [35]% of killed [Military] unit's [Strength] as [Gold]",
 		"Instantly consumes [8] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
@@ -2214,6 +2297,7 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Tech_Stirrups",
 		"obsoleteTech": "Tech_Ballistics",
+		"attackSound":"cannon",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2233,6 +2317,7 @@
 		"upgradesTo":"Unit_Cuirassier",
 		"requiredTech": "Civic_Divin right of Kings",
 		"obsoleteTech": "Tech_Ballistics",
+		"attackSound":"cannon",
 		"uniques":["[+13]% Strength bonus for [Military] units within [1] tiles",
 		"[+23]% Strength <vs cities> <when attacking>",
 		"Instantly consumes [10] [Resource_Iron]",
@@ -2251,6 +2336,7 @@
 		"upgradesTo":"Unit_Tank",
 		"requiredTech": "Tech_Ballistics",
 		"obsoleteTech": "Tech_Internal combustion engine",
+		"attackSound":"cannon",
 		"uniques":["Instantly consumes [10] [Resource_Iron]",
 		"[-64]% Strength <when below [0] [Resource_Iron]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2268,6 +2354,7 @@
 		"upgradesTo":"Unit_Modern_Armor",
 		"requiredTech": "Tech_Internal combustion engine",
 		"obsoleteTech": "Tech_Composite",
+		"attackSound":"tankshot",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"[-64]% Strength <when below [0] [Resource_Oil]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2283,6 +2370,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Composite",
+		"attackSound":"tankshot",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2300,6 +2388,7 @@
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
+		"attackSound":"nonmetalhit",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -2315,6 +2404,7 @@
 		"upgradesTo":"Unit_Pikeman",
 		"requiredTech": "Tech_Copper casting",
 		"obsoleteTech": "Tech_Tactics",
+		"attackSound":"nonmetalhit",
 		"uniques":["[+51]% Strength <when adjacent to a [Unit_Heavy_Infantry] unit>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
@@ -2328,6 +2418,7 @@
 		"upgradesTo":"Unit_Pike_and_Shot",
 		"requiredTech": "Tech_Tactics",
 		"obsoleteTech": "Tech_Metal casting",
+		"attackSound":"nonmetalhit",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -2342,6 +2433,7 @@
 		"upgradesTo":"Unit_Anti_Tank_Crew",
 		"requiredTech": "Tech_Metal casting",
 		"obsoleteTech": "Tech_Chemistry",
+		"attackSound":"shot",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2357,6 +2449,7 @@
 		"upgradesTo":"Unit_Modern_Anti_Tank_Crew",
 		"requiredTech": "Tech_Chemistry",
 		"obsoleteTech": "Tech_Composite",
+		"attackSound":"machinegun",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2370,6 +2463,7 @@
 		"cost":580,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Composite",
+		"attackSound":"machinegun",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2388,6 +2482,7 @@
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"],
 		"requiredTech": "Tech_Nautical art",
+		"attackSound": "nonmetalhit",
 		"obsoleteTech": "Tech_Cartography"
 	},
 	{//腓尼基-双层桨座战船
@@ -2403,6 +2498,7 @@
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"],
 		"requiredTech": "Tech_Nautical art",
+		"attackSound": "nonmetalhit",
 		"obsoleteTech": "Tech_Cartography"
 	},
 	{//冰岛-克纳尔长船
@@ -2421,7 +2517,8 @@
 		"Cannot enter ocean tiles <before discovering [Tech_Cartography]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]"],
 		"requiredTech": "Tech_Nautical art",
-		"obsoleteTech": "Tech_Cartography"
+		"obsoleteTech": "Tech_Cartography",
+		"attackSound": "nonmetalhit"
 	},
 	{//轻快帆船
 		"name":"Unit_Trireme",
@@ -2436,7 +2533,8 @@
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
-		"Consumes [-2] [Resource_Military_Maintenance3]"]
+		"Consumes [-2] [Resource_Military_Maintenance3]"],
+		"attackSound": "nonmetalhit"
 	},
 	{//装甲舰
 		"name":"Unit_Frigate",
@@ -2449,6 +2547,7 @@
 		"upgradesTo":"Unit_Destroyer",
 		"requiredTech": "Tech_Steam power",
 		"obsoleteTech": "Tech_Joint operations",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2464,6 +2563,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Joint operations",
+		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
 		"[+23]% Strength <vs [Unit_Type_Missile] units>",
@@ -2487,7 +2587,8 @@
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"requiredTech": "Tech_Shipbuilding",
-		"obsoleteTech": "Tech_Crossail device"
+		"obsoleteTech": "Tech_Crossail device",
+		"attackSound":"shipguns"
 	},
 	{//拜占庭-火战船
 		"name":"Unit_Fire_Ship",
@@ -2505,7 +2606,8 @@
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"requiredTech": "Tech_Shipbuilding",
-		"obsoleteTech": "Tech_Crossail device"
+		"obsoleteTech": "Tech_Crossail device",
+		"attackSound":"shipguns"
 	},
 	{//护卫舰
 		"name":"Unit_Cruiser",
@@ -2520,6 +2622,7 @@
 		"upgradesTo":"Unit_Battleship",
 		"requiredTech": "Tech_Crossail device",
 		"obsoleteTech": "Tech_Refining",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [1] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -2541,6 +2644,7 @@
 		"upgradesTo":"Unit_Battleship",
 		"requiredTech": "Tech_Crossail device",
 		"obsoleteTech": "Tech_Refining",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [1] [Resource_Niter]",
 		"[-64]% Strength <when below [0] [Resource_Niter]>",
 		"[+1] Movement <when adjacent to a [GreatPerson_Class_Admiral] unit>",
@@ -2563,6 +2667,7 @@
 		"upgradesTo":"Unit_Missile_Cruiser",
 		"requiredTech": "Tech_Refining",
 		"obsoleteTech": "Tech_Laser",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [1] [Resource_Coal]",
 		"[-64]% Strength <when below [0] [Resource_Coal]>",
 		"[+118]% Strength <vs [Unit_Type_Missile] units>",
@@ -2582,9 +2687,9 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Oil",
 		"requiredTech": "Tech_Laser",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
-			"[+118]% Strength <vs [Unit_Type_Missile] units>",
-			
+		"[+118]% Strength <vs [Unit_Type_Missile] units>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2603,6 +2708,7 @@
 		"upgradesTo":"Unit_Submarine",
 		"requiredTech": "Civic_Mercantilism",
 		"obsoleteTech": "Tech_Electricity",
+		"attackSound":"shipguns",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2621,6 +2727,7 @@
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [1] [Resource_Oil]",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2641,6 +2748,7 @@
 		"upgradesTo":"Unit_Nuclear_Submarine",
 		"requiredTech": "Tech_Electricity",
 		"obsoleteTech": "Tech_Telecommunication",
+		"attackSound":"shipguns",
 		"uniques":["[+51]% Strength <when fighting in [Ocean] tiles>",
 		"[+1] Sight",
 		"Instantly consumes [1] [Resource_Oil]",
@@ -2658,6 +2766,7 @@
 		"cost":680,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Telecommunication",
+		"attackSound":"shipguns",
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
 			"[-64]% Strength <when below [0] [Resource_Uranium]>",
 			"Can carry [2] [Unit_Type_Missile] units",
@@ -2677,6 +2786,7 @@
 		"cost":540,
 		"hurryCostModifier":-33,
 		"requiredTech":"Tech_Joint operations",
+		"attackSound":"shipguns",
 		"uniques":[
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
@@ -2698,10 +2808,10 @@
 		"upgradesTo":"Unit_Fighter",
 		"requiredTech": "Tech_Flight",
 		"obsoleteTech": "Tech_Modern aviation",
+		"attackSound": "machinegun",
 		"uniques":["[75]% chance to intercept air attacks",
 			"Instantly consumes [1] [Resource_Oil]",
 			"Unit_Class_Aircraft",
-			
 			"Consumes [-1] [Resource_Military_Maintenance1]",
 			"Consumes [-1] [Resource_Military_Maintenance2]",
 			"Consumes [-4] [Resource_Military_Maintenance3]"]
@@ -2720,6 +2830,7 @@
 		"upgradesTo":"Unit_Jet_Fighter",
 		"requiredTech": "Tech_Modern aviation",
 		"obsoleteTech": "Tech_Laser",
+		"attackSound": "machinegun",
 		"uniques":["[75]% chance to intercept air attacks",
 			"Instantly consumes [1] [Resource_Aluminum]",
 			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
@@ -2741,6 +2852,7 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Laser",
+		"attackSound": "machinegun",
 		"uniques":["[75]% chance to intercept air attacks",
 			"Instantly consumes [1] [Resource_Aluminum]",
 			"[-64]% Strength <when below [0] [Resource_Aluminum]>",
@@ -2765,6 +2877,7 @@
 		"upgradesTo":"Unit_Jet_Bomber",
 		"requiredTech": "Tech_Modern aviation",
 		"obsoleteTech": "Tech_Stealth",
+		"attackSound":"bombing",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
 		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
 			"Unit_Class_Aircraft",
@@ -2784,10 +2897,10 @@
 		"hurryCostModifier":-33,
 		"requiredResource":"Resource_Aluminum",
 		"requiredTech": "Tech_Stealth",
+		"attackSound":"bombing",
 		"uniques":["Instantly consumes [1] [Resource_Aluminum]",
 		"[-64]% Strength <when below [0] [Resource_Aluminum]>",
-			"Unit_Class_Aircraft",
-			
+		"Unit_Class_Aircraft",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-6] [Resource_Military_Maintenance3]"]
@@ -2804,6 +2917,7 @@
 		"cost":1100,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nuclear fission",
+		"attackSound":"nuke",
 		"uniques":["Instantly consumes [10] [Resource_Uranium]",
 		"Nuclear weapon of Strength [1]",
 		"Only available <if [Building_Manhattan_Project] is constructed>",
@@ -2820,6 +2934,7 @@
 		"cost":1600,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Nuclear Fusion",
+		"attackSound":"nuke_long",
 		"uniques":["Instantly consumes [20] [Resource_Uranium]",
 		"Nuclear weapon of Strength [2]",
 		"Only available <if [Building_Ivy_League_Project] is constructed>",
@@ -2837,6 +2952,7 @@
 		"cost":1500,
 		"hurryCostModifier":-33,
 		"requiredTech": "Tech_Robotics",
+		"attackSound":"gdrAttack",
 		"uniques":["Consumes [3] [Resource_Uranium]",
 		"[-64]% Strength <when below [0] [Resource_Uranium]>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",

@@ -1163,19 +1163,31 @@
 	},
 	{//苏联-布尔什维克I级
 		"name": "Promotion_Bolshevik I",
-		"uniques": ["[+13]% Strength","[+1] Movement"]
+		"uniques": ["[+8]% Strength","[+1] Movement"],
+		"civilopediaText":[
+			{"text": "Nation_SU","link": "Nation/Nation_SU"},
+		]
 	},
 	{//苏联-布尔什维克II级
 		"name": "Promotion_Bolshevik II",
-		"uniques": ["[+13]% Strength","[+1] Movement"]
+		"uniques": ["[+18]% Strength"],
+		"civilopediaText":[
+			{"text": "Nation_SU","link": "Nation/Nation_SU"},
+		]
 	},
 	{//苏联-布尔什维克III级
 		"name": "Promotion_Bolshevik III",
-		"uniques": ["[+13]% Strength","[+1] Movement"]
+		"uniques": ["[+18]% Strength"],
+		"civilopediaText":[
+			{"text": "Nation_SU","link": "Nation/Nation_SU"},
+		],
 	},
 	{//元朝-急行军
 		"name": "Promotion_FastMove",
-		"uniques": ["[+1] Movement"]
+		"uniques": ["[+1] Movement"],
+		"civilopediaText":[
+			{"text": "Nation_Yuan","link": "Nation/Nation_Yuan"},
+		]
 	},
 
 ]
