@@ -8568,6 +8568,13 @@ UnitIcons/Unit_Horseman
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Unit_Horseman_Barbarians
+  rotate: false
+  xy: 1168, 217
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Unit_Hwacha
   rotate: false
   xy: 952, 216
