@@ -83,7 +83,7 @@
 		"improvement": "Improvement_Fishing_Boat",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>","Classification_Resource on water"]
 	},
-	{
+	{//螃蟹
 		"name": "Resource_Crab",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
@@ -91,7 +91,7 @@
 		"improvement": "Improvement_Fishing_Boat",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>","Classification_Resource on water"]
 	},
-	{
+	{//美洲牛
 		"name": "Resource_Bison",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
@@ -100,7 +100,7 @@
 	},
 	
 	//战略资源
-	{
+	{//马
 		"name": "Resource_Horse",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Animal husbandry",
@@ -121,7 +121,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
 	},
-	{
+	{//铁
 		"name": "Resource_Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Copper casting",
@@ -146,8 +146,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
 	},
-	
-	{
+	{//硝石
 		"name": "Resource_Niter",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Military engineering",
@@ -173,7 +172,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
 	},
-	{
+	{//煤炭
 		"name": "Resource_Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Industrialization",
@@ -196,7 +195,7 @@
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
 	},
-	{
+	{//石油
 		"name": "Resource_Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Refining",
@@ -220,7 +219,7 @@
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
 	},
-	{
+	{//铝
 		"name": "Resource_Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Radio",
@@ -237,7 +236,7 @@
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
 	},
-	{
+	{//铀
 		"name": "Resource_Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Tech_Joint operations",
@@ -302,7 +301,14 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic_Basic trade",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},
+	{//间谍容量
+		"name": "Resource_Spy_Capacity",
+		"resourceType": "Strategic",
+		"revealedBy": "Civic_Foreigh service",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{//军事政策卡
 		"name": "Resource_Military policy slot",

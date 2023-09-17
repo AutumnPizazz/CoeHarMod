@@ -1063,6 +1063,8 @@
 	{//专业间谍
 		"name":"Unit_Spy",
 		"unitType":"Unit_Type_Melee_Infantry",
+		"requiredResource":"Resource_Spy_Capacity",
+		"cost":225,
 		"strength":200,
 		"movement":3,
 		"uniques":[
@@ -1072,7 +1074,6 @@
 		"Invisible to others",
 		"Can see invisible [Unit_Spy] units",
 		"Never appears as a Barbarian unit",
-		"Free [Unit_Spy] appears <upon being defeated>",
 		"Unbuildable", "Uncapturable",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
@@ -1220,6 +1221,7 @@
 	{//I级武僧
 		"name":"Unit_MonkI",
 		"unitType":"Unit_Type_Monk",
+		"cost":40,
 		"strength":123,//25
 		"movement":3,
 		"attackSound": "nonmetalhit",
@@ -1229,6 +1231,7 @@
 	{//II级武僧
 		"name":"Unit_MonkII",
 		"unitType":"Unit_Type_Monk",
+		"cost":90,
 		"strength":229,//40
 		"movement":3,
 		"attackSound": "nonmetalhit",
@@ -1240,6 +1243,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":346,//50
 		"movement":3,
+		"cost":160,
 		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -1249,6 +1253,7 @@
 		"name":"Unit_MonkIV",
 		"unitType":"Unit_Type_Monk",
 		"strength":523,//60
+		"cost":240,
 		"movement":3,
 		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
@@ -1260,6 +1265,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":789,//70
 		"movement":3,
+		"cost":360,
 		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -1271,6 +1277,7 @@
 		"unitType":"Unit_Type_Monk",
 		"strength":1191,//80
 		"movement":3,
+		"cost":430,
 		"attackSound": "nonmetalhit",
 		"uniques":["Unbuildable","Religious Unit",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
@@ -1405,6 +1412,7 @@
 		"cost":35,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
+		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Alchemy",
 		"attackSound": "nonmetalhit",
 		"uniques":["[+51]% Strength <vs [Era_Classical] units>",
@@ -1429,6 +1437,7 @@
 		"cost":45,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit_Swordsman",
+		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Alchemy",
 		"attackSound": "nonmetalhit",
 		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
@@ -2247,6 +2256,22 @@
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"],
 		"promotions":["[Unit_Varu] ability"]
+	},
+	{//商朝-寅车
+		"name":"Unit_Yinche",
+		"replaces":"Unit_Chariot",
+		"uniqueTo":"Nation_Shang",
+		"unitType":"Unit_Type_Heavy_Cavalry",
+		"strength":158,//31
+		"movement":3,
+		"cost":50,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit_Knight",
+		"requiredTech": "Tech_Wheels",
+		"obsoleteTech": "Tech_Stirrups",
+		"attackSound":"cannon",
+		"uniques":[
+		"Consumes [-1] [Resource_Military_Maintenance1]"]
 	},
 	{//骑士
 		"name":"Unit_Knight",

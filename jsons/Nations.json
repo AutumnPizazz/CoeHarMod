@@ -851,6 +851,26 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//商朝
+	"name": "Nation_Shang",
+	"leaderName": "Pan Geng",
+	"adjective": ["Shang"],
+	"outerColor": [0, 0, 139], // 外略深蓝色
+	"innerColor": [255, 215, 0], // 金黄色
+
+	"startBias": ["River"],
+	"preferredVictoryType": "Victory type_Culture",
+
+	"uniqueName": "Pan Geng's Revival",
+	"uniques": [" "
+	],
+	"uniqueText":"Each turn you can perform one city relocation (selling [Building_ShangEmperorPalace] in the current city and buying it in another city within the same turn)",
+
+	"cities": ["亳", "商", "郑", "宋", "曹", "陈", "滑", "范", "丹", "酆", "曾", "毛", "鄢", "匡", "盖", "闾", "夏", "桑", "薄", "唐", "虞", "太", "田", "邓", "邬", "姬", "姜", "姚", "姬", "姜"],
+
+	"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+	"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+},
 
 
 
