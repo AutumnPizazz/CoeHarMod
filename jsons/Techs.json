@@ -525,7 +525,9 @@
 				"row": 13,
 				"prerequisites": ["Civic_Thw worker's union"],
 				"quote": "外交政策不是由外交部门独立制定的，而是由整个政府制定的，包括市政府。\n——《美国国务院职能与任务》",
-				"uniques": ["Enables Research agreements","Only available <after discovering [Civic_Future Municipal]>"]
+				"uniques": ["Enables Research agreements",
+				"Provides [1] [Resource_Spy_Capacity]",
+				"Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Reformed church",
@@ -634,7 +636,9 @@
 				"row": 12,
 				"prerequisites": ["Civic_Enlightenment"],
 				"quote": "民族主义促使国家产生，而不是国家产生了民族主义。\n——欧内斯特·葛尔纳",
-				"uniques": ["Provides [1] [Resource_Governor title]","Only available <after discovering [Civic_Future Municipal]>"]
+				"uniques": ["Provides [1] [Resource_Governor title]",
+				"Provides [1] [Resource_Spy_Capacity]",
+				"Only available <after discovering [Civic_Future Municipal]>"]
 			},
 			{
 				"name": "Civic_Opera and ballet",
@@ -787,7 +791,8 @@
 				"row": 11,
 				"prerequisites": ["Civic_Mass media","Civic_Mobilization"],
 				"quote": "它表明没有一种系统，即使最不人道的，可以离开意识形态而继续存在。\n——乔·斯洛沃",
-				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
+				"uniques": ["Provides [1] [Resource_Spy_Capacity]",
+					"Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},
@@ -899,7 +904,7 @@
 				"row": 11,
 				"prerequisites": ["Civic_Ideology"],
 				"quote": "从波罗的海的斯德丁到亚得里亚海的德里雅斯特，一幅横贯欧洲大陆的铁幕已经拉下。\n——温斯顿·丘吉尔",
-				"uniques": ["Only available <after discovering [Civic_Future Municipal]>"]
+				"uniques": ["Provides [1] [Resource_Spy_Capacity]","Only available <after discovering [Civic_Future Municipal]>"]
 			}
 		]
 	},

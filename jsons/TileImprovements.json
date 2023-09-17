@@ -229,7 +229,7 @@
 			"[+1 Culture] <with [2] to [3] neighboring [Classification_District] tiles>",
 			"[+2 Culture] <with [4] to [5] neighboring [Classification_District] tiles>",
 			"[+3 Culture] <with [6] to [7] neighboring [Classification_District] tiles>",
-			"[+2 Culture] for each adjacent [District_Entertainment_Complex]",
+			"[+2 Culture] for each adjacent [Class_Entertainment_Complex]",
 			"[+2 Culture] for each adjacent [District_Class_Wonder]",
 			"[+2 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
 			"[+1 Culture] for each adjacent [Class_Government_Plaza]",
@@ -259,6 +259,7 @@
 			"[+1 Culture] for each adjacent [Class_Government_Plaza]",
 			"[+1 Culture] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
 			"Removes removable features when built",
+			"Can only be built on [Landform_Hill] tiles",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Classification_District",
@@ -281,7 +282,7 @@
 					"[+2 Gold] <with [4] to [5] neighboring [Classification_District] tiles>",
 					"[+3 Gold] <with [6] to [7] neighboring [Classification_District] tiles>",
 					"[+3 Gold] <with [1] to [6] neighboring [River] tiles>",
-					"[+2 Gold] for each adjacent [District_Harbor]",
+					"[+2 Gold] for each adjacent [Class_Harbor]",
 					"[+1 Gold] for each adjacent [Class_Government_Plaza]",
 					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
 					"Removes removable features when built",
@@ -307,7 +308,7 @@
 					"[+2 Gold] <with [4] to [5] neighboring [Classification_District] tiles>",
 					"[+3 Gold] <with [6] to [7] neighboring [Classification_District] tiles>",
 					"[+1 Gold] for each adjacent [Desert]",
-					"[+2 Gold] for each adjacent [District_Harbor]",
+					"[+2 Gold] for each adjacent [Class_Harbor]",
 					"[+1 Gold] for each adjacent [Class_Government_Plaza]",
 					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
 					"Removes removable features when built",
@@ -334,7 +335,7 @@
 					"[+1 Production] <with [2] to [3] neighboring [Class_Industrials] tiles>",
 					"[+2 Production] <with [4] to [5] neighboring [Class_Industrials] tiles>",
 					"[+3 Production] <with [6] to [7] neighboring [Class_Industrials] tiles>",
-					"[+2 Production] for each adjacent [Distinct_Raceline]",
+					"[+2 Production] for each adjacent [Class_Raceline]",
 					"[+1 Production] for each adjacent [Class_Government_Plaza]",
 					"[+1 Production] for each adjacent [Strategic resource]",
 					"Removes removable features when built",
@@ -357,7 +358,7 @@
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource_EarthVeins] tiles",
 			"[+1 Production] for each adjacent [Class_Industrials]",
-			"[+2 Production] for each adjacent [Distinct_Raceline]",
+			"[+2 Production] for each adjacent [Class_Raceline]",
 			"[+1 Production] for each adjacent [Class_Government_Plaza]",
 			"[+1 Production] for each adjacent [Strategic resource]",
 			"Removes removable features when built",
@@ -381,8 +382,8 @@
 					"[+1 Production] <with [2] to [3] neighboring [Classification_District] tiles>",
 					"[+2 Production] <with [4] to [5] neighboring [Classification_District] tiles>",
 					"[+3 Production] <with [6] to [7] neighboring [Classification_District] tiles>",
-					"[+2 Production] for each adjacent [District_Commercial_Hub]",
-					"[+2 Production] for each adjacent [Distinct_Raceline]",
+					"[+2 Production] for each adjacent [Class_Commercial_Hub]",
+					"[+2 Production] for each adjacent [Class_Raceline]",
 					"[+1 Production] for each adjacent [Class_Government_Plaza]",
 					"[+1 Production] for each adjacent [Strategic resource]",
 					"[+1 Production] for each adjacent [Luxury resource]",
@@ -1081,7 +1082,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Harbor]",
+			"Must be next to [Class_Harbor]",
 			"District_Class_Wonder"]
 	},
 	{//博尔戈尔山
@@ -1116,7 +1117,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Entertainment_Complex]",
+			"Must be next to [Class_Entertainment_Complex]",
 			"District_Class_Wonder"]
 	},
 	{//巨像
@@ -1134,7 +1135,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Harbor]",
+			"Must be next to [Class_Harbor]",
 			"District_Class_Wonder"]
 	},
 	{//佩特拉古城
@@ -1188,7 +1189,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Army]",
+			"Must be next to [Class_Army]",
 			"District_Class_Wonder"]
 	},
 	{//马丘比丘
@@ -1224,7 +1225,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Army]",
+			"Must be next to [Class_Army]",
 			"District_Class_Wonder"]
 	},
 	{//摩索拉斯王陵墓
@@ -1242,7 +1243,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Harbor]",
+			"Must be next to [Class_Harbor]",
 			"District_Class_Wonder"]
 	},
 	{//大图书馆
@@ -1260,7 +1261,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Campus]",
+			"Must be next to [Class_Campus]",
 			"District_Class_Wonder"],
         "civilopediaText": [
             {
@@ -1284,7 +1285,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Holy_Site]",
+			"Must be next to [Class_Holy_Site]",
 			"District_Class_Wonder"]
 	},
 	{//圣索菲亚大教堂
@@ -1302,7 +1303,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Holy_Site]",
+			"Must be next to [Class_Holy_Site]",
 			"District_Class_Wonder"]
 	},
 	{//休伊神庙
@@ -1320,7 +1321,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Holy_Site]",
+			"Must be next to [Class_Holy_Site]",
 			"District_Class_Wonder"]
 	},
 	{//基尔瓦基斯瓦尼
@@ -1356,7 +1357,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Campus]",
+			"Must be next to [Class_Campus]",
 			"District_Class_Wonder"]
 	},
 	{//米纳克希神庙
@@ -1374,7 +1375,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Holy_Site]",
+			"Must be next to [Class_Holy_Site]",
 			"District_Class_Wonder"]
 	},
 	{//吴哥窟
@@ -1392,7 +1393,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Distinct_Raceline]",
+			"Must be next to [Class_Raceline]",
 			"District_Class_Wonder"]
 	},
 	{//奇琴伊察
@@ -1429,7 +1430,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Army]",
+			"Must be next to [Class_Army]",
 			"Can only be built on [Landform_Hill] tiles",
 			"District_Class_Wonder"]
 	},
@@ -1465,7 +1466,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Holy_Site]",
+			"Must be next to [Class_Holy_Site]",
 			"District_Class_Wonder"]
 	},
 	{//西印度交易所
@@ -1477,7 +1478,7 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],//看情况改
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform_Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -1501,7 +1502,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Industrial_Zone]",
+			"Must be next to [Class_Industrial_Zone]",
 			"District_Class_Wonder"]
 	},
 	{//大津巴布韦
@@ -1611,7 +1612,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"Must be next to [District_Industrial_Zone]",
+			"Must be next to [Class_Industrial_Zone]",
 			"District_Class_Wonder"]
 	},
 	{//牛津大学
@@ -1629,7 +1630,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Campus]",
+			"Must be next to [Class_Campus]",
 			"District_Class_Wonder"]
 	},
 	{//自由女神像
@@ -1647,7 +1648,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Harbor]",
+			"Must be next to [Class_Harbor]",
 			"District_Class_Wonder"]
 	},
 	{//莫斯科大剧院
@@ -1665,7 +1666,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Theater_Square]",
+			"Must be next to [Class_Theater_Square]",
 			"Can only be built on [Plains] tiles",
 			"District_Class_Wonder"]
 	},
@@ -1721,7 +1722,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"Must be next to [District_Commercial_Hub]",
+			"Must be next to [Class_Commercial_Hub]",
 			"District_Class_Wonder"]
 	},
 	{//艾尔米塔什博物馆
@@ -1775,7 +1776,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Theater_Square]",
+			"Must be next to [Class_Theater_Square]",
 			"District_Class_Wonder"]
 	},
 	{//救世基督像
@@ -1848,7 +1849,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Harbor]",
+			"Must be next to [Class_Harbor]",
 			"District_Class_Wonder"]
 	},
 	{//马拉卡纳体育场
@@ -1866,7 +1867,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [District_Entertainment_Complex]",
+			"Must be next to [Class_Entertainment_Complex]",
 			"District_Class_Wonder"]
 	},
 	{//阿蒙森-斯科特南极站
@@ -1916,6 +1917,7 @@
 		"food":1,
 		"techRequired": "Tech_Bricklaying",
 		"uniques": ["Provides [2] [Resource_house_limitation]",
+		"Gives a defensive bonus of [+23]% <for [Nation_Ming] units>",
 		"[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
 		"[+1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
 		"[+1 Culture, +1 Gold] <after discovering [Tech_Castle]>",
@@ -1977,7 +1979,7 @@
 		"terrainsCanBeBuiltOn": ["Landform_Hill"],
 		"food": 1,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]",
-			"[+1 Production] for each adjacent [Distinct_Raceline]",
+			"[+1 Production] for each adjacent [Class_Raceline]",
 			"[+1 Production] from [Fresh water] tiles <after discovering [Tech_Project]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
 			"Class_Usual_Improvement"],
