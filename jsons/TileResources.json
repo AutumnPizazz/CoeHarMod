@@ -117,6 +117,7 @@
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
@@ -142,6 +143,7 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
@@ -168,6 +170,7 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
@@ -191,6 +194,7 @@
 					"Minor deposits generated with weight [30] <in [Desert] [Landform_Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Tundra] [Landform_Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Snow] [Landform_Hill] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
@@ -215,6 +219,7 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
@@ -232,6 +237,7 @@
 					"Generated with weight [39] <in [Landform_Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform_Rainforest] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
@@ -250,6 +256,7 @@
 					"Minor deposits generated with weight [10] <in [Landform_Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Basic Strategic Resource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
 		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}

@@ -203,7 +203,7 @@
 		"[+1] Movement <for [All] units> <during a Golden Age>",
 		"[+2] Movement <for [Unit_Settler] units> <after discovering [Civic_History]>",
 		"Provides [1] [Resource_Trade route capacity] <after discovering [Civic_Political philosophy]>",
-		"Receive free [Unit_Trader] when you discover [Civic_Political philosophy]",
+		"Free [Unit_Trader] appears <upon discovering [Civic_Political philosophy]>",
 		"[+2 Gold, +1 Culture] from each Trade Route"],
 		
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir","Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz","Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube","Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada","Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava","Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka","Paishiyauvada","Patigrbana","Phrada"],
@@ -587,7 +587,7 @@
 		"preferredVictoryType": "Victory type_Domination",
 		
 		"uniqueName": "Corsican Monster",
-		"uniques": ["Enemy units with health below 50 have a -23% combat effectiveness against our units",
+		"uniques": ["Enemy units with health below 75 have a -23% combat effectiveness against our units",
 		"Heals [15] damage if it kills a unit <for [Military] units>",
 		"Earn [50]% of the damage done to [City] units as [Gold]"],
 		
@@ -626,7 +626,7 @@
 		"uniqueName": "Mita System",
 		"uniques": ["[+2 Production] from every [Mountain]",
 		"[+1 Production] from every [Mountain] <after discovering [Tech_Industrialization]>",
-		"Receive free [GreatPerson_Class_Scientist] when you discover [Civic_Basic trade]",
+		"Free [GreatPerson_Class_Scientist] appears <upon discovering [Civic_Basic trade]>",
 		"Land units may cross [Mountain] tiles after the first [GreatPerson_Class_Scientist] is earned"],
 //		"uniqueText": "",
 		
@@ -852,25 +852,25 @@
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
 	{//商朝
-	"name": "Nation_Shang",
-	"leaderName": "Pan Geng",
-	"adjective": ["Shang"],
-	"outerColor": [0, 0, 139], // 外略深蓝色
-	"innerColor": [255, 215, 0], // 金黄色
+		"name": "Nation_Shang",
+		"leaderName": "Pan Geng",
+		"adjective": ["Shang"],
+		"outerColor": [0, 0, 139], // 外略深蓝色
+		"innerColor": [255, 215, 0], // 金黄色
 
-	"startBias": ["River"],
-	"preferredVictoryType": "Victory type_Culture",
+		"startBias": ["River"],
+		"preferredVictoryType": "Victory type_Culture",
 
-	"uniqueName": "Pan Geng's Revival",
-	"uniques": [" "
-	],
-	"uniqueText":"Each turn you can perform one city relocation (selling [Building_ShangEmperorPalace] in the current city and buying it in another city within the same turn)",
+		"uniqueName": "Pan Geng's Revival",
+		"uniques": [" "
+		],
+		"uniqueText":"Each turn you can perform one city relocation (selling [Building_ShangEmperorPalace] in the current city and buying it in another city within the same turn)",
 
-	"cities": ["亳", "商", "郑", "宋", "曹", "陈", "滑", "范", "丹", "酆", "曾", "毛", "鄢", "匡", "盖", "闾", "夏", "桑", "薄", "唐", "虞", "太", "田", "邓", "邬", "姬", "姜", "姚", "姬", "姜"],
+		"cities": ["亳", "商", "郑", "宋", "曹", "陈", "滑", "范", "丹", "酆", "曾", "毛", "鄢", "匡", "盖", "闾", "夏", "桑", "薄", "唐", "虞", "太", "田", "邓", "邬", "姬", "姜", "姚", "姬", "姜"],
 
-	"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-	"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
-},
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 
