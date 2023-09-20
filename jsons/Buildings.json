@@ -78,7 +78,7 @@
         "cityStrength":40,
         "cost":0,
         "uniques":["[+1 Happiness, +1 Culture] from [Luxury resource] tiles [in this city]",
-        "[+2 Production] from [Strategic resource] tiles [in this city]",
+        "[+2 Production] from [Basic Strategic Resource] tiles [in this city]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured"]
     },
@@ -5347,7 +5347,7 @@
         "uniqueTo":"Nation_Shang",
         "cost":0,
         "requiredResource":"Resource_Economic policy slot",
-        "uniques":["[-2 Happiness]",
+        "uniques":["[-1] Happiness from each type of luxury resource",
         "[+25]% [Gold] [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",

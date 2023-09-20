@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         /*文明能力*/
-        "[-23]% Strength <for [Military] units> <when below [50] HP> <vs [Nation_France] units>",//法兰西国家技能
+        "[-23]% Strength <for [Military] units> <when below [75] HP> <vs [Nation_France] units>",//法兰西国家技能
         
 
         /*文明羁绊*/
