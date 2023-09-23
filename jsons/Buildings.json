@@ -88,7 +88,7 @@
         "uniqueTo":"Nation_Zhou",
         "cost":0,
         "uniques":["[+50]% Production when constructing [All] buildings [in this city]",
-        "Cannot build [Military] units <in this city>",
+        "Cannot build [Military] units <in this city>",//这个写法不生效，实际生效的词条在国家技能里
         "[+1 Happiness] per [4] population [in this city]",
         "Destroyed when the city is captured",
         "Only available <in cities without a [Building_Ye]>",

@@ -883,7 +883,7 @@
 		"preferredVictoryType": "Victory type_Science",
 
 		"uniqueName": "Founding with Enfeoffment",
-		"uniques": [" "
+		"uniques": ["Cannot build [Military] units <in cities with a [Building_Guo]>"
 		],
 		"uniqueText":"所有城市在被创建时可以选择以下属性之一\n国[Building_Guo],野[Building_Ye]\n\n在研究封建主义[Civic_Feudalism]后,属性'野[Building_Ye]'的城市可以选择以下属性之一\n郊[Building_Jiao],牧[Building_Mu],泽[Building_Ze]",
 
