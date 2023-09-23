@@ -82,6 +82,72 @@
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured"]
     },
+    {//周朝-国
+        "name":"Building_Guo",
+        "requiredTech":"Initial tech_civic_Agriculture",
+        "uniqueTo":"Nation_Zhou",
+        "cost":0,
+        "uniques":["[+50]% Production when constructing [All] buildings [in this city]",
+        "Cannot build [Military] units <in this city>",
+        "[+1 Happiness] per [4] population [in this city]",
+        "Destroyed when the city is captured",
+        "Only available <in cities without a [Building_Ye]>",
+        "Unsellable"]
+    },
+    {//周朝-野
+        "name":"Building_Ye",
+        "requiredTech":"Initial tech_civic_Agriculture",
+        "uniqueTo":"Nation_Zhou",
+        "cost":0,
+        "uniques":["[-30]% Production when constructing [All] buildings [in this city]",
+        "[+30]% Production when constructing [Military] units [in this city]",
+        "[-1 Happiness] per [4] population [in this city]",
+        "Destroyed when the city is captured",
+        "Only available <in cities without a [Building_Guo]>",
+        "Unsellable"]
+    },
+    {//周朝-郊
+        "name":"Building_Jiao",
+        "requiredTech":"Civic_Feudalism",
+        "uniqueTo":"Nation_Zhou",
+        "cost":0,
+        "uniques":["[+30]% Production when constructing [All] buildings [in this city]",
+        "[-30]% Production when constructing [Military] units [in this city]",
+        "[+1 Happiness] per [4] population [in this city]",
+        "Destroyed when the city is captured",
+        "Only available <in cities with a [Building_Ye]>",
+        "Only available <in cities without a [Building_Mu]>",
+        "Only available <in cities without a [Building_Ze]>",
+        "Unsellable"]
+    },
+    {//周朝-牧
+        "name":"Building_Mu",
+        "requiredTech":"Civic_Feudalism",
+        "uniqueTo":"Nation_Zhou",
+        "cost":0,
+        "uniques":["[+1 Production] from [Improvement_Pasture] tiles [in this city]",
+        "Provides [2] [Resource_Horse]",
+        "Destroyed when the city is captured",
+        "Only available <in cities with a [Building_Ye]>",
+        "Only available <in cities without a [Building_Jiao]>",
+        "Only available <in cities without a [Building_Ze]>",
+        "Unsellable"]
+    },
+    {//周朝-泽
+        "name":"Building_Ze",
+        "requiredTech":"Civic_Feudalism",
+        "uniqueTo":"Nation_Zhou",
+        "cost":0,
+        "uniques":["[+1 Production, +1 Food] from [Ocean] tiles [in this city]",
+        "[+1 Production, +1 Food] from [Coast] tiles [in this city]",
+        "[+1 Production, +1 Food] from [Lakes] tiles [in this city]",
+        "[+1 Production, +1 Food] from [LargeRiver] tiles [in this city]",
+        "Destroyed when the city is captured",
+        "Only available <in cities with a [Building_Ye]>",
+        "Only available <in cities without a [Building_Jiao]>",
+        "Only available <in cities without a [Building_Mu]>",
+        "Unsellable"]
+    },
 
     /*政体建筑*/
 	{//酋邦
