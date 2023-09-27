@@ -987,7 +987,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
-	/*有bug，暂时隐藏
+
 	{//印加-梯田农民
 		"name": "Unit_Terrace_Farm",
 		"unitType": "Unit_Type_Civilian",
@@ -999,7 +999,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
-	*/
+	/*有bug，暂时隐藏
 	{//印加-山路工人
 		"name": "Unit_Mountain_Road_Network",
 		"unitType": "Unit_Type_Civilian",
@@ -1012,7 +1012,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
-
+	*/
 
 
 	//文明特色改良建造者在这里!
