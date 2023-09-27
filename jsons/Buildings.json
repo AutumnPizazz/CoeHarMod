@@ -3076,11 +3076,12 @@
         "Provides [3] [Resource_Horse]",
         "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_FastMove] promotion",
         "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_FastMove] promotion",
+        "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_FastMove] promotion",
         "All newly-trained [Unit_Type_Light_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Heavy_Cavalry] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "All newly-trained [Unit_Type_Siege] units [in this city] receive the [Promotion_Army_Combat_Training_I] promotion",
         "Only available <in cities without a [Building_Barracks]>",
-		"Cost increases by [6] per owned city",
+		"Cost increases by [3] per owned city",
         "Building_Classification_Military_Encampment_District",
         "Never destroyed when the city is captured",
 		"Unsellable"]

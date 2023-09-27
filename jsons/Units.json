@@ -987,6 +987,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
+	/*有bug，暂时隐藏
 	{//印加-梯田农民
 		"name": "Unit_Terrace_Farm",
 		"unitType": "Unit_Type_Civilian",
@@ -998,7 +999,7 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
 	},
-	
+	*/
 	{//印加-山路工人
 		"name": "Unit_Mountain_Road_Network",
 		"unitType": "Unit_Type_Civilian",
@@ -1887,7 +1888,8 @@
 		"requiredTech": "Tech_Mechanical",
 		"obsoleteTech": "Tech_Ballistics",
 		"attackSound": "shot",
-		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles>",
+		"uniques":["[+1] Range <in [Improvement_Ming_GreatWall] tiles> <in tiles without [Landform_Hill]>",
+		"[+1] Range <in [Landform_Hill] tiles>",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]",
 		"Consumes [-1] [Resource_Military_Maintenance3]"]

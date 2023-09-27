@@ -34,8 +34,7 @@
 
 		"uniqueName": "Hwarang",
 		"uniques": ["[+4]% [Science] from every [Building_Classification_Governor]",
-			"[+4]% [Culture] from every [Building_Classification_Governor]",
-			"[-25]% [Culture] [in all cities] <in cities without a [Building_Classification_Governor_Level_1]>"],
+			"[+4]% [Culture] from every [Building_Classification_Governor]"],
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
@@ -51,24 +50,17 @@
 		"preferredVictoryType": "Victory type_Culture",
 
 		"uniqueName": "Yongle Prosperity",
-		"uniqueText":"人口不小于10的城市(大城市)的数量=1时,帝国[+6 Science][+6 Culture][+12 Gold]且这些城市每5人口[+1 Happiness]\n大城市数量=2时,帝国[+18 Science][+18 Culture][+30 Gold]且这些城市每4人口[+1 Happiness]\n大城市数量≥3时,帝国[+30 Science][+30 Culture][+50 Gold]且这些城市每3人口[+1 Happiness]",
+		"uniqueText":"人口不小于10的城市(大城市)的数量=1时,帝国[+6 Science][+6 Culture][+12 Gold]且这些城市每5人口[+1 Happiness]\n大城市数量=2时,帝国[+18 Science][+18 Culture][+30 Gold]且这些城市每4人口[+1 Happiness]\n大城市数量≥3时,帝国[+30 Science][+30 Culture][+50 Gold]且这些城市每3人口[+1 Happiness]\n驻有总督的城市人口增长所需[Food]减少30%",
 		"uniques": [
 			"[+6 Science, +6 Culture, +12 Gold] <when above [0] [Resource_Large_City_Number]> <when below [2] [Resource_Large_City_Number]>",
 			"[+1 Happiness] per [5] population [in all cities] <in cities with at least [10] [Population]> <when above [0] [Resource_Large_City_Number]> <when below [2] [Resource_Large_City_Number]>",
 			"[+18 Science, +18 Culture, +30 Gold] <when above [1] [Resource_Large_City_Number]> <when below [3] [Resource_Large_City_Number]>",
 			"[+1 Happiness] per [4] population [in all cities] <in cities with at least [10] [Population]> <when above [1] [Resource_Large_City_Number]> <when below [3] [Resource_Large_City_Number]>",
 			"[+30 Science, +30 Culture, +50 Gold] <when above [2] [Resource_Large_City_Number]>",
-			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource_Large_City_Number]>"
+			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource_Large_City_Number]>",
+			"[-30]% Food is carried over after population increases [in all cities] <in cities with a [Building_Classification_Governor_Level_1]>"
 
-
-/*old uniques
-		"Enables conversion of city production to [Faith]",
-		"Production to [Faith] conversion in cities changed by [100]%",
-		"Enables conversion of city production to [Gold]",
-		"Production to [Gold] conversion in cities changed by [100]%",
-		"[+28]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>",
-		"[+2 Science, +2 Culture, +1 Happiness] per [3] population [in all cities] <in cities with at least [9] [Population]>",
-		"[+1 Gold] per [1] population [in all cities] <in cities with at least [9] [Population]>"*/],
+],
 	
 		"cities": ["北京", "南京", "苏州", "杭州", "西安", "开封", "武汉", "长沙", "福州", "广州", "泉州", "宁波", "绍兴", "温州", "台州", "扬州", "成都", "昆明", "兰州", "郑州"],
 
@@ -624,8 +616,8 @@
 		"preferredVictoryType": "Victory type_Science",
 		
 		"uniqueName": "Mita System",
-		"uniques": ["[+2 Production] from every [Mountain]",
-		"[+1 Production] from every [Mountain] <after discovering [Tech_Industrialization]>",
+		"uniques": ["[+3 Production] from every [Mountain]",
+		"[+3 Production] from every [Mountain] <after discovering [Tech_Industrialization]>",
 		"Free [GreatPerson_Class_Scientist] appears <upon discovering [Civic_Basic trade]>",
 		"Land units may cross [Mountain] tiles after the first [GreatPerson_Class_Scientist] is earned"],
 //		"uniqueText": "",

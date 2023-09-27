@@ -1987,6 +1987,7 @@
 		"techRequired": "Civic_Basic trade",
 		"shortcutKey": "F"
 	},
+	/*有bug，暂时隐藏
 	{//印加-山地路网
 		"name": "Improvement_Mountain_Road_Network",
 		"uniqueTo": "Nation_Inca",
@@ -1997,6 +1998,7 @@
 	],
 		"techRequired": "Civic_Basic trade"
 	},
+	*/
 	{//毛利-帕堡
 		"name": "Improvement_Pabo",
 		"uniqueTo": "Nation_Maori",
