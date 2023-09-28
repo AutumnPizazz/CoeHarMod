@@ -58,7 +58,8 @@
 			"[+1 Happiness] per [4] population [in all cities] <in cities with at least [10] [Population]> <when above [1] [Resource_Large_City_Number]> <when below [3] [Resource_Large_City_Number]>",
 			"[+30 Science, +30 Culture, +50 Gold] <when above [2] [Resource_Large_City_Number]>",
 			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource_Large_City_Number]>",
-			"[-30]% Food is carried over after population increases [in all cities] <in cities with a [Building_Classification_Governor_Level_1]>"
+			"[-30]% Food is carried over after population increases [in all cities] <in cities with a [Building_Classification_Governor_Level_1]>",
+			"[+23]% Strength <for [Military] units> <when fighting in [Improvement_Ming_GreatWall] tiles> <when defending>"
 
 ],
 	
