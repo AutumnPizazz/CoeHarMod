@@ -1075,7 +1075,7 @@
 		"Invisible to others",
 		"Can see invisible [Unit_Spy] units",
 		"Never appears as a Barbarian unit",
-		"Unbuildable", "Uncapturable",
+		"Uncapturable",
 		"Consumes [-1] [Resource_Military_Maintenance1]",
 		"Consumes [-1] [Resource_Military_Maintenance2]"]
 	},
