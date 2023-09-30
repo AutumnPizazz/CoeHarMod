@@ -246,7 +246,9 @@
 		"name":"Unit_Scorched earth strategy",
 		"unitType":"Unit_Type_Civic_Civilian",
 		"uniques":["Discover [Civic_Scorched earth strategy] <by consuming this unit>",
-		"Only available <before discovering [Civic_Nationalism]>"]
+		"Only available <after discovering [Civic_Nationalism]>",
+		"Only available <before discovering [Civic_Scorched earth strategy]>"
+		]
 	},
 	{
 		"name":"Unit_Earth protection",
