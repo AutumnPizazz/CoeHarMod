@@ -1918,7 +1918,7 @@
 		"food":1,
 		"techRequired": "Tech_Bricklaying",
 		"uniques": ["Provides [2] [Resource_house_limitation]",
-		"Gives a defensive bonus of [+23]% <for [Nation_Ming] units>",
+		"Gives a defensive bonus of [+23]% <for [Nation_Ming]>",//这句不生效，在国家ua里
 		"[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
 		"[+1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
 		"[+1 Culture, +1 Gold] <after discovering [Tech_Castle]>",

@@ -369,21 +369,8 @@
         {//圣遗物柜
             "name": "Follower belief_Reliquary",
             "type": "Follower",
-            "uniques": ["Provides a sum of Faith each time you spend a Great Person",
-            /*这一部分报错,暂时取消
-            "[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]>",
-            "[+60 Faith] whenever a Great Person is expended <during the [Era_Classical]>",
-            "[+120 Faith] whenever a Great Person is expended <during the [Era_Medieval]>",
-            "[+200 Faith] whenever a Great Person is expended <during the [Era_Renaissance]>",
-            "[+300 Faith] whenever a Great Person is expended <during the [Era_Industrial]>",
-            "[+480 Faith] whenever a Great Person is expended <during the [Era_Modern]>",
-            "[+650 Faith] whenever a Great Person is expended <during the [Era_Atomic]>",
-            "[+900 Faith] whenever a Great Person is expended <during the [Era_Information]>",
-            "[+1200 Faith] whenever a Great Person is expended <during the [Era_Near-future]>",
-            "[+1450 Faith] whenever a Great Person is expended <during the [Era_Far-future]>"
-            */
-        ]
-        },//数值待定
+            "uniques": ["Provides a sum of Faith each time you spend a Great Person"]
+        },
     
     /*创始人信仰*/
         {//朝圣

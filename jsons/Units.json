@@ -455,13 +455,21 @@
 	{
 		"name":"Unit_Future Municipal",
 		"unitType":"Unit_Type_Civic_Civilian",
-		"uniques":["Discover [Civic_Future Municipal] <by consuming this unit>",
+		"uniques":["Consumes [-1] [Resource_Governor title]",
+		"Discover [Civic_Future Municipal] <by consuming this unit>",
 		"Only available <after discovering [Civic_Global warming mitigation]>",
 		"Only available <after discovering [Civic_Smart power foctrine]>",
 		"Only available <after discovering [Civic_Information warfare]>",
 		"Only available <after discovering [Civic_Global warming mitigation]>",
 		"Only available <before discovering [Civic_Necessity expedition]>",
 		"Only available <after discovering [Civic_Cultural hegemony]>"]
+	},
+	{
+		"name":"Unit_Future Municipal_Advanced",
+		"unitType":"Unit_Type_Civilian",
+		"movement":2,
+		"uniques":["Consumes [-1] [Resource_Governor title]",
+		"Only available <after discovering [Civic_Future Municipal]>"]
 	},
 
 
@@ -503,14 +511,6 @@
 			"Instantly consumes [120] [Resource_GreatPerson_Class_Merchant] <after [90] turns> <before [120] turns>",
 			"Instantly consumes [150] [Resource_GreatPerson_Class_Merchant] <after [120] turns>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Gain [200] [Gold] <by consuming this unit> <during the [Era_Ancient]>",
-			"Gain [400] [Gold] <by consuming this unit> <during the [Era_Classical]>",
-			"Gain [750] [Gold] <by consuming this unit> <during the [Era_Medieval]>",
-			"Gain [1200] [Gold] <by consuming this unit> <during the [Era_Renaissance]>",
-			"Gain [1800] [Gold] <by consuming this unit> <during the [Era_Industrial]>",
-			"Gain [2500] [Gold] <by consuming this unit> <during the [Era_Modern]>",
-			"Gain [4000] [Gold] <by consuming this unit> <during the [Era_Atomic]>",
-			"Gain [5500] [Gold] <by consuming this unit> <starting from the [Era_Information]>",
 			"Great Person - [Gold]","Class_GreatPerson", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
@@ -1025,6 +1025,7 @@
 		"cost":120,
 		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]>",
 		"[+2] Movement <before [2] turns>",
+		"[+1] Movement <after adopting [Pantheon_Religious migrant]>"
 		"Requires at least [2] population",
 		"[+1] Sight"]
 	},
@@ -1442,7 +1443,8 @@
 		"requiredTech":"Initial tech_civic_Agriculture",
 		"obsoleteTech": "Tech_Alchemy",
 		"attackSound": "nonmetalhit",
-		"uniques":["May capture killed [Barbarians] units <with [75]% chance>",
+		"uniques":["May capture killed [Barbarians] units <with [100]% chance> <before [25] turns>",
+		"May capture killed [Barbarians] units <with [0]% chance> <after [25] turns>",
 		"Can transform to [Unit_MonkI] <after adopting [Follower belief_Martial arts]>"]
 	},
 	{//剑客

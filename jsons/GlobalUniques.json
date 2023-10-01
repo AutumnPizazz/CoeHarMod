@@ -30,6 +30,7 @@
         "Cannot build [Unit_Settler] units <when below [-11] Happiness>",//宜居度过低禁止移民
         "Rebel units may spawn <when below [-15] Happiness>",//宜居度过低会产生叛军
 		"[-100]% Strength for cities <when attacking> <in cities without a [Building_Ancient_Walls]>",//取消初始城市攻击
+		"[+60]% Strength for cities <when attacking> <in cities without a [Building_Ancient_Walls]> <in cities with a [Building_Palace]>",//首都拥有减弱的城市攻击
         "[-100]% maintenance costs",//单位维护费修正
         "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
@@ -47,6 +48,19 @@
         "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>",//沿大河城市加速发展
 
 
+        /*区域位建筑*/
+        "Gain a free [Building_district_limitation1] [in all cities] <in cities with at least [1] [Population]>",
+        "Gain a free [Building_district_limitation2] [in all cities] <in cities with at least [4] [Population]>",
+        "Gain a free [Building_district_limitation3] [in all cities] <in cities with at least [7] [Population]>",
+        "Gain a free [Building_district_limitation4] [in all cities] <in cities with at least [10] [Population]>",
+        "Gain a free [Building_district_limitation5] [in all cities] <in cities with at least [13] [Population]>",
+        "Gain a free [Building_district_limitation6] [in all cities] <in cities with at least [16] [Population]>",
+        "Gain a free [Building_district_limitation7] [in all cities] <in cities with at least [19] [Population]>",
+        "Gain a free [Building_district_limitation8] [in all cities] <in cities with at least [22] [Population]>",
+        "Gain a free [Building_district_limitation9] [in all cities] <in cities with at least [25] [Population]>",
+        "Gain a free [Building_district_limitation10] [in all cities] <in cities with at least [28] [Population]>",
+
+
         /*高宜居度奖励*/
         "[+10]% [Production] [in all cities] <when between [10] and [19] Happiness>",
         "[+10]% [Science] [in all cities] <when between [10] and [19] Happiness>",
@@ -58,7 +72,6 @@
         "[+25]% [Culture] [in all cities] <when between [20] and [100000] Happiness>",
         "[+25]% [Gold] [in all cities] <when between [20] and [100000] Happiness>",
         "[+25]% [Faith] [in all cities] <when between [20] and [100000] Happiness>",
-
 
 
         /*政策槽位不宜为负数*/

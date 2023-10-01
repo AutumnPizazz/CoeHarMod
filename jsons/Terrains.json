@@ -25,7 +25,8 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+        "uniques": [
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
@@ -281,7 +282,7 @@
 		"defenceBonus": -0.13,
 		"overrideStats": true,
 		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [5] for Map Generation",
+		"uniques": ["Always Fertility [3] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations",
 //					"Must be adjacent to [1] to [6] [River] tiles",

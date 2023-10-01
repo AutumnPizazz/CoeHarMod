@@ -606,13 +606,23 @@
 		"requiredResource": "Resource_Governor title",
         "requiredBuilding":"Governor_GoldenDawn_III",
 		"uniques":["Discover [Tech_UniqueToGoldenDawn2]",
-            "Each mined EarthVeins resource will provide a 3% combat bonus for all military units, up to 33%",
             "Only available <starting from the [Era_Atomic]>",
             "Only available <in cities with a [Governor_GoldenDawn_III]>",
             "Unsellable",
             "Destroyed when the city is captured",
             "Can only be built [in capital]",
             "Limited to [1] per Civilization",
+            "Hidden when [Pattern_Camorrist] Victory is disabled"]
+    },
+	{//秘术研究
+	    "name": "Building_SecretTechniqueResearch",
+		"cost": 100,
+		"requiredResource": "Resource_EarthVeins",
+        "requiredTech":"Tech_UniqueToGoldenDawn2",
+		"uniques":["[+3]% Strength <for [Military] units>",
+            "Unsellable",
+            "Destroyed when the city is captured",
+            "Limited to [10] per Civilization",
             "Hidden when [Pattern_Camorrist] Victory is disabled"]
     },
 
@@ -1311,48 +1321,16 @@
         "[-70]% [Production] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource_Influence]>",//允许买使者
-        "Gain a free [Building_Granary] [in capital] <after adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式修正
-        "Provides [2] [Resource_Horse] <after adopting [Pantheon_God of the forge]>",//万神殿锻造之神修正
-        "Provides [2] [Resource_Iron] <after adopting [Pantheon_God of the forge]>",//万神殿锻造之神修正
-        "[+1] Movement <for [Unit_Settler] units> <after adopting [Pantheon_Religious migrant]>",//万神殿宗教移民修正
-        "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像修正
-        "Provides a [Building_Monument] in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑修正
-        "[+1] Movement <for [Unit_Type_Scout] units> <after adopting [Pantheon_Society of Enlightenment]>",//万神殿启蒙会修正
-        "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购修正
-        "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//追随者信仰十字军修正
-        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//追随者信仰信仰守护者修正
-        "[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]> <after adopting [Follower belief_Reliquary]>",
-        "[+60 Faith] whenever a Great Person is expended <during the [Era_Classical]> <after adopting [Follower belief_Reliquary]>",
-        "[+90 Faith] whenever a Great Person is expended <during the [Era_Medieval]> <after adopting [Follower belief_Reliquary]>",
-        "[+120 Faith] whenever a Great Person is expended <during the [Era_Renaissance]> <after adopting [Follower belief_Reliquary]>",
-        "[+150 Faith] whenever a Great Person is expended <during the [Era_Industrial]> <after adopting [Follower belief_Reliquary]>",
-        "[+180 Faith] whenever a Great Person is expended <during the [Era_Modern]> <after adopting [Follower belief_Reliquary]>",
-        "[+210 Faith] whenever a Great Person is expended <during the [Era_Atomic]> <after adopting [Follower belief_Reliquary]>",
-        "[+240 Faith] whenever a Great Person is expended <during the [Era_Information]> <after adopting [Follower belief_Reliquary]>",
-        "[+270 Faith] whenever a Great Person is expended <during the [Era_Near-future]> <after adopting [Follower belief_Reliquary]>",
-        "[+300 Faith] whenever a Great Person is expended <during the [Era_Far-future]> <after adopting [Follower belief_Reliquary]>",//以上都是追随者信仰圣遗物柜修正
-        "[+3]% Strength <for [Military] units> <when above [0] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [1] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [2] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [3] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [4] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [5] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [6] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [7] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [8] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [9] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [10] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",
-        "[+3]% Strength <for [Military] units> <when above [11] [Resource_EarthVeins]> <if [Governor_GoldenDawn_IV] is constructed>",//以上都是地脉对战斗力的加成
-        "Gain a free [Building_district_limitation1] [in all cities] <in cities with at least [1] [Population]>",
-        "Gain a free [Building_district_limitation2] [in all cities] <in cities with at least [4] [Population]>",
-        "Gain a free [Building_district_limitation3] [in all cities] <in cities with at least [7] [Population]>",
-        "Gain a free [Building_district_limitation4] [in all cities] <in cities with at least [10] [Population]>",
-        "Gain a free [Building_district_limitation5] [in all cities] <in cities with at least [13] [Population]>",
-        "Gain a free [Building_district_limitation6] [in all cities] <in cities with at least [16] [Population]>",
-        "Gain a free [Building_district_limitation7] [in all cities] <in cities with at least [19] [Population]>",
-        "Gain a free [Building_district_limitation8] [in all cities] <in cities with at least [22] [Population]>",
-        "Gain a free [Building_district_limitation9] [in all cities] <in cities with at least [25] [Population]>",
-        "Gain a free [Building_district_limitation10] [in all cities] <in cities with at least [28] [Population]>",//区域位建筑
+        "Gain a free [Building_Granary] [in capital] <after adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式
+        "Provides [2] [Resource_Horse] <after adopting [Pantheon_God of the forge]>",//万神殿锻造之神
+        "Provides [2] [Resource_Iron] <after adopting [Pantheon_God of the forge]>",//万神殿锻造之神
+        "[+1] Happiness from each type of luxury resource <after adopting [Pantheon_Religious idol]>",//万神殿宗教偶像
+        "Provides a [Building_Monument] in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑
+        "[+1] Movement <for [Unit_Type_Scout] units> <after adopting [Pantheon_Society of Enlightenment]>",//万神殿启蒙会
+        "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购
+        "Gain a free [Building_Reliquary] [in capital] <after adopting [Follower belief_Reliquary]>"//追随者信仰圣遗物柜
+        "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//十字军
+        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//信仰守护者
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
@@ -1829,6 +1807,7 @@
         "uniques":["Cost increases by [6] per owned city",
         "Unsellable",
         "Hidden when religion is disabled",
+        "Limited to [1] per Civilization",
         "Creates a [District_Foreign_Quarter] improvement on a specific tile",
         "Building_Classification_District_Unique",
         "Destroyed when the city is captured",
@@ -1959,17 +1938,16 @@
         "Never destroyed when the city is captured",
 		"Unsellable"]
 	},
-    {
+    {//大教堂
 		"name": "Building_Cathedral",
 		"cost": 0,
 		"hurryCostModifier":-33,
 		"faith": 3,
         "requiredBuilding": "Building_Temple",
 		"specialistSlots": {"Specialist_Priest": 1},
-//		"greatPersonPoints":{"GreatPerson_Class_Prophet": 3},
 		"uniques": ["Provides [1] [Resource_GreatPerson_Class_Prophet]",
         "Provides [1] [Resource_GreatPerson_Class_Prophet] <in cities with a [Governor_Pingala_III]>",
-        "Provides [1] [Resource_Diplomatic favor]",
+        "Provides [1] [Resource_Influence]",
         "Only available <after adopting [Enhancer belief_Cathedral]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
@@ -3532,6 +3510,7 @@
     {//世界银行
         "name": "Building_EconomicVictory",
         "requiredTech":"Tech_Banking",
+        "cost":100000000,
         "uniques": ["Unbuildable",
         "Hidden when [Victory type_Economic] Victory is disabled"]
     },   
@@ -3620,6 +3599,26 @@
                 "text":"Pantheon_Sacred way",
                 "link":"Belief/Pantheon_Sacred way"
             }
+        ]
+    },
+	{//圣遗物柜
+        "name": "Building_Reliquary",
+        "cost": 0,
+        "uniques": [
+        "[+30 Faith] whenever a Great Person is expended <during the [Era_Ancient]> <after adopting [Follower belief_Reliquary]>",
+        "[+60 Faith] whenever a Great Person is expended <during the [Era_Classical]> <after adopting [Follower belief_Reliquary]>",
+        "[+90 Faith] whenever a Great Person is expended <during the [Era_Medieval]> <after adopting [Follower belief_Reliquary]>",
+        "[+120 Faith] whenever a Great Person is expended <during the [Era_Renaissance]> <after adopting [Follower belief_Reliquary]>",
+        "[+150 Faith] whenever a Great Person is expended <during the [Era_Industrial]> <after adopting [Follower belief_Reliquary]>",
+        "[+180 Faith] whenever a Great Person is expended <during the [Era_Modern]> <after adopting [Follower belief_Reliquary]>",
+        "[+210 Faith] whenever a Great Person is expended <during the [Era_Atomic]> <after adopting [Follower belief_Reliquary]>",
+        "[+240 Faith] whenever a Great Person is expended <during the [Era_Information]> <after adopting [Follower belief_Reliquary]>",
+        "[+270 Faith] whenever a Great Person is expended <during the [Era_Near-future]> <after adopting [Follower belief_Reliquary]>",
+        "[+300 Faith] whenever a Great Person is expended <during the [Era_Far-future]> <after adopting [Follower belief_Reliquary]>",
+        "Only available <after adopting [Follower belief_Reliquary]>",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured",
+        "Unsellable"
         ]
     },
 
@@ -4105,11 +4104,12 @@
         "name": "Artificialwonder_Mont_Saint_Michel",
         "isWonder": true,
         "faith":4,
-        "uniques": ["Gain [30] [Culture] <upon gaining a [Unit_Missionary] unit> <during the [Era_Medieval]>",
+        "uniques": ["[+100]% Spread Religion Strength",
+/*原效果"Gain [30] [Culture] <upon gaining a [Unit_Missionary] unit> <during the [Era_Medieval]>",
             "Gain [60] [Culture] <upon gaining a [Unit_Missionary] unit> <during the [Era_Renaissance]>",
             "Gain [90] [Culture] <upon gaining a [Unit_Missionary] unit> <during the [Era_Industrial]>",
             "Gain [120] [Culture] <upon gaining a [Unit_Missionary] unit> <during the [Era_Modern]>",
-            "Gain [150] [Culture] <upon gaining a [Unit_Missionary] unit> <starting from the [Era_Atomic]>",
+            "Gain [150] [Culture] <upon gaining a [Unit_Missionary] unit> <starting from the [Era_Atomic]>",*/
             "Creates a [District_Mont_Saint_Michel] improvement on a specific tile",
             "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
             "Wonder_Class_Medieval"],
