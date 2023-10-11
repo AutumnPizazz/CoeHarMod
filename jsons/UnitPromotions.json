@@ -1,4 +1,18 @@
 [
+	/*4.8.9以后宗教固定晋升*/
+	{
+		"name":"promotion.Devout1",
+		"uniques":["Can Spread Religion <[1] additional time(s)>"]
+	},
+	{
+		"name":"promotion.Devout2",
+		"uniques":["Can Spread Religion <[2] additional time(s)>"]
+	},
+	{
+		"name":"promotion.Devout3",
+		"uniques":["Can Spread Religion <[3] additional time(s)>"]
+	},
+	
 	/*万神殿buff*/
 	{
 		"name":"Promotion_Healing_God",
@@ -200,7 +214,7 @@
 		"[+5]% Strength",
 		"[+1] Movement",
 		"Only available <for units with [Promotion_Blood]>"]
-	}
+	},
 
 
 	/*总督buff*/
@@ -230,7 +244,7 @@
     },
 	{
 		"name": "Promotion_Disciple",
-		"uniques": ["Can [Spread Religion] [4] times"],
+		"uniques": ["Can Spread Religion <[4] times> <after which this unit is consumed>"],
 		"unitTypes": ["Unit_Type_Monk"],
         "column": 1,
         "row": 2
@@ -1025,6 +1039,7 @@
 		"[-3] HP when healing",
 		"Heals [15] damage if it kills a unit"]
 	},
+/*废弃方案
 	//秦朝军功制
 	//一级公士，二上造，三簪袅，四不更，五大夫，六官大夫，七公大夫，八公乘，九五大夫，十左庶长，十一右庶长，十二左更，十三中更，十四右更，十五少上造，十六大上造(大良造)，十七驷车庶长，十八大庶长，十九关内侯，二十彻侯
 	{//公士
@@ -1144,7 +1159,7 @@
 		"name": "Promotion_CheHou",
 		"uniques": ["[+2] Sight","[+1] Movement","[2] additional attacks per turn"]
 	},
-	
+*/
 	{//阿拉伯-奴隶兵能力
 		"name": "[Unit_Mamluk] ability",
 		"uniques": ["Unit will heal every turn, even if it performs an action"]
@@ -1165,29 +1180,29 @@
 		"name": "Promotion_Bolshevik I",
 		"uniques": ["[+8]% Strength","[+1] Movement"],
 		"civilopediaText":[
-			{"text": "Nation_SU","link": "Nation/Nation_SU"},
+			{"text": "Nation_SU","link": "Nation/Nation_SU"}
 		]
 	},
 	{//苏联-布尔什维克II级
 		"name": "Promotion_Bolshevik II",
 		"uniques": ["[+18]% Strength"],
 		"civilopediaText":[
-			{"text": "Nation_SU","link": "Nation/Nation_SU"},
+			{"text": "Nation_SU","link": "Nation/Nation_SU"}
 		]
 	},
 	{//苏联-布尔什维克III级
 		"name": "Promotion_Bolshevik III",
 		"uniques": ["[+18]% Strength"],
 		"civilopediaText":[
-			{"text": "Nation_SU","link": "Nation/Nation_SU"},
-		],
+			{"text": "Nation_SU","link": "Nation/Nation_SU"}
+		]
 	},
 	{//元朝-急行军
 		"name": "Promotion_FastMove",
 		"uniques": ["[+1] Movement"],
 		"civilopediaText":[
-			{"text": "Nation_Yuan","link": "Nation/Nation_Yuan"},
+			{"text": "Nation_Yuan","link": "Nation/Nation_Yuan"}
 		]
-	},
+	}
 
 ]

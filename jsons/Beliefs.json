@@ -86,7 +86,7 @@
         {//极光之舞
             "name": "Pantheon_Dance of the aurora",
             "type": "Pantheon",
-            "uniques": ["Sacred sites receive a standard adjacent addition to frozen soil"],
+            "uniques": ["Sacred sites receive a standard adjacent addition to frozen soil"]
 /*            "civilopediaText":[
                 {
                     "text":"Building_Dance of the aurora",
@@ -97,7 +97,7 @@
         {//沙漠民俗
             "name": "Pantheon_Desert customs",
             "type": "Pantheon",
-            "uniques": ["Holy Land gets the standard adjacent bonus against desert"],
+            "uniques": ["Holy Land gets the standard adjacent bonus against desert"]
 /*            "civilopediaText":[
                 {
                     "text":"Building_Desert customs",
@@ -393,7 +393,7 @@
             "[+1 Gold] from every [Building_Port_Unique]",
             "[+1 Science] from every [Building_College_Unique] <after discovering [Civic_Divin right of Kings]>",
             "[+1 Gold] from every [Building_Commercial_Hub_Unique] <after discovering [Civic_Divin right of Kings]>",
-            "[+1 Gold] from every [Building_Port_Unique] <after discovering [Civic_Divin right of Kings]>",]
+            "[+1 Gold] from every [Building_Port_Unique] <after discovering [Civic_Divin right of Kings]>"]
         },
         {//民间宗教团
             "name": "Founder belief_Folk Religious group",
@@ -401,7 +401,7 @@
             "uniques": ["[+1 Faith] from every [Building_Holy_Site_Unique]",
             "[+1 Culture] from every [Building_Theater_Square_Unique]",
             "[+1 Faith] from every [Building_Holy_Site_Unique] <after discovering [Civic_Divin right of Kings]>",
-            "[+1 Culture] from every [Building_Theater_Square_Unique] <after discovering [Civic_Divin right of Kings]>",]
+            "[+1 Culture] from every [Building_Theater_Square_Unique] <after discovering [Civic_Divin right of Kings]>"]
         },
         {//教皇权威
             "name": "Founder belief_Papal authority",

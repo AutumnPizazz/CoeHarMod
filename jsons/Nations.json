@@ -403,11 +403,11 @@
 		"[-10]% [Production] [in all cities]",
 
 		"[+18]% Strength <for [Military] units> <if [Government_Monarchy] is constructed>",
-		"[+18]% Strength <for [Military] units> <if [G_junzhuchuancheng] is constructed>",
+		"[+18]% Strength <for [Military] units> <if [G_junzhuchuancheng] is constructed>"
 		],
 		"uniqueText":"Capital: +8x% [Science],[Culture]and[Production] (maximum 80%)\nOther cities: -10% [Science],[Culture]和[Production]\n(x represents the number of cities)\n+18% Strength for Military units when adopting [Government_Monarchy] or [G_junzhuchuancheng]",
 
-		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"],
+		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
 	},
 	{//斯基泰
 		"name": "Nation_Scythia",
@@ -542,8 +542,8 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": "",
 
 		"civilopediaText":[
-			{"text": "毛泽东，伟大的无产阶级革命家。毛泽东（1893年12月26日-1976年9月9日），字润之（原作咏芝，后改润芝），笔名子任。湖南湘潭人。中国人民的领袖，伟大的马克思主义者，伟大的无产阶级革命家、战略家、理论家，中国共产党、中国人民解放军和中华人民共和国的主要缔造者和领导人，马克思主义中国化的伟大开拓者，近代以来中国伟大的爱国者和民族英雄，中国共产党第一代中央领导集体的核心，领导中国人民彻底改变自己命运和国家面貌的一代伟人。1949至1976年，毛泽东担任中华人民共和国最高领导人。他对马克思列宁主义的发展、军事理论的贡献以及对共产党的理论贡献被称为毛泽东思想。因毛泽东担任过的主要职务几乎全部称为主席，所以也被人们尊称为“毛主席”。毛泽东被视为现代世界历史中最重要的人物之一，《时代》杂志也将他评为20世纪最具影响100人之一。","size":15},
-		],
+			{"text": "毛泽东，伟大的无产阶级革命家。毛泽东（1893年12月26日-1976年9月9日），字润之（原作咏芝，后改润芝），笔名子任。湖南湘潭人。中国人民的领袖，伟大的马克思主义者，伟大的无产阶级革命家、战略家、理论家，中国共产党、中国人民解放军和中华人民共和国的主要缔造者和领导人，马克思主义中国化的伟大开拓者，近代以来中国伟大的爱国者和民族英雄，中国共产党第一代中央领导集体的核心，领导中国人民彻底改变自己命运和国家面貌的一代伟人。1949至1976年，毛泽东担任中华人民共和国最高领导人。他对马克思列宁主义的发展、军事理论的贡献以及对共产党的理论贡献被称为毛泽东思想。因毛泽东担任过的主要职务几乎全部称为主席，所以也被人们尊称为“毛主席”。毛泽东被视为现代世界历史中最重要的人物之一，《时代》杂志也将他评为20世纪最具影响100人之一。","size":15}
+		]
 	},
 	{//英吉利
 		"name": "Nation_England",
@@ -638,7 +638,7 @@
 		"preferredVictoryType": "Victory type_Religion",
 		"uniqueName": "Non-violent non-cooperation",
 		"uniques": ["Gain [100] [Faith] <upon declaring friendship>",
-		"[Unit_Missionary] units built [in all cities] can [Spread Religion] [2] extra times",
+		"All newly-trained [Unit_Missionary] units [in all cities] receive the [promotion.Devout2] promotion",
 		"[+2 Faith] from each Trade Route"
 		],
 
@@ -810,7 +810,7 @@
 		"civilopediaText":[
 			{"text": "Promotion_Bolshevik I","link": "Promotion/Promotion_Bolshevik I"},
 			{"text": "Promotion_Bolshevik II","link": "Promotion/Promotion_Bolshevik II"},
-			{"text": "Promotion_Bolshevik III","link": "Promotion/Promotion_Bolshevik III"},
+			{"text": "Promotion_Bolshevik III","link": "Promotion/Promotion_Bolshevik III"}
 		],
 
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
@@ -827,14 +827,15 @@
 		"preferredVictoryType": "Victory type_Domination",
 
 		"uniqueName": "Magnificent Qian Yuan",
-		"uniques": ["[+4 Production] [in all cities] <when above [5] [Resource_City_Number]>",
+		"uniques": ["[+2 Production] [in all cities] <when above [5] [Resource_City_Number]>",
+		"[+1 Production] [in all cities] <when above [5] [Resource_City_Number]> <after discovering [Tech_Stirrups]>",
 		"[+50]% Production when constructing [Unit_Type_Light_Cavalry] units [in all cities] <when above [9] [Resource_City_Number]>",
 		"[+50]% Production when constructing [Unit_Type_Heavy_Cavalry] units [in all cities] <when above [9] [Resource_City_Number]>",
 		"Double quantity of [Resource_Horse] produced <when above [9] [Resource_City_Number]>",
 		"[+51]% Strength <for [Unit_Type_Light_Cavalry] units> <vs [Unit_Type_Anti_Cavalry] units> <when above [15] [Resource_City_Number]>",
 		"[+51]% Strength <for [Unit_Type_Heavy_Cavalry] units> <vs [Unit_Type_Anti_Cavalry] units> <when above [15] [Resource_City_Number]>"
 		],
-		"uniqueText":"当城市数量≥6时,每座城市[+4 Production]\n当城市数量≥10时,所有城市训练骑兵单位+50%[Production]且[Resource_Horse]产量翻倍\n当城市数量≥16时,骑兵对战抗骑兵单位+51%战斗力且经验获取速度+100%",
+		"uniqueText":"当城市数量≥6时,每座城市[+2 Production],在研究[Tech_Stirrups]后再[+1 Production]\n当城市数量≥10时,所有城市训练骑兵单位+50%[Production]且[Resource_Horse]产量翻倍\n当城市数量≥16时,骑兵对战抗骑兵单位+51%战斗力且经验获取速度+100%",
 		"civilopediaText":[
 			{"text": "Promotion_FastMove","link": "Promotion/Promotion_FastMove"}
 		],

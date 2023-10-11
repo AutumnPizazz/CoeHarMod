@@ -537,7 +537,7 @@
 			"Instantly consumes [120] [Resource_GreatPerson_Class_Prophet] <after [90] turns> <before [120] turns>",
 			"Instantly consumes [150] [Resource_GreatPerson_Class_Prophet] <after [120] turns>",
             "Can instantly construct a [Improvement_Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can [Spread Religion] [4] times",
+			"Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
@@ -1025,7 +1025,7 @@
 		"cost":120,
 		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]>",
 		"[+2] Movement <before [2] turns>",
-		"[+1] Movement <after adopting [Pantheon_Religious migrant]>"
+		"[+1] Movement <after adopting [Pantheon_Religious migrant]>",
 		"Requires at least [2] population",
 		"[+1] Sight"]
 	},
@@ -1199,7 +1199,7 @@
 	{
 		"name": "Unit_Missionary",
 		"unitType": "Unit_Type_Civilian",
-		"uniques": ["Can [Spread Religion] [3] times",
+		"uniques": ["Can Spread Religion <[3] times> <after which this unit is consumed>",
 		"[+13]% Strength bonus for [Military] units within [1] tiles <if [Artificialwonder_Maebad_Alkurnak] is constructed>",
 		"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 		"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
@@ -1213,7 +1213,7 @@
 		"name": "Unit_Inquisitor",
 		"unitType": "Unit_Type_Civilian",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"Hidden when religion is disabled",
 			"Unbuildable",
@@ -3085,5 +3085,5 @@
 		"Uncapturable",
 		"Can be added to [Spaceship part] in the Capital",
 		"Limited to [3] per Civilization"]
-	},
+	}
 ]

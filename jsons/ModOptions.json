@@ -1,1 +1,48 @@
-{"isBaseRuleset":true,"lastUpdated":"2023-09-23T05:15:21Z","modUrl":"https://github.com/AutumnPizazz/CoeHarMod","defaultBranch":"main","author":"AutumnPizazz","modSize":377041,"topics":["unciv","unciv-mod","unciv-mod-rulesets"],"constants":{"maxXPfromBarbarians":10,"cityStrengthBase":60,"cityStrengthPerPop":13.8,"cityStrengthFromTechsFullMultiplier":8,"unitSupplyPerPopulation":1,"unitUpgradeCost":{},"naturalWonderCountMultiplier":0.2,"naturalWonderCountAddedConstant":0.5,"ancientRuinCountMultiplier":0.05,"maxLakeSize":18,"riverCountMultiplier":0.08,"minRiverLength":1,"maxRiverLength":999,"pantheonBase":12,"pantheonGrowth":2}}
+{
+    "isBaseRuleset": true,
+    "defaultBranch": "main",
+    "author": "AutumnPizazz",
+    "topics": [
+        "unciv",
+        "unciv-mod",
+        "unciv-mod-rulesets"
+    ],
+    "constants": {
+        "maxXPfromBarbarians": 10,
+        "cityStrengthBase": 60,
+        "cityStrengthPerPop": 13.8,
+        "cityStrengthFromTechsFullMultiplier": 8,
+        "unitSupplyPerPopulation": 1,
+        "unitUpgradeCost": {},
+        "naturalWonderCountMultiplier": 0.2,
+        "naturalWonderCountAddedConstant": 0.5,
+        "ancientRuinCountMultiplier": 0.05,
+        "maxLakeSize": 18,
+        "riverCountMultiplier": 0.08,
+        "minRiverLength": 1,
+        "maxRiverLength": 999,
+        "pantheonBase": 12,
+        "pantheonGrowth": 2
+    },
+    "uniques":[
+        "Cannot be used as permanent audiovisual mod",
+        "Mod is incompatible with [5Hex Tileset]",
+        "Mod is incompatible with [DeCiv Redux]",
+        "Mod is incompatible with [RekMOD]",
+        "Mod is incompatible with [Leader Mission]",
+        "Mod is incompatible with [Alpha Frontier]",
+        "Mod is incompatible with [Latin American_Civs]",
+        "Mod is incompatible with [Leader Mission 2 Rising Power]",
+        "Mod is incompatible with [AbsoluteUnits]",
+        "Mod is incompatible with [Brave New World]",
+        "Mod is incompatible with [Ancient Civilizations]",
+        "Mod is incompatible with [Civ6 mod]",
+        "Mod is incompatible with [Civ5ExpansionMod]",
+        "Mod is incompatible with [The Undead]",
+        "Mod is incompatible with [Community Maps]",
+        "Mod is incompatible with [Medieval Civilizations]",
+        "Mod is incompatible with [Extra Buildings]",
+        "Mod is incompatible with [Civilization 6 Mod]",
+        "Mod is incompatible with [Upside Down]"
+    ]
+}

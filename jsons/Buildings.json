@@ -1130,7 +1130,7 @@
 	    "name": "Governor_Pingala_IVA",
         "cost": 100,
 		"requiredResource": "Resource_Governor title",
-		"uniques":["[2] Free Technologies",//将来会和旅游业绩相关
+		"uniques":["[+50]% [Science] [in this city]",//将来会和旅游业绩相关
             "Unsellable",
             "Only available <in cities with a [Governor_Pingala_III]>",
             "Destroyed when the city is captured",
@@ -1269,7 +1269,7 @@
 	    "name": "Governor_Moksha_III",
         "cost": 100,
 		"requiredResource": "Resource_Governor title",
-		"uniques":["[Unit_Missionary] units built [in this city] can [Spread Religion] [2] extra times",
+		"uniques":["All newly-trained [Unit_Missionary] units [in this city] receive the [promotion.Devout1] promotion",
             "Only available <in cities with a [Governor_Moksha_IIA]>",
             "Only available <in cities with a [Governor_Moksha_IIB]>",
             "Unsellable",
@@ -1317,8 +1317,8 @@
         "cost": 1,
         "uniques": ["Indicates the capital city",
         "Provides [4] [Resource_house_limitation]",
-        "[-100]% [Food] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
-        "[-70]% [Production] [in all cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]> [in all coastal cities]",//沿海城市不修防洪坝就会被“淹没”
+        "[-100]% [Food] [in all coastal cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]>",//沿海城市不修防洪坝就会被“淹没”
+        "[-70]% [Production] [in all coastal cities] <in cities without a [Building_Dam]> <starting from the [Era_Information]>",//沿海城市不修防洪坝就会被“淹没”
         "[-100]% to Flank Attack bonuses <before discovering [Civic_Military tradition]>",//取消早期夹击加成
         "May buy [Unit_Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource_Influence]>",//允许买使者
         "Gain a free [Building_Granary] [in capital] <after adopting [Pantheon_Harvest festival]>",//万神殿丰产仪式
@@ -1328,9 +1328,9 @@
         "Provides a [Building_Monument] in your first [2] cities for free <after adopting [Pantheon_Monument to the main god]>",//万神殿主神纪念碑
         "[+1] Movement <for [Unit_Type_Scout] units> <after adopting [Pantheon_Society of Enlightenment]>",//万神殿启蒙会
         "[+50]% Spread Religion Strength <for [Unit_Missionary] units> <after adopting [Follower belief_Sacred procurement]>",//追随者信仰神圣采购
-        "Gain a free [Building_Reliquary] [in capital] <after adopting [Follower belief_Reliquary]>"//追随者信仰圣遗物柜
+        "Gain a free [Building_Reliquary] [in capital] <after adopting [Follower belief_Reliquary]>",//追随者信仰圣遗物柜
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [Follower belief_Crusade]>",//十字军
-        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>",//信仰守护者
+        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [Follower belief_Defender of faith]>"//信仰守护者
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
@@ -1547,7 +1547,7 @@
 		"uniques": ["Remove extra unhappiness from annexed cities",
         "Can only be built [in annexed cities]",
         "Automatically built in all cities where it is buildable",
-		"Unsellable","Will not be displayed in Civilopedia"],
+		"Unsellable","Will not be displayed in Civilopedia"]
 //		"requiredTech": "Tech_Writing"
 	},
     /*
@@ -1998,7 +1998,7 @@
 //        "greatPersonPoints":{"GreatPerson_Class_Prophet": 1},
 		"uniques": ["Provides [1] [Resource_GreatPerson_Class_Prophet]",
         "Provides [1] [Resource_GreatPerson_Class_Prophet] <in cities with a [Governor_Pingala_III]>",
-        "[Unit_Missionary] units built [in this city] can [Spread Religion] [1] extra times",
+        "All newly-trained [Unit_Missionary] units [in this city] receive the [promotion.Devout1] promotion",
         "Only available <after adopting [Enhancer belief_Mosque]>",
         "Hidden when religion is disabled",
 		"Building_Classification_Holy_Site_District",
@@ -4005,7 +4005,8 @@
         "cost":710,
         "faith":4,
         "isWonder": true,
-        "uniques": ["[Unit_Missionary] units built [in this city] can [Spread Religion] [1] extra times",
+        "uniques": [
+            "All newly-trained [Unit_Missionary] units [in this city] receive the [promotion.Devout1] promotion",
             "Creates a [District_Hagia_Sophia] improvement on a specific tile",
             "Only available <after founding a religion>",
             "Hidden when [Pattern_Permit to build World Wonder] Victory is disabled",
@@ -6125,7 +6126,7 @@
         "Provides [2] [Resource_house_limitation] <after adopting [Pantheon_Rain god]>",//万神殿雨神修正
         "Provides [2] [Resource_house_limitation] <in tiles without [River]> <after adopting [Pantheon_Rain god]>",//万神殿雨神修正
         "Provides [2] [Resource_house_limitation] <in [Landform_Hill] tiles> <after adopting [Pantheon_Legend_of_El_Dorado]>",//万神殿黄金国传说修正
-        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles> <after adopting [Pantheon_Mazu_Belief]>",//万神殿妈祖信仰修正
+        "Provides [2] [Resource_house_limitation] <in [Coastal] tiles> <after adopting [Pantheon_Mazu_Belief]>"//万神殿妈祖信仰修正
 ],
         "replacementTextForUniques":" "
     },
