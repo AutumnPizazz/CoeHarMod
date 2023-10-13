@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Difficulty_Online",
+		"name": "Difficulty.Online",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -29,7 +29,7 @@
 		"clearBarbarianCampReward": 30
 	},
 	{
-		"name": "Difficulty_Settler",
+		"name": "Difficulty.Settler",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.9,
@@ -58,7 +58,7 @@
 		"clearBarbarianCampReward": 50
 	},
 	{
-		"name": "Difficulty_Chief",
+		"name": "Difficulty.Chief",
 		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.95,
@@ -87,7 +87,7 @@
 		"clearBarbarianCampReward": 40
 	},
 	{
-		"name": "Difficulty_Warlord",
+		"name": "Difficulty.Warlord",
 		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -116,7 +116,7 @@
 		"clearBarbarianCampReward": 30
 	},
 	{
-		"name": "Difficulty_Prince",
+		"name": "Difficulty.Prince",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -145,7 +145,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty_King",
+		"name": "Difficulty.King",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -174,7 +174,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty_Emperor",
+		"name": "Difficulty.Emperor",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -203,7 +203,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty_Immortal",
+		"name": "Difficulty.Immortal",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -232,7 +232,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty_Deity",
+		"name": "Difficulty.Deity",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -261,7 +261,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty_Gods",
+		"name": "Difficulty.Gods",
 		"baseHappiness": 8,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,

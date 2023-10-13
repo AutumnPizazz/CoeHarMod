@@ -1,7 +1,7 @@
 [
 	/*区域系统*/
 	{//市政广场
-		"name":"District_Government_Plaza",
+		"name":"District.GovernmentPlaza",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -9,18 +9,18 @@
 		"culture":-10,
 		"faith":-10,
 		"happiness":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Government_Plaza"]
+			"Class.District",
+			"Class.GovernmentPlaza"]
 	},
 	{//玛雅-玛雅布
-		"name":"District_Mayab",
+		"name":"District.Mayab",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -28,18 +28,18 @@
 		"culture":-10,
 		"faith":-10,
 		"happiness":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Government_Plaza"]
+			"Class.District",
+			"Class.GovernmentPlaza"]
 	},
 	{//外交区
-		"name":"District_Foreign_Quarter",
+		"name":"District.ForeignQuarter",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -47,18 +47,18 @@
 		"culture":-10,
 		"faith":-10,
 		"happiness":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District"]
+			"Class.District"]
 	},
 	{//圣地
-		"name": "District_Holy_Site",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.HolySite",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -69,26 +69,26 @@
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Faith] for each adjacent [Mountain]",
-			"[+1 Faith] for each adjacent [Mountain] <after adopting [Pantheon_Seedlings_of_the_Mountain]>",
-			"[+1 Faith] <with [2] to [3] neighboring [Landform_Forest] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Landform_Forest] tiles>",
-			"[+3 Faith] <with [6] to [7] neighboring [Landform_Forest] tiles>",
-			"[+1 Faith] <with [2] to [3] neighboring [Classification_District] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Classification_District] tiles>",
-			"[+3 Faith] <with [6] to [7] neighboring [Classification_District] tiles>",
-			"[+1 Faith] for each adjacent [Class_Government_Plaza]",
-			"[+1 Faith] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+			"[+1 Faith] for each adjacent [Mountain] <after adopting [Pantheon.SeedlingsOfTheMountain]>",
+			"[+1 Faith] <with [2] to [3] neighboring [Landform.Forest] tiles>",
+			"[+2 Faith] <with [4] to [5] neighboring [Landform.Forest] tiles>",
+			"[+3 Faith] <with [6] to [7] neighboring [Landform.Forest] tiles>",
+			"[+1 Faith] <with [2] to [3] neighboring [Class.District] tiles>",
+			"[+2 Faith] <with [4] to [5] neighboring [Class.District] tiles>",
+			"[+3 Faith] <with [6] to [7] neighboring [Class.District] tiles>",
+			"[+1 Faith] for each adjacent [Class.GovernmentPlaza]",
+			"[+1 Faith] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 			"[+2 Faith] for each adjacent [Natural Wonder]",
-			"[+1 Faith] for each adjacent [Coast] <for [Nation_Indonesia]>",
+			"[+1 Faith] for each adjacent [Coast] <for [Nation.Indonesia]>",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Holy_Site"]
+			"Class.District",
+			"Class.HolySite"]
 	},
 	{//俄罗斯-拉夫拉修道院
-		"name": "District_Lavra_Monastery",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.LavraMonastery",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -100,25 +100,25 @@
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Faith] for each adjacent [Mountain]",
-			"[+1 Faith] for each adjacent [Mountain] <after adopting [Pantheon_Seedlings_of_the_Mountain]>",
-			"[+1 Faith] <with [2] to [3] neighboring [Landform_Forest] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Landform_Forest] tiles>",
-			"[+3 Faith] <with [6] to [7] neighboring [Landform_Forest] tiles>",
-			"[+1 Faith] <with [2] to [3] neighboring [Classification_District] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Classification_District] tiles>",
-			"[+3 Faith] <with [6] to [7] neighboring [Classification_District] tiles>",
-			"[+1 Faith] for each adjacent [Class_Government_Plaza]",
-			"[+1 Faith] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+			"[+1 Faith] for each adjacent [Mountain] <after adopting [Pantheon.SeedlingsOfTheMountain]>",
+			"[+1 Faith] <with [2] to [3] neighboring [Landform.Forest] tiles>",
+			"[+2 Faith] <with [4] to [5] neighboring [Landform.Forest] tiles>",
+			"[+3 Faith] <with [6] to [7] neighboring [Landform.Forest] tiles>",
+			"[+1 Faith] <with [2] to [3] neighboring [Class.District] tiles>",
+			"[+2 Faith] <with [4] to [5] neighboring [Class.District] tiles>",
+			"[+3 Faith] <with [6] to [7] neighboring [Class.District] tiles>",
+			"[+1 Faith] for each adjacent [Class.GovernmentPlaza]",
+			"[+1 Faith] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 			"[+2 Faith] for each adjacent [Natural Wonder]",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +2 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Holy_Site"]
+			"Class.District",
+			"Class.HolySite"]
 	},
 	{//学院
-		"name": "District_Campus",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Campus",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -128,31 +128,31 @@
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Mountain]",
-			"[+1 Science] for each adjacent [Mountain] <after adopting [Pantheon_Seedlings_of_the_Mountain]>",
-			"[+1 Science] <with [2] to [3] neighboring [Landform_Rainforest] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Landform_Rainforest] tiles>",
-			"[+3 Science] <with [6] to [7] neighboring [Landform_Rainforest] tiles>",
-			"[+1 Science] <with [2] to [3] neighboring [Classification_District] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Classification_District] tiles>",
-			"[+3 Science] <with [6] to [7] neighboring [Classification_District] tiles>",
-			"[+1 Science] for each adjacent [Class_Government_Plaza]",
-			"[+1 Science] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
-			"[+1 Science] for each adjacent [Landform_Reef]",
-			"[+1 Science] for each adjacent [Landform_Reef] <after adopting [Pantheon_Song_of_the_Sirens]>",
-			"[+1 Science] for each adjacent [Landform_Geothermal fissure]",
-			"[+1 Science] for each adjacent [Landform_Geothermal fissure] <after adopting [Pantheon_Goddess of fire]>",
-			"[+2 Science] for each adjacent [Naturalwonder_Great_Barrier_Reef]",
-			"[+2 Science] for each adjacent [Distinct_The_Great_Library]",
-			"[+1 Science] for each adjacent [Coast] <for [Nation_Indonesia]>",
+			"[+1 Science] for each adjacent [Mountain] <after adopting [Pantheon.SeedlingsOfTheMountain]>",
+			"[+1 Science] <with [2] to [3] neighboring [Landform.Rainforest] tiles>",
+			"[+2 Science] <with [4] to [5] neighboring [Landform.Rainforest] tiles>",
+			"[+3 Science] <with [6] to [7] neighboring [Landform.Rainforest] tiles>",
+			"[+1 Science] <with [2] to [3] neighboring [Class.District] tiles>",
+			"[+2 Science] <with [4] to [5] neighboring [Class.District] tiles>",
+			"[+3 Science] <with [6] to [7] neighboring [Class.District] tiles>",
+			"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
+			"[+1 Science] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
+			"[+1 Science] for each adjacent [Landform.Reef]",
+			"[+1 Science] for each adjacent [Landform.Reef] <after adopting [Pantheon.SongOfTheSirens]>",
+			"[+1 Science] for each adjacent [Landform.GeothermalFissure]",
+			"[+1 Science] for each adjacent [Landform.GeothermalFissure] <after adopting [Pantheon.GoddessOfFire]>",
+			"[+2 Science] for each adjacent [Naturalwonder.GreatBarrierReef]",
+			"[+2 Science] for each adjacent [District.TheGreatLibrary]",
+			"[+1 Science] for each adjacent [Coast] <for [Nation.Indonesia]>",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Campus"]
+			"Class.District",
+			"Class.Campus"]
 	},
 	{//朝鲜-书院
-		"name": "Distict_Academy_of_Classical_Learning",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "Distict.LearningAcademy",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -162,30 +162,30 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
-			"[+1 Science] for each adjacent [Class_Government_Plaza]",
-			"[-1 Science] for each adjacent [Classification_District]",
-//			"[+1 Science] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
-			"[+2 Science] for each adjacent [Distinct_The_Great_Library]",
-			"Can only be built on [Landform_Hill] tiles",
+			"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
+			"[-1 Science] for each adjacent [Class.District]",
+//			"[+1 Science] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
+			"[+2 Science] for each adjacent [District.TheGreatLibrary]",
+			"Can only be built on [Landform.Hill] tiles",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District","Class_Campus"
+			"Class.District","Class.Campus"
 		],
 		"civilopediaText":[
 			{
 				"text":"Provide additional scientific research bonus for adjacent mines as technology grows",
-				"link":"Improvement/Improvement_Mine"
+				"link":"Improvement/Improvement.Mine"
 			},
 			{
 				"text":"+1 Gold for each adjacent Farm",
-				"link":"Improvement/Improvement_Farm"
+				"link":"Improvement/Improvement.Farm"
 			}
 		]
 	},
 	{//玛雅-天文台
-		"name": "District_Mayan_Observatory",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.MayanObservatory",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -195,28 +195,28 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 		"Tile provides yield without assigned population",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"[+1 Science] <with [2] to [3] neighboring [Classification_District] tiles>",
-		"[+2 Science] <with [4] to [5] neighboring [Classification_District] tiles>",
-		"[+3 Science] <with [6] to [7] neighboring [Classification_District] tiles>",
-		"[+1 Science] <with [2] to [3] neighboring [Improvement_Farm] tiles>",
-		"[+2 Science] <with [4] to [5] neighboring [Improvement_Farm] tiles>",
-		"[+3 Science] <with [6] to [7] neighboring [Improvement_Farm] tiles>",
-		"[+2 Science] for each adjacent [Improvement_Plantation]",
-		"[+1 Science] for each adjacent [Class_Government_Plaza]",
-		"[+1 Science] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
-		"[+2 Science] for each adjacent [Naturalwonder_Great_Barrier_Reef]",
-		"[+2 Science] for each adjacent [Distinct_The_Great_Library]",
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"[+1 Science] <with [2] to [3] neighboring [Class.District] tiles>",
+		"[+2 Science] <with [4] to [5] neighboring [Class.District] tiles>",
+		"[+3 Science] <with [6] to [7] neighboring [Class.District] tiles>",
+		"[+1 Science] <with [2] to [3] neighboring [Improvement.Farm] tiles>",
+		"[+2 Science] <with [4] to [5] neighboring [Improvement.Farm] tiles>",
+		"[+3 Science] <with [6] to [7] neighboring [Improvement.Farm] tiles>",
+		"[+2 Science] for each adjacent [Improvement.Plantation]",
+		"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
+		"[+1 Science] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
+		"[+2 Science] for each adjacent [Naturalwonder.GreatBarrierReef]",
+		"[+2 Science] for each adjacent [District.TheGreatLibrary]",
 		"Removes removable features when built",
 		"Irremovable",
 		"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-		"Classification_District",
-		"Class_Campus"
+		"Class.District",
+		"Class.Campus"
 		]
 	},
 	{//剧院广场
-		"name": "District_Theater_Square",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.TheaterSquare",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -226,23 +226,23 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
-			"[+1 Culture] <with [2] to [3] neighboring [Classification_District] tiles>",
-			"[+2 Culture] <with [4] to [5] neighboring [Classification_District] tiles>",
-			"[+3 Culture] <with [6] to [7] neighboring [Classification_District] tiles>",
-			"[+2 Culture] for each adjacent [Class_Entertainment_Complex]",
-			"[+2 Culture] for each adjacent [District_Class_Wonder]",
-			"[+2 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
-			"[+1 Culture] for each adjacent [Class_Government_Plaza]",
-			"[+1 Culture] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+			"[+1 Culture] <with [2] to [3] neighboring [Class.District] tiles>",
+			"[+2 Culture] <with [4] to [5] neighboring [Class.District] tiles>",
+			"[+3 Culture] <with [6] to [7] neighboring [Class.District] tiles>",
+			"[+2 Culture] for each adjacent [Class.EntertainmentComplex]",
+			"[+2 Culture] for each adjacent [Class.WonderDistrict]",
+			"[+2 Culture] for each adjacent [Naturalwonder.MountTai]",
+			"[+1 Culture] for each adjacent [Class.GovernmentPlaza]",
+			"[+1 Culture] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Theater_Square"]
+			"Class.District",
+			"Class.TheaterSquare"]
 	},
 	{//希腊-卫城
-		"name": "District_Acropolis",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Acropolis",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -252,22 +252,22 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
-			"[+1 Culture] for each adjacent [Classification_District]",
+			"[+1 Culture] for each adjacent [Class.District]",
 			"[+1 Culture] for each adjacent [City center]",
-			"[+2 Culture] for each adjacent [District_Class_Wonder]",
-			"[+2 Culture] for each adjacent [Naturalwonder_Mount_Tai]",
-			"[+1 Culture] for each adjacent [Class_Government_Plaza]",
-			"[+1 Culture] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+			"[+2 Culture] for each adjacent [Class.WonderDistrict]",
+			"[+2 Culture] for each adjacent [Naturalwonder.MountTai]",
+			"[+1 Culture] for each adjacent [Class.GovernmentPlaza]",
+			"[+1 Culture] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 			"Removes removable features when built",
-			"Can only be built on [Landform_Hill] tiles",
+			"Can only be built on [Landform.Hill] tiles",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Theater_Square"]
+			"Class.District",
+			"Class.TheaterSquare"]
 	},
 	{//商业中心
-		"name": "District_Commercial_Hub",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.CommercialHub",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"gold":2,
 		"food": -10,
 		"production":-10,
@@ -277,23 +277,23 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
-					"[+1 Gold] <with [2] to [3] neighboring [Classification_District] tiles>",
-					"[+2 Gold] <with [4] to [5] neighboring [Classification_District] tiles>",
-					"[+3 Gold] <with [6] to [7] neighboring [Classification_District] tiles>",
+					"Cannot be built on [Resource.EarthVeins] tiles",
+					"[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles>",
+					"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles>",
+					"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles>",
 					"[+3 Gold] <with [1] to [6] neighboring [River] tiles>",
-					"[+2 Gold] for each adjacent [Class_Harbor]",
-					"[+1 Gold] for each adjacent [Class_Government_Plaza]",
-					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+					"[+2 Gold] for each adjacent [Class.Harbor]",
+					"[+1 Gold] for each adjacent [Class.GovernmentPlaza]",
+					"[+1 Gold] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Commercial_Hub"]
+					"Class.District",
+					"Class.CommercialHub"]
 	},
 	{//马里-曼丁哥市场
-		"name": "District_Mandingo_Market",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.MandingoMarket",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"gold":2,
 		"food": -10,
 		"production":-10,
@@ -303,23 +303,23 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
-					"[+1 Gold] <with [2] to [3] neighboring [Classification_District] tiles>",
-					"[+2 Gold] <with [4] to [5] neighboring [Classification_District] tiles>",
-					"[+3 Gold] <with [6] to [7] neighboring [Classification_District] tiles>",
+					"Cannot be built on [Resource.EarthVeins] tiles",
+					"[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles>",
+					"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles>",
+					"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles>",
 					"[+1 Gold] for each adjacent [Desert]",
-					"[+2 Gold] for each adjacent [Class_Harbor]",
-					"[+1 Gold] for each adjacent [Class_Government_Plaza]",
-					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+					"[+2 Gold] for each adjacent [Class.Harbor]",
+					"[+1 Gold] for each adjacent [Class.GovernmentPlaza]",
+					"[+1 Gold] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Commercial_Hub"]
+					"Class.District",
+					"Class.CommercialHub"]
 	},
 	{//工业区
-		"name": "District_Industrial_Zone",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.IndustrialZone",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"gold":-10,
 		"science":-10,
@@ -328,25 +328,25 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
-					"[+1 Production] <with [2] to [3] neighboring [Classification_District] tiles>",
-					"[+2 Production] <with [4] to [5] neighboring [Classification_District] tiles>",
-					"[+3 Production] <with [6] to [7] neighboring [Classification_District] tiles>",
-					"[+1 Production] <with [2] to [3] neighboring [Class_Industrials] tiles>",
-					"[+2 Production] <with [4] to [5] neighboring [Class_Industrials] tiles>",
-					"[+3 Production] <with [6] to [7] neighboring [Class_Industrials] tiles>",
-					"[+2 Production] for each adjacent [Class_Raceline]",
-					"[+1 Production] for each adjacent [Class_Government_Plaza]",
-					"[+1 Production] for each adjacent [Basic Strategic Resource]",
+					"Cannot be built on [Resource.EarthVeins] tiles",
+					"[+1 Production] <with [2] to [3] neighboring [Class.District] tiles>",
+					"[+2 Production] <with [4] to [5] neighboring [Class.District] tiles>",
+					"[+3 Production] <with [6] to [7] neighboring [Class.District] tiles>",
+					"[+1 Production] <with [2] to [3] neighboring [Class.Industrials] tiles>",
+					"[+2 Production] <with [4] to [5] neighboring [Class.Industrials] tiles>",
+					"[+3 Production] <with [6] to [7] neighboring [Class.Industrials] tiles>",
+					"[+2 Production] for each adjacent [Class.Raceline]",
+					"[+1 Production] for each adjacent [Class.GovernmentPlaza]",
+					"[+1 Production] for each adjacent [Class.BasicStrategicResource]",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Industrial_Zone"]
+					"Class.District",
+					"Class.IndustrialZone"]
 	},
 	{//高卢-奥皮杜姆
-		"name": "District_Oppidum",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Oppidum",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"gold":-10,
 		"science":-10,
@@ -356,20 +356,20 @@
 		"uniques": ["Great Improvement",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Tile provides yield without assigned population",
-			"Cannot be built on [Resource_EarthVeins] tiles",
-			"[+1 Production] for each adjacent [Class_Industrials]",
-			"[+2 Production] for each adjacent [Class_Raceline]",
-			"[+1 Production] for each adjacent [Class_Government_Plaza]",
-			"[+1 Production] for each adjacent [Basic Strategic Resource]",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"[+1 Production] for each adjacent [Class.Industrials]",
+			"[+2 Production] for each adjacent [Class.Raceline]",
+			"[+1 Production] for each adjacent [Class.GovernmentPlaza]",
+			"[+1 Production] for each adjacent [Class.BasicStrategicResource]",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District",
-			"Class_Industrial_Zone"]
+			"Class.District",
+			"Class.IndustrialZone"]
 	},
 	{//德意志-商业同业公会
-		"name": "District_Commercial_Association",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.CommercialAssociation",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"gold":-10,
 		"science":-10,
@@ -378,26 +378,26 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
-					"[+1 Production] <with [2] to [3] neighboring [Classification_District] tiles>",
-					"[+2 Production] <with [4] to [5] neighboring [Classification_District] tiles>",
-					"[+3 Production] <with [6] to [7] neighboring [Classification_District] tiles>",
-					"[+2 Production] for each adjacent [Class_Commercial_Hub]",
-					"[+2 Production] for each adjacent [Class_Raceline]",
-					"[+1 Production] for each adjacent [Class_Government_Plaza]",
-					"[+1 Production] for each adjacent [Basic Strategic Resource]",
-					"[+1 Production] for each adjacent [Resource_EarthVeins]",
+					"Cannot be built on [Resource.EarthVeins] tiles",
+					"[+1 Production] <with [2] to [3] neighboring [Class.District] tiles>",
+					"[+2 Production] <with [4] to [5] neighboring [Class.District] tiles>",
+					"[+3 Production] <with [6] to [7] neighboring [Class.District] tiles>",
+					"[+2 Production] for each adjacent [Class.CommercialHub]",
+					"[+2 Production] for each adjacent [Class.Raceline]",
+					"[+1 Production] for each adjacent [Class.GovernmentPlaza]",
+					"[+1 Production] for each adjacent [Class.BasicStrategicResource]",
+					"[+1 Production] for each adjacent [Resource.EarthVeins]",
 					"[+1 Production] for each adjacent [Luxury resource]",
 					"[+1 Production] for each adjacent [Bonus resource]",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Industrial_Zone"]
+					"Class.District",
+					"Class.IndustrialZone"]
 	},
 	{//宇航中心
-		"name": "District_Spaceport",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Spaceport",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -407,15 +407,15 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District"]
+					"Class.District"]
 	},
 	{//娱乐中心
-		"name": "District_Entertainment_Complex",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.EntertainmentComplex",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -426,16 +426,16 @@
 		"overrideStats": true,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Removes removable features when built",
 					"Irremovable",
 					"Removes removable features when built",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Entertainment_Complex"]
+					"Class.District",
+					"Class.EntertainmentComplex"]
 	},
 	{//水上乐园
-		"name": "District_Water_Park",
+		"name": "District.WaterPark",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"food": -10,
 		"production":-10,
@@ -450,11 +450,11 @@
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Water_Park"]
+					"Class.District",
+					"Class.WaterPark"]
 	},
 	{//港口
-		"name": "District_Harbor",
+		"name": "District.Harbor",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes","LargeRiver"],
 		"food": -10,
 		"production":-10,
@@ -464,20 +464,20 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"[+1 Gold] <with [2] to [3] neighboring [Classification_District] tiles>",
-					"[+2 Gold] <with [4] to [5] neighboring [Classification_District] tiles>",
-					"[+3 Gold] <with [6] to [7] neighboring [Classification_District] tiles>",
-					"[+1 Gold] for each adjacent [Classification_Resource on water]",
-					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+					"[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles>",
+					"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles>",
+					"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles>",
+					"[+1 Gold] for each adjacent [Class.ResourceOnWater]",
+					"[+1 Gold] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 					"[+2 Gold] for each adjacent [City center]",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Harbor"]
+					"Class.District",
+					"Class.Harbor"]
 	},
 	{//腓尼基-U形港
-		"name": "District_U_shaped_Harbor",
+		"name": "District.UShapedHarbor",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"food": -10,
 		"production":-10,
@@ -487,19 +487,19 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"[+1 Gold] for each adjacent [Classification_District]",
-					"[+1 Gold] for each adjacent [Classification_Resource on water]",
-					"[+1 Gold] for each adjacent [Resource_EarthVeins] <if [Governor_GoldenDawn_I] is constructed>",
+					"[+1 Gold] for each adjacent [Class.District]",
+					"[+1 Gold] for each adjacent [Class.ResourceOnWater]",
+					"[+1 Gold] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 					"[+2 Gold] for each adjacent [City center]",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Harbor"]
+					"Class.District",
+					"Class.Harbor"]
 	},
 	{//军营
-		"name": "District_Army",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Army",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -509,17 +509,17 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Gives a defensive bonus of [28]%",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Army"]
+					"Class.District",
+					"Class.Army"]
 	},
 	{//水渠
-		"name": "Distinct_Raceline",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Raceline",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"production":-10,
 		"gold":-10,
 		"science":-10,
@@ -528,17 +528,17 @@
 		"uniques": ["Great Improvement",
 					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Removes removable features when built",
 					"Irremovable",
-					"[+4 Happiness] for each adjacent [Naturalwonder_Hukou_Waterfall]",
+					"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
 					"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Raceline"]
+					"Class.District",
+					"Class.Raceline"]
 	},
 	{//罗马-浴场
-		"name": "Distict_BeachLandmark",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "Distict.BeachLandmark",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -548,37 +548,37 @@
 		"uniques": ["Great Improvement",
 					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Removes removable features when built",
 					"Irremovable",
-					"[+4 Happiness] for each adjacent [Naturalwonder_Hukou_Waterfall]",
-					"[+2 Happiness] for each adjacent [Landform_Geothermal fissure]",
+					"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
+					"[+2 Happiness] for each adjacent [Landform.GeothermalFissure]",
 					"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Raceline"]
+					"Class.District",
+					"Class.Raceline"]
 	},
 	{//冰岛-草屋
-		"name": "District_Torfbair",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "District.Torfbair",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food":2,
 		"production":2,
 		"uniques": ["Great Improvement",
 					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Removes removable features when built",
 					"Irremovable",
-					"[+4 Happiness] for each adjacent [Naturalwonder_Hukou_Waterfall]",
-					"[+1 Food, +1 Production] for each adjacent [Landform_Volcano]",
-					"[+1 Food, +1 Production] for each adjacent [Landform_Volcanic_Soil]",
-					"[+1 Food, +1 Production] for each adjacent [Landform_Geothermal fissure]",
+					"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
+					"[+1 Food, +1 Production] for each adjacent [Landform.Volcano]",
+					"[+1 Food, +1 Production] for each adjacent [Landform.VolcanicSoil]",
+					"[+1 Food, +1 Production] for each adjacent [Landform.GeothermalFissure]",
 					"[+1 Food, +1 Production] for each adjacent [Natural Wonder]",
 					"Ensures a minimum tile yield of [+2 Production, +2 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Raceline"]
+					"Class.District",
+					"Class.Raceline"]
 	},
 	{//保护区
-		"name": "Distinct_Protection_Zone",
+		"name": "District.ProtectionZone",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": -10,
 		"production":-10,
@@ -589,182 +589,182 @@
 		"uniques": ["Great Improvement",
 					"Constructing it will take over the tiles around it and assign them to your closest city",
 					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource_EarthVeins] tiles",
+					"Cannot be built on [Resource.EarthVeins] tiles",
 					"Removes removable features when built",
 					"Irremovable",
 					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Classification_District",
-					"Class_Protection_Zone"]
+					"Class.District",
+					"Class.ProtectionZone"]
 	},
 	
 	/*全文明通用改良*/
 	{//农田
-		"name": "Improvement_Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "Improvement.Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": 1,
-		"techRequired": "Initial tech_civic_Agriculture",
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"Provides [1] [Resource_house_limitation] <for [Nation_Maya]>",
-		"[+1 Food] <with [2] to [3] neighboring [Improvement_Farm] tiles> <after discovering [Civic_Feudalism]> <before discovering [Tech_Part specification]>",
-		"[+2 Food] <with [4] to [5] neighboring [Improvement_Farm] tiles> <after discovering [Civic_Feudalism]> <before discovering [Tech_Part specification]>",
-		"[+3 Food] <with [6] to [7] neighboring [Improvement_Farm] tiles> <after discovering [Civic_Feudalism]> <before discovering [Tech_Part specification]>",
-		"[+1 Food] for each adjacent [Improvement_Farm] <after discovering [Tech_Part specification]>",
-		"[+1 Gold] for each adjacent [Distict_Academy_of_Classical_Learning]",
+		"techRequired": "Tech.Civic.Agriculture",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]>",
+		"[+1 Food] <with [2] to [3] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
+		"[+2 Food] <with [4] to [5] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
+		"[+3 Food] <with [6] to [7] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
+		"[+1 Food] for each adjacent [Improvement.Farm] <after discovering [Tech.PartSpecification]>",
+		"[+1 Gold] for each adjacent [Distict.LearningAcademy]",
         "Pillaging this improvement yields approximately [+18 Gold]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//伐木场
-		"name": "Improvement_Lumber_Mill",
-		"terrainsCanBeBuiltOn": ["Landform_Forest","Landform_Rainforest"],
+		"name": "Improvement.LumberMill",
+		"terrainsCanBeBuiltOn": ["Landform.Forest","Landform.Rainforest"],
 		"production": 2,
-		"techRequired": "Tech_Build",
-		"uniques": ["[+1 Production] <after discovering [Tech_Steel]>",
-		"[+1 Production] <after discovering [Tech_Cybernetics]>",
+		"techRequired": "Tech.Build",
+		"uniques": ["[+1 Production] <after discovering [Tech.Steel]>",
+		"[+1 Production] <after discovering [Tech.Cybernetics]>",
 		"Pillaging this improvement yields approximately [+18 Gold]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//矿山
-		"name": "Improvement_Mine",
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"name": "Improvement.Mine",
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"production": 1,
-		"techRequired": "Tech_Mining",
-		"uniques": ["[+1 Production] <after discovering [Tech_Apprentices]>",
-		"[+1 Production] <after discovering [Tech_Industrialization]>",
-		"[+1 Production] <after discovering [Tech_Smart materials]>",
-		"Does not need removal of [Landform_Forest]",
-		"Does not need removal of [Landform_Rainforest]",
-		"[+1 Science] for each adjacent [Distict_Academy_of_Classical_Learning] <after discovering [Tech_Math]>",
-		"[+1 Science] for each adjacent [Distict_Academy_of_Classical_Learning] <after discovering [Tech_Scientific theory]>",
+		"techRequired": "Tech.Mining",
+		"uniques": ["[+1 Production] <after discovering [Tech.Apprentices]>",
+		"[+1 Production] <after discovering [Tech.Industrialization]>",
+		"[+1 Production] <after discovering [Tech.SmartMaterials]>",
+		"Does not need removal of [Landform.Forest]",
+		"Does not need removal of [Landform.Rainforest]",
+		"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.Math]>",
+		"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.ScientificTheory]>",
 		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Industrials",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.Industrials",
+		"Class.UsualImprovement"]
 	},
 	{//人工养殖林
-		"name": "Improvement_Manufactory",
+		"name": "Improvement.Manufactory",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"production": 3,
-		"techRequired": "Civic_Earth protection",
+		"techRequired": "Civic.EarthProtection",
 		"uniques": ["Gives a defensive bonus of [13]%",
-		"[+1 Production] <after discovering [Tech_Smart materials]>",
+		"[+1 Production] <after discovering [Tech.SmartMaterials]>",
 		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//渔场
-		"name": "Improvement_Fishery",
+		"name": "Improvement.Fishery",
 		"terrainsCanBeBuiltOn": ["Coast","LargeRiver"],
 		"food": 1,
-		"techRequired": "Tech_Nautical art",
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"[+1 Food] for each adjacent [Classification_Resource on water]",
+		"techRequired": "Tech.NauticalArt",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"[+1 Food] for each adjacent [Class.ResourceOnWater]",
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//海洋家园
-		"name": "Improvement_Seastead",
+		"name": "Improvement.Seastead",
 		"terrainsCanBeBuiltOn": ["Ocean","Coast"],
 		"food": 2,
-		"techRequired": "Tech_Ocean home",
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"[+1 Production] for each adjacent [Improvement_Fishing_Boat]",
-		"[+1 Culture] for each adjacent [Landform_Reef]",
+		"techRequired": "Tech.OceanHome",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"[+1 Production] for each adjacent [Improvement.FishingBoat]",
+		"[+1 Culture] for each adjacent [Landform.Reef]",
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 
 	//专门用于收获资源的改良
 	{//营地
-		"name": "Improvement_Encampment",
-		"techRequired": "Tech_Animal husbandry",
+		"name": "Improvement.Encampment",
+		"techRequired": "Tech.AnimalHusbandry",
 		"gold":2,
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"Does not need removal of [Landform_Forest]",
-		"Does not need removal of [Landform_Rainforest]",
-		"Does not need removal of [Landform_Swamp]",
-		"[+1 Production, +1 Food] <after discovering [Civic_Mercantilism]>",
-		"[+2 Gold] <after discovering [Tech_Synthetic]>",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"Does not need removal of [Landform.Forest]",
+		"Does not need removal of [Landform.Rainforest]",
+		"Does not need removal of [Landform.Swamp]",
+		"[+1 Production, +1 Food] <after discovering [Civic.Mercantilism]>",
+		"[+2 Gold] <after discovering [Tech.Synthetic]>",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//油井
-		"name": "Improvement_Oil_Well",
-		"techRequired": "Tech_Refining",
+		"name": "Improvement.OilWell",
+		"techRequired": "Tech.Refining",
 		"production":2,
 		"uniques": ["Can only be built to improve a resource",
-		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//海上石油钻机
-		"name": "Improvement_Offshore_Oil_Rig",
-		"techRequired": "Tech_Plastic",
+		"name": "Improvement.OffshoreOilRig",
+		"techRequired": "Tech.Plastic",
 		"production":2,
 		"uniques": ["Can only be built to improve a resource",
 		"Can only be built on [Water] tiles",
-		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//牧场
-		"name": "Improvement_Pasture",
-		"techRequired": "Tech_Animal husbandry",
+		"name": "Improvement.Pasture",
+		"techRequired": "Tech.AnimalHusbandry",
 		"production":1,
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"[+1 Food] <after discovering [Tech_Stirrups]>",
-		"[+1 Production] <after discovering [Tech_Part specification]>",
-		"[+1 Food] <after discovering [Tech_Robotics]>",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"[+1 Food] <after discovering [Tech.Stirrups]>",
+		"[+1 Production] <after discovering [Tech.PartSpecification]>",
+		"[+1 Food] <after discovering [Tech.Robotics]>",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+10 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//种植园
-		"name": "Improvement_Plantation",
+		"name": "Improvement.Plantation",
 		"gold": 2,
-		"techRequired": "Tech_Irrigation",
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"Provides [1] [Resource_house_limitation] <for [Nation_Maya]>",
-		"[+1 Food] <after discovering [Tech_Scientific theory]>",
-		"[+1 Food] <after discovering [Civic_Feudalism]>",
-		"[+2 Gold] <after discovering [Civic_Globalization]>",
-		"Does not need removal of [Landform_Swamp]",
-		"Does not need removal of [Landform_Rainforest]",
-		"Does not need removal of [Landform_Forest]",
+		"techRequired": "Tech.Irrigation",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]>",
+		"[+1 Food] <after discovering [Tech.ScientificTheory]>",
+		"[+1 Food] <after discovering [Civic.Feudalism]>",
+		"[+2 Gold] <after discovering [Civic.Globalization]>",
+		"Does not need removal of [Landform.Swamp]",
+		"Does not need removal of [Landform.Rainforest]",
+		"Does not need removal of [Landform.Forest]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//采石场
-		"name": "Improvement_Quarry",
-		"techRequired": "Tech_Mining",
+		"name": "Improvement.Quarry",
+		"techRequired": "Tech.Mining",
 		"production":1,
-		"uniques": ["[+1 Production] <after discovering [Tech_Gunpowder]>",
-		"[+1 Production] <after discovering [Tech_Rocket research]>",
-		"[+1 Production] <after discovering [Tech_Forecasting system]>",
+		"uniques": ["[+1 Production] <after discovering [Tech.Gunpowder]>",
+		"[+1 Production] <after discovering [Tech.RocketResearch]>",
+		"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class_Industrials",
-		"Class_Usual_Improvement"]
+		"Class.Industrials",
+		"Class.UsualImprovement"]
 	},
 	{//渔船
-		"name": "Improvement_Fishing_Boat",
+		"name": "Improvement.FishingBoat",
 		"terrainsCanBeBuiltOn": ["Coast","LargeRiver"],
 		"food": 1,
-		"techRequired": "Tech_Nautical art",
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"[+2 Gold] <after discovering [Tech_Cartography]>",
-		"[+1 Food] <after discovering [Tech_Plastic]>",
-		"[+1 Production] <after discovering [Civic_Colonialism]>",
-		"[+1 Production] for each adjacent [Improvement_Seastead]",
+		"techRequired": "Tech.NauticalArt",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"[+2 Gold] <after discovering [Tech.Cartography]>",
+		"[+1 Food] <after discovering [Tech.Plastic]>",
+		"[+1 Production] <after discovering [Civic.Colonialism]>",
+		"[+1 Production] for each adjacent [Improvement.Seastead]",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//地脉开采器
-		"name": "Improvement_EarthVeinsExploiter",
+		"name": "Improvement.EarthVeinsExploiter",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food":1,
 		"production":1,
@@ -772,47 +772,47 @@
 		"science":1,
 		"culture":1,
 		"faith":1,
-		"techRequired": "Tech_UniqueToGoldenDawn2",
-		"uniques": ["Provides [2] [Resource_house_limitation]",
+		"techRequired": "Tech.UniqueToGoldenDawn2",
+		"uniques": ["Provides [2] [Resource.houseLimitation]",
 		"Can only be built to improve a resource",
 		"Unpillagable",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//地热发电厂
-		"name": "Improvement_GeothermalPowerPlant",
-		"terrainsCanBeBuiltOn": ["Landform_Geothermal fissure"],
+		"name": "Improvement.GeothermalPowerPlant",
+		"terrainsCanBeBuiltOn": ["Landform.GeothermalFissure"],
 		"production":2,
 		"science":1,
-		"techRequired": "Tech_Synthetic",
-		"uniques": ["Provides [2] [Resource_Electricity]",
+		"techRequired": "Tech.Synthetic",
+		"uniques": ["Provides [2] [Resource.Electricity]",
 		"Pillaging this improvement yields approximately [+20 Science]",
-		"Class_Usual_Improvement"]
+		"Class.UsualImprovement"]
 	},
 	{//受保护区块
-		"name": "Improvement_Protection_Zone",
+		"name": "Improvement.ProtectionZone",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"techRequired": "Civic_Mysticism",
+		"techRequired": "Civic.Mysticism",
 		"food":1,//这么做只是为了规避报错检查QAQ
 		"uniques": ["[-1 Food]",//这么做只是为了规避报错检查QAQ
-			"Does not need removal of [Landform_Swamp]",
-			"Does not need removal of [Landform_Rainforest]",
-			"Does not need removal of [Landform_Forest]",
+			"Does not need removal of [Landform.Swamp]",
+			"Does not need removal of [Landform.Rainforest]",
+			"Does not need removal of [Landform.Forest]",
 		"Pillaging this improvement yields approximately [+10 Culture]"]
 	},
 
 	//军事设施
 	{//罗马-罗马堡垒
-		"name": "Improvement_RomeFort",
-		"uniqueTo":"Nation_Rome",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
-		"techRequired": "Tech_Alchemy",
+		"name": "Improvement.RomeFort",
+		"uniqueTo":"Nation.Rome",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform.Hill","Tundra","Snow","Landform.Forest","Landform.Rainforest"],
+		"techRequired": "Tech.Alchemy",
 		"uniques": ["Can be built outside your borders",
 		"Gives a defensive bonus of [18]%"]
 	},
 	{//堡垒
-		"name": "Improvement_Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform_Hill","Tundra","Snow","Landform_Forest","Landform_Rainforest"],
-		"techRequired": "Tech_Siege",
+		"name": "Improvement.Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform.Hill","Tundra","Snow","Landform.Forest","Landform.Rainforest"],
+		"techRequired": "Tech.Siege",
 		"uniques": ["Can be built outside your borders",
 		"Adjacent enemy units ending their turn take [5] damage",
 		"Gives a defensive bonus of [18]%"]
@@ -823,19 +823,19 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Civic_Basic trade",
+		"techRequired": "Civic.BasicTrade",
 		"uniques": ["Can be built outside your borders"],
         "civilopediaText": [
             {"text":"如果与相邻的另一个地块上也有道路或铁路，则减少移动成本为原来的一半"},
-            {"text":"在研究机械科技后，在道路上移动的成本降低为三分之一", "link":"Technology/Tech_Mechanical"},
-            {"text":"在研究工程科技后，跨河道路也能发挥作用", "link":"Technology/Tech_Project"}
+            {"text":"在研究机械科技后，在道路上移动的成本降低为三分之一", "link":"Technology/Tech.Mechanical"},
+            {"text":"在研究工程科技后，跨河道路也能发挥作用", "link":"Technology/Tech.Project"}
         ]
 	},
 	{//铁路
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Tech_Steam power",
+		"techRequired": "Tech.SteamPower",
 		"uniques": ["Can be built outside your borders"],
         "civilopediaText": [{"text":"如果与相邻的另一个地块上也有铁路，则减少移动成本为原来的十分之一"}]
 	},
@@ -844,28 +844,28 @@
 	// Any improvement that starts with 'Remove ' is automatically changed into
 	// the improvement that removes the terrainfeature after it.
 	{//砍伐森林
-		"name": "Remove Landform_Forest",
+		"name": "Remove Landform.Forest",
 		"turnsToBuild": 4,
-		"techRequired": "Tech_Mining",
+		"techRequired": "Tech.Mining",
 		"uniques": [],
         "civilopediaText": [{"text":"完成后，根据离最近城市的距离提供一次性生产力加成，最多不超过20生产力"}]
 	},
 	{//砍伐雨林
-		"name": "Remove Landform_Rainforest",
+		"name": "Remove Landform.Rainforest",
 		"turnsToBuild": 6,
-		"techRequired": "Tech_Copper casting",
+		"techRequired": "Tech.CopperCasting",
 		"uniques": []
 	},
 	{//清理核污染
-		"name": "Remove Landform_Nuclear fallout",
+		"name": "Remove Landform.NuclearFallout",
 		"turnsToBuild": 1,
 		// Has no tech requirements as it can always be built
 		"uniques": ["Can be built outside your borders"]
 	},
 	{//清理沼泽
-		"name": "Remove Landform_Swamp",
+		"name": "Remove Landform.Swamp",
 		"turnsToBuild": 6,
-		"techRequired": "Tech_Irrigation"
+		"techRequired": "Tech.Irrigation"
 	},
 
 	// These are unique and have unique in-game checks related to them
@@ -895,16 +895,16 @@
 
     //伟人设施（删除大部分）
 	{//先知遗址
-		"name": "Improvement_Prophet",
+		"name": "Improvement.Prophet",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": ["Great Improvement",
 		"Removes removable features when built",
-		"Cannot be built on [Resource_EarthVeins] tiles",
+		"Cannot be built on [Resource.EarthVeins] tiles",
 		"Pillaging this improvement yields approximately [+40 Faith]"]
 	},
 	{//军师碉堡
-		"name": "Improvement_Fortification",
+		"name": "Improvement.Fortification",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -918,10 +918,10 @@
 	{//城市中心
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]","Classification_District",
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]","Class.District",
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
-			{"text":"Marks the center of a city"},
+			{"text":"Marks the center of a city"}
 //			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
@@ -943,7 +943,7 @@
 
 	/*人造奇观部分*/
 	{//大浴场
-		"name":"District_The_Great_Baths_of_Caracalla",
+		"name":"District.TheGreatBathsOfCaracalla",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -951,7 +951,7 @@
 		"culture":-10,
 		"faith":-10,
 		"happiness":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
 			"Can only be built on [River] tiles",
@@ -959,28 +959,28 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},	
 	{//巨石阵
-		"name":"District_Stonehenge",
+		"name":"District.Stonehenge",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
 		"science":-10,
 		"culture":-10,
 		"happiness":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Swamp"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
-			"[+1 Faith] for each adjacent [Resource_Stone]",
+			"[+1 Faith] for each adjacent [Resource.Stone]",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},	
 	{//空中花园
-		"name":"District_Garden_In_The_Air",
+		"name":"District.GardenInTheAir",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -988,17 +988,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Swamp"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//埃特曼安吉神庙
-		"name":"District_Etemenanki_Temple",
+		"name":"District.EtemenankiTemple",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1006,16 +1006,16 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Swamp","Landform_Alluvial plain"],
+		"terrainsCanBeBuiltOn": ["Landform.Swamp","Landform.AlluvialPlain"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//阿耳忒弥斯神庙
-		"name":"District_The_Temple_of_Artemis",
+		"name":"District.TempleOfArtemis",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1023,17 +1023,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Improvement_Encampment]",
-			"District_Class_Wonder"]
+			"Must be next to [Improvement.Encampment]",
+			"Class.WonderDistrict"]
 	},	
 	{//金字塔
-		"name":"District_The_Great_Pyramids",
+		"name":"District.TheGreatPyramids",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1048,10 +1048,10 @@
 			"Irremovable",
 			"It can only be built on desert flats",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//神谕
-		"name":"District_Oracle",
+		"name":"District.Oracle",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1059,17 +1059,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"It can only be built on hills",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//大灯塔
-		"name":"District_The_Great_Lighthouse",
+		"name":"District.TheGreatLighthouse",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1083,11 +1083,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Harbor]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Harbor]",
+			"Class.WonderDistrict"]
 	},
 	{//博尔戈尔山
-		"name":"District_Jebel_Barkal",
+		"name":"District.JebelBarkal",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1095,16 +1095,16 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//罗马斗兽场
-		"name":"District_The_Roman_Colosseum",
+		"name":"District.RomanColosseum",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1112,17 +1112,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Entertainment_Complex]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.EntertainmentComplex]",
+			"Class.WonderDistrict"]
 	},
 	{//巨像
-		"name":"District_Colossus",
+		"name":"District.Colossus",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1136,11 +1136,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Harbor]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Harbor]",
+			"Class.WonderDistrict"]
 	},
 	{//佩特拉古城
-		"name":"District_Petra",
+		"name":"District.Petra",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1155,10 +1155,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Open terrain] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//阿帕达纳宫
-		"name":"District_Apadana_Palace",
+		"name":"District.ApadanaPalace",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1166,17 +1166,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp","Landform_Hill"],//看情况改
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//兵马俑
-		"name":"District_Terra_Cotta_Warriors",
+		"name":"District.TerraCottaWarriors",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1184,17 +1184,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Army]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Army]",
+			"Class.WonderDistrict"]
 	},
 	{//马丘比丘
-		"name":"District_Machu_Picchu",
+		"name":"District.MachuPicchu",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1209,10 +1209,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Mountain] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//宙斯像
-		"name":"District_Statue_of_Zeus",
+		"name":"District.StatueOfZeus",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1220,17 +1220,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Army]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Army]",
+			"Class.WonderDistrict"]
 	},
 	{//摩索拉斯王陵墓
-		"name":"District_Mausoleum_at_Halicarnassus",
+		"name":"District.MausoleumAtHalicarnassus",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1244,11 +1244,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Harbor]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Harbor]",
+			"Class.WonderDistrict"]
 	},
 	{//大图书馆
-		"name":"Distinct_The_Great_Library",
+		"name":"District.TheGreatLibrary",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1256,23 +1256,23 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp"],//看情况改
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Campus]",
-			"District_Class_Wonder"],
+			"Must be next to [Class.Campus]",
+			"Class.WonderDistrict"],
         "civilopediaText": [
             {
                 "text":"Lots of adjacent bonuses for adjacent campus",
-                "link":"Improvement/District_Campus"
+                "link":"Improvement/District.Campus"
             }
         ],
 	},
 	{//摩珂菩提寺
-		"name":"District_Makobodhi_Temple",
+		"name":"District.MakobodhiTemple",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1280,17 +1280,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Forest"],
+		"terrainsCanBeBuiltOn": ["Landform.Forest"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Holy_Site]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.HolySite]",
+			"Class.WonderDistrict"]
 	},
 	{//圣索菲亚大教堂
-		"name":"District_Hagia_Sophia",
+		"name":"District.HagiaSophia",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1304,11 +1304,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Holy_Site]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.HolySite]",
+			"Class.WonderDistrict"]
 	},
 	{//休伊神庙
-		"name":"District_Huiyi_Temple",
+		"name":"District.HuiyiTemple",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1322,11 +1322,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Holy_Site]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.HolySite]",
+			"Class.WonderDistrict"]
 	},
 	{//基尔瓦基斯瓦尼
-		"name":"District_Kilwa_Kisiwani",
+		"name":"District.KilwaKisiwani",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1341,10 +1341,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Coastal] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//桑科雷大学
-		"name":"District_University_of_Sankore",
+		"name":"District.UniversityOfSankore",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1352,17 +1352,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp"],//看情况改
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Campus]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Campus]",
+			"Class.WonderDistrict"]
 	},
 	{//米纳克希神庙
-		"name":"District_Maebad_Alkurnak",
+		"name":"District.MaebadAlkurnak",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1370,17 +1370,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Holy_Site]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.HolySite]",
+			"Class.WonderDistrict"]
 	},
 	{//吴哥窟
-		"name":"District_Angkor_Wat",
+		"name":"District.AngkorWat",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1394,11 +1394,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Raceline]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Raceline]",
+			"Class.WonderDistrict"]
 	},
 	{//奇琴伊察
-		"name":"District_Chichen_Itza",
+		"name":"District.ChichenItza",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1406,17 +1406,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Rainforest"],
+		"terrainsCanBeBuiltOn": ["Landform.Rainforest"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Can only be built on [Landform_Rainforest] tiles",
-			"District_Class_Wonder"]
+			"Can only be built on [Landform.Rainforest] tiles",
+			"Class.WonderDistrict"]
 	},
 	{//阿尔罕布拉宫
-		"name":"District_Alhambra_Palace",
+		"name":"District.AlhambraPalace",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1424,19 +1424,19 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Gives a defensive bonus of [28]%",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Army]",
-			"Can only be built on [Landform_Hill] tiles",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Army]",
+			"Can only be built on [Landform.Hill] tiles",
+			"Class.WonderDistrict"]
 	},
 	{//圣米歇尔山
-		"name":"District_Mont_Saint_Michel",
+		"name":"District.MontSaintMichel",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1444,16 +1444,16 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],//看情况改
+		"terrainsCanBeBuiltOn": ["Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//圣米歇尔山
-		"name":"District_Kotokuin",
+		"name":"District.Kotokuin",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1461,17 +1461,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Holy_Site]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.HolySite]",
+			"Class.WonderDistrict"]
 	},
 	{//西印度交易所
-		"name":"District_WestIndiaExchange",
+		"name":"District.WestIndiaExchange",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1479,17 +1479,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Government_Plaza]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.GovernmentPlaza]",
+			"Class.WonderDistrict"]
 	},
 	{//威尼斯军械库
-		"name":"District_Venetian_Armory",
+		"name":"District.VenetianArmory",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1503,11 +1503,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Industrial_Zone]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.IndustrialZone]",
+			"Class.WonderDistrict"]
 	},
 	{//大津巴布韦
-		"name":"District_Great_Zimbabwe",
+		"name":"District.GreatZimbabwe",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1515,17 +1515,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],//看情况改
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Resource_Cattle]",
-			"District_Class_Wonder"]
+			"Must be next to [Resource.Cattle]",
+			"Class.WonderDistrict"]
 	},
 	{//紫禁城
-		"name":"District_Forbidden_City",
+		"name":"District.ForbiddenCity",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1540,10 +1540,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//泰姬陵
-		"name":"District_Taj_Mahal",
+		"name":"District.TajMahal",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1558,10 +1558,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can also be built on tiles adjacent to fresh water",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//圣瓦西里主教堂
-		"name":"District_St._Basil's_Cathedral",
+		"name":"District.StBasilsCathedral",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1576,10 +1576,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//布达拉宫
-		"name":"District_Potala_Palace",
+		"name":"District.PotalaPalace",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1587,18 +1587,18 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Mountain]",
-			"Can only be built on [Landform_Hill] tiles",
-			"District_Class_Wonder"]
+			"Can only be built on [Landform.Hill] tiles",
+			"Class.WonderDistrict"]
 	},
 	{//鲁尔山谷
-		"name":"District_Ruhr_Valley",
+		"name":"District.RuhrValley",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1606,18 +1606,18 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"Must be next to [Class_Industrial_Zone]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.IndustrialZone]",
+			"Class.WonderDistrict"]
 	},
 	{//牛津大学
-		"name":"District_Oxford",
+		"name":"District.Oxford",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1631,11 +1631,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Campus]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Campus]",
+			"Class.WonderDistrict"]
 	},
 	{//自由女神像
-		"name":"District_StatueOfLiberty",
+		"name":"District.StatueOfLiberty",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1649,11 +1649,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Harbor]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Harbor]",
+			"Class.WonderDistrict"]
 	},
 	{//莫斯科大剧院
-		"name":"District_BolshoiTheatre",
+		"name":"District.BolshoiTheatre",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1667,12 +1667,12 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Theater_Square]",
+			"Must be next to [Class.TheaterSquare]",
 			"Can only be built on [Plains] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//巴拿马运河
-		"name":"District_PanamaCanal",
+		"name":"District.PanamaCanal",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1687,10 +1687,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Coastal] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//匈牙利议会大厦
-		"name":"District_HungarianParliamentBuilding",
+		"name":"District.HungarianParliamentBuilding",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1698,17 +1698,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//大本钟
-		"name":"District_BigBen",
+		"name":"District.BigBen",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1723,11 +1723,11 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"Must be next to [Class_Commercial_Hub]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.CommercialHub]",
+			"Class.WonderDistrict"]
 	},
 	{//艾尔米塔什博物馆
-		"name":"District_HermitageMuseum",
+		"name":"District.HermitageMuseum",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1735,17 +1735,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//埃菲尔铁塔
-		"name":"District_EiffelTower",
+		"name":"District.EiffelTower",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1760,10 +1760,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//百老汇
-		"name":"District_Broadway",
+		"name":"District.Broadway",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1777,11 +1777,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Theater_Square]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.TheaterSquare]",
+			"Class.WonderDistrict"]
 	},
 	{//救世基督像
-		"name":"District_StatueofChristtheRedeemer",
+		"name":"District.StatueofChristtheRedeemer",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1789,17 +1789,17 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Can only be built on [Landform_Hill] tiles",
-			"District_Class_Wonder"]
+			"Can only be built on [Landform.Hill] tiles",
+			"Class.WonderDistrict"]
 	},
 	{//金门大桥
-		"name":"District_GoldenGateBridge",
+		"name":"District.GoldenGateBridge",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1815,10 +1815,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Coast] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//生物圈
-		"name":"District_Biosphere",
+		"name":"District.Biosphere",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1833,10 +1833,10 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	{//悉尼歌剧院
-		"name":"District_SydneyOperaHouse",
+		"name":"District.SydneyOperaHouse",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1850,11 +1850,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Harbor]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.Harbor]",
+			"Class.WonderDistrict"]
 	},
 	{//马拉卡纳体育场
-		"name":"District_MaracanaStadium",
+		"name":"District.MaracanaStadium",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1868,11 +1868,11 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Must be next to [Class_Entertainment_Complex]",
-			"District_Class_Wonder"]
+			"Must be next to [Class.EntertainmentComplex]",
+			"Class.WonderDistrict"]
 	},
 	{//阿蒙森-斯科特南极站
-		"name":"District_Amundsen-Scott_South_Pole_Station",
+		"name":"District.Amundsen-ScottSouthPoleStation",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1887,11 +1887,11 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Snow] tiles",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	/*
 	{//模板
-		"name":"District_名称",
+		"name":"District.名称",
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -1899,114 +1899,114 @@
 		"culture":-10,
 		"happiness":-10,
 		"faith":-10,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform_Swamp"],//看情况改
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"地块要求",
-			"District_Class_Wonder"]
+			"Class.WonderDistrict"]
 	},
 	*/
 	
 	/*文明专属改良*/
 	{//明朝-明长城
-		"name": "Improvement_Ming_GreatWall",
-		"uniqueTo":"Nation_Ming",
+		"name": "Improvement.MingGreatWall",
+		"uniqueTo":"Nation.Ming",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food":1,
-		"techRequired": "Tech_Bricklaying",
-		"uniques": ["Provides [2] [Resource_house_limitation]",
-		"Gives a defensive bonus of [+23]% <for [Nation_Ming]>",//这句不生效，在国家ua里
-		"[+1 Gold] for each adjacent [Improvement_Ming_GreatWall]",
-		"[+1 Food] for each adjacent [Improvement_Ming_GreatWall] <after discovering [Tech_Castle]>",
-		"[+1 Culture, +1 Gold] <after discovering [Tech_Castle]>",
+		"techRequired": "Tech.Bricklaying",
+		"uniques": ["Provides [2] [Resource.houseLimitation]",
+		"Gives a defensive bonus of [+23]% <for [Nation.Ming]>",//这句不生效，在国家ua里
+		"[+1 Gold] for each adjacent [Improvement.MingGreatWall]",
+		"[+1 Food] for each adjacent [Improvement.MingGreatWall] <after discovering [Tech.Castle]>",
+		"[+1 Culture, +1 Gold] <after discovering [Tech.Castle]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//埃及-狮身人面像
-		"name": "Improvement_Sphinx",
-		"uniqueTo":"Nation_Egypt",
+		"name": "Improvement.Sphinx",
+		"uniqueTo":"Nation.Egypt",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture":1,
 		"food":1,
-		"techRequired": "Civic_Skill",
-		"uniques": ["Provides [1] [Resource_house_limitation]",
-		"[+1 Culture] <after discovering [Civic_Natural history]>",
-		"[+2 Faith] for each adjacent [District_Class_Wonder]",
+		"techRequired": "Civic.Skill",
+		"uniques": ["Provides [1] [Resource.houseLimitation]",
+		"[+1 Culture] <after discovering [Civic.NaturalHistory]>",
+		"[+2 Faith] for each adjacent [Class.WonderDistrict]",
 		"Can only be built on [River] tiles",
 		"Pillaging this improvement yields approximately [+30 Faith]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//波斯-波斯庭院
-		"name": "Improvement_PersianCourtyard",
-		"uniqueTo":"Nation_Persia",
+		"name": "Improvement.PersianCourtyard",
+		"uniqueTo":"Nation.Persia",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food":1,
 		"culture":1,
 		"gold":1,
-		"techRequired": "Civic_Early Empire",
-		"uniques": ["Provides [2] [Resource_house_limitation]",
-		"[+1 Culture] for each adjacent [Class_Holy_Site]",
-		"[+1 Culture] for each adjacent [Class_Theater_Square]",
-		"[+1 Culture] <after discovering [Civic_Foreigh service]>",
-		"[+2 Gold] <after discovering [Civic_Administration]>",
+		"techRequired": "Civic.EarlyEmpire",
+		"uniques": ["Provides [2] [Resource.houseLimitation]",
+		"[+1 Culture] for each adjacent [Class.HolySite]",
+		"[+1 Culture] for each adjacent [Class.TheaterSquare]",
+		"[+1 Culture] <after discovering [Civic.ForeighService]>",
+		"[+2 Gold] <after discovering [Civic.Administration]>",
 		"Pillaging this improvement yields approximately [+30 Culture]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//斯基泰-坟墩
-		"name": "Improvement_Kurgan",
-		"uniqueTo":"Nation_Scythia",
+		"name": "Improvement.Kurgan",
+		"uniqueTo":"Nation.Scythia",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith":2,
 		"production":1,
-		"techRequired": "Tech_Animal husbandry",
-		"uniques": ["Provides [2] [Resource_house_limitation]",
-		"[+1 Faith] for each adjacent [Improvement_Pasture]",
-		"[+1 Faith] for each adjacent [Improvement_Pasture] <after discovering [Tech_Stirrups]>",
-		"[+1 Gold] <after discovering [Civic_Feudalism]>",
+		"techRequired": "Tech.AnimalHusbandry",
+		"uniques": ["Provides [2] [Resource.houseLimitation]",
+		"[+1 Faith] for each adjacent [Improvement.Pasture]",
+		"[+1 Faith] for each adjacent [Improvement.Pasture] <after discovering [Tech.Stirrups]>",
+		"[+1 Gold] <after discovering [Civic.Feudalism]>",
 		"Pillaging this improvement yields approximately [+30 Faith]",
-		"Cannot be built on [Resource_EarthVeins] tiles",
-		"Can only be built on [Landform_Hill] tiles",
-		"Class_Usual_Improvement"]
+		"Cannot be built on [Resource.EarthVeins] tiles",
+		"Can only be built on [Landform.Hill] tiles",
+		"Class.UsualImprovement"]
 	},
 	{//印加-梯田农场
-		"name": "Improvement_Terrace_Farm",
-		"uniqueTo": "Nation_Inca",
-		"terrainsCanBeBuiltOn": ["Landform_Hill"],
+		"name": "Improvement.TerraceFarm",
+		"uniqueTo": "Nation.Inca",
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"food": 1,
 		"uniques": ["[+1 Food] for each adjacent [Mountain]",
-			"[+1 Production] for each adjacent [Class_Raceline]",
-			"[+1 Production] from [Fresh water] tiles <after discovering [Tech_Project]>",
+			"[+1 Production] for each adjacent [Class.Raceline]",
+			"[+1 Production] from [Fresh water] tiles <after discovering [Tech.Project]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
-			"Class_Usual_Improvement"],
-		"techRequired": "Civic_Basic trade",
+			"Class.UsualImprovement"],
+		"techRequired": "Civic.BasicTrade",
 		"shortcutKey": "F"
 	},
 	/*有bug，暂时隐藏
 	{//印加-山地路网
-		"name": "Improvement_Mountain_Road_Network",
-		"uniqueTo": "Nation_Inca",
+		"name": "Improvement.MountainRoadNetwork",
+		"uniqueTo": "Nation.Inca",
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"food": 1,
 		"uniques": [
-		"[+1 Food] for each adjacent [Improvement_Terrace_Farm]"
+		"[+1 Food] for each adjacent [Improvement.TerraceFarm]"
 	],
-		"techRequired": "Civic_Basic trade"
+		"techRequired": "Civic.BasicTrade"
 	},
 	*/
 	{//毛利-帕堡
-		"name": "Improvement_Pabo",
-		"uniqueTo": "Nation_Maori",
+		"name": "Improvement.Pabo",
+		"uniqueTo": "Nation.Maori",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 		"Gives a defensive bonus of [+23]%",
 		"Adjacent enemy units ending their turn take [5] damage"
 	],
-		"techRequired": "Tech_Alchemy"
+		"techRequired": "Tech.Alchemy"
 	},
 ]

@@ -1,0 +1,55 @@
+
+religion.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Bahai Faith
+  rotate: false
+  xy: 4, 140
+  size: 271, 179
+  orig: 271, 179
+  offset: 0, 0
+  index: -1
+ReligionIcons/Catholicism
+  rotate: false
+  xy: 652, 767
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Jainism
+  rotate: false
+  xy: 652, 559
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Orthodox Christianity
+  rotate: false
+  xy: 4, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Protestantism
+  rotate: false
+  xy: 652, 351
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Shamanism
+  rotate: false
+  xy: 283, 191
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Shintoism
+  rotate: false
+  xy: 4, 327
+  size: 640, 640
+  orig: 640, 640
+  offset: 0, 0
+  index: -1

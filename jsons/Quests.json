@@ -6,8 +6,8 @@
     "weightForCityStateType": {
         "Friendly": 2,
         "Hostile": 0.2,
-        "Citystate type_Commercial": 1.5,
-        "Citystate type_Scientific": 1.5
+        "CitystateType.Commercial": 1.5,
+        "CitystateType.Scientific": 1.5
     }
   },
   {
@@ -17,60 +17,60 @@
     "influence": 50,
     "minimumCivs": 1,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3,
-          "Citystate type_Commercial": 3,
-          "Citystate type_Military": 9,
-          "Citystate type_Religious": 3,
-          "Citystate type_Scientific": 3
+          "CitystateType.Cultural": 3,
+          "CitystateType.Commercial": 3,
+          "CitystateType.Military": 9,
+          "CitystateType.Religious": 3,
+          "CitystateType.Scientific": 3
       }
   },
   {
     "name": "Connect Resource",
     "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
       "weightForCityStateType": {
-          "Citystate type_Commercial": 3
+          "CitystateType.Commercial": 3
       }
   },
   {
     "name": "Construct Wonder",
     "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3,
-          "Citystate type_Scientific": 3
+          "CitystateType.Cultural": 3,
+          "CitystateType.Scientific": 3
       }
   },/*
   {
     "name": "任用阿玛尼总督",
-    "description": "We recommend you to start building [Governor_Amani_I] to show the whole world your civilization strength.",
+    "description": "We recommend you to start building [Governor.AmaniI] to show the whole world your civilization strength.",
     "influence": 40,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3,
-          "Citystate type_Scientific": 3,
-          "Citystate type_Military": 3,
-          "Citystate type_Religious": 3,
-          "Citystate type_Industrial": 3,
-          "Citystate type_Commercial": 3
+          "CitystateType.Cultural": 3,
+          "CitystateType.Scientific": 3,
+          "CitystateType.Military": 3,
+          "CitystateType.Religious": 3,
+          "CitystateType.Industrial": 3,
+          "CitystateType.Commercial": 3
       }
   },
   {
     "name": "重用阿玛尼总督",
-    "description": "We recommend you to start building [Governor_Amani_IIIA] to show the whole world your civilization strength.",
+    "description": "We recommend you to start building [Governor.AmaniIIIA] to show the whole world your civilization strength.",
     "influence": 60,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3,
-          "Citystate type_Scientific": 3,
-          "Citystate type_Military": 3,
-          "Citystate type_Religious": 3,
-          "Citystate type_Industrial": 3,
-          "Citystate type_Commercial": 3
+          "CitystateType.Cultural": 3,
+          "CitystateType.Scientific": 3,
+          "CitystateType.Military": 3,
+          "CitystateType.Religious": 3,
+          "CitystateType.Industrial": 3,
+          "CitystateType.Commercial": 3
       }
   },*/
   {
     "name": "Acquire Great Person",
     "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3,
-          "Citystate type_Scientific": 3
+          "CitystateType.Cultural": 3,
+          "CitystateType.Scientific": 3
       }
   },
   {
@@ -80,7 +80,7 @@
       "weightForCityStateType": {
           "Hostile": 2,
           "Friendly": 0.2,
-          "Citystate type_Military": 2
+          "CitystateType.Military": 2
       }
   },
   {
@@ -88,7 +88,7 @@
     "description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
     "influence": 35,
       "weightForCityStateType": {
-          "Citystate type_Commercial": 2
+          "CitystateType.Commercial": 2
       }
   },
   {
@@ -96,7 +96,7 @@
     "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet.",
       "weightForCityStateType": {
           "Hostile": 0.3,
-          "Citystate type_Military": 0.5
+          "CitystateType.Military": 0.5
       }
   },
   {
@@ -105,11 +105,11 @@
     "influence": 20,
     "duration": 30,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3,
-          "Citystate type_Commercial": 3.5,
-          "Citystate type_Military": 2,
-          "Citystate type_Religious": 3,
-          "Citystate type_Scientific": 3
+          "CitystateType.Cultural": 3,
+          "CitystateType.Commercial": 3.5,
+          "CitystateType.Military": 2,
+          "CitystateType.Religious": 3,
+          "CitystateType.Scientific": 3
       }
   },
   {
@@ -118,11 +118,11 @@
     "influence": 20,
     "duration": 30,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 3.5,
-          "Citystate type_Commercial": 3,
-          "Citystate type_Military": 2,
-          "Citystate type_Religious": 3,
-          "Citystate type_Scientific": 3
+          "CitystateType.Cultural": 3.5,
+          "CitystateType.Commercial": 3,
+          "CitystateType.Military": 2,
+          "CitystateType.Religious": 3,
+          "CitystateType.Scientific": 3
       }
   },
   {
@@ -132,11 +132,11 @@
     "duration": 30,
     "minimumCivs": 3,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 2,
-          "Citystate type_Commercial": 0.5,
-          "Citystate type_Military": 0.5,
-          "Citystate type_Religious": 0.5,
-          "Citystate type_Scientific": 0.5
+          "CitystateType.Cultural": 2,
+          "CitystateType.Commercial": 0.5,
+          "CitystateType.Military": 0.5,
+          "CitystateType.Religious": 0.5,
+          "CitystateType.Scientific": 0.5
       }
   },
   {
@@ -146,11 +146,11 @@
     "duration": 30,
     "minimumCivs": 3,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 0.5,
-          "Citystate type_Commercial": 0.5,
-          "Citystate type_Military": 0.5,
-          "Citystate type_Religious": 2,
-          "Citystate type_Scientific": 0.5
+          "CitystateType.Cultural": 0.5,
+          "CitystateType.Commercial": 0.5,
+          "CitystateType.Military": 0.5,
+          "CitystateType.Religious": 2,
+          "CitystateType.Scientific": 0.5
       }
   },
   {
@@ -160,8 +160,8 @@
     "duration": 30,
     "minimumCivs": 3,
       "weightForCityStateType": {
-          "Citystate type_Religious": 0.5,
-          "Citystate type_Scientific": 3
+          "CitystateType.Religious": 0.5,
+          "CitystateType.Scientific": 3
       }
   },
   {
@@ -172,7 +172,7 @@
     "duration": 30,
     "minimumCivs": 2,
       "weightForCityStateType": {
-          "Citystate type_Commercial": 1.5
+          "CitystateType.Commercial": 1.5
       }
   },
   {
@@ -190,17 +190,17 @@
     "description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
     "duration": 30,
       "weightForCityStateType": {
-          "Citystate type_Cultural": 1.5,
-          "Citystate type_Commercial": 1.5,
-          "Citystate type_Military": 1.5,
-          "Citystate type_Religious": 2.5
+          "CitystateType.Cultural": 1.5,
+          "CitystateType.Commercial": 1.5,
+          "CitystateType.Military": 1.5,
+          "CitystateType.Religious": 2.5
       }
   },
   {
     "name": "Spread Religion",
     "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
       "weightForCityStateType": {
-          "Citystate type_Religious": 3
+          "CitystateType.Religious": 3
       }
   }
   /* BNW */

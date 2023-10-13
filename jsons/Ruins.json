@@ -13,21 +13,21 @@
     },
     {
         "name": "squatters willing to work for you",
-        "notification": "A [Unit_Farmer] has joined us!",
-        "uniques": ["Free [Unit_Farmer] found in the ruins"],
-        "excludedDifficulties": ["Difficulty_Prince", "Difficulty_King", "Difficulty_Emperor", "Difficulty_Immortal", "Difficulty_Deity","Difficulty_Online"]
+        "notification": "A [Unit.Farmer] has joined us!",
+        "uniques": ["Free [Unit.Farmer] found in the ruins"],
+        "excludedDifficulties": ["Difficulty.Prince", "Difficulty.King", "Difficulty.Emperor", "Difficulty.Immortal", "Difficulty.Deity","Difficulty.Online"]
     },
     {
         "name": "squatters willing to work for you",
-        "notification": "A [Unit_Miner] has joined us!",
-        "uniques": ["Free [Unit_Miner] found in the ruins"],
-        "excludedDifficulties": ["Difficulty_Prince", "Difficulty_King", "Difficulty_Emperor", "Difficulty_Immortal", "Difficulty_Deity","Difficulty_Online"]
+        "notification": "A [Unit.Miner] has joined us!",
+        "uniques": ["Free [Unit.Miner] found in the ruins"],
+        "excludedDifficulties": ["Difficulty.Prince", "Difficulty.King", "Difficulty.Emperor", "Difficulty.Immortal", "Difficulty.Deity","Difficulty.Online"]
     },
     {
         "name": "squatters wishing to settle under your rule",
-        "notification": "A [Unit_Settler] has joined us!",
-        "uniques": ["Free [Unit_Settler] found in the ruins"],
-        "excludedDifficulties": ["Difficulty_Warlord","Difficulty_Prince","Difficulty_King","Difficulty_Emperor","Difficulty_Immortal","Difficulty_Deity"]
+        "notification": "A [Unit.Settler] has joined us!",
+        "uniques": ["Free [Unit.Settler] found in the ruins"],
+        "excludedDifficulties": ["Difficulty.Warlord","Difficulty.Prince","Difficulty.King","Difficulty.Emperor","Difficulty.Immortal","Difficulty.Deity"]
     },
     {
         "name": "your exploring unit receives training",
@@ -49,7 +49,7 @@
     {
         "name": "discover a lost technology",
         "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Era_Ancient]"],
+        "uniques": ["[1] free random researchable Tech(s) from the [Era.Ancient]"],
 		"color": "#7f7fff"
     },
     {

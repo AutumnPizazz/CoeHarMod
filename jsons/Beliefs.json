@@ -2,289 +2,289 @@
 [
     /*万神殿*/
         {//月亮女神
-            "name": "Pantheon_Moon goddess",
+            "name": "Pantheon.MoonGoddess",
             "type": "Pantheon",
-            "uniques": ["[+2 Gold] from every [Improvement_Fishing_Boat]",
-            "[+1 Gold] from every [Improvement_Fishery]",
-            "[+1 Gold] from every [Improvement_Fishing_Boat] <after discovering [Tech_Crossail device]>"]
+            "uniques": ["[+2 Gold] from every [Improvement.FishingBoat]",
+            "[+1 Gold] from every [Improvement.Fishery]",
+            "[+1 Gold] from every [Improvement.FishingBoat] <after discovering [Tech.CrossailDevice]>"]
         },
         {//海洋之神
-            "name": "Pantheon_Ocean god",
+            "name": "Pantheon.OceanGod",
             "type": "Pantheon",
-            "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]",
+            "uniques": ["[+1 Production] from every [Improvement.FishingBoat]",
             "[+1 Production] [in all coastal cities]",
-            "Discover [Tech_Nautical art]"]
+            "Discover [Tech.NauticalArt]"]
         },
         {//捕鱼传统
-            "name": "Pantheon_Fishing_Tradition",
+            "name": "Pantheon.FishingTradition",
             "type": "Pantheon",
-            "uniques": ["[+1 Production] from every [Improvement_Fishing_Boat]",
+            "uniques": ["[+1 Production] from every [Improvement.FishingBoat]",
             "[+1 Production] from every [Water resource]"]
         },
         {//潮汐女神
-            "name": "Pantheon_Tidal goddess",
+            "name": "Pantheon.TidalGoddess",
             "type": "Pantheon",
-            "uniques": ["[+1 Culture] from every [Improvement_Fishing_Boat]",
-            "[+1 Culture] from every [Improvement_Fishing_Boat] <after discovering [Civic_Earth protection]>"]
+            "uniques": ["[+1 Culture] from every [Improvement.FishingBoat]",
+            "[+1 Culture] from every [Improvement.FishingBoat] <after discovering [Civic.EarthProtection]>"]
         },
         {//城市守护女神
-            "name": "Pantheon_City guardian goddess",
+            "name": "Pantheon.CityGuardianGoddess",
             "type": "Pantheon",
-            "uniques": ["[+100]% Production when constructing [Building_Classification_District_Unique] buildings [in all cities] <in cities without a [Building_Classification_District_Unique]>"]
+            "uniques": ["[+100]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <in cities without a [Class.Building.DistrictUnique]>"]
         },
         {//大地女神
-            "name": "Pantheon_Earth goddess",
+            "name": "Pantheon.EarthGoddess",
             "type": "Pantheon",
-            "uniques": ["[+2 Faith] from [Landform_Hill] tiles without [Class_Usual_Improvement] [in all cities]",
+            "uniques": ["[+2 Faith] from [Landform.Hill] tiles without [Class.UsualImprovement] [in all cities]",
             "[+5 Faith] from every [Mountain]"]
         },
         {//锻造之神
-            "name": "Pantheon_God of the forge",
+            "name": "Pantheon.GodOfTheForge",
             "type": "Pantheon",
-            "uniques": ["[+25]% Production when constructing [{Era_Ancient} {Military}] units [in all cities]",
-            "[+25]% Production when constructing [{Era_Classical} {Military}] units [in all cities]",
-            "Provides 2 '[Resource_Horse]'Horse per turn",
-            "Provides 2 '[Resource_Iron]'Icon per turn"]
+            "uniques": ["[+25]% Production when constructing [{Era.Ancient} {Military}] units [in all cities]",
+            "[+25]% Production when constructing [{Era.Classical} {Military}] units [in all cities]",
+            "Provides 2 '[Resource.Horse]'Horse per turn",
+            "Provides 2 '[Resource.Iron]'Icon per turn"]
         },
         {//门神
-            "name": "Pantheon_Guardian god",
+            "name": "Pantheon.GuardianGod",
             "type": "Pantheon",
             "uniques": ["[+18]% Strength for cities <when defending>",
             "[+3 Production] [in all cities with a garrison]"]
         },
         {//丰产仪式
-            "name": "Pantheon_Harvest festival",
+            "name": "Pantheon.HarvestFestival",
             "type": "Pantheon",
-            "uniques": ["Gain a free '[Building_Granary]' in capital",
-            "May buy [Building_Granary] buildings with [Faith] for [2] times their normal Production cost",
-            "[+1 Food] from every [Building_Granary]",
-            "Free [Unit_Farmer] appears"]
+            "uniques": ["Gain a free '[Building.Granary]' in capital",
+            "May buy [Building.Granary] buildings with [Faith] for [2] times their normal Production cost",
+            "[+1 Food] from every [Building.Granary]",
+            "Free [Unit.Farmer] appears"]
         },
         {//工匠之神
-            "name": "Pantheon_God of craftsmen",
+            "name": "Pantheon.GodOfCraftsmen",
             "type": "Pantheon",
             "uniques": ["[+1 Production, +1 Gold, +1 Faith] from [Strategic resource] tiles [in all cities] <after [25] turns>"]
         },
         {//河神
-            "name": "Pantheon_River god",
+            "name": "Pantheon.RiverGod",
             "type": "Pantheon",
             "uniques": ["[+1 Happiness, +1 Culture] in cities on [River] tiles",
             "Each riverside city +1 housing"]
         },
         {//雨神
-            "name": "Pantheon_Rain god",
+            "name": "Pantheon.RainGod",
             "type": "Pantheon",
             "uniques": ["All cities +1 housing",
             "Each non-riverside city +1 housing"]
         },
         {//火之女神
-            "name": "Pantheon_Goddess of fire",
+            "name": "Pantheon.GoddessOfFire",
             "type": "Pantheon",
-            "uniques": ["[+1 Food, +1 Production, +1 Faith] from every [Landform_Geothermal fissure]",
-            "Colleges grant an additional +1 adjacency bonus to '[Landform_Geothermal fissure]'"]
+            "uniques": ["[+1 Food, +1 Production, +1 Faith] from every [Landform.GeothermalFissure]",
+            "Colleges grant an additional +1 adjacency bonus to '[Landform.GeothermalFissure]'"]
         },
         {//极光之舞
-            "name": "Pantheon_Dance of the aurora",
+            "name": "Pantheon.DanceOfTheAurora",
             "type": "Pantheon",
             "uniques": ["Sacred sites receive a standard adjacent addition to frozen soil"]
 /*            "civilopediaText":[
                 {
-                    "text":"Building_Dance of the aurora",
-                    "link":"Building/Building_Dance of the aurora"
+                    "text":"Building.Belief.DanceOfTheAurora",
+                    "link":"Building/Building.Belief.DanceOfTheAurora"
                 }
             ]*/
         },
         {//沙漠民俗
-            "name": "Pantheon_Desert customs",
+            "name": "Pantheon.DesertCustoms",
             "type": "Pantheon",
             "uniques": ["Holy Land gets the standard adjacent bonus against desert"]
 /*            "civilopediaText":[
                 {
-                    "text":"Building_Desert customs",
-                    "link":"Building/Building_Desert customs"
+                    "text":"Building.Belief.DesertCustoms",
+                    "link":"Building/Building.Belief.DesertCustoms"
                 }
             ]*/
         },
         {//节庆女神
-            "name": "Pantheon_Goddess of festivals",
+            "name": "Pantheon.GoddessOfFestivals",
             "type": "Pantheon",
-            "uniques": ["[+1 Culture, +1 Production] from every [Improvement_Plantation]",
-            "Free [Unit_Plantation_Worker] appears"]
+            "uniques": ["[+1 Culture, +1 Production] from every [Improvement.Plantation]",
+            "Free [Unit.PlantationWorker] appears"]
         },
         {//长生天
-            "name": "Pantheon_Longevity_Heaven",
+            "name": "Pantheon.LongevityHeaven",
             "type": "Pantheon",
-            "uniques": ["[+1 Production] from every [Improvement_Pasture]",
-            "[+1 Faith, +1 Culture] from [Improvement_Pasture] tiles [in all cities] <in cities with a [Building_Holy_Site_Unique]>"]
+            "uniques": ["[+1 Production] from every [Improvement.Pasture]",
+            "[+1 Faith, +1 Culture] from [Improvement.Pasture] tiles [in all cities] <in cities with a [Building.DistrictUnique.HolySite]>"]
         },
         {//芦苇和沼泽地里的夫人
-            "name": "Pantheon_Lady of the reeds and marshes",
+            "name": "Pantheon.LadyOfTheReedsAndMarshes",
             "type": "Pantheon",
-            "uniques": ["[+2 Production, +1 Science] from every [Landform_Swamp]",
-            "[+2 Production] from every [Landform_Oasis]",
-            "[+2 Production] from every [Landform_Alluvial plain]"]
+            "uniques": ["[+2 Production, +1 Science] from every [Landform.Swamp]",
+            "[+2 Production] from every [Landform.Oasis]",
+            "[+2 Production] from every [Landform.AlluvialPlain]"]
         },
         {//神圣道路
-            "name": "Pantheon_Sacred way",
+            "name": "Pantheon.SacredWay",
             "type": "Pantheon",
             "uniques": ["The Holy Site receives a standard adjacency bonus for vegetation"]
         },
         {//神圣之光
-            "name": "Pantheon_Sacred light",
+            "name": "Pantheon.SacredLight",
             "type": "Pantheon",
-            "uniques": ["Provides [2] [Resource_GreatPerson_Class_Scientist] <in cities with a [Building_Palace]>",
-            "Provides [2] [Resource_GreatPerson_Class_Merchant] <in cities with a [Building_Palace]>"]
+            "uniques": ["Provides [2] [Resource.Unit.Scientist] <in cities with a [Building.Palace]>",
+            "Provides [2] [Resource.Unit.Merchant] <in cities with a [Building.Palace]>"]
         },
         {//石圈
-            "name": "Pantheon_Stone circle",
+            "name": "Pantheon.StoneCircle",
             "type": "Pantheon",
-            "uniques": ["[+1 Production, +3 Gold] from every [Improvement_Quarry]",
-            "Free [Unit_Quarry] appears"]
+            "uniques": ["[+1 Production, +3 Gold] from every [Improvement.Quarry]",
+            "Free [Unit.Quarry] appears"]
         },
         {//狩猎女神
-            "name": "Pantheon_Goddess of the hunt",
+            "name": "Pantheon.GoddessOfTheHunt",
             "type": "Pantheon",
-            "uniques": ["[+2 Food, +2 Production, +2 Gold] from every [Improvement_Encampment]"]
+            "uniques": ["[+2 Food, +2 Production, +2 Gold] from every [Improvement.Encampment]"]
         },
         {//治愈之神
-            "name": "Pantheon_God of healing",
+            "name": "Pantheon.GodOfHealing",
             "type": "Pantheon",
-            "uniques": ["All newly-trained [Military] units [in all cities] receive the [Promotion_Healing_God] promotion"]
+            "uniques": ["All newly-trained [Military] units [in all cities] receive the [Promotion.HealingGod] promotion"]
         },
         {//战争之神
-            "name": "Pantheon_God of war",
+            "name": "Pantheon.GodOfWar",
             "type": "Pantheon",
             "uniques": ["Earn [8]% of [Military] unit's [Strength] as [Science] when killed within 4 tiles of a city following this religion",
             "Earn [8]% of [Military] unit's [Strength] as [Culture] when killed within 4 tiles of a city following this religion",
             "Earn [30]% of [Military] unit's [Strength] as [Gold] when killed within 4 tiles of a city following this religion"]
         },
         {//主神纪念碑
-            "name": "Pantheon_Monument to the main god",
+            "name": "Pantheon.MonumentToTheMainGod",
             "type": "Pantheon",
-            "uniques": ["The first two cities receive a free '[Building_Monument]'",
-            "May buy [Building_Monument] buildings with [Faith] for [2] times their normal Production cost",
-            "[+10]% [Culture] from every [Building_Monument]"]
+            "uniques": ["The first two cities receive a free '[Building.Monument]'",
+            "May buy [Building.Monument] buildings with [Faith] for [2] times their normal Production cost",
+            "[+10]% [Culture] from every [Building.Monument]"]
         },
         {//众神纪念碑
-            "name": "Pantheon_Monument_to_the_Gods",
+            "name": "Pantheon.MonumentToTheGods",
             "type": "Pantheon",
-            "uniques": ["[+35]% Production when constructing [Wonder_Class_Ancient] wonders [in all cities]",
-            "[+20]% Production when constructing [Wonder_Class_Classical] wonders [in all cities]"]
+            "uniques": ["[+35]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
+            "[+20]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities]"]
         },
         {//宗教偶像
-            "name": "Pantheon_Religious idol",
+            "name": "Pantheon.ReligiousIdol",
             "type": "Pantheon",
             "uniques": ["[+2 Faith, +2 Gold] from every [Luxury resource]",
             "TextByReligiousIdol"]
         },
         {//宗教移民
-            "name": "Pantheon_Religious migrant",
+            "name": "Pantheon.ReligiousMigrant",
             "type": "Pantheon",
-            "uniques": ["Free [Unit_Settler] appears",
-            "'[Unit_Settler]'+1 Movement for Settler units",
+            "uniques": ["Free [Unit.Settler] appears",
+            "'[Unit.Settler]'+1 Movement for Settler units",
             "[-15]% Culture cost of natural border growth [in all cities]"]
         },
         {//恩惠女神
-            "name": "Pantheon_Grace goddess",
+            "name": "Pantheon.GraceGoddess",
             "type": "Pantheon",
-            "uniques": ["[+2 Food, +1 Production, +1 Gold] from every [Improvement_Plantation]",
-            "Free [Unit_Plantation_Worker] appears"]
+            "uniques": ["[+2 Food, +1 Production, +1 Gold] from every [Improvement.Plantation]",
+            "Free [Unit.PlantationWorker] appears"]
         },
         {//明道之主
-            "name": "Pantheon_The Lord of the wise",
+            "name": "Pantheon.TheLordOfTheWisdom",
             "type": "Pantheon",
             "uniques": ["[+2 Happiness] [in capital]","[+1 Production] [in all cities]"]
         },
         {//牧民之路
-            "name": "Pantheon_Herdsmen's road",
+            "name": "Pantheon.HerdsmensRoad",
             "type": "Pantheon",
-            "uniques": ["[+1 Food] from every [Resource_Sheep]",
-            "[+1 Food] from every [Resource_Cattle]",
-            "[+1 Production] from every [Resource_Horse]"]
+            "uniques": ["[+1 Food] from every [Resource.Sheep]",
+            "[+1 Food] from every [Resource.Cattle]",
+            "[+1 Production] from every [Resource.Horse]"]
         },
         {//农耕女神
-            "name": "Pantheon_Goddess of agriculture",
+            "name": "Pantheon.GoddessOfAgriculture",
             "type": "Pantheon",
-            "uniques": ["[+2 Gold] from every [Improvement_Farm]"]
+            "uniques": ["[+2 Gold] from every [Improvement.Farm]"]
         },
         {//祈龙仪式
-            "name": "Pantheon_Dragon prayer ceremony",
+            "name": "Pantheon.DragonPrayerCeremony",
             "type": "Pantheon",
-            "uniques": ["[+1 Faith] from every [Improvement_Fishing_Boat]",
-            "[+2 Faith] from every [Landform_Reef]"]
+            "uniques": ["[+1 Faith] from every [Improvement.FishingBoat]",
+            "[+2 Faith] from every [Landform.Reef]"]
         },
         {//启蒙会
-            "name": "Pantheon_Society of Enlightenment",
+            "name": "Pantheon.SocietyOfEnlightenment",
             "type": "Pantheon",
-            "uniques": ["Free [Unit_Scout] appears",
-            "'[Unit_Type_Scout]'+1 Movement for Scout(Type) units"]
+            "uniques": ["Free [Unit.Scout] appears",
+            "'[UnitType.Scout]'+1 Movement for Scout(Type) units"]
         },
         {//德鲁伊传统
-            "name": "Pantheon_Druidic_Tradition",
+            "name": "Pantheon.DruidicTradition",
             "type": "Pantheon",
-            "uniques": ["[+1 Food] from every [Improvement_Lumber_Mill] <in [Landform_Forest] tiles>",
-            "[+1 Production] from every [Improvement_Lumber_Mill] <in [Landform_Rainforest] tiles>"]
+            "uniques": ["[+1 Food] from every [Improvement.LumberMill] <in [Landform.Forest] tiles>",
+            "[+1 Production] from every [Improvement.LumberMill] <in [Landform.Rainforest] tiles>"]
         },
         {//黄金国传说
-            "name": "Pantheon_Legend_of_El_Dorado",
+            "name": "Pantheon.LegendOfElDorado",
             "type": "Pantheon",
-            "uniques": ["[+1 Gold] from every [Improvement_Mine]",
-            "[+1 Gold] from every [Improvement_Mine] <after discovering [Tech_Economy]>",
+            "uniques": ["[+1 Gold] from every [Improvement.Mine]",
+            "[+1 Gold] from every [Improvement.Mine] <after discovering [Tech.Economy]>",
             "Each city situated on a hill gains +1 housing"]
         },
         {//塞壬之歌
-            "name": "Pantheon_Song_of_the_Sirens",
+            "name": "Pantheon.SongOfTheSirens",
             "type": "Pantheon",
-            "uniques": ["[+2 Production, +1 Gold, +1 Science] from every [Landform_Reef]",
-            "Colleges grant an additional +1 adjacency bonus to '[Landform_Reef]'"]
+            "uniques": ["[+2 Production, +1 Gold, +1 Science] from every [Landform.Reef]",
+            "Colleges grant an additional +1 adjacency bonus to '[Landform.Reef]'"]
         },
         {//极地子民
-            "name": "Pantheon_Arctic_Inhabitants",
+            "name": "Pantheon.ArcticInhabitants",
             "type": "Pantheon",
-            "uniques": ["[+1 Production, +2 Gold] from [Class_Usual_Improvement] tiles [in all cities] <in [Tundra] tiles>"]
+            "uniques": ["[+1 Production, +2 Gold] from [Class.UsualImprovement] tiles [in all cities] <in [Tundra] tiles>"]
         },
         {//赫尔墨斯
-            "name": "Pantheon_Hermes",
+            "name": "Pantheon.Hermes",
             "type": "Pantheon",
-            "uniques": ["Provides [1] [Resource_Trade route capacity]",
-            "Free [Unit_Trader] appears",
+            "uniques": ["Provides [1] [Resource.TradeRouteCapacity]",
+            "Free [Unit.Trader] appears",
             "[+1 Gold] from each Trade Route"]
         },
         {//酒神秘仪
-            "name": "Pantheon_Bacchanalian_Ritual",
+            "name": "Pantheon.BacchanalianRitual",
             "type": "Pantheon",
-            "uniques": ["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
-            "[+20]% Production when constructing [Unit_Class_Builder] units [in all cities] <starting from the [Era_Medieval]>"]
+            "uniques": ["[+30]% Production when constructing [Class.Unit.Builder] units [in all cities]",
+            "[+20]% Production when constructing [Class.Unit.Builder] units [in all cities] <starting from the [Era.Medieval]>"]
         },
         {//妈祖信仰
-            "name": "Pantheon_Mazu_Belief",
+            "name": "Pantheon.MazuBelief",
             "type": "Pantheon",
             "uniques": ["[+1 Production] [in all coastal cities]",
             "+1 housing for each coastal city",
-            "[+3 Production] from every [Building_Port_Unique]"]
+            "[+3 Production] from every [Building.DistrictUnique.Port]"]
         },
         {//天人合一
-            "name": "Pantheon_Harmony_between_Heaven_and_Man",
+            "name": "Pantheon.HarmonyBetweenHeavenAndMan",
             "type": "Pantheon",
             "uniques": ["[+4 Happiness] from every [Natural Wonder]"]
         },
         {//山之苗裔
-            "name": "Pantheon_Seedlings_of_the_Mountain",
+            "name": "Pantheon.SeedlingsOfTheMountain",
             "type": "Pantheon",
             "uniques": ["The adjacency bonus between the Academy and the Sanctuary is doubled"]
         },
         {//神王
-            "name": "Pantheon_God_King",
+            "name": "Pantheon.GodKing",
             "type": "Pantheon",
-            "uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Building_Palace]",
-            "Free [Unit_Envoy2] appears"]
+            "uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Building.Palace]",
+            "Free [Unit.Envoy2] appears"]
         },
 
 
 
         /*好词,以后用
         {//梦创时代
-            "name": "Pantheon_Dream_Creation_Era",
+            "name": "Pantheon.DreamCreationEra",
             "type": "Pantheon",
             "uniques": [""]
         },*/
@@ -292,134 +292,134 @@
 
     /*追随者信仰-在游戏中一个宗教可以采用两个该信条*/
         {//哺育世界
-            "name": "Follower belief_Nurturing the world",
+            "name": "FollowerBelief.NurturingTheWorld",
             "type": "Follower",
-            "uniques": ["[+2 Food] from every [Building_Shrine]",
-            "[+3 Food, +1 Happiness] from every [Building_Temple]",
-            "[+4 Food, +2 Happiness] from every [Building_Classification_Religious_Building]"]
+            "uniques": ["[+2 Food] from every [Building.Shrine]",
+            "[+3 Food, +1 Happiness] from every [Building.Temple]",
+            "[+4 Food, +2 Happiness] from every [Class.Building.AdvancedReligious]"]
         },
         {//禅修
-            "name": "Follower belief_Meditation",
+            "name": "FollowerBelief.Meditation",
             "type": "Follower",
-            "uniques": ["[+2 Happiness] from every [Building_Holy_Site_Unique]",
-            "[+1 Happiness] from every [Building_College_Unique]"]
+            "uniques": ["[+2 Happiness] from every [Building.DistrictUnique.HolySite]",
+            "[+1 Happiness] from every [Building.DistrictUnique.Campus]"]
         },
         {//合唱圣歌
-            "name": "Follower belief_Choral singing",
+            "name": "FollowerBelief.ChoralSinging",
             "type": "Follower",
-            "uniques": ["[+2 Culture] from every [Building_Shrine]",
-            "[+3 Culture] from every [Building_Temple]",
-            "[+4 Culture] from every [Building_Classification_Religious_Building]"]
+            "uniques": ["[+2 Culture] from every [Building.Shrine]",
+            "[+3 Culture] from every [Building.Temple]",
+            "[+4 Culture] from every [Class.Building.AdvancedReligious]"]
         },
         {//神灵启示
-            "name": "Follower belief_Divine revelation",
+            "name": "FollowerBelief.DivineRevelation",
             "type": "Follower",
             "uniques": ["[+4 Faith, +1 Happiness, +1 Gold] from every [World Wonder]"]
         },
         {//武僧
-            "name": "Follower belief_Martial arts",
+            "name": "FollowerBelief.MartialArts",
             "type": "Follower",
             "uniques": ["All Melee Infantry units can be transfered as Monk",
-            "Provides [5] [Resource_Remaining_Monks]"]
+            "Provides [5] [Resource.remainingMonksCount]"]
         },
         {//耶稣会教育
-            "name": "Follower belief_Jesuit education",
+            "name": "FollowerBelief.JesuitEducation",
             "type": "Follower",
-            "uniques": ["May buy [Building_Classification_College_District] buildings with [Faith] [in all cities]",
-            "May buy [Building_Classification_Theater_Square_District] buildings with [Faith] [in all cities]"]
+            "uniques": ["May buy [Class.DistrictBuilding.Campus] buildings with [Faith] [in all cities]",
+            "May buy [Class.DistrictBuilding.TheaterSquare] buildings with [Faith] [in all cities]"]
         },
         {//职业道德
-            "name": "Follower belief_Professional ethics",
+            "name": "FollowerBelief.ProfessionalEthics",
             "type": "Follower",
             "uniques": ["[+1]% [Production] from every follower, up to [30]%",
-            "[+1 Production] from every [Building_Holy_Site_Unique] <during the [Era_Ancient]>",
-            "[+3 Production] from every [Building_Holy_Site_Unique] <during the [Era_Classical]>",
-            "[+5 Production] from every [Building_Holy_Site_Unique] <during the [Era_Medieval]>",
-            "[+7 Production] from every [Building_Holy_Site_Unique] <starting from the [Era_Renaissance]>"]
+            "[+1 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Ancient]>",
+            "[+3 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Classical]>",
+            "[+5 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Medieval]>",
+            "[+7 Production] from every [Building.DistrictUnique.HolySite] <starting from the [Era.Renaissance]>"]
         },
         {//宗教社区
-            "name": "Follower belief_Religious community",
+            "name": "FollowerBelief.ReligiousCommunity",
             "type": "Follower",
-            "uniques": ["[+2 Gold, +1 Science] from every [Building_Classification_Holy_Site_District]",
-            "[+2 Gold, +1 Science] from every [Building_Classification_Holy_Site_District] <after discovering [Civic_Theology]>"]
+            "uniques": ["[+2 Gold, +1 Science] from every [Class.DistrictBuilding.HolySite]",
+            "[+2 Gold, +1 Science] from every [Class.DistrictBuilding.HolySite] <after discovering [Civic.Theology]>"]
         },
         {//经文
-            "name": "Follower belief_Scripture",
+            "name": "FollowerBelief.Scripture",
             "type": "Follower",
             "uniques": ["[+30]% Natural religion spread [in cities following this religion]",
-            "[+30]% Natural religion spread [in cities following this religion] <after discovering [Tech_Printing]>",
-            "Religion naturally spreads to cities [3] tiles away <after discovering [Tech_Printing]>"]
+            "[+30]% Natural religion spread [in cities following this religion] <after discovering [Tech.Printing]>",
+            "Religion naturally spreads to cities [3] tiles away <after discovering [Tech.Printing]>"]
         },
         {//神圣采购
-            "name": "Follower belief_Sacred procurement",
+            "name": "FollowerBelief.SacredProcurement",
             "type": "Follower",
-            "uniques": ["[Faith] cost of purchasing [Unit_Missionary] units [-30]%",
+            "uniques": ["[Faith] cost of purchasing [Unit.Missionary] units [-30]%",
             "+50% Spread Religion Strength for Missionary units"]
         },
         {//十字军
-            "name": "Follower belief_Crusade",
+            "name": "FollowerBelief.Crusade",
             "type": "Follower",
             "uniques": ["+15% Strength for Military units when fighting in Enemy Land tiles"]
         },
         {//信仰守护者
-            "name": "Follower belief_Defender of faith",
+            "name": "FollowerBelief.DefenderOfFaith",
             "type": "Follower",
             "uniques": ["+18% Strength for Military units when fighting in Friendly Land tiles"]
         },
         {//圣遗物柜
-            "name": "Follower belief_Reliquary",
+            "name": "FollowerBelief.Reliquary",
             "type": "Follower",
             "uniques": ["Provides a sum of Faith each time you spend a Great Person"]
         },
     
     /*创始人信仰*/
         {//朝圣
-            "name": "Founder belief_Pilgrimage",
+            "name": "FounderBelief.Pilgrimage",
             "type": "Founder",
             "uniques": ["[+3 Faith] for each global city following this religion",
             "[+1 Faith] from every [4] global followers [in all cities]"]
         },
         {//什一税
-            "name": "Founder belief_Tithe",
+            "name": "FounderBelief.Tithe",
             "type": "Founder",
             "uniques": ["[+4 Gold] for each global city following this religion",
             "[+1 Gold] from every [3] global followers [in all cities]"]
         },
         {//管理工作
-            "name": "Founder belief_Administrative work",
+            "name": "FounderBelief.AdministrativeWork",
             "type": "Founder",
-            "uniques": ["[+1 Science] from every [Building_College_Unique]",
-            "[+1 Gold] from every [Building_Commercial_Hub_Unique]",
-            "[+1 Gold] from every [Building_Port_Unique]",
-            "[+1 Science] from every [Building_College_Unique] <after discovering [Civic_Divin right of Kings]>",
-            "[+1 Gold] from every [Building_Commercial_Hub_Unique] <after discovering [Civic_Divin right of Kings]>",
-            "[+1 Gold] from every [Building_Port_Unique] <after discovering [Civic_Divin right of Kings]>"]
+            "uniques": ["[+1 Science] from every [Building.DistrictUnique.Campus]",
+            "[+1 Gold] from every [Building.DistrictUnique.CommercialHub]",
+            "[+1 Gold] from every [Building.DistrictUnique.Port]",
+            "[+1 Science] from every [Building.DistrictUnique.Campus] <after discovering [Civic.DivinRightOfKings]>",
+            "[+1 Gold] from every [Building.DistrictUnique.CommercialHub] <after discovering [Civic.DivinRightOfKings]>",
+            "[+1 Gold] from every [Building.DistrictUnique.Port] <after discovering [Civic.DivinRightOfKings]>"]
         },
         {//民间宗教团
-            "name": "Founder belief_Folk Religious group",
+            "name": "FounderBelief.FolkReligiousGroup",
             "type": "Founder",
-            "uniques": ["[+1 Faith] from every [Building_Holy_Site_Unique]",
-            "[+1 Culture] from every [Building_Theater_Square_Unique]",
-            "[+1 Faith] from every [Building_Holy_Site_Unique] <after discovering [Civic_Divin right of Kings]>",
-            "[+1 Culture] from every [Building_Theater_Square_Unique] <after discovering [Civic_Divin right of Kings]>"]
+            "uniques": ["[+1 Faith] from every [Building.DistrictUnique.HolySite]",
+            "[+1 Culture] from every [Building.DistrictUnique.TheaterSquare]",
+            "[+1 Faith] from every [Building.DistrictUnique.HolySite] <after discovering [Civic.DivinRightOfKings]>",
+            "[+1 Culture] from every [Building.DistrictUnique.TheaterSquare] <after discovering [Civic.DivinRightOfKings]>"]
         },
         {//教皇权威
-            "name": "Founder belief_Papal authority",
+            "name": "FounderBelief.PapalAuthority",
             "type": "Founder",
             "uniques": ["Resting point for Influence with City-States following this religion [+30]"]
         },
         {//跨文化对话
-            "name": "Founder belief_Interfaith dialogue",
+            "name": "FounderBelief.InterfaithDialogue",
             "type": "Founder",
             "uniques": [ "[+1 Science] from every [3] global followers [in all cities]"]
         },
         {//普世教会
-            "name": "Founder belief_Universal church",
+            "name": "FounderBelief.UniversalChurch",
             "type": "Founder",
             "uniques": [ "[+1 Culture] from every [3] global followers [in all cities]"]
         },
         {//神圣之地
-            "name": "Founder belief_Sacred site",
+            "name": "FounderBelief.SacredSite",
             "type": "Founder",
             "uniques": [ "[+1 Science, +1 Culture, +3 Gold, +2 Faith] from every [World Wonder]"]
         },
@@ -427,49 +427,49 @@
     
     /*强化者信仰*/
         {
-            "name": "Enhancer belief_Stupa",
+            "name": "EnhancerBelief.Stupa",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Stupa] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Stupa] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Cathedral",
+            "name": "EnhancerBelief.Cathedral",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Cathedral] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Cathedral] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Buddhist temple",
+            "name": "EnhancerBelief.BuddhistTemple",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Buddhist_Temple] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.BuddhistTemple] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Temple",
+            "name": "EnhancerBelief.Temple",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Chapel] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Chapel] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Mosque",
+            "name": "EnhancerBelief.Mosque",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Mosque] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Mosque] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Sudowoodo",
+            "name": "EnhancerBelief.Sudowoodo",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Pagoda] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Pagoda] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Monastery",
+            "name": "EnhancerBelief.Monastery",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Monastery] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Monastery] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Synagogue",
+            "name": "EnhancerBelief.Synagogue",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Synagogue] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.Synagogue] buildings with [Faith] [in cities following this religion]"]
         },
         {
-            "name": "Enhancer belief_Fire temple",
+            "name": "EnhancerBelief.FireTemple",
             "type": "Enhancer",
-            "uniques": ["May buy [Building_Fire_Temple] buildings with [Faith] [in cities following this religion]"]
+            "uniques": ["May buy [Building.FireTemple] buildings with [Faith] [in cities following this religion]"]
         }
     ]
     

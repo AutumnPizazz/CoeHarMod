@@ -1,107 +1,107 @@
 [
     {
-        "name": "Unit_Type_Civilian",
+        "name": "UnitType.Civilian",
         "movementType": "Land",
         "uniques":[]
     },
     {
-        "name": "Unit_Type_Project_Great_Person",
+        "name": "UnitType.GreatPersonProject",
         "movementType": "Land",
         "uniques":["Can move immediately once bought","Cannot move"]
     },
     {
-        "name": "Unit_Type_Civilian_Ship",
+        "name": "UnitType.CivilianShip",
         "movementType": "Water",
         "uniques":[]
     },
     {//侦察
-        "name": "Unit_Type_Scout",
+        "name": "UnitType.Scout",
         "movementType": "Land",
         "uniques":["This Unit gains [10] XP <upon discovering a Natural Wonder>","Heal this unit by [50] HP <for [All] units> <upon being promoted>"
     ]
     },
     {//短程步兵
-        "name": "Unit_Type_Melee_Infantry",
+        "name": "UnitType.MeleeInfantry",
         "movementType": "Land",
-        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
+        "uniques":["[+23]% Strength <vs [UnitType.AntiCavalry] units>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//武僧
-        "name": "Unit_Type_Monk",
+        "name": "UnitType.Monk",
         "movementType": "Land",
-        "uniques":["[+23]% Strength <vs [Unit_Type_Anti_Cavalry] units>",
+        "uniques":["[+23]% Strength <vs [UnitType.AntiCavalry] units>",
         "Earn [20]% of killed [Military] unit's [Strength] as [Faith]",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
-        "Consumes [1] [Resource_Remaining_Monks]",
-        "Only available <when above [0] [Resource_Remaining_Monks]>",
+        "Consumes [1] [Resource.remainingMonksCount]",
+        "Only available <when above [0] [Resource.remainingMonksCount]>",
         "Cannot be purchased"]
     },
     {//长程步兵
-        "name": "Unit_Type_Ranged_Infantry",
+        "name": "UnitType.RangedInfantry",
         "movementType": "Land",
-        "uniques":["[-34]% Strength <vs cities> <when attacking> <during the [Era_Ancient]>",
-        "[-58]% Strength <vs cities> <when attacking> <during the [Era_Classical]>",
-        "[-96]% Strength <vs cities> <when attacking> <starting from the [Era_Medieval]>",
+        "uniques":["[-34]% Strength <vs cities> <when attacking> <during the [Era.Ancient]>",
+        "[-58]% Strength <vs cities> <when attacking> <during the [Era.Classical]>",
+        "[-96]% Strength <vs cities> <when attacking> <starting from the [Era.Medieval]>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//攻城
-        "name": "Unit_Type_Siege",
+        "name": "UnitType.Siege",
         "movementType": "Land",
         "uniques":["[+51]% Strength <vs cities> <when attacking>",
         "Must set up to ranged attack",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//轻骑兵
-        "name": "Unit_Type_Light_Cavalry",
+        "name": "UnitType.LightCavalry",
         "movementType": "Land",
         "uniques":["[-39]% Strength <vs cities> <when attacking>",
-        "[+39]% Strength <vs cities> <when attacking> <for [Nation_Macedonia]>",//马其顿文明能力
+        "[+39]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]>",//马其顿文明能力
         "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//重骑兵
-        "name": "Unit_Type_Heavy_Cavalry",
+        "name": "UnitType.HeavyCavalry",
         "movementType": "Land",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
-        "[+23]% Strength <vs cities> <when attacking> <for [Nation_Macedonia]>",//马其顿文明能力
+        "[+23]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]>",//马其顿文明能力
         "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//抗骑兵
-        "name": "Unit_Type_Anti_Cavalry",
+        "name": "UnitType.AntiCavalry",
         "movementType": "Land",
-        "uniques":["[+51]% Strength <vs [Unit_Type_Light_Cavalry] units>",
-        "[+51]% Strength <vs [Unit_Type_Heavy_Cavalry] units>",
+        "uniques":["[+51]% Strength <vs [UnitType.LightCavalry] units>",
+        "[+51]% Strength <vs [UnitType.HeavyCavalry] units>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//短程海军
-        "name": "Unit_Type_Short_Ranged_Naval",
+        "name": "UnitType.ShortRangedNaval",
         "movementType": "Water",
         "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//长程海军
-        "name": "Unit_Type_Long_Ranged_Naval",
+        "name": "UnitType.LongRangedNaval",
         "movementType": "Water",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//海军袭击者
-        "name": "Unit_Type_Naval_Attacker",
+        "name": "UnitType.NavalAttacker",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles",
         "Invisible to non-adjacent units",
-        "Can see invisible [Unit_Type_Naval_Attacker] units",
+        "Can see invisible [UnitType.NavalAttacker] units",
         "[-23]% Strength <vs cities> <when attacking>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {
-        "name": "Unit_Type_Aircraft_Carrier",
+        "name": "UnitType.AircraftCarrier",
         "movementType": "Water",
-        "uniques":["Can carry [2] [Unit_Class_Aircraft] units",
+        "uniques":["Can carry [2] [Class.Unit.Aircraft] units",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {
-        "name": "Unit_Type_Fighter",
+        "name": "UnitType.Fighter",
         "movementType": "Air",
         "uniques": ["Aircraft",
         "[+4] Sight",
@@ -111,39 +111,39 @@
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {
-        "name": "Unit_Type_Bomber",
+        "name": "UnitType.Bomber",
         "movementType": "Air",
         "uniques": ["Aircraft",
         "Unit will heal every turn, even if it performs an action",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {
-        "name": "Unit_Type_Missile",
+        "name": "UnitType.Missile",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking"
 //      "Cannot be intercepted"
     ]
     },
     {
-        "name": "Unit_Type_Mech",
+        "name": "UnitType.Mech",
         "movementType": "Land",
         "uniques":["Never appears as a Barbarian unit",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
-        "Ignores terrain cost <after discovering [Tech_Cybernetics]>"]
+        "Ignores terrain cost <after discovering [Tech.Cybernetics]>"]
     },
     {//吸血鬼
-        "name": "Unit_Type_Vampire",
+        "name": "UnitType.Vampire",
         "movementType": "Land",
         "uniques": ["Never appears as a Barbarian unit",
-        "Double movement in [Landform_Hill] <for [All] units> <if [Governor_BloodContract_II] is constructed>",
-        "Double movement in [Landform_Forest] <for [All] units> <if [Governor_BloodContract_II] is constructed>",
-        "Double movement in [Landform_Rainforest] <for [All] units> <if [Governor_BloodContract_II] is constructed>",
-        "[+23]% Strength <for [All] units> <if [Governor_BloodContract_III] is constructed>",
-        "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor_BloodContract_IV] is constructed>",
+        "Double movement in [Landform.Hill] <for [All] units> <if [Governor.BloodContractII] is constructed>",
+        "Double movement in [Landform.Forest] <for [All] units> <if [Governor.BloodContractII] is constructed>",
+        "Double movement in [Landform.Rainforest] <for [All] units> <if [Governor.BloodContractII] is constructed>",
+        "[+23]% Strength <for [All] units> <if [Governor.BloodContractIII] is constructed>",
+        "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor.BloodContractIV] is constructed>",
         "[-100]% XP gained from combat"]
     },
     {
-        "name": "Unit_Type_Civic_Civilian",
+        "name": "UnitType.Civic.Civilian",
         "movementType": "Land",
         "uniques": ["Can move immediately once bought","Cannot move","No Sight","Unbuildable","Will not be displayed in Civilopedia"
     ]

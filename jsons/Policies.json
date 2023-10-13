@@ -2,7 +2,7 @@
     /*
     {
         "name": "Culture_Trunk Culture Tress",
-        "era": "Era_Ancient",
+        "era": "Era.Ancient",
         "priorities": 
         {
             "Neutral": 10,//中立倾向
@@ -16,7 +16,7 @@
         [
             {
                 "name": "Culture_Primary polity",
-                "uniques": ["Provides [4] [Resource_Government reform progress]"],
+                "uniques": ["Provides [4] [Resource.GovernmentReformProgress]"],
                 "row": 1,
                 "column": 5
             },
@@ -36,7 +36,7 @@
             },
             {
                 "name": "Culture_Second-level polity",
-                "uniques": ["Provides [1] [Resource_Government reform progress]"],
+                "uniques": ["Provides [1] [Resource.GovernmentReformProgress]"],
                 "row": 3,
                 "column": 5,
                 "requires":["Culture_Transition 1 of Secondary Regime","Culture_Transition 2 of Secondary Regime"]
@@ -64,7 +64,7 @@
             },
             {
                 "name": "Culture_Three-level polity",
-                "uniques": ["Provides [1] [Resource_Government reform progress]"],
+                "uniques": ["Provides [1] [Resource.GovernmentReformProgress]"],
                 "row": 5,
                 "column": 5,
                 "requires":["Culture_Transition 1 of Three-Level Regime","Culture_Transition 2 of Three-Level Regime","Culture_Transition 3 of Three-Level Regime"]
@@ -99,7 +99,7 @@
             },
             {
                 "name": "Culture_Four-level polity",
-                "uniques": ["Provides [1] [Resource_Government reform progress]"],
+                "uniques": ["Provides [1] [Resource.GovernmentReformProgress]"],
                 "row": 7,
                 "column": 5,
                 "requires":["Culture_Transition 1 of Four-Level Regime","Culture_Transition 2 of Four-Level Regime","Culture_Transition 3 of Four-Level Regime","Culture_Transition 4 of Four-Level Regime"]
@@ -120,7 +120,7 @@
             },
             {
                 "name": "Culture_Five-level polity",
-                "uniques": ["Provides [1] [Resource_Government reform progress]"],
+                "uniques": ["Provides [1] [Resource.GovernmentReformProgress]"],
                 "row": 9,
                 "column": 5,
                 "requires":["Culture_Transition 1 of Five-Level Regime","Culture_Transition 2 of Five-Level Regime"]
@@ -132,8 +132,8 @@
         ]
     },*/
     {
-        "name": "Culture_Cultural Victory Sprint",
-        "era": "Era_Near-future",
+        "name": "Culture.CulturalVictorySprint",
+        "era": "Era.Near-future",
         "priorities": 
         {
             "Neutral": 10,//中立倾向
@@ -145,35 +145,35 @@
         "uniques": [],
         "policies": 
         [{
-            "name": "Culture_Culture Victory Rush 2",
+            "name": "Culture.CultureVictoryRush2",
             "uniques": [],
             "row": 1,
             "column": 1,
             "requires":[]
         },
         {
-            "name": "Culture_Culture Victory Rush 3",
+            "name": "Culture.CultureVictoryRush3",
             "uniques": [],
             "row": 1,
             "column": 3,
             "requires":[]
         },
         {
-            "name": "Culture_Culture Victory Rush 4",
+            "name": "Culture.CultureVictoryRush4",
             "uniques": [],
             "row": 1,
             "column": 5,
             "requires":[]
         },
         {
-            "name": "Culture_Culture Victory Rush 5",
+            "name": "Culture.CultureVictoryRush5",
             "uniques": [],
             "row": 1,
             "column": 7,
             "requires":[]
         },
         {
-            "name": "Culture_Cultural Victory Sprint Complete",
+            "name": "Culture.CulturalVictorySprint Complete",
             "uniques": []
         }]   
     }
