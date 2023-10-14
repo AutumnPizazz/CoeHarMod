@@ -1078,6 +1078,7 @@
 		"Can see invisible [Unit.Spy] units",
 		"Never appears as a Barbarian unit",
 		"Uncapturable",
+		"Only available <when above [0] [Resource.SpyCapacity]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},

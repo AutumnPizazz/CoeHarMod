@@ -50,7 +50,7 @@
             "name": "Pantheon.GuardianGod",
             "type": "Pantheon",
             "uniques": ["[+18]% Strength for cities <when defending>",
-            "[+3 Production] [in all cities with a garrison]"]
+            "[-1 Food, +3 Production] [in all cities with a garrison]"]
         },
         {//丰产仪式
             "name": "Pantheon.HarvestFestival",
