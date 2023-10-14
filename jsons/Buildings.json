@@ -112,13 +112,13 @@
         "uniqueTo":"Nation.Zhou",
         "cost":0,
         "uniques":["[+30]% Production when constructing [All] buildings [in this city]",
-        "[-30]% Production when constructing [Military] units [in this city]",
-        "[+1 Happiness] per [4] population [in this city]",
-        "Destroyed when the city is captured",
-        "Only available <in cities with a [Building.Ye]>",
-        "Only available <in cities without a [Building.Mu]>",
-        "Only available <in cities without a [Building.Ze]>",
-        "Unsellable"]
+            "[-30]% Production when constructing [Military] units [in this city]",
+            "[+1 Happiness] per [4] population [in this city]",
+            "Destroyed when the city is captured",
+            "Only available <in cities with a [Building.Ye]>",
+            "Only available <in cities without a [Building.Mu]>",
+            "Only available <in cities without a [Building.Ze]>",
+            "Unsellable"]
     },
     {//周朝-牧
         "name":"Building.Mu",
@@ -126,12 +126,12 @@
         "uniqueTo":"Nation.Zhou",
         "cost":0,
         "uniques":["[+1 Production] from [Improvement.Pasture] tiles [in this city]",
-        "Provides [2] [Resource.Horse]",
-        "Destroyed when the city is captured",
-        "Only available <in cities with a [Building.Ye]>",
-        "Only available <in cities without a [Building.Jiao]>",
-        "Only available <in cities without a [Building.Ze]>",
-        "Unsellable"]
+            "Provides [2] [Resource.Horse]",
+            "Destroyed when the city is captured",
+            "Only available <in cities with a [Building.Ye]>",
+            "Only available <in cities without a [Building.Jiao]>",
+            "Only available <in cities without a [Building.Ze]>",
+            "Unsellable"]
     },
     {//周朝-泽
         "name":"Building.Ze",
@@ -139,14 +139,25 @@
         "uniqueTo":"Nation.Zhou",
         "cost":0,
         "uniques":["[+1 Production, +1 Food] from [Ocean] tiles [in this city]",
-        "[+1 Production, +1 Food] from [Coast] tiles [in this city]",
-        "[+1 Production, +1 Food] from [Lakes] tiles [in this city]",
-        "[+1 Production, +1 Food] from [LargeRiver] tiles [in this city]",
-        "Destroyed when the city is captured",
-        "Only available <in cities with a [Building.Ye]>",
-        "Only available <in cities without a [Building.Jiao]>",
-        "Only available <in cities without a [Building.Mu]>",
-        "Unsellable"]
+            "[+1 Production, +1 Food] from [Coast] tiles [in this city]",
+            "[+1 Production, +1 Food] from [Lakes] tiles [in this city]",
+            "[+1 Production, +1 Food] from [LargeRiver] tiles [in this city]",
+            "Destroyed when the city is captured",
+            "Only available <in cities with a [Building.Ye]>",
+            "Only available <in cities without a [Building.Jiao]>",
+            "Only available <in cities without a [Building.Mu]>",
+            "Unsellable"]
+    },
+    {//汉朝-太学
+        "name":"AWonder.TaiXue",
+        "requiredTech":"Civic.History",
+        "uniqueTo":"Nation.Han",
+        "isWonder": true,
+        "cost":710,
+        "uniques":["Gain a free [Building.University] [in this city]",
+            "Free Technology",
+            "[+1 Science] from every [Building.University]",
+            "Class.WonderEra.Classical"]
     },
 
     /*政体建筑*/
@@ -1920,17 +1931,16 @@
         "Never destroyed when the city is captured",
 		"Class.DistrictBuilding.HolySite"]
 	},
-    {
+    {//祭祀建筑-宝塔
 		"name": "Building.Stupa",
 		"cost": 0,
 		"hurryCostModifier":-33,
 		"faith": 3,
+        "happiness": 2,
         "requiredBuilding": "Building.Temple",
 		"specialistSlots": {"Specialist.Priest": 1},
-//        "greatPersonPoints":{"Unit.Prophet": 1},
 		"uniques": ["Provides [1] [Resource.Unit.Prophet]",
         "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]>",
-        "Provides [1] [Resource.DiplomaticFavor]",
         "Only available <after adopting [EnhancerBelief.Stupa]>",
         "Hidden when religion is disabled",
 		"Class.DistrictBuilding.HolySite",

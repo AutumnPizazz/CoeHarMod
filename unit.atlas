@@ -1095,6 +1095,13 @@ UnitIcons/Unit.Administration
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Unit.AdvancedFutureMunicipal
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Unit.BasicTrade
   rotate: false
   xy: 548, 1712
@@ -1144,7 +1151,21 @@ UnitIcons/Unit.Colonialism
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Unit.CulturalHegemony
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Unit.CulturalHeritage
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.DecentralizedSovereighty
   rotate: false
   xy: 548, 1712
   size: 128, 128
@@ -1228,7 +1249,21 @@ UnitIcons/Unit.ForeighService
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitIcons/Unit.FutureMunicipal
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Unit.Games and entertainment
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.GlobalWarmingMitigation
   rotate: false
   xy: 548, 1712
   size: 128, 128
@@ -1257,6 +1292,13 @@ UnitIcons/Unit.Humanism
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Ideology
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.InformationWarfare
   rotate: false
   xy: 548, 1712
   size: 128, 128
@@ -1347,42 +1389,14 @@ UnitIcons/Unit.Naval tradition
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Near-Unit.DecentralizedSovereighty
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Near-Unit.GlobalWarmingMitigation
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Near-Unit.NecessityExpedition
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Near-Unit.OptimizationCommand
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Near-Unit.PoliticalAdventures
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
 UnitIcons/Unit.Near-futureGovernance
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.NecessityExpedition
   rotate: false
   xy: 548, 1712
   size: 128, 128
@@ -1397,6 +1411,20 @@ UnitIcons/Unit.NuclearProgram
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Opera and ballet
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.OptimizationCommand
+  rotate: false
+  xy: 548, 1712
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.PoliticalAdventures
   rotate: false
   xy: 548, 1712
   size: 128, 128
@@ -1481,34 +1509,6 @@ UnitIcons/Unit.Theology
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Tolalitarianism
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Unit.Near-CulturalHegemony
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Unit.Near-FutureMunicipal
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Unit.Near-InformationWarfare
-  rotate: false
-  xy: 548, 1712
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Unit.Near-Unit.Near-AdvancedFutureMunicipal
   rotate: false
   xy: 548, 1712
   size: 128, 128
@@ -1634,27 +1634,6 @@ UnitIcons/Unit.Merchant.Progress3
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Near-Unit.Scientist.Progress1
-  rotate: false
-  xy: 684, 1848
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Near-Unit.Scientist.Progress2
-  rotate: false
-  xy: 684, 1848
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Near-Unit.Scientist.Progress3
-  rotate: false
-  xy: 684, 1848
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
 UnitIcons/Unit.Prophet.Progress1
   rotate: false
   xy: 684, 1848
@@ -1670,6 +1649,27 @@ UnitIcons/Unit.Prophet.Progress2
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Prophet.Progress3
+  rotate: false
+  xy: 684, 1848
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Scientist.Progress1
+  rotate: false
+  xy: 684, 1848
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Scientist.Progress2
+  rotate: false
+  xy: 684, 1848
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Scientist.Progress3
   rotate: false
   xy: 684, 1848
   size: 128, 128
@@ -2292,51 +2292,44 @@ UnitIcons/Unit.Musketman
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Near-Unit.Scientist
+UnitIcons/Unit.NuclearDevice
   rotate: false
   xy: 1792, 1552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.NuclearDevice
+UnitIcons/Unit.NuclearSubmarine
   rotate: false
   xy: 1036, 1416
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.NuclearSubmarine
+UnitIcons/Unit.OceanHomeBuilder
   rotate: false
   xy: 1144, 1416
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.OceanHomeBuilder
+UnitIcons/Unit.OilWell
   rotate: false
   xy: 1252, 1444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.OilWell
+UnitIcons/Unit.PersianCourtyard
   rotate: false
   xy: 1360, 1444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.PersianCourtyard
-  rotate: false
-  xy: 1468, 1444
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Unit.PikeAndShot
   rotate: false
-  xy: 1576, 1444
+  xy: 1468, 1444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2350,7 +2343,7 @@ UnitIcons/Unit.Pikeman
   index: -1
 UnitIcons/Unit.PlantationWorker
   rotate: false
-  xy: 1684, 1444
+  xy: 1576, 1444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2364,35 +2357,35 @@ UnitIcons/Unit.Prophet
   index: -1
 UnitIcons/Unit.Quarry
   rotate: false
-  xy: 1792, 1444
+  xy: 1684, 1444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Ranger
   rotate: false
-  xy: 1928, 1768
+  xy: 1792, 1444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.RedArmy
   rotate: false
-  xy: 1900, 1660
+  xy: 1928, 1768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.SovietRedArmy
   rotate: false
-  xy: 1900, 1660
+  xy: 1928, 1768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Redcoats
   rotate: false
-  xy: 1900, 1552
+  xy: 1900, 1660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2406,12 +2399,19 @@ UnitIcons/Unit.RocketArtillery
   index: -1
 UnitIcons/Unit.RomanLegion
   rotate: false
-  xy: 1900, 1444
+  xy: 1900, 1552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.SakaHorseArchers
+  rotate: false
+  xy: 1900, 1444
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Scientist
   rotate: false
   xy: 328, 680
   size: 100, 100
