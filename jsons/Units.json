@@ -1014,6 +1014,18 @@
 		"cost": 65
 	},
 	*/
+	
+	{//楼兰-坎儿井建造者
+		"name": "Unit.Qanat",
+		"unitType": "UnitType.Civilian",
+		"uniqueTo":"Nation.LouLan",
+		"movement": 2,
+		"requiredTech":"Tech.Project",
+		"uniques": ["Can instantly construct a [Improvement.Qanat] improvement <[3] times> <after which this unit is consumed>",
+			"Class.Unit.Builder",
+			"Will not be displayed in Civilopedia"],
+		"cost": 65
+	},
 
 
 	//文明特色改良建造者在这里!
@@ -1639,7 +1651,7 @@
 		"unitType":"UnitType.MeleeInfantry",
 		"strength":523,//60
 		"movement":2,
-		"cost":280,
+		"cost":200,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.LineInfantry",
 		"requiredTech": "Tech.Gunpowder",

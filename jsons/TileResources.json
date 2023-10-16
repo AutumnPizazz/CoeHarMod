@@ -357,7 +357,7 @@
 		"name": "Resource.DistrictLimitation",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Not shown on world screen"]
+		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
 	},
 	{//剩余可用吸血鬼数量
 		"name": "Resource.remainingAvailableVampireCount",

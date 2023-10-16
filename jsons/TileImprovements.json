@@ -2009,4 +2009,17 @@
 	],
 		"techRequired": "Tech.Alchemy"
 	},
+	{//楼兰-坎儿井
+		"name": "Improvement.Qanat",
+		"uniqueTo": "Nation.LouLan",
+		"terrainsCanBeBuiltOn": ["Landform.Hill"],
+		"food":1,
+		"uniques": [
+			"[+1 Food, +1 Production] <after discovering [Civic.CivilEngineering]>",
+			"[+1 Production] <with [2] to [3] neighboring [Landform.Hill] tiles>",
+			"[+2 Production] <with [4] to [5] neighboring [Landform.Hill] tiles>",
+			"[+3 Production] <with [6] to [7] neighboring [Landform.Hill] tiles>"
+		],
+		"techRequired": "Tech.Project"
+	}
 ]

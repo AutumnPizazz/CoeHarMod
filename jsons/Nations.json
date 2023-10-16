@@ -886,6 +886,24 @@
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
 		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
+	{//楼兰
+		"name": "Nation.LouLan",
+		"leaderName": "Wei Tuqi",
+		"outerColor": [101, 67, 33],
+		"innerColor": [255, 204, 0],
+
+		"startBias": ["Landform.Oasis"],
+		"preferredVictoryType": "VictoryType.Economic",
+
+		"uniqueName": "Silk Road",
+		"uniques": ["[UnitType.Scout] units gain the [Promotion.RoadBuild] promotion",
+		"[+3 Gold] from each Trade Route"],
+
+		"cities":["楼兰","高昌","焉耆","于阗","康居","疏勒","鄯善","龟兹","伊吾","吐火罗","车师","且末","碎叶","阗波","伊犁","奇台","塔里木","疏附","康国","贡高"],
+
+		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
+		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+	},
 
 
 
