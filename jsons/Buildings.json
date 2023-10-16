@@ -34,7 +34,7 @@
     {//唐朝-大明宫
         "name":"Building.TheGrandPalace",
         "uniqueTo":"Nation.Tang",
-        "isWonder":true,
+        "isNationalWonder":true,
         "cost":710,
         "cityStrength":100,
         "requiredTech":"Tech.Apprentices",
@@ -44,19 +44,21 @@
         "Provides [10] [Resource.houseLimitation]",
         "Provides [1] [Resource.MilitaryPolicySlot] <for [20] turns>",
         "[+25]% Production when constructing [Military] units [in all cities] <for [20] turns>",
-        "Destroyed when the city is captured"],
+        "Destroyed when the city is captured",
+        "Triggers a global alert upon completion"],
         "quote":"大明宫，盛世华章，凝聚着唐朝的辉煌与文化。它是帝王权力的象征，也是智慧与艺术的殿堂。在大明宫中，历史的笔触与壮丽的建筑交织，彰显着唐朝的荣光。步入其中，仿佛穿越时空，感受着文人墨客的灵感与壮丽宴会的热闹。大明宫见证了盛唐时期的繁荣与开放，它是文化交流的中心，让世界见证着唐朝的伟大。在大明宫中，历史的奇迹与人文的智慧交汇，永远铭刻在人们的心中。"
     },
     {//印度尼西亚-波罗勉宫
         "name":"Building.Baromian",
         "uniqueTo":"Nation.Indonesia",
-        "isWonder":true,
+        "isNationalWonder":true,
         "cost":400,
         "requiredTech":"Tech.Shipbuilding",
         "uniques":["May buy [{Water} {Military}] units with [Faith] for [1] times their normal Production cost",
         "[+3 Faith] [in all coastal cities]",
         "[+2 Faith] from every [Class.DistrictBuilding.Port]",
-        "Destroyed when the city is captured"],
+        "Destroyed when the city is captured",
+        "Triggers a global alert upon completion"],
         "quote":"波罗勉宫，如同印度尼西亚的一颗璀璨明珠，悠久的历史和独特的文化赋予了它无比的魅力。这座宫殿的每一寸细节，无论是雕刻还是建筑风格，都体现了印度尼西亚人民的智慧和匠心。它是我们的骄傲，也是我们传承历史和弘扬文化的重要载体。让我们一同尊重并爱护这座美丽的宫殿，让它的光芒永远闪耀在印度尼西亚的大地上。"
     },
     {//元朝-行中书省
@@ -152,12 +154,27 @@
         "name":"AWonder.TaiXue",
         "requiredTech":"Civic.History",
         "uniqueTo":"Nation.Han",
-        "isWonder": true,
+        "isNationalWonder": true,
         "cost":710,
         "uniques":["Gain a free [Building.University] [in this city]",
             "Free Technology",
             "[+1 Science] from every [Building.University]",
-            "Class.WonderEra.Classical"]
+            "Class.WonderEra.Classical",
+            "Triggers a global alert upon completion"]
+    },
+    {//楼兰-西域都护府
+        "name":"AWonder.ProtectorateOfTheWesternRegions",
+        "requiredTech":"Civic.History",
+        "uniqueTo":"Nation.LouLan",
+        "isNationalWonder": true,
+        "gold":10,
+        "cost":400,
+        "cityStrength":100,
+        "uniques":[
+            "[+100]% Yield from every [Improvement.Qanat]",
+            "[+2 Gold] from each Trade Route",
+            "Class.WonderEra.Classical",
+            "Triggers a global alert upon completion"]
     },
 
     /*政体建筑*/
@@ -761,7 +778,7 @@
         "uniques":[
             "Instantly provides [40] [Resource.Niter]",
             "Instantly provides [5] [Resource.Niter] <upon gaining a [Unit.SudaneseParamilitary] unit>",
-            "[+50]% Production when constructing [Unit.SudaneseParamilitary] units [in this city]",
+            "[+25]% Production when constructing [Unit.SudaneseParamilitary] units [in all cities]",
             "Only available <starting from the [Era.Renaissance]>",
             "Only available <for [Nation.Ottoman]>",
             "Only available <in cities with a [Governor.GrandVizierIII]>",
@@ -4076,7 +4093,7 @@
 	{//吴哥窟
         "name": "AWonder.AngkorWat",
         "isWonder": true,
-        "uniques": ["Provides [2] [Resource.houseLimitation] <in cities with a [Building.House1]>",
+        "uniques": ["Provides [2] [Resource.houseLimitation] <in cities with a [Building.CityNumberCount]>",
             "[+2] population [in all cities]",
             "[+1 Happiness] [in all cities]",
             "Creates a [District.AngkorWat] improvement on a specific tile",
@@ -6111,18 +6128,47 @@
         "Class.Policy.General"]
     },
     
-    
-    /*住房系统*/
-    {//住房1
-        "name":"Building.House1",
+    /*新住房系统*/
+    {//城市计数器
+        "name":"Building.CityNumberCount",
         "cost":33554431,
         "uniques":["Unsellable",
-        "Only available <in cities with at least [1] [Population]>",
         "Automatically built in all cities where it is buildable",
-        "[-100]% growth [in this city] <in cities with at least [1] [Population]>",
         "Never destroyed when the city is captured",
+
+        "Nullifies Growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [3] [Population]> <when below [8] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [4] [Population]> <when below [10] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [5] [Population]> <when below [12] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [6] [Population]> <when below [14] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [7] [Population]> <when below [16] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [18] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [20] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [22] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [24] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [26] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [28] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [30] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [32] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [34] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [36] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [38] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [40] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [42] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [44] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [46] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [48] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [50] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [52] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [54] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [56] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [58] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [60] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [30] [Population]>",
+
         "Provides [1] [Resource.CityNumber]",
         "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
+        "Provides [4] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>",
         "Provides [2] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>",//古典共和修正
         "Provides [2] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>",//共和传承修正
         "Provides [6] [Resource.houseLimitation] <in [Fresh Water] tiles>",
@@ -6137,328 +6183,7 @@
         "Provides [2] [Resource.houseLimitation] <in tiles without [River]> <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
         "Provides [2] [Resource.houseLimitation] <in [Landform.Hill] tiles> <after adopting [Pantheon.LegendOfElDorado]>",//万神殿黄金国传说修正
         "Provides [2] [Resource.houseLimitation] <in [Coastal] tiles> <after adopting [Pantheon.MazuBelief]>"//万神殿妈祖信仰修正
-],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House2",
-        "cost":33554431,
-        "uniques":["Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House1]>",
-        "[+100]% growth [in this city] <in cities with at least [1] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [2] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House3",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Never destroyed when the city is captured",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building.House2]>",
-        "[+100]% growth [in this city] <in cities with at least [2] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [3] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House4",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House3]>",
-        "[+100]% growth [in this city] <in cities with at least [3] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [4] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House5",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House4]>",
-        "[+100]% growth [in this city] <in cities with at least [4] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [5] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House6",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House5]>",
-        "[+100]% growth [in this city] <in cities with at least [5] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [6] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House7",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House6]>",
-        "[+100]% growth [in this city] <in cities with at least [6] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [7] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House8",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House7]>",
-        "[+100]% growth [in this city] <in cities with at least [7] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [8] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House9",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House8]>",
-        "[+100]% growth [in this city] <in cities with at least [8] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [9] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House10",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House9]>",
-        "[+100]% growth [in this city] <in cities with at least [9] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [10] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House11",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House10]>",
-        "[+100]% growth [in this city] <in cities with at least [10] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [11] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House12",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House11]>",
-        "[+100]% growth [in this city] <in cities with at least [11] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [12] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House13",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House12]>",
-        "[+100]% growth [in this city] <in cities with at least [12] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [13] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House14",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House13]>",
-        "[+100]% growth [in this city] <in cities with at least [13] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [14] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House15",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House14]>",
-        "[+100]% growth [in this city] <in cities with at least [14] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [15] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House16",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House15]>",
-        "[+100]% growth [in this city] <in cities with at least [15] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [16] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House17",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House16]>",
-        "[+100]% growth [in this city] <in cities with at least [16] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [17] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House18",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Only available <in cities with a [Building.House17]>",
-        "Never destroyed when the city is captured",
-        "[+100]% growth [in this city] <in cities with at least [17] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [18] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House19",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House18]>",
-        "[+100]% growth [in this city] <in cities with at least [18] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [19] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House20",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House19]>",
-        "[+100]% growth [in this city] <in cities with at least [19] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [20] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House21",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House20]>",
-        "[+100]% growth [in this city] <in cities with at least [20] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [21] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House22",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House21]>",
-        "[+100]% growth [in this city] <in cities with at least [21] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [22] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House23",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House22]>",
-        "[+100]% growth [in this city] <in cities with at least [22] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [23] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House24",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House23]>",
-        "[+100]% growth [in this city] <in cities with at least [23] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [24] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House25",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House24]>",
-        "[+100]% growth [in this city] <in cities with at least [24] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [25] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House26",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House25]>",
-        "[+100]% growth [in this city] <in cities with at least [25] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [26] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House27",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House26]>",
-        "[+100]% growth [in this city] <in cities with at least [26] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [27] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House28",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House27]>",
-        "[+100]% growth [in this city] <in cities with at least [27] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [28] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House29",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House28]>",
-        "[+100]% growth [in this city] <in cities with at least [28] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [29] [Population]>"],
-        "replacementTextForUniques":" "
-    },
-    {
-        "name":"Building.House30",
-        "cost":33554431,
-        "uniques":["Consumes [2] [Resource.houseLimitation]","Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        "Only available <in cities with a [Building.House29]>",
-        "[+100]% growth [in this city] <in cities with at least [29] [Population]>",
-        "[-100]% growth [in this city] <in cities with at least [30] [Population]>"],
+    ],
         "replacementTextForUniques":" "
     }
-    
-
 ]

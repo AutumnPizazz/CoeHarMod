@@ -1,15 +1,15 @@
 [
-    {
+    {//平民
         "name": "UnitType.Civilian",
         "movementType": "Land",
         "uniques":[]
     },
-    {
+    {//伟人项目
         "name": "UnitType.GreatPersonProject",
         "movementType": "Land",
         "uniques":["Can move immediately once bought","Cannot move"]
     },
-    {
+    {//水上平民
         "name": "UnitType.CivilianShip",
         "movementType": "Water",
         "uniques":[]
@@ -42,12 +42,14 @@
         "uniques":["[-34]% Strength <vs cities> <when attacking> <during the [Era.Ancient]>",
         "[-58]% Strength <vs cities> <when attacking> <during the [Era.Classical]>",
         "[-96]% Strength <vs cities> <when attacking> <starting from the [Era.Medieval]>",
+        "[-23]% Strength <vs [{Military} {Water}] units> <when attacking>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//攻城
         "name": "UnitType.Siege",
         "movementType": "Land",
         "uniques":["[+51]% Strength <vs cities> <when attacking>",
+        "[+51]% Strength <vs [{Military} {Water}] units> <when attacking>",
         "Must set up to ranged attack",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },

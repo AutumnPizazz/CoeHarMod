@@ -52,7 +52,8 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
-		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
             "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
@@ -125,7 +126,7 @@
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water","Doesn't generate naturally",
 					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations",
+					"Considered [Desirable] when determining start locations"
 				]
 	},
 	{//山脉
@@ -344,7 +345,7 @@
 		"uniques": ["Never receives any resources","Doesn't generate naturally",
 			"Occurs in groups of [1] to [1] tiles",
             "Has an elevation of [3] for visibility calculations",
-            "Occurs in chains at high elevations",
+            "Occurs in chains at high elevations"
 //            "Units ending their turn on this terrain take [80] damage",
 		]
 	},
@@ -543,7 +544,7 @@
 			"Occurs in groups of [1] to [1] tiles",
 			"Tile provides yield without assigned population"],
 		"weight": 8
-	},
+	}
 	/*
 	{
 		"name": "Krakatoa",
