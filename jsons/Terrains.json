@@ -331,7 +331,8 @@
 		"movementCost": 1,
 		"unbuildable": false,
 		"occursOn": ["Plains","Tundra","Grassland","Snow"],
-		"uniques": ["Rare feature","Never receives any resources",
+		"uniques": ["Rare feature",
+		"Never receives any resources",
 		"[+1] to Fertility for Map Generation"]
     },
 	{//火山
@@ -354,7 +355,8 @@
 		"type": "TerrainFeature",
 		"defenceBonus": -0.13,
 		"occursOn": ["Grassland","Plains","Tundra","Desert","Snow"],
-		"uniques": ["Doesn't generate naturally",
+		"uniques": ["Rare feature",
+			"Doesn't generate naturally",
             "Units ending their turn on this terrain take [25] damage",
 			"[+1 Food] <after [10] turns>",
 			"[+1 Production] <after [15] turns>",

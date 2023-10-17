@@ -1904,7 +1904,7 @@
 		"requiredTech": "Tech.Mechanical",
 		"obsoleteTech": "Tech.Ballistics",
 		"attackSound": "shot",
-		"uniques":["[+1] Range <in [Improvement.MingGreatWall] tiles> <in tiles without [Landform.Hill]>",
+		"uniques":["[+1] Range <in [Improvement.MingGreatWall] tiles>",
 		"[+1] Range <in [Landform.Hill] tiles>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
@@ -2440,7 +2440,7 @@
 		"replaces":"Unit.Spearman",
 		"uniqueTo":"Nation.Greece",
 		"unitType":"UnitType.AntiCavalry",
-		"strength":123,//25
+		"strength":139,//28
 		"movement":2,
 		"cost":65,
 		"hurryCostModifier":-33,

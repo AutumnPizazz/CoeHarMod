@@ -268,7 +268,6 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill"],
 		"improvedBy":["Improvement.EarthVeinsExploiter"],
 		"uniques": ["Generated on every [60] tiles",
-//					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [40] <in [Grassland] tiles>",
 					"Generated with weight [40] <in [Plains] tiles>",
 					"Generated with weight [100] <in [Tundra] tiles>",
@@ -290,8 +289,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic.PoliticalPhilosophy",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded",
-//        "Hidden when [VictoryType.Diplomacy] Victory is disabled"
+		"uniques": ["Cannot be traded"
 	]
 	},
 	{//总督点数
@@ -299,8 +297,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic.Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Not shown on world screen",
-//		"Hidden when [Pattern.Viceroy] Victory is disabled"
+		"uniques": ["Cannot be traded","Not shown on world screen"
 	]
 	},
 	{//贸易路线容量
@@ -349,8 +346,7 @@
 		"name": "Resource.Influence",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Stockpiled",
-//		"Hidden when [VictoryType.Diplomacy] Victory is disabled"
+		"uniques": ["Cannot be traded","Stockpiled"
 	]
 	},
 	{//区域限制
@@ -495,21 +491,22 @@
 	},*/
 	
 	//奢侈品资源
-	{
+	{//皮草
 		"name": "Resource.Leather",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Forest","Tundra"],
-		"gold": 2,
+		"food": 1,
+		"gold": 1,
 		"improvement": "Improvement.Encampment",
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Landform.Forest] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{
+	{//棉花
 		"name": "Resource.Cotton",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Landform.AlluvialPlain"],
-		"gold": 2,
+		"gold": 3,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Grassland] Regions>",
@@ -517,11 +514,11 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Landform.Hill] tiles>"]
 	},
-	{
+	{//染料
 		"name": "Resource.Dye",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.Swamp"],
-		"gold": 2,
+		"faith": 1,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Landform.Rainforest] Regions>",
@@ -529,7 +526,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Landform.Hill] tiles>"]
 	},
-	{
+	{//钻石
 		"name": "Resource.Gem",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.Hill"],
@@ -543,11 +540,11 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>"]
 	},
-	{
+	{//黄金
 		"name": "Resource.Gold",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Landform.Hill","Landform.Forest","Landform.Rainforest"],
-		"gold": 2,
+		"gold": 3,
 		"improvement": "Improvement.Mine",
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Landform.Hill] Regions>",
@@ -557,11 +554,11 @@
 					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
 					"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>"]
 	},
-	{
+	{//白银
 		"name": "Resource.Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Hill","Landform.Forest","Landform.Rainforest","Tundra","Grassland"],
-		"gold": 2,
+		"gold": 3,
 		"improvement": "Improvement.Mine",
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [30] <in [Landform.Hill] Regions>",
@@ -575,33 +572,34 @@
 					"Doesn't generate naturally <in [Grassland] [Landform.Hill] tiles>"
 		]
 	},
-	{
+	{//熏香
 		"name": "Resource.Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Landform.AlluvialPlain"],
-		"gold": 2,
+		"faith":1,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{
+	{//象牙
 		"name": "Resource.Ivory",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"gold": 2,
+		"production":1,
+		"gold":1,
 		"improvement": "Improvement.Encampment",
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
 	},
-	{
+	{//丝绸
 		"name": "Resource.Silk",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Forest","Landform.Rainforest"],
-		"gold": 2,
+		"culture":1,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [5] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [30] <in [Landform.Forest] Regions>",
@@ -609,11 +607,11 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Landform.Hill] tiles>"]
 	},
-	{
+	{//香料
 		"name": "Resource.Spices",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.Swamp"],
-		"gold": 2,
+		"food": 2,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [30] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [10] <in [Landform.Forest] Regions>",
@@ -624,22 +622,22 @@
 					"Doesn't generate naturally <in [Landform.Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Landform.Forest] tiles>"]
 	},
-	{
+	{//葡萄酒
 		"name": "Resource.Wine",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"gold": 2,
+		"food":1,
+		"gold":1,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
-	{
+	{//糖
 		"name": "Resource.Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.AlluvialPlain","Grassland","Landform.Swamp"],
-		// Technically sugar can also be placed on lowland Landform.Rainforests which then *turn* into Landform.Swamp.
-		"gold": 2,
+		"food": 2,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [20] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
@@ -648,22 +646,22 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
-	{
+	{//大理石
 		"name": "Resource.Marble",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Landform.Hill","Grassland"],
-		"gold": 2,
+		"culture":1,
 		"improvement": "Improvement.Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
 					"Special placement during map generation",
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
 	},
-	{
+	{//鲸鱼
 		"name": "Resource.Whales",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
+		"production": 1,
 		"gold": 1,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
@@ -674,11 +672,11 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]","Class.ResourceOnWater"]
 	},
-	{
+	{//珍珠
 		"name": "Resource.Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
+		"faith":1,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["Generated with weight [20] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [10] <in [Landform.Forest] Regions>",
@@ -689,24 +687,21 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]","Class.ResourceOnWater"]
 	},
-	{
+	{//珠宝
 		"name": "Resource.Jewelry",
 		"resourceType": "Luxury",
-		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
-	{
+	{//瓷器
 		"name": "Resource.Porcelain",
 		"resourceType": "Luxury",
-		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
-	{
+	{//柑橘
 		"name": "Resource.Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.AlluvialPlain"],
-		"food": 1,
-		"gold": 1,
+		"food":2,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["Generated with weight [35] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [5] <in [Landform.Forest] Regions>",
@@ -715,7 +710,7 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
-	{
+	{//赤铜
 		"name": "Resource.Copper",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Hill","Landform.Forest","Landform.Rainforest","Grassland","Tundra"],
@@ -733,15 +728,14 @@
 					"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
 					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]> <in tiles without [Tundra]>"]
 	},
-	{
+	{//可可豆
 		"name": "Resource.Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest"], // Landform.Forest only if flat, non-Tundra
-		"food": 1,
-		"gold": 1,
+		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest"],
+		"gold": 3,
 		"improvement": "Improvement.Plantation"
 	},
-	{
+	{//龙虾
 		"name": "Resource.Lobster",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
@@ -757,7 +751,7 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]","Class.ResourceOnWater"]
 	},
-	{
+	{//盐
 		"name": "Resource.Salt",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Landform.Forest"],
@@ -774,11 +768,11 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Landform.Forest] [Landform.Hill] tiles>"]
 	},
-	{
+	{//松露
 		"name": "Resource.Truffles",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Forest","Landform.Swamp","Landform.Rainforest"],
-		"gold": 2,
+		"gold":3,
 		"improvement": "Improvement.Encampment",
 		"uniques": ["Generated with weight [5] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [30] <in [Landform.Forest] Regions>",
@@ -789,7 +783,7 @@
 					"Doesn't generate naturally <in [Landform.Forest] [Landform.Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Landform.Forest] tiles>"]
 	},
-	{
+	{//橡胶
 		"name": "Resource.Rubber", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest"],
@@ -799,5 +793,5 @@
 		"improvementStats": {},
 		"uniques": [
 		"Luxury resources"]
-	},
+	}
 ]

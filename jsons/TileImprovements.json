@@ -2,13 +2,6 @@
 	/*区域系统*/
 	{//市政广场
 		"name":"District.GovernmentPlaza",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
@@ -21,13 +14,6 @@
 	},
 	{//玛雅-玛雅布
 		"name":"District.Mayab",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
@@ -40,13 +26,6 @@
 	},
 	{//外交区
 		"name":"District.ForeignQuarter",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
 			"Great Improvement",
@@ -59,12 +38,6 @@
 	{//圣地
 		"name": "District.HolySite",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -89,12 +62,6 @@
 	{//俄罗斯-拉夫拉修道院
 		"name": "District.LavraMonastery",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
 		"faith":2,
 		"uniques": [
 			"Great Improvement",
@@ -119,12 +86,6 @@
 	{//学院
 		"name": "District.Campus",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Mountain]",
@@ -153,13 +114,7 @@
 	{//朝鲜-书院
 		"name": "Distict.LearningAcademy",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"culture":-10,
 		"science":3,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
@@ -186,13 +141,6 @@
 	{//玛雅-天文台
 		"name": "District.MayanObservatory",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"culture":-10,
-		"science":0,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 		"Tile provides yield without assigned population",
 		"Cannot be built on [Resource.EarthVeins] tiles",
@@ -217,13 +165,6 @@
 	{//剧院广场
 		"name": "District.TheaterSquare",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":0,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Culture] <with [2] to [3] neighboring [Class.District] tiles>",
@@ -243,13 +184,6 @@
 	{//希腊-卫城
 		"name": "District.Acropolis",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":0,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Culture] for each adjacent [Class.District]",
@@ -269,12 +203,6 @@
 		"name": "District.CommercialHub",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"gold":2,
-		"food": -10,
-		"production":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"Cannot be built on [Resource.EarthVeins] tiles",
@@ -295,12 +223,6 @@
 		"name": "District.MandingoMarket",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"gold":2,
-		"food": -10,
-		"production":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"Cannot be built on [Resource.EarthVeins] tiles",
@@ -320,12 +242,6 @@
 	{//工业区
 		"name": "District.IndustrialZone",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"Cannot be built on [Resource.EarthVeins] tiles",
@@ -347,12 +263,6 @@
 	{//高卢-奥皮杜姆
 		"name": "District.Oppidum",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Tile provides yield without assigned population",
@@ -370,12 +280,6 @@
 	{//德意志-商业同业公会
 		"name": "District.CommercialAssociation",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"Cannot be built on [Resource.EarthVeins] tiles",
@@ -398,13 +302,6 @@
 	{//宇航中心
 		"name": "District.Spaceport",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"Cannot be built on [Resource.EarthVeins] tiles",
@@ -416,13 +313,6 @@
 	{//娱乐中心
 		"name": "District.EntertainmentComplex",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"happiness":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
 		"overrideStats": true,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
@@ -437,13 +327,6 @@
 	{//水上乐园
 		"name": "District.WaterPark",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"happiness":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
 		"overrideStats": true,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
@@ -456,12 +339,6 @@
 	{//港口
 		"name": "District.Harbor",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes","LargeRiver"],
-		"food": -10,
-		"production":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles>",
@@ -479,12 +356,6 @@
 	{//腓尼基-U形港
 		"name": "District.UShapedHarbor",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
-		"food": -10,
-		"production":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"[+1 Gold] for each adjacent [Class.District]",
@@ -500,13 +371,6 @@
 	{//军营
 		"name": "District.Army",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
-		"happiness":-10,
 		"uniques": ["Great Improvement",
 					"Tile provides yield without assigned population",
 					"Cannot be built on [Resource.EarthVeins] tiles",
@@ -520,11 +384,6 @@
 	{//水渠
 		"name": "District.Raceline",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
 		"uniques": ["Great Improvement",
 					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
@@ -539,12 +398,6 @@
 	{//罗马-浴场
 		"name": "Distict.BeachLandmark",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
 		"uniques": ["Great Improvement",
 					"Can only be built on [River] tiles",
 					"Tile provides yield without assigned population",
@@ -580,12 +433,6 @@
 	{//保护区
 		"name": "District.ProtectionZone",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"faith":-10,
 		"uniques": ["Great Improvement",
 					"Constructing it will take over the tiles around it and assign them to your closest city",
 					"Tile provides yield without assigned population",
@@ -981,13 +828,6 @@
 	},	
 	{//空中花园
 		"name":"District.GardenInTheAir",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
@@ -999,13 +839,6 @@
 	},
 	{//埃特曼安吉神庙
 		"name":"District.EtemenankiTemple",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Swamp","Landform.AlluvialPlain"],
 		"uniques": [
 			"Great Improvement",
@@ -1016,13 +849,6 @@
 	},
 	{//阿耳忒弥斯神庙
 		"name":"District.TempleOfArtemis",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
@@ -1034,13 +860,6 @@
 	},	
 	{//金字塔
 		"name":"District.TheGreatPyramids",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"uniques": [
 			"Great Improvement",
@@ -1052,13 +871,6 @@
 	},
 	{//神谕
 		"name":"District.Oracle",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1070,13 +882,6 @@
 	},
 	{//大灯塔
 		"name":"District.TheGreatLighthouse",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
 			"Great Improvement",
@@ -1088,13 +893,6 @@
 	},
 	{//博尔戈尔山
 		"name":"District.JebelBarkal",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1105,13 +903,6 @@
 	},
 	{//罗马斗兽场
 		"name":"District.RomanColosseum",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],
 		"uniques": [
 			"Great Improvement",
@@ -1123,13 +914,6 @@
 	},
 	{//巨像
 		"name":"District.Colossus",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
 			"Great Improvement",
@@ -1141,13 +925,6 @@
 	},
 	{//佩特拉古城
 		"name":"District.Petra",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"uniques": [
 			"Great Improvement",
@@ -1159,13 +936,6 @@
 	},
 	{//阿帕达纳宫
 		"name":"District.ApadanaPalace",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1177,13 +947,6 @@
 	},
 	{//兵马俑
 		"name":"District.TerraCottaWarriors",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1195,13 +958,6 @@
 	},
 	{//马丘比丘
 		"name":"District.MachuPicchu",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"uniques": [
 			"Great Improvement",
@@ -1213,13 +969,6 @@
 	},
 	{//宙斯像
 		"name":"District.StatueOfZeus",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1231,13 +980,6 @@
 	},
 	{//摩索拉斯王陵墓
 		"name":"District.MausoleumAtHalicarnassus",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
 			"Great Improvement",
@@ -1249,13 +991,6 @@
 	},
 	{//大图书馆
 		"name":"District.TheGreatLibrary",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1273,13 +1008,6 @@
 	},
 	{//摩珂菩提寺
 		"name":"District.MakobodhiTemple",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Forest"],
 		"uniques": [
 			"Great Improvement",
@@ -1291,13 +1019,6 @@
 	},
 	{//圣索菲亚大教堂
 		"name":"District.HagiaSophia",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1309,13 +1030,6 @@
 	},
 	{//休伊神庙
 		"name":"District.HuiyiTemple",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Lakes"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1327,13 +1041,6 @@
 	},
 	{//基尔瓦基斯瓦尼
 		"name":"District.KilwaKisiwani",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1345,13 +1052,6 @@
 	},
 	{//桑科雷大学
 		"name":"District.UniversityOfSankore",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1363,13 +1063,6 @@
 	},
 	{//米纳克希神庙
 		"name":"District.MaebadAlkurnak",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1381,13 +1074,6 @@
 	},
 	{//吴哥窟
 		"name":"District.AngkorWat",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1399,13 +1085,6 @@
 	},
 	{//奇琴伊察
 		"name":"District.ChichenItza",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Rainforest"],
 		"uniques": [
 			"Great Improvement",
@@ -1417,13 +1096,6 @@
 	},
 	{//阿尔罕布拉宫
 		"name":"District.AlhambraPalace",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Gives a defensive bonus of [28]%",
@@ -1437,13 +1109,6 @@
 	},
 	{//圣米歇尔山
 		"name":"District.MontSaintMichel",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1454,13 +1119,6 @@
 	},
 	{//圣米歇尔山
 		"name":"District.Kotokuin",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1472,13 +1130,6 @@
 	},
 	{//西印度交易所
 		"name":"District.WestIndiaExchange",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1490,13 +1141,6 @@
 	},
 	{//威尼斯军械库
 		"name":"District.VenetianArmory",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
 			"Great Improvement",
@@ -1508,13 +1152,6 @@
 	},
 	{//大津巴布韦
 		"name":"District.GreatZimbabwe",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1526,13 +1163,6 @@
 	},
 	{//紫禁城
 		"name":"District.ForbiddenCity",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1544,13 +1174,6 @@
 	},
 	{//泰姬陵
 		"name":"District.TajMahal",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"uniques": [
 			"Great Improvement",
@@ -1562,13 +1185,6 @@
 	},
 	{//圣瓦西里主教堂
 		"name":"District.StBasilsCathedral",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1580,13 +1196,6 @@
 	},
 	{//布达拉宫
 		"name":"District.PotalaPalace",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1599,13 +1208,6 @@
 	},
 	{//鲁尔山谷
 		"name":"District.RuhrValley",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1618,13 +1220,6 @@
 	},
 	{//牛津大学
 		"name":"District.Oxford",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"uniques": [
 			"Great Improvement",
@@ -1636,13 +1231,6 @@
 	},
 	{//自由女神像
 		"name":"District.StatueOfLiberty",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
 			"Great Improvement",
@@ -1654,13 +1242,6 @@
 	},
 	{//莫斯科大剧院
 		"name":"District.BolshoiTheatre",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"uniques": [
 			"Great Improvement",
@@ -1673,13 +1254,6 @@
 	},
 	{//巴拿马运河
 		"name":"District.PanamaCanal",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1691,13 +1265,6 @@
 	},
 	{//匈牙利议会大厦
 		"name":"District.HungarianParliamentBuilding",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1709,13 +1276,6 @@
 	},
 	{//大本钟
 		"name":"District.BigBen",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1728,13 +1288,6 @@
 	},
 	{//艾尔米塔什博物馆
 		"name":"District.HermitageMuseum",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1746,13 +1299,6 @@
 	},
 	{//埃菲尔铁塔
 		"name":"District.EiffelTower",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"uniques": [
 			"Great Improvement",
@@ -1764,13 +1310,6 @@
 	},
 	{//百老汇
 		"name":"District.Broadway",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"uniques": [
 			"Great Improvement",
@@ -1782,13 +1321,6 @@
 	},
 	{//救世基督像
 		"name":"District.StatueofChristtheRedeemer",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
 			"Great Improvement",
@@ -1800,13 +1332,6 @@
 	},
 	{//金门大桥
 		"name":"District.GoldenGateBridge",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
 			"Gives a defensive bonus of [28]%",
@@ -1819,13 +1344,6 @@
 	},
 	{//生物圈
 		"name":"District.Biosphere",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1837,13 +1355,6 @@
 	},
 	{//悉尼歌剧院
 		"name":"District.SydneyOperaHouse",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Coast"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1855,13 +1366,6 @@
 	},
 	{//马拉卡纳体育场
 		"name":"District.MaracanaStadium",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1873,13 +1377,6 @@
 	},
 	{//阿蒙森-斯科特南极站
 		"name":"District.Amundsen-ScottSouthPoleStation",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"uniques": [
 			"Great Improvement",
@@ -1892,13 +1389,6 @@
 	/*
 	{//模板
 		"name":"District.名称",
-		"food": -10,
-		"production":-10,
-		"gold":-10,
-		"science":-10,
-		"culture":-10,
-		"happiness":-10,
-		"faith":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
 			"Great Improvement",
@@ -1915,13 +1405,15 @@
 		"name": "Improvement.MingGreatWall",
 		"uniqueTo":"Nation.Ming",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"food":1,
+		"gold":2,
 		"techRequired": "Tech.Bricklaying",
 		"uniques": ["Provides [2] [Resource.houseLimitation]",
 		"Gives a defensive bonus of [+23]% <for [Nation.Ming]>",//这句不生效，在国家ua里
-		"[+1 Gold] for each adjacent [Improvement.MingGreatWall]",
-		"[+1 Food] for each adjacent [Improvement.MingGreatWall] <after discovering [Tech.Castle]>",
-		"[+1 Culture, +1 Gold] <after discovering [Tech.Castle]>",
+		"[+4 Gold] <with [1] to [2] neighboring [Improvement.MingGreatWall] tiles>",
+		"[-6 Gold] <with [3] to [6] neighboring [Improvement.MingGreatWall] tiles>",
+		"[+2 Culture] <after discovering [Tech.Castle]>",
+		"[+2 Culture] <with [1] to [2] neighboring [Improvement.MingGreatWall] tiles>  <after discovering [Tech.Castle]>",
+		"[-4 Culture] <with [3] to [6] neighboring [Improvement.MingGreatWall] tiles>  <after discovering [Tech.Castle]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
 		"Cannot be built on [Resource.EarthVeins] tiles",
 		"Class.UsualImprovement"]

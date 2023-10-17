@@ -1,18 +1,18 @@
 [
     {
-        "name":"01 Summary Introduction - the Coexistence in harmony",
+        "name":"01 和合共生模组概述",
         "civilopediaText":[
             { 
-                "text": "教程部分修订日期:2023年7月28日,版本号4.7.10",
+                "text": "教程部分修订日期:2023年10月16日,版本号4.8.13",
                 "size":14
             },
             { 
-                "text": "和合共生(CoeHarMod)是中国人AutumnPizazz编写的旨在在Unciv环境中还原文明六元素和添加中华元素的大型重制规则集模组",
+                "text": "和合共生(CoeHarMod)是AutumnPizazz编写的旨在在Unciv环境中还原文明六元素和添加中华元素的大型重制规则集模组",
                 "size":20
             },
             {
-                "text": "点击我进入和合共生的github网址,如果你喜欢不要忘记点个星星哦~",
-                "link":"https://github.com/AutumnPizazz/the-Coexistence-in-harmony",
+                "text": "点击我进入和合共生的GitHub网址,如果你喜欢不要忘记点个星星哦~",
+                "link":"https://github.com/AutumnPizazz/CoeHarMod",
                 "size":20,
                 "starred":true,
                 "color":"#FFFF00"
@@ -33,16 +33,20 @@
         ]
     },
     {
-        "name":"02 Victory Types - the Coexistence in harmony",
+        "name":"02 胜利方式介绍",
         "civilopediaText":[
             {
-                "text":"和合共生的胜利方式包括科技胜利/文化胜利/征服胜利/外交胜利/宗教胜利/时间胜利",
+                "text":"和合共生的胜利方式包括科技胜利/文化胜利/征服胜利/外交胜利/宗教胜利/经济胜利/时间胜利",
                 "size":22
             },
             {
                 "separator":true,
                 "color":"#FFFFFF",
                 "size":1
+            },
+            {
+                "text":"科技胜利",
+                "size":30
             },
             {
                 "text":"和众神与国王相似,科技胜利需要完成相应科技并训练对应单位(代表飞天项目)并在首都完成组装",
@@ -83,6 +87,10 @@
                 "size":1
             },
             {
+                "text":"文化胜利",
+                "size":30
+            },
+            {
                 "text":"和众神与国王相同,文化胜利依旧是完成所有文化分支节点并建造乌托邦计划建筑",
                 "size":20
             },
@@ -95,6 +103,10 @@
                 "separator":true,
                 "color":"#FFFFFF",
                 "size":1
+            },
+            {
+                "text":"征服胜利",
+                "size":30
             },
             {
                 "text":"和众神与国王不同,征服胜利不是消灭所有其他文明,而是占领所有其他文明的原始首都(包括城邦,这一点可能会在后续版本后修改)",
