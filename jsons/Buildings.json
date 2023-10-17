@@ -103,7 +103,6 @@
         "cost":0,
         "uniques":["[-30]% Production when constructing [All] buildings [in this city]",
         "[+30]% Production when constructing [Military] units [in this city]",
-        "[-1 Happiness] per [4] population [in this city]",
         "Destroyed when the city is captured",
         "Only available <in cities without a [Building.Guo]>",
         "Unsellable"]
@@ -171,7 +170,7 @@
         "cost":400,
         "cityStrength":100,
         "uniques":[
-            "[+100]% Yield from every [Improvement.Qanat]",
+            "[+50]% Yield from every [Improvement.Qanat]",
             "[+2 Gold] from each Trade Route",
             "Class.WonderEra.Classical",
             "Triggers a global alert upon completion"]
@@ -1358,90 +1357,10 @@
         "[+50]% Spread Religion Strength <for [Unit.Missionary] units> <after adopting [FollowerBelief.SacredProcurement]>",//追随者信仰神圣采购
         "Gain a free [Building.Belief.Reliquary] [in capital] <after adopting [FollowerBelief.Reliquary]>",//追随者信仰圣遗物柜
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [FollowerBelief.Crusade]>",//十字军
-        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [FollowerBelief.DefenderOfFaith]>"//信仰守护者
+        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [FollowerBelief.DefenderOfFaith]>",//信仰守护者
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
-	{
-		"name": "Building.DistrictLimitation1",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation2",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation3",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation4",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation5",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation6",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation7",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation8",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation9",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Building.DistrictLimitation10",
-		"cost": 0,
-		"uniques": ["Provides [1] [Resource.DistrictLimitation]",
-        "Never destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"]
-	},
 	{//纪念碑
 		"name": "Building.Monument",
 		"culture": 2,
@@ -2745,23 +2664,20 @@
 		"name": "Building.Building.DistrictUnique.CommercialAssociation",
         "replaces":"Building.DistrictUnique.IndustrialZone",
         "uniqueTo":"Nation.Germany",
-		"cost": 44,
+		"cost": 22,
 		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech.Apprentices",
-//        "requiredResource":"Resource.DistrictLimitation",
 		"specialistSlots": {"Specialist.Engineer": 1},
-//		"greatPersonPoints": {"Unit.Engineer": 1},
 		"uniques": [
-//        "Provides [1] [Resource.DistrictLimitation] <after discovering [Civic.TheWorkersUnion]>",
-        "Unsellable",
-        "Provides [1] [Resource.Unit.Engineer]",
-        "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]>",
-		"Cost increases by [6] per owned city",
-        "Creates a [District.CommercialAssociation] improvement on a specific tile",
-        "Class.Building.DistrictUnique",
-        "Never destroyed when the city is captured",
-        "Cannot be purchased"]
+            "Unsellable",
+            "Provides [1] [Resource.Unit.Engineer]",
+            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]>",
+            "Cost increases by [3] per owned city",
+            "Creates a [District.CommercialAssociation] improvement on a specific tile",
+            "Class.Building.DistrictUnique",
+            "Never destroyed when the city is captured",
+            "Cannot be purchased"]
 	},
     {//工作坊
         "name":"Building.Workshop",
@@ -3078,7 +2994,7 @@
 		"uniques": ["Provides [2] [Resource.houseLimitation]",
         "Provides [1] [Resource.Unit.General]",
         "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]>",
-        "Provides [3] [Resource.Horse]",
+        "Provides [1] [Resource.Horse]",
         "All newly-trained [UnitType.LightCavalry] units [in this city] receive the [Promotion.FastMove] promotion",
         "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.FastMove] promotion",
         "All newly-trained [UnitType.Siege] units [in this city] receive the [Promotion.FastMove] promotion",
@@ -6131,11 +6047,11 @@
     /*新住房系统*/
     {//城市计数器
         "name":"Building.CityNumberCount",
-        "cost":33554431,
+        "cost":0,
         "uniques":["Unsellable",
         "Automatically built in all cities where it is buildable",
         "Never destroyed when the city is captured",
-
+        /*住房限制人口增长*/
         "Nullifies Growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.houseLimitation]>",
         "Nullifies Growth [in this city] <in cities with at least [3] [Population]> <when below [8] [Resource.houseLimitation]>",
         "Nullifies Growth [in this city] <in cities with at least [4] [Population]> <when below [10] [Resource.houseLimitation]>",
@@ -6165,7 +6081,18 @@
         "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [58] [Resource.houseLimitation]>",
         "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [60] [Resource.houseLimitation]>",
         "Nullifies Growth [in this city] <in cities with at least [30] [Population]>",
-
+        /*人口控制区域数*/
+        "Provides [1] [Resource.DistrictLimitation]",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [4] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [7] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [10] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [13] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [16] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [19] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [22] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [25] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [28] [Population]>",
+        /*其他效果*/
         "Provides [1] [Resource.CityNumber]",
         "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
         "Provides [4] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>",
