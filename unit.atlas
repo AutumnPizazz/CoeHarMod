@@ -1382,7 +1382,7 @@ UnitIcons/Unit.NaturalHistory
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Naval tradition
+UnitIcons/Unit.NavalTradition
   rotate: false
   xy: 684, 1900
   size: 128, 128
@@ -1445,7 +1445,7 @@ UnitIcons/Unit.ProfessionalSports
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Reformed church
+UnitIcons/Unit.ReformedChurch
   rotate: false
   xy: 684, 1900
   size: 128, 128

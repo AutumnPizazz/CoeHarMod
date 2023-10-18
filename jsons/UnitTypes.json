@@ -144,7 +144,7 @@
         "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor.BloodContractIV] is constructed>",
         "[-100]% XP gained from combat"]
     },
-    {
+    {//市政树专属单位
         "name": "UnitType.Civic.Civilian",
         "movementType": "Land",
         "uniques": ["Can move immediately once bought","Cannot move","No Sight","Unbuildable","Will not be displayed in Civilopedia"
