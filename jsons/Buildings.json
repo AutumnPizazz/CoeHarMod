@@ -1357,7 +1357,7 @@
         "[+50]% Spread Religion Strength <for [Unit.Missionary] units> <after adopting [FollowerBelief.SacredProcurement]>",//追随者信仰神圣采购
         "Gain a free [Building.Belief.Reliquary] [in capital] <after adopting [FollowerBelief.Reliquary]>",//追随者信仰圣遗物柜
         "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <after adopting [FollowerBelief.Crusade]>",//十字军
-        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [FollowerBelief.DefenderOfFaith]>",//信仰守护者
+        "[+18]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <after adopting [FollowerBelief.DefenderOfFaith]>"//信仰守护者
         ],
         "replacementTextForUniques":"Indicates the capital city"
     },
@@ -1495,8 +1495,73 @@
         "Can only be built [in annexed cities]",
         "Automatically built in all cities where it is buildable",
 		"Unsellable","Will not be displayed in Civilopedia"]
-//		"requiredTech": "Tech.Writing"
 	},
+    {//城市计数器
+        "name":"Building.CityNumberCount",
+        "cost":0,
+        "uniques":["Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Never destroyed when the city is captured",
+        /*住房限制人口增长*/
+        "Nullifies Growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [3] [Population]> <when below [8] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [4] [Population]> <when below [10] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [5] [Population]> <when below [12] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [6] [Population]> <when below [14] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [7] [Population]> <when below [16] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [18] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [20] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [22] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [24] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [26] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [28] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [30] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [32] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [34] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [36] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [38] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [40] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [42] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [44] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [46] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [48] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [50] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [52] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [54] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [56] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [58] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [60] [Resource.houseLimitation]>",
+        "Nullifies Growth [in this city] <in cities with at least [30] [Population]>",
+        /*人口控制区域数*/
+        "Provides [1] [Resource.DistrictLimitation]",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [4] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [7] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [10] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [13] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [16] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [19] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [22] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [25] [Population]>",
+        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [28] [Population]>",
+        /*其他效果*/
+        "Provides [1] [Resource.CityNumber]",
+        "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
+        "Provides [4] [Resource.houseLimitation]",//基础住房
+        "Provides [2] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>",//古典共和修正
+        "Provides [2] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>",//共和传承修正
+        "Provides [4] [Resource.houseLimitation] <in [Fresh Water] tiles>",//淡水住房修正
+        "Provides [2] [Resource.houseLimitation] <in [Coastal] tiles> <in tiles without [Fresh Water]>",//海水住房修正
+        "Provides [-4] [Resource.houseLimitation] <in [Fresh Water] tiles> <for [Nation.Maya]>",//淡水住房修正-对玛雅
+        "Provides [-2] [Resource.houseLimitation] <in [Coastal] tiles> <in tiles without [Fresh Water]> <for [Nation.Maya]>",//海水住房修正-对玛雅
+        "Provides [2] [Resource.houseLimitation] <in [River] tiles> <for [Nation.Egypt]>",//埃及沿河城市住房修正
+        "Provides [2] [Resource.houseLimitation] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",//万神殿河神修正
+        "Provides [2] [Resource.houseLimitation] <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
+        "Provides [2] [Resource.houseLimitation] <in tiles without [River]> <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
+        "Provides [2] [Resource.houseLimitation] <in [Landform.Hill] tiles> <after adopting [Pantheon.LegendOfElDorado]>",//万神殿黄金国传说修正
+        "Provides [2] [Resource.houseLimitation] <in [Coastal] tiles> <after adopting [Pantheon.MazuBelief]>"//万神殿妈祖信仰修正
+    ],
+        "replacementTextForUniques":" "
+    },
     /*
     {//明朝-里甲制度
 		"name": "Building.Lijia",
@@ -6042,75 +6107,5 @@
         "Only available <in cities without a [Gene.minzhuchuancheng]>",
         "Only available <in cities without a [Gene.gongchanchuancheng]>",
         "Class.Policy.General"]
-    },
-    
-    /*新住房系统*/
-    {//城市计数器
-        "name":"Building.CityNumberCount",
-        "cost":0,
-        "uniques":["Unsellable",
-        "Automatically built in all cities where it is buildable",
-        "Never destroyed when the city is captured",
-        /*住房限制人口增长*/
-        "Nullifies Growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [3] [Population]> <when below [8] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [4] [Population]> <when below [10] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [5] [Population]> <when below [12] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [6] [Population]> <when below [14] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [7] [Population]> <when below [16] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [18] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [20] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [22] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [24] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [26] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [28] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [30] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [32] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [34] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [36] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [38] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [40] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [42] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [44] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [46] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [48] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [50] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [52] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [54] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [56] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [58] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [60] [Resource.houseLimitation]>",
-        "Nullifies Growth [in this city] <in cities with at least [30] [Population]>",
-        /*人口控制区域数*/
-        "Provides [1] [Resource.DistrictLimitation]",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [4] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [7] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [10] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [13] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [16] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [19] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [22] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [25] [Population]>",
-        "Provides [1] [Resource.DistrictLimitation] <in cities with at least [28] [Population]>",
-        /*其他效果*/
-        "Provides [1] [Resource.CityNumber]",
-        "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
-        "Provides [4] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>",
-        "Provides [2] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>",//古典共和修正
-        "Provides [2] [Resource.houseLimitation] <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>",//共和传承修正
-        "Provides [6] [Resource.houseLimitation] <in [Fresh Water] tiles>",
-        "Provides [-2] [Resource.houseLimitation] <in [Fresh Water] [Coastal] tiles>",
-        "Provides [2] [Resource.houseLimitation] <in [Coastal] tiles>",//淡水住房修正
-        "Provides [-6] [Resource.houseLimitation] <in [Fresh Water] tiles> <for [Nation.Maya]>",
-        "Provides [2] [Resource.houseLimitation] <in [Fresh Water] [Coastal] tiles>",
-        "Provides [-2] [Resource.houseLimitation] <in [Coastal] tiles> <for [Nation.Maya]>",//淡水住房修正-对玛雅
-        "Provides [2] [Resource.houseLimitation] <in [River] tiles> <for [Nation.Egypt]>",//埃及沿河城市住房修正
-        "Provides [2] [Resource.houseLimitation] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",//万神殿河神修正
-        "Provides [2] [Resource.houseLimitation] <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
-        "Provides [2] [Resource.houseLimitation] <in tiles without [River]> <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
-        "Provides [2] [Resource.houseLimitation] <in [Landform.Hill] tiles> <after adopting [Pantheon.LegendOfElDorado]>",//万神殿黄金国传说修正
-        "Provides [2] [Resource.houseLimitation] <in [Coastal] tiles> <after adopting [Pantheon.MazuBelief]>"//万神殿妈祖信仰修正
-    ],
-        "replacementTextForUniques":" "
     }
 ]
