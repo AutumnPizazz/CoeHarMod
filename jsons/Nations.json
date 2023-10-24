@@ -50,16 +50,19 @@
 		"preferredVictoryType": "VictoryType.Culture",
 
 		"uniqueName": "Yongle Prosperity",
-		"uniqueText":"人口不小于10的城市(大城市)的数量=1时,帝国[+6 Science][+6 Culture][+12 Gold]且这些城市每5人口[+1 Happiness]\n大城市数量=2时,帝国[+18 Science][+18 Culture][+30 Gold]且这些城市每4人口[+1 Happiness]\n大城市数量≥3时,帝国[+30 Science][+30 Culture][+50 Gold]且这些城市每3人口[+1 Happiness]\n驻有总督的城市人口增长所需[Food]减少30%",
+		// "uniqueText":"人口不小于10的城市(大城市)的数量=1时,帝国[+6 Science][+6 Culture][+12 Gold]且这些城市每5人口[+1 Happiness]\n大城市数量=2时,帝国[+18 Science][+18 Culture][+30 Gold]且这些城市每4人口[+1 Happiness]\n大城市数量≥3时,帝国[+30 Science][+30 Culture][+50 Gold]且这些城市每3人口[+1 Happiness]\n驻有总督的城市人口增长所需[Food]减少30%",
 		"uniques": [
-			"[+6 Science, +6 Culture, +12 Gold] <when above [0] [Resource.LargeCityNumber]> <when below [2] [Resource.LargeCityNumber]>",
-			"[+1 Happiness] per [5] population [in all cities] <in cities with at least [10] [Population]> <when above [0] [Resource.LargeCityNumber]> <when below [2] [Resource.LargeCityNumber]>",
-			"[+18 Science, +18 Culture, +30 Gold] <when above [1] [Resource.LargeCityNumber]> <when below [3] [Resource.LargeCityNumber]>",
-			"[+1 Happiness] per [4] population [in all cities] <in cities with at least [10] [Population]> <when above [1] [Resource.LargeCityNumber]> <when below [3] [Resource.LargeCityNumber]>",
-			"[+30 Science, +30 Culture, +50 Gold] <when above [2] [Resource.LargeCityNumber]>",
-			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
-			"[-30]% Food is carried over after population increases [in all cities] <in cities with a [Class.Governor.Level1]>",
-			"[+23]% Strength <for [Military] units> <when fighting in [Improvement.MingGreatWall] tiles> <when defending>"
+			"[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
+			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>"
+
+			// "[+6 Science, +6 Culture, +12 Gold] <when above [0] [Resource.LargeCityNumber]> <when below [2] [Resource.LargeCityNumber]>",
+			// "[+1 Happiness] per [5] population [in all cities] <in cities with at least [10] [Population]> <when above [0] [Resource.LargeCityNumber]> <when below [2] [Resource.LargeCityNumber]>",
+			// "[+18 Science, +18 Culture, +30 Gold] <when above [1] [Resource.LargeCityNumber]> <when below [3] [Resource.LargeCityNumber]>",
+			// "[+1 Happiness] per [4] population [in all cities] <in cities with at least [10] [Population]> <when above [1] [Resource.LargeCityNumber]> <when below [3] [Resource.LargeCityNumber]>",
+			// "[+30 Science, +30 Culture, +50 Gold] <when above [2] [Resource.LargeCityNumber]>",
+			// "[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
+			// "[-30]% Food is carried over after population increases [in all cities] <in cities with a [Class.Governor.Level1]>",
+			// "[+23]% Strength <for [Military] units> <when fighting in [Improvement.MingGreatWall] tiles> <when defending>"
 
 ],
 	
@@ -117,8 +120,9 @@
 		"uniqueName": "Mother Nile",
 		"uniques": [
 		"[+1 Happiness, +2 Food] in cities on [River] tiles",
-		"Provides 1 House for cities on a river",
-		"[+1 Happiness, +2 Food] from each Trade Route"],
+		"Provides 1 House for cities on a river"
+		// "[+1 Happiness, +2 Food] from each Trade Route"
+	],
 	
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis","Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris","Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
 			
@@ -152,9 +156,9 @@
 
 		"startBias": ["Plains"],
 		"uniqueName": "BabylonianGods",
-		"uniques": ["Free Technology <upon constructing [Building.Library]>",
-		"[-2 Science] from every [Building.Library]",
-		"[+1 Science] from every [Building.Library] <after discovering [Tech.CivilianEducation]>"],
+		"uniques": ["Free Technology <upon constructing [Building.DistrictUnique.Campus]>",
+		"Free Technology <upon constructing [Class.DistrictBuilding.Campus]>",
+		"[-25]% [Science] [in all cities]"],
 
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna","Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi","Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab","Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
 
@@ -1436,7 +1440,9 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["Can only heal by pillaging"
+			// "May capture killed [Wounded] units"
+		]
 	}
 
 ]

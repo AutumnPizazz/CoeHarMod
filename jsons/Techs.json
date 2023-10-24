@@ -299,7 +299,7 @@
 			{
 				"name": "Tech.Build",
 				"row": 6,
-				"prerequisites": ["Tech.Bricklaying"],
+				"prerequisites": ["Tech.Bricklaying","Tech.Alchemy"],
 				"quote": "工欲善其事，必先利其器。\n——《礼记·中庸》",
 				"uniques": []
 			},

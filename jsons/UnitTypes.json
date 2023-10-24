@@ -17,13 +17,13 @@
     {//侦察
         "name": "UnitType.Scout",
         "movementType": "Land",
-        "uniques":["This Unit gains [10] XP <upon discovering a Natural Wonder>","Heal this unit by [50] HP <for [All] units> <upon being promoted>"
+        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted>"
     ]
     },
     {//短程步兵
         "name": "UnitType.MeleeInfantry",
         "movementType": "Land",
-        "uniques":["[+23]% Strength <vs [UnitType.AntiCavalry] units>",
+        "uniques":["[+18]% Strength <vs [UnitType.AntiCavalry] units>",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>"]
     },
     {//武僧

@@ -1553,7 +1553,7 @@
         "Provides [2] [Resource.houseLimitation] <in [Coastal] tiles> <in tiles without [Fresh Water]>",//海水住房修正
         "Provides [-4] [Resource.houseLimitation] <in [Fresh Water] tiles> <for [Nation.Maya]>",//淡水住房修正-对玛雅
         "Provides [-2] [Resource.houseLimitation] <in [Coastal] tiles> <in tiles without [Fresh Water]> <for [Nation.Maya]>",//海水住房修正-对玛雅
-        "Provides [2] [Resource.houseLimitation] <in [River] tiles> <for [Nation.Egypt]>",//埃及沿河城市住房修正
+        "Provides [2] [Resource.houseLimitation] <in [River] tiles> <for [Nation.Egypt]>",//沿河城市住房修正-对埃及
         "Provides [2] [Resource.houseLimitation] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",//万神殿河神修正
         "Provides [2] [Resource.houseLimitation] <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
         "Provides [2] [Resource.houseLimitation] <in tiles without [River]> <after adopting [Pantheon.RainGod]>",//万神殿雨神修正
@@ -1562,17 +1562,6 @@
     ],
         "replacementTextForUniques":" "
     },
-    /*
-    {//明朝-里甲制度
-		"name": "Building.Lijia",
-		"cost":0,
-		"uniques": ["[+1 Science, +1 Culture] per [2] population [in this city]",
-        "Destroyed when the city is captured",
-        "Will not be displayed in Civilopedia",
-		"Unsellable","Unbuildable"],
-		"requiredTech": "Tech.Civic.Agriculture"
-	},
-    */
 
     /*市政广场区域建筑*/
     {
@@ -2107,7 +2096,7 @@
 		"name": "Building.DistrictUnique.LearningAcademy",
         "replaces":"Building.DistrictUnique.Campus",
         "uniqueTo":"Nation.Korea",
-		"cost": 33,
+		"cost": 22,
 		"hurryCostModifier":-33,
 		"maintenance": 1,
 		"requiredTech": "Tech.Writing",
@@ -2117,7 +2106,7 @@
 		"uniques": ["Unsellable",
         "Provides [1] [Resource.Unit.Scientist]",
         "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]>",
-		"Cost increases by [4] per owned city",
+		"Cost increases by [3] per owned city",
         "Creates a [Distict.LearningAcademy] improvement on a specific tile",
         "Class.Building.DistrictUnique",
         "Never destroyed when the city is captured",
