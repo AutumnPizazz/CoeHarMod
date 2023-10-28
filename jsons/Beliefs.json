@@ -132,8 +132,9 @@
         {//神圣之光
             "name": "Pantheon.SacredLight",
             "type": "Pantheon",
-            "uniques": ["Provides [2] [Resource.Unit.Scientist] <in cities with a [Building.Palace]>",
-            "Provides [2] [Resource.Unit.Merchant] <in cities with a [Building.Palace]>"]
+            "uniques": ["Provides [2] [Resource.Unit.Scientist]",
+            "Provides [2] [Resource.Unit.Merchant]"]
+            // 此描述不生效，实际在宫殿中
         },
         {//石圈
             "name": "Pantheon.StoneCircle",
@@ -180,7 +181,8 @@
         {//宗教移民
             "name": "Pantheon.ReligiousMigrant",
             "type": "Pantheon",
-            "uniques": ["Free [Unit.Settler] appears",
+            "uniques": ["Free [Unit.Settler] appears <upon discovering [Civic.PoliticalPhilosophy]>",
+            // 这个写法不生效，实际生效的句子在宫殿
             "'[Unit.Settler]'+1 Movement for Settler units",
             "[-15]% Culture cost of natural border growth [in all cities]"]
         },

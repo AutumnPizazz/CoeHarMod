@@ -281,12 +281,12 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.13,
-		"overrideStats": true,
+		// "overrideStats": true,
 		"occursOn": ["Desert"],
 		"uniques": ["Always Fertility [3] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations",
-//					"Must be adjacent to [1] to [6] [River] tiles",
+					// "Must be adjacent to [1] to [6] [River] tiles",
 					"[-8] Strength for cities built on this terrain"]
 	},
 	{//泛滥平原
@@ -295,11 +295,11 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.13,
-		"overrideStats": true,
+		// "overrideStats": true,
 		"occursOn": ["Grassland","Plains"],
 		"uniques": ["Always Fertility [3] for Map Generation",
 					"Considered [Food] when determining start locations",
-//					"Must be adjacent to [1] to [6] [River] tiles",
+					// "Must be adjacent to [1] to [6] [River] tiles",
 					"[-8] Strength for cities built on this terrain"]
 	},
 	{//冰区

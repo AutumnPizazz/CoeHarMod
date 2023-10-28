@@ -21,8 +21,8 @@
         "riverCountMultiplier": 0.08,
         "minRiverLength": 1,
         "maxRiverLength": 999,
-        "pantheonBase": 12
-        // "pantheonGrowth": 2
+        "pantheonBase": 12,
+        "pantheonGrowth": 0
     },
     "uniques":[
         "Cannot be used as permanent audiovisual mod",

@@ -1431,16 +1431,8 @@
 		"obsoleteTech": "Tech.Alchemy",
 		"attackSound": "nonmetalhit",
 		"uniques":["[+51]% Strength <vs [Era.Classical] units>",
-		"[+102]% Strength <vs [Era.Medieval] units>",
-		"[+153]% Strength <vs [Era.Renaissance] units>",
-		"[+204]% Strength <vs [Era.Industrial] units>",
-		"[+255]% Strength <vs [Era.Modern] units>",
-		"[+306]% Strength <vs [Era.Atomic] units>",
-		"[+357]% Strength <vs [Era.Information] units>",
-		"[+408]% Strength <vs [Era.Near-future] units>",
-		"[+459]% Strength <vs [Era.Far-future] units>",
 		"Can transform to [Unit.MonkI] <after adopting [FollowerBelief.MartialArts]>"],
-		"replacementTextForUniques":"+51x% Combat power against more advanced era units (x is the number of eras crossed)"
+		"replacementTextForUniques":"+51% Combat power against more advanced era units"
 	},
 	{//阿兹特克-雄鹰战士
 		"name":"Unit.EagleWarrior",
@@ -1455,8 +1447,7 @@
 		"requiredTech":"Tech.Civic.Agriculture",
 		"obsoleteTech": "Tech.Alchemy",
 		"attackSound": "nonmetalhit",
-		"uniques":["May capture killed [Barbarians] units <with [100]% chance> <before [25] turns>",
-		"May capture killed [Barbarians] units <with [0]% chance> <after [25] turns>",
+		"uniques":["[+23]% Strength <vs [Barbarian] units>",
 		"Can transform to [Unit.MonkI] <after adopting [FollowerBelief.MartialArts]>"]
 	},
 	{//剑客
@@ -1517,6 +1508,7 @@
 		"obsoleteTech": "Tech.MilitaryEngineering",
 		"attackSound": "shot",
 		"uniques":["[-28]% Strength <when attacking>",
+		"[-28]% Strength <when attacking> <vs cities>",
 		"Instantly consumes [5] [Resource.Iron]",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"Can transform to [Unit.MonkII] <after adopting [FollowerBelief.MartialArts]>",
@@ -2233,7 +2225,7 @@
 		"uniques":["[+1] Movement <in [Open terrain] tiles>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
 	},
-	{//埃及-贵族世袭战车射手
+	{//埃及-世袭贵族战车射手
 		"name":"Unit.HereditaryNobleChariotArcher",
 		"replaces":"Unit.Chariot",
 		"uniqueTo":"Nation.Egypt",
@@ -2241,9 +2233,9 @@
 		"strength":123,//25
 		"range":2,
 		"hurryCostModifier":-33,
-		"rangedStrength":186,//35
+		"rangedStrength":138,
 		"movement":2,
-		"cost":90,
+		"cost":70,
 		"upgradesTo":"Unit.Knight",
 		"requiredTech": "Tech.Wheels",
 		"obsoleteTech": "Tech.Stirrups",
