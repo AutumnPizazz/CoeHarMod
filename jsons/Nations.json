@@ -882,9 +882,10 @@
 
 		"uniqueName": "Pearl River Delta",
 		"uniques": ["[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
-			"[+1 Culture] <in [Class.District] [Landform.Forest] tiles>",
-			"[+1 Science] <in [Class.District] [Landform.Rainforest] tiles>",
-			"[+1 Production] <in [Class.District] [Landform.Swamp] tiles>"],
+			"[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
+			"[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>",
+			"[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>",
+			"[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>"],
 
 		"cities": ["Hanoi","Ho Chi Minh City","Da Nang","Hoi An","Nha Trang","Hue","Ha Long","Phu Quoc","Vung Tau","Can Tho","Mui Ne","Sapa","Dalat","Hai Phong","Quy Nhon","Phan Thiet","Tam Coc","Cat Ba","Mekong Delta","Hoa Lu","Phong Nha","Cao Bang","Buon Ma Thuot","Qui Nhon","My Tho","Bien Hoa","Rach Gia","Ben Tre","Ha Giang","Dien Bien Phu"]
 	},
