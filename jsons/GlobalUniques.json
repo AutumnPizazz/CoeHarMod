@@ -13,7 +13,18 @@
 		"[+1]% Strength <for [Military] units> <vs [Nation.Yuan] units> <for [Nation.Ming]>",
 
 
-        /*宜居度影响人口增长*/
+        /*宜居度奖惩*/
+        "[+10]% [Production] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Science] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Culture] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Gold] [in all cities] <when between [10] and [19] Happiness>",
+        "[+10]% [Faith] [in all cities] <when between [10] and [19] Happiness>",
+        "[+25]% [Production] [in all cities] <when between [20] and [65535] Happiness>",
+        "[+25]% [Science] [in all cities] <when between [20] and [65535] Happiness>",
+        "[+25]% [Culture] [in all cities] <when between [20] and [65535] Happiness>",
+        "[+25]% [Gold] [in all cities] <when between [20] and [65535] Happiness>",
+        "[+25]% [Faith] [in all cities] <when between [20] and [65535] Happiness>",
+
         "[-15]% growth [in all cities] <when between [-2] and [0] Happiness>",
         "[-30]% growth [in all cities] <when between [-4] and [-2] Happiness>",
         "[-45]% growth [in all cities] <when between [-6] and [-4] Happiness>",
@@ -22,126 +33,25 @@
         "[-90]% growth [in all cities] <when between [-12] and [-10] Happiness>",
         "Nullifies Growth [in all cities] <when below [-12] Happiness>",
 
+        "[-40]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-10]% Strength <for [Military] units> <when below [-4] Happiness>",
+        "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",
+        "Cannot build [Unit.Settler] units <when below [-11] Happiness>",
+        "Rebel units may spawn <when below [-15] Happiness>",
 
-        /*区域覆盖产出*/
-        "[-1 Food] from [Ocean] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Gold] from [Coast] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food] from [Grassland] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Production] from [Plains] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Tundra] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food, -1 Production] from [Lakes] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food, -1 Production] from [LargeRiver] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production] from [Landform.Hill] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production] from [Landform.Forest] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Landform.Rainforest] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Landform.Swamp] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food] from [Landform.FloodPlain] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production] from [Landform.Reef] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Cattle] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Sheep] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Deer] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Bananas] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Wheat] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Gold] from [Resource.Corn] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production] from [Resource.Stone] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Fish] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Gold] from [Resource.Crab] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food] from [Resource.Bison] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Production] from [Resource.Horse] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Science] from [Resource.Iron] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Production] from [Resource.Niter] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Production] from [Resource.Coal] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Production] from [Resource.Oil] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Science] from [Resource.Aluminum] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Production] from [Resource.Niter] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Production] from [Resource.Uranium] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production, -1 Science] from [Resource.EarthVeins] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Gold] from [Resource.Leather] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Gold] from [Resource.Cotton] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Faith] from [Resource.Dye] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Gold] from [Resource.Gem] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Gold] from [Resource.Gold] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Gold] from [Resource.Silver] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Faith] from [Resource.Incense] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production, -1 Gold] from [Resource.Ivory] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Culture] from [Resource.Silk] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food] from [Resource.Spices] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Gold] from [Resource.Wine] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food] from [Resource.Sugar] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Culture] from [Resource.Marble] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production, -1 Gold] from [Resource.Whales] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Faith] from [Resource.Pearls] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Food] from [Resource.Citrus] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-2 Gold] from [Resource.Copper] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Gold] from [Resource.Cocoa] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Gold] from [Resource.Lobster] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Food, -1 Gold] from [Resource.Salt] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-3 Gold] from [Resource.Truffles] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-        "[-1 Production, -1 Gold] from [Resource.Rubber] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
 
-        
-        "[-1 Food] from [Ocean] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Gold] from [Coast] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food] from [Grassland] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Production] from [Plains] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Tundra] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food, -1 Production] from [Lakes] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food, -1 Production] from [LargeRiver] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production] from [Landform.Hill] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production] from [Landform.Forest] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Landform.Rainforest] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Landform.Swamp] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food] from [Landform.FloodPlain] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production] from [Landform.Reef] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Cattle] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Sheep] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Deer] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Bananas] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Wheat] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Gold] from [Resource.Corn] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production] from [Resource.Stone] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Fish] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Gold] from [Resource.Crab] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food] from [Resource.Bison] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Production] from [Resource.Horse] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Science] from [Resource.Iron] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Production] from [Resource.Niter] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Production] from [Resource.Coal] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Production] from [Resource.Oil] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Science] from [Resource.Aluminum] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Production] from [Resource.Niter] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Production] from [Resource.Uranium] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production, -1 Science] from [Resource.EarthVeins] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Gold] from [Resource.Leather] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Gold] from [Resource.Cotton] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Faith] from [Resource.Dye] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Gold] from [Resource.Gem] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Gold] from [Resource.Gold] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Gold] from [Resource.Silver] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Faith] from [Resource.Incense] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production, -1 Gold] from [Resource.Ivory] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Culture] from [Resource.Silk] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food] from [Resource.Spices] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Gold] from [Resource.Wine] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food] from [Resource.Sugar] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Culture] from [Resource.Marble] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production, -1 Gold] from [Resource.Whales] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Faith] from [Resource.Pearls] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Food] from [Resource.Citrus] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-2 Gold] from [Resource.Copper] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Gold] from [Resource.Cocoa] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Gold] from [Resource.Lobster] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Food, -1 Gold] from [Resource.Salt] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-3 Gold] from [Resource.Truffles] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
-        "[-1 Production, -1 Gold] from [Resource.Rubber] tiles [in all cities] <in [Class.WonderDistrict] tiles>",
+        /*人头瓶和人头琴*/
+		"[-1 Science] per [2] population [in all cities]",
+        "[+1 Culture] [in all cities] <in cities with at least [1] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [6] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [11] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [16] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [21] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
+        "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",
 
         
         /*不便归类*/
-        "[-40]% [Production] [in all cities] <when below [-10] Happiness>",//宜居度过低降低生产力
-        "[-10]% Strength <for [Military] units> <when below [-4] Happiness>",
-        "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",//宜居度过低降低军队战斗力
-        "Cannot build [Unit.Settler] units <when below [-11] Happiness>",//宜居度过低禁止移民
-        "Rebel units may spawn <when below [-15] Happiness>",//宜居度过低会产生叛军
 		"[-100]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]>",//取消初始城市攻击
 		"[+60]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]> <in cities with a [Building.Palace]>",//首都拥有减弱的城市攻击
         "[-100]% maintenance costs",//单位维护费修正
@@ -149,29 +59,9 @@
         "[-1 Gold] from every [River]",//删除河流给钱
 		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
         "May buy [Class.Governor] buildings for [0] [Gold] [in all cities]",//总督建筑0元购
-		"[-1 Science] per [2] population [in all cities]",//人头瓶调整
-        "[+1 Culture] [in all cities] <in cities with at least [1] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [6] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [11] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [16] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [21] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
-        "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",//人头琴调整
         "May buy [Building.EconomicVictory] buildings for [50000] [Gold] [in capital]",//经济胜利配套
         "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>",//沿大河城市加速发展
-
-
-        /*高宜居度奖励*/
-        "[+10]% [Production] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Science] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Culture] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Gold] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Faith] [in all cities] <when between [10] and [19] Happiness>",
-        "[+25]% [Production] [in all cities] <when between [20] and [100000] Happiness>",
-        "[+25]% [Science] [in all cities] <when between [20] and [100000] Happiness>",
-        "[+25]% [Culture] [in all cities] <when between [20] and [100000] Happiness>",
-        "[+25]% [Gold] [in all cities] <when between [20] and [100000] Happiness>",
-        "[+25]% [Faith] [in all cities] <when between [20] and [100000] Happiness>",
+        "[-100]% [Gold] from Trade Routes",//取消贸易路线产出，改为贸易站
 
 
         /*政策槽位不宜为负数*/

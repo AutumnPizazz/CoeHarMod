@@ -1089,6 +1089,14 @@
 		"civilopediaText":[
 			{"text": "Nation.Yuan","link": "Nation/Nation.Yuan"}
 		]
-	}
+	},
+	{//越南-隐匿
+		"name": "Promotion.Hidden",
+		"uniques": ["Invisible to non-adjacent units <in [Vegetation] tiles>"],
+		"civilopediaText":[
+			{"text": "Nation.Vietnam","link": "Nation/Nation.Vietnam"}
+		]
+	},
+
 
 ]

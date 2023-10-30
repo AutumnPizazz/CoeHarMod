@@ -381,6 +381,20 @@
 					"Class.District",
 					"Class.Army"]
 	},
+	{//越南-城池
+		"name": "District.Thanh",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
+		"uniques": ["Great Improvement",
+					"Tile provides yield without assigned population",
+					"[+1 Culture] for each adjacent [Class.District]",
+					"Cannot be built on [Resource.EarthVeins] tiles",
+					"Gives a defensive bonus of [28]%",
+					"Removes removable features when built",
+					"Irremovable",
+					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+					"Class.District",
+					"Class.Army"]
+	},
 	{//水渠
 		"name": "District.Raceline",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
@@ -622,8 +636,7 @@
 		"techRequired": "Tech.UniqueToGoldenDawn2",
 		"uniques": ["Provides [2] [Resource.houseLimitation]",
 		"Can only be built to improve a resource",
-		"Unpillagable",
-		"Class.UsualImprovement"]
+		"Unpillagable"]
 	},
 	{//地热发电厂
 		"name": "Improvement.GeothermalPowerPlant",
@@ -806,6 +819,7 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},	
 	{//巨石阵
@@ -824,6 +838,7 @@
 			"[+1 Faith] for each adjacent [Resource.Stone]",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},	
 	{//空中花园
@@ -835,6 +850,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//埃特曼安吉神庙
@@ -845,6 +861,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//阿耳忒弥斯神庙
@@ -856,6 +873,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Improvement.Encampment]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},	
 	{//金字塔
@@ -867,6 +885,7 @@
 			"Irremovable",
 			"It can only be built on desert flats",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//神谕
@@ -878,6 +897,7 @@
 			"Irremovable",
 			"It can only be built on hills",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//大灯塔
@@ -889,6 +909,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Harbor]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//博尔戈尔山
@@ -899,6 +920,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//罗马斗兽场
@@ -910,6 +932,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.EntertainmentComplex]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//巨像
@@ -921,6 +944,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Harbor]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//佩特拉古城
@@ -932,6 +956,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Open terrain] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//阿帕达纳宫
@@ -943,6 +968,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//兵马俑
@@ -954,6 +980,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Army]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//马丘比丘
@@ -965,6 +992,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Mountain] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//宙斯像
@@ -976,6 +1004,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Army]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//摩索拉斯王陵墓
@@ -987,6 +1016,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Harbor]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//大图书馆
@@ -998,13 +1028,14 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Campus]",
+			"Class.Distict",
 			"Class.WonderDistrict"],
         "civilopediaText": [
             {
                 "text":"Lots of adjacent bonuses for adjacent campus",
                 "link":"Improvement/District.Campus"
             }
-        ],
+        ]
 	},
 	{//摩珂菩提寺
 		"name":"District.MakobodhiTemple",
@@ -1015,6 +1046,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.HolySite]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//圣索菲亚大教堂
@@ -1026,6 +1058,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.HolySite]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//休伊神庙
@@ -1037,6 +1070,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.HolySite]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//基尔瓦基斯瓦尼
@@ -1048,6 +1082,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Coastal] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//桑科雷大学
@@ -1059,6 +1094,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Campus]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//米纳克希神庙
@@ -1070,6 +1106,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.HolySite]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//吴哥窟
@@ -1081,6 +1118,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Raceline]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//奇琴伊察
@@ -1092,6 +1130,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Landform.Rainforest] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//阿尔罕布拉宫
@@ -1105,6 +1144,7 @@
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Army]",
 			"Can only be built on [Landform.Hill] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//圣米歇尔山
@@ -1115,6 +1155,7 @@
 			"Tile provides yield without assigned population",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//圣米歇尔山
@@ -1126,6 +1167,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.HolySite]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//西印度交易所
@@ -1137,6 +1179,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.GovernmentPlaza]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//威尼斯军械库
@@ -1148,6 +1191,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.IndustrialZone]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//大津巴布韦
@@ -1159,6 +1203,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Resource.Cattle]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//紫禁城
@@ -1170,6 +1215,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//泰姬陵
@@ -1181,6 +1227,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can also be built on tiles adjacent to fresh water",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//圣瓦西里主教堂
@@ -1192,6 +1239,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//布达拉宫
@@ -1204,6 +1252,7 @@
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Mountain]",
 			"Can only be built on [Landform.Hill] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//鲁尔山谷
@@ -1216,6 +1265,7 @@
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
 			"Must be next to [Class.IndustrialZone]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//牛津大学
@@ -1227,6 +1277,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Campus]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//自由女神像
@@ -1238,6 +1289,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Harbor]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//莫斯科大剧院
@@ -1250,6 +1302,7 @@
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.TheaterSquare]",
 			"Can only be built on [Plains] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//巴拿马运河
@@ -1261,6 +1314,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Coastal] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//匈牙利议会大厦
@@ -1272,6 +1326,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//大本钟
@@ -1284,6 +1339,7 @@
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
 			"Must be next to [Class.CommercialHub]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//艾尔米塔什博物馆
@@ -1295,6 +1351,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//埃菲尔铁塔
@@ -1306,6 +1363,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [City center]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//百老汇
@@ -1317,6 +1375,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.TheaterSquare]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//救世基督像
@@ -1328,6 +1387,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Landform.Hill] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//金门大桥
@@ -1340,6 +1400,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Coast] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//生物圈
@@ -1351,6 +1412,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [River] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//悉尼歌剧院
@@ -1362,6 +1424,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.Harbor]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//马拉卡纳体育场
@@ -1373,6 +1436,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Must be next to [Class.EntertainmentComplex]",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	{//阿蒙森-斯科特南极站
@@ -1384,6 +1448,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Can only be built on [Snow] tiles",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	/*
@@ -1396,6 +1461,7 @@
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"地块要求",
+			"Class.Distict",
 			"Class.WonderDistrict"]
 	},
 	*/

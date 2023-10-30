@@ -319,6 +319,13 @@ TileSets/Civ6 Strategic Perspectives/Tiles/District.Raceline
   orig: 56, 64
   offset: 0, 0
   index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District.Torfbair
+  rotate: false
+  xy: 1292, 468
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
 TileSets/Civ6 Strategic Perspectives/Tiles/Distict.LearningAcademy
   rotate: false
   xy: 1292, 396
@@ -383,6 +390,13 @@ TileSets/Civ6 Strategic Perspectives/Tiles/District.ApadanaPalace
   offset: 0, 0
   index: -1
 TileSets/Civ6 Strategic Perspectives/Tiles/District.Army
+  rotate: false
+  xy: 572, 572
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/Civ6 Strategic Perspectives/Tiles/District.Thanh
   rotate: false
   xy: 572, 572
   size: 64, 72

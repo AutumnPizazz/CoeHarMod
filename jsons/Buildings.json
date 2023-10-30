@@ -1566,6 +1566,17 @@
     ],
         "replacementTextForUniques":" "
     },
+    {//贸易站
+		"name": "Building.TradingPost",
+		"cost":0,
+        "requiredResource": "Resource.TradeRouteCapacity",
+		"uniques": ["[+2 Gold] per [3] population [in this city] <before the [Era.Renaissance]>",
+        "[+1 Gold] per [1] population [in this city] <during the [Era.Renaissance]>",
+        "[+3 Gold] per [2] population [in this city] <starting from the [Era.Industrial]>",
+        "[+1 Gold] from every [Class.Building.DistrictUnique] <in this city>",
+        "Can only be built [in all cities connected to capital]"
+        ]
+	},
 
     /*市政广场区域建筑*/
     {
@@ -1923,7 +1934,7 @@
 	},
     {//祭祀建筑-宝塔
 		"name": "Building.Stupa",
-		"cost": 0,
+		"cost": 190,
 		"hurryCostModifier":-33,
 		"faith": 3,
         "happiness": 2,
@@ -1940,7 +1951,7 @@
 	},
     {//大教堂
 		"name": "Building.Cathedral",
-		"cost": 0,
+		"cost": 190,
 		"hurryCostModifier":-33,
 		"faith": 3,
         "requiredBuilding": "Building.Temple",
@@ -1957,7 +1968,7 @@
 	},
     {
 		"name": "Building.BuddhistTemple",
-		"cost": 0,
+		"cost": 190,
 		"faith": 3,
         "science":2,
         "requiredBuilding": "Building.Temple",
@@ -1973,7 +1984,7 @@
 	},
     {
 		"name": "Building.Chapel",
-		"cost": 0,
+		"cost": 190,
 		"faith": 3,
         "production":2,
         "requiredBuilding": "Building.Temple",
@@ -1989,7 +2000,7 @@
 	},
     {
 		"name": "Building.Mosque",
-		"cost": 0,
+		"cost": 190,
 		"faith": 3,
         "requiredBuilding": "Building.Temple",
 		"specialistSlots": {"Specialist.Priest": 1},
@@ -2005,7 +2016,7 @@
 	},
     {
 		"name": "Building.Pagoda",
-		"cost": 0,
+		"cost": 190,
 		"faith": 3,
         "happiness":2,
         "requiredBuilding": "Building.Temple",
@@ -2021,7 +2032,7 @@
 	},
     {
 		"name": "Building.Monastery",
-		"cost": 0,
+		"cost": 190,
 		"faith": 3,
         "food":2,
         "requiredBuilding": "Building.Temple",
@@ -2037,7 +2048,7 @@
 	},
     {
 		"name": "Building.Synagogue",
-		"cost": 0,
+		"cost": 190,
 		"faith": 5,
         "requiredBuilding": "Building.Temple",
 		"specialistSlots": {"Specialist.Priest": 1},
@@ -2052,7 +2063,7 @@
 	},
     {
 		"name": "Building.FireTemple",
-		"cost": 0,
+		"cost": 190,
 		"faith": 3,
         "requiredBuilding": "Building.Temple",
 		"specialistSlots": {"Specialist.Priest": 1},
@@ -2961,7 +2972,7 @@
 	},
 
     /*军营区域建筑*/
-    {
+    {//军营地标
 		"name": "Building.DistrictUnique.MilitaryEncampment",
 		"cost": 44,
 		"hurryCostModifier":-33,
@@ -2969,13 +2980,30 @@
 		"requiredTech": "Tech.CopperCasting",
         "requiredResource":"Resource.DistrictLimitation",
 		"specialistSlots": {"Specialist.ArmyLogistics": 1},
-//		"greatPersonPoints": {"Unit.General": 1},
 		"uniques": ["Unsellable",
         "Provides [1] [Resource.Unit.General]",
         "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]>",
         "Provides [1] [Resource.DistrictLimitation] <for [Nation.SRC]>",
 		"Cost increases by [6] per owned city",
         "Creates a [District.Army] improvement on a specific tile",
+        "Class.Building.DistrictUnique",
+        "Never destroyed when the city is captured",
+        "Cannot be purchased"]
+	},
+    {//越南-城池
+        "name": "Building.Thanh",
+		"replaces": "Building.DistrictUnique.MilitaryEncampment",
+        "uniqueTo": "Nation.Vietnam",
+		"cost": 22,
+		"hurryCostModifier":-33,
+		"maintenance": 1,
+		"requiredTech": "Tech.CopperCasting",
+        "requiredResource":"Resource.DistrictLimitation",
+		"specialistSlots": {"Specialist.ArmyLogistics": 1},
+		"uniques": ["Unsellable",
+        "Provides [1] [Resource.DistrictLimitation] <for [Nation.SRC]>",
+		"Cost increases by [3] per owned city",
+        "Creates a [District.Thanh] improvement on a specific tile",
         "Class.Building.DistrictUnique",
         "Never destroyed when the city is captured",
         "Cannot be purchased"]
@@ -2988,9 +3016,7 @@
         "maintenance":1,
         "requiredTech":"Tech.CopperCasting",
         "requiredBuilding":"Building.DistrictUnique.MilitaryEncampment",
-//        "cannotBeBuiltWith":"Building.Stable",未知原因不生效
 		"specialistSlots": {"Specialist.ArmyLogistics": 1},
-//		"greatPersonPoints": {"Unit.General": 1},
 		"uniques": ["Provides [2] [Resource.houseLimitation]",
         "Provides [1] [Resource.Unit.General]",
         "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]>",

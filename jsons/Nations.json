@@ -648,10 +648,7 @@
 		"[+2 Faith] from each Trade Route"
 		],
 
-		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
 	},
 	{//毛利
 		"name": "Nation.Maori",
@@ -675,10 +672,7 @@
 		"[+2 Science, +2 Culture] <before discovering [Tech.NauticalArt]>"
 		],
 
-		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui","Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu","Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia","Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui","Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu","Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia","Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"]
 	},
 	{//日本
 		"name": "Nation.Japan",
@@ -698,10 +692,7 @@
 		"[+100]% Production when constructing [Building.DistrictUnique.MilitaryEncampment] buildings [in all cities]"
 		],
 
-		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama","Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen","Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori","Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama","Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen","Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori","Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
 	{//印度尼西亚
 		"name": "Nation.Indonesia",
@@ -718,10 +709,7 @@
 		"The Campus District and the Holy District enjoy a standard adjacent increment to the coast"
 		],
 
-		"cities": ["Surabaya", "Yogyakarta", "Denpasar", "Jakarta", "Bandung", "Medan", "Semarang", "Makassar", "Palembang", "Tangerang", "Depok", "Batam", "Bekasi", "Solo", "Banjarmasin", "Serang", "Padang", "Pekanbaru", "Bandar Lampung", "Surakarta", "Malang", "Bogor", "Cimahi", "Pontianak", "Manado", "Balikpapan", "Banda Aceh", "Jambi", "Mataram", "Kupang", "Palu"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Surabaya", "Yogyakarta", "Denpasar", "Jakarta", "Bandung", "Medan", "Semarang", "Makassar", "Palembang", "Tangerang", "Depok", "Batam", "Bekasi", "Solo", "Banjarmasin", "Serang", "Padang", "Pekanbaru", "Bandar Lampung", "Surakarta", "Malang", "Bogor", "Cimahi", "Pontianak", "Manado", "Balikpapan", "Banda Aceh", "Jambi", "Mataram", "Kupang", "Palu"]
 	},
 	{//腓尼基
 		"name": "Nation.Phoenicia",
@@ -739,10 +727,7 @@
 		"[+50]% [Production] from every [Building.DistrictUnique.GovernmentPlaza]"
 		],
 
-		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia","Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus","Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula","Saldae"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia","Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus","Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula","Saldae"]
 	},
 	{//冰岛
 		"name": "Nation.Iceland",
@@ -762,10 +747,7 @@
 		"[+1 Science, +1 Culture] from every [Natural Wonder]"
 		],
 
-		"cities": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri", "Reykjanesbaer", "Gardabaer", "Mosfellsbaer", "Akranes", "Selfoss", "Saudarkrokur", "Isafjordur", "Egilsstadir", "Borgarnes", "Husavik", "Hveragerdi", "Seydisfjordur", "Njardvik", "Siglufjordur", "Grindavik", "Dalvik", "Hvolsvollur", "Olafsvik", "Stykkisholmur", "Sandgerdi", "Sauoarkrokur", "Eskifjordur", "Faskrudsfjordur", "Vik", "Hofn", "Sudureyri", "Keflavik"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri", "Reykjanesbaer", "Gardabaer", "Mosfellsbaer", "Akranes", "Selfoss", "Saudarkrokur", "Isafjordur", "Egilsstadir", "Borgarnes", "Husavik", "Hveragerdi", "Seydisfjordur", "Njardvik", "Siglufjordur", "Grindavik", "Dalvik", "Hvolsvollur", "Olafsvik", "Stykkisholmur", "Sandgerdi", "Sauoarkrokur", "Eskifjordur", "Faskrudsfjordur", "Vik", "Hofn", "Sudureyri", "Keflavik"]
 	},
 	{//西班牙
 		"name": "Nation.Spain",
@@ -784,10 +766,7 @@
 		"Defense bonus when embarked"
 		],
 
-		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vitoria","Santander","Oviedo","Jaen","Logro~no","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida","Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coru~na","Guadalquivir","Bilbao","San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vitoria","Santander","Oviedo","Jaen","Logro~no","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida","Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coru~na","Guadalquivir","Bilbao","San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"]
 	},
 	{//苏联
 		"name": "Nation.SU",
@@ -814,10 +793,7 @@
 			{"text": "Promotion.Bolshevik I","link": "Promotion/Promotion.Bolshevik I"},
 			{"text": "Promotion.Bolshevik II","link": "Promotion/Promotion.Bolshevik II"},
 			{"text": "Promotion.Bolshevik III","link": "Promotion/Promotion.Bolshevik III"}
-		],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		]
 	},
 	{//元朝
 		"name": "Nation.Yuan",
@@ -843,10 +819,7 @@
 			{"text": "Promotion.FastMove","link": "Promotion/Promotion.FastMove"}
 		],
 
-		"cities": ["上都","中都","大都","兴庆","上都路","大名","析津","大德","清宁","大安","德兴","宣德","和宁","益都","海都","元和","上都留守司","顺德","辽阳","宁夏","惠州","潮州","柳州","广州","杭州","和林","天水","甘州","肃州","瓜州","沙州","亦集乃"],		  
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["上都","中都","大都","兴庆","上都路","大名","析津","大德","清宁","大安","德兴","宣德","和宁","益都","海都","元和","上都留守司","顺德","辽阳","宁夏","惠州","潮州","柳州","广州","杭州","和林","天水","甘州","肃州","瓜州","沙州","亦集乃"]
 	},
 	{//商朝
 		"name": "Nation.Shang",
@@ -863,10 +836,7 @@
 		],
 		"uniqueText":"Each turn you can perform one city relocation (selling [Building.ShangEmperorPalace] in the current city and buying it in another city within the same turn)",
 
-		"cities": ["亳", "商", "殷", "郑", "宋", "曹", "陈", "滑", "范", "丹", "酆", "曾", "毛", "鄢", "匡", "盖", "闾", "夏", "桑", "薄", "唐", "虞", "太", "田", "邓", "邬", "姬", "姜", "姚", "姬", "姜"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["亳", "商", "殷", "郑", "宋", "曹", "陈", "滑", "范", "丹", "酆", "曾", "毛", "鄢", "匡", "盖", "闾", "夏", "桑", "薄", "唐", "虞", "太", "田", "邓", "邬", "姬", "姜", "姚", "姬", "姜"]
 	},
 	{//周朝
 		"name": "Nation.Zhou",
@@ -884,10 +854,7 @@
 		],
 		"uniqueText":"所有城市在被创建时可以选择以下属性之一\n国[Building.Guo],野[Building.Ye]\n\n在研究封建主义[Civic.Feudalism]后,属性'野[Building.Ye]'的城市可以选择以下属性之一\n郊[Building.Jiao],牧[Building.Mu],泽[Building.Ze]",
 
-		"cities": ["镐","管","蔡","郕","霍","鲁","卫","毛","聃","郜","雍","曹","滕","毕","太原","郇","邗","晋","应","韩","鲁","凡","蒋","邢","茅","胙","祭","齐","吕","申","陈","宋","蓟","焦","祝","杞","纪","许","楚","越","英","舒","黄","江","息","徐","莒","奄","郯","莱","六","郧","孤竹","邾","缯","祝其","费","颛臾","鲜于","邾","郑","梁","秦"],
-
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"cities": ["镐","管","蔡","郕","霍","鲁","卫","毛","聃","郜","雍","曹","滕","毕","太原","郇","邗","晋","应","韩","鲁","凡","蒋","邢","茅","胙","祭","齐","吕","申","陈","宋","蓟","焦","祝","杞","纪","许","楚","越","英","舒","黄","江","息","徐","莒","奄","郯","莱","六","郧","孤竹","邾","缯","祝其","费","颛臾","鲜于","邾","郑","梁","秦"]
 	},
 	{//楼兰
 		"name": "Nation.LouLan",
@@ -902,10 +869,24 @@
 		"uniques": ["[UnitType.Scout] units gain the [Promotion.RoadBuild] promotion",
 		"[+3 Gold] from each Trade Route"],
 
-		"cities":["楼兰","高昌","焉耆","于阗","康居","疏勒","鄯善","龟兹","伊吾","吐火罗","车师","且末","碎叶","阗波","伊犁","奇台","塔里木","疏附","康国","贡高"],
+		"cities":["楼兰","高昌","焉耆","于阗","康居","疏勒","鄯善","龟兹","伊吾","吐火罗","车师","且末","碎叶","阗波","伊犁","奇台","塔里木","疏附","康国","贡高"]
+	},
+	{//越南
+		"name": "Nation.Vietnam",
+		"leaderName": "Lady Trieu",
+		"outerColor": [192, 150, 23],
+		"innerColor": [92, 38, 104],
 
-		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", 
-		"defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
+		"startBias": ["Landform.Forest"],
+		"preferredVictoryType": "VictoryType.Culture",
+
+		"uniqueName": "Pearl River Delta",
+		"uniques": ["[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
+			"[+1 Culture] <in [Class.District] [Landform.Forest] tiles>",
+			"[+1 Science] <in [Class.District] [Landform.Rainforest] tiles>",
+			"[+1 Production] <in [Class.District] [Landform.Swamp] tiles>"],
+
+		"cities": ["Hanoi","Ho Chi Minh City","Da Nang","Hoi An","Nha Trang","Hue","Ha Long","Phu Quoc","Vung Tau","Can Tho","Mui Ne","Sapa","Dalat","Hai Phong","Quy Nhon","Phan Thiet","Tam Coc","Cat Ba","Mekong Delta","Hoa Lu","Phong Nha","Cao Bang","Buon Ma Thuot","Qui Nhon","My Tho","Bien Hoa","Rach Gia","Ben Tre","Ha Giang","Dien Bien Phu"]
 	},
 
 

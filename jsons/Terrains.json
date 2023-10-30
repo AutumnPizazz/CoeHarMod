@@ -6,7 +6,7 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques":[]
+		"uniques":["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>"]
 	},
 	{//海滨
 		"name": "Coast",
@@ -15,7 +15,8 @@
 		"gold":1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
-		"uniques": ["[+2] to Fertility for Map Generation",
+		"uniques": ["[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -25,7 +26,7 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": [
+        "uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
@@ -52,7 +53,7 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
-		"uniques": [
+		"uniques": ["[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
@@ -80,7 +81,8 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [30, 113, 69],
-		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
             "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
@@ -97,7 +99,8 @@
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 172, 0],
-		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+		"uniques": [
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
             "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
             "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
@@ -114,7 +117,8 @@
 		"food": 2,
 		"gold": 1,
 		"RGB": [0, 171, 169],
-		"uniques": ["Fresh water",
+		"uniques": ["[-2 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Fresh water",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
 	},
@@ -124,7 +128,8 @@
 		"food": 2,
 		"gold": 1,
 		"RGB": [0, 171, 169],
-		"uniques": ["Fresh water","Doesn't generate naturally",
+		"uniques": ["[-2 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Fresh water","Doesn't generate naturally",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"
 				]
@@ -172,7 +177,8 @@
 		"defenceBonus": 0.13,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["Rough terrain",
+		"uniques": ["[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Rough terrain",
 					"[14] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
 					"Occurs in groups around high elevations",
@@ -192,7 +198,8 @@
 		"overrideStats": false,
 		"unbuildable": true,
 		"occursOn": ["Tundra","Plains","Grassland","Landform.Hill"],
-		"uniques": ["Rough terrain",
+		"uniques": ["[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Rough terrain",
 					"Vegetation",
 					"[+1] to Fertility for Map Generation",
 					"Provides a one-time Production bonus to the closest city when cut down",
@@ -225,7 +232,7 @@
 		"overrideStats": false,
 		"unbuildable": true,
 		"occursOn": ["Plains","Grassland"],
-		"uniques": [
+		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -246,7 +253,8 @@
 		"unbuildable": true,
 		"defenceBonus": -0.13,
 		"occursOn": ["Grassland","Plains"],
-		"uniques": ["Rare feature",
+		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Rare feature",
 					"[+1] to Fertility for Map Generation",
 					"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 					"Considered [Food] when determining start locations <in all except [Plains] Regions>",
@@ -269,7 +277,8 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"occursOn": ["Desert"],
-		"uniques": ["Fresh water", "Rare feature",
+		"uniques": ["[-3 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Fresh water", "Rare feature",
 					"Only [All Road] improvements may be built on this tile",
 					"Always Fertility [4] for Map Generation",
 					"Considered [Food] when determining start locations",
@@ -283,7 +292,8 @@
 		"defenceBonus": -0.13,
 		// "overrideStats": true,
 		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [3] for Map Generation",
+		"uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Always Fertility [3] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations",
 					// "Must be adjacent to [1] to [6] [River] tiles",
@@ -297,7 +307,8 @@
 		"defenceBonus": -0.13,
 		// "overrideStats": true,
 		"occursOn": ["Grassland","Plains"],
-		"uniques": ["Always Fertility [3] for Map Generation",
+		"uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+					"Always Fertility [3] for Map Generation",
 					"Considered [Food] when determining start locations",
 					// "Must be adjacent to [1] to [6] [River] tiles",
 					"[-8] Strength for cities built on this terrain"]
@@ -321,7 +332,8 @@
 		"defenceBonus":0.2,
 		"unbuildable": false,
 		"occursOn": ["Coast"],
-		"uniques": ["Rare feature",
+		"uniques": ["[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Rare feature",
 		"[+2] to Fertility for Map Generation"]
 	},
 	{//地热裂缝
@@ -331,7 +343,8 @@
 		"movementCost": 1,
 		"unbuildable": false,
 		"occursOn": ["Plains","Tundra","Grassland","Snow"],
-		"uniques": ["Rare feature",
+		"uniques": ["[-1 Science] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Rare feature",
 		"Never receives any resources",
 		"[+1] to Fertility for Map Generation"]
     },
@@ -358,11 +371,11 @@
 		"uniques": ["Rare feature",
 			"Doesn't generate naturally",
             "Units ending their turn on this terrain take [25] damage",
-			"[+1 Food] <after [10] turns>",
-			"[+1 Production] <after [15] turns>",
-			"[+1 Food] <after [30] turns>",
-			"[+1 Production] <after [40] turns>",
-			"[+1 Science] <after [50] turns>"
+			"[+1 Food] <after [10] turns> <in tiles without [Class.District]>",
+			"[+1 Production] <after [15] turns> <in tiles without [Class.District]>",
+			"[+1 Food] <after [30] turns> <in tiles without [Class.District]>",
+			"[+1 Production] <after [40] turns> <in tiles without [Class.District]>",
+			"[+1 Science] <after [50] turns> <in tiles without [Class.District]>"
 		]
 	},
 
@@ -465,7 +478,7 @@
 		"type": "NaturalWonder",
 		"overrideStats": true,
 		"occursOn": ["Landform.Hill"],
-		"turnsInto": "Landform.Hill",
+		"turnsInto": "Desert",
 		"impassable": false,
 		"unbuildable": true,
 		"production":2,
