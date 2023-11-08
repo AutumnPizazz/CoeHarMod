@@ -464,8 +464,9 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": 1,
 		"techRequired": "Tech.Civic.Agriculture",
-		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]>",
+		"uniques": [
+		"Provides [1] [Resource.houseLimitation]",
+		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
 		"[+1 Food] <with [2] to [3] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
 		"[+2 Food] <with [4] to [5] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
 		"[+3 Food] <with [6] to [7] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
@@ -587,7 +588,7 @@
 		"gold": 2,
 		"techRequired": "Tech.Irrigation",
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]>",
+		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
 		"[+1 Food] <after discovering [Tech.ScientificTheory]>",
 		"[+1 Food] <after discovering [Civic.Feudalism]>",
 		"[+2 Gold] <after discovering [Civic.Globalization]>",

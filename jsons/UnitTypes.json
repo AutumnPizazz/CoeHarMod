@@ -34,6 +34,7 @@
         "Heal this unit by [50] HP <for [All] units> <upon being promoted>",
         "Consumes [1] [Resource.remainingMonksCount]",
         "Only available <when above [0] [Resource.remainingMonksCount]>",
+        "Never appears as a Barbarian unit",
         "Cannot be purchased"]
     },
     {//长程步兵

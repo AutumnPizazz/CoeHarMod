@@ -475,91 +475,88 @@
 
 
 	/*伟人*/
-	{//大艺术家
-		"name": "Unit.Artist",
-		"unitType": "UnitType.Civilian",
-		"uniques": [
-		"Instantly consumes [30] [Resource.Unit.Artist] <before [31] turns>",
-		"Instantly consumes [60] [Resource.Unit.Artist] <after [30] turns> <before [61] turns>",
-		"Instantly consumes [90] [Resource.Unit.Artist] <after [60] turns> <before [91] turns>",
-		"Instantly consumes [120] [Resource.Unit.Artist] <after [90] turns> <before [121] turns>",
-		"Instantly consumes [150] [Resource.Unit.Artist] <after [120] turns>",
-            "Empire enters a [16]-turn Golden Age <by consuming this unit>",
-            "Great Person - [Culture]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
-		"movement": 4
-	},
 	{//大科学家
 		"name": "Unit.Scientist",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.Scientist] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.Scientist] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.Scientist] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.Scientist] <after [90] turns> <before [121] turns>",
-			"Instantly consumes [150] [Resource.Unit.Scientist] <after [120] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Scientist] <after adopting [Culture.Scientist Complete]> <hidden from users>",
             "Can hurry technology research",
-            "Great Person - [Science]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
+            "Great Person - [Science]","Class.GreatPerson",
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 4
 	},
 	{//大商人
 		"name": "Unit.Merchant",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.Merchant] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.Merchant] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.Merchant] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.Merchant] <after [90] turns> <before [121] turns>",
-			"Instantly consumes [150] [Resource.Unit.Merchant] <after [120] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Merchant Complete]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Great Person - [Gold]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
+			"Great Person - [Gold]",
+			"Class.GreatPerson",
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 4
 	},
 	{//大工程师
 		"name": "Unit.Engineer",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.Engineer] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.Engineer] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.Engineer] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.Engineer] <after [90] turns> <before [121] turns>",
-			"Instantly consumes [150] [Resource.Unit.Engineer] <after [120] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Engineer Complete]> <hidden from users>",
 			"Can speed up construction of a building",
-            "Great Person - [Production]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
+            "Great Person - [Production]",
+			"Class.GreatPerson",
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 4
 	},
 	{//大预言家
 		"name": "Unit.Prophet",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.Prophet] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.Prophet] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.Prophet] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.Prophet] <after [90] turns> <before [121] turns>",
-			"Instantly consumes [150] [Resource.Unit.Prophet] <after [120] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Prophet Complete]> <hidden from users>",
             "Can instantly construct a [Improvement.Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Class.GreatPerson",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"],
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Class.GreatPerson",
+			"Unbuildable",
+			"Religious Unit",
+			// "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
 		"movement": 4,
 		"religiousStrength": 1000
+	},
+	{//大艺术家
+		"name": "Unit.Artist",
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Artist Complete]> <hidden from users>",
+            "Empire enters a [16]-turn Golden Age <by consuming this unit>",
+            "Great Person - [Culture]",
+			"Class.GreatPerson",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 4
 	},
 	{//大将军
 		"name": "Unit.General",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.General] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.General] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.General] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.General] <after [90] turns> <before [121] turns>",
-			"Instantly consumes [150] [Resource.Unit.General] <after [120] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation.Tang]> <if [Building.TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
-			"Great Person - [War]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
+			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin]>",
+			"Great Person - [War]",
+			"Class.GreatPerson",
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 4
 	},
 	{//秦朝-太尉
@@ -568,15 +565,14 @@
 		"uniqueTo":"Nation.Qin",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.General] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.General] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.General] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.General] <after [90] turns> <before [121] turns>",
-			"Instantly consumes [150] [Resource.Unit.General] <after [120] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation.Tang]> <if [Building.TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
-			"Great Person - [War]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]",
+			"Class.GreatPerson",
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 3
 	},
 	/*{//大军事家
@@ -592,10 +588,11 @@
 		"name": "Unit.Admiral",
 		"unitType": "UnitType.CivilianShip",
 		"uniques": [
-			"Instantly consumes [30] [Resource.Unit.Admiral] <before [31] turns>",
-			"Instantly consumes [60] [Resource.Unit.Admiral] <after [30] turns> <before [61] turns>",
-			"Instantly consumes [90] [Resource.Unit.Admiral] <after [60] turns> <before [91] turns>",
-			"Instantly consumes [120] [Resource.Unit.Admiral] <after [90] turns> <before [121] turns>",
+			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Admiral Complete]> <hidden from users>",
+			"Instantly consumes [30] [Resource.Unit.Admiral] <before [30] turns>",
+			"Instantly consumes [60] [Resource.Unit.Admiral] <after [30] turns> <before [60] turns>",
+			"Instantly consumes [90] [Resource.Unit.Admiral] <after [60] turns> <before [90] turns>",
+			"Instantly consumes [120] [Resource.Unit.Admiral] <after [90] turns> <before [120] turns>",
 			"Instantly consumes [150] [Resource.Unit.Admiral] <after [120] turns>",
             "[23]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Great Person - [War]","Class.GreatPerson", "Unbuildable", "Uncapturable"],
@@ -1235,71 +1232,101 @@
 		],
 		"movement": 4
 	},
+
+	/*宗教单位-武僧*/
 	{//I级武僧
 		"name":"Unit.MonkI",
 		"unitType":"UnitType.Monk",
+		"requiredTech":"Tech.Civic.Agriculture",
+		"obsoleteTech": "Tech.Alchemy",
+		"upgradesTo":"Unit.MonkII",
 		"cost":40,
 		"strength":123,//25
 		"movement":3,
 		"attackSound": "nonmetalhit",
-		"uniques":["Unbuildable","Religious Unit",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"uniques":[
+			"Will not be displayed in Civilopedia",
+			"Religious Unit",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]"]
 	},
 	{//II级武僧
 		"name":"Unit.MonkII",
 		"unitType":"UnitType.Monk",
+		"upgradesTo":"Unit.MonkIII",
+		"requiredTech": "Tech.Alchemy",
+		"obsoleteTech": "Tech.MilitaryEngineering",
 		"cost":90,
 		"strength":229,//40
 		"movement":3,
 		"attackSound": "nonmetalhit",
-		"uniques":["Unbuildable","Religious Unit",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"uniques":[
+			"Will not be displayed in Civilopedia",
+			"Religious Unit",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]"]
 	},
 	{//III级武僧
 		"name":"Unit.MonkIII",
 		"unitType":"UnitType.Monk",
+		"upgradesTo":"Unit.MonkIV",
+		"requiredTech": "Tech.MilitaryEngineering",
+		"obsoleteTech": "Tech.Gunpowder",
 		"strength":346,//50
 		"movement":3,
 		"cost":160,
 		"attackSound": "nonmetalhit",
-		"uniques":["Unbuildable","Religious Unit",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"uniques":[
+			"Will not be displayed in Civilopedia",
+			"Religious Unit",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]",
+			"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
 	{//IV级武僧
 		"name":"Unit.MonkIV",
 		"unitType":"UnitType.Monk",
+		"upgradesTo":"Unit.MonkV",
+		"requiredTech": "Tech.MilitaryEngineering",
+		"obsoleteTech": "Tech.Gunpowder",
 		"strength":523,//60
 		"cost":240,
 		"movement":3,
 		"attackSound": "nonmetalhit",
-		"uniques":["Unbuildable","Religious Unit",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"uniques":[
+			"Will not be displayed in Civilopedia",
+			"Religious Unit",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]",
+			"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
 	{//V级武僧
 		"name":"Unit.MonkV",
 		"unitType":"UnitType.Monk",
+		"upgradesTo":"Unit.MonkVI",
+		"requiredTech": "Tech.Gunpowder",
+		"obsoleteTech": "Tech.MilitaryScience",
 		"strength":789,//70
 		"movement":3,
 		"cost":360,
 		"attackSound": "nonmetalhit",
-		"uniques":["Unbuildable","Religious Unit",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"uniques":[
+			"Will not be displayed in Civilopedia",
+			"Religious Unit",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]",
+			"Consumes [-1] [Resource.MilitaryMaintenance2]",
+			"Consumes [-1] [Resource.MilitaryMaintenance3]"]
 	},
 	{//VI级武僧
 		"name":"Unit.MonkVI",
 		"unitType":"UnitType.Monk",
+		"requiredTech": "Tech.MilitaryScience",
 		"strength":1191,//80
 		"movement":3,
 		"cost":430,
 		"attackSound": "nonmetalhit",
-		"uniques":["Unbuildable","Religious Unit",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"uniques":[
+			"Will not be displayed in Civilopedia",
+			"Religious Unit",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]",
+			"Consumes [-1] [Resource.MilitaryMaintenance2]",
+			"Consumes [-2] [Resource.MilitaryMaintenance3]"]
 	},
 
 	/*侦察单位*/
@@ -1415,8 +1442,7 @@
 		"requiredTech":"Tech.Civic.Agriculture",
 		"obsoleteTech": "Tech.Alchemy",
 		"attackSound": "nonmetalhit",
-		"uniques":[
-		"Can transform to [Unit.MonkI] <after adopting [FollowerBelief.MartialArts]>"]
+		"uniques":[]
 	},
 	{//高卢-高卢枪佣兵
 		"name":"Unit.GallicGunMercenary",
@@ -1431,8 +1457,7 @@
 		"requiredTech":"Tech.Civic.Agriculture",
 		"obsoleteTech": "Tech.Alchemy",
 		"attackSound": "nonmetalhit",
-		"uniques":["[+51]% Strength <vs [Era.Classical] units>",
-		"Can transform to [Unit.MonkI] <after adopting [FollowerBelief.MartialArts]>"],
+		"uniques":["[-51]% Strength <vs [Era.Ancient] units>","[+51]% Strength"],
 		"replacementTextForUniques":"+51% Combat power against more advanced era units"
 	},
 	{//阿兹特克-雄鹰战士
@@ -1448,8 +1473,7 @@
 		"requiredTech":"Tech.Civic.Agriculture",
 		"obsoleteTech": "Tech.Alchemy",
 		"attackSound": "nonmetalhit",
-		"uniques":["[+23]% Strength <vs [Barbarian] units>",
-		"Can transform to [Unit.MonkI] <after adopting [FollowerBelief.MartialArts]>"]
+		"uniques":["[+23]% Strength <vs [Barbarian] units>"]
 	},
 	{//剑客
 		"name":"Unit.Swordsman",
@@ -1464,7 +1488,6 @@
 		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Can transform to [Unit.MonkII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
@@ -1489,7 +1512,6 @@
 			"Can build [Remove Landform.Swamp] improvements on tiles",
 			"Instantly consumes [8] [Resource.Iron]",
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Can transform to [Unit.MonkII] <after adopting [FollowerBelief.MartialArts]>",
 			"Consumes [-1] [Resource.MilitaryMaintenance1]",
 			"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
@@ -1512,7 +1534,6 @@
 		"[-28]% Strength <when attacking> <vs cities>",
 		"Instantly consumes [5] [Resource.Iron]",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Can transform to [Unit.MonkII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
@@ -1531,7 +1552,6 @@
 		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Can transform to [Unit.MonkII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"],
 		"promotions":["[Unit.ImperialGuard] ability"]
@@ -1553,7 +1573,6 @@
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"[-23]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"Can instantly construct a [Improvement.Pabo] improvement <[1] times>",
-		"Can transform to [Unit.MonkII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
@@ -1570,7 +1589,6 @@
 		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Can transform to [Unit.MonkIII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
@@ -1591,7 +1609,6 @@
 		"uniques":["[1] additional attacks per turn",
 		"Instantly consumes [10] [Resource.Iron]",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Can transform to [Unit.MonkIII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
@@ -1613,7 +1630,6 @@
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"Damage is ignored when determining unit Strength",
 		"Heal this unit by [5] HP <upon ending a turn in a [Coastal] tile>",
-		"Can transform to [Unit.MonkIII] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
@@ -1631,7 +1647,6 @@
 		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [10] [Resource.Niter]",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Can transform to [Unit.MonkIV] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
@@ -1652,7 +1667,6 @@
 		"uniques":["[-1] population in a random city <upon being defeated>",
 		"Instantly consumes [15] [Resource.Niter]",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Can transform to [Unit.MonkIV] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-2] [Resource.MilitaryMaintenance3]"],
@@ -1673,7 +1687,6 @@
 		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [5] [Resource.Niter]",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Can transform to [Unit.MonkIV] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
@@ -1694,7 +1707,6 @@
 		"uniques":["[+51]% Strength <when adjacent to a [Unit.Missionary] unit>",
 		"Instantly consumes [10] [Resource.Niter]",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Can transform to [Unit.MonkIV] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
@@ -1712,7 +1724,6 @@
 		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [10] [Resource.Niter]",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Can transform to [Unit.MonkV] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
@@ -1733,7 +1744,6 @@
 		"uniques":["[+23]% Strength <on foreign continents>",
 		"Instantly consumes [5] [Resource.Niter]",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Can transform to [Unit.MonkV] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
@@ -1752,7 +1762,6 @@
 		"attackSound": "metalhit",
 		"uniques":["Instantly consumes [1] [Resource.Oil]",
 		"[-64]% Strength <when below [0] [Resource.Oil]>",
-		"Can transform to [Unit.MonkVI] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]",
 		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
@@ -1773,7 +1782,6 @@
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
-		"Can transform to [Unit.MonkVI] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
@@ -1793,7 +1801,6 @@
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
-		"Can transform to [Unit.MonkVI] <after adopting [FollowerBelief.MartialArts]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},

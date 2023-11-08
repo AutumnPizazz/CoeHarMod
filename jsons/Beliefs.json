@@ -35,8 +35,8 @@
         {//大地女神
             "name": "Pantheon.EarthGoddess",
             "type": "Pantheon",
-            "uniques": ["[+2 Faith] from [Landform.Hill] tiles without [Class.UsualImprovement] [in all cities]",
-            "[+5 Faith] from every [Mountain]"]
+            "uniques": ["[+1 Faith] from [Landform.Hill] tiles without [Class.UsualImprovement] [in all cities] <in tiles without [Class.District]>",
+            "[+5 Faith] from every [Mountain] <in tiles without [Class.District]>"]
         },
         {//锻造之神
             "name": "Pantheon.GodOfTheForge",
@@ -63,7 +63,7 @@
         {//工匠之神
             "name": "Pantheon.GodOfCraftsmen",
             "type": "Pantheon",
-            "uniques": ["[+1 Production, +1 Gold, +1 Faith] from [Strategic resource] tiles [in all cities] <after [25] turns>"]
+            "uniques": ["[+1 Production, +1 Gold, +1 Faith] from [Class.BasicStrategicResource] tiles [in all cities] <after [25] turns>"]
         },
         {//河神
             "name": "Pantheon.RiverGod",
@@ -80,7 +80,7 @@
         {//火之女神
             "name": "Pantheon.GoddessOfFire",
             "type": "Pantheon",
-            "uniques": ["[+1 Food, +1 Production, +1 Faith] from every [Landform.GeothermalFissure]",
+            "uniques": ["[+1 Food, +1 Production, +1 Faith] from every [Landform.GeothermalFissure] <in tiles without [Class.District]>",
             "Colleges grant an additional +1 adjacency bonus to '[Landform.GeothermalFissure]'"]
         },
         {//极光之舞
@@ -120,9 +120,9 @@
         {//芦苇和沼泽地里的夫人
             "name": "Pantheon.LadyOfTheReedsAndMarshes",
             "type": "Pantheon",
-            "uniques": ["[+2 Production, +1 Science] from every [Landform.Swamp]",
-            "[+2 Production] from every [Landform.Oasis]",
-            "[+2 Production] from every [Landform.AlluvialPlain]"]
+            "uniques": ["[+2 Production, +1 Science] from every [Landform.Swamp] <in tiles without [Class.District]>",
+            "[+2 Production] from every [Landform.Oasis] <in tiles without [Class.District]>",
+            "[+2 Production] from every [Landform.AlluvialPlain] <in tiles without [Class.District]>"]
         },
         {//神圣道路
             "name": "Pantheon.SacredWay",
@@ -175,7 +175,7 @@
         {//宗教偶像
             "name": "Pantheon.ReligiousIdol",
             "type": "Pantheon",
-            "uniques": ["[+2 Faith, +2 Gold] from every [Luxury resource]",
+            "uniques": ["[+2 Faith, +2 Gold] from every [Luxury resource] <in tiles without [Class.District]>",
             "TextByReligiousIdol"]
         },
         {//宗教移民
@@ -213,7 +213,7 @@
             "name": "Pantheon.DragonPrayerCeremony",
             "type": "Pantheon",
             "uniques": ["[+1 Faith] from every [Improvement.FishingBoat]",
-            "[+2 Faith] from every [Landform.Reef]"]
+            "[+2 Faith] from every [Landform.Reef] <in tiles without [Class.District]>"]
         },
         {//启蒙会
             "name": "Pantheon.SocietyOfEnlightenment",
@@ -237,7 +237,7 @@
         {//塞壬之歌
             "name": "Pantheon.SongOfTheSirens",
             "type": "Pantheon",
-            "uniques": ["[+2 Production, +1 Gold, +1 Science] from every [Landform.Reef]",
+            "uniques": ["[+2 Production, +1 Gold, +1 Science] from every [Landform.Reef] <in tiles without [Class.District]>",
             "Colleges grant an additional +1 adjacency bonus to '[Landform.Reef]'"]
         },
         {//极地子民
@@ -316,7 +316,7 @@
         {//神灵启示
             "name": "FollowerBelief.DivineRevelation",
             "type": "Follower",
-            "uniques": ["[+4 Faith, +1 Happiness, +1 Gold] from every [World Wonder]"]
+            "uniques": ["[+4 Faith, +1 Happiness, +1 Gold] from every [World Wonder] <in tiles without [Class.District]>"]
         },
         {//武僧
             "name": "FollowerBelief.MartialArts",

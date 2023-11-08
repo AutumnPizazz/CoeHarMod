@@ -2,8 +2,8 @@
     "name": "Global uniques",
     "uniques": [
         /*文明能力*/
-        "[-13]% Strength <for [{Military} {Wounded}] units> <vs [Nation.France] units>",//法兰西ua
-        
+        "[-13]% Strength <for [{Military} {Wounded}] units> <vs [Nation.France] units>",//法兰西文明能力
+
 
         /*文明羁绊*/
 		"[+1]% Strength <for [Military] units> <vs [Nation.Gaul] units> <for [Nation.Rome]>",
@@ -13,6 +13,10 @@
 		"[+1]% Strength <for [Military] units> <vs [Nation.Yuan] units> <for [Nation.Ming]>",
 
 
+        /*政策树不花费文化*/
+        "[-100]% Culture cost of adopting new Policies",
+
+        
         /*宜居度奖惩*/
         "[+10]% [Production] [in all cities] <when between [10] and [19] Happiness>",
         "[+10]% [Science] [in all cities] <when between [10] and [19] Happiness>",
@@ -33,9 +37,22 @@
         "[-90]% growth [in all cities] <when between [-12] and [-10] Happiness>",
         "Nullifies Growth [in all cities] <when below [-12] Happiness>",
 
-        "[-40]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-10]% Strength <for [Military] units> <when below [-4] Happiness>",
-        "[-30]% Strength <for [Military] units> <when below [-11] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [0] Happiness>",
+        "[-10]% [Science] [in all cities] <when below [0] Happiness>",
+        "[-10]% [Culture] [in all cities] <when below [0] Happiness>",
+        "[-10]% [Gold] [in all cities] <when below [0] Happiness>",
+        "[-10]% [Faith] [in all cities] <when below [0] Happiness>",
+        "[-15]% [Production] [in all cities] <when below [-6] Happiness>",
+        "[-15]% [Science] [in all cities] <when below [-6] Happiness>",
+        "[-15]% [Culture] [in all cities] <when below [-6] Happiness>",
+        "[-15]% [Gold] [in all cities] <when below [-6] Happiness>",
+        "[-15]% [Faith] [in all cities] <when below [-6] Happiness>",
+        "[-25]% [Production] [in all cities] <when below [-11] Happiness>",
+        "[-25]% [Science] [in all cities] <when below [-11] Happiness>",
+        "[-25]% [Culture] [in all cities] <when below [-11] Happiness>",
+        "[-25]% [Gold] [in all cities] <when below [-11] Happiness>",
+        "[-25]% [Faith] [in all cities] <when below [-11] Happiness>",
+
         "Cannot build [Unit.Settler] units <when below [-11] Happiness>",
         "Rebel units may spawn <when below [-15] Happiness>",
 
@@ -49,6 +66,51 @@
         "[+1 Culture] [in all cities] <in cities with at least [21] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",
+
+        
+        /*区域覆盖资源产出*/
+        "[-1 Food] from [Resource.Cattle] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food] from [Resource.Sheep] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food] from [Resource.Deer] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food] from [Resource.Bananas] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food] from [Resource.Wheat] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Gold] from [Resource.Corn] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Production] from [Resource.Stone] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food] from [Resource.Fish] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Gold] from [Resource.Crab] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food] from [Resource.Bison] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Production] from [Resource.Horse] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Science] from [Resource.Iron] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Production] from [Resource.Niter] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Production] from [Resource.Coal] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Production] from [Resource.Oil] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Science] from [Resource.Aluminum] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Production] from [Resource.Niter] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Production] from [Resource.Uranium] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Production, -1 Science] from [Resource.EarthVeins] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Gold] from [Resource.Leather] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Gold] from [Resource.Cotton] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Faith] from [Resource.Dye] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Gold] from [Resource.Gem] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Gold] from [Resource.Gold] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Gold] from [Resource.Silver] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Faith] from [Resource.Incense] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Production, -1 Gold] from [Resource.Ivory] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Culture] from [Resource.Silk] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Food] from [Resource.Spices] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Gold] from [Resource.Wine] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Food] from [Resource.Sugar] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Culture] from [Resource.Marble] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Production, -1 Gold] from [Resource.Whales] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Faith] from [Resource.Pearls] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Food] from [Resource.Citrus] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-2 Gold] from [Resource.Copper] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Gold] from [Resource.Cocoa] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Gold] from [Resource.Lobster] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Food, -1 Gold] from [Resource.Salt] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-3 Gold] from [Resource.Truffles] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+        "[-1 Production, -1 Gold] from [Resource.Rubber] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
+
 
         
         /*不便归类*/
@@ -143,47 +205,13 @@
         "May buy [UnitType.GreatPersonProject] units with [Gold] for [4] times their normal Production cost",
         "May buy [UnitType.GreatPersonProject] units with [Faith] for [2] times their normal Production cost",
 
-        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.Artist]> <before [31] turns>",
-        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.Artist]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.Artist]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.Artist]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.Artist]> <after [120] turns>",//大艺术家
-
-        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.Scientist]> <before [31] turns>",
-        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.Scientist]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.Scientist]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.Scientist]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.Scientist]> <after [120] turns>",//大科学家
-
-        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.Merchant]> <before [31] turns>",
-        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.Merchant]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.Merchant]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.Merchant]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.Merchant]> <after [120] turns>",//大商人
-
-        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.Engineer]> <before [31] turns>",
-        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.Engineer]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.Engineer]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.Engineer]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.Engineer]> <after [120] turns>",//大工程师
-
-        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.Prophet]> <before [31] turns>",
-        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.Prophet]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.Prophet]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.Prophet]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.Prophet]> <after [120] turns>",//大预言家
-
-        "May buy [Unit.General] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.General]> <before [31] turns>",
-        "May buy [Unit.General] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.General]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.General] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.General]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.General] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.General]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.General] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.General]> <after [120] turns>",//大将军
-
-        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <when above [29] [Resource.Unit.Admiral]> <before [31] turns>",
-        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <when above [59] [Resource.Unit.Admiral]> <after [30] turns> <before [61] turns>",
-        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <when above [89] [Resource.Unit.Admiral]> <after [60] turns> <before [91] turns>",
-        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <when above [119] [Resource.Unit.Admiral]> <after [90] turns> <before [121] turns>",
-        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <when above [149] [Resource.Unit.Admiral]> <after [120] turns>",//海军统帅
+        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <after adopting [Culture.Scientist Complete]> <when above [15459] [Resource.Unit.Scientist]>",
+        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <after adopting [Culture.Merchant Complete]> <when above [15459] [Resource.Unit.Merchant]>",
+        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <after adopting [Culture.Artist Complete]> <when above [15459] [Resource.Unit.Artist]>",
+        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <after adopting [Culture.Engineer Complete]> <when above [15459] [Resource.Unit.Engineer]>",
+        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <after adopting [Culture.Prophet Complete]> <when above [15459] [Resource.Unit.Prophet]>",
+        "May buy [Unit.General] units for [0] [Gold] [in all cities] <after adopting [Culture.General Complete]> <when above [15459] [Resource.Unit.General]>",
+        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [15459] [Resource.Unit.Admiral]>",
 
 
         /*军队维护费修正*/
@@ -652,6 +680,69 @@
         "[+56 Gold] <when above [6] [Resource.NuclearDeviceMaintenance]> <when below [8] [Resource.NuclearDeviceMaintenance]> <if [Mil.ercigongjinengli] is constructed>",
         "[+64 Gold] <when above [7] [Resource.NuclearDeviceMaintenance]> <when below [9] [Resource.NuclearDeviceMaintenance]> <if [Mil.ercigongjinengli] is constructed>",
         "[+72 Gold] <when above [8] [Resource.NuclearDeviceMaintenance]> <when below [10] [Resource.NuclearDeviceMaintenance]> <if [Mil.ercigongjinengli] is constructed>",
-        "[+80 Gold] <when above [9] [Resource.NuclearDeviceMaintenance]> <if [Mil.ercigongjinengli] is constructed>"
+        "[+80 Gold] <when above [9] [Resource.NuclearDeviceMaintenance]> <if [Mil.ercigongjinengli] is constructed>",
+
+        /*Global uniques for Types*/
+        "Class.ResourceOnWater",
+        "Class.BasicStrategicResource",
+        "Class.UsualImprovement",
+        "Class.Industrials",
+        "Class.District",
+        "Class.GovernmentPlaza",
+        "Class.HolySite",
+        "Class.Campus",
+        "Class.TheaterSquare",
+        "Class.CommercialHub",
+        "Class.IndustrialZone",
+        "Class.EntertainmentComplex",
+        "Class.WaterPark",
+        "Class.Harbor",
+        "Class.Army",
+        "Class.Raceline",
+        "Class.ProtectionZone",
+        "Class.Building.LevelGovernment",
+        "Class.Building.Level1Government",
+        "Class.Building.Level2Government",
+        "Class.Building.Level3Government",
+        "Class.Building.Level4Government",
+        "Class.Building.Level5Government",
+        "Class.Camorrist",
+        "Class.Governor.Level1",
+        "Class.Governor",
+        "Class.Building.DistrictUnique",
+        "Class.DistrictBuilding.GovernmentPlaza",
+        "Class.DistrictBuilding.ForeignQuarter",
+        "Class.DistrictBuilding.HolySite",
+        "Class.Building.AdvancedReligious",
+        "Class.DistrictBuilding.Campus",
+        "Class.DistrictBuilding.CommercialHub",
+        "Class.DistrictBuilding.TheaterSquare",
+        "Class.DistrictBuilding.EntertainmentComplex",
+        "Class.DistrictBuilding.WaterPark",
+        "Class.DistrictBuilding.IndustrialZone",
+        "Class.Building.PowerPlant",
+        "Class.DistrictBuilding.MilitaryEncampment",
+        "Class.DistrictBuilding.Port",
+        "Class.DistrictBuilding.Spaceport",
+        "Class.DistrictBuilding.Raceline",
+        "Class.DistrictBuilding.ProtectionZone",
+        "Class.WonderDistrict",
+        "Class.WonderEra.Ancient",
+        "Class.WonderEra.Classical",
+        "Class.WonderEra.Medieval",
+        "Class.WonderEra.Renaissance",
+        "Class.WonderEra.Industrial",
+        "Class.WonderEra.Modern",
+        "Class.WonderEra.Atomic",
+        "Class.Policy.Military",
+        "Class.Policy.Economy",
+        "Class.Policy.Diplomacy",
+        "Class.Policy.General",
+        "Class.Policy.Golden",
+        "Class.Policy.Dark",
+        "Class.GreatPerson",
+        "Class.Unit.Builder",
+        "Class.Unit.Aircraft",
+        "Class.Unit.SpaceRace"
     ]
 }

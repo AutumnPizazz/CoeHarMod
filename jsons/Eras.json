@@ -14,7 +14,7 @@
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35],
-        "uniques":["May not generate great prophet equivalents naturally"]
+        "uniques":["May not generate great prophet equivalents naturally","Gain [20] [Gold]"]
     },
     {
         "name": "Era.Classical",
@@ -33,7 +33,7 @@
         "startPercent": 10,
         "citySound": "cityClassical",
         "iconRGB": [233, 31, 99],
-        "uniques":["May not generate great prophet equivalents naturally"]
+        "uniques":["May not generate great prophet equivalents naturally","Instantly provides [20] [Resource.Iron]"]
     },
     {
         "name": "Era.Medieval",
@@ -54,7 +54,7 @@
         "startPercent": 25,
         "citySound": "cityMedieval",
         "iconRGB": [157, 39, 176],
-        "uniques":["May not generate great prophet equivalents naturally"]
+        "uniques":["May not generate great prophet equivalents naturally","Instantly provides [20] [Resource.Iron]"]
     },
     {
         "name": "Era.Renaissance",
@@ -75,7 +75,7 @@
         "startPercent": 37,
         "citySound": "cityRenaissance",
         "iconRGB": [104, 58, 183],
-        "uniques":["May not generate great prophet equivalents naturally"]
+        "uniques":["May not generate great prophet equivalents naturally","Instantly provides [30] [Resource.Niter]"]
     },
     {
         "name": "Era.Industrial",

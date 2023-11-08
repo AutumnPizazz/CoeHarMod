@@ -140,7 +140,7 @@
 		"uniqueName": "Personification of Russia",
 		"uniques": ["[-45]% Culture cost of natural border growth [in all cities]",
 		"[-45]% Gold cost of acquiring tiles [in all cities]",
-		"[+1 Production] from every [Tundra]"],
+		"[+1 Production] from every [Tundra] <in tiles without [Class.District]>"],
 
 		"cities": ["Moscow", "St. Petersburg", "Volgograd", "Kaluga", "Kirov", "Saratov", "Kostroma", "Orenburg", "Krasnodar", "Voronezh", "Ufa", "Ulyanovsk", "Nizhny Novgorod", "Yekaterinburg", "Novosibirsk", "Kazan", "Rostov-on-Don", "Samara", "Chelyabinsk", "Perm"],
 
@@ -269,7 +269,7 @@
 		"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] [in all cities]",
 		"[+100]% [Gold] from Trade Routes",
 		"[-30]% [Production] [in all cities]",
-		"[-1 Production, +3 Gold] from every [Landform.Hill]",
+		"[-1 Production, +3 Gold] from every [Landform.Hill] <in tiles without [Class.District]>",
 		"[+1 Gold] from [Desert] tiles [in all cities] <in cities with a [Building.DistrictUnique.MandingoMarket]>",
 		"[Gold] cost of purchasing [Unit.Settler] units [-25]%"],
 
@@ -743,8 +743,8 @@
 		"uniques": ["[+1] Sight <for [Unit.Settler] units>",
 		"[+1] Movement <for [UnitType.Scout] units>",
 		"Empire enters a [4]-turn Golden Age <upon gaining a [Class.GreatPerson] unit>",
-		"[+1 Science, +1 Culture] from every [Rare feature]",
-		"[+1 Science, +1 Culture] from every [Natural Wonder]"
+		"[+1 Science, +1 Culture] from every [Rare feature] <in tiles without [Class.District]>",
+		"[+1 Science, +1 Culture] from every [Natural Wonder] <in tiles without [Class.District]>"
 		],
 
 		"cities": ["Reykjavik", "Kopavogur", "Hafnarfjordur", "Akureyri", "Reykjanesbaer", "Gardabaer", "Mosfellsbaer", "Akranes", "Selfoss", "Saudarkrokur", "Isafjordur", "Egilsstadir", "Borgarnes", "Husavik", "Hveragerdi", "Seydisfjordur", "Njardvik", "Siglufjordur", "Grindavik", "Dalvik", "Hvolsvollur", "Olafsvik", "Stykkisholmur", "Sandgerdi", "Sauoarkrokur", "Eskifjordur", "Faskrudsfjordur", "Vik", "Hofn", "Sudureyri", "Keflavik"]
@@ -882,10 +882,10 @@
 
 		"uniqueName": "Pearl River Delta",
 		"uniques": ["[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
-			"[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
 			"[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>",
 			"[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>",
 			"[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>"],
+		// "uniqueText":"[[{Military} {Land}] units gain the [Promotion.Hidden] promotion]\n'[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>'\n[[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>]\n[[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>]",
 
 		"cities": ["Hanoi","Ho Chi Minh City","Da Nang","Hoi An","Nha Trang","Hue","Ha Long","Phu Quoc","Vung Tau","Can Tho","Mui Ne","Sapa","Dalat","Hai Phong","Quy Nhon","Phan Thiet","Tam Coc","Cat Ba","Mekong Delta","Hoa Lu","Phong Nha","Cao Bang","Buon Ma Thuot","Qui Nhon","My Tho","Bien Hoa","Rach Gia","Ben Tre","Ha Giang","Dien Bien Phu"]
 	},
