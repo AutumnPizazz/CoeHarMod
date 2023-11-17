@@ -267,11 +267,13 @@
 		"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
 		"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
 		"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] [in all cities]",
-		"[+100]% [Gold] from Trade Routes",
-		"[-30]% [Production] [in all cities]",
+		"[-30]% [Production] [in all cities] <hidden from users>",
+		"[+30]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <hidden from users>",
+		"[+30]% Production when constructing [All] wonders [in all cities] <hidden from users>",
+		"[+30]% Production when constructing [UnitType.GreatPersonProject] units [in all cities] <hidden from users>",
+		"-30% [Production] in all cities when constructing Buildings or Units",
 		"[-1 Production, +3 Gold] from every [Landform.Hill] <in tiles without [Class.District]>",
-		"[+1 Gold] from [Desert] tiles [in all cities] <in cities with a [Building.DistrictUnique.MandingoMarket]>",
-		"[Gold] cost of purchasing [Unit.Settler] units [-25]%"],
+		"[+1 Gold] from [Desert] tiles [in all cities] <in tiles without [Class.District]> <in cities with a [Building.DistrictUnique.MandingoMarket]>"],
 
 		"cities": ["Timbuktu","Djenne","Gao","Koumbi Saleh","Walata","Aoudaghost","Niani","Segou","Kangaba","Bamako","Kita","Koulikoro","Mopti","Goundam","Tombouctou","Boucle du Baoule","Jenne-Jeno","Tondibi","Gao-Saney","Djenné-Djenno","Oualata","Kumbi","Manden-Kouroukan","Kangaba-Kouroukan"],
 
@@ -369,12 +371,12 @@
 		"preferredVictoryType": "VictoryType.Conquest",
 		
 		"uniqueName":"Statist",
-		"uniques": ["[+18]% [Science] [in capital]",
+		"uniques": ["[+13]% [Science] [in capital]",
 		"[+13]% [Culture] [in capital]",
 		"[+13]% [Production] [in capital]",
-		"[+8]% [Science] [in capital] <when above [0] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [0] [Resource.CityNumber]>",
-		"[+8]% [Production] [in capital] <when above [0] [Resource.CityNumber]>",
+		// "[+8]% [Science] [in capital] <when above [0] [Resource.CityNumber]>",
+		// "[+8]% [Culture] [in capital] <when above [0] [Resource.CityNumber]>",
+		// "[+8]% [Production] [in capital] <when above [0] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [1] [Resource.CityNumber]>",
 		"[+8]% [Culture] [in capital] <when above [1] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [1] [Resource.CityNumber]>",
@@ -402,6 +404,9 @@
 		"[+8]% [Science] [in capital] <when above [9] [Resource.CityNumber]>",
 		"[+8]% [Culture] [in capital] <when above [9] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [9] [Resource.CityNumber]>",
+		"[+8]% [Science] [in capital] <when above [10] [Resource.CityNumber]>",
+		"[+8]% [Culture] [in capital] <when above [10] [Resource.CityNumber]>",
+		"[+8]% [Production] [in capital] <when above [10] [Resource.CityNumber]>",
 
 		"[-5]% [Science] [in all cities]",
 		"[-5]% [Culture] [in all cities]",
@@ -872,6 +877,24 @@
 		"cities":["楼兰","高昌","焉耆","于阗","康居","疏勒","鄯善","龟兹","伊吾","吐火罗","车师","且末","碎叶","阗波","伊犁","奇台","塔里木","疏附","康国","贡高"]
 	},
 	{//越南
+		"name": "Nation.Vietnam",
+		"leaderName": "Lady Trieu",
+		"outerColor": [192, 150, 23],
+		"innerColor": [92, 38, 104],
+
+		"startBias": ["Landform.Forest"],
+		"preferredVictoryType": "VictoryType.Culture",
+
+		"uniqueName": "Pearl River Delta",
+		"uniques": ["[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
+			"[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>",
+			"[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>",
+			"[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>"],
+		// "uniqueText":"[[{Military} {Land}] units gain the [Promotion.Hidden] promotion]\n'[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>'\n[[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>]\n[[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>]",
+
+		"cities": ["Hanoi","Ho Chi Minh City","Da Nang","Hoi An","Nha Trang","Hue","Ha Long","Phu Quoc","Vung Tau","Can Tho","Mui Ne","Sapa","Dalat","Hai Phong","Quy Nhon","Phan Thiet","Tam Coc","Cat Ba","Mekong Delta","Hoa Lu","Phong Nha","Cao Bang","Buon Ma Thuot","Qui Nhon","My Tho","Bien Hoa","Rach Gia","Ben Tre","Ha Giang","Dien Bien Phu"]
+	},
+	{//亚特兰蒂斯
 		"name": "Nation.Vietnam",
 		"leaderName": "Lady Trieu",
 		"outerColor": [192, 150, 23],

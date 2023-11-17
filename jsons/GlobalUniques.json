@@ -205,13 +205,13 @@
         "May buy [UnitType.GreatPersonProject] units with [Gold] for [4] times their normal Production cost",
         "May buy [UnitType.GreatPersonProject] units with [Faith] for [2] times their normal Production cost",
 
-        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <after adopting [Culture.Scientist Complete]> <when above [15459] [Resource.Unit.Scientist]>",
-        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <after adopting [Culture.Merchant Complete]> <when above [15459] [Resource.Unit.Merchant]>",
-        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <after adopting [Culture.Artist Complete]> <when above [15459] [Resource.Unit.Artist]>",
-        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <after adopting [Culture.Engineer Complete]> <when above [15459] [Resource.Unit.Engineer]>",
-        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <after adopting [Culture.Prophet Complete]> <when above [15459] [Resource.Unit.Prophet]>",
-        "May buy [Unit.General] units for [0] [Gold] [in all cities] <after adopting [Culture.General Complete]> <when above [15459] [Resource.Unit.General]>",
-        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [15459] [Resource.Unit.Admiral]>",
+        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <after adopting [Culture.Scientist Complete]> <when above [299] [Resource.Unit.Scientist]>",
+        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <after adopting [Culture.Merchant Complete]> <when above [299] [Resource.Unit.Merchant]>",
+        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <after adopting [Culture.Artist Complete]> <when above [299] [Resource.Unit.Artist]>",
+        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <after adopting [Culture.Engineer Complete]> <when above [299] [Resource.Unit.Engineer]>",
+        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <after adopting [Culture.Prophet Complete]> <when above [299] [Resource.Unit.Prophet]>",
+        "May buy [Unit.General] units for [0] [Gold] [in all cities] <after adopting [Culture.General Complete]> <when above [299] [Resource.Unit.General]>",
+        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [299] [Resource.Unit.Admiral]>",
 
 
         /*军队维护费修正*/

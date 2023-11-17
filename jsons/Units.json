@@ -479,7 +479,7 @@
 		"name": "Unit.Scientist",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Scientist] <after adopting [Culture.Scientist Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Scientist] <after adopting [Culture.Scientist Complete]> <hidden from users>",
             "Can hurry technology research",
             "Great Person - [Science]","Class.GreatPerson",
 			"Unbuildable",
@@ -490,7 +490,7 @@
 		"name": "Unit.Merchant",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Merchant Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Merchant Complete]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Great Person - [Gold]",
 			"Class.GreatPerson",
@@ -502,7 +502,7 @@
 		"name": "Unit.Engineer",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Engineer Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Engineer Complete]> <hidden from users>",
 			"Can speed up construction of a building",
             "Great Person - [Production]",
 			"Class.GreatPerson",
@@ -514,7 +514,7 @@
 		"name": "Unit.Prophet",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Prophet Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Prophet Complete]> <hidden from users>",
             "Can instantly construct a [Improvement.Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -536,7 +536,7 @@
 		"name": "Unit.Artist",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Artist Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Artist Complete]> <hidden from users>",
             "Empire enters a [16]-turn Golden Age <by consuming this unit>",
             "Great Person - [Culture]",
 			"Class.GreatPerson",
@@ -548,7 +548,7 @@
 		"name": "Unit.General",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation.Tang]> <if [Building.TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
@@ -565,7 +565,7 @@
 		"uniqueTo":"Nation.Qin",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
             "[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles",
             "[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <for [Nation.Tang]> <if [Building.TheGrandPalace] is constructed>",
             "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
@@ -588,7 +588,7 @@
 		"name": "Unit.Admiral",
 		"unitType": "UnitType.CivilianShip",
 		"uniques": [
-			"Instantly consumes [15360] [Resource.Unit.Merchant] <after adopting [Culture.Admiral Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Admiral Complete]> <hidden from users>",
 			"Instantly consumes [30] [Resource.Unit.Admiral] <before [30] turns>",
 			"Instantly consumes [60] [Resource.Unit.Admiral] <after [30] turns> <before [60] turns>",
 			"Instantly consumes [90] [Resource.Unit.Admiral] <after [60] turns> <before [90] turns>",

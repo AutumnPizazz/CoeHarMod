@@ -3375,6 +3375,13 @@ BuildingIcons/Gov.Theocracy
   orig: 128, 128
   offset: 0, 0
   index: -1
+BuildingIcons/Governor.Amani.Remove
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Governor.AmaniI
   rotate: false
   xy: 1416, 224
@@ -3473,6 +3480,13 @@ BuildingIcons/Governor.GoldenDawnIV
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Governor.GrandVizier.Remove
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Governor.GrandVizierI
   rotate: false
   xy: 1416, 224
@@ -3495,6 +3509,13 @@ BuildingIcons/Governor.GrandVizierIII
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.GrandVizierIV
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Liang.Remove
   rotate: false
   xy: 1416, 224
   size: 100, 100
@@ -3537,6 +3558,13 @@ BuildingIcons/Governor.LiangIVA
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.LiangIVB
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Magnus.Remove
   rotate: false
   xy: 1416, 224
   size: 100, 100
@@ -3613,6 +3641,13 @@ BuildingIcons/Governor.MinervaNightingaleIV
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Governor.Moksha.Remove
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Governor.MokshaI
   rotate: false
   xy: 1416, 224
@@ -3649,6 +3684,13 @@ BuildingIcons/Governor.MokshaIVA
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.MokshaIVB
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Pingala.Remove
   rotate: false
   xy: 1416, 224
   size: 100, 100
@@ -3697,6 +3739,13 @@ BuildingIcons/Governor.PingalaIVB
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Governor.Reyna.Remove
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Governor.ReynaI
   rotate: false
   xy: 1416, 224
@@ -3733,6 +3782,13 @@ BuildingIcons/Governor.ReynaIIIB
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.ReynaIV
+  rotate: false
+  xy: 1416, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Victor.Remove
   rotate: false
   xy: 1416, 224
   size: 100, 100

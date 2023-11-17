@@ -504,13 +504,13 @@
 				"row": 8,
 				"prerequisites": ["Tech.Mechanical"],
 				"quote": "",
-				"uniques": []
+				"uniques": ["以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》"]
 			},
 			{
 				"name": "Civic.Exploration",
 				"row": 9,
 				"prerequisites": ["Civic.Mercenaries","Civic.MedievalBazaar"],
-				"quote": "以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》",
+				"quote": "一旦停止探索，我们将生活在一个停滞不前的世界，缺乏好奇心，没有梦想。\n——奈尔·德葛拉司·泰森",
 				"uniques": ["Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"]
 			},
 			{
@@ -845,7 +845,7 @@
 				"name": "Civic.Tolalitarianism",
 				"row": 14,
 				"prerequisites": ["Civic.Ideology"],
-				"quote": "只有暴徒和精英会被极权主义本身的势头所吸引。依靠宣传才能获取民心。\n——汉娜o阿伦特",
+				"quote": "只有暴徒和精英会被极权主义本身的势头所吸引。依靠宣传才能获取民心。\n——汉娜·阿伦特",
 				"uniques": ["Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"]
 			},
 			{
@@ -1021,7 +1021,7 @@
 				"name": "Civic.Environmentalism",
 				"row": 10,
 				"prerequisites": ["Civic.CulturalHeritage","Civic.EmergencyDeployment"],
-				"quote": "“我将在明媚的日光之下再度降临，为子孙后裔造下美好家园。”\n——《阿尔戈船英雄记》，罗德岛的阿波罗尼奥斯",
+				"quote": "“我将在明媚的日光之下再度降临，为子孙后裔造下美好家园。”\n——《阿尔戈船英雄记》,罗德岛的阿波罗尼奥斯",
 				"uniques": ["[+2 Culture, +1 Science] from [Vegetation] tiles [in all cities]","Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"]
 			},
 			{
@@ -1058,7 +1058,7 @@
 				"name": "Tech.NuclearFusion",
 				"row": 8,
 				"prerequisites": ["Tech.Laser"],
-				"quote": "我支持从15亿千米远的地方来控制核聚变能量。通过太阳进行的核聚变非常不错，而且是免费的。地球上的反应堆…没有那么多。\n——乔·罗姆",
+				"quote": "我支持从15亿千米远的地方来控制核聚变能量。通过太阳进行的核聚变非常不错,而且是免费的。地球上的反应堆…没有那么多。\n——乔·罗姆",
 				"uniques": []
 			},
 			{
@@ -1123,7 +1123,7 @@
 				"row": 4,
 				"prerequisites": ["Tech.GuidanceSystem"],
 				"uniques": ["[+50]% Strength <for [UnitType.Mech] units> <vs cities> <when attacking>"],
-				"quote": "曲则全，枉则直，洼则盈，敝则新。\n——《道德经》，老子"
+				"quote": "曲则全，枉则直，洼则盈，敝则新。\n——《道德经》"
 			},			
 			{
 				"name": "Tech.Cybernetics",
@@ -1222,7 +1222,7 @@
 				"uniques": ["Provides [1] [Resource.GovernorTitle]","Can be continually researched"]
 			}
 		]
-	},
+	}
 	/*模板
 	{
 		"columnNumber": ,
