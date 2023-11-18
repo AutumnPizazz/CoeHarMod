@@ -372,50 +372,37 @@
 		
 		"uniqueName":"Statist",
 		"uniques": ["[+13]% [Science] [in capital]",
-		"[+13]% [Culture] [in capital]",
 		"[+13]% [Production] [in capital]",
 		// "[+8]% [Science] [in capital] <when above [0] [Resource.CityNumber]>",
-		// "[+8]% [Culture] [in capital] <when above [0] [Resource.CityNumber]>",
 		// "[+8]% [Production] [in capital] <when above [0] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [1] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [1] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [1] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [2] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [2] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [2] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [3] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [3] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [3] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [4] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [4] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [4] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [5] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [5] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [5] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [6] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [6] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [6] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [7] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [7] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [7] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [8] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [8] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [8] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [9] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [9] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [9] [Resource.CityNumber]>",
 		"[+8]% [Science] [in capital] <when above [10] [Resource.CityNumber]>",
-		"[+8]% [Culture] [in capital] <when above [10] [Resource.CityNumber]>",
 		"[+8]% [Production] [in capital] <when above [10] [Resource.CityNumber]>",
 
 		"[-5]% [Science] [in all cities]",
-		"[-5]% [Culture] [in all cities]",
 		"[-5]% [Production] [in all cities]",
 
 		"[+18]% Strength <for [Military] units> <if [Gov.Monarchy] is constructed>",
 		"[+18]% Strength <for [Military] units> <if [Gene.junzhuchuancheng] is constructed>"
 		],
-		"uniqueText":"Capital: +8x% [Science],[Culture]and[Production] (maximum 80%)\nOther cities: -5% [Science],[Culture]和[Production]\n(x represents the number of cities)\n+18% Strength for Military units when adopting [Gov.Monarchy] or [Gene.junzhuchuancheng]",
+		"uniqueText":"Capital: +8x% [Science]and[Production] (maximum 80%)\nOther cities: -5% [Science]和[Production]\n(x represents the number of cities)\n+18% Strength for Military units when adopting [Gov.Monarchy] or [Gene.junzhuchuancheng]",
 
 		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
 	},
@@ -895,22 +882,29 @@
 		"cities": ["Hanoi","Ho Chi Minh City","Da Nang","Hoi An","Nha Trang","Hue","Ha Long","Phu Quoc","Vung Tau","Can Tho","Mui Ne","Sapa","Dalat","Hai Phong","Quy Nhon","Phan Thiet","Tam Coc","Cat Ba","Mekong Delta","Hoa Lu","Phong Nha","Cao Bang","Buon Ma Thuot","Qui Nhon","My Tho","Bien Hoa","Rach Gia","Ben Tre","Ha Giang","Dien Bien Phu"]
 	},
 	{//亚特兰蒂斯
-		"name": "Nation.Vietnam",
-		"leaderName": "Lady Trieu",
-		"outerColor": [192, 150, 23],
-		"innerColor": [92, 38, 104],
+		"name": "Nation.Atlantis",
+		"leaderName": "Poseidon",
+		"outerColor": [0, 153, 204],
+		"innerColor": [255, 255, 255],
 
-		"startBias": ["Landform.Forest"],
-		"preferredVictoryType": "VictoryType.Culture",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "VictoryType.Science",
 
-		"uniqueName": "Pearl River Delta",
-		"uniques": ["[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
-			"[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>",
-			"[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>",
-			"[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>"],
-		// "uniqueText":"[[{Military} {Land}] units gain the [Promotion.Hidden] promotion]\n'[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>'\n[[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>]\n[[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>]",
+		"uniqueName": "Poseidon Worship",
+		"uniques": ["[UnitType.RangedInfantry] units gain the [Promotion.Atlantis] promotion",
+			"Defense bonus when embarked",
+			"[-25]% [Production] [in all cities] <hidden from users>",
+			"[+25]% [Production] [in all coastal cities] <hidden from users>",
+			"-25 Production in non-coastal cities",
+			"Discover [Tech.AstronomicalNavigation] <upon entering the [Era.Classical]>",
+			"Discover [Tech.Shipbuilding] <upon entering the [Era.Medieval]>",
+			"Discover [Tech.Cartography] <upon entering the [Era.Renaissance]>"],
 
-		"cities": ["Hanoi","Ho Chi Minh City","Da Nang","Hoi An","Nha Trang","Hue","Ha Long","Phu Quoc","Vung Tau","Can Tho","Mui Ne","Sapa","Dalat","Hai Phong","Quy Nhon","Phan Thiet","Tam Coc","Cat Ba","Mekong Delta","Hoa Lu","Phong Nha","Cao Bang","Buon Ma Thuot","Qui Nhon","My Tho","Bien Hoa","Rach Gia","Ben Tre","Ha Giang","Dien Bien Phu"]
+		"civilopediaText":[
+			{"text": "Promotion.Atlantis","link": "Promotion/Promotion.Atlantis"}
+		],
+
+		"cities": ["Alania","Serrastia","Isilia","Santolia","Atlenia","Alexsis","Arcadia","Sirenia","Elisya","Orlisda","Yarxia","Teralis","Astrala","Apollonia","Seltis","Merlia","Istantisia","Elliot","Melfis","Icalia"]
 	},
 
 

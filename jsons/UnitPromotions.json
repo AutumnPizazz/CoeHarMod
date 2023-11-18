@@ -1097,6 +1097,16 @@
 			{"text": "Nation.Vietnam","link": "Nation/Nation.Vietnam"}
 		]
 	},
+	{//亚特兰蒂斯
+		"name": "Promotion.Atlantis",
+		"uniques": ["May attack when embarked",
+			"Ranged attacks may be performed over obstacles <when [Embarked]>",
+			"Can see over obstacles <when [Embarked]>",
+			"[+1] Range <when [Embarked]>"],
+		"civilopediaText":[
+			{"text": "Nation.Atlantis","link": "Nation/Nation.Atlantis"}
+		]
+	}
 
 
 ]

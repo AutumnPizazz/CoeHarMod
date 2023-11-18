@@ -1648,5 +1648,25 @@
 			"[+3 Production] <with [6] to [7] neighboring [Landform.Hill] tiles>"
 		],
 		"techRequired": "Tech.Project"
+	},
+	{//亚特兰蒂斯-磁欧石
+		"name": "Improvement.Magnetite",
+		"uniqueTo": "Nation.Atlantis",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"production":1,
+		"uniques": [
+			"Provides [1] [Resource.houseLimitation]",
+			"Provides [1] [Resource.houseLimitation] <after discovering [Tech.OceanHome]>",
+			"[+1 Food] <with [1] to [6] neighboring [City center] tiles>",
+			"[+1 Food, +1 Production] for each adjacent [Class.Harbor]",
+			"[+2 Gold] <after discovering [Tech.Cartography]>",
+			"[+1 Food] <after discovering [Tech.Plastic]>",
+			"[+1 Production] <after discovering [Civic.Colonialism]>",
+			"[+1 Production] <after adopting [Pantheon.FishingTradition]>",
+			"[+1 Production] <after adopting [Pantheon.OceanGod]>",
+			"[+1 Culture] <after adopting [Pantheon.TidalGoddess]>",
+			"[+1 Faith] <after adopting [Pantheon.DragonPrayerCeremony]>"
+		],
+		"techRequired": "Tech.NauticalArt"
 	}
 ]

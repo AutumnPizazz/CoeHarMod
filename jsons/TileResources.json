@@ -481,6 +481,12 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
+	{//辅助计数器1
+		"name":"Resource.AuxiliaryCounter1",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
 	{//美利坚-新政法案
 		"name": "Resource.NewDealLegislation",
 		"revealedBy": "Tech.UniqueToUnitedStates",
