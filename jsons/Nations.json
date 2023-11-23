@@ -17,7 +17,7 @@
 		"uniqueName": "Roman Legions",
 		"uniques": ["Gain a free [Building.Monument] [in all cities]",
 		"[-1 Culture] from every [Building.Monument] <before discovering [Civic.EarlyEmpire]>",
-		"[-50]% tile improvement construction time"], 
+		"[-50]% construction time for [All Road] improvements"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
 	

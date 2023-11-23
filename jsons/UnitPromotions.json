@@ -1100,6 +1100,7 @@
 	{//亚特兰蒂斯
 		"name": "Promotion.Atlantis",
 		"uniques": ["May attack when embarked",
+			"Eliminates combat penalty for attacking across a coast",
 			"Ranged attacks may be performed over obstacles <when [Embarked]>",
 			"Can see over obstacles <when [Embarked]>",
 			"[+1] Range <when [Embarked]>"],

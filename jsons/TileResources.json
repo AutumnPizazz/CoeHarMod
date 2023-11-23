@@ -89,7 +89,7 @@
 		"food": 1,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [10] tiles <in [Featureless] [Coast] tiles>","Class.ResourceOnWater"]
+					"Generated on every [6] tiles <in [Featureless] [Coast] tiles>","Class.ResourceOnWater"]
 	},
 	{//螃蟹
 		"name": "Resource.Crab",
@@ -98,7 +98,7 @@
 		"gold": 2,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["[-2 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [10] tiles <in [Featureless] [Coast] tiles>","Class.ResourceOnWater"]
+					"Generated on every [8] tiles <in [Featureless] [Coast] tiles>","Class.ResourceOnWater"]
 	},
 	{//美洲牛
 		"name": "Resource.Bison",

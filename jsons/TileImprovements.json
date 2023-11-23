@@ -439,15 +439,15 @@
 			"Only available <in tiles without [Strategic resource]> <hidden from users>",
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
-					"Tile provides yield without assigned population",
-					"[+1 Culture] for each adjacent [Class.District]",
-					"Cannot be built on [Resource.EarthVeins] tiles",
-					"Gives a defensive bonus of [28]%",
-					"Removes removable features when built",
-					"Irremovable",
-					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Class.District",
-					"Class.Army"]
+			"Tile provides yield without assigned population",
+			"[+1 Culture] for each adjacent [Class.District]",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Gives a defensive bonus of [28]%",
+			"Removes removable features when built",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.District",
+			"Class.Army"]
 	},
 	{//水渠
 		"name": "District.Raceline",
@@ -474,17 +474,18 @@
 		"uniques": [
 			"Only available <in tiles without [Strategic resource]> <hidden from users>",
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+			"Only available <with [1] to [1] neighboring [City center] tiles> <hidden from users>",
 			"Great Improvement",
-					"Can only be built on [River] tiles",
-					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource.EarthVeins] tiles",
-					"Removes removable features when built",
-					"Irremovable",
-					"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
-					"[+2 Happiness] for each adjacent [Landform.GeothermalFissure]",
-					"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Class.District",
-					"Class.Raceline"]
+			"Can only be built on [River] tiles",
+			"Tile provides yield without assigned population",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Removes removable features when built",
+			"Irremovable",
+			"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
+			"[+2 Happiness] for each adjacent [Landform.GeothermalFissure]",
+			"Ensures a minimum tile yield of [+0 Production, +4 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.District",
+			"Class.Raceline"]
 	},
 	{//冰岛-草屋
 		"name": "District.Torfbair",
@@ -494,20 +495,21 @@
 		"uniques": [
 			"Only available <in tiles without [Strategic resource]> <hidden from users>",
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+			"Only available <with [1] to [1] neighboring [City center] tiles> <hidden from users>",
 			"Great Improvement",
-					"Can only be built on [River] tiles",
-					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource.EarthVeins] tiles",
-					"Removes removable features when built",
-					"Irremovable",
-					"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
-					"[+1 Food, +1 Production] for each adjacent [Landform.Volcano]",
-					"[+1 Food, +1 Production] for each adjacent [Landform.VolcanicSoil]",
-					"[+1 Food, +1 Production] for each adjacent [Landform.GeothermalFissure]",
-					"[+1 Food, +1 Production] for each adjacent [Natural Wonder]",
-					"Ensures a minimum tile yield of [+2 Production, +2 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Class.District",
-					"Class.Raceline"]
+			"Can only be built on [River] tiles",
+			"Tile provides yield without assigned population",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Removes removable features when built",
+			"Irremovable",
+			"[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall]",
+			"[+1 Food, +1 Production] for each adjacent [Landform.Volcano]",
+			"[+1 Food, +1 Production] for each adjacent [Landform.VolcanicSoil]",
+			"[+1 Food, +1 Production] for each adjacent [Landform.GeothermalFissure]",
+			"[+1 Food, +1 Production] for each adjacent [Natural Wonder]",
+			"Ensures a minimum tile yield of [+2 Production, +2 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.District",
+			"Class.Raceline"]
 	},
 	{//保护区
 		"name": "District.ProtectionZone",
@@ -516,14 +518,14 @@
 			"Only available <in tiles without [Strategic resource]> <hidden from users>",
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
-					"Constructing it will take over the tiles around it and assign them to your closest city",
-					"Tile provides yield without assigned population",
-					"Cannot be built on [Resource.EarthVeins] tiles",
-					"Removes removable features when built",
-					"Irremovable",
-					"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-					"Class.District",
-					"Class.ProtectionZone"]
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Tile provides yield without assigned population",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Removes removable features when built",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
+			"Class.District",
+			"Class.ProtectionZone"]
 	},
 	
 	/*全文明通用改良*/
@@ -533,16 +535,16 @@
 		"food": 1,
 		"techRequired": "Tech.Civic.Agriculture",
 		"uniques": [
-		"Provides [1] [Resource.houseLimitation]",
-		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
-		"[+1 Food] <with [2] to [3] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
-		"[+2 Food] <with [4] to [5] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
-		"[+3 Food] <with [6] to [7] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
-		"[+1 Food] for each adjacent [Improvement.Farm] <after discovering [Tech.PartSpecification]>",
-		"[+1 Gold] for each adjacent [Distict.LearningAcademy]",
-        "Pillaging this improvement yields approximately [+18 Gold]",
-		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.UsualImprovement"]
+			"Provides [1] [Resource.houseLimitation]",
+			"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
+			"[+1 Food] <with [2] to [3] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
+			"[+2 Food] <with [4] to [5] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
+			"[+3 Food] <with [6] to [7] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
+			"[+1 Food] for each adjacent [Improvement.Farm] <after discovering [Tech.PartSpecification]>",
+			"[+1 Gold] for each adjacent [Distict.LearningAcademy]",
+			"Pillaging this improvement yields approximately [+18 Gold]",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Class.UsualImprovement"]
 	},
 	{//伐木场
 		"name": "Improvement.LumberMill",
@@ -550,10 +552,10 @@
 		"production": 2,
 		"techRequired": "Tech.Build",
 		"uniques": ["[+1 Production] <after discovering [Tech.Steel]>",
-		"[+1 Production] <after discovering [Tech.Cybernetics]>",
-		"Pillaging this improvement yields approximately [+18 Gold]",
-		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.UsualImprovement"]
+			"[+1 Production] <after discovering [Tech.Cybernetics]>",
+			"Pillaging this improvement yields approximately [+18 Gold]",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Class.UsualImprovement"]
 	},
 	{//矿山
 		"name": "Improvement.Mine",
@@ -561,16 +563,16 @@
 		"production": 1,
 		"techRequired": "Tech.Mining",
 		"uniques": ["[+1 Production] <after discovering [Tech.Apprentices]>",
-		"[+1 Production] <after discovering [Tech.Industrialization]>",
-		"[+1 Production] <after discovering [Tech.SmartMaterials]>",
-		"Does not need removal of [Landform.Forest]",
-		"Does not need removal of [Landform.Rainforest]",
-		"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.Math]>",
-		"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.ScientificTheory]>",
-		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.Industrials",
-		"Class.UsualImprovement"]
+			"[+1 Production] <after discovering [Tech.Industrialization]>",
+			"[+1 Production] <after discovering [Tech.SmartMaterials]>",
+			"Does not need removal of [Landform.Forest]",
+			"Does not need removal of [Landform.Rainforest]",
+			"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.Math]>",
+			"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.ScientificTheory]>",
+			"Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Class.Industrials",
+			"Class.UsualImprovement"]
 	},
 	{//人工养殖林
 		"name": "Improvement.Manufactory",
@@ -578,10 +580,10 @@
 		"production": 3,
 		"techRequired": "Civic.EarthProtection",
 		"uniques": ["Gives a defensive bonus of [13]%",
-		"[+1 Production] <after discovering [Tech.SmartMaterials]>",
-		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.UsualImprovement"]
+			"[+1 Production] <after discovering [Tech.SmartMaterials]>",
+			"Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Resource.EarthVeins] tiles",
+			"Class.UsualImprovement"]
 	},
 	{//渔场
 		"name": "Improvement.Fishery",
@@ -589,9 +591,9 @@
 		"food": 1,
 		"techRequired": "Tech.NauticalArt",
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"[+1 Food] for each adjacent [Class.ResourceOnWater]",
-		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class.UsualImprovement"]
+			"[+1 Food] for each adjacent [Class.ResourceOnWater]",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//海洋家园
 		"name": "Improvement.Seastead",
@@ -599,10 +601,10 @@
 		"food": 2,
 		"techRequired": "Tech.OceanHome",
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"[+1 Production] for each adjacent [Improvement.FishingBoat]",
-		"[+1 Culture] for each adjacent [Landform.Reef]",
-		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class.UsualImprovement"]
+			"[+1 Production] for each adjacent [Improvement.FishingBoat]",
+			"[+1 Culture] for each adjacent [Landform.Reef]",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Class.UsualImprovement"]
 	},
 
 	//专门用于收获资源的改良
@@ -611,73 +613,73 @@
 		"techRequired": "Tech.AnimalHusbandry",
 		"gold":2,
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"Does not need removal of [Landform.Forest]",
-		"Does not need removal of [Landform.Rainforest]",
-		"Does not need removal of [Landform.Swamp]",
-		"[+1 Production, +1 Food] <after discovering [Civic.Mercantilism]>",
-		"[+2 Gold] <after discovering [Tech.Synthetic]>",
-		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+25 Gold]",
-		"Class.UsualImprovement"]
+			"Does not need removal of [Landform.Forest]",
+			"Does not need removal of [Landform.Rainforest]",
+			"Does not need removal of [Landform.Swamp]",
+			"[+1 Production, +1 Food] <after discovering [Civic.Mercantilism]>",
+			"[+2 Gold] <after discovering [Tech.Synthetic]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+25 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//油井
 		"name": "Improvement.OilWell",
 		"techRequired": "Tech.Refining",
 		"production":2,
 		"uniques": ["Can only be built to improve a resource",
-		"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
-		"Pillaging this improvement yields approximately [+30 Gold]",
-		"Class.UsualImprovement"]
+			"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//海上石油钻机
 		"name": "Improvement.OffshoreOilRig",
 		"techRequired": "Tech.Plastic",
 		"production":2,
 		"uniques": ["Can only be built to improve a resource",
-		"Can only be built on [Water] tiles",
-		"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
-		"Pillaging this improvement yields approximately [+30 Gold]",
-		"Class.UsualImprovement"]
+			"Can only be built on [Water] tiles",
+			"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//牧场
 		"name": "Improvement.Pasture",
 		"techRequired": "Tech.AnimalHusbandry",
 		"production":1,
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"[+1 Food] <after discovering [Tech.Stirrups]>",
-		"[+1 Production] <after discovering [Tech.PartSpecification]>",
-		"[+1 Food] <after discovering [Tech.Robotics]>",
-		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+10 Gold]",
-		"Class.UsualImprovement"]
+			"[+1 Food] <after discovering [Tech.Stirrups]>",
+			"[+1 Production] <after discovering [Tech.PartSpecification]>",
+			"[+1 Food] <after discovering [Tech.Robotics]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//种植园
 		"name": "Improvement.Plantation",
 		"gold": 2,
 		"techRequired": "Tech.Irrigation",
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
-		"[+1 Food] <after discovering [Tech.ScientificTheory]>",
-		"[+1 Food] <after discovering [Civic.Feudalism]>",
-		"[+2 Gold] <after discovering [Civic.Globalization]>",
-		"Does not need removal of [Landform.Swamp]",
-		"Does not need removal of [Landform.Rainforest]",
-		"Does not need removal of [Landform.Forest]",
-		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class.UsualImprovement"]
+			"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
+			"[+1 Food] <after discovering [Tech.ScientificTheory]>",
+			"[+1 Food] <after discovering [Civic.Feudalism]>",
+			"[+2 Gold] <after discovering [Civic.Globalization]>",
+			"Does not need removal of [Landform.Swamp]",
+			"Does not need removal of [Landform.Rainforest]",
+			"Does not need removal of [Landform.Forest]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//采石场
 		"name": "Improvement.Quarry",
 		"techRequired": "Tech.Mining",
 		"production":1,
 		"uniques": ["[+1 Production] <after discovering [Tech.Gunpowder]>",
-		"[+1 Production] <after discovering [Tech.RocketResearch]>",
-		"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
-		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class.Industrials",
-		"Class.UsualImprovement"]
+			"[+1 Production] <after discovering [Tech.RocketResearch]>",
+			"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Class.Industrials",
+			"Class.UsualImprovement"]
 	},
 	{//渔船
 		"name": "Improvement.FishingBoat",
@@ -685,13 +687,13 @@
 		"food": 1,
 		"techRequired": "Tech.NauticalArt",
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
-		"[+2 Gold] <after discovering [Tech.Cartography]>",
-		"[+1 Food] <after discovering [Tech.Plastic]>",
-		"[+1 Production] <after discovering [Civic.Colonialism]>",
-		"[+1 Production] for each adjacent [Improvement.Seastead]",
-		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Class.UsualImprovement"]
+			"[+2 Gold] <after discovering [Tech.Cartography]>",
+			"[+1 Food] <after discovering [Tech.Plastic]>",
+			"[+1 Production] <after discovering [Civic.Colonialism]>",
+			"[+1 Production] for each adjacent [Improvement.Seastead]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Class.UsualImprovement"]
 	},
 	{//地脉开采器
 		"name": "Improvement.EarthVeinsExploiter",
@@ -704,8 +706,8 @@
 		"faith":1,
 		"techRequired": "Tech.UniqueToGoldenDawn2",
 		"uniques": ["Provides [2] [Resource.houseLimitation]",
-		"Can only be built to improve a resource",
-		"Unpillagable"]
+			"Can only be built to improve a resource",
+			"Unpillagable"]
 	},
 	{//地热发电厂
 		"name": "Improvement.GeothermalPowerPlant",
@@ -714,8 +716,8 @@
 		"science":1,
 		"techRequired": "Tech.Synthetic",
 		"uniques": ["Provides [2] [Resource.Electricity]",
-		"Pillaging this improvement yields approximately [+20 Science]",
-		"Class.UsualImprovement"]
+			"Pillaging this improvement yields approximately [+20 Science]",
+			"Class.UsualImprovement"]
 	},
 	{//受保护区块
 		"name": "Improvement.ProtectionZone",
@@ -726,7 +728,7 @@
 			"Does not need removal of [Landform.Swamp]",
 			"Does not need removal of [Landform.Rainforest]",
 			"Does not need removal of [Landform.Forest]",
-		"Pillaging this improvement yields approximately [+10 Culture]"]
+			"Pillaging this improvement yields approximately [+10 Culture]"]
 	},
 
 	//军事设施
@@ -882,6 +884,8 @@
 		"happiness":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Can only be built on [River] tiles",
 			"Tile provides yield without assigned population",
@@ -901,6 +905,8 @@
 		"happiness":-10,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Swamp"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
@@ -914,6 +920,8 @@
 		"name":"District.GardenInTheAir",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Swamp"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -926,6 +934,8 @@
 		"name":"District.EtemenankiTemple",
 		"terrainsCanBeBuiltOn": ["Landform.Swamp","Landform.AlluvialPlain"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -937,6 +947,8 @@
 		"name":"District.TempleOfArtemis",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -949,6 +961,8 @@
 		"name":"District.TheGreatPyramids",
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -961,6 +975,8 @@
 		"name":"District.Oracle",
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -973,6 +989,8 @@
 		"name":"District.TheGreatLighthouse",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -985,6 +1003,8 @@
 		"name":"District.JebelBarkal",
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -996,6 +1016,8 @@
 		"name":"District.RomanColosseum",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1008,6 +1030,8 @@
 		"name":"District.Colossus",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1032,6 +1056,8 @@
 		"name":"District.ApadanaPalace",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1044,6 +1070,8 @@
 		"name":"District.TerraCottaWarriors",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1056,6 +1084,8 @@
 		"name":"District.MachuPicchu",
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1068,6 +1098,8 @@
 		"name":"District.StatueOfZeus",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1080,6 +1112,8 @@
 		"name":"District.MausoleumAtHalicarnassus",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1092,6 +1126,8 @@
 		"name":"District.TheGreatLibrary",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1110,6 +1146,8 @@
 		"name":"District.MakobodhiTemple",
 		"terrainsCanBeBuiltOn": ["Landform.Forest"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1122,6 +1160,8 @@
 		"name":"District.HagiaSophia",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1134,6 +1174,8 @@
 		"name":"District.HuiyiTemple",
 		"terrainsCanBeBuiltOn": ["Lakes"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1158,6 +1200,8 @@
 		"name":"District.UniversityOfSankore",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Swamp"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1170,6 +1214,8 @@
 		"name":"District.MaebadAlkurnak",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1182,6 +1228,8 @@
 		"name":"District.AngkorWat",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1194,6 +1242,8 @@
 		"name":"District.ChichenItza",
 		"terrainsCanBeBuiltOn": ["Landform.Rainforest"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1206,6 +1256,8 @@
 		"name":"District.AlhambraPalace",
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Gives a defensive bonus of [28]%",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -1220,6 +1272,8 @@
 		"name":"District.MontSaintMichel",
 		"terrainsCanBeBuiltOn": ["Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1231,6 +1285,8 @@
 		"name":"District.Kotokuin",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1243,6 +1299,8 @@
 		"name":"District.WestIndiaExchange",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1255,6 +1313,8 @@
 		"name":"District.VenetianArmory",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1267,6 +1327,8 @@
 		"name":"District.GreatZimbabwe",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1279,6 +1341,8 @@
 		"name":"District.ForbiddenCity",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1291,6 +1355,8 @@
 		"name":"District.TajMahal",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1303,6 +1369,8 @@
 		"name":"District.StBasilsCathedral",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1315,6 +1383,8 @@
 		"name":"District.PotalaPalace",
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1328,6 +1398,8 @@
 		"name":"District.RuhrValley",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1341,6 +1413,8 @@
 		"name":"District.Oxford",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1353,6 +1427,8 @@
 		"name":"District.StatueOfLiberty",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1365,6 +1441,8 @@
 		"name":"District.BolshoiTheatre",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1378,6 +1456,8 @@
 		"name":"District.PanamaCanal",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1390,6 +1470,8 @@
 		"name":"District.HungarianParliamentBuilding",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1402,6 +1484,8 @@
 		"name":"District.BigBen",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1415,6 +1499,8 @@
 		"name":"District.HermitageMuseum",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1427,6 +1513,8 @@
 		"name":"District.EiffelTower",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1439,6 +1527,8 @@
 		"name":"District.Broadway",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1451,6 +1541,8 @@
 		"name":"District.StatueofChristtheRedeemer",
 		"terrainsCanBeBuiltOn": ["Landform.Hill"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1463,6 +1555,8 @@
 		"name":"District.GoldenGateBridge",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Gives a defensive bonus of [28]%",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -1476,6 +1570,8 @@
 		"name":"District.Biosphere",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1488,6 +1584,8 @@
 		"name":"District.SydneyOperaHouse",
 		"terrainsCanBeBuiltOn": ["Coast"],//看情况改
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1500,6 +1598,8 @@
 		"name":"District.MaracanaStadium",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1512,6 +1612,8 @@
 		"name":"District.Amundsen-ScottSouthPoleStation",
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"uniques": [
+			"Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
