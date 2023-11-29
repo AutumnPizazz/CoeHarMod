@@ -50,21 +50,12 @@
 		"preferredVictoryType": "VictoryType.Culture",
 
 		"uniqueName": "Yongle Prosperity",
-		// "uniqueText":"人口不小于10的城市(大城市)的数量=1时,帝国[+6 Science][+6 Culture][+12 Gold]且这些城市每5人口[+1 Happiness]\n大城市数量=2时,帝国[+18 Science][+18 Culture][+30 Gold]且这些城市每4人口[+1 Happiness]\n大城市数量≥3时,帝国[+30 Science][+30 Culture][+50 Gold]且这些城市每3人口[+1 Happiness]\n驻有总督的城市人口增长所需[Food]减少30%",
 		"uniques": [
 			"[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
-			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>"
-
-			// "[+6 Science, +6 Culture, +12 Gold] <when above [0] [Resource.LargeCityNumber]> <when below [2] [Resource.LargeCityNumber]>",
-			// "[+1 Happiness] per [5] population [in all cities] <in cities with at least [10] [Population]> <when above [0] [Resource.LargeCityNumber]> <when below [2] [Resource.LargeCityNumber]>",
-			// "[+18 Science, +18 Culture, +30 Gold] <when above [1] [Resource.LargeCityNumber]> <when below [3] [Resource.LargeCityNumber]>",
-			// "[+1 Happiness] per [4] population [in all cities] <in cities with at least [10] [Population]> <when above [1] [Resource.LargeCityNumber]> <when below [3] [Resource.LargeCityNumber]>",
-			// "[+30 Science, +30 Culture, +50 Gold] <when above [2] [Resource.LargeCityNumber]>",
-			// "[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
-			// "[-30]% Food is carried over after population increases [in all cities] <in cities with a [Class.Governor.Level1]>",
-			// "[+23]% Strength <for [Military] units> <when fighting in [Improvement.MingGreatWall] tiles> <when defending>"
-
-],
+			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
+            "Comment [为所有建造者+1使用次数]",
+            "Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
+		],
 	
 		"cities": ["北京", "南京", "苏州", "杭州", "西安", "开封", "武汉", "长沙", "福州", "广州", "泉州", "宁波", "绍兴", "温州", "台州", "扬州", "成都", "昆明", "兰州", "郑州"],
 
@@ -653,15 +644,17 @@
 		"preferredVictoryType": "VictoryType.Culture",
 		"uniqueName": "Mana",
 		"uniques": ["Enables embarkation for land units <starting from the [Era.Ancient]>",
-		"Enables [All] units to enter ocean tiles <starting from the [Era.Ancient]>",
-		"[+1] Movement <for [Embarked] units>",
-		"[+1 Food] from every [Improvement.FishingBoat]",
-		"Cannot build [Unit.Lumberjack] units",
-		"[+1 Production] from [Vegetation] tiles [in all coastal cities]",
-		"[+1 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.Mercantilism]>",
-		"[+2 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.EarthProtection]>",
-		"Discover [Tech.NauticalArt] <upon founding a city>",
-		"[+2 Science, +2 Culture] <before discovering [Tech.NauticalArt]>"
+			"Enables [All] units to enter ocean tiles <starting from the [Era.Ancient]>",
+			"[+1] Movement <for [Embarked] units>",
+			"[+1 Food] from every [Improvement.FishingBoat]",
+			"Cannot build [Unit.Lumberjack] units",
+			"[+1 Production] from [Vegetation] tiles [in all coastal cities]",
+			"[+1 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.Mercantilism]>",
+			"[+2 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.EarthProtection]>",
+			"Discover [Tech.NauticalArt] <upon founding a city>",
+			// "[+2 Science, +2 Culture] <before discovering [Tech.NauticalArt]>",
+			"Gain [10] [Science] <upon founding a city> <in [Coastal] tiles>",
+			"Gain [10] [Culture] <upon founding a city> <in [Coastal] tiles>"
 		],
 
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui","Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu","Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia","Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"]
@@ -817,8 +810,8 @@
 		"name": "Nation.Shang",
 		"leaderName": "Pan Geng",
 		"adjective": ["Shang"],
-		"outerColor": [0, 0, 139], // 外略深蓝色
-		"innerColor": [255, 215, 0], // 金黄色
+		"outerColor": [246, 246, 246], // 浅白色
+		"innerColor": [0, 153, 153], // 青色
 
 		"startBias": ["River"],
 		"preferredVictoryType": "VictoryType.Culture",
@@ -893,9 +886,9 @@
 		"uniqueName": "Poseidon Worship",
 		"uniques": ["[UnitType.RangedInfantry] units gain the [Promotion.Atlantis] promotion",
 			"Defense bonus when embarked",
+			"Comment [-25% Production in non-coastal cities]",
 			"[-25]% [Production] [in all cities] <hidden from users>",
 			"[+25]% [Production] [in all coastal cities] <hidden from users>",
-			"-25 Production in non-coastal cities",
 			"Discover [Tech.AstronomicalNavigation] <upon entering the [Era.Classical]>",
 			"Discover [Tech.Shipbuilding] <upon entering the [Era.Medieval]>",
 			"Discover [Tech.Cartography] <upon entering the [Era.Renaissance]>"],
@@ -904,7 +897,26 @@
 			{"text": "Promotion.Atlantis","link": "Promotion/Promotion.Atlantis"}
 		],
 
-		"cities": ["Alania","Serrastia","Isilia","Santolia","Atlenia","Alexsis","Arcadia","Sirenia","Elisya","Orlisda","Yarxia","Teralis","Astrala","Apollonia","Seltis","Merlia","Istantisia","Elliot","Melfis","Icalia"]
+		"cities":["Alania","Serrastia","Isilia","Santolia","Atlenia","Alexsis","Arcadia","Sirenia","Elisya","Orlisda","Yarxia","Teralis","Astrala","Apollonia","Seltis","Merlia","Istantisia","Elliot","Melfis","Icalia"]
+	},
+	{//挪威
+		"name": "Nation.Norway",
+		"leaderName": "Harald",
+		"outerColor": [214, 40, 40],
+		"innerColor": [0, 32, 91],
+
+		"startBias": ["Coast"],
+		"preferredVictoryType": "VictoryType.Domination",
+
+		"uniqueName": "Northern Thunder",
+		"uniques": [
+			"Comment [初始即发现全图遗迹位置]",
+			"Reveal up to [All] [Ancient ruins] within a [1023] tile radius <hidden from users>",
+			"May heal outside of friendly territory <for [{Military} {Water}] units>",
+			"[+50]% Production when constructing [UnitType.ShortRangedNaval] units [in all cities]"
+		],
+
+		"cities": ["Oslo","Bergen","Trondheim","Stavanger","Drammen","Fredrikstad","Kristiansand","Sandnes","Tromsø","Sarpsborg","Skien","Ålesund","Sandefjord","Haugesund","Moss","Porsgrunn","Bodø","Arendal","Hamar","Ytrebygda"]
 	},
 
 

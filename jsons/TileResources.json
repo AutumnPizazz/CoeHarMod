@@ -307,16 +307,14 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Civic.PoliticalPhilosophy",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded"
-	]
+		"uniques": ["Cannot be traded"]
 	},
 	{//总督点数
 		"name": "Resource.GovernorTitle",
 		"resourceType": "Strategic",
 		"revealedBy": "Civic.Code",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Not shown on world screen"
-	]
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{//贸易路线容量
 		"name": "Resource.TradeRouteCapacity",
@@ -364,8 +362,7 @@
 		"name": "Resource.Influence",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
-		"uniques": ["Cannot be traded","Stockpiled"
-	]
+		"uniques": ["Cannot be traded","Stockpiled"]
 	},
 	{//区域限制
 		"name": "Resource.DistrictLimitation",
@@ -481,7 +478,7 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
-	{//辅助计数器1
+	{//辅助计数器1-用于金字塔使建造者使用次数+1
 		"name":"Resource.AuxiliaryCounter1",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [],
