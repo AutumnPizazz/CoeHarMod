@@ -13,8 +13,15 @@
 		"[+1]% Strength <for [Military] units> <vs [Nation.Yuan] units> <for [Nation.Ming]>",
 
 
-        /*政策树不花费文化*/
+        /*政策树不花费文化且自动推行第一级*/
         "[-100]% Culture cost of adopting new Policies",
+        "Adopt [Culture.Scientist]",
+        "Adopt [Culture.Merchant]",
+        "Adopt [Culture.Engineer]",
+        "Adopt [Culture.Prophet]",
+        "Adopt [Culture.Artist]",
+        "Adopt [Culture.General]",
+        "Adopt [Culture.Admiral]",
 
         
         /*宜居度奖惩*/

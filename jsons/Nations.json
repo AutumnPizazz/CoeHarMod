@@ -167,7 +167,7 @@
 		"uniqueName": "Mayab",
 //		"uniqueText":"",
 		"uniques": ["Fresh and salt water do not provide additional housing",
-		"Get 1 extra Resource.houseLimitation from Improvement.Farm and Improvement.Plantation",
+		"Comment [Get 1 extra Resource.houseLimitation from Improvement.Farm and Improvement.Plantation]",
 		"Free [Unit.Farmer] appears <upon founding a city>"
 	],
 		
@@ -258,11 +258,11 @@
 		"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
 		"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
 		"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] [in all cities]",
+		"Comment [-30% [Production] in all cities when constructing Buildings or Units]",
 		"[-30]% [Production] [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [All] wonders [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [UnitType.GreatPersonProject] units [in all cities] <hidden from users>",
-		"-30% [Production] in all cities when constructing Buildings or Units",
 		"[-1 Production, +3 Gold] from every [Landform.Hill] <in tiles without [Class.District]>",
 		"[+1 Gold] from [Desert] tiles [in all cities] <in tiles without [Class.District]> <in cities with a [Building.DistrictUnique.MandingoMarket]>"],
 
@@ -298,7 +298,7 @@
 		"preferredVictoryType": "VictoryType.Domination",
 		
 		"uniqueName": "Grand Vizier",
-		"uniques": ["Civilization-unique Governor: Grand Vizier",
+		"uniques": ["Comment [Civilization-unique Governor: Grand Vizier]",
 		"Provides [1] [Resource.GovernorTitle] <after discovering [Tech.Gunpowder]>"],
 		"civilopediaText":[
 /*      {"separator":true,"color":"#FFFFFF","size":2},*/
@@ -478,9 +478,11 @@
 		"preferredVictoryType": "VictoryType.Domination",
 		
 		"uniqueName": "Emperor Khan",
-		"uniques": ["[+23]% Strength <for [Military] units> <vs [City-State] units>",
-		"[+23]% Strength <for [Military] units> <vs [Barbarians] units>",
-		"[+1] Movement <for [All] units> <in [Enemy Land] tiles>"],
+		"uniques": [
+			"[+23]% Strength <for [Military] units> <vs [City-State] units>",
+			"[+23]% Strength <for [Military] units> <vs [Barbarians] units>",
+			"[+1] Movement <for [All] units> <in [Enemy Land] tiles>"
+		],
 		
 		"cities": ["长安", "洛阳", "敦煌", "开封", "兰州", "太原", "成都", "杭州", "扬州", "南京", "广州", "咸阳", "郑州", "武汉", "重庆", "北京", "上海", "深圳", "天津", "苏州", "青岛", "福州", "南宁", "乌鲁木齐", "贵阳", "昆明", "哈尔滨", "沈阳", "厦门", "南宁", "海口", "大连"],
 		
@@ -569,7 +571,7 @@
 		"preferredVictoryType": "VictoryType.Domination",
 		
 		"uniqueName": "Corsican Monster",
-		"uniques": ["Enemy wounded units have a -13% combat effectiveness against our units",
+		"uniques": ["Comment [Enemy wounded units have a -13% combat effectiveness against our units]",
 		"Heals [15] damage if it kills a unit <for [Military] units>",
 		"Earn [50]% of the damage done to [City] units as [Gold]"],
 		
@@ -628,7 +630,8 @@
 		"uniqueName": "Non-violent non-cooperation",
 		"uniques": ["Gain [100] [Faith] <upon declaring friendship>",
 		"All newly-trained [Unit.Missionary] units [in all cities] receive the [Promotion.Devout2] promotion",
-		"[+2 Faith] from each Trade Route"
+		"[+2 Faith] from each Trade Route",
+		"Comment [每个圣地区域及其建筑提供1大将军点数]"
 		],
 
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]

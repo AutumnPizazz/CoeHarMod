@@ -1,28 +1,28 @@
 [
     {
         "name": "Gain [20] [Culture]",
-        "notification": "我们从遗迹中发现了前人的智慧-获得了20[Culture]文化",
+        "notification": "我们从遗迹中发现了前人的智慧-获得了[Culture]文化",
         "uniques": ["Gain [20] [Culture]",
             "Only available <before [30] turns>"],
         "weight":5
     },
     {
         "name": "Gain [20] [Science]",
-        "notification": "我们从遗迹中发现了前人的智慧-获得了20[Science]科研",
+        "notification": "我们从遗迹中发现了前人的智慧-获得了[Science]科研",
         "uniques": ["Gain [20] [Science]",
             "Only available <before [30] turns>"],
         "weight":5
     },
     {
         "name": "Gain [30] [Culture]",
-        "notification": "我们从遗迹中发现了前人的智慧-获得了30[Culture]文化",
+        "notification": "我们从遗迹中发现了前人的智慧-获得了[Culture]文化",
         "uniques": ["Gain [30] [Culture]",
             "Only available <after [29] turns>"],
         "weight":5
     },
     {
         "name": "Gain [30] [Science]",
-        "notification": "我们从遗迹中发现了前人的智慧-获得了30[Science]科研",
+        "notification": "我们从遗迹中发现了前人的智慧-获得了[Science]科研",
         "uniques": ["Gain [30] [Science]",
             "Only available <after [29] turns>"],
         "weight":5

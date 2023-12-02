@@ -484,6 +484,12 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
 	},
+	{//辅助计数器2-用于区分大将军和海军统帅的时代
+		"name":"Resource.AuxiliaryCounter2",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
 	{//美利坚-新政法案
 		"name": "Resource.NewDealLegislation",
 		"revealedBy": "Tech.UniqueToUnitedStates",
