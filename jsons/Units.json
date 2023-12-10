@@ -1666,8 +1666,8 @@
 		"attackSound": "shot",
 		"uniques":["[-28]% Strength <when attacking>",
 		"[-28]% Strength <when attacking> <vs cities>",
-		"Instantly consumes [8] [Resource.Iron]",
-		"Instantly provides [4] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
+		"Instantly consumes [10] [Resource.Iron]",
+		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
 		"Consumes [-1] [Resource.MilitaryMaintenance2]"]

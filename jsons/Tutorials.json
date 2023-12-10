@@ -1,7 +1,33 @@
 [
     {
-        "name":"-00 更新日志-当前版本v23.12.2",
+        "name":"-00 更新日志-当前版本v23.12.10",
         "civilopediaText":[
+            { 
+                "text": "v23.12.10",
+                "size":30
+            },
+            { 
+                "text": "1.调整【国家劳动力】和【帝国初期】的文化花费\n2.优化暂时不可建造的建筑显示\n3.调整【长生军】",
+                "size":20
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            { 
+                "text": "v23.12.3",
+                "size":30
+            },
+            { 
+                "text": "1.修复矿工不能正常工作的问题",
+                "size":20
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
             { 
                 "text": "v23.12.2",
                 "size":30
