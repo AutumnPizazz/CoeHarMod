@@ -544,7 +544,8 @@
 			"[+1 Gold] for each adjacent [Distict.LearningAcademy]",
 			"Pillaging this improvement yields approximately [+18 Gold]",
 			"Cannot be built on [Resource.EarthVeins] tiles",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//伐木场
 		"name": "Improvement.LumberMill",
@@ -555,7 +556,8 @@
 			"[+1 Production] <after discovering [Tech.Cybernetics]>",
 			"Pillaging this improvement yields approximately [+18 Gold]",
 			"Cannot be built on [Resource.EarthVeins] tiles",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//矿山
 		"name": "Improvement.Mine",
@@ -572,7 +574,8 @@
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Resource.EarthVeins] tiles",
 			"Class.Industrials",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//人工养殖林
 		"name": "Improvement.Manufactory",
@@ -583,7 +586,8 @@
 			"[+1 Production] <after discovering [Tech.SmartMaterials]>",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Resource.EarthVeins] tiles",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement2"]
 	},
 	{//渔场
 		"name": "Improvement.Fishery",
@@ -593,7 +597,8 @@
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
 			"[+1 Food] for each adjacent [Class.ResourceOnWater]",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement2"]
 	},
 	{//海洋家园
 		"name": "Improvement.Seastead",
@@ -604,7 +609,8 @@
 			"[+1 Production] for each adjacent [Improvement.FishingBoat]",
 			"[+1 Culture] for each adjacent [Landform.Reef]",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement2"]
 	},
 
 	//专门用于收获资源的改良
@@ -620,7 +626,8 @@
 			"[+2 Gold] <after discovering [Tech.Synthetic]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+25 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//油井
 		"name": "Improvement.OilWell",
@@ -629,7 +636,8 @@
 		"uniques": ["Can only be built to improve a resource",
 			"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
 			"Pillaging this improvement yields approximately [+30 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement2"]
 	},
 	{//海上石油钻机
 		"name": "Improvement.OffshoreOilRig",
@@ -639,7 +647,8 @@
 			"Can only be built on [Water] tiles",
 			"[+1 Production] <after discovering [Tech.ForecastingSystem]>",
 			"Pillaging this improvement yields approximately [+30 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement2"]
 	},
 	{//牧场
 		"name": "Improvement.Pasture",
@@ -651,7 +660,8 @@
 			"[+1 Food] <after discovering [Tech.Robotics]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//种植园
 		"name": "Improvement.Plantation",
@@ -667,7 +677,8 @@
 			"Does not need removal of [Landform.Forest]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//采石场
 		"name": "Improvement.Quarry",
@@ -679,7 +690,8 @@
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Class.Industrials",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//渔船
 		"name": "Improvement.FishingBoat",
@@ -693,7 +705,8 @@
 			"[+1 Production] for each adjacent [Improvement.Seastead]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement1"]
 	},
 	{//地脉开采器
 		"name": "Improvement.EarthVeinsExploiter",
@@ -717,7 +730,8 @@
 		"techRequired": "Tech.Synthetic",
 		"uniques": ["Provides [2] [Resource.Electricity]",
 			"Pillaging this improvement yields approximately [+20 Science]",
-			"Class.UsualImprovement"]
+			"Class.UsualImprovement",
+			"Class.CommonImprovement2"]
 	},
 	{//受保护区块
 		"name": "Improvement.ProtectionZone",
@@ -1653,7 +1667,8 @@
 		"[-4 Culture] <with [3] to [6] neighboring [Improvement.MingGreatWall] tiles>  <after discovering [Tech.Castle]>",
 		"Pillaging this improvement yields approximately [+30 Gold]",
 		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.UsualImprovement"]
+		"Class.UsualImprovement",
+		"Class.CommonImprovement3"]
 	},
 	{//埃及-狮身人面像
 		"name": "Improvement.Sphinx",
@@ -1668,7 +1683,8 @@
 		"Can only be built on [River] tiles",
 		"Pillaging this improvement yields approximately [+30 Faith]",
 		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.UsualImprovement"]
+		"Class.UsualImprovement",
+		"Class.CommonImprovement3"]
 	},
 	{//波斯-波斯庭院
 		"name": "Improvement.PersianCourtyard",
@@ -1685,7 +1701,8 @@
 		"[+2 Gold] <after discovering [Civic.Administration]>",
 		"Pillaging this improvement yields approximately [+30 Culture]",
 		"Cannot be built on [Resource.EarthVeins] tiles",
-		"Class.UsualImprovement"]
+		"Class.UsualImprovement",
+		"Class.CommonImprovement3"]
 	},
 	{//斯基泰-坟墩
 		"name": "Improvement.Kurgan",
@@ -1701,7 +1718,8 @@
 		"Pillaging this improvement yields approximately [+30 Faith]",
 		"Cannot be built on [Resource.EarthVeins] tiles",
 		"Can only be built on [Landform.Hill] tiles",
-		"Class.UsualImprovement"]
+		"Class.UsualImprovement",
+		"Class.CommonImprovement3"]
 	},
 	{//印加-梯田农场
 		"name": "Improvement.TerraceFarm",
@@ -1712,7 +1730,8 @@
 			"[+1 Production] for each adjacent [Class.Raceline]",
 			"[+1 Production] from [Fresh water] tiles <after discovering [Tech.Project]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
-			"Class.UsualImprovement"],
+			"Class.UsualImprovement",
+			"Class.CommonImprovement3"],
 		"techRequired": "Civic.BasicTrade",
 		"shortcutKey": "F"
 	},
@@ -1747,7 +1766,8 @@
 			"[+1 Food, +1 Production] <after discovering [Civic.CivilEngineering]>",
 			"[+1 Production] <with [2] to [3] neighboring [Landform.Hill] tiles>",
 			"[+2 Production] <with [4] to [5] neighboring [Landform.Hill] tiles>",
-			"[+3 Production] <with [6] to [7] neighboring [Landform.Hill] tiles>"
+			"[+3 Production] <with [6] to [7] neighboring [Landform.Hill] tiles>",
+			"Class.CommonImprovement3"
 		],
 		"techRequired": "Tech.Project"
 	},
@@ -1767,7 +1787,8 @@
 			"[+1 Production] <after adopting [Pantheon.FishingTradition]>",
 			"[+1 Production] <after adopting [Pantheon.OceanGod]>",
 			"[+1 Culture] <after adopting [Pantheon.TidalGoddess]>",
-			"[+1 Faith] <after adopting [Pantheon.DragonPrayerCeremony]>"
+			"[+1 Faith] <after adopting [Pantheon.DragonPrayerCeremony]>",
+			"Class.CommonImprovement3"
 		],
 		"techRequired": "Tech.NauticalArt"
 	}

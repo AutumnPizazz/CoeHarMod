@@ -795,6 +795,53 @@
 	/*建造者*/
 	//一般建造者
 	{
+		"name": "Unit.CommonWorker1",
+		"unitType": "UnitType.Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can transform to [Unit.CommonWorker2] <hidden from users>",
+			"Can transform to [Unit.CommonWorker3] <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Class.Unit.Builder"],
+		"cost": 60
+	},
+	{
+		"name": "Unit.CommonWorker2",
+		"unitType": "UnitType.Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Can transform to [Unit.CommonWorker1] <hidden from users>",
+			"Can transform to [Unit.CommonWorker3] <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement2] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement2] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement2] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement2] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement2] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Class.Unit.Builder"],
+		"cost": 60
+	},
+	{
+		"name": "Unit.CommonWorker3",
+		"unitType": "UnitType.Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Can transform to [Unit.CommonWorker1] <hidden from users>",
+			"Can transform to [Unit.CommonWorker2] <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement3] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement3] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement3] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement3] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement3] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Class.Unit.Builder"],
+		"cost": 60
+	},
+/*	{
 		"name": "Unit.Farmer",
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
@@ -808,7 +855,6 @@
 			"Will not be displayed in Civilopedia"],
 		"cost": 50
 	},
-	//sssss
 	{
 		"name": "Unit.Miner",
 		"unitType": "UnitType.Civilian",
@@ -995,7 +1041,7 @@
 			"Class.Unit.Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},
+	},*/
 	{//地脉开采者
 		"name": "Unit.EarthVeinsExploiter",
 		"unitType": "UnitType.Civilian",
@@ -1006,7 +1052,7 @@
 			"Class.Unit.Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},
+	},/*
 	{//地热发电厂施工队
 		"name": "Unit.GeothermalPowerPlant",
 		"unitType": "UnitType.Civilian",
@@ -1016,7 +1062,7 @@
 			"Class.Unit.Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},
+	},*/
 	{//商人
 		"name": "Unit.Trader",
 		"unitType": "UnitType.Civilian",
@@ -1035,7 +1081,7 @@
 			"Can build [Remove Railroad] improvements on tiles",
 			"Class.Unit.Builder"],
 		"cost": 50
-	},
+	},/*
 	{//明朝-明长城建造者
 		"name": "Unit.MingGreatWall",
 		"unitType": "UnitType.Civilian",
@@ -1155,7 +1201,7 @@
 			"Class.Unit.Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},
+	},*/
 
 
 	//文明特色改良建造者在这里!

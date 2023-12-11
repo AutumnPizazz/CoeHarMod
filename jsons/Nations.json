@@ -168,7 +168,7 @@
 //		"uniqueText":"",
 		"uniques": ["Fresh and salt water do not provide additional housing",
 		"Comment [Get 1 extra Resource.houseLimitation from Improvement.Farm and Improvement.Plantation]",
-		"Free [Unit.Farmer] appears <upon founding a city>"
+		"Free [Unit.CommonWorker1] appears <upon founding a city>"
 	],
 		
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],

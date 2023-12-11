@@ -58,7 +58,7 @@
             "uniques": ["Gain a free '[Building.Granary]' in capital",
             "May buy [Building.Granary] buildings with [Faith] for [2] times their normal Production cost",
             "[+1 Food] from every [Building.Granary]",
-            "Free [Unit.Farmer] appears"]
+            "Free [Unit.CommonWorker1] appears"]
         },
         {//工匠之神
             "name": "Pantheon.GodOfCraftsmen",
@@ -108,8 +108,7 @@
         {//节庆女神
             "name": "Pantheon.GoddessOfFestivals",
             "type": "Pantheon",
-            "uniques": ["[+1 Culture, +1 Production] from every [Improvement.Plantation]",
-            "Free [Unit.PlantationWorker] appears"]
+            "uniques": ["[+1 Culture, +1 Production] from every [Improvement.Plantation]"]
         },
         {//长生天
             "name": "Pantheon.LongevityHeaven",
@@ -139,8 +138,7 @@
         {//石圈
             "name": "Pantheon.StoneCircle",
             "type": "Pantheon",
-            "uniques": ["[+1 Production, +3 Gold] from every [Improvement.Quarry]",
-            "Free [Unit.Quarry] appears"]
+            "uniques": ["[+1 Production, +3 Gold] from every [Improvement.Quarry]"]
         },
         {//狩猎女神
             "name": "Pantheon.GoddessOfTheHunt",
@@ -189,8 +187,7 @@
         {//恩惠女神
             "name": "Pantheon.GraceGoddess",
             "type": "Pantheon",
-            "uniques": ["[+2 Food, +1 Production, +1 Gold] from every [Improvement.Plantation]",
-            "Free [Unit.PlantationWorker] appears"]
+            "uniques": ["[+2 Food, +1 Production, +1 Gold] from every [Improvement.Plantation]"]
         },
         {//明道之主
             "name": "Pantheon.TheLordOfTheWisdom",
@@ -296,14 +293,14 @@
         {//哺育世界
             "name": "FollowerBelief.NurturingTheWorld",
             "type": "Follower",
-            "uniques": ["[+2 Food] from every [Building.Shrine]",
-            "[+3 Food, +1 Happiness] from every [Building.Temple]",
-            "[+4 Food, +2 Happiness] from every [Class.Building.AdvancedReligious]"]
+            "uniques": ["[+1 Food] from every [Building.Shrine]",
+            "[+2 Food, +1 Happiness] from every [Building.Temple]",
+            "[+3 Food, +2 Happiness] from every [Class.Building.AdvancedReligious]"]
         },
         {//禅修
             "name": "FollowerBelief.Meditation",
             "type": "Follower",
-            "uniques": ["[+2 Happiness] from every [Building.DistrictUnique.HolySite]",
+            "uniques": ["[+1 Happiness] from every [Building.DistrictUnique.HolySite]",
             "[+1 Happiness] from every [Building.DistrictUnique.Campus]"]
         },
         {//合唱圣歌
@@ -311,7 +308,7 @@
             "type": "Follower",
             "uniques": ["[+2 Culture] from every [Building.Shrine]",
             "[+3 Culture] from every [Building.Temple]",
-            "[+4 Culture] from every [Class.Building.AdvancedReligious]"]
+            "[+3 Culture] from every [Class.Building.AdvancedReligious]"]
         },
         {//神灵启示
             "name": "FollowerBelief.DivineRevelation",
@@ -335,15 +332,15 @@
             "type": "Follower",
             "uniques": ["[+1]% [Production] from every follower, up to [30]%",
             "[+1 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Ancient]>",
-            "[+3 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Classical]>",
-            "[+5 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Medieval]>",
-            "[+7 Production] from every [Building.DistrictUnique.HolySite] <starting from the [Era.Renaissance]>"]
+            "[+2 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Classical]>",
+            "[+3 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Medieval]>",
+            "[+4 Production] from every [Building.DistrictUnique.HolySite] <starting from the [Era.Renaissance]>"]
         },
         {//宗教社区
             "name": "FollowerBelief.ReligiousCommunity",
             "type": "Follower",
-            "uniques": ["[+2 Gold, +1 Science] from every [Class.DistrictBuilding.HolySite]",
-            "[+2 Gold, +1 Science] from every [Class.DistrictBuilding.HolySite] <after discovering [Civic.Theology]>"]
+            "uniques": ["[+1 Science] from every [Class.DistrictBuilding.HolySite]",
+            "[+1 Science] from every [Class.DistrictBuilding.HolySite] <after discovering [Civic.Theology]>"]
         },
         {//经文
             "name": "FollowerBelief.Scripture",
@@ -378,14 +375,13 @@
         {//朝圣
             "name": "FounderBelief.Pilgrimage",
             "type": "Founder",
-            "uniques": ["[+3 Faith] for each global city following this religion",
-            "[+1 Faith] from every [4] global followers [in all cities]"]
+            "uniques": ["[+2 Faith] for each global city following this religion",
+            "[+1 Faith] from every [5] global followers [in all cities]"]
         },
         {//什一税
             "name": "FounderBelief.Tithe",
             "type": "Founder",
-            "uniques": ["[+4 Gold] for each global city following this religion",
-            "[+1 Gold] from every [3] global followers [in all cities]"]
+            "uniques": ["[+3 Gold] for each global city following this religion"]
         },
         {//管理工作
             "name": "FounderBelief.AdministrativeWork",

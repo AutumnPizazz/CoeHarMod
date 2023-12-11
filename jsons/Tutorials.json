@@ -1,7 +1,20 @@
 [
     {
-        "name":"-00 更新日志-当前版本v23.12.10",
+        "name":"-00 更新日志-当前版本v23.12.11",
         "civilopediaText":[
+            { 
+                "text": "v23.12.10",
+                "size":30
+            },
+            { 
+                "text": "1.更新工人系统在\n2.削弱宗教信条强度",
+                "size":20
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
             { 
                 "text": "v23.12.10",
                 "size":30
