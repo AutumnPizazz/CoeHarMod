@@ -1,13 +1,38 @@
 [
     {
-        "name":"-00 更新日志-当前版本v23.12.11",
+        "name":"-00 更新日志-当前版本v23.12.23",
         "civilopediaText":[
             { 
-                "text": "v23.12.10",
+                "text":"If you want to get the updated log in English, please go to the Discord channel of this module",
+                "link":"https://discord.com/channels/586194543280390151/1172561627967660163",
+                "size":20,
+                "starred":true,
+                "color":"#FFFF00"
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            { 
+                "text": "v23.12.23",
                 "size":30
             },
             { 
-                "text": "1.更新工人系统在\n2.削弱宗教信条强度",
+                "text": "1.中国朝代城市名支持英文显示(商朝和周朝的城市名为单字,不宜翻译,故保留)\n2.工人分为三类以避免刷次数的问题\n3.新增政策显示开关",
+                "size":20
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            { 
+                "text": "v23.12.11",
+                "size":30
+            },
+            { 
+                "text": "1.更新工人系统\n2.削弱宗教信条强度",
                 "size":20
             },
             {

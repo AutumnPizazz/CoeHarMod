@@ -2605,6 +2605,20 @@ BuildingIcons/Building.Zoo
   orig: 128, 128
   offset: 0, 0
   index: -1
+BuildingIcons/Dip.Hide
+  rotate: false
+  xy: 276, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.Reveal
+  rotate: false
+  xy: 276, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 BuildingIcons/Dip.ezhi
   rotate: false
   xy: 276, 1916
@@ -2718,6 +2732,20 @@ ResourceIcons/Resource.DiplomaticPolicySlot
   offset: 0, 0
   index: -1
 BuildingIcons/Eco.DysfunctionalUrbanization
+  rotate: false
+  xy: 412, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.Hide
+  rotate: false
+  xy: 412, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.Reveal
   rotate: false
   xy: 412, 1916
   size: 128, 128
@@ -3046,7 +3074,21 @@ BuildingIcons/Gene.FrenchCivilCode
   orig: 128, 128
   offset: 0, 0
   index: -1
+BuildingIcons/Gene.Hide
+  rotate: false
+  xy: 548, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 BuildingIcons/Gene.NationalLaborRelationsAct
+  rotate: false
+  xy: 548, 1916
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.Reveal
   rotate: false
   xy: 548, 1916
   size: 128, 128
@@ -3877,6 +3919,20 @@ ResourceIcons/Resource.GovernorTitle
   xy: 1660, 532
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.Hide
+  rotate: false
+  xy: 140, 1780
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.Reveal
+  rotate: false
+  xy: 140, 1780
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Mil.bentuzhengfu

@@ -31,7 +31,7 @@
     {//外交胜利
         "name": "VictoryType.Diplomacy",
         "hiddenInVictoryScreen": false,
-        "victoryScreenHeader": "TEXT_1",
+        "victoryScreenHeader": "Gaining as much diplomatic support as possible and building Domination Victory Building to win!",
         "milestones": ["Build [Building.DominationVictory]"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
@@ -61,7 +61,7 @@
     },
     {//统一胜利
         "name": "VictoryType.Unity",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "victoryScreenHeader": "Destroy all enemies to win!",
         "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"

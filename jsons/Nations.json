@@ -53,11 +53,11 @@
 		"uniques": [
 			"[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
 			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
-            "Comment [为所有建造者+1使用次数]",
+            "Comment [+1 usage for all Builders]",
             "Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
 		],
 	
-		"cities": ["北京", "南京", "苏州", "杭州", "西安", "开封", "武汉", "长沙", "福州", "广州", "泉州", "宁波", "绍兴", "温州", "台州", "扬州", "成都", "昆明", "兰州", "郑州"],
+		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xi'an", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"],
 
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
@@ -258,7 +258,7 @@
 		"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
 		"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
 		"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] [in all cities]",
-		"Comment [-30% [Production] in all cities when constructing Buildings or Units]",
+		"-30% [Production] in all cities when constructing Buildings or Units",
 		"[-30]% [Production] [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [All] wonders [in all cities] <hidden from users>",
@@ -395,7 +395,7 @@
 		],
 		"uniqueText":"Capital: +8x% [Science]and[Production] (maximum 80%)\nOther cities: -5% [Science]和[Production]\n(x represents the number of cities)\n+18% Strength for Military units when adopting [Gov.Monarchy] or [Gene.junzhuchuancheng]",
 
-		"cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
+		"cities": ["Xianyang", "Chang'an", "Weicheng", "Jialing", "Shujun", "Chencang", "Bajun", "Hanzhong", "Yongcheng", "Luoyang", "Chaoge", "Pingyang", "Fenglingdu", "Wugong", "Sishui", "Lantian", "Yongjia", "Fufeng", "Shangdang", "Yangcheng", "Gumu", "Nanjun", "Wu County", "Jiangling", "Zhengjun", "Huxiang", "Jiangxia", "Xiangyang", "Kuaiji", "Linqi"]
 	},
 	{//斯基泰
 		"name": "Nation.Scythia",
@@ -484,7 +484,7 @@
 			"[+1] Movement <for [All] units> <in [Enemy Land] tiles>"
 		],
 		
-		"cities": ["长安", "洛阳", "敦煌", "开封", "兰州", "太原", "成都", "杭州", "扬州", "南京", "广州", "咸阳", "郑州", "武汉", "重庆", "北京", "上海", "深圳", "天津", "苏州", "青岛", "福州", "南宁", "乌鲁木齐", "贵阳", "昆明", "哈尔滨", "沈阳", "厦门", "南宁", "海口", "大连"],
+		"cities": ["Chang'an", "Luoyang", "Dunhuang", "Kaifeng", "Lanzhou", "Taiyuan", "Chengdu", "Hangzhou", "Yangzhou", "Nanjing", "Guangzhou", "Xianyang", "Zhengzhou", "Wuhan", "Chongqing", "Beijing", "Shanghai", "Shenzhen", "Tianjin", "Suzhou", "Qingdao", "Fuzhou", "Nanning", "Urumqi", "Guiyang", "Kunming", "Harbin", "Shenyang", "Xiamen", "Nanning", "Haikou", "Dalian"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
@@ -505,7 +505,7 @@
 		"[+1 Culture] from every [Building.Library] <after discovering [Tech.CivilianEducation]>",
 		"[+25]% [Science] [in all cities] <in cities with a [Building.Library]> <during a Golden Age>"],
 		
-		"cities": ["长安", "洛阳", "雒县", "邯郸", "许昌", "平阳", "襄阳", "成皋", "开封", "武阳", "巩县", "丰县", "梁县", "汝南", "颍川", "沛县", "宛县", "南阳", "陈留", "阳翟", "虎牙", "东海", "寿春", "彭城", "泰山", "温县", "安阳", "延津", "河阳", "蓟县"],
+		"cities": ["Chang'an", "Luoyang", "Luoxian", "Handan", "Xuchang", "Pingyang", "Xiangyang", "Chenggao", "Kaifeng", "Wuyang", "Gongxian", "Fengxian", "Liangxian", "Runan", "Yingchuan", "Peixian", "Wanxian", "Nanyang", "Chenliu", "Yangdi", "Huya", "Donghai", "Shouchun", "Pengcheng", "Taishan", "Wenxian", "Anyang", "Yanjin", "Heyang", "Jixian"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": ""
 	},
@@ -528,12 +528,12 @@
 			"Free [Unit.General] appears <upon discovering [Civic.MilitaryTraining]>"
 		],
 		
-		"cities": ["瑞金", "北京", "上海", "广州", "深圳", "天津", "重庆", "成都", "杭州", "南京", "武汉", "西安", "长沙", "青岛", "大连", "厦门", "福州", "济南", "沈阳", "哈尔滨", "昆明", "太原", "郑州", "长春", "南昌", "海口", "合肥", "乌鲁木齐", "兰州", "银川", "呼和浩特","贵阳", "南宁", "福州", "南昌", "长春", "沈阳", "哈尔滨", "济南", "郑州", "太原", "西安", "兰州", "银川", "西宁", "乌鲁木齐", "拉萨", "昆明", "成都", "重庆", "武汉", "南京", "杭州", "合肥", "福州", "南宁", "广州", "深圳", "海口", "台北", "香港", "澳门"],
+		"cities": ["Ruijin", "Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Tianjin", "Chongqing", "Chengdu", "Hangzhou", "Nanjing", "Wuhan", "Xi'an", "Changsha", "Qingdao", "Dalian", "Xiamen", "Fuzhou", "Jinan", "Shenyang", "Harbin", "Kunming", "Taiyuan", "Zhengzhou", "Changchun", "Nanchang", "Haikou", "Hefei", "Urumqi", "Lanzhou", "Yinchuan", "Hohhot", "Guiyang", "Nanning", "Fuzhou", "Nanchang", "Changchun", "Shenyang", "Harbin", "Jinan", "Zhengzhou", "Taiyuan", "Xi'an", "Lanzhou", "Yinchuan", "Xining", "Urumqi", "Lhasa", "Kunming", "Chengdu", "Chongqing", "Wuhan", "Nanjing", "Hangzhou", "Hefei", "Fuzhou", "Nanning", "Guangzhou", "Shenzhen", "Haikou", "Taipei", "Hong Kong", "Macao"],
 		
 		"startIntroPart1": "", "startIntroPart2": "", "declaringWar": "", "attacked": "", "defeated": "", "introduction": "", "neutralHello": "", "hateHello": "", "tradeRequest": "",
 
 		"civilopediaText":[
-			{"text": "毛泽东，伟大的无产阶级革命家。毛泽东（1893年12月26日-1976年9月9日），字润之（原作咏芝，后改润芝），笔名子任。湖南湘潭人。中国人民的领袖，伟大的马克思主义者，伟大的无产阶级革命家、战略家、理论家，中国共产党、中国人民解放军和中华人民共和国的主要缔造者和领导人，马克思主义中国化的伟大开拓者，近代以来中国伟大的爱国者和民族英雄，中国共产党第一代中央领导集体的核心，领导中国人民彻底改变自己命运和国家面貌的一代伟人。1949至1976年，毛泽东担任中华人民共和国最高领导人。他对马克思列宁主义的发展、军事理论的贡献以及对共产党的理论贡献被称为毛泽东思想。因毛泽东担任过的主要职务几乎全部称为主席，所以也被人们尊称为“毛主席”。毛泽东被视为现代世界历史中最重要的人物之一，《时代》杂志也将他评为20世纪最具影响100人之一。","size":15}
+			{"text": "Mao Zedong was the leader of the Chinese people, a great Marxist, a great proletarian revolutionist, strategist, and theorist, as well as the main founder and leader of the Communist Party of China, the People's Liberation Army, and the People's Republic of China.","size":15}
 		]
 	},
 	{//英吉利
@@ -631,7 +631,7 @@
 		"uniques": ["Gain [100] [Faith] <upon declaring friendship>",
 		"All newly-trained [Unit.Missionary] units [in all cities] receive the [Promotion.Devout2] promotion",
 		"[+2 Faith] from each Trade Route",
-		"Comment [每个圣地区域及其建筑提供1大将军点数]"
+		"Comment [Each sacred area and its buildings provide 1 General Point]"
 		],
 
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
@@ -802,12 +802,12 @@
 		"[+51]% Strength <for [UnitType.LightCavalry] units> <vs [UnitType.AntiCavalry] units> <when above [15] [Resource.CityNumber]>",
 		"[+51]% Strength <for [UnitType.HeavyCavalry] units> <vs [UnitType.AntiCavalry] units> <when above [15] [Resource.CityNumber]>"
 		],
-		"uniqueText":"当城市数量≥6时,每座城市[+2 Production],在研究[Tech.Stirrups]后再[+1 Production]\n当城市数量≥10时,所有城市训练骑兵单位+50%[Production]且[Resource.Horse]产量翻倍\n当城市数量≥16时,骑兵对战抗骑兵单位+51%战斗力且经验获取速度+100%",
+		"uniqueText":"When the number of cities is ≥6, each city [+2 Production], after discovering [Tech.Stirrups], [+1 Production]\nWhen the number of cities is ≥10, all cities train cavalry units +50% [Production] and double the production of [Resource.Horse]\nWhen the number of cities is ≥16, cavalry units against cavalry units +51% combat effectiveness and experience acquisition speed +100%",
 		"civilopediaText":[
 			{"text": "Promotion.FastMove","link": "Promotion/Promotion.FastMove"}
 		],
 
-		"cities": ["上都","中都","大都","兴庆","上都路","大名","析津","大德","清宁","大安","德兴","宣德","和宁","益都","海都","元和","上都留守司","顺德","辽阳","宁夏","惠州","潮州","柳州","广州","杭州","和林","天水","甘州","肃州","瓜州","沙州","亦集乃"]
+		"cities": ["Shangdu", "Zhongdu", "Dadu", "Xingqing", "Shangdu Road", "Daming", "Xijin", "Dade", "Qingning", "Da'an", "Dexing", "Xuande", "Hening", "Yidu", "Haidu", "Yuanhe", "Shangdu Liushousi", "Shunde", "Liaoyang", "Ningxia", "Huizhou", "Chaozhou", "Liuzhou", "Guangzhou", "Hangzhou", "Helin", "Tianshui", "Ganzhou", "Suzhou", "Guazhou", "Shazhou", "Yijinai"]
 	},
 	{//商朝
 		"name": "Nation.Shang",
@@ -840,7 +840,7 @@
 		"uniqueName": "Founding with Enfeoffment",
 		"uniques": ["Cannot build [Military] units <in cities with a [Building.Guo]>"
 		],
-		"uniqueText":"所有城市在被创建时可以选择以下属性之一\n国[Building.Guo],野[Building.Ye]\n\n在研究封建主义[Civic.Feudalism]后,属性'野[Building.Ye]'的城市可以选择以下属性之一\n郊[Building.Jiao],牧[Building.Mu],泽[Building.Ze]",
+		"uniqueText":"All cities can choose one of the following attributes when they are established: Guo[Building.Guo], Ye[Building.Ye]\n\nAfter researching Feudalism [Civic.Feudalism], cities with the attribute 'Ye[Building.Ye]' can choose one of the following attributes: Jiao[Building.Jiao], Mu[Building.Mu], Ze[Building.Ze]",
 
 		"cities": ["镐","管","蔡","郕","霍","鲁","卫","毛","聃","郜","雍","曹","滕","毕","太原","郇","邗","晋","应","韩","鲁","凡","蒋","邢","茅","胙","祭","齐","吕","申","陈","宋","蓟","焦","祝","杞","纪","许","楚","越","英","舒","黄","江","息","徐","莒","奄","郯","莱","六","郧","孤竹","邾","缯","祝其","费","颛臾","鲜于","邾","郑","梁","秦"]
 	},
@@ -857,7 +857,7 @@
 		"uniques": ["[UnitType.Scout] units gain the [Promotion.RoadBuild] promotion",
 		"[+3 Gold] from each Trade Route"],
 
-		"cities":["楼兰","高昌","焉耆","于阗","康居","疏勒","鄯善","龟兹","伊吾","吐火罗","车师","且末","碎叶","阗波","伊犁","奇台","塔里木","疏附","康国","贡高"]
+		"cities":["Loulan", "Gaochang", "Yanqi", "Yutian", "Kangju", "Shule", "Shanshan", "Qiuci", "Yiwu", "Tuhuoluo", "Cheshi", "Qiemo", "Suiye", "Tianbo", "Yili", "Qitai", "Tarim", "Shufu", "Kangguo", "Gonggao"]
 	},
 	{//越南
 		"name": "Nation.Vietnam",
@@ -913,7 +913,7 @@
 
 		"uniqueName": "Northern Thunder",
 		"uniques": [
-			"Comment [初始即发现全图遗迹位置]",
+			"Comment [Discover all relics on the map at the beginning]",
 			"Reveal up to [All] [Ancient ruins] within a [1023] tile radius <hidden from users>",
 			"May heal outside of friendly territory <for [{Military} {Water}] units>",
 			"[+50]% Production when constructing [UnitType.ShortRangedNaval] units [in all cities]"
