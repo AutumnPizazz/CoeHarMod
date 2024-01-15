@@ -619,6 +619,7 @@
 		"techRequired": "Tech.AnimalHusbandry",
 		"gold":2,
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
+			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"Does not need removal of [Landform.Forest]",
 			"Does not need removal of [Landform.Rainforest]",
 			"Does not need removal of [Landform.Swamp]",
@@ -655,6 +656,7 @@
 		"techRequired": "Tech.AnimalHusbandry",
 		"production":1,
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
+			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"[+1 Food] <after discovering [Tech.Stirrups]>",
 			"[+1 Production] <after discovering [Tech.PartSpecification]>",
 			"[+1 Food] <after discovering [Tech.Robotics]>",
@@ -669,6 +671,7 @@
 		"techRequired": "Tech.Irrigation",
 		"uniques": ["Provides [1] [Resource.houseLimitation]",
 			"Provides [1] [Resource.houseLimitation] <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
+			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"[+1 Food] <after discovering [Tech.ScientificTheory]>",
 			"[+1 Food] <after discovering [Civic.Feudalism]>",
 			"[+2 Gold] <after discovering [Civic.Globalization]>",

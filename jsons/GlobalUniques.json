@@ -24,44 +24,39 @@
         "Adopt [Culture.Admiral]",
 
         
-        /*宜居度奖惩*/
-        "[+10]% [Production] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Science] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Culture] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Gold] [in all cities] <when between [10] and [19] Happiness>",
-        "[+10]% [Faith] [in all cities] <when between [10] and [19] Happiness>",
-        "[+25]% [Production] [in all cities] <when between [20] and [65535] Happiness>",
-        "[+25]% [Science] [in all cities] <when between [20] and [65535] Happiness>",
-        "[+25]% [Culture] [in all cities] <when between [20] and [65535] Happiness>",
-        "[+25]% [Gold] [in all cities] <when between [20] and [65535] Happiness>",
-        "[+25]% [Faith] [in all cities] <when between [20] and [65535] Happiness>",
+        /*宜居度*/
+        "[-100]% unhappiness from the number of cities",//城市不扣快乐
+        "[-100]% Unhappiness from [Population] [in all cities]",//人口不扣快乐
+        "[-1 Happiness] for every known Natural Wonder",//发现奇观不加快乐
 
-        "[-15]% growth [in all cities] <when between [-2] and [0] Happiness>",
-        "[-30]% growth [in all cities] <when between [-4] and [-2] Happiness>",
-        "[-45]% growth [in all cities] <when between [-6] and [-4] Happiness>",
-        "[-60]% growth [in all cities] <when between [-8] and [-6] Happiness>",
-        "[-75]% growth [in all cities] <when between [-10] and [-8] Happiness>",
-        "[-90]% growth [in all cities] <when between [-12] and [-10] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-12] Happiness>",
+        "[+10]% [Production] [in all cities] <when above [2] [Resource.Livability]>",
+        "[+10]% [Science] [in all cities] <when above [2] [Resource.Livability]>",
+        "[+10]% [Culture] [in all cities] <when above [2] [Resource.Livability]>",
+        "[+10]% [Gold] [in all cities] <when above [2] [Resource.Livability]>",
+        "[+10]% [Faith] [in all cities] <when above [2] [Resource.Livability]>",
+        "[+15]% [Production] [in all cities] <when above [4] [Resource.Livability]>",
+        "[+15]% [Science] [in all cities] <when above [4] [Resource.Livability]>",
+        "[+15]% [Culture] [in all cities] <when above [4] [Resource.Livability]>",
+        "[+15]% [Gold] [in all cities] <when above [4] [Resource.Livability]>",
+        "[+15]% [Faith] [in all cities] <when above [4] [Resource.Livability]>",
 
-        "[-10]% [Production] [in all cities] <when below [0] Happiness>",
-        "[-10]% [Science] [in all cities] <when below [0] Happiness>",
-        "[-10]% [Culture] [in all cities] <when below [0] Happiness>",
-        "[-10]% [Gold] [in all cities] <when below [0] Happiness>",
-        "[-10]% [Faith] [in all cities] <when below [0] Happiness>",
-        "[-15]% [Production] [in all cities] <when below [-6] Happiness>",
-        "[-15]% [Science] [in all cities] <when below [-6] Happiness>",
-        "[-15]% [Culture] [in all cities] <when below [-6] Happiness>",
-        "[-15]% [Gold] [in all cities] <when below [-6] Happiness>",
-        "[-15]% [Faith] [in all cities] <when below [-6] Happiness>",
-        "[-25]% [Production] [in all cities] <when below [-11] Happiness>",
-        "[-25]% [Science] [in all cities] <when below [-11] Happiness>",
-        "[-25]% [Culture] [in all cities] <when below [-11] Happiness>",
-        "[-25]% [Gold] [in all cities] <when below [-11] Happiness>",
-        "[-25]% [Faith] [in all cities] <when below [-11] Happiness>",
+        "[-15]% growth [in all cities] <when below [0] [Resource.Livability]>",
+        "[-15]% growth [in all cities] <when below [-1] [Resource.Livability]>",
+        "[-15]% growth [in all cities] <when below [-2] [Resource.Livability]>",
+        "Nullifies Growth [in all cities] <when below [-2] [Resource.Livability]>",
 
-        "Cannot build [Unit.Settler] units <when below [-11] Happiness>",
-        "Rebel units may spawn <when below [-15] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [0] [Resource.Livability]>",
+        "[-10]% [Science] [in all cities] <when below [0] [Resource.Livability]>",
+        "[-10]% [Culture] [in all cities] <when below [0] [Resource.Livability]>",
+        "[-10]% [Gold] [in all cities] <when below [0] [Resource.Livability]>",
+        "[-10]% [Faith] [in all cities] <when below [0] [Resource.Livability]>",
+        "[-15]% [Production] [in all cities] <when below [-2] [Resource.Livability]>",
+        "[-15]% [Science] [in all cities] <when below [-2] [Resource.Livability]>",
+        "[-15]% [Culture] [in all cities] <when below [-2] [Resource.Livability]>",
+        "[-15]% [Gold] [in all cities] <when below [-2] [Resource.Livability]>",
+        "[-15]% [Faith] [in all cities] <when below [-2] [Resource.Livability]>",
+
+        "Rebel units may spawn <when below [-4] [Resource.Livability]>",
 
 
         /*人头瓶和人头琴*/
@@ -124,7 +119,6 @@
 		"[-100]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]>",//取消初始城市攻击
 		"[+60]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]> <in cities with a [Building.Palace]>",//首都拥有减弱的城市攻击
         "[-100]% maintenance costs",//单位维护费修正
-        "[-100]% unhappiness from the number of cities",//快乐调整 城市地基不扣除快乐
         "[-1 Gold] from every [River]",//删除河流给钱
 		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
         "May buy [Class.Governor] buildings for [0] [Gold] [in all cities]",//总督建筑0元购

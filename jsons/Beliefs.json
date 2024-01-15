@@ -170,7 +170,7 @@
             "uniques": ["[+35]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
             "[+20]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities]"]
         },
-        {//宗教偶像
+        {//宗教偶像 - 宫殿处已删除
             "name": "Pantheon.ReligiousIdol",
             "type": "Pantheon",
             "uniques": ["[+2 Faith, +2 Gold] from every [Luxury resource] <in tiles without [Class.District]>",
