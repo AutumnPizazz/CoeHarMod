@@ -52,7 +52,9 @@
 		"uniqueName": "Yongle Prosperity",
 		"uniques": [
 			"[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
-			"[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
+			"[+1] [Resource.Livability] in cities with at least [5] Population",
+			"[+2] [Resource.Livability] in cities with at least [10] Population",
+			// "[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
             "Comment [+1 usage for all Builders]",
             "Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
 		],
@@ -110,9 +112,8 @@
 
 		"uniqueName": "Mother Nile",
 		"uniques": [
-		"[+1 Happiness, +2 Food] in cities on [River] tiles",
+		"[+2 Food] in cities on [River] tiles",
 		"Provides 1 House for cities on a river"
-		// "[+1 Happiness, +2 Food] from each Trade Route"
 	],
 	
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis","Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris","Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
@@ -206,36 +207,15 @@
 		"preferredVictoryType": "VictoryType.Conquest",
 
 		"uniqueName": "The Legend of the Five Suns",
-		"uniqueText":"Each 2 Happiness gives military units a 1% combat bonus, up to 28%",
-		"uniques": ["[+1]% Strength <for [Military] units> <when between [2] and [4] Happiness>",
-		"[+2]% Strength <for [Military] units> <when between [4] and [6] Happiness>",
-		"[+3]% Strength <for [Military] units> <when between [6] and [8] Happiness>",
-		"[+4]% Strength <for [Military] units> <when between [8] and [10] Happiness>",
-		"[+5]% Strength <for [Military] units> <when between [10] and [12] Happiness>",
-		"[+6]% Strength <for [Military] units> <when between [12] and [14] Happiness>",
-		"[+7]% Strength <for [Military] units> <when between [14] and [16] Happiness>",
-		"[+8]% Strength <for [Military] units> <when between [16] and [18] Happiness>",
-		"[+9]% Strength <for [Military] units> <when between [18] and [20] Happiness>",
-		"[+10]% Strength <for [Military] units> <when between [20] and [22] Happiness>",
-		"[+11]% Strength <for [Military] units> <when between [22] and [24] Happiness>",
-		"[+12]% Strength <for [Military] units> <when between [24] and [26] Happiness>",
-		"[+13]% Strength <for [Military] units> <when between [26] and [28] Happiness>",
-		"[+14]% Strength <for [Military] units> <when between [28] and [30] Happiness>",
-		"[+15]% Strength <for [Military] units> <when between [30] and [32] Happiness>",
-		"[+16]% Strength <for [Military] units> <when between [32] and [34] Happiness>",
-		"[+17]% Strength <for [Military] units> <when between [34] and [36] Happiness>",
-		"[+18]% Strength <for [Military] units> <when between [36] and [38] Happiness>",
-		"[+19]% Strength <for [Military] units> <when between [38] and [40] Happiness>",
-		"[+20]% Strength <for [Military] units> <when between [40] and [42] Happiness>",
-		"[+21]% Strength <for [Military] units> <when between [42] and [44] Happiness>",
-		"[+22]% Strength <for [Military] units> <when between [44] and [46] Happiness>",
-		"[+23]% Strength <for [Military] units> <when between [46] and [48] Happiness>",
-		"[+15]% Strength <for [Military] units> <when between [48] and [50] Happiness>",
-		"[+24]% Strength <for [Military] units> <when between [50] and [52] Happiness>",
-		"[+25]% Strength <for [Military] units> <when between [52] and [54] Happiness>",
-		"[+26]% Strength <for [Military] units> <when between [54] and [56] Happiness>",
-		"[+27]% Strength <for [Military] units> <when between [56] and [58] Happiness>",
-		"[+28]% Strength <for [Military] units> <when between [58] and [65535] Happiness>"
+		"uniqueText":"Each Luxury gives military units a 4% combat bonus, up to 32%",
+		"uniques": ["[+4]% Strength <for [Military] units> <when above [0] [Resource.AuxiliaryCounter4]> <when below [2] [Resource.AuxiliaryCounter4]>",
+		"[+8]% Strength <for [Military] units> <when above [1] [Resource.AuxiliaryCounter4]> <when below [3] [Resource.AuxiliaryCounter4]>",
+		"[+12]% Strength <for [Military] units> <when above [2] [Resource.AuxiliaryCounter4]> <when below [4] [Resource.AuxiliaryCounter4]>",
+		"[+16]% Strength <for [Military] units> <when above [3] [Resource.AuxiliaryCounter4]> <when below [5] [Resource.AuxiliaryCounter4]>",
+		"[+20]% Strength <for [Military] units> <when above [4] [Resource.AuxiliaryCounter4]> <when below [6] [Resource.AuxiliaryCounter4]>",
+		"[+24]% Strength <for [Military] units> <when above [5] [Resource.AuxiliaryCounter4]> <when below [7] [Resource.AuxiliaryCounter4]>",
+		"[+28]% Strength <for [Military] units> <when above [6] [Resource.AuxiliaryCounter4]> <when below [8] [Resource.AuxiliaryCounter4]>",
+		"[+32]% Strength <for [Military] units> <when above [7] [Resource.AuxiliaryCounter4]>"
 	],
 		
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan","Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco","Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac","Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec","Itzapalapa","Ayotzinco","Iztapam"],
@@ -693,7 +673,7 @@
 		"preferredVictoryType": "VictoryType.Domination",
 
 		"uniqueName": "Country of Thousand Islands",
-		"uniques": ["[+1 Happiness] [in all coastal cities]",
+		"uniques": ["[+1] [Resource.Livability] [in all coastal cities]",
 		"The Campus District and the Holy District enjoy a standard adjacent increment to the coast"
 		],
 

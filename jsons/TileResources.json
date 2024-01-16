@@ -389,6 +389,12 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","City-level resource"]
 	},
+	{//奢侈品宜居度
+		"name": "Resource.LivabilityFromLuxury",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen"]
+	},
 	{//武僧剩余数量
 		"name": "Resource.remainingMonksCount",
 		"resourceType": "Strategic",
@@ -502,6 +508,12 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
 	},
+	{//辅助计数器4-用于计数已开采奢侈品种类数
+		"name":"Resource.AuxiliaryCounter4",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
 	{//美利坚-新政法案
 		"name": "Resource.NewDealLegislation",
 		"revealedBy": "Tech.UniqueToUnitedStates",
@@ -537,10 +549,13 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Improvement.Encampment",
-		"uniques": ["[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [40] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Landform.Forest] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": [
+			"[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [40] <in [Tundra] Regions>",
+			"Generated with weight [10] <in [Landform.Forest] Regions>",
+			"Generated near City States with weight [15]"]
 	},
 	{//棉花
 		"name": "Resource.Cotton",
@@ -548,12 +563,15 @@
 		"terrainsCanBeFoundOn": ["Grassland","Landform.AlluvialPlain"],
 		"gold": 3,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Grassland] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Landform.Hill] tiles>"]
+		"uniques": [
+			"[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [15] <in [Desert] Regions>",
+			"Generated with weight [30] <in [Grassland] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Landform.Hill] tiles>"]
 	},
 	{//染料
 		"name": "Resource.Dye",
@@ -561,12 +579,15 @@
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.Swamp"],
 		"faith": 1,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-1 Faith] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Landform.Rainforest] Regions>",
-					"Generated with weight [30] <in [Landform.Forest] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Landform.Hill] tiles>"]
+		"uniques": [
+			"[-1 Faith] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [5] <in [Tundra] Regions>",
+			"Generated with weight [5] <in [Landform.Rainforest] Regions>",
+			"Generated with weight [30] <in [Landform.Forest] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Landform.Hill] tiles>"]
 	},
 	{//钻石
 		"name": "Resource.Gem",
@@ -574,14 +595,17 @@
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.Hill"],
 		"gold": 3,
 		"improvement": "Improvement.Mine",
-		"uniques": ["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [20] <in [Landform.Rainforest] Regions>",
-					"Generated with weight [15] <in [Landform.Hill] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>"]
+		"uniques": [
+			"[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [5] <in [Tundra] Regions>",
+			"Generated with weight [20] <in [Landform.Rainforest] Regions>",
+			"Generated with weight [15] <in [Landform.Hill] Regions>",
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>"]
 	},
 	{//黄金
 		"name": "Resource.Gold",
@@ -589,14 +613,17 @@
 		"terrainsCanBeFoundOn": ["Desert","Landform.Hill","Landform.Forest","Landform.Rainforest"],
 		"gold": 3,
 		"improvement": "Improvement.Mine",
-		"uniques": ["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [25] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Landform.Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
-					"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>"]
+		"uniques": [
+			"[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [25] <in [Desert] Regions>",
+			"Generated with weight [30] <in [Landform.Hill] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
+			"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>"]
 	},
 	{//白银
 		"name": "Resource.Silver",
@@ -604,18 +631,20 @@
 		"terrainsCanBeFoundOn": ["Landform.Hill","Landform.Forest","Landform.Rainforest","Tundra","Grassland"],
 		"gold": 3,
 		"improvement": "Improvement.Mine",
-		"uniques": ["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [25] <in [Tundra] Regions>",
-					"Generated with weight [30] <in [Landform.Hill] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [10] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
-					"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
-					"Doesn't generate naturally <in [Tundra] [Landform.Hill] tiles>",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-					"Doesn't generate naturally <in [Grassland] [Landform.Hill] tiles>"
-		]
+		"uniques": [
+			"[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [25] <in [Tundra] Regions>",
+			"Generated with weight [30] <in [Landform.Hill] Regions>",
+			"Generated with weight [20] <in [Grassland] Regions>",
+			"Generated with weight [10] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
+			"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
+			"Doesn't generate naturally <in [Tundra] [Landform.Hill] tiles>",
+			"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
+			"Doesn't generate naturally <in [Grassland] [Landform.Hill] tiles>"]
 	},
 	{//熏香
 		"name": "Resource.Incense",
@@ -623,11 +652,14 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Landform.AlluvialPlain"],
 		"faith":1,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-1 Faith] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [35] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"uniques": [
+			"[-1 Faith] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [35] <in [Desert] Regions>",
+			"Generated with weight [10] <in [Plains] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]"]
 	},
 	{//象牙
 		"name": "Resource.Ivory",
@@ -636,11 +668,14 @@
 		"production":1,
 		"gold":1,
 		"improvement": "Improvement.Encampment",
-		"uniques": ["[-1 Production, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
+		"uniques": [
+			"[-1 Production, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [35] <in [Plains] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
 	},
 	{//丝绸
 		"name": "Resource.Silk",
@@ -648,12 +683,15 @@
 		"terrainsCanBeFoundOn": ["Landform.Forest","Landform.Rainforest"],
 		"culture":1,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-1 Culture] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [5] <in [Landform.Rainforest] Regions>",
-					"Generated with weight [30] <in [Landform.Forest] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Landform.Hill] tiles>"]
+		"uniques": [
+			"[-1 Culture] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [5] <in [Landform.Rainforest] Regions>",
+			"Generated with weight [30] <in [Landform.Forest] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Landform.Hill] tiles>"]
 	},
 	{//香料
 		"name": "Resource.Spices",
@@ -661,15 +699,18 @@
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest","Landform.Swamp"],
 		"food": 2,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [30] <in [Landform.Rainforest] Regions>",
-					"Generated with weight [10] <in [Landform.Forest] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Landform.Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Landform.Forest] tiles>"]
+		"uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [30] <in [Landform.Rainforest] Regions>",
+			"Generated with weight [10] <in [Landform.Forest] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Landform.Hill] tiles>",
+			"Doesn't generate naturally <in [Tundra] [Landform.Forest] tiles>"]
 	},
 	{//葡萄酒
 		"name": "Resource.Wine",
@@ -678,10 +719,13 @@
 		"food":1,
 		"gold":1,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
+		"uniques": [
+			"[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [35] <in [Plains] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]"]
 	},
 	{//糖
 		"name": "Resource.Sugar",
@@ -689,13 +733,16 @@
 		"terrainsCanBeFoundOn": ["Landform.AlluvialPlain","Grassland","Landform.Swamp"],
 		"food": 2,
 		"improvement": "Improvement.Plantation",
-		"uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [20] <in [Landform.Rainforest] Regions>",
-					"Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
+		"uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>",
+			"Generated with weight [20] <in [Landform.Rainforest] Regions>",
+			"Generated with weight [15] <in [Desert] Regions>",
+			"Generated with weight [20] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
 	{//大理石
 		"name": "Resource.Marble",
@@ -705,6 +752,7 @@
 		"improvement": "Improvement.Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": ["[-1 Culture] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"[+15]% Production when constructing [All] wonders [in all cities]",
 					"Special placement during map generation",
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
@@ -717,6 +765,7 @@
 		"gold": 1,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["[-1 Production, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [35] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Landform.Forest] Regions>",
 					"Generated with weight [10] <in [Landform.Hill] Regions>",
@@ -732,6 +781,7 @@
 		"faith":1,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["[-1 Faith] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [20] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [10] <in [Landform.Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -744,12 +794,16 @@
 	{//珠宝
 		"name": "Resource.Jewelry",
 		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"uniques": [
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>","Can only be created by Mercantile City-States"]
 	},
 	{//瓷器
 		"name": "Resource.Porcelain",
 		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"uniques": [
+			"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+			"Provides [1] [Resource.AuxiliaryCounter4] <hidden from users>","Can only be created by Mercantile City-States"]
 	},
 	{//柑橘
 		"name": "Resource.Citrus",
@@ -758,6 +812,7 @@
 		"food":2,
 		"improvement": "Improvement.Plantation",
 		"uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [35] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [5] <in [Landform.Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -772,6 +827,7 @@
 		"gold": 2,
 		"improvement": "Improvement.Mine",
 		"uniques": ["[-2 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [5] <in [Landform.Forest] Regions>",
@@ -790,7 +846,8 @@
 		"terrainsCanBeFoundOn": ["Landform.Rainforest","Landform.Forest"],
 		"gold": 3,
 		"improvement": "Improvement.Plantation",
-		"uniques":["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>"]
+		"uniques":["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>"]
 	},
 	{//龙虾
 		"name": "Resource.Lobster",
@@ -800,6 +857,7 @@
 		"gold": 1,
 		"improvement": "Improvement.FishingBoat",
 		"uniques": ["[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [30] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [10] <in [Landform.Forest] Regions>",
@@ -818,6 +876,7 @@
 		"improvement": "Improvement.Mine",
 		"improvementStats": {},
 		"uniques": ["[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Landform.Forest] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
@@ -834,6 +893,7 @@
 		"gold":3,
 		"improvement": "Improvement.Encampment",
 		"uniques": ["[-3 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"Generated with weight [5] <in [Landform.Rainforest] Regions>",
 					"Generated with weight [30] <in [Landform.Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -852,6 +912,7 @@
 		"improvement": "Improvement.LumberMill",
 		"improvementStats": {},
 		"uniques": ["[-1 Production, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Luxury resources"]
+		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
+		"Luxury resources"]
 	}
 ]
