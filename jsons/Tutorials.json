@@ -1,6 +1,6 @@
 [
     {
-        "name":"-00 更新日志-当前版本v2.0.1",
+        "name":"-00 更新日志-当前版本v2.0.2",
         "civilopediaText":[
             { 
                 "text":"If you want to get the updated log in English, please go to the Discord channel of this module",
@@ -8,6 +8,19 @@
                 "size":20,
                 "starred":true,
                 "color":"#FFFF00"
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+            { 
+                "text": "v2.0.2",
+                "size":30
+            },
+            { 
+                "text": "1.调整明朝，美利坚和毛利文明\n2.优化市政进步，从买单位改为买建筑",
+                "size":20
             },
             {
                 "separator":true,

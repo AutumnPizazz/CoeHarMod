@@ -21,6 +21,606 @@
         "uniques":["Unbuildable","Will not be displayed in Civilopedia"]
     },
 
+    /*市政树专属一次性建筑*/
+	{
+		"name":"Building.Code",
+		"uniques":["Unbuildable",
+        "Can be purchased for [20] [Culture] [in capital]",
+        "Discover [Civic.Code]",
+		"Only available <before discovering [Civic.Code]>",
+        "Remove [Building.Code] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Skill",
+		"uniques":["Unbuildable",
+        "Can be purchased for [40] [Culture] [in capital]",
+        "Discover [Civic.Skill]",
+		"Only available <after discovering [Civic.Code]>",
+		"Only available <before discovering [Civic.Skill]>",
+        "Remove [Building.Skill] [in this city]",
+        "Remove [Building.Code] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.BasicTrade",
+		"uniques":["Unbuildable",
+        "Can be purchased for [40] [Culture] [in capital]",
+        "Discover [Civic.BasicTrade]",
+		"Only available <after discovering [Civic.Code]>",
+		"Only available <before discovering [Civic.BasicTrade]>",
+        "Remove [Building.BasicTrade] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.MilitaryTradition",
+		"uniques":["Unbuildable",
+        "Can be purchased for [70] [Culture] [in capital]",
+        "Discover [Civic.MilitaryTradition]",
+		"Only available <after discovering [Civic.Skill]>",
+		"Only available <before discovering [Civic.MilitaryTradition]>",
+        "Remove [Building.MilitaryTradition] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.NationalLaborForce",
+		"uniques":["Unbuildable",
+        "Can be purchased for [70] [Culture] [in capital]",
+        "Discover [Civic.NationalLaborForce]",
+		"Only available <after discovering [Civic.Skill]>",
+		"Only available <before discovering [Civic.NationalLaborForce]>",
+        "Remove [Building.NationalLaborForce] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.EarlyEmpire",
+		"uniques":["Unbuildable",
+        "Can be purchased for [70] [Culture] [in capital]",
+        "Discover [Civic.EarlyEmpire]",
+		"Only available <after discovering [Civic.BasicTrade]>",
+		"Only available <before discovering [Civic.EarlyEmpire]>",
+        "Remove [Building.EarlyEmpire] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Mysticism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [70] [Culture] [in capital]",
+        "Discover [Civic.Mysticism]",
+		"Only available <after discovering [Civic.BasicTrade]>",
+		"Only available <before discovering [Civic.Mysticism]>",
+        "Remove [Building.Mysticism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.GamesAndEntertainment",
+		"uniques":["Unbuildable",
+        "Can be purchased for [110] [Culture] [in capital]",
+        "Discover [Civic.GamesAndEntertainment]",
+		"Only available <after discovering [Civic.NationalLaborForce]>",
+		"Only available <before discovering [Civic.GamesAndEntertainment]>",
+        "Remove [Building.GamesAndEntertainment] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.PoliticalPhilosophy",
+		"uniques":["Unbuildable",
+        "Can be purchased for [110] [Culture] [in capital]",
+        "Discover [Civic.PoliticalPhilosophy]",
+		"Only available <after discovering [Civic.NationalLaborForce]>",
+		"Only available <after discovering [Civic.EarlyEmpire]>",
+		"Only available <before discovering [Civic.PoliticalPhilosophy]>",
+        "Remove [Building.PoliticalPhilosophy] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.DramaAndPoetry",
+		"uniques":["Unbuildable",
+        "Can be purchased for [110] [Culture] [in capital]",
+        "Discover [Civic.DramaAndPoetry]",
+		"Only available <after discovering [Civic.EarlyEmpire]>",
+		"Only available <before discovering [Civic.DramaAndPoetry]>",
+        "Remove [Building.DramaAndPoetry] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.MilitaryTraining",
+		"uniques":["Unbuildable",
+        "Can be purchased for [120] [Culture] [in capital]",
+        "Discover [Civic.MilitaryTraining]",
+		"Only available <after discovering [Civic.MilitaryTradition]>",
+		"Only available <after discovering [Civic.GamesAndEntertainment]>",
+		"Only available <before discovering [Civic.MilitaryTraining]>",
+        "Remove [Building.MilitaryTraining] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.DefensiveTactics",
+		"uniques":["Unbuildable",
+        "Can be purchased for [120] [Culture] [in capital]",
+        "Discover [Civic.DefensiveTactics]",
+		"Only available <after discovering [Civic.GamesAndEntertainment]>",
+		"Only available <after discovering [Civic.PoliticalPhilosophy]>",
+		"Only available <before discovering [Civic.DefensiveTactics]>",
+        "Remove [Building.DefensiveTactics] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.History",
+		"uniques":["Unbuildable",
+        "Can be purchased for [120] [Culture] [in capital]",
+        "Discover [Civic.History]",
+		"Only available <after discovering [Civic.PoliticalPhilosophy]>",
+		"Only available <after discovering [Civic.DramaAndPoetry]>",
+		"Only available <before discovering [Civic.History]>",
+        "Remove [Building.History] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Theology",
+		"uniques":["Unbuildable",
+        "Can be purchased for [120] [Culture] [in capital]",
+        "Discover [Civic.Theology]",
+		"Only available <after discovering [Civic.DramaAndPoetry]>",
+		"Only available <after discovering [Civic.Mysticism]>",
+		"Only available <before discovering [Civic.Theology]>",
+        "Remove [Building.Theology] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.NavalTradition",
+		"uniques":["Unbuildable",
+        "Can be purchased for [220] [Culture] [in capital]",
+        "Discover [Civic.NavalTradition]",
+		"Only available <after discovering [Civic.DefensiveTactics]>",
+		"Only available <before discovering [Civic.NavalTradition]>",
+        "Remove [Building.NavalTradition] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Feudalism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [220] [Culture] [in capital]",
+        "Discover [Civic.Feudalism]",
+		"Only available <after discovering [Civic.DefensiveTactics]>",
+		"Only available <before discovering [Civic.Feudalism]>",
+        "Remove [Building.Feudalism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Administration",
+		"uniques":["Unbuildable",
+        "Can be purchased for [220] [Culture] [in capital]",
+        "Discover [Civic.Administration]",
+		"Only available <after discovering [Civic.DefensiveTactics]>",
+		"Only available <after discovering [Civic.History]>",
+		"Only available <before discovering [Civic.Administration]>",
+        "Remove [Building.Administration] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Mercenaries",
+		"uniques":["Unbuildable",
+        "Can be purchased for [340] [Culture] [in capital]",
+        "Discover [Civic.Mercenaries]",
+		"Only available <after discovering [Civic.MilitaryTraining]>",
+		"Only available <before discovering [Civic.Mercenaries]>",
+        "Remove [Building.Mercenaries] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.MedievalBazaar",
+		"uniques":["Unbuildable",
+        "Can be purchased for [340] [Culture] [in capital]",
+        "Discover [Civic.MedievalBazaar]",
+		"Only available <after discovering [Civic.Feudalism]>",
+		"Only available <before discovering [Civic.MedievalBazaar]>",
+        "Remove [Building.MedievalBazaar] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.TheWorkersUnion",
+		"uniques":["Unbuildable",
+        "Can be purchased for [340] [Culture] [in capital]",
+        "Discover [Civic.TheWorkersUnion]",
+		"Only available <after discovering [Civic.Administration]>",
+		"Only available <before discovering [Civic.TheWorkersUnion]>",
+        "Remove [Building.TheWorkersUnion] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.DivinRightOfKings",
+		"uniques":["Unbuildable",
+        "Can be purchased for [340] [Culture] [in capital]",
+        "Discover [Civic.DivinRightOfKings]",
+		"Only available <after discovering [Civic.Administration]>",
+		"Only available <after discovering [Civic.Theology]>",
+		"Only available <before discovering [Civic.DivinRightOfKings]>",
+        "Remove [Building.DivinRightOfKings] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Exploration",
+		"uniques":["Unbuildable",
+        "Can be purchased for [440] [Culture] [in capital]",
+        "Discover [Civic.Exploration]",
+		"Only available <after discovering [Civic.Mercenaries]>",
+		"Only available <after discovering [Civic.MedievalBazaar]>",
+		"Only available <before discovering [Civic.Exploration]>",
+        "Remove [Building.Exploration] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Humanism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [440] [Culture] [in capital]",
+        "Discover [Civic.Humanism]",
+		"Only available <after discovering [Civic.MedievalBazaar]>",
+		"Only available <after discovering [Civic.TheWorkersUnion]>",
+		"Only available <before discovering [Civic.Humanism]>",
+        "Remove [Building.Humanism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.ForeighService",
+		"uniques":["Unbuildable",
+        "Can be purchased for [440] [Culture] [in capital]",
+        "Discover [Civic.ForeighService]",
+		"Only available <after discovering [Civic.TheWorkersUnion]>",
+		"Only available <before discovering [Civic.ForeighService]>",
+        "Remove [Building.ForeighService] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.ReformedChurch",
+		"uniques":["Unbuildable",
+        "Can be purchased for [440] [Culture] [in capital]",
+        "Discover [Civic.ReformedChurch]",
+		"Only available <after discovering [Civic.TheWorkersUnion]>",
+		"Only available <after discovering [Civic.DivinRightOfKings]>",
+		"Only available <before discovering [Civic.ReformedChurch]>",
+        "Remove [Building.ReformedChurch] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Mercantilism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [720] [Culture] [in capital]",
+        "Discover [Civic.Mercantilism]",
+		"Only available <after discovering [Civic.Humanism]>",
+		"Only available <before discovering [Civic.Mercantilism]>",
+        "Remove [Building.Mercantilism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Enlightenment",
+		"uniques":["Unbuildable",
+        "Can be purchased for [720] [Culture] [in capital]",
+        "Discover [Civic.Enlightenment]",
+		"Only available <after discovering [Civic.Humanism]>",
+		"Only available <after discovering [Civic.ForeighService]>",
+		"Only available <before discovering [Civic.Enlightenment]>",
+        "Remove [Building.Enlightenment] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Colonialism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [800] [Culture] [in capital]",
+        "Discover [Civic.Colonialism]",
+		"Only available <after discovering [Civic.Mercantilism]>",
+		"Only available <before discovering [Civic.Colonialism]>",
+        "Remove [Building.Colonialism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.CivilEngineering",
+		"uniques":["Unbuildable",
+        "Can be purchased for [800] [Culture] [in capital]",
+        "Discover [Civic.CivilEngineering]",
+		"Only available <after discovering [Civic.Mercantilism]>",
+		"Only available <before discovering [Civic.CivilEngineering]>",
+        "Remove [Building.CivilEngineering] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Nationalism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [800] [Culture] [in capital]",
+        "Discover [Civic.Nationalism]",
+		"Only available <after discovering [Civic.Enlightenment]>",
+		"Only available <before discovering [Civic.Nationalism]>",
+        "Remove [Building.Nationalism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.OperaAndBallet",
+		"uniques":["Unbuildable",
+        "Can be purchased for [800] [Culture] [in capital]",
+        "Discover [Civic.OperaAndBallet]",
+		"Only available <after discovering [Civic.Enlightenment]>",
+		"Only available <before discovering [Civic.OperaAndBallet]>",
+        "Remove [Building.OperaAndBallet] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.NaturalHistory",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1050] [Culture] [in capital]",
+        "Discover [Civic.NaturalHistory]",
+		"Only available <after discovering [Civic.Colonialism]>",
+		"Only available <before discovering [Civic.NaturalHistory]>",
+        "Remove [Building.NaturalHistory] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Urbanization",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1050] [Culture] [in capital]",
+        "Discover [Civic.Urbanization]",
+		"Only available <after discovering [Civic.CivilEngineering]>",
+		"Only available <after discovering [Civic.Nationalism]>",
+		"Only available <before discovering [Civic.Urbanization]>",
+        "Remove [Building.Urbanization] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.ScorchedEarthStrategy",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1050] [Culture] [in capital]",
+        "Discover [Civic.ScorchedEarthStrategy]",
+		"Only available <after discovering [Civic.Nationalism]>",
+		"Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+        "Remove [Building.ScorchedEarthStrategy] [in this city] <hidden from users>"
+		]
+	},
+	{
+		"name":"Building.EarthProtection",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1540] [Culture] [in capital]",
+        "Discover [Civic.EarthProtection]",
+		"Only available <after discovering [Civic.NaturalHistory]>",
+		"Only available <before discovering [Civic.EarthProtection]>",
+        "Remove [Building.EarthProtection] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.MassMedia",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1540] [Culture] [in capital]",
+        "Discover [Civic.MassMedia]",
+		"Only available <after discovering [Civic.NaturalHistory]>",
+		"Only available <after discovering [Civic.Urbanization]>",
+		"Only available <before discovering [Civic.MassMedia]>",
+        "Remove [Building.MassMedia] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Mobilization",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1540] [Culture] [in capital]",
+        "Discover [Civic.Mobilization]",
+		"Only available <after discovering [Civic.Urbanization]>",
+		"Only available <after discovering [Civic.ScorchedEarthStrategy]>",
+		"Only available <before discovering [Civic.Mobilization]>",
+        "Remove [Building.Mobilization] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Capitalism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1540] [Culture] [in capital]",
+        "Discover [Civic.Capitalism]",
+		"Only available <after discovering [Civic.MassMedia]>",
+		"Only available <before discovering [Civic.Capitalism]>",
+        "Remove [Building.Capitalism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Ideology",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1540] [Culture] [in capital]",
+        "Discover [Civic.Ideology]",
+		"Only available <after discovering [Civic.MassMedia]>",
+		"Only available <after discovering [Civic.Mobilization]>",
+		"Only available <before discovering [Civic.Ideology]>",
+        "Remove [Building.Ideology] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.NuclearProgram",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1715] [Culture] [in capital]",
+        "Discover [Civic.NuclearProgram]",
+		"Only available <after discovering [Civic.Ideology]>",
+		"Only available <before discovering [Civic.NuclearProgram]>",
+        "Remove [Building.NuclearProgram] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.RightToVote",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1715] [Culture] [in capital]",
+        "Discover [Civic.RightToVote]",
+		"Only available <after discovering [Civic.Ideology]>",
+		"Only available <before discovering [Civic.RightToVote]>",
+        "Remove [Building.RightToVote] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Tolalitarianism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1715] [Culture] [in capital]",
+        "Discover [Civic.Tolalitarianism]",
+		"Only available <after discovering [Civic.Ideology]>",
+		"Only available <before discovering [Civic.Tolalitarianism]>",
+        "Remove [Building.Tolalitarianism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.ClassStruggle",
+		"cost":0,
+		"uniques":["Unbuildable",
+        "Can be purchased for [1715] [Culture] [in capital]",
+        "Discover [Civic.ClassStruggle]",
+		"Only available <after discovering [Civic.Ideology]>",
+		"Only available <before discovering [Civic.ClassStruggle]>",
+        "Remove [Building.ClassStruggle] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.CulturalHeritage",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1955] [Culture] [in capital]",
+        "Discover [Civic.CulturalHeritage]",
+		"Only available <after discovering [Civic.EarthProtection]>",
+		"Only available <before discovering [Civic.CulturalHeritage]>",
+        "Remove [Building.CulturalHeritage] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.ColdWar",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1955] [Culture] [in capital]",
+        "Discover [Civic.ColdWar]",
+		"Only available <after discovering [Civic.Ideology]>",
+		"Only available <before discovering [Civic.ColdWar]>",
+        "Remove [Building.ColdWar] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.EmergencyDeployment",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1955] [Culture] [in capital]",
+        "Discover [Civic.EmergencyDeployment]",
+		"Only available <after discovering [Civic.ColdWar]>",
+		"Only available <before discovering [Civic.EmergencyDeployment]>",
+        "Remove [Building.EmergencyDeployment] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.SpaceRace",
+		"uniques":["Unbuildable",
+        "Can be purchased for [2415] [Culture] [in capital]",
+        "Discover [Civic.SpaceRace]",
+		"Only available <after discovering [Civic.ColdWar]>",
+		"Only available <before discovering [Civic.SpaceRace]>",
+        "Remove [Building.SpaceRace] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.ProfessionalSports",
+		"uniques":["Unbuildable",
+        "Can be purchased for [1955] [Culture] [in capital]",
+        "Discover [Civic.ProfessionalSports]",
+		"Only available <after discovering [Civic.Ideology]>",
+		"Only available <before discovering [Civic.ProfessionalSports]>",
+        "Remove [Building.ProfessionalSports] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Environmentalism",
+		"uniques":["Unbuildable",
+        "Can be purchased for [2880] [Culture] [in capital]",
+        "Discover [Civic.Environmentalism]",
+		"Only available <after discovering [Civic.CulturalHeritage]>",
+		"Only available <after discovering [Civic.EmergencyDeployment]>",
+		"Only available <before discovering [Civic.Environmentalism]>",
+        "Remove [Building.Environmentalism] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Globalization",
+		"uniques":["Unbuildable",
+        "Can be purchased for [2880] [Culture] [in capital]",
+        "Discover [Civic.Globalization]",
+		"Only available <after discovering [Civic.EmergencyDeployment]>",
+		"Only available <after discovering [Civic.SpaceRace]>",
+		"Only available <before discovering [Civic.Globalization]>",
+        "Remove [Building.Globalization] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.SocialMedia",
+		"uniques":["Unbuildable",
+        "Can be purchased for [2880] [Culture] [in capital]",
+        "Discover [Civic.SocialMedia]",
+		"Only available <after discovering [Civic.SpaceRace]>",
+		"Only available <after discovering [Civic.ProfessionalSports]>",
+		"Only available <before discovering [Civic.SocialMedia]>",
+        "Remove [Building.SocialMedia] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.Near-futureGovernance",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3100] [Culture] [in capital]",
+        "Discover [Civic.Near-FutureGovernance]",
+		"Only available <after discovering [Civic.Environmentalism]>",
+		"Only available <after discovering [Civic.Globalization]>",
+		"Only available <before discovering [Civic.Near-FutureGovernance]>",
+        "Remove [Building.Near-futureGovernance] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.PoliticalAdventures",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3100] [Culture] [in capital]",
+        "Discover [Civic.PoliticalAdventures]",
+		"Only available <after discovering [Civic.Globalization]>",
+		"Only available <after discovering [Civic.SocialMedia]>",
+		"Only available <before discovering [Civic.PoliticalAdventures]>",
+        "Remove [Building.PoliticalAdventures] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.DecentralizedSovereighty",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3100] [Culture] [in capital]",
+        "Discover [Civic.DecentralizedSovereighty]",
+		"Only available <after discovering [Civic.Globalization]>",
+		"Only available <after discovering [Civic.SocialMedia]>",
+		"Only available <before discovering [Civic.DecentralizedSovereighty]>",
+        "Remove [Building.DecentralizedSovereighty] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.OptimizationCommand",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3100] [Culture] [in capital]",
+        "Discover [Civic.OptimizationCommand]",
+		"Only available <after discovering [Civic.Globalization]>",
+		"Only available <after discovering [Civic.SocialMedia]>",
+		"Only available <before discovering [Civic.OptimizationCommand]>",
+        "Remove [Building.OptimizationCommand] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.GlobalWarmingMitigation",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3200] [Culture] [in capital]",
+        "Discover [Civic.GlobalWarmingMitigation]",
+		"Only available <after discovering [Civic.PoliticalAdventures]>",
+		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
+		"Only available <after discovering [Civic.OptimizationCommand]>",
+		"Only available <before discovering [Civic.GlobalWarmingMitigation]>",
+        "Remove [Building.GlobalWarmingMitigation] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.SmartPowerFoctrine",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3200] [Culture] [in capital]",
+        "Discover [Civic.SmartPowerFoctrine]",
+		"Only available <after discovering [Civic.PoliticalAdventures]>",
+		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
+		"Only available <after discovering [Civic.OptimizationCommand]>",
+		"Only available <before discovering [Civic.SmartPowerFoctrine]>",
+        "Remove [Building.SmartPowerFoctrine] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.InformationWarfare",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3200] [Culture] [in capital]",
+        "Discover [Civic.InformationWarfare]",
+		"Only available <after discovering [Civic.PoliticalAdventures]>",
+		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
+		"Only available <after discovering [Civic.OptimizationCommand]>",
+		"Only available <before discovering [Civic.InformationWarfare]>",
+        "Remove [Building.InformationWarfare] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.NecessityExpedition",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3200] [Culture] [in capital]",
+        "Discover [Civic.NecessityExpedition]",
+		"Only available <after discovering [Civic.PoliticalAdventures]>",
+		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
+		"Only available <after discovering [Civic.OptimizationCommand]>",
+		"Only available <before discovering [Civic.NecessityExpedition]>",
+        "Remove [Building.NecessityExpedition] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.CulturalHegemony",
+		"uniques":["Unbuildable",
+        "Can be purchased for [3200] [Culture] [in capital]",
+        "Discover [Civic.CulturalHegemony]",
+		"Only available <after discovering [Civic.PoliticalAdventures]>",
+		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
+		"Only available <after discovering [Civic.OptimizationCommand]>",
+		"Only available <before discovering [Civic.CulturalHegemony]>",
+        "Remove [Building.CulturalHegemony] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.FutureMunicipal",
+		"cost":0,
+		"uniques":["Unbuildable",
+        "Can be purchased for [3500] [Culture] [in capital]",
+        "Consumes [-1] [Resource.GovernorTitle]",
+		"Discover [Civic.FutureMunicipal]",
+		"Only available <after discovering [Civic.GlobalWarmingMitigation]>",
+		"Only available <after discovering [Civic.SmartPowerFoctrine]>",
+		"Only available <after discovering [Civic.InformationWarfare]>",
+		"Only available <after discovering [Civic.GlobalWarmingMitigation]>",
+		"Only available <before discovering [Civic.NecessityExpedition]>",
+		"Only available <after discovering [Civic.CulturalHegemony]>",
+        "Remove [Building.FutureMunicipal] [in this city] <hidden from users>"]
+	},
+	{
+		"name":"Building.AdvancedFutureMunicipal",
+		"cost":0,
+		"uniques":["Unbuildable",
+        "Can be purchased for [3500] [Culture] [in capital]",
+        "Consumes [-1] [Resource.GovernorTitle]",
+		"Only available <after discovering [Civic.FutureMunicipal]>",
+        "Remove [Building.AdvancedFutureMunicipal] [in this city] <hidden from users>"]
+	},
+
     /*文明专属特殊建筑*/
     {//拜占庭-天授规矩
         "name":"Building.DivinelyOrdainedRules",
@@ -175,6 +775,20 @@
             "[+2 Gold] from each Trade Route",
             "Class.WonderEra.Classical",
             "Triggers a global alert upon completion"]
+    },
+    {//美利坚-好莱坞
+        "name":"AWonder.Hollywood",
+        "requiredTech":"Civic.MassMedia",
+        "uniqueTo":"Nation.UnitedStates",
+        "isNationalWonder": true,
+        "cost":1620,
+        "uniques":[
+            "Discover [Civic.Ideology]",
+            "Discover [Civic.NuclearProgram]",
+            "Discover [Civic.RightToVote]",
+            "Discover [Civic.ClassStruggle]",
+            "Discover [Civic.ColdWar]"
+        ]
     },
 
     /*政体建筑*/
@@ -344,7 +958,7 @@
 	    "name": "Gov.Communism",
 		"cost": 40,
 		"hurryCostModifier":-33,
-        "requiredTech":"Unit.ClassStruggle",
+        "requiredTech":"Civic.ClassStruggle",
 		"uniques":[
             "[+10]% [Science] [in all cities]",
             "[+4 Production] per [5] population [in all cities]",
@@ -448,8 +1062,8 @@
     /*秘密结社建筑*/
 	{//虚空吟唱者I
 	    "name": "Governor.VoidchonerI",
-		"cost": 0,
-		"uniques":["[+3 Faith] from every [Building.Monument]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]","[+3 Faith] from every [Building.Monument]",
             "Only available <starting from the [Era.Ancient]>",
             "Only available <after [8] turns>",
             "Unsellable",
@@ -463,10 +1077,11 @@
     },
 	{//虚空吟唱者II
 	    "name": "Governor.VoidchonerII",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.VoidchonerI",
-		"uniques":[
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+3 Faith] from every [Building.Monument]",
             // "[+1 Science] per every [10] [Faith]",
             // "[+1 Culture] per every [15] [Faith]",
             // "[+1 Gold] per every [5] [Faith]",
@@ -484,10 +1099,11 @@
     },
 	{//虚空吟唱者III
 	    "name": "Governor.VoidchonerIII",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.VoidchonerII",
-		"uniques":["May buy [Building.VoidAltar] buildings for [500] [Faith] [in all cities]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]","[+3 Faith] from every [Building.Monument]",
+            "May buy [Building.VoidAltar] buildings for [500] [Faith] [in all cities]",
             "Only available <starting from the [Era.Industrial]>",
             "Only available <in cities with a [Governor.VoidchonerII]>",
             "Unsellable",
@@ -507,10 +1123,11 @@
     },
 	{//虚空吟唱者IV
 	    "name": "Governor.VoidchonerIV",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.VoidchonerIII",
-		"uniques":["May buy [Building.DarkCallTower] buildings for [750] [Faith] [in all cities]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "May buy [Building.DarkCallTower] buildings for [750] [Faith] [in all cities]",
             "Only available <starting from the [Era.Atomic]>",
             "Only available <in cities with a [Governor.VoidchonerIII]>",
             "Unsellable",
@@ -529,8 +1146,9 @@
 
 	{//弥涅耳瓦夜莺I
 	    "name": "Governor.MinervaNightingaleI",
-		"cost": 0,
-		"uniques":["Provides [1] [Resource.EconomicPolicySlot]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
             "Only available <starting from the [Era.Ancient]>",
             "Only available <after [8] turns>",
             "Unsellable",
@@ -544,10 +1162,11 @@
     },
 	{//弥涅耳瓦夜莺II
 	    "name": "Governor.MinervaNightingaleII",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.MinervaNightingaleI",
-		"uniques":["[+4 Culture, +4 Production] from every [Building.Bank]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+4 Culture, +4 Production] from every [Building.Bank]",
             "[+100]% Production when constructing [Building.Bank] buildings [in all cities]",
             "Only available <starting from the [Era.Medieval]>",
             "Only available <in cities with a [Governor.MinervaNightingaleI]>",
@@ -559,10 +1178,11 @@
     },
 	{//弥涅耳瓦夜莺III
 	    "name": "Governor.MinervaNightingaleIII",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.MinervaNightingaleII",
-		"uniques":["Provides [1] [Resource.GenericPolicySlot]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.GenericPolicySlot]",
             "Provides [2] [Resource.SpyCapacity]",
             "Only available <starting from the [Era.Industrial]>",
             "Only available <in cities with a [Governor.MinervaNightingaleII]>",
@@ -574,10 +1194,11 @@
     },
 	{//弥涅耳瓦夜莺IV
 	    "name": "Governor.MinervaNightingaleIV",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.MinervaNightingaleIII",
-		"uniques":["[+1 Gold] per [1] population [in all cities]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+1 Gold] per [1] population [in all cities]",
             "[-50]% maintenance cost for buildings [in all cities]",
             "Only available <starting from the [Era.Atomic]>",
             "Only available <in cities with a [Governor.MinervaNightingaleIII]>",
@@ -590,8 +1211,9 @@
 
 	{//黄金黎明I
 	    "name": "Governor.GoldenDawnI",
-		"cost": 0,
-		"uniques":["Discover [Tech.UniqueToGoldenDawn]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Discover [Tech.UniqueToGoldenDawn]",
             "[+1 Production, +1 Science] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
             "Only available <starting from the [Era.Ancient]>",
             "Only available <after [8] turns>",
@@ -606,10 +1228,11 @@
     },
 	{//黄金黎明II
 	    "name": "Governor.GoldenDawnII",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.GoldenDawnI",
-		"uniques":["[+5 Gold] from every [Building.University]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+5 Gold] from every [Building.University]",
             "[+100]% Production when constructing [Building.University] buildings [in all cities]",
             "Only available <starting from the [Era.Medieval]>",
             "Only available <in cities with a [Governor.GoldenDawnI]>",
@@ -621,10 +1244,11 @@
     },
 	{//黄金黎明III
 	    "name": "Governor.GoldenDawnIII",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.GoldenDawnII",
-		"uniques":["[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
             "Only available <starting from the [Era.Industrial]>",
             "Only available <in cities with a [Governor.GoldenDawnII]>",
             "Unsellable",
@@ -635,10 +1259,11 @@
     },
 	{//黄金黎明IV
 	    "name": "Governor.GoldenDawnIV",
-		"cost": 0,
 		"requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.GoldenDawnIII",
-		"uniques":["Discover [Tech.UniqueToGoldenDawn2]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Discover [Tech.UniqueToGoldenDawn2]",
             "Only available <starting from the [Era.Atomic]>",
             "Only available <in cities with a [Governor.GoldenDawnIII]>",
             "Unsellable",
@@ -661,8 +1286,9 @@
 
     {//血色契约I
         "name": "Governor.BloodContractI",
-        "cost": 0,
-        "uniques":["Provides [1] [Resource.remainingAvailableVampireCount]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.remainingAvailableVampireCount]",
             "Discover [Tech.UniqueToVampire]",
             "May buy [Unit.VampireI] units for [0] [Gold] [in all cities] <when above [0] [Resource.remainingAvailableVampireCount]>",
             "Only available <starting from the [Era.Ancient]>",
@@ -678,10 +1304,11 @@
     },
     {//血色契约II
         "name": "Governor.BloodContractII",
-        "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.BloodContractI",
-        "uniques":["Provides [1] [Resource.remainingAvailableVampireCount]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.remainingAvailableVampireCount]",
             "Vampire could ignore the cost of extra movement of hills and vegetation",
             "Only available <starting from the [Era.Medieval]>",
             "Only available <in cities with a [Governor.BloodContractI]>",
@@ -693,10 +1320,11 @@
     },
     {//血色契约III
         "name": "Governor.BloodContractIII",
-        "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.BloodContractII",
-        "uniques":["Provides [1] [Resource.remainingAvailableVampireCount]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.remainingAvailableVampireCount]",
             "+23% strength for vampire",
             "Only available <starting from the [Era.Industrial]>",
             "Only available <in cities with a [Governor.BloodContractII]>",
@@ -708,10 +1336,11 @@
     },
     {//血色契约IV
         "name": "Governor.BloodContractIV",
-        "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.BloodContractIII",
-        "uniques":["Provides [1] [Resource.remainingAvailableVampireCount]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.remainingAvailableVampireCount]",
             "-23% strength for enemy Military units who are adjacent to vampire",
             "Only available <starting from the [Era.Atomic]>",
             "Only available <in cities with a [Governor.BloodContractIII]>",
@@ -725,8 +1354,9 @@
     /*文明特色总督*/
     {//大维齐尔I
         "name": "Governor.GrandVizierI",
-        "cost": 100,
-        "uniques":["[+20]% Production when constructing [Military] units [in all cities]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+20]% Production when constructing [Military] units [in all cities]",
             "[+23]% Strength <for [Military] units> <vs cities> <when attacking>",
             "Only available <starting from the [Era.Ancient]>",
             "Only available <for [Nation.Ottoman]>",
@@ -741,11 +1371,12 @@
     },
     {//大维齐尔II
         "name": "Governor.GrandVizierII",
-        "cost": 100,
         "cityStrength":50,
         "requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.GrandVizierI",
-        "uniques":["[+13]% Strength <for [{Military} {Land}] units> <in [Friendly Land] tiles>",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+13]% Strength <for [{Military} {Land}] units> <in [Friendly Land] tiles>",
             "Provides [2] [Resource.Influence]",
             "Only available <starting from the [Era.Classical]>",
             "Only available <for [Nation.Ottoman]>",
@@ -760,10 +1391,10 @@
     },
     {//大维齐尔III
         "name": "Governor.GrandVizierIII",
-        "cost": 100,
         "requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.GrandVizierII",
-        "uniques":["Free Technology",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Instantly provides [60] [Resource.Horse]",
             "Instantly provides [60] [Resource.Iron]",
             "Only available <starting from the [Era.Medieval]>",
@@ -779,10 +1410,10 @@
     },
     {//大维齐尔IV
         "name": "Governor.GrandVizierIV",
-        "cost": 100,
         "requiredResource": "Resource.GovernorTitle",
         "requiredBuilding":"Governor.GrandVizierIII",
-        "uniques":[
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Instantly provides [40] [Resource.Niter]",
             "Instantly provides [5] [Resource.Niter] <upon gaining a [Unit.SudaneseParamilitary] unit>",
             "[+25]% Production when constructing [Unit.SudaneseParamilitary] units [in all cities]",
@@ -815,9 +1446,10 @@
     /*通用总督建筑*/
 	{
 	    "name": "Governor.MagnusI",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+1 Production] from [Vegetation] tiles [in this city] <in tiles without [Class.District]>",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+1 Production] from [Vegetation] tiles [in this city] <in tiles without [Class.District]>",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -829,9 +1461,10 @@
     },
     {
 	    "name": "Governor.MagnusIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+2 Food] [in all cities connected to capital]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+2 Food] [in all cities connected to capital]",
             "Provides 1 '[Resource.Livability]' <in cities with at least 15 Population with a [Class.Building.DistrictUnique]>",
             "[15]% Food is carried over after population increases [in this city]",
             "Only available <in cities with a [Governor.MagnusI]>",
@@ -844,10 +1477,10 @@
     },
     {
 	    "name": "Governor.MagnusIIIA",
-        "cost": 100,
         "production":8,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":[
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Only available <in cities with a [Governor.MagnusIIA]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -858,10 +1491,11 @@
     },
     {
 	    "name": "Governor.MagnusIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.MagnusI",
-		"uniques":["[+50]% Production when constructing [Unit.Settler] units [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+50]% Production when constructing [Unit.Settler] units [in this city]",
             "Only available <in cities with a [Governor.MagnusI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -872,10 +1506,10 @@
     },
     {
 	    "name": "Governor.MagnusIIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.MagnusIIB",
-		"uniques":[
+		"uniques":["Unbuildable",
+           "Can be purchased for [0] [Gold] [in capital]",
             "Training combat units requires half the amount of strategic resources",
             "Only available <in cities with a [Governor.MagnusIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -887,10 +1521,10 @@
     },
     {
 	    "name": "Governor.MagnusIV",
-        "cost": 100,
 		"percentStatBonus": {"production": 25},
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":[
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Unsellable",
             "Only available <in cities with a [Governor.MagnusIIIA]>",
             "Only available <in cities with a [Governor.MagnusIIIB]>",
@@ -919,10 +1553,11 @@
 
     {
 	    "name": "Governor.ReynaI",
-        "cost": 100,
         "gold":2,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+2 Gold] from each Trade Route",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+2 Gold] from each Trade Route",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -934,10 +1569,11 @@
     },
     {//瑞娜IIA
 	    "name": "Governor.ReynaIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.ReynaI",
-		"uniques":["[+100]% Yield from every [Class.CommercialHub] <in this city>",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+100]% Yield from every [Class.CommercialHub] <in this city>",
             "[+100]% Yield from every [Class.Harbor] <in this city>",
             "Only available <in cities with a [Governor.ReynaI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -949,10 +1585,11 @@
     },
     {
 	    "name": "Governor.ReynaIIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.ReynaIIA",
-		"uniques":["[+2 Gold] per [1] population [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+2 Gold] per [1] population [in this city]",
             "Only available <in cities with a [Governor.ReynaIIA]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -963,10 +1600,11 @@
     },
     {
 	    "name": "Governor.ReynaIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.ReynaI",
-		"uniques":["[+2 Gold] from [Improvement.ProtectionZone] tiles [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+2 Gold] from [Improvement.ProtectionZone] tiles [in this city]",
             "Only available <in cities with a [Governor.ReynaI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -977,10 +1615,12 @@
     },
     {
 	    "name": "Governor.ReynaIIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.ReynaIIB",
-		"uniques":["[Gold] cost of purchasing items in cities [-15]%",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[Gold] cost of purchasing items in cities [-15]%",
             "Only available <in cities with a [Governor.ReynaIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -991,10 +1631,12 @@
     },
     {
 	    "name": "Governor.ReynaIV",
-        "cost": 100,
 		"percentStatBonus": {"production": 25},
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+5 Gold] from every [Improvement.GeothermalPowerPlant]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+5 Gold] from every [Improvement.GeothermalPowerPlant]",
             "Unsellable",
             "Only available <in cities with a [Governor.ReynaIIIA]>",
             "Only available <in cities with a [Governor.ReynaIIIB]>",
@@ -1023,9 +1665,11 @@
 
     {
 	    "name": "Governor.AmaniI",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["City-State territory always counts as friendly territory",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "City-State territory always counts as friendly territory",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -1037,10 +1681,12 @@
     },
     {
 	    "name": "Governor.AmaniIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.AmaniI",
-		"uniques":["Provides [2] [Resource.DiplomaticFavor]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [2] [Resource.DiplomaticFavor]",
             "Only available <in cities with a [Governor.AmaniI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1051,10 +1697,11 @@
     },
     {
 	    "name": "Governor.AmaniIIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.AmaniIIA",
 		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
             "Only available <in cities with a [Governor.AmaniIIA]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1066,10 +1713,10 @@
     },
     {
 	    "name": "Governor.AmaniIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.AmaniI",
-		"uniques":[
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Provides [2] [Resource.Livability]",
             "Only available <in cities with a [Governor.AmaniI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1080,10 +1727,12 @@
     },
     {
 	    "name": "Governor.AmaniIIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.AmaniIIB",
-		"uniques":["Provides [1] [Resource.SpyCapacity]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Provides [1] [Resource.SpyCapacity]",
             "Only available <in cities with a [Governor.AmaniIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1094,9 +1743,11 @@
     },
     {
 	    "name": "Governor.AmaniIV",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["Resting point for Influence with City-States is increased by [60]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Resting point for Influence with City-States is increased by [60]",
             "City-State Influence recovers at twice the normal rate",
             "Unsellable",
             "Only available <in cities with a [Governor.AmaniIIIA]>",
@@ -1126,10 +1777,10 @@
 
     {
 	    "name": "Governor.VictorI",
-        "cost": 100,
         "cityStrength":50,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":[
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -1141,10 +1792,11 @@
     },
     {
 	    "name": "Governor.VictorIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.VictorI",
-		"uniques":["[+50]% Strength for cities <with a garrison> <when attacking>",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+50]% Strength for cities <with a garrison> <when attacking>",
             "Only available <in cities with a [Governor.VictorI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1155,10 +1807,11 @@
     },
     {
 	    "name": "Governor.VictorIIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.VictorIIA",
-		"uniques":["All newly-trained [Military] units [in this city] receive the [Promotion.LordTraining] promotion",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "All newly-trained [Military] units [in this city] receive the [Promotion.LordTraining] promotion",
             "Only available <in cities with a [Governor.VictorIIA]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1169,10 +1822,12 @@
     },
     {
 	    "name": "Governor.VictorIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.VictorI",
-		"uniques":["[+18]% Strength <for [Military] units> <when defending> <in cities with a [Building.DistrictUnique.MilitaryEncampment]>",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+18]% Strength <for [Military] units> <when defending> <in cities with a [Building.DistrictUnique.MilitaryEncampment]>",
             "Only available <in cities with a [Governor.VictorI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1183,11 +1838,13 @@
     },
     {
 	    "name": "Governor.VictorIIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.VictorIIB",
 //        "xpForNewUnits":10,
-		"uniques":["New [Military] units start with [10] Experience [in this city]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "New [Military] units start with [10] Experience [in this city]",
             "Only available <in cities with a [Governor.VictorIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1198,10 +1855,11 @@
     },
     {
 	    "name": "Governor.VictorIV",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
 //        "xpForNewUnits":20,
-		"uniques":["New [Military] units start with [20] Experience [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "New [Military] units start with [20] Experience [in this city]",
             "Unsellable",
             "Only available <in cities with a [Governor.VictorIIIA]>",
             "Only available <in cities with a [Governor.VictorIIIB]>",
@@ -1230,10 +1888,11 @@
 
     {
 	    "name": "Governor.PingalaI",
-        "cost": 100,
         "percentStatBonus":{"science":8,"culture":6},
 		"requiredResource": "Resource.GovernorTitle",
 		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -1245,10 +1904,12 @@
     },
     {
 	    "name": "Governor.PingalaIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.PingalaI",
-		"uniques":["[+4 Science] per [4] population [in this city]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+4 Science] per [4] population [in this city]",
             "Only available <in cities with a [Governor.PingalaI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1259,10 +1920,11 @@
     },
     {
 	    "name": "Governor.PingalaIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.PingalaI",
-		"uniques":["[+3 Culture] per [3] population [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+3 Culture] per [3] population [in this city]",
             "Only available <in cities with a [Governor.PingalaI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1273,9 +1935,11 @@
     },
     {
 	    "name": "Governor.PingalaIII",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["+100% Great Person generation in this city(only for buildings)",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "+100% Great Person generation in this city(only for buildings)",
             "Only available <in cities with a [Governor.PingalaIIA]>",
             "Only available <in cities with a [Governor.PingalaIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1287,9 +1951,11 @@
     },
     {
 	    "name": "Governor.PingalaIVA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+50]% [Science] [in this city]",//将来会和旅游业绩相关
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+50]% [Science] [in this city]",//将来会和旅游业绩相关
             "Unsellable",
             "Only available <in cities with a [Governor.PingalaIII]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1300,9 +1966,10 @@
     },
     {
 	    "name": "Governor.PingalaIVB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+50]% Production when constructing [Class.Unit.SpaceRace] units [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+50]% Production when constructing [Class.Unit.SpaceRace] units [in this city]",
             "Unsellable",
             "Only available <in cities with a [Governor.PingalaIII]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1330,10 +1997,11 @@
 
     {
 	    "name": "Governor.LiangI",
-        "cost": 100,
         "cityStrength":30,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["All newly-trained [UnitType.Civilian] units [in this city] receive the [Promotion.UnionLeader] promotion",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "All newly-trained [UnitType.Civilian] units [in this city] receive the [Promotion.UnionLeader] promotion",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -1345,10 +2013,12 @@
     },
     {
 	    "name": "Governor.LiangIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.LiangI",
-		"uniques":["[+40]% Production when constructing [Class.Building.DistrictUnique] buildings [in this city]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+40]% Production when constructing [Class.Building.DistrictUnique] buildings [in this city]",
             "Only available <in cities with a [Governor.LiangI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1359,10 +2029,12 @@
     },
     {
 	    "name": "Governor.LiangIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.LiangI",
-		"uniques":["May buy [Unit.Fishery] units for [300] [Gold] [in this city] at an increasing price ([75])",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "May buy [Unit.Fishery] units for [300] [Gold] [in this city] at an increasing price ([75])",
             "[+1 Production] from [Improvement.Fishery] tiles [in this city]",
             "Only available <in cities with a [Governor.LiangI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1374,9 +2046,10 @@
     },
     {
 	    "name": "Governor.LiangIII",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+1 Production] from [Improvement.ProtectionZone] tiles [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+1 Production] from [Improvement.ProtectionZone] tiles [in this city]",
             "Only available <in cities with a [Governor.LiangIIA]>",
             "Only available <in cities with a [Governor.LiangIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1388,9 +2061,10 @@
     },
     {
 	    "name": "Governor.LiangIVA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+100]% Production when constructing [Class.Unit.Builder] units [in this city]",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+100]% Production when constructing [Class.Unit.Builder] units [in this city]",
             "Unsellable",
             "Only available <in cities with a [Governor.LiangIII]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1401,9 +2075,10 @@
     },
     {
 	    "name": "Governor.LiangIVB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+1 Culture] from [Improvement.ProtectionZone] tiles [in this city]",//将来和市立公园有关
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+1 Culture] from [Improvement.ProtectionZone] tiles [in this city]",//将来和市立公园有关
             "Unsellable",
             "Only available <in cities with a [Governor.LiangIII]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1431,9 +2106,10 @@
 
     {
 	    "name": "Governor.MokshaI",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+2 Faith] from every [Class.Building.DistrictUnique] <in this city>",
+		"uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+2 Faith] from every [Class.Building.DistrictUnique] <in this city>",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -1445,10 +2121,12 @@
     },
     {
 	    "name": "Governor.MokshaIIA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.MokshaI",
-		"uniques":["May choose [1] additional belief(s) of any type when [enhancing] a religion",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "May choose [1] additional belief(s) of any type when [enhancing] a religion",
             "Only available <in cities with a [Governor.MokshaI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -1459,10 +2137,12 @@
     },
     {
 	    "name": "Governor.MokshaIIB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.MokshaI",
-		"uniques":["Enables conversion of city production to [Faith] <in this city>",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Enables conversion of city production to [Faith] <in this city>",
 		    "Production to [Faith] conversion in cities changed by [100]%",
             "Only available <in cities with a [Governor.MokshaI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1475,9 +2155,11 @@
     },
     {
 	    "name": "Governor.MokshaIII",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["All newly-trained [Unit.Missionary] units [in this city] receive the [Promotion.Devout1] promotion",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "All newly-trained [Unit.Missionary] units [in this city] receive the [Promotion.Devout1] promotion",
             "Only available <in cities with a [Governor.MokshaIIA]>",
             "Only available <in cities with a [Governor.MokshaIIB]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1489,9 +2171,11 @@
     },
     {
 	    "name": "Governor.MokshaIVA",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[Faith] cost of purchasing items in cities [-15]%",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[Faith] cost of purchasing items in cities [-15]%",
             "Unsellable",
             "Only available <in cities with a [Governor.MokshaIII]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -1502,9 +2186,11 @@
     },
     {
 	    "name": "Governor.MokshaIVB",
-        "cost": 100,
 		"requiredResource": "Resource.GovernorTitle",
-		"uniques":["[+400]% Natural religion spread [in all cities]",
+		"uniques":[
+            "Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "[+400]% Natural religion spread [in all cities]",
             "Unsellable",
             "Only available <in cities with a [Governor.MokshaIII]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -4864,15 +5550,17 @@
     //军事政策卡
     {//显示军事政策
         "name":"Mil.Reveal",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Mil.Hide] [in this city] <hidden from users>",
             "Unsellable"]
     },
     {//隐藏军事政策
         "name":"Mil.Hide",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Mil.Reveal] [in this city] <hidden from users>",
             "Only available <in cities with a [Mil.Reveal]> <hidden from users>",
             "Unsellable"]
@@ -5396,15 +6084,17 @@
     //经济政策卡
     {//显示经济政策
         "name":"Eco.Reveal",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Eco.Hide] [in this city] <hidden from users>",
             "Unsellable"]
     },
     {//隐藏经济政策
         "name":"Eco.Hide",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Eco.Reveal] [in this city] <hidden from users>",
             "Only available <in cities with a [Eco.Reveal]> <hidden from users>",
             "Unsellable"]
@@ -5878,7 +6568,7 @@
         "Destroyed when the city is captured",
         "Only available <in cities with a [Eco.Reveal]> <hidden from users>",
         "Class.Policy.Economy"],
-        "requiredTech":"Unit.ClassStruggle"
+        "requiredTech":"Civic.ClassStruggle"
     },
     {
         "name":"Eco.yichanlvyou",
@@ -5975,15 +6665,17 @@
     //外交政策卡
     {//显示外交政策
         "name":"Dip.Reveal",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Dip.Hide] [in this city] <hidden from users>",
             "Unsellable"]
     },
     {//隐藏外交政策
         "name":"Dip.Hide",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Dip.Reveal] [in this city] <hidden from users>",
             "Only available <in cities with a [Dip.Reveal]> <hidden from users>",
             "Unsellable"]
@@ -6105,7 +6797,7 @@
         "name":"Dip.ezhi",
         "cost":0,
         "requiredResource":"Resource.DiplomaticPolicySlot",
-        "uniques":["+30% Strength when fighting City-State units and cities",
+        "uniques":["[+30]% Strength <vs [City-States]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
@@ -6169,15 +6861,17 @@
     //通用政策卡
     {//显示通用政策
         "name":"Gene.Reveal",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Gene.Hide] [in this city] <hidden from users>",
             "Unsellable"]
     },
     {//隐藏通用政策
         "name":"Gene.Hide",
-        "cost":0,
-        "uniques":["Can only be built [in capital]",
+        "uniques":["Unbuildable",
+            "Can be purchased for [0] [Gold] [in capital]",
+            "Can only be built [in capital]",
             "Remove [Gene.Reveal] [in this city] <hidden from users>",
             "Only available <in cities with a [Gene.Reveal]> <hidden from users>",
             "Unsellable"]
@@ -6382,91 +7076,6 @@
         "Class.Policy.General"],
         "requiredTech":"Civic.RightToVote"
     },
-    {//美利坚-国家劳动关系法
-        "name":"Gene.NationalLaborRelationsAct",
-        "cost":0,
-        "uniqueTo":"Nation.UnitedStates",
-        "requiredResource":"Resource.GenericPolicySlot",
-        "uniques":["May buy [Unit.CommonWorker1] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Miner] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Quarry] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Fisherman] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Fishery] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.OceanHomeBuilder] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Shepherd] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.PlantationWorker] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Worker] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Lumberjack] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.OilWell] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.DrillRig] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.ForestRanger] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.GeothermalPowerPlant] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Trader] units for [100] [Gold] [in all cities]",
-        "May buy [Unit.Settler] units for [300] [Gold] [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Only available <in cities with a [Gene.Reveal]> <hidden from users>",
-        "Class.Policy.General"],
-        "requiredTech":"Civic.RightToVote",
-        "replacementTextForUniques":"Allow the purchase of any Builder for 100 gold and the purchase of a Settler for 300 gold (cost varies with speed)"
-    },
-    // {//美利坚-社会保障法
-    //     "name":"Gene.SocialSecurityAct",
-    //     "cost":0,
-    //     "uniqueTo":"Nation.UnitedStates",
-    //     "requiredResource":"Resource.GenericPolicySlot",
-    //     "uniques":["[+3 Happiness, -6 Gold] [in all cities]",
-    //     "Can only be built [in capital]",
-    //     "Limited to [1] per Civilization",
-    //     "Destroyed when the city is captured",
-    //     "Only available <in cities with a [Gene.Reveal]> <hidden from users>",
-    //     "Class.Policy.General"],
-    //     "requiredTech":"Civic.RightToVote"
-    // },
-    {//美利坚-农业调整法
-        "name":"Gene.AgriculturalAdjustmentAct",
-        "cost":0,
-        "uniqueTo":"Nation.UnitedStates",
-        "requiredResource":"Resource.GenericPolicySlot",
-        "uniques":["[-4 Food, +8 Gold] [in all cities]",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Destroyed when the city is captured",
-        "Only available <in cities with a [Gene.Reveal]> <hidden from users>",
-        "Class.Policy.General"],
-        "requiredTech":"Civic.RightToVote"
-    },
-    {//美利坚-盖尔-斯波林法案(这个不是政策卡)
-        "name":"Building.GlassSteagallAct",
-        "cost":0,
-        "uniqueTo":"Nation.UnitedStates",
-        "uniques":["[+1000 Gold] <for [1] turns>",
-        "[-60 Gold] <for [20] turns>",
-        "Can only be built [in capital]",
-        "Destroyed when the city is captured"],
-        "requiredTech":"Civic.RightToVote"
-    },
-    {//美利坚-公共工程计划(这个不是政策卡)
-        "name":"Building.PublicWorksPrograms",
-        "cost":0,
-        "uniqueTo":"Nation.UnitedStates",
-        "uniques":["[-800 Gold] <for [1] turns>",
-        "[+10 Production] [in all cities] <for [5] turns>",
-        "Can only be built [in capital]",
-        "Destroyed when the city is captured"],
-        "requiredTech":"Civic.RightToVote"
-    },
-    {//美利坚-国家住房法(这个不是政策卡)
-        "name":"Building.NationalHousingAct",
-        "cost":0,
-        "maintenance":5,
-        "uniqueTo":"Nation.UnitedStates",
-        "uniques":["Provides [4] [Resource.houseLimitation]",
-        "Destroyed when the city is captured",
-        "Unsellable"],
-        "requiredTech":"Civic.RightToVote"
-    },
     {
         "name":"Gene.junshiguanzhi",
         "cost":0,
@@ -6491,7 +7100,7 @@
         "Destroyed when the city is captured",
         "Only available <in cities with a [Gene.Reveal]> <hidden from users>",
         "Class.Policy.General"],
-        "requiredTech":"Unit.ClassStruggle"
+        "requiredTech":"Civic.ClassStruggle"
     },
     {
         "name":"Gene.waijiaoziben",

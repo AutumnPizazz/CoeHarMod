@@ -1107,6 +1107,11 @@
 		"civilopediaText":[
 			{"text": "Nation.Atlantis","link": "Nation/Nation.Atlantis"}
 		]
+	},
+	{//美利坚-快速民兵
+		"name": "Promotion.MinuteMen",
+		"uniques": ["[+1] Movement <in [Friendly Land] tiles>",
+		"Unit will heal every turn, even if it performs an action <in [Friendly Land] tiles>"]
 	}
 
 

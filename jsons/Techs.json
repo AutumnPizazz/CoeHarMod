@@ -849,7 +849,7 @@
 				"uniques": ["Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"]
 			},
 			{
-				"name": "Unit.ClassStruggle",
+				"name": "Civic.ClassStruggle",
 				"row": 15,
 				"prerequisites": ["Civic.Ideology"],
 				"quote": "阶级斗争必然导致无产阶级专政。\n——卡尔·马克思",

@@ -51,7 +51,7 @@
 
 		"uniqueName": "Yongle Prosperity",
 		"uniques": [
-			"[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
+			"[+2 Science, +2 Culture, +4 Gold] per [3] population [in all cities] <in cities with at least [10] [Population]>",
 			"[+1] [Resource.Livability] in cities with at least [5] Population",
 			"[+2] [Resource.Livability] in cities with at least [10] Population",
 			// "[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
@@ -95,7 +95,7 @@
 
 		"uniqueName": "Freie Reichsstadt",
 		"uniques": ["Provides [1] [Resource.MilitaryPolicySlot]",
-		"+30% Strength when fighting City-State units and cities"],
+		"[+28]% Strength <vs [City-States]>"],
 
 		"cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Dresden", "Leipzig", "Nuremberg", "Hannover", "Bremen", "Dortmund", "Essen", "Düsseldorf", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"],
 			
@@ -303,29 +303,16 @@
 		
 		"uniqueName": "Roosevelt's New Deal",
 		"uniques": [
-		"Starts with [Tech.UniqueToUnitedStates]",
-		"Instantly provides [1] [Resource.NewDealLegislation] <upon entering a Golden Age>",
-		"Instantly provides [1] [Resource.NewDealLegislation] <upon constructing [Class.DistrictBuilding.GovernmentPlaza]>",
-		"Instantly provides [1] [Resource.NewDealLegislation] <upon discovering [Tech.Economy]>",
-		"Instantly provides [1] [Resource.NewDealLegislation] <upon discovering [Civic.CivilEngineering]>",
-		"Instantly provides [1] [Resource.NewDealLegislation] <upon discovering [Civic.RightToVote]>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon founding a Religion>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon enhancing a Religion>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon entering the [Era.Renaissance]>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon entering the [Era.Industrial]>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon entering the [Era.Modern]>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon entering the [Era.Atomic]>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon entering the [Era.Information]>",
-		"Instantly consumes [1] [Resource.NewDealLegislation] <upon entering the [Era.Near-future]>",
-		"Nullifies [Science] [in all cities] <when below [-2] [Resource.NewDealLegislation]>",
-		"[-1 Happiness] [in all cities] <when below [-1] [Resource.NewDealLegislation]>",
-		"[-1 Production, -1 Food] [in all cities] <when below [0] [Resource.NewDealLegislation]>",
-		"[+3 Production, +1 Happiness] [in capital] <when above [0] [Resource.NewDealLegislation]>",
-		"[+1 Happiness, +1 Production, +2 Gold] [in all cities] <when above [1] [Resource.NewDealLegislation]>",
-		"[+50]% Production when constructing [Military] units [in all cities] <when at war> <when above [2] [Resource.NewDealLegislation]>",
-		"[+25]% [Production] [in all cities] <when above [3] [Resource.NewDealLegislation]>",
-		"[+20 Happiness, +100 Gold] <when above [4] [Resource.NewDealLegislation]>"
-	],
+			"[{Military} {Land}] units gain the [Promotion.MinuteMen] promotion",
+			"Gain [-20] [Gold] <upon turn end> <before discovering [Civic.CivilEngineering]>",
+			"Gain [-40] [Gold] <upon turn end> <after discovering [Civic.CivilEngineering]>",
+			"[-3 Gold, +3 Production] from every [Class.DistrictBuilding.CommercialHub] <after discovering [Civic.CivilEngineering]>",
+			"[+15]% [Culture] <when below [0] [Gold]>",
+			"[+25]% [Production] <when below [-300] [Gold]>",
+			"[+4 Production] [in all cities] <when below [-750] [Gold]>",
+			"Provides [1] [Resource.EconomicPolicySlot] <when below [-1500] [Gold]>",
+			"Provides [1] [Resource.MilitaryPolicySlot] <when below [-3000] [Gold]>"
+		],
 //		"uniqueText":"",
 
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston","Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis","Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh","Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno","Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
@@ -630,14 +617,13 @@
 			"Enables [All] units to enter ocean tiles <starting from the [Era.Ancient]>",
 			"[+1] Movement <for [Embarked] units>",
 			"[+1 Food] from every [Improvement.FishingBoat]",
-			"Cannot build [Unit.Lumberjack] units",
+			"[-4 Production] from every [Improvement.LumberMill]",
 			"[+1 Production] from [Vegetation] tiles [in all coastal cities]",
 			"[+1 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.Mercantilism]>",
 			"[+2 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.EarthProtection]>",
 			"Discover [Tech.NauticalArt] <upon founding a city>",
 			// "[+2 Science, +2 Culture] <before discovering [Tech.NauticalArt]>",
-			"Gain [10] [Science] <upon founding a city> <in [Coastal] tiles>",
-			"Gain [10] [Culture] <upon founding a city> <in [Coastal] tiles>"
+			"Gain [8] [Culture] <upon founding a city> <in [Coastal] tiles>"
 		],
 
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui","Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu","Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia","Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"]
