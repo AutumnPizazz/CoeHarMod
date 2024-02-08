@@ -1749,7 +1749,7 @@
 		"cost":120,
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.Hoplite",
-		"requiredTech": "Tech.Alchemy",
+		"requiredTech": "Civic.DefensiveTactics",
 		"obsoleteTech": "Tech.MilitaryEngineering",
 		"attackSound": "nonmetalhit",
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
@@ -2381,8 +2381,7 @@
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
 		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"],
-		"promotions":["Promotion.zhuiliezhe"]
+		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
 	},
 	{//追猎者
 		"name":"Unit.HorseArcher",

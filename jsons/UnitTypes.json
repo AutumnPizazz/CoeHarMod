@@ -58,7 +58,7 @@
         "name": "UnitType.LightCavalry",
         "movementType": "Land",
         "uniques":["[-39]% Strength <vs cities> <when attacking>",
-        "[+39]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]> <hidden from users>",//马其顿文明能力
+        "[+20]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]> <hidden from users>",//马其顿文明能力
         "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
@@ -66,7 +66,7 @@
         "name": "UnitType.HeavyCavalry",
         "movementType": "Land",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
-        "[+23]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]> <hidden from users>",//马其顿文明能力
+        "[+12]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]> <hidden from users>",//马其顿文明能力
         "Ignores Zone of Control",
         "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
@@ -145,10 +145,10 @@
         "[-23]% Strength for enemy [Military] units in adjacent [All] tiles <for [All] units> <if [Governor.BloodContractIV] is constructed>",
         "[-100]% XP gained from combat"]
     },
-    {//市政树专属单位
+/*    {//市政树专属单位
         "name": "UnitType.Civic.Civilian",
         "movementType": "Land",
         "uniques": ["Can move immediately once bought","Cannot move","No Sight","Unbuildable","Will not be displayed in Civilopedia"
-    ]
-    }
+        ]
+    }*/
 ]

@@ -163,7 +163,8 @@
             "type": "Pantheon",
             "uniques": ["The first two cities receive a free '[Building.Monument]'",
             "May buy [Building.Monument] buildings with [Faith] for [2] times their normal Production cost",
-            "[+10]% [Culture] from every [Building.Monument]"]
+            "[+10]% [Culture] from every [Building.Monument]"//这条不生效，在宫殿重写了
+        ]
         },
         {//众神纪念碑
             "name": "Pantheon.MonumentToTheGods",
