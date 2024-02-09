@@ -899,7 +899,7 @@
 		"hurryCostModifier":-33,
         "requiredTech":"Civic.PoliticalPhilosophy",
 		"uniques":[
-            "Provides 1 '[Resource.Livability]' <in cities with a [Class.Building.DistrictUnique]>",
+            "Provides 1 '[Resource.Livability]' in cities with a [Class.Building.DistrictUnique]",
             "Provides 2 '[Resource.houseLimitation]' in cities with a Class.Building.DistrictUnique",
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",

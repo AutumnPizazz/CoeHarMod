@@ -800,45 +800,11 @@
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"uniques": [
-			// "Can transform to [Unit.CommonWorker2] <hidden from users>",
-			// "Can transform to [Unit.CommonWorker3] <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder"],
-		"cost": 60
-	},
-	{
-		"name": "Unit.CommonWorker2",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"uniques": [
-			// "Unbuildable",
-			// "Can transform to [Unit.CommonWorker1] <hidden from users>",
-			// "Can transform to [Unit.CommonWorker3] <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement2] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement2] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement2] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement2] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement2] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder"],
-		"cost": 60
-	},
-	{
-		"name": "Unit.CommonWorker3",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"uniques": [
-			// "Unbuildable",
-			// "Can transform to [Unit.CommonWorker1] <hidden from users>",
-			// "Can transform to [Unit.CommonWorker2] <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement3] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement3] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement3] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement3] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement3] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Class.Unit.Builder"],
 		"cost": 60
 	},
