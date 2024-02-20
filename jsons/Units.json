@@ -794,7 +794,6 @@
 	},
 
 	/*建造者*/
-	//一般建造者
 	{
 		"name": "Unit.CommonWorker1",
 		"unitType": "UnitType.Civilian",
@@ -805,210 +804,11 @@
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder"],
+			"Cost increases by [10] when built",
+			"Class.Unit.Builder"
+		],
 		"cost": 60
 	},
-/*	{
-		"name": "Unit.Farmer",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"uniques": ["Comment [Can instantly construct a [Improvement.Farm] improvement]",
-			"Can instantly construct a [Improvement.Farm] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Farm] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Farm] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Farm] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Farm] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 50
-	},
-	{
-		"name": "Unit.Miner",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Mining",
-		"uniques": ["Comment [Can instantly construct a [Improvement.Mine] improvement]",
-			"Can instantly construct a [Improvement.Mine] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Mine] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Mine] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Mine] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Mine] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.Quarry",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Mining",
-		"uniques": ["Comment [Can instantly construct a [Improvement.Quarry] improvement]",
-			"Can instantly construct a [Improvement.Quarry] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Quarry] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Quarry] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Quarry] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Quarry] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.Fisherman",
-		"unitType": "UnitType.CivilianShip",
-		"movement": 2,
-		"requiredTech":"Tech.NauticalArt",
-		"uniques": ["Comment [Can instantly construct a [Improvement.FishingBoat] improvement]",
-			"Can instantly construct a [Improvement.FishingBoat] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.FishingBoat] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.FishingBoat] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.FishingBoat] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.FishingBoat] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-				"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 50
-	},
-	{
-		"name": "Unit.Fishery",
-		"unitType": "UnitType.CivilianShip",
-		"movement": 2,
-		"requiredTech":"Tech.NauticalArt",
-			"uniques": ["Comment [Can instantly construct a [Improvement.Fishery] improvement]",
-			"Can instantly construct a [Improvement.Fishery] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Fishery] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Fishery] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Fishery] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Fishery] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder","Unbuildable",
-			"Will not be displayed in Civilopedia"]
-	},
-	{//海洋家园建造者
-		"name": "Unit.OceanHomeBuilder",
-		"unitType": "UnitType.CivilianShip",
-		"movement": 2,
-		"requiredTech":"Tech.OceanHome",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Seastead] improvement]",
-			"Can instantly construct a [Improvement.Seastead] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Seastead] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Seastead] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Seastead] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Seastead] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.Shepherd",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.AnimalHusbandry",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Pasture] improvement]",
-			"Can instantly construct a [Improvement.Pasture] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Pasture] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Pasture] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Pasture] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Pasture] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.PlantationWorker",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Irrigation",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Plantation] improvement]",
-			"Can instantly construct a [Improvement.Plantation] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Plantation] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Plantation] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Plantation] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Plantation] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 50
-	},
-	{
-		"name": "Unit.Worker",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.AnimalHusbandry",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Encampment] improvement]",
-			"Can instantly construct a [Improvement.Encampment] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Encampment] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Encampment] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Encampment] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Encampment] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 50
-	},
-	{
-		"name": "Unit.Lumberjack",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Build",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.LumberMill] improvement]",
-			"Can instantly construct a [Improvement.LumberMill] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.LumberMill] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.LumberMill] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.LumberMill] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.LumberMill] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.OilWell",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Refining",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.OilWell] improvement]",
-			"Can instantly construct a [Improvement.OilWell] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OilWell] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OilWell] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OilWell] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OilWell] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.DrillRig",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Plastic",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.OffshoreOilRig] improvement]",
-			"Can instantly construct a [Improvement.OffshoreOilRig] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OffshoreOilRig] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OffshoreOilRig] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OffshoreOilRig] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.OffshoreOilRig] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{
-		"name": "Unit.ForestRanger",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Civic.EarthProtection",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Manufactory] improvement]",
-			"Can instantly construct a [Improvement.Manufactory] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Manufactory] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Manufactory] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Manufactory] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Manufactory] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},*/
 	{//地脉开采者
 		"name": "Unit.EarthVeinsExploiter",
 		"unitType": "UnitType.Civilian",
@@ -1019,17 +819,7 @@
 			"Class.Unit.Builder",
 			"Will not be displayed in Civilopedia"],
 		"cost": 65
-	},/*
-	{//地热发电厂施工队
-		"name": "Unit.GeothermalPowerPlant",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"requiredTech":"Tech.Synthetic",
-		"uniques": ["Can instantly construct a [Improvement.GeothermalPowerPlant] improvement <by consuming this unit>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},*/
+	},
 	{//商人
 		"name": "Unit.Trader",
 		"unitType": "UnitType.Civilian",
@@ -1178,11 +968,14 @@
 		"unitType":"UnitType.Civilian",
 		"movement":2,
 		"cost":120,
-		"uniques":["Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
-		"[+2] Movement <before [2] turns>",
-		"[+1] Movement <after adopting [Pantheon.ReligiousMigrant]>",
-		"Requires at least [2] population",
-		"[+1] Sight"]
+		"uniques":[
+			"Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
+			"[+2] Movement <before [2] turns>",
+			"[+1] Movement <after adopting [Pantheon.ReligiousMigrant]>",
+			"Requires at least [2] population",
+			"[+1] Sight",
+			"Cost increases by [20] when built"
+		]
 	},
 
 	/*使者*/
@@ -1192,6 +985,7 @@
 		"movement":4,
 		"uniques":["Unbuildable",
 		"Gain [-175] [Gold]",
+		"Gain [175] [Gold] <for [Nation.UnitedStates]>",
 		"Instantly consumes [40] [Resource.Influence]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 		"Hidden when [VictoryType.Diplomacy] Victory is disabled"]
@@ -2076,8 +1870,8 @@
 		"uniqueTo":"Nation.Ming",
 		"unitType":"UnitType.RangedInfantry",
 		"strength":151,//30
-		"rangedStrength":332,//50
-		"range":1,
+		"rangedStrength":220,//40
+		"range":2,
 		"movement":2,
 		"cost":140,
 		"hurryCostModifier":-33,
@@ -2085,11 +1879,12 @@
 		"requiredTech": "Tech.Mechanical",
 		"obsoleteTech": "Tech.Ballistics",
 		"attackSound": "shot",
-		"uniques":["[+1] Range <in [Improvement.MingGreatWall] tiles>",
-		"[+1] Range <in [Landform.Hill] tiles>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"uniques":[
+			"[-34]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Consumes [-1] [Resource.MilitaryMaintenance1]",
+			"Consumes [-1] [Resource.MilitaryMaintenance2]",
+			"Consumes [-1] [Resource.MilitaryMaintenance3]"
+		]
 	},
 	{//越南-越南象兵
 		"name":"Unit.VoiChien",
