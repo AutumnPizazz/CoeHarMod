@@ -1111,7 +1111,7 @@
 	{//美利坚-快速民兵
 		"name": "Promotion.MinuteMen",
 		"uniques": ["[+1] Movement <in [Friendly Land] tiles>",
-		"Unit will heal every turn, even if it performs an action <in [Friendly Land] tiles>"]
+		"Heal this unit by [8] HP <in [Friendly Land] tiles> <upon turn end>"]
 	}
 
 

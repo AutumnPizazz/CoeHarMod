@@ -1,480 +1,4 @@
 [
-	/*市政树专属一次性单位*/
-/*	
-	{
-		"name":"Unit.Code",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Code] <by consuming this unit>",
-		"Only available <before discovering [Civic.Code]>"]
-	},
-	{
-		"name":"Unit.Skill",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Skill] <by consuming this unit>",
-		"Only available <after discovering [Civic.Code]>",
-		"Only available <before discovering [Civic.Skill]>"]
-	},
-	{
-		"name":"Unit.BasicTrade",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.BasicTrade] <by consuming this unit>",
-		"Only available <after discovering [Civic.Code]>",
-		"Only available <before discovering [Civic.BasicTrade]>"]
-	},
-	{
-		"name":"Unit.MilitaryTradition",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.MilitaryTradition] <by consuming this unit>",
-		"Only available <after discovering [Civic.Skill]>",
-		"Only available <before discovering [Civic.MilitaryTradition]>"]
-	},
-	{
-		"name":"Unit.NationalLaborForce",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.NationalLaborForce] <by consuming this unit>",
-		"Only available <after discovering [Civic.Skill]>",
-		"Only available <before discovering [Civic.NationalLaborForce]>"]
-	},
-	{
-		"name":"Unit.EarlyEmpire",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.EarlyEmpire] <by consuming this unit>",
-		"Only available <after discovering [Civic.BasicTrade]>",
-		"Only available <before discovering [Civic.EarlyEmpire]>"]
-	},
-	{
-		"name":"Unit.Mysticism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Mysticism] <by consuming this unit>",
-		"Only available <after discovering [Civic.BasicTrade]>",
-		"Only available <before discovering [Civic.Mysticism]>"]
-	},
-	{
-		"name":"Unit.GamesAndEntertainment",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.GamesAndEntertainment] <by consuming this unit>",
-		"Only available <after discovering [Civic.NationalLaborForce]>",
-		"Only available <before discovering [Civic.GamesAndEntertainment]>"]
-	},
-	{
-		"name":"Unit.PoliticalPhilosophy",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.PoliticalPhilosophy] <by consuming this unit>",
-		"Only available <after discovering [Civic.NationalLaborForce]>",
-		"Only available <after discovering [Civic.EarlyEmpire]>",
-		"Only available <before discovering [Civic.PoliticalPhilosophy]>"]
-	},
-	{
-		"name":"Unit.DramaAndPoetry",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.DramaAndPoetry] <by consuming this unit>",
-		"Only available <after discovering [Civic.EarlyEmpire]>",
-		"Only available <before discovering [Civic.DramaAndPoetry]>"]
-	},
-	{
-		"name":"Unit.MilitaryTraining",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.MilitaryTraining] <by consuming this unit>",
-		"Only available <after discovering [Civic.MilitaryTradition]>",
-		"Only available <after discovering [Civic.GamesAndEntertainment]>",
-		"Only available <before discovering [Civic.MilitaryTraining]>"]
-	},
-	{
-		"name":"Unit.DefensiveTactics",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.DefensiveTactics] <by consuming this unit>",
-		"Only available <after discovering [Civic.GamesAndEntertainment]>",
-		"Only available <after discovering [Civic.PoliticalPhilosophy]>",
-		"Only available <before discovering [Civic.DefensiveTactics]>"]
-	},
-	{
-		"name":"Unit.History",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.History] <by consuming this unit>",
-		"Only available <after discovering [Civic.PoliticalPhilosophy]>",
-		"Only available <after discovering [Civic.DramaAndPoetry]>",
-		"Only available <before discovering [Civic.History]>"]
-	},
-	{
-		"name":"Unit.Theology",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Theology] <by consuming this unit>",
-		"Only available <after discovering [Civic.DramaAndPoetry]>",
-		"Only available <after discovering [Civic.Mysticism]>",
-		"Only available <before discovering [Civic.Theology]>"]
-	},
-	{
-		"name":"Unit.NavalTradition",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.NavalTradition] <by consuming this unit>",
-		"Only available <after discovering [Civic.DefensiveTactics]>",
-		"Only available <before discovering [Civic.NavalTradition]>"]
-	},
-	{
-		"name":"Unit.Feudalism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Feudalism] <by consuming this unit>",
-		"Only available <after discovering [Civic.DefensiveTactics]>",
-		"Only available <before discovering [Civic.Feudalism]>"]
-	},
-	{
-		"name":"Unit.Administration",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Administration] <by consuming this unit>",
-		"Only available <after discovering [Civic.DefensiveTactics]>",
-		"Only available <after discovering [Civic.History]>",
-		"Only available <before discovering [Civic.Administration]>"]
-	},
-	{
-		"name":"Unit.Mercenaries",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Mercenaries] <by consuming this unit>",
-		"Only available <after discovering [Civic.MilitaryTraining]>",
-		"Only available <before discovering [Civic.Mercenaries]>"]
-	},
-	{
-		"name":"Unit.MedievalBazaar",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.MedievalBazaar] <by consuming this unit>",
-		"Only available <after discovering [Civic.Feudalism]>",
-		"Only available <before discovering [Civic.MedievalBazaar]>"]
-	},
-	{
-		"name":"Unit.TheWorkersUnion",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.TheWorkersUnion] <by consuming this unit>",
-		"Only available <after discovering [Civic.Administration]>",
-		"Only available <before discovering [Civic.TheWorkersUnion]>"]
-	},
-	{
-		"name":"Unit.DivinRightOfKings",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.DivinRightOfKings] <by consuming this unit>",
-		"Only available <after discovering [Civic.Administration]>",
-		"Only available <after discovering [Civic.Theology]>",
-		"Only available <before discovering [Civic.DivinRightOfKings]>"]
-	},
-	{
-		"name":"Unit.Exploration",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Exploration] <by consuming this unit>",
-		"Only available <after discovering [Civic.Mercenaries]>",
-		"Only available <after discovering [Civic.MedievalBazaar]>",
-		"Only available <before discovering [Civic.Exploration]>"]
-	},
-	{
-		"name":"Unit.Humanism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Humanism] <by consuming this unit>",
-		"Only available <after discovering [Civic.MedievalBazaar]>",
-		"Only available <after discovering [Civic.TheWorkersUnion]>",
-		"Only available <before discovering [Civic.Humanism]>"]
-	},
-	{
-		"name":"Unit.ForeighService",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.ForeighService] <by consuming this unit>",
-		"Only available <after discovering [Civic.TheWorkersUnion]>",
-		"Only available <before discovering [Civic.ForeighService]>"]
-	},
-	{
-		"name":"Unit.ReformedChurch",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.ReformedChurch] <by consuming this unit>",
-		"Only available <after discovering [Civic.TheWorkersUnion]>",
-		"Only available <after discovering [Civic.DivinRightOfKings]>",
-		"Only available <before discovering [Civic.ReformedChurch]>"]
-	},
-	{
-		"name":"Unit.Mercantilism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Mercantilism] <by consuming this unit>",
-		"Only available <after discovering [Civic.Humanism]>",
-		"Only available <before discovering [Civic.Mercantilism]>"]
-	},
-	{
-		"name":"Unit.Enlightenment",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Enlightenment] <by consuming this unit>",
-		"Only available <after discovering [Civic.Humanism]>",
-		"Only available <after discovering [Civic.ForeighService]>",
-		"Only available <before discovering [Civic.Enlightenment]>"]
-	},
-	{
-		"name":"Unit.Colonialism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Colonialism] <by consuming this unit>",
-		"Only available <after discovering [Civic.Mercantilism]>",
-		"Only available <before discovering [Civic.Colonialism]>"]
-	},
-	{
-		"name":"Unit.CivilEngineering",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.CivilEngineering] <by consuming this unit>",
-		"Only available <after discovering [Civic.Mercantilism]>",
-		"Only available <before discovering [Civic.CivilEngineering]>"]
-	},
-	{
-		"name":"Unit.Nationalism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Nationalism] <by consuming this unit>",
-		"Only available <after discovering [Civic.Enlightenment]>",
-		"Only available <before discovering [Civic.Nationalism]>"]
-	},
-	{
-		"name":"Unit.OperaAndBallet",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.OperaAndBallet] <by consuming this unit>",
-		"Only available <after discovering [Civic.Enlightenment]>",
-		"Only available <before discovering [Civic.OperaAndBallet]>"]
-	},
-	{
-		"name":"Unit.NaturalHistory",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.NaturalHistory] <by consuming this unit>",
-		"Only available <after discovering [Civic.Colonialism]>",
-		"Only available <before discovering [Civic.NaturalHistory]>"]
-	},
-	{
-		"name":"Unit.Urbanization",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Urbanization] <by consuming this unit>",
-		"Only available <after discovering [Civic.CivilEngineering]>",
-		"Only available <after discovering [Civic.Nationalism]>",
-		"Only available <before discovering [Civic.Urbanization]>"]
-	},
-	{
-		"name":"Unit.ScorchedEarthStrategy",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.ScorchedEarthStrategy] <by consuming this unit>",
-		"Only available <after discovering [Civic.Nationalism]>",
-		"Only available <before discovering [Civic.ScorchedEarthStrategy]>"
-		]
-	},
-	{
-		"name":"Unit.EarthProtection",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.EarthProtection] <by consuming this unit>",
-		"Only available <after discovering [Civic.NaturalHistory]>",
-		"Only available <before discovering [Civic.EarthProtection]>"]
-	},
-	{
-		"name":"Unit.MassMedia",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.MassMedia] <by consuming this unit>",
-		"Only available <after discovering [Civic.NaturalHistory]>",
-		"Only available <after discovering [Civic.Urbanization]>",
-		"Only available <before discovering [Civic.MassMedia]>"]
-	},
-	{
-		"name":"Unit.Mobilization",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Mobilization] <by consuming this unit>",
-		"Only available <after discovering [Civic.Urbanization]>",
-		"Only available <after discovering [Civic.ScorchedEarthStrategy]>",
-		"Only available <before discovering [Civic.Mobilization]>"]
-	},
-	{
-		"name":"Unit.Capitalism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Capitalism] <by consuming this unit>",
-		"Only available <after discovering [Civic.MassMedia]>",
-		"Only available <before discovering [Civic.Capitalism]>"]
-	},
-	{
-		"name":"Unit.Ideology",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Ideology] <by consuming this unit>",
-		"Only available <after discovering [Civic.MassMedia]>",
-		"Only available <after discovering [Civic.Mobilization]>",
-		"Only available <before discovering [Civic.Ideology]>"]
-	},
-	{
-		"name":"Unit.NuclearProgram",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.NuclearProgram] <by consuming this unit>",
-		"Only available <after discovering [Civic.Ideology]>",
-		"Only available <before discovering [Civic.NuclearProgram]>"]
-	},
-	{
-		"name":"Unit.RightToVote",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.RightToVote] <by consuming this unit>",
-		"Only available <after discovering [Civic.Ideology]>",
-		"Only available <before discovering [Civic.RightToVote]>"]
-	},
-	{
-		"name":"Unit.Tolalitarianism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Tolalitarianism] <by consuming this unit>",
-		"Only available <after discovering [Civic.Ideology]>",
-		"Only available <before discovering [Civic.Tolalitarianism]>"]
-	},
-	{
-		"name":"Unit.ClassStruggle",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Unit.ClassStruggle] <by consuming this unit>",
-		"Only available <after discovering [Civic.Ideology]>",
-		"Only available <before discovering [Unit.ClassStruggle]>"]
-	},
-	{
-		"name":"Unit.CulturalHeritage",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.CulturalHeritage] <by consuming this unit>",
-		"Only available <after discovering [Civic.EarthProtection]>",
-		"Only available <before discovering [Civic.CulturalHeritage]>"]
-	},
-	{
-		"name":"Unit.ColdWar",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.ColdWar] <by consuming this unit>",
-		"Only available <after discovering [Civic.Ideology]>",
-		"Only available <before discovering [Civic.ColdWar]>"]
-	},
-	{
-		"name":"Unit.EmergencyDeployment",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.EmergencyDeployment] <by consuming this unit>",
-		"Only available <after discovering [Civic.ColdWar]>",
-		"Only available <before discovering [Civic.EmergencyDeployment]>"]
-	},
-	{
-		"name":"Unit.SpaceRace",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.SpaceRace] <by consuming this unit>",
-		"Only available <after discovering [Civic.ColdWar]>",
-		"Only available <before discovering [Civic.SpaceRace]>"]
-	},
-	{
-		"name":"Unit.ProfessionalSports",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.ProfessionalSports] <by consuming this unit>",
-		"Only available <after discovering [Civic.Ideology]>",
-		"Only available <before discovering [Civic.ProfessionalSports]>"]
-	},
-	{
-		"name":"Unit.Environmentalism",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Environmentalism] <by consuming this unit>",
-		"Only available <after discovering [Civic.CulturalHeritage]>",
-		"Only available <after discovering [Civic.EmergencyDeployment]>",
-		"Only available <before discovering [Civic.Environmentalism]>"]
-	},
-	{
-		"name":"Unit.Globalization",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Globalization] <by consuming this unit>",
-		"Only available <after discovering [Civic.EmergencyDeployment]>",
-		"Only available <after discovering [Civic.SpaceRace]>",
-		"Only available <before discovering [Civic.Globalization]>"]
-	},
-	{
-		"name":"Unit.SocialMedia",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.SocialMedia] <by consuming this unit>",
-		"Only available <after discovering [Civic.SpaceRace]>",
-		"Only available <after discovering [Civic.ProfessionalSports]>",
-		"Only available <before discovering [Civic.SocialMedia]>"]
-	},
-	{
-		"name":"Unit.Near-futureGovernance",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.Near-FutureGovernance] <by consuming this unit>",
-		"Only available <after discovering [Civic.Environmentalism]>",
-		"Only available <after discovering [Civic.Globalization]>",
-		"Only available <before discovering [Civic.Near-FutureGovernance]>"]
-	},
-	{
-		"name":"Unit.PoliticalAdventures",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.PoliticalAdventures] <by consuming this unit>",
-		"Only available <after discovering [Civic.Globalization]>",
-		"Only available <after discovering [Civic.SocialMedia]>",
-		"Only available <before discovering [Civic.PoliticalAdventures]>"]
-	},
-	{
-		"name":"Unit.DecentralizedSovereighty",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.DecentralizedSovereighty] <by consuming this unit>",
-		"Only available <after discovering [Civic.Globalization]>",
-		"Only available <after discovering [Civic.SocialMedia]>",
-		"Only available <before discovering [Civic.DecentralizedSovereighty]>"]
-	},
-	{
-		"name":"Unit.OptimizationCommand",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.OptimizationCommand] <by consuming this unit>",
-		"Only available <after discovering [Civic.Globalization]>",
-		"Only available <after discovering [Civic.SocialMedia]>",
-		"Only available <before discovering [Civic.OptimizationCommand]>"]
-	},
-	{
-		"name":"Unit.GlobalWarmingMitigation",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.GlobalWarmingMitigation] <by consuming this unit>",
-		"Only available <after discovering [Civic.PoliticalAdventures]>",
-		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
-		"Only available <after discovering [Civic.OptimizationCommand]>",
-		"Only available <before discovering [Civic.GlobalWarmingMitigation]>"]
-	},
-	{
-		"name":"Unit.SmartPowerFoctrine",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.SmartPowerFoctrine] <by consuming this unit>",
-		"Only available <after discovering [Civic.PoliticalAdventures]>",
-		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
-		"Only available <after discovering [Civic.OptimizationCommand]>",
-		"Only available <before discovering [Civic.SmartPowerFoctrine]>"]
-	},
-	{
-		"name":"Unit.InformationWarfare",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.InformationWarfare] <by consuming this unit>",
-		"Only available <after discovering [Civic.PoliticalAdventures]>",
-		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
-		"Only available <after discovering [Civic.OptimizationCommand]>",
-		"Only available <before discovering [Civic.InformationWarfare]>"]
-	},
-	{
-		"name":"Unit.NecessityExpedition",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.NecessityExpedition] <by consuming this unit>",
-		"Only available <after discovering [Civic.PoliticalAdventures]>",
-		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
-		"Only available <after discovering [Civic.OptimizationCommand]>",
-		"Only available <before discovering [Civic.NecessityExpedition]>"]
-	},
-	{
-		"name":"Unit.CulturalHegemony",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Discover [Civic.CulturalHegemony] <by consuming this unit>",
-		"Only available <after discovering [Civic.PoliticalAdventures]>",
-		"Only available <after discovering [Civic.DecentralizedSovereighty]>",
-		"Only available <after discovering [Civic.OptimizationCommand]>",
-		"Only available <before discovering [Civic.CulturalHegemony]>"]
-	},
-	{
-		"name":"Unit.FutureMunicipal",
-		"unitType":"UnitType.Civic.Civilian",
-		"uniques":["Consumes [-1] [Resource.GovernorTitle]",
-		"Discover [Civic.FutureMunicipal] <by consuming this unit>",
-		"Only available <after discovering [Civic.GlobalWarmingMitigation]>",
-		"Only available <after discovering [Civic.SmartPowerFoctrine]>",
-		"Only available <after discovering [Civic.InformationWarfare]>",
-		"Only available <after discovering [Civic.GlobalWarmingMitigation]>",
-		"Only available <before discovering [Civic.NecessityExpedition]>",
-		"Only available <after discovering [Civic.CulturalHegemony]>"]
-	},
-	{
-		"name":"Unit.AdvancedFutureMunicipal",
-		"unitType":"UnitType.Civilian",
-		"movement":2,
-		"uniques":["Consumes [-1] [Resource.GovernorTitle]",
-		"Only available <after discovering [Civic.FutureMunicipal]>"]
-	},
-*/
-
-
 	/*伟人*/
 	{//大科学家
 		"name": "Unit.Scientist",
@@ -804,6 +328,7 @@
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can build [Repair] improvements on tiles",
 			"Cost increases by [10] when built",
 			"Class.Unit.Builder"
 		],
@@ -838,130 +363,8 @@
 			"Can build [Remove Railroad] improvements on tiles",
 			"Class.Unit.Builder"],
 		"cost": 50
-	},/*
-	{//明朝-明长城建造者
-		"name": "Unit.MingGreatWall",
-		"unitType": "UnitType.Civilian",
-		"uniqueTo":"Nation.Ming",
-		"movement": 2,
-		"requiredTech":"Tech.Bricklaying",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.MingGreatWall] improvement]",
-			"Can instantly construct a [Improvement.MingGreatWall] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.MingGreatWall] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.MingGreatWall] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.MingGreatWall] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.MingGreatWall] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{//埃及-狮身人面像建造者
-		"name": "Unit.Sphinx",
-		"unitType": "UnitType.Civilian",
-		"uniqueTo":"Nation.Egypt",
-		"movement": 2,
-		"requiredTech":"Civic.Skill",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Sphinx] improvement]",
-			"Can instantly construct a [Improvement.Sphinx] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Sphinx] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Sphinx] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Sphinx] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Sphinx] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 40
-	},
-	{//波斯-波斯庭院建造者
-		"name": "Unit.PersianCourtyard",
-		"unitType": "UnitType.Civilian",
-		"uniqueTo":"Nation.Persia",
-		"movement": 2,
-		"requiredTech":"Civic.EarlyEmpire",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.PersianCourtyard] improvement]",
-			"Can instantly construct a [Improvement.PersianCourtyard] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.PersianCourtyard] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.PersianCourtyard] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.PersianCourtyard] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.PersianCourtyard] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{//斯基泰-坟墩建造者
-		"name": "Unit.Kurgan",
-		"unitType": "UnitType.Civilian",
-		"uniqueTo":"Nation.Scythia",
-		"movement": 2,
-		"requiredTech":"Tech.AnimalHusbandry",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Kurgan] improvement]",
-			"Can instantly construct a [Improvement.Kurgan] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Kurgan] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Kurgan] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Kurgan] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Kurgan] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
 	},
 
-	{//印加-梯田农民
-		"name": "Unit.TerraceFarm",
-		"unitType": "UnitType.Civilian",
-		"uniqueTo":"Nation.Inca",
-		"movement": 2,
-		"requiredTech":"Civic.BasicTrade",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.TerraceFarm] improvement]",
-			"Can instantly construct a [Improvement.TerraceFarm] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.TerraceFarm] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.TerraceFarm] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.TerraceFarm] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.TerraceFarm] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},
-	{//楼兰-坎儿井建造者
-		"name": "Unit.Qanat",
-		"unitType": "UnitType.Civilian",
-		"uniqueTo":"Nation.LouLan",
-		"movement": 2,
-		"requiredTech":"Tech.Project",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Qanat] improvement]",
-			"Can instantly construct a [Improvement.Qanat] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Qanat] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Qanat] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Qanat] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Qanat] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},	
-	{//亚特兰蒂斯-磁欧石建造者
-		"name": "Unit.Magnetite",
-		"unitType": "UnitType.CivilianShip",
-		"uniqueTo":"Nation.Atlantis",
-		"movement": 4,
-		"requiredTech":"Tech.NauticalArt",
-		"uniques": [
-			"Comment [Can instantly construct a [Improvement.Magnetite] improvement]",
-			"Can instantly construct a [Improvement.Magnetite] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Magnetite] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Magnetite] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Magnetite] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Improvement.Magnetite] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Class.Unit.Builder",
-			"Will not be displayed in Civilopedia"],
-		"cost": 65
-	},*/
-
-
-	//文明特色改良建造者在这里!
 	/*开拓者*/
 	{
 		"name":"Unit.Settler",
@@ -1028,8 +431,9 @@
 		"Never appears as a Barbarian unit",
 		"Uncapturable",
 		"Only available <when above [0] [Resource.SpyCapacity]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	// {//空灵吟唱I
 	// 	"name":"Unit.VoidchonerConsumerI",
@@ -1073,7 +477,8 @@
 		"Can transform to [Unit.VampireII] <after discovering [Tech.Alchemy]>",
 		"Hidden when [Pattern.Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//II级吸血鬼
 		"name":"Unit.VampireII",
@@ -1087,7 +492,8 @@
 		"Can transform to [Unit.VampireIII] <after discovering [Tech.MilitaryEngineering]>",
 		"Hidden when [Pattern.Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//III级吸血鬼
 		"name":"Unit.VampireIII",
@@ -1101,7 +507,8 @@
 		"Can transform to [Unit.VampireIV] <after discovering [Tech.Gunpowder]>",
 		"Hidden when [Pattern.Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//IV级吸血鬼
 		"name":"Unit.VampireIV",
@@ -1115,7 +522,8 @@
 		"Can transform to [Unit.VampireV] <after discovering [Tech.PartSpecification]>",
 		"Hidden when [Pattern.Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//V级吸血鬼
 		"name":"Unit.VampireV",
@@ -1129,7 +537,8 @@
 		"Can transform to [Unit.VampireVI] <after discovering [Tech.Satellite]>",
 		"Hidden when [Pattern.Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//VI级吸血鬼
 		"name":"Unit.VampireVI",
@@ -1142,7 +551,8 @@
 		"uniques":[
 		"Hidden when [Pattern.Camorrist] Victory is disabled",
 		"Unbuildable", "Uncapturable",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 
 	/*宗教单位*/
@@ -1186,7 +596,8 @@
 		"uniques":[
 			"Will not be displayed in Civilopedia",
 			"Religious Unit",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+			"Gain [-1] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//II级武僧
 		"name":"Unit.MonkII",
@@ -1201,7 +612,8 @@
 		"uniques":[
 			"Will not be displayed in Civilopedia",
 			"Religious Unit",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+			"Gain [-1] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//III级武僧
 		"name":"Unit.MonkIII",
@@ -1216,8 +628,9 @@
 		"uniques":[
 			"Will not be displayed in Civilopedia",
 			"Religious Unit",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//IV级武僧
 		"name":"Unit.MonkIV",
@@ -1232,8 +645,9 @@
 		"uniques":[
 			"Will not be displayed in Civilopedia",
 			"Religious Unit",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//V级武僧
 		"name":"Unit.MonkV",
@@ -1248,9 +662,9 @@
 		"uniques":[
 			"Will not be displayed in Civilopedia",
 			"Religious Unit",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]",
-			"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+			"Gain [-3] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//VI级武僧
 		"name":"Unit.MonkVI",
@@ -1263,9 +677,9 @@
 		"uniques":[
 			"Will not be displayed in Civilopedia",
 			"Religious Unit",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]",
-			"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+			"Gain [-4] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*侦察单位*/
@@ -1296,8 +710,9 @@
 		"obsoleteTech": "Tech.Rifling",
 		"attackSound": "arrow",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//印加-瓦剌卡战士
 		"name":"Unit.Warakaq",
@@ -1315,8 +730,9 @@
 		"obsoleteTech": "Tech.Rifling",
 		"attackSound": "arrow",
 		"uniques":["[1] additional attacks per turn",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//游骑兵
 		"name":"Unit.Cavalry2",
@@ -1332,9 +748,9 @@
 		"obsoleteTech": "Tech.Plastic",
 		"attackSound": "shot",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+			"Gain [-5] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//特种部队
 		"name":"Unit.SpecOps",
@@ -1348,9 +764,9 @@
 		"requiredTech": "Tech.Plastic",
 		"attackSound": "shot",
 		"uniques":["May Paradrop up to [6] tiles from inside friendly territory",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-5] [Resource.MilitaryMaintenance3]"]
+		"Gain [-7] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*短程步兵*/
@@ -1428,8 +844,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//罗马-罗马军团
 		"name":"Unit.RomanLegion",
@@ -1453,8 +870,9 @@
 			"Instantly consumes [8] [Resource.Iron]",
 			"Instantly provides [4] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//波斯-长生军
 		"name":"Unit.Immortal",
@@ -1476,8 +894,9 @@
 		"Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//汉朝-羽林军
 		"name":"Unit.ImperialGuard",
@@ -1495,8 +914,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"],
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"promotions":["[Unit.ImperialGuard] ability"]
 	},
 	{//毛利-托阿勇士
@@ -1517,8 +937,9 @@
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"[-23]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"Can instantly construct a [Improvement.Pabo] improvement <[1] times>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//披甲战士
 		"name":"Unit.Hoplite",
@@ -1534,9 +955,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//唐朝-陌刀手
 		"name":"Unit.MudaoSoldier",
@@ -1555,9 +976,9 @@
 		"Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//日本-武士
 		"name":"Unit.JapaneseSamurai",
@@ -1577,9 +998,9 @@
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"Damage is ignored when determining unit Strength",
 		"Heal this unit by [5] HP <upon ending a turn in a [Coastal] tile>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//挪威-狂暴武士
 		"name":"Unit.Berserker",
@@ -1600,9 +1021,9 @@
 		"[+51]% Strength <when attacking>",
 		"[-23]% Strength <when defending> <vs [Melee] units>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//火枪手
 		"name":"Unit.Musketman",
@@ -1618,9 +1039,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Niter]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//奥斯曼-苏丹亲兵
 		"name":"Unit.SudaneseParamilitary",
@@ -1639,9 +1060,9 @@
 		"Instantly consumes [15] [Resource.Niter]",
 		"Instantly provides [7] [Resource.Niter] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"],
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"promotions":["[Unit.SudaneseParamilitary] ability","Promotion.TrenchWarfare"]
 	},
 	{//法兰西-法国火枪手
@@ -1660,9 +1081,9 @@
 		"uniques":["Instantly consumes [5] [Resource.Niter]",
 		"Instantly provides [2] [Resource.Niter] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//西班牙-征服者
 		"name":"Unit.Conquistador",
@@ -1681,9 +1102,9 @@
 		"Instantly consumes [10] [Resource.Niter]",
 		"Instantly provides [5] [Resource.Niter] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//线列步兵
 		"name":"Unit.LineInfantry",
@@ -1699,9 +1120,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Niter]",
 		"Instantly provides [5] [Resource.Niter] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//英吉利-红衫军
 		"name":"Unit.Redcoats",
@@ -1720,9 +1141,9 @@
 		"Instantly consumes [5] [Resource.Niter]",
 		"Instantly provides [2] [Resource.Niter] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//步兵
 		"name":"Unit.Infantry",
@@ -1738,9 +1159,9 @@
 		"attackSound": "metalhit",
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Oil]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+		"Gain [-6] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//苏维埃中国-中国红军
 		"name":"Unit.RedArmy",
@@ -1758,8 +1179,9 @@
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//苏联-苏联红军
 		"name":"Unit.SovietRedArmy",
@@ -1777,8 +1199,9 @@
 		"uniques":["All tiles cost 1 movement",
 		"[+23]% Strength <for units with [double star]>",
 		"[+51]% Strength <for units with [triple star]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//机械化步兵
 		"name":"Unit.MechanizedInfantry",
@@ -1791,9 +1214,10 @@
 		"requiredTech": "Tech.Satellite",
 		"attackSound": "metalhit",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+			"Gain [-8] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+		]
 	},	
 	
 	/*长程步兵*/
@@ -1826,7 +1250,8 @@
 		"obsoleteTech": "Tech.Mechanical",
 		"attackSound": "arrow",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+			"Gain [-1] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//玛雅-投枪手
 		"name":"Unit.Javelin",
@@ -1844,7 +1269,8 @@
 		"obsoleteTech": "Tech.Mechanical",
 		"attackSound": "arrow",
 		"uniques":["[+18]% Strength <vs [Wounded] units> <when attacking>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//弩手
 		"name":"Unit.Crossbowman",
@@ -1860,9 +1286,9 @@
 		"obsoleteTech": "Tech.Ballistics",
 		"attackSound": "arrow",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+			"Gain [-3] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//明朝-虎蹲炮
 		"name":"Unit.TigerCrouchCannon",
@@ -1881,9 +1307,9 @@
 		"attackSound": "shot",
 		"uniques":[
 			"[-34]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]",
-			"Consumes [-1] [Resource.MilitaryMaintenance3]"
+			"Gain [-3] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{//越南-越南象兵
@@ -1902,9 +1328,9 @@
 		"obsoleteTech": "Tech.Ballistics",
 		"attackSound": "arrow",
 		"uniques":["Can move after attacking","[+1] Sight",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//野战加农炮
 		"name":"Unit.FieldCannon",
@@ -1920,9 +1346,9 @@
 		"obsoleteTech": "Tech.AdvancedBallistics",
 		"attackSound": "shot",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+			"Gain [-5] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//朝鲜-火车
 		"name":"Unit.Hwacha",
@@ -1940,9 +1366,9 @@
 		"obsoleteTech": "Tech.AdvancedBallistics",
 		"attackSound": "shot",
 		"uniques":["Must set up to ranged attack",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//机关枪队
 		"name":"Unit.MachineGun",
@@ -1956,9 +1382,9 @@
 		"requiredTech": "Tech.AdvancedBallistics",
 		"attackSound": "bombing",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+			"Gain [-6] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*攻城*/
@@ -1976,8 +1402,9 @@
 		"obsoleteTech": "Tech.MilitaryEngineering",
 		"attackSound": "throw",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//投石机
 		"name":"Unit.BatteringRam",
@@ -1993,9 +1420,9 @@
 		"obsoleteTech": "Tech.MetalCasting",
 		"attackSound": "throw",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+			"Gain [-3] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//射石炮
 		"name":"Unit.SiegeTower",
@@ -2013,9 +1440,9 @@
 		"attackSound": "throw",
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//大炮
 		"name":"Unit.Artillery",
@@ -2032,9 +1459,9 @@
 		"obsoleteTech": "Tech.GuidanceSystem",
 		"attackSound": "missile",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+			"Gain [-6] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//火箭炮
 		"name":"Unit.RocketArtillery",
@@ -2049,9 +1476,9 @@
 		"requiredTech": "Tech.GuidanceSystem",
 		"attackSound": "missile",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+			"Gain [-8] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*轻骑兵*/
@@ -2072,7 +1499,8 @@
 		"uniques":["Instantly consumes [4] [Resource.Horse]",
 		"Instantly provides [2] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//蛮族-蛮族骑手
 		"name":"Unit.HorsemanBarbarians",
@@ -2086,7 +1514,9 @@
 		"requiredTech": "Tech.Civic.Agriculture",
 		"obsoleteTech": "Tech.HorsebackRiding",
 		"attackSound":"horse",
-		"uniques":["Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"uniques":[
+			"Gain [-1] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//骑手(小马)
 		"name":"Unit.Horseman",
@@ -2102,8 +1532,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Horse]",
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//汉朝-虎贲军
 		"name":"Unit.TigerLeopardArmy",
@@ -2121,8 +1552,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Horse]",
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//马其顿-伙友骑兵
 		"name":"Unit.Hetairoi",
@@ -2141,8 +1573,9 @@
 		"Instantly consumes [10] [Resource.Horse]",
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//追猎者
 		"name":"Unit.HorseArcher",
@@ -2158,9 +1591,32 @@
 		"uniques":["Instantly consumes [10] [Resource.Horse]",
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-1] [Resource.MilitaryMaintenance3]"]
+		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
+	},
+	{//埃塞俄比亚-奥罗莫骑兵
+		"name": "Unit.OromoCavalry",
+		"uniqueTo": "Nation.Ethiopia",
+		"replaces":"Unit.HorseArcher",
+		"unitType":"UnitType.LightCavalry",
+		"strength":319,//48
+		"movement":5,
+		"cost":200,
+		"hurryCostModifier":-33,
+		"upgradesTo":"Unit.Cavalry",
+		"requiredTech": "Tech.Castle",
+		"obsoleteTech": "Tech.MilitaryScience",
+		"attackSound":"horse",
+		"uniques":[
+			"Double movement in [Landform.Hill]",
+			"Instantly consumes [10] [Resource.Horse]",
+			"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
+			"[-64]% Strength <when below [0] [Resource.Horse]>",
+			"Gain [-3] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+		]
 	},
 	{//骑兵
 		"name":"Unit.Cavalry",
@@ -2176,9 +1632,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Horse]",
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//俄罗斯-哥萨克骑兵
 		"name":"Unit.Cossack",
@@ -2198,9 +1654,9 @@
 		"Instantly consumes [10] [Resource.Horse]",
 		"Instantly provides [5] [Resource.Horse] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Horse]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//直升飞机
 		"name":"Unit.Helicopter",
@@ -2216,9 +1672,9 @@
 		"Can see over obstacles",
 		"Can pass through impassable tiles",
 		"All tiles cost 1 movement",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-5] [Resource.MilitaryMaintenance3]"]
+		"Gain [-7] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*重骑兵*/
@@ -2234,7 +1690,8 @@
 		"obsoleteTech": "Tech.Stirrups",
 		"attackSound":"cannon",
 		"uniques":["[+1] Movement <in [Open terrain] tiles>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//埃及-世袭贵族战车射手
 		"name":"Unit.HereditaryNobleChariotArcher",
@@ -2255,8 +1712,9 @@
 		"Rough terrain penalty",
 		"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion.chongfeng]>",
 		"[+23]% Strength <when attacking> <for units with [Promotion.chongfeng]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//印度-战象
 		"name":"Unit.Varu",
@@ -2272,8 +1730,9 @@
 		"obsoleteTech": "Tech.Stirrups",
 		"attackSound":"elephant",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"],
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"promotions":["[Unit.Varu] ability"]
 	},
 	{//商朝-寅车
@@ -2290,7 +1749,8 @@
 		"obsoleteTech": "Tech.Stirrups",
 		"attackSound":"cannon",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+			"Gain [-1] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//骑士
 		"name":"Unit.Knight",
@@ -2306,9 +1766,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//马里-曼德卡鲁骑兵
 		"name":"Unit.MandekaluCavalry",
@@ -2327,9 +1787,9 @@
 		"Instantly consumes [8] [Resource.Iron]",
 		"Instantly provides [4] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//阿拉伯-奴隶兵
 		"name":"Unit.Mamluk",
@@ -2347,9 +1807,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"],
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"promotions":["[Unit.Mamluk] ability"]
 	},
 	{//拜占庭-甲胄骑兵
@@ -2370,9 +1830,9 @@
 		"Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+		"Gain [-4] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//胸甲骑兵
 		"name":"Unit.Cuirassier",
@@ -2388,9 +1848,9 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//坦克
 		"name":"Unit.Tank",
@@ -2406,9 +1866,9 @@
 		"attackSound":"tankshot",
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Oil]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+		"Gain [-6] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//现代坦克
 		"name":"Unit.ModernArmor",
@@ -2421,9 +1881,9 @@
 		"requiredTech": "Tech.Composite",
 		"attackSound":"tankshot",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+			"Gain [-8] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*抗骑兵*/
@@ -2439,7 +1899,9 @@
 		"obsoleteTech": "Tech.Tactics",
 		"attackSound":"nonmetalhit",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+			"Gain [-1] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"
+		]
 	},
 	{//希腊-重装步兵
 		"name":"Unit.HeavyInfantry",
@@ -2455,7 +1917,8 @@
 		"obsoleteTech": "Tech.Tactics",
 		"attackSound":"nonmetalhit",
 		"uniques":["[+51]% Strength <when adjacent to a [Unit.HeavyInfantry] unit>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"]
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
 	},
 	{//长矛兵
 		"name":"Unit.Pikeman",
@@ -2469,8 +1932,9 @@
 		"obsoleteTech": "Tech.MetalCasting",
 		"attackSound":"nonmetalhit",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"]
+			"Gain [-2] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//枪刺与射击方阵
 		"name":"Unit.PikeAndShot",
@@ -2484,9 +1948,9 @@
 		"obsoleteTech": "Tech.Chemistry",
 		"attackSound":"shot",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+			"Gain [-4] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//反坦克组
 		"name":"Unit.AntiTankCrew",
@@ -2500,9 +1964,9 @@
 		"obsoleteTech": "Tech.Composite",
 		"attackSound":"machinegun",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+			"Gain [-5] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//现代反坦克组
 		"name":"Unit.ModernAntiTankCrew",
@@ -2514,9 +1978,9 @@
 		"requiredTech": "Tech.Composite",
 		"attackSound":"machinegun",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+			"Gain [-8] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*短程海军*/
@@ -2529,7 +1993,8 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.Trireme",
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"],
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"],
 		"requiredTech": "Tech.NauticalArt",
 		"attackSound": "nonmetalhit",
 		"obsoleteTech": "Tech.Cartography"
@@ -2545,7 +2010,8 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.Trireme",
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"],
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"],
 		"requiredTech": "Tech.NauticalArt",
 		"attackSound": "nonmetalhit",
 		"obsoleteTech": "Tech.Cartography"
@@ -2564,7 +2030,8 @@
 		"upgradesTo":"Unit.Trireme",
 		"uniques":["[+1] Sight",
 		"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"],
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"],
 		"requiredTech": "Tech.NauticalArt",
 		"obsoleteTech": "Tech.Cartography",
 		"attackSound": "nonmetalhit"
@@ -2580,7 +2047,8 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.Trireme",
 		"uniques":["[+23]% Strength <when fighting in [Foreign Land] tiles>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]"],
+		"Gain [-1] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"],
 		"requiredTech": "Tech.NauticalArt",
 		"attackSound": "nonmetalhit",
 		"obsoleteTech": "Tech.Cartography"
@@ -2596,9 +2064,9 @@
 		"requiredTech": "Tech.Cartography",
 		"obsoleteTech": "Tech.SteamPower",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"],
+			"Gain [-4] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"attackSound": "nonmetalhit"
 	},
 	{//装甲舰
@@ -2615,9 +2083,9 @@
 		"attackSound": "nonmetalhit",
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Coal]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//驱逐舰
 		"name":"Unit.Destroyer",
@@ -2632,9 +2100,9 @@
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Coal]>",
 		"[+23]% Strength <vs [UnitType.Missile] units>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-5] [Resource.MilitaryMaintenance3]"]
+		"Gain [-7] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*长程海军*/
@@ -2649,8 +2117,9 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.Cruiser",
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"],
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"requiredTech": "Tech.Shipbuilding",
 		"obsoleteTech": "Tech.CrossailDevice",
 		"attackSound":"shipguns"
@@ -2668,8 +2137,9 @@
 		"hurryCostModifier":-33,
 		"upgradesTo":"Unit.Cruiser",
 		"uniques":["Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]"],
+		"Gain [-2] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"],
 		"requiredTech": "Tech.Shipbuilding",
 		"obsoleteTech": "Tech.CrossailDevice",
 		"attackSound":"shipguns"
@@ -2690,9 +2160,9 @@
 		"attackSound":"shipguns",
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//印度尼西亚-戎克船
 		"name":"Unit.Jong",
@@ -2714,9 +2184,9 @@
 		"[-64]% Strength <when below [0] [Resource.Niter]>",
 		"[+1] Movement <when adjacent to a [Unit.Admiral] unit>",
 		"[+23]% Strength <when adjacent to a [Unit.Admiral] unit>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-3] [Resource.MilitaryMaintenance3]"]
+		"Gain [-5] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//战舰
 		"name":"Unit.Battleship",
@@ -2736,9 +2206,9 @@
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Coal]>",
 		"[+118]% Strength <vs [UnitType.Missile] units>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+		"Gain [-6] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//导弹巡洋舰
 		"name":"Unit.MissileCruiser",
@@ -2755,9 +2225,9 @@
 		"attackSound":"shipguns",
 		"uniques":[
 		"[+118]% Strength <vs [UnitType.Missile] units>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+		"Gain [-8] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*海军袭击者*/
@@ -2775,9 +2245,9 @@
 		"obsoleteTech": "Tech.Electricity",
 		"attackSound":"shipguns",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-2] [Resource.MilitaryMaintenance3]"]
+			"Gain [-4] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//潜艇
 		"name":"Unit.Submarine",
@@ -2794,9 +2264,9 @@
 		"obsoleteTech": "Tech.Telecommunication",
 		"attackSound":"shipguns",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+			"Gain [-6] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//德意志-u艇
 		"name":"Unit.UBoat",
@@ -2816,9 +2286,9 @@
 		"attackSound":"shipguns",
 		"uniques":["[+51]% Strength <when fighting in [Ocean] tiles>",
 		"[+1] Sight",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+		"Gain [-6] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//核潜艇
 		"name":"Unit.NuclearSubmarine",
@@ -2835,9 +2305,9 @@
 		"Instantly provides [5] [Resource.Uranium] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 			"[-64]% Strength <when below [0] [Resource.Uranium]>",
 			"Can carry [2] [UnitType.Missile] units",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+			"Gain [-8] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*航空母舰*/
@@ -2853,9 +2323,9 @@
 		"requiredTech":"Tech.JointOperations",
 		"attackSound":"shipguns",
 		"uniques":[
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-5] [Resource.MilitaryMaintenance3]"]
+			"Gain [-7] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*战斗机*/
@@ -2876,9 +2346,9 @@
 		"attackSound": "machinegun",
 		"uniques":["[75]% chance to intercept air attacks",
 			"Class.Unit.Aircraft",
-			"Consumes [-1] [Resource.MilitaryMaintenance1]",
-			"Consumes [-1] [Resource.MilitaryMaintenance2]",
-			"Consumes [-4] [Resource.MilitaryMaintenance3]"]
+			"Gain [-6] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//战斗机
 		"name":"Unit.Fighter",
@@ -2898,9 +2368,9 @@
 		"uniques":["[75]% chance to intercept air attacks",
 			"[-64]% Strength <when below [0] [Resource.Aluminum]>",
 			"Class.Unit.Aircraft",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-5] [Resource.MilitaryMaintenance3]"]
+			"Gain [-7] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//喷气式战斗机
 		"name":"Unit.JetFighter",
@@ -2918,9 +2388,9 @@
 		"uniques":["[75]% chance to intercept air attacks",
 			"[-64]% Strength <when below [0] [Resource.Aluminum]>",
 			"Class.Unit.Aircraft",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+			"Gain [-8] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*轰炸机*/
@@ -2941,9 +2411,9 @@
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Aluminum]>",
 			"Class.Unit.Aircraft",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-5] [Resource.MilitaryMaintenance3]"]
+			"Gain [-7] [Gold] <upon turn end>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 	{//喷气式轰炸机
 		"name":"Unit.JetBomber",
@@ -2960,9 +2430,9 @@
 		"uniques":[
 		"[-64]% Strength <when below [0] [Resource.Aluminum]>",
 		"Class.Unit.Aircraft",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-6] [Resource.MilitaryMaintenance3]"]
+		"Gain [-8] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*导弹头*/
@@ -2982,7 +2452,8 @@
 		"Nuclear weapon of Strength [1]",
 		"Only available <if [Building.ManhattanProject] is constructed>",
 		"Blast radius [1]",
-		"Consumes [-1] [Resource.NuclearDeviceMaintenance]"]
+		"Gain [-8] [Gold] <upon turn end>",
+		"Gain [4] [Gold] <upon turn end> <if [Mil.ercigongjinengli] is constructed> <hidden from users>"]
 	},
 	{//热核弹头
 		"name":"Unit.ThermonuclearDevice",
@@ -3000,7 +2471,8 @@
 		"Nuclear weapon of Strength [2]",
 		"Only available <if [Building.IvyLeagueProject] is constructed>",
 		"Blast radius [2]",
-		"Consumes [-2] [Resource.NuclearDeviceMaintenance]"]
+		"Gain [-16] [Gold] <upon turn end>",
+		"Gain [8] [Gold] <upon turn end> <if [Mil.ercigongjinengli] is constructed> <hidden from users>"]
 	},
 
 	/*末日机甲*/
@@ -3016,9 +2488,9 @@
 		"attackSound":"gdrAttack",
 		"uniques":["Consumes [3] [Resource.Uranium]",
 		"[-64]% Strength <when below [0] [Resource.Uranium]>",
-		"Consumes [-1] [Resource.MilitaryMaintenance1]",
-		"Consumes [-1] [Resource.MilitaryMaintenance2]",
-		"Consumes [-13] [Resource.MilitaryMaintenance3]"]
+		"Gain [-15] [Gold] <upon turn end>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
+		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]
 	},
 
 	/*太空计划*/

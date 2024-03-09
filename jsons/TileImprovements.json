@@ -1783,7 +1783,7 @@
 		"uniques": [
 			"Provides [1] [Resource.houseLimitation]",
 			"Provides [1] [Resource.houseLimitation] <after discovering [Tech.OceanHome]>",
-			"[+1 Food] <with [1] to [6] neighboring [City center] tiles>",
+			"[+1 Food] <in tiles adjacent to [City center]>",
 			"[+1 Food, +1 Production] for each adjacent [Class.Harbor]",
 			"[+2 Gold] <after discovering [Tech.Cartography]>",
 			"[+1 Food] <after discovering [Tech.Plastic]>",
@@ -1795,5 +1795,18 @@
 			"Class.CommonImprovement1"
 		],
 		"techRequired": "Tech.NauticalArt"
+	},
+	{//埃塞俄比亚-独石教堂
+		"name": "Improvement.Rock-HewnChurch",
+		"uniqueTo": "Nation.Ethiopia",
+		"terrainsCanBeBuiltOn": ["Landform.Hill","Landform.VolcanicSoil"],
+		"faith":1,
+		"uniques": [
+			"Unavailable <in tiles adjacent to [Improvement.Rock-HewnChurch]>",
+			"[+1 Faith] for each adjacent [Landform.Hill]",
+			"[+1 Faith] for each adjacent [Mountain]",
+			"Class.CommonImprovement1"
+		],
+		"techRequired": "Civic.DramaAndPoetry"
 	}
 ]

@@ -413,21 +413,11 @@
 		"preferredVictoryType": "VictoryType.Domination",
 		
 		"uniqueName": "Divinely Ordained Rules",
-		"uniqueText":"Each time a Entertainment Complex district and its buildings are completed, you will receive the most advanced Heavy Cavalry unit of the current era",
-		"uniques": ["Free [Unit.Chariot] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <during the [Era.Classical]>",
-		"Free [Unit.Chariot] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <during the [Era.Classical]>",
-		"Free [Unit.Tagma] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <during the [Era.Medieval]>",
-		"Free [Unit.Tagma] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <during the [Era.Medieval]>",
-		"Free [Unit.Tagma] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <during the [Era.Renaissance]>",
-		"Free [Unit.Tagma] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <during the [Era.Renaissance]>",
-		"Free [Unit.Cuirassier] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <during the [Era.Industrial]>",
-		"Free [Unit.Cuirassier] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <during the [Era.Industrial]>",
-		"Free [Unit.Tank] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <during the [Era.Modern]>",
-		"Free [Unit.Tank] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <during the [Era.Modern]>",
-		"Free [Unit.Tank] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <during the [Era.Atomic]>",
-		"Free [Unit.Tank] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <during the [Era.Atomic]>",
-		"Free [Unit.ModernArmor] appears <upon constructing [Building.DistrictUnique.EntertainmentComplex] [in all cities]> <starting from the [Era.Information]>",
-		"Free [Unit.ModernArmor] appears <upon constructing [Class.DistrictBuilding.EntertainmentComplex] [in all cities]> <starting from the [Era.Information]>"
+		"uniques": [
+			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.DistrictUnique.EntertainmentComplex]>",
+			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.Arena]>",
+			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.Zoo]>",
+			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.Stadium]>"
 	],
 		
 		"cities": ["Constantinople", "Thessaloniki", "Nicaea", "Antioch", "Alexandria", "Athens", "Rome", "Syracuse", "Jerusalem", "Carthage", "Ravenna", "Ephesus", "Chersonesus", "Trebizond", "Cyprus", "Sofia", "Tarsus", "Naples", "Smyrna", "Amphipolis", "Patras", "Sardis", "Corinth", "Adrianople", "Ephesos", "Chalcedon", "Dyrrachium", "Thebes", "Pella", "Pergamon", "Mytilene", "Caesarea", "Paphos"],
@@ -886,6 +876,24 @@
 		],
 
 		"cities": ["Oslo","Bergen","Trondheim","Stavanger","Drammen","Fredrikstad","Kristiansand","Sandnes","Tromsø","Sarpsborg","Skien","Ålesund","Sandefjord","Haugesund","Moss","Porsgrunn","Bodø","Arendal","Hamar","Ytrebygda"]
+	},
+	{//埃塞俄比亚
+		"name": "Nation.Ethiopia",
+		"leaderName": "Menelik II",
+		"outerColor": [248,217,2],
+		"innerColor": [21,108,49],
+
+		"startBias": ["Hill"],
+		"preferredVictoryType": "VictoryType.Culture",
+
+		"uniqueName": "Aksumite Legacy",
+		"uniques": [
+			"[+1 Faith] from every [Luxury resource]",
+			"[+18]% Strength <when fighting in [Landform.Hill] tiles>",
+			"[+15]% [Culture] [in all cities] <in [Landform.Hill] tiles>"
+		],
+
+		"cities": ["Addis Ababa","Gondar","Harar","Axum","Adwa","Lalibela","Mekele","Dessie","Jimma","Sodo","Dire Dawa","Adigrat","Weldiya","Ankober","Alamata","Yirgalem","Gore","Negele Borana","Ginir","Debarq","Nejo","Debre Berhan","Abiy Addi","Mersa","Soqota","Sayint Ajebar","Chencha","Antalo","Yifat","Dabat","Debre Sina"]
 	},
 
 
