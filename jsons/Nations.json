@@ -275,7 +275,7 @@
 		"outerColor": [0, 128, 0], // 绿色
 		"innerColor": [255, 255, 102], // 黄色
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "Grand Vizier",
 		"uniques": ["Comment [Civilization-unique Governor: Grand Vizier]",
@@ -372,7 +372,7 @@
 		"innerColor": [255, 165, 0],
 
 		"startBias": ["Plains"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "Cyrus Terminator",
 		"uniques": ["May buy [UnitType.LightCavalry] units with [Faith] for [1] times their normal Production cost",
@@ -410,7 +410,7 @@
 		"outerColor": [55,0,101],
 		"innerColor": [233,226,158],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "Divinely Ordained Rules",
 		"uniques": [
@@ -432,7 +432,7 @@
 		"innerColor": [255, 240, 143],
 
 		"startBias": ["Plains"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "Emperor Khan",
 		"uniques": [
@@ -460,7 +460,7 @@
 		"[+1 Culture] from every [Building.Palace] <after discovering [Civic.NationalLaborForce]>",
 		"[+1 Culture] from every [Building.Library]",
 		"[+1 Culture] from every [Building.Library] <after discovering [Tech.CivilianEducation]>",
-		"[+25]% [Science] [in all cities] <in cities with a [Building.Library]> <during a Golden Age>"],
+		"[+25]% [Science] [in all cities] <in cities with a [Building.Library]> <during a Golden Age>","Triggers a [test1] event <upon founding a city>"],
 		
 		"cities": ["Chang'an", "Luoyang", "Luoxian", "Handan", "Xuchang", "Pingyang", "Xiangyang", "Chenggao", "Kaifeng", "Wuyang", "Gongxian", "Fengxian", "Liangxian", "Runan", "Yingchuan", "Peixian", "Wanxian", "Nanyang", "Chenliu", "Yangdi", "Huya", "Donghai", "Shouchun", "Pengcheng", "Taishan", "Wenxian", "Anyang", "Yanjin", "Heyang", "Jixian"],
 		
@@ -474,7 +474,7 @@
 		"innerColor": [255, 215, 0], // 金黄色
 
 		"startBias": ["Landform.Hill"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "ideological party building, political army building",
 		"uniques": ["[+2 Culture] from every [Building.DistrictUnique.MilitaryEncampment]",
@@ -501,7 +501,7 @@
 		"innerColor": [255, 255, 255],
 	  
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "Victorian era",
 		"uniques": [
@@ -525,7 +525,7 @@
 		"innerColor": [255, 255, 255],
 		
 		"startBias": ["Grassland","Avoid [Landform.Forest]"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 		
 		"uniqueName": "Corsican Monster",
 		"uniques": ["Comment [Enemy wounded units have a -13% combat effectiveness against our units]",
@@ -544,7 +544,7 @@
 		"innerColor": [140, 165, 185],
 
 		"startBias": ["Landform.Hill"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Until the end of the world",
 		"uniques": [""],
@@ -626,7 +626,7 @@
 		"innerColor": [184, 0, 0],
 
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Kamikaze",
 		"uniques": ["[+1] Movement <for [All] units> <in [Coastal] tiles>",
@@ -646,7 +646,7 @@
 		"outerColor": [14, 82, 150],
 
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Country of Thousand Islands",
 		"uniques": ["[+1] [Resource.Livability] [in all coastal cities]",
@@ -663,7 +663,7 @@
 		"innerColor": [117,163,243],
 
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Mediterranean Colony",
 		"uniques": ["Starts with [Tech.Writing]",
@@ -701,7 +701,7 @@
 		"innerColor": [255,168,168],
 
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Treasure Fleet",
 		"uniques": ["[+20]% [Production] [in all cities] <on foreign continents>",
@@ -747,7 +747,7 @@
 		"innerColor": [207, 20, 43], // 内深红色
 
 		"startBias": ["Grassland","Avoid [Mountain]"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Magnificent Qian Yuan",
 		"uniques": ["[+2 Production] [in all cities] <when above [5] [Resource.CityNumber]>",
@@ -865,7 +865,7 @@
 		"innerColor": [0, 32, 91],
 
 		"startBias": ["Coast"],
-		"preferredVictoryType": "VictoryType.Domination",
+		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Northern Thunder",
 		"uniques": [
