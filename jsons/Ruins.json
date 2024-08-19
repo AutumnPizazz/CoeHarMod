@@ -3,28 +3,28 @@
         "name": "Gain [20] [Culture]",
         "notification": "我们从遗迹中发现了前人的智慧-获得了[Culture]文化",
         "uniques": ["Gain [20] [Culture]",
-            "Only available <before [30] turns>"],
+            "Only available <before turn number [30]>"],
         "weight":5
     },
     {
         "name": "Gain [20] [Science]",
         "notification": "我们从遗迹中发现了前人的智慧-获得了[Science]科研",
         "uniques": ["Gain [20] [Science]",
-            "Only available <before [30] turns>"],
+            "Only available <before turn number [30]>"],
         "weight":5
     },
     {
         "name": "Gain [30] [Culture]",
         "notification": "我们从遗迹中发现了前人的智慧-获得了[Culture]文化",
         "uniques": ["Gain [30] [Culture]",
-            "Only available <after [29] turns>"],
+            "Only available <after turn number [29]>"],
         "weight":5
     },
     {
         "name": "Gain [30] [Science]",
         "notification": "我们从遗迹中发现了前人的智慧-获得了[Science]科研",
         "uniques": ["Gain [30] [Science]",
-            "Only available <after [29] turns>"],
+            "Only available <after turn number [29]>"],
         "weight":5
     },
     {
@@ -37,7 +37,7 @@
         "name": "Gain [20]-[60] [Faith]",
         "notification": "我们从遗迹中发现了神秘的图腾",
         "uniques": ["Gain [20]-[60] [Faith]",
-            "Only available <after [14] turns>"],
+            "Only available <after turn number [14]>"],
         "weight":4
     },
     {
@@ -57,7 +57,7 @@
         "name": "Free [Unit.Settler] found in the ruins",
         "notification": "我们从遗迹中发现了遗留的开拓者",
         "uniques": ["Free [Unit.Settler] found in the ruins",
-            "Only available <after [49] turns>"],
+            "Only available <after turn number [49]>"],
         "weight":1
     },
     {
@@ -108,7 +108,7 @@
     // {
     //     "name": "your exploring unit receives training",
     //     "notification": "An ancient tribe trained us in their ways of combat!",
-    //     "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+    //     "uniques": ["This Unit gains [10] XP", "Only available <after turn number [10]>"]
     // },
     // {
     //     "name": "survivors (adds population to a city)",
@@ -136,14 +136,14 @@
     // {
     //     "name": "discover holy symbols",
     //     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-    //     "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after [20] turns>"],
+    //     "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after turn number [20]>"],
 	// 	"color": "#CDDDF4"
     // },
     // {
     //     "name": "an ancient prophecy",
     //     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
     //     "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet",
-    //         "Only available <after founding a Pantheon>", "Only available <after [20] turns>"],
+    //         "Only available <after founding a Pantheon>", "Only available <after turn number [20]>"],
 	// 	"color": "#CDDDF4"
     // }
 ]

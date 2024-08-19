@@ -43,8 +43,8 @@
             "type": "Pantheon",
             "uniques": ["[+25]% Production when constructing [{Era.Ancient} {Military}] units [in all cities]",
             "[+25]% Production when constructing [{Era.Classical} {Military}] units [in all cities]",
-            "Provides 2 '[Resource.Horse]'Horse per turn",
-            "Provides 2 '[Resource.Iron]'Icon per turn"]
+            "Comment [Provides 2 Horse per turn]",
+            "Comment [Provides 2 Icon per turn]"]
         },
         {//门神
             "name": "Pantheon.GuardianGod",
@@ -55,7 +55,7 @@
         {//丰产仪式
             "name": "Pantheon.HarvestFestival",
             "type": "Pantheon",
-            "uniques": ["Gain a free '[Building.Granary]' in capital",
+            "uniques": ["Comment [Gain a free Granary in Capital]",
             "May buy [Building.Granary] buildings with [Faith] for [2] times their normal Production cost",
             "[+1 Food] from every [Building.Granary]",
             "Free [Unit.CommonWorker1] appears"]
@@ -63,13 +63,13 @@
         {//工匠之神
             "name": "Pantheon.GodOfCraftsmen",
             "type": "Pantheon",
-            "uniques": ["[+1 Production, +1 Gold, +1 Faith] from [Class.BasicStrategicResource] tiles [in all cities] <after [25] turns>"]
+            "uniques": ["[+1 Production, +1 Gold, +1 Faith] from [Class.BasicStrategicResource] tiles [in all cities] <after turn number [25]>"]
         },
         {//河神
             "name": "Pantheon.RiverGod",
             "type": "Pantheon",
             "uniques": ["[+1 Culture] in cities on [River] tiles",
-            "`+1 [Resource.Livability] from the HolySite next to River",
+            "Comment [Provides 1 Livability from the HolySite next to River]",
             "Each riverside city +1 housing"]
         },
         {//雨神
@@ -82,7 +82,7 @@
             "name": "Pantheon.GoddessOfFire",
             "type": "Pantheon",
             "uniques": ["[+1 Food, +1 Production, +1 Faith] from every [Landform.GeothermalFissure] <in tiles without [Class.District]>",
-            "Colleges grant an additional +1 adjacency bonus to '[Landform.GeothermalFissure]'"]
+            "Comment [Colleges grant an additional +1 adjacency bonus to Geothermal Fissure]"]
         },
         {//极光之舞
             "name": "Pantheon.DanceOfTheAurora",
@@ -161,7 +161,7 @@
         {//主神纪念碑
             "name": "Pantheon.MonumentToTheMainGod",
             "type": "Pantheon",
-            "uniques": ["The first two cities receive a free '[Building.Monument]'",
+            "uniques": ["Comment [The first two cities receive a free Monument]",
             "May buy [Building.Monument] buildings with [Faith] for [2] times their normal Production cost",
             "[+10]% [Culture] from every [Building.Monument]"//这条不生效，在宫殿重写了
         ]
@@ -181,9 +181,9 @@
         {//宗教移民
             "name": "Pantheon.ReligiousMigrant",
             "type": "Pantheon",
-            "uniques": ["Free [Unit.Settler] appears <upon discovering [Civic.PoliticalPhilosophy]>",
+            "uniques": ["Comment [Free [Unit.Settler] appears <upon discovering [Civic.PoliticalPhilosophy] technology>]",
             // 这个写法不生效，实际生效的句子在宫殿
-            "'[Unit.Settler]'+1 Movement for Settler units",
+            "Comment [+1 Movement for Settler units]",
             "[-15]% Culture cost of natural border growth [in all cities]"]
         },
         {//恩惠女神
@@ -218,7 +218,7 @@
             "name": "Pantheon.SocietyOfEnlightenment",
             "type": "Pantheon",
             "uniques": ["Free [Unit.Scout] appears",
-            "'[UnitType.Scout]'+1 Movement for Scout(Type) units"]
+            "Comment [+1 Movement for Scout(Type) units]"]
         },
         {//德鲁伊传统
             "name": "Pantheon.DruidicTradition",
@@ -237,7 +237,7 @@
             "name": "Pantheon.SongOfTheSirens",
             "type": "Pantheon",
             "uniques": ["[+2 Production, +1 Gold, +1 Science] from every [Landform.Reef] <in tiles without [Class.District]>",
-            "Colleges grant an additional +1 adjacency bonus to '[Landform.Reef]'"]
+            "Comment [Colleges grant an additional +1 adjacency bonus to Reef]"]
         },
         {//极地子民
             "name": "Pantheon.ArcticInhabitants",

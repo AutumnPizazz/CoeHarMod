@@ -503,8 +503,8 @@
 				"name": "Tech.Printing",
 				"row": 8,
 				"prerequisites": ["Tech.Mechanical"],
-				"quote": "",
-				"uniques": ["以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》"]
+				"quote": "以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》",
+				"uniques": []
 			},
 			{
 				"name": "Civic.Exploration",

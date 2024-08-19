@@ -371,11 +371,11 @@
 		"uniques": ["Rare feature",
 			"Doesn't generate naturally",
             "Units ending their turn on this terrain take [25] damage",
-			"[+1 Food] <after [10] turns> <in tiles without [Class.District]>",
-			"[+1 Production] <after [15] turns> <in tiles without [Class.District]>",
-			"[+1 Food] <after [30] turns> <in tiles without [Class.District]>",
-			"[+1 Production] <after [40] turns> <in tiles without [Class.District]>",
-			"[+1 Science] <after [50] turns> <in tiles without [Class.District]>"
+			"[+1 Food] <after turn number [10]> <in tiles without [Class.District]>",
+			"[+1 Production] <after turn number [15]> <in tiles without [Class.District]>",
+			"[+1 Food] <after turn number [30]> <in tiles without [Class.District]>",
+			"[+1 Production] <after turn number [40]> <in tiles without [Class.District]>",
+			"[+1 Science] <after turn number [50]> <in tiles without [Class.District]>"
 		]
 	},
 

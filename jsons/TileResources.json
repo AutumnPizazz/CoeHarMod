@@ -7,9 +7,11 @@
 		"food": 1,
 		"improvement": "Improvement.Pasture",
 		"improvementStats": {},
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Landform.Hill] Regions>"]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Landform.Hill] Regions>"
+		]
 	},
 	{//羊
 		"name": "Resource.Sheep",
@@ -18,9 +20,11 @@
 		"food": 1,
 		"improvement": "Improvement.Pasture",
 		"improvementStats": {},
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [13] tiles <in [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
-					"Generated on every [10] tiles <in [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]> <in tiles without [Fresh Water]> <in [Landform.Hill] Regions>"]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [13] tiles <in [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
+			"Generated on every [10] tiles <in [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]> <in tiles without [Fresh Water]> <in [Landform.Hill] Regions>"
+		]
 	},
 	{//鹿
 		"name": "Resource.Deer",
@@ -28,13 +32,15 @@
 		"terrainsCanBeFoundOn": ["Landform.Forest","Tundra"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Improvement.Encampment",
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [8] tiles <in [Tundra] [Landform.Forest] tiles>",
-					"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [25] tiles <in [Plains] [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
-					"Generated on every [25] tiles <in [Grassland] [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
-					"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Landform.Hill] Regions>",
-					"Generated on every [28] tiles <in [Landform.Forest] tiles> <in [Landform.Hill] Regions>"]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [8] tiles <in [{Tundra} {Landform.Forest}] tiles>",
+			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [25] tiles <in [{Plains} {Landform.Forest}] tiles> <in tiles without [Landform.Hill]>",
+			"Generated on every [25] tiles <in [{Grassland} {Landform.Forest}] tiles> <in tiles without [Landform.Hill]>",
+			"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Landform.Hill] Regions>",
+			"Generated on every [28] tiles <in [Landform.Forest] tiles> <in [Landform.Hill] Regions>"
+		]
 	},
 	{//香蕉
 		"name": "Resource.Bananas",
@@ -43,9 +49,11 @@
 		"food": 1,
 		"improvement": "Improvement.Plantation",
 		"improvementStats": {},
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [14] tiles <in [Landform.Rainforest] tiles>",
-					"Generated on every [16] tiles <in [Landform.Rainforest] tiles> <in [Landform.Hill] Regions>"]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [14] tiles <in [Landform.Rainforest] tiles>",
+			"Generated on every [16] tiles <in [Landform.Rainforest] tiles> <in [Landform.Hill] Regions>"
+		]
 	},
 	{//小麦
 		"name": "Resource.Wheat",
@@ -53,12 +61,14 @@
 		"terrainsCanBeFoundOn": ["Plains","Landform.AlluvialPlain","Landform.FloodPlain","Desert","Grassland"],
 		"food": 1,
 		"improvement": "Improvement.Farm",
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [27] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [10] tiles <in [Desert] [Fresh Water] tiles> <in tiles without [Landform.Hill]>",
-					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Landform.Hill] Regions>",
-					"Generated on every [20] tiles <in [Fresh Water] [Desert] tiles> <in tiles without [Landform.Hill]> <in [Landform.Hill] Regions>"]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Landform.Hill]>",
+			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Landform.Hill] Regions>",
+			"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Landform.Hill]> <in [Landform.Hill] Regions>"
+		]
 	},
 	{//玉米
 		"name": "Resource.Corn",
@@ -66,9 +76,11 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Landform.FloodPlain"],
 		"gold": 2,
 		"improvement": "Improvement.Farm",
-		"uniques": ["[-2 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [27] tiles <in [Featureless] [Grassland] tiles>"]
+		"uniques": [
+			"[-2 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [27] tiles <in [{Featureless} {Grassland}] tiles>"
+		]
 	},
 	{//石头
 		"name": "Resource.Stone",
@@ -77,10 +89,12 @@
 		"production": 1,
 		"improvement": "Improvement.Quarry",
 		"improvementStats": {},
-		"uniques": ["[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"]
+		"uniques": [
+			"[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
+		]
 	},
 	{//鱼
 		"name": "Resource.Fish",
@@ -88,8 +102,11 @@
 		"terrainsCanBeFoundOn": ["Coast","LargeRiver"],
 		"food": 1,
 		"improvement": "Improvement.FishingBoat",
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [6] tiles <in [Featureless] [Coast] tiles>","Class.ResourceOnWater"]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [6] tiles <in [{Featureless} {Coast}] tiles>",
+			"Class.ResourceOnWater"
+		]
 	},
 	{//螃蟹
 		"name": "Resource.Crab",
@@ -97,8 +114,11 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Improvement.FishingBoat",
-		"uniques": ["[-2 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated on every [8] tiles <in [Featureless] [Coast] tiles>","Class.ResourceOnWater"]
+		"uniques": [
+			"[-2 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Generated on every [8] tiles <in [{Featureless} {Coast}] tiles>",
+			"Class.ResourceOnWater"
+		]
 	},
 	{//美洲牛
 		"name": "Resource.Bison",
@@ -121,13 +141,13 @@
 		"improvementStats": {},
 		"uniques": ["[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
 					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
-					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Grassland] [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
-					"Minor deposits generated with weight [10] <in [Plains] [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
-					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Grassland} {Landform.Hill}] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
+					"Minor deposits generated with weight [10] <in [{Plains} {Landform.Hill}] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
+					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
@@ -142,19 +162,19 @@
 		"improvement": "Improvement.Mine",
 		"uniques": ["[-1 Science] <in [Class.District] tiles> <in tiles without [City center]>",
 					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
 					"Generated with weight [26] <in [Landform.Hill] tiles>",
 					"Minor deposits generated with weight [10] <in [Landform.Swamp] tiles> <in tiles without [Landform.Hill]>",
-					"Minor deposits generated with weight [10] <in [Landform.Rainforest] [Landform.Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [{Landform.Rainforest} {Landform.Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform.Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
@@ -170,19 +190,19 @@
 		"improvement": "Improvement.Mine",
 		"uniques": ["[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
 					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
 					"Generated with weight [26] <in [Landform.Hill] tiles>",
 					"Minor deposits generated with weight [10] <in [Landform.Swamp] tiles> <in tiles without [Landform.Hill]>",
-					"Minor deposits generated with weight [10] <in [Landform.Rainforest] [Landform.Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [{Landform.Rainforest} {Landform.Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform.Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform.Hill] tiles> <in tiles without [Landform.Forest]> <in tiles without [Landform.Rainforest]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
@@ -203,11 +223,11 @@
 					"Minor deposits generated with weight [10] <in [Landform.Swamp] tiles> <in tiles without [Landform.Hill]>",
 					"Minor deposits generated with weight [10] <in [Landform.Rainforest] tiles>",
 					"Minor deposits generated with weight [10] <in [Landform.Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Grassland] [Landform.Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Plains] [Landform.Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Desert] [Landform.Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Tundra] [Landform.Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Snow] [Landform.Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [{Grassland} {Landform.Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Plains} {Landform.Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Desert} {Landform.Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Tundra} {Landform.Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Snow} {Landform.Hill}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
@@ -225,15 +245,15 @@
 					"Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Landform.Swamp] tiles> <in tiles without [Landform.Hill]>",
-					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [60] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [65] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [100] <in [Featureless] [Coast] tiles>",
+					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform.Swamp] tiles> <in tiles without [Landform.Hill]>",
 					"Minor deposits generated with weight [10] <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
@@ -248,11 +268,11 @@
 		"improvement": "Improvement.Mine",
 		"improvementStats": {},
 		"uniques": ["[-1 Science] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Generated with weight [15] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [39] <in [Landform.Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Landform.Rainforest] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
@@ -271,8 +291,8 @@
 					"Generated with weight [70] <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
 					"Generated with weight [70] <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
 					"Minor deposits generated with weight [10] <in [Landform.Forest] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>",
 					"Class.BasicStrategicResource",
 					"Stockpiled"],
 		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
@@ -642,9 +662,9 @@
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]>",
 			"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
-			"Doesn't generate naturally <in [Tundra] [Landform.Hill] tiles>",
-			"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-			"Doesn't generate naturally <in [Grassland] [Landform.Hill] tiles>"]
+			"Doesn't generate naturally <in [{Tundra} {Landform.Hill}] tiles>",
+			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+			"Doesn't generate naturally <in [{Grassland} {Landform.Hill}] tiles>"]
 	},
 	{//熏香
 		"name": "Resource.Incense",
@@ -675,7 +695,7 @@
 			"Generated with weight [35] <in [Plains] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
+			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{//丝绸
 		"name": "Resource.Silk",
@@ -710,7 +730,7 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Landform.Hill] tiles>",
-			"Doesn't generate naturally <in [Tundra] [Landform.Forest] tiles>"]
+			"Doesn't generate naturally <in [{Tundra} {Landform.Forest}] tiles>"]
 	},
 	{//葡萄酒
 		"name": "Resource.Wine",
@@ -755,7 +775,7 @@
 		"Provides [4] [Resource.LivabilityFromLuxury] <hidden from users>",
 					"[+15]% Production when constructing [All] wonders [in all cities]",
 					"Special placement during map generation",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{//鲸鱼
 		"name": "Resource.Whales",
@@ -836,7 +856,7 @@
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
 					"Doesn't generate naturally <in [Landform.Rainforest] tiles> <in tiles without [Landform.Hill]>",
 					"Doesn't generate naturally <in [Landform.Forest] tiles> <in tiles without [Landform.Hill]> <in tiles without [Tundra]>"]
 	},
@@ -884,7 +904,7 @@
 					"Generated with weight [25] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Landform.Forest] [Landform.Hill] tiles>"]
+					"Doesn't generate naturally <in [{Landform.Forest} {Landform.Hill}] tiles>"]
 	},
 	{//松露
 		"name": "Resource.Truffles",
@@ -900,8 +920,8 @@
 					"Generated with weight [5] <in [Grassland] Regions>",
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Landform.Forest] [Landform.Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Landform.Forest] tiles>"]
+					"Doesn't generate naturally <in [{Landform.Forest} {Landform.Hill}] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Landform.Forest}] tiles>"]
 	},
 	{//橡胶
 		"name": "Resource.Rubber", 

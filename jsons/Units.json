@@ -158,7 +158,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.Scientist] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.Campus]> <after [30] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.Campus]> <after turn number [30]>"],
 		"movement":2
 	},
 	{//大科学家项目3
@@ -166,7 +166,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource.Unit.Scientist] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.Campus]> <after [60] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.Campus]> <after turn number [60]>"],
 		"movement":2
 	},
 	{//大商人项目1
@@ -183,7 +183,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.CommercialHub]> <after [30] turns>",
+		"Only available <in cities with a [Building.DistrictUnique.CommercialHub]> <after turn number [30]>",
 		"Cannot be purchased"],
 		"movement":2
 	},
@@ -192,7 +192,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource.Unit.Merchant] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.CommercialHub]> <after [60] turns>",
+		"Only available <in cities with a [Building.DistrictUnique.CommercialHub]> <after turn number [60]>",
 		"Cannot be purchased"],
 		"movement":2
 	},
@@ -209,7 +209,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.Artist] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.TheaterSquare]> <after [30] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.TheaterSquare]> <after turn number [30]>"],
 		"movement":2
 	},
 	{//大艺术家项目3
@@ -217,7 +217,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":576,
 		"uniques": ["Instantly provides [90] [Resource.Unit.Artist] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.TheaterSquare]> <after [60] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.TheaterSquare]> <after turn number [60]>"],
 		"movement":2
 	},
 	{//大工程师项目1
@@ -233,7 +233,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.Engineer] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.IndustrialZone]> <after [30] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.IndustrialZone]> <after turn number [30]>"],
 		"movement":2
 	},
 	{//大工程师项目3
@@ -241,7 +241,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource.Unit.Engineer] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.IndustrialZone]> <after [60] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.IndustrialZone]> <after turn number [60]>"],
 		"movement":2
 	},
 	{//大预言家项目1
@@ -257,7 +257,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.Prophet] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.HolySite]> <after [30] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.HolySite]> <after turn number [30]>"],
 		"movement":2
 	},
 	{//大预言家项目3
@@ -265,7 +265,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource.Unit.Prophet] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.HolySite]> <after [60] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.HolySite]> <after turn number [60]>"],
 		"movement":2
 	},
 	{//大将军项目1
@@ -281,7 +281,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.General] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.MilitaryEncampment]> <after [30] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.MilitaryEncampment]> <after turn number [30]>"],
 		"movement":2
 	},
 	{//大将军项目3
@@ -289,7 +289,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource.Unit.General] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.MilitaryEncampment]> <after [60] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.MilitaryEncampment]> <after turn number [60]>"],
 		"movement":2
 	},
 	{//海军统帅项目1
@@ -305,7 +305,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":216,
 		"uniques": ["Instantly provides [30] [Resource.Unit.Admiral] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.Port]> <after [30] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.Port]> <after turn number [30]>"],
 		"movement":2
 	},
 	{//海军统帅项目3
@@ -313,7 +313,7 @@
 		"unitType": "UnitType.GreatPersonProject",
 		"cost":516,
 		"uniques": ["Instantly provides [90] [Resource.Unit.Admiral] <by consuming this unit>",
-		"Only available <in cities with a [Building.DistrictUnique.Port]> <after [60] turns>"],
+		"Only available <in cities with a [Building.DistrictUnique.Port]> <after turn number [60]>"],
 		"movement":2
 	},
 
@@ -373,7 +373,7 @@
 		"cost":120,
 		"uniques":[
 			"Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
-			"[+2] Movement <before [2] turns>",
+			"[+2] Movement <before turn number [2]>",
 			"[+1] Movement <after adopting [Pantheon.ReligiousMigrant]>",
 			"Requires at least [2] population",
 			"[+1] Sight",
@@ -996,7 +996,7 @@
 		"uniques":["Instantly consumes [10] [Resource.Iron]",
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
-		"Damage is ignored when determining unit Strength",
+		"No damage penalty for wounded units",
 		"Heal this unit by [5] HP <upon ending a turn in a [Coastal] tile>",
 		"Gain [-3] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",

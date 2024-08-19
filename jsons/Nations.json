@@ -52,8 +52,8 @@
 		"uniqueName": "Yongle Prosperity",
 		"uniques": [
 			"[+2 Science, +2 Culture, +4 Gold] per [3] population [in all cities] <in cities with at least [10] [Population]>",
-			"[+1] [Resource.Livability] in cities with at least [5] Population",
-			"[+2] [Resource.Livability] in cities with at least [10] Population",
+			"Comment [+1 Livability in cities with at least 5 Population]",
+			"Comment [+2 Livability in cities with at least 10 Population]",
 			// "[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
             "Comment [+1 usage for all Builders]",
             "Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
@@ -238,7 +238,7 @@
 		"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
 		"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
 		"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] [in all cities]",
-		"-30% [Production] in all cities when constructing Buildings or Units",
+		"Comment [-30% [Production] in all cities when constructing Buildings or Units]",
 		"[-30]% [Production] [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <hidden from users>",
 		"[+30]% Production when constructing [All] wonders [in all cities] <hidden from users>",
@@ -460,7 +460,8 @@
 		"[+1 Culture] from every [Building.Palace] <after discovering [Civic.NationalLaborForce]>",
 		"[+1 Culture] from every [Building.Library]",
 		"[+1 Culture] from every [Building.Library] <after discovering [Tech.CivilianEducation]>",
-		"[+25]% [Science] [in all cities] <in cities with a [Building.Library]> <during a Golden Age>","Triggers a [test1] event <upon founding a city>"],
+		"[+25]% [Science] [in all cities] <in cities with a [Building.Library]> <during a Golden Age>"
+	],
 		
 		"cities": ["Chang'an", "Luoyang", "Luoxian", "Handan", "Xuchang", "Pingyang", "Xiangyang", "Chenggao", "Kaifeng", "Wuyang", "Gongxian", "Fengxian", "Liangxian", "Runan", "Yingchuan", "Peixian", "Wanxian", "Nanyang", "Chenliu", "Yangdi", "Huya", "Donghai", "Shouchun", "Pengcheng", "Taishan", "Wenxian", "Anyang", "Yanjin", "Heyang", "Jixian"],
 		
@@ -478,11 +479,11 @@
 		
 		"uniqueName": "ideological party building, political army building",
 		"uniques": ["[+2 Culture] from every [Building.DistrictUnique.MilitaryEncampment]",
-			"'[Building.DistrictUnique.MilitaryEncampment]' provides one territory slot",
+			"Comment [Military Encampment Landmark provides one territory slot]",
 			"[+50]% Production when constructing [Class.DistrictBuilding.MilitaryEncampment] buildings [in all cities]",
 			"Provides [1] [Resource.GenericPolicySlot] <after discovering [Civic.Ideology]>",
 			"[+2] Movement <for [All] units> <in [Enemy Land] tiles> <after discovering [Civic.Ideology]>",
-			"Free [Unit.General] appears <upon discovering [Civic.MilitaryTraining]>"
+			"Free [Unit.General] appears <upon discovering [Civic.MilitaryTraining] technology>"
 		],
 		
 		"cities": ["Ruijin", "Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Tianjin", "Chongqing", "Chengdu", "Hangzhou", "Nanjing", "Wuhan", "Xi'an", "Changsha", "Qingdao", "Dalian", "Xiamen", "Fuzhou", "Jinan", "Shenyang", "Harbin", "Kunming", "Taiyuan", "Zhengzhou", "Changchun", "Nanchang", "Haikou", "Hefei", "Urumqi", "Lanzhou", "Yinchuan", "Hohhot", "Guiyang", "Nanning", "Fuzhou", "Nanchang", "Changchun", "Shenyang", "Harbin", "Jinan", "Zhengzhou", "Taiyuan", "Xi'an", "Lanzhou", "Yinchuan", "Xining", "Urumqi", "Lhasa", "Kunming", "Chengdu", "Chongqing", "Wuhan", "Nanjing", "Hangzhou", "Hefei", "Fuzhou", "Nanning", "Guangzhou", "Shenzhen", "Haikou", "Taipei", "Hong Kong", "Macao"],
@@ -567,7 +568,7 @@
 		"uniqueName": "Mita System",
 		"uniques": ["[+3 Production, +3 Food] from every [Mountain]",
 		"[+3 Production] from every [Mountain] <after discovering [Tech.Industrialization]>",
-		"Free [Unit.Scientist] appears <upon discovering [Civic.BasicTrade]>",
+		"Free [Unit.Scientist] appears <upon discovering [Civic.BasicTrade] technology>",
 		"Land units may cross [Mountain] tiles after the first [Unit.Scientist] is earned"],
 //		"uniqueText": "",
 		
@@ -649,7 +650,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 
 		"uniqueName": "Country of Thousand Islands",
-		"uniques": ["[+1] [Resource.Livability] [in all coastal cities]",
+		"uniques": ["Provides [1] [Resource.Livability] <in [Coastal] cities>",
 		"The Campus District and the Holy District enjoy a standard adjacent increment to the coast"
 		],
 
