@@ -51,7 +51,7 @@
 			"Class.GreatPerson",
 			"Unbuildable",
 			"Religious Unit",
-			// "Hidden when religion is disabled",
+			// "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 4,
@@ -85,7 +85,7 @@
             "[+23]% Strength bonus for [{Era.Near-future} {Military} {Land}] units within [2] tiles <when above [6] [Resource.AuxiliaryCounter2]> <hidden from users>",
             "[+23]% Strength bonus for [{Era.Far-future} {Military} {Land}] units within [2] tiles <when above [7] [Resource.AuxiliaryCounter2]> <hidden from users>",
             // "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
-			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin]>",
+			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin] Civilizations>",
 			"Great Person - [War]",
 			"Class.GreatPerson",
 			"Unbuildable",
@@ -120,7 +120,7 @@
 		"name": "Great General",
 		"unitType": "UnitType.Civilian",
 		"uniques": ["Can transform to [Unit.General]",
-			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin]>",
+			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin] Civilizations>",
 			"Can transform to [Unit.Admiral]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
@@ -388,10 +388,10 @@
 		"movement":4,
 		"uniques":["Unbuildable",
 		"Gain [-175] [Gold]",
-		"Gain [175] [Gold] <for [Nation.UnitedStates]>",
+		"Gain [175] [Gold] <for [Nation.UnitedStates] Civilizations>",
 		"Instantly consumes [40] [Resource.Influence]",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
-		"Hidden when [VictoryType.Diplomacy] Victory is disabled"]
+		"Only available <when [VictoryType.Diplomacy] Victory is enabled>"]
 	},
 	{
 		"name":"Unit.Envoy2",
@@ -399,7 +399,7 @@
 		"movement":4,
 		"uniques":["Unbuildable",
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
-		"Hidden when [VictoryType.Diplomacy] Victory is disabled"]
+		"Only available <when [VictoryType.Diplomacy] Victory is enabled>"]
 	},
 
 	/*保护区划界人*/
@@ -442,7 +442,7 @@
 	// 	"uniques":["Gain [10] [Science] <by consuming this unit>",
 	// 	"Gain [10] [Culture] <by consuming this unit>",
 	// 	"Gain [40] [Gold] <by consuming this unit>",
-	// 	"Hidden when [Pattern.Camorrist] Victory is disabled",
+	// 	"Only available <when [Pattern.Camorrist] Victory is enabled>",
 	// 	"Unbuildable", "Uncapturable"]
 	// },
 	// {//空灵吟唱II
@@ -452,7 +452,7 @@
 	// 	"uniques":["Gain [50] [Science] <by consuming this unit>",
 	// 	"Gain [50] [Culture] <by consuming this unit>",
 	// 	"Gain [200] [Gold] <by consuming this unit>",
-	// 	"Hidden when [Pattern.Camorrist] Victory is disabled",
+	// 	"Only available <when [Pattern.Camorrist] Victory is enabled>",
 	// 	"Unbuildable", "Uncapturable"]
 	// },
 	// {//空灵吟唱III
@@ -462,7 +462,7 @@
 	// 	"uniques":["Gain [100] [Science] <by consuming this unit>",
 	// 	"Gain [100] [Culture] <by consuming this unit>",
 	// 	"Gain [400] [Gold] <by consuming this unit>",
-	// 	"Hidden when [Pattern.Camorrist] Victory is disabled",
+	// 	"Only available <when [Pattern.Camorrist] Victory is enabled>",
 	// 	"Unbuildable", "Uncapturable"]
 	// },
 	{//I级吸血鬼
@@ -475,7 +475,7 @@
 		"requiredResource":"Resource.remainingAvailableVampireCount",
 		"uniques":[
 		"Can transform to [Unit.VampireII] <after discovering [Tech.Alchemy]>",
-		"Hidden when [Pattern.Camorrist] Victory is disabled",
+		"Only available <when [Pattern.Camorrist] Victory is enabled>",
 		"Unbuildable", "Uncapturable",
 		"Gain [-1] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
@@ -490,7 +490,7 @@
 		"requiredResource":"Resource.remainingAvailableVampireCount",
 		"uniques":[
 		"Can transform to [Unit.VampireIII] <after discovering [Tech.MilitaryEngineering]>",
-		"Hidden when [Pattern.Camorrist] Victory is disabled",
+		"Only available <when [Pattern.Camorrist] Victory is enabled>",
 		"Unbuildable", "Uncapturable",
 		"Gain [-1] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
@@ -505,7 +505,7 @@
 		"requiredResource":"Resource.remainingAvailableVampireCount",
 		"uniques":[
 		"Can transform to [Unit.VampireIV] <after discovering [Tech.Gunpowder]>",
-		"Hidden when [Pattern.Camorrist] Victory is disabled",
+		"Only available <when [Pattern.Camorrist] Victory is enabled>",
 		"Unbuildable", "Uncapturable",
 		"Gain [-1] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
@@ -520,7 +520,7 @@
 		"requiredResource":"Resource.remainingAvailableVampireCount",
 		"uniques":[
 		"Can transform to [Unit.VampireV] <after discovering [Tech.PartSpecification]>",
-		"Hidden when [Pattern.Camorrist] Victory is disabled",
+		"Only available <when [Pattern.Camorrist] Victory is enabled>",
 		"Unbuildable", "Uncapturable",
 		"Gain [-1] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
@@ -535,7 +535,7 @@
 		"requiredResource":"Resource.remainingAvailableVampireCount",
 		"uniques":[
 		"Can transform to [Unit.VampireVI] <after discovering [Tech.Satellite]>",
-		"Hidden when [Pattern.Camorrist] Victory is disabled",
+		"Only available <when [Pattern.Camorrist] Victory is enabled>",
 		"Unbuildable", "Uncapturable",
 		"Gain [-1] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
@@ -549,7 +549,7 @@
 		"attackSound": "nonmetalhit",
 		"requiredResource":"Resource.remainingAvailableVampireCount",
 		"uniques":[
-		"Hidden when [Pattern.Camorrist] Victory is disabled",
+		"Only available <when [Pattern.Camorrist] Victory is enabled>",
 		"Unbuildable", "Uncapturable",
 		"Gain [-1] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>"]
@@ -565,7 +565,7 @@
 		"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 		"Unbuildable",
 		"Religious Unit",
-		"Hidden when religion is disabled"],
+		"Only available <when religion is enabled>"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
@@ -575,7 +575,7 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Unbuildable",
 			"Religious Unit"
 		],
@@ -997,7 +997,7 @@
 		"Instantly provides [5] [Resource.Iron] <if [Governor.MagnusIIIB] is constructed> <hidden from users>",
 		"[-64]% Strength <when below [0] [Resource.Iron]>",
 		"No damage penalty for wounded units",
-		"Heal this unit by [5] HP <upon ending a turn in a [Coastal] tile>",
+		"[This Unit] heals [5] HP <upon ending a turn in a [Coastal] tile>",
 		"Gain [-3] [Gold] <upon turn end>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.zhengbing] is constructed> <hidden from users>",
 		"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"]

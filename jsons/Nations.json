@@ -708,7 +708,7 @@
 		"uniques": ["[+20]% [Production] [in all cities] <on foreign continents>",
 		"[+50]% [Gold] [in all cities] <on foreign continents>",
 		"[+1 Production, +2 Faith, +3 Gold] from each Trade Route",
-		"Defense bonus when embarked"
+		"[+100]% Strength <when defending> <when [Embarked]>"
 		],
 
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona","Vitoria","Santander","Oviedo","Jaen","Logro~no","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida","Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coru~na","Guadalquivir","Bilbao","San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"]
@@ -845,7 +845,7 @@
 
 		"uniqueName": "Poseidon Worship",
 		"uniques": ["[UnitType.RangedInfantry] units gain the [Promotion.Atlantis] promotion",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Comment [-25% Production in non-coastal cities]",
 			"[-25]% [Production] [in all cities] <hidden from users>",
 			"[+25]% [Production] [in all coastal cities] <hidden from users>",

@@ -57,7 +57,7 @@
 			"[+1 Faith] for each adjacent [Class.GovernmentPlaza]",
 			"[+1 Faith] for each adjacent [Resource.EarthVeins] <if [Governor.GoldenDawnI] is constructed>",
 			"[+2 Faith] for each adjacent [Natural Wonder]",
-			"[+1 Faith] for each adjacent [Coast] <for [Nation.Indonesia]>",
+			"[+1 Faith] for each adjacent [Coast] <for [Nation.Indonesia] Civilizations>",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
@@ -113,7 +113,7 @@
 			"[+1 Science] for each adjacent [Landform.GeothermalFissure] <after adopting [Pantheon.GoddessOfFire]>",
 			"[+2 Science] for each adjacent [Naturalwonder.GreatBarrierReef]",
 			"[+2 Science] for each adjacent [District.TheGreatLibrary]",
-			"[+1 Science] for each adjacent [Coast] <for [Nation.Indonesia]>",
+			"[+1 Science] for each adjacent [Coast] <for [Nation.Indonesia] Civilizations>",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
@@ -538,7 +538,7 @@
 		"techRequired": "Tech.Civic.Agriculture",
 		"uniques": [
 			"Provides [1] [Resource.houseLimitation] <in this city>",
-			"Provides [1] [Resource.houseLimitation] <in this city> <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
+			"Provides [1] [Resource.houseLimitation] <in this city> <for [Nation.Maya] Civilizations> <hidden from users>",//玛雅文明能力
 			"[+1 Food] <with [2] to [3] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
 			"[+2 Food] <with [4] to [5] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
 			"[+3 Food] <with [6] to [7] neighboring [Improvement.Farm] tiles> <after discovering [Civic.Feudalism]> <before discovering [Tech.PartSpecification]>",
@@ -672,7 +672,7 @@
 		"gold": 2,
 		"techRequired": "Tech.Irrigation",
 		"uniques": ["Provides [1] [Resource.houseLimitation] <in this city>",
-			"Provides [1] [Resource.houseLimitation] <in this city> <for [Nation.Maya]> <hidden from users>",//玛雅文明能力
+			"Provides [1] [Resource.houseLimitation] <in this city> <for [Nation.Maya] Civilizations> <hidden from users>",//玛雅文明能力
 			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"[+1 Food] <after discovering [Tech.ScientificTheory]>",
 			"[+1 Food] <after discovering [Civic.Feudalism]>",
@@ -1664,7 +1664,7 @@
 		"gold":2,
 		"techRequired": "Tech.Bricklaying",
 		"uniques": ["Provides [2] [Resource.houseLimitation] <in this city>",
-		"Gives a defensive bonus of [+23]% <for [Nation.Ming]>",//这句不生效，在国家ua里
+		"Gives a defensive bonus of [+23]% <for [Nation.Ming] Civilizations>",//这句不生效，在国家ua里
 		"[+1 Gold, +1 Culture] for each adjacent [Improvement.MingGreatWall]",
 		"[+1 Culture] for each adjacent [Improvement.MingGreatWall] <after discovering [Tech.Castle]>",
 		"Unavailable <with [3] to [6] neighboring [Improvement.MingGreatWall] tiles>",

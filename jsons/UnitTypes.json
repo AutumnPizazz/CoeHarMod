@@ -17,21 +17,21 @@
     {//侦察
         "name": "UnitType.Scout",
         "movementType": "Land",
-        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"
+        "uniques":["[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"
     ]
     },
     {//短程步兵
         "name": "UnitType.MeleeInfantry",
         "movementType": "Land",
         "uniques":["[+18]% Strength <vs [UnitType.AntiCavalry] units>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//武僧
         "name": "UnitType.Monk",
         "movementType": "Land",
         "uniques":["[+23]% Strength <vs [UnitType.AntiCavalry] units>",
         "Earn [20]% of killed [Military] unit's [Strength] as [Faith]",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>",
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>",
         "Consumes [1] [Resource.remainingMonksCount]",
         "Only available <when above [0] [Resource.remainingMonksCount]>",
         "Never appears as a Barbarian unit",
@@ -44,7 +44,7 @@
         "[-58]% Strength <vs cities> <when attacking> <during the [Era.Classical]>",
         "[-96]% Strength <vs cities> <when attacking> <starting from the [Era.Medieval]>",
         "[-23]% Strength <vs [{Military} {Water}] units> <when attacking>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//攻城
         "name": "UnitType.Siege",
@@ -52,41 +52,41 @@
         "uniques":["[+51]% Strength <vs cities> <when attacking>",
         "[+51]% Strength <vs [{Military} {Water}] units> <when attacking>",
         "Must set up to ranged attack",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//轻骑兵
         "name": "UnitType.LightCavalry",
         "movementType": "Land",
         "uniques":["[-39]% Strength <vs cities> <when attacking>",
-        "[+20]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]> <hidden from users>",//马其顿文明能力
+        "[+20]% Strength <vs cities> <when attacking> <for [Nation.Macedonia] Civilizations> <hidden from users>",//马其顿文明能力
         "Ignores Zone of Control",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//重骑兵
         "name": "UnitType.HeavyCavalry",
         "movementType": "Land",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
-        "[+12]% Strength <vs cities> <when attacking> <for [Nation.Macedonia]> <hidden from users>",//马其顿文明能力
+        "[+12]% Strength <vs cities> <when attacking> <for [Nation.Macedonia] Civilizations> <hidden from users>",//马其顿文明能力
         "Ignores Zone of Control",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//抗骑兵
         "name": "UnitType.AntiCavalry",
         "movementType": "Land",
         "uniques":["[+51]% Strength <vs [UnitType.LightCavalry] units>",
         "[+51]% Strength <vs [UnitType.HeavyCavalry] units>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//短程海军
         "name": "UnitType.ShortRangedNaval",
         "movementType": "Water",
-        "uniques":["Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "uniques":["[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//长程海军
         "name": "UnitType.LongRangedNaval",
         "movementType": "Water",
         "uniques":["[-23]% Strength <vs cities> <when attacking>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {//海军袭击者
         "name": "UnitType.NavalAttacker",
@@ -95,13 +95,13 @@
         "Invisible to non-adjacent units",
         "Can see invisible [UnitType.NavalAttacker] units",
         "[-23]% Strength <vs cities> <when attacking>",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {
         "name": "UnitType.AircraftCarrier",
         "movementType": "Water",
         "uniques":["Can carry [2] [Class.Unit.Aircraft] units",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {
         "name": "UnitType.Fighter",
@@ -111,14 +111,14 @@
         "Can see over obstacles",
         "Can perform Air Sweep",
         "Unit will heal every turn, even if it performs an action",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {
         "name": "UnitType.Bomber",
         "movementType": "Air",
         "uniques": ["Aircraft",
         "Unit will heal every turn, even if it performs an action",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"]
     },
     {
         "name": "UnitType.Missile",
@@ -131,7 +131,7 @@
         "name": "UnitType.Mech",
         "movementType": "Land",
         "uniques":["Never appears as a Barbarian unit",
-        "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>",
+        "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>",
         "Ignores terrain cost <after discovering [Tech.Cybernetics]>"]
     },
     {//吸血鬼

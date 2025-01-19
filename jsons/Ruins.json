@@ -61,15 +61,9 @@
         "weight":1
     },
     {
-        "name": "This Unit gains [20] XP",
+        "name": "[This Unit] gains [20] XP",
         "notification": "我们从遗迹中发现了前人的训练战术",
-        "uniques": ["This Unit gains [20] XP"],
-        "weight":6
-    },
-    {
-        "name": "This Unit gains [20] XP",
-        "notification": "我们从遗迹中发现了前人的训练战术",
-        "uniques": ["This Unit gains [20] XP"],
+        "uniques": ["[This Unit] gains [20] XP"],
         "weight":6
     },
     {

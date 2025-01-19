@@ -302,8 +302,8 @@
         {//禅修
             "name": "FollowerBelief.Meditation",
             "type": "Follower",
-            "uniques": ["`+1 [Resource.Livability] from every [Building.DistrictUnique.HolySite]",
-            "`+1 [Resource.Livability] from every [Building.DistrictUnique.Campus]"]
+            "uniques": ["Comment [`+1 [Resource.Livability] from every [Building.DistrictUnique.HolySite]]",
+            "Comment [`+1 [Resource.Livability] from every [Building.DistrictUnique.Campus]]"]
         },
         {//合唱圣歌
             "name": "FollowerBelief.ChoralSinging",
@@ -316,7 +316,7 @@
             "name": "FollowerBelief.DivineRevelation",
             "type": "Follower",
             "uniques": ["[+4 Faith, +1 Gold] from every [Wonders] <in tiles without [Class.District]>",
-            "`+1 [Resource.Livability] from every [Wonders]"]
+            "Comment [`+1 [Resource.Livability] from every [Wonders]]"]
         },
         {//武僧
             "name": "FollowerBelief.MartialArts",
