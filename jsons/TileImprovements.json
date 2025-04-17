@@ -244,11 +244,11 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Provide additional scientific research bonus for adjacent mines as technology grows",
+				"text": "[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [[Tech.Math] and [Tech.ScientificTheory]]> <for [Improvement.Mine]>",
 				"link": "Improvement/Improvement.Mine"
 			},
 			{
-				"text": "+1 Gold for each adjacent Farm",
+				"text": "[+1 Gold] for each adjacent [Distict.LearningAcademy] <for [Improvement.Farm]>",
 				"link": "Improvement/Improvement.Farm"
 			}
 		]
@@ -1172,14 +1172,14 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "如果与相邻的另一个地块上也有道路或铁路，则减少移动成本为原来的一半"
+				"text": "Reduces movement cost to ½ if the other tile also has a Road or Railroad"
 			},
 			{
-				"text": "在研究机械科技后，在道路上移动的成本降低为三分之一",
+				"text": "Reduces movement cost to ⅓ with [Tech.Mechanical]",
 				"link": "Technology/Tech.Mechanical"
 			},
 			{
-				"text": "在研究工程科技后，跨河道路也能发挥作用",
+				"text": "Requires [Tech.Project] to bridge rivers",
 				"link": "Technology/Tech.Project"
 			}
 		]
@@ -1196,7 +1196,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "如果与相邻的另一个地块上也有铁路，则减少移动成本为原来的十分之一"
+				"text": "Reduces movement cost to ⅒ if the other tile also has a Railroad"
 			}
 		]
 	},
@@ -1207,12 +1207,7 @@
 		"name": "Remove Landform.Forest",
 		"turnsToBuild": 4,
 		"techRequired": "Tech.Mining",
-		"uniques": [],
-		"civilopediaText": [
-			{
-				"text": "完成后，根据离最近城市的距离提供一次性生产力加成，最多不超过20生产力"
-			}
-		]
+		"uniques": []
 	},
 	{ //砍伐雨林
 		"name": "Remove Landform.Rainforest",
@@ -1263,11 +1258,6 @@
 		"turnsToBuild": 2,
 		"uniques": [
 			"Unbuildable"
-		],
-		"civilopediaText": [
-			{
-				"text": "修复被破坏的设施或道路"
-			}
 		]
 	},
 	//伟人设施（删除大部分）
@@ -1474,7 +1464,7 @@
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
-			"It can only be built on desert flats",
+			"Comment [Can only be built] <in [[Desert] [non-[Landform.Hill]]] tiles>",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Class.District",
 			"Class.WonderDistrict"
@@ -1491,7 +1481,7 @@
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
-			"It can only be built on hills",
+			"Comment [Can only be built] <in [Landform.Hill] tiles>",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
 			"Class.District",
 			"Class.WonderDistrict"

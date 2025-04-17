@@ -276,7 +276,7 @@
 			"Rough terrain",
 			"Vegetation",
 			"[+1] to Fertility for Map Generation",
-			"Provides a one-time Production bonus to the closest city when cut down",
+			"Provides a one-time bonus of [+100 Production] to the closest city when cut down <(modified by game progress up to [100]%)> <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Landform.Forest] tiles, with priority [3]",
@@ -290,11 +290,11 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "A Camp can be built here without cutting it down",
+				"text": "A [Improvement.Encampment] can be built here without cutting it down",
 				"link": "Improvement/Improvement.Encampment"
 			},
 			{
-				"text": "A Plantation can be built here without cutting it down",
+				"text": "A [Improvement.Plantation] can be built here without cutting it down",
 				"link": "Improvement/Improvement.Plantation"
 			}
 		]
@@ -317,6 +317,7 @@
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[+1] to Fertility for Map Generation",
+			"Provides a one-time bonus of [+50 Food, +50 Production] to the closest city when cut down <(modified by game progress up to [100]%)> <(modified by game speed)>",
 			"A Region is formed with at least [30]% [Landform.Rainforest] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Landform.Rainforest] tiles and [Landform.Forest] tiles, with priority [2]",
 			"A Region can not contain more [Landform.Forest] tiles than [Landform.Rainforest] tiles",
@@ -597,7 +598,7 @@
 		"unbuildable": true,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Grants [Promotion.WaterOfLife] ([Heal with an additional 10 HP]) to adjacent [Land] units for the rest of the game",
+			"Grants [Promotion.WaterOfLife] ([Heal with an additional [10] HP]) to adjacent [Land] units for the rest of the game",
 			"Fresh water"
 		],
 		"weight": 8
@@ -618,7 +619,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Lots of adjacent bonuses for adjacent Theatre Square",
+				"text": "[Class.TheaterSquare] grant an additional [+2] adjacency bonus to [Naturalwonder.MountTai]",
 				"link": "Improvement/District.TheaterSquare"
 			}
 		],
@@ -640,7 +641,7 @@
 		"uniques": [
 			"Must be adjacent to [1] to [3] [Coast] tiles",
 			"Occurs in groups of [2] to [2] tiles",
-			"Grants [Promotion.GiantSpear] ([+23% Strength]) to adjacent [{Military} {Land}] units for the rest of the game"
+			"Grants [Promotion.GiantSpear] ([[+23]% Strength]) to adjacent [{Military} {Land}] units for the rest of the game"
 		],
 		"weight": 3
 	},
@@ -684,7 +685,7 @@
 		"weight": 5,
 		"civilopediaText": [
 			{
-				"text": "Provides fresh water and gives adjacent irrigation tiles an additional  +4 happiness.",
+				"text": "[+4 Happiness] for each adjacent [Naturalwonder.HukouWaterfall] <for [Class.Raceline]>",
 				"link": "Improvement/District.Raceline"
 			}
 		]

@@ -748,7 +748,7 @@
                     "Only available <when above [29] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [30] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 1,
                 "column": 3,
@@ -761,7 +761,7 @@
                     "Only available <when above [59] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [60] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 2,
                 "column": 3,
@@ -776,7 +776,7 @@
                     "Only available <when above [89] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [90] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 3,
                 "column": 3,
@@ -791,7 +791,7 @@
                     "Only available <when above [119] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [120] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 4,
                 "column": 3,
@@ -806,7 +806,7 @@
                     "Only available <when above [149] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [150] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 5,
                 "column": 3,
@@ -821,7 +821,7 @@
                     "Only available <when above [179] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [180] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 6,
                 "column": 3,
@@ -836,7 +836,7 @@
                     "Only available <when above [209] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [210] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 7,
                 "column": 3,
@@ -851,7 +851,7 @@
                     "Only available <when above [239] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [240] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 8,
                 "column": 3,
@@ -866,7 +866,7 @@
                     "Only available <when above [269] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [270] [Resource.Unit.General]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 9,
                 "column": 3,
@@ -912,7 +912,7 @@
                     "Only available <when above [29] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [30] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General1]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 1,
                 "column": 3,
@@ -925,7 +925,7 @@
                     "Only available <when above [59] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [60] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General2]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 2,
                 "column": 3,
@@ -940,7 +940,7 @@
                     "Only available <when above [89] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [90] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General3]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 3,
                 "column": 3,
@@ -955,7 +955,7 @@
                     "Only available <when above [119] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [120] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General4]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 4,
                 "column": 3,
@@ -970,7 +970,7 @@
                     "Only available <when above [149] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [150] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General5]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 5,
                 "column": 3,
@@ -985,7 +985,7 @@
                     "Only available <when above [179] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [180] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General6]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 6,
                 "column": 3,
@@ -1000,7 +1000,7 @@
                     "Only available <when above [209] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [210] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General7]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 7,
                 "column": 3,
@@ -1015,7 +1015,7 @@
                     "Only available <when above [239] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [240] [Resource.Unit.Admiral]",
                     "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General8]> <hidden from users>",
-                    "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 8,
                 "column": 3,
