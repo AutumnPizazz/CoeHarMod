@@ -1765,7 +1765,7 @@
 			"Gain [100] [Faith] <upon declaring friendship>",
 			"All newly-trained [Unit.Missionary] units [in all cities] receive the [Promotion.Devout2] promotion",
 			"[+2 Faith] from each Trade Route",
-			"Comment [Each sacred area and its buildings provide 1 General Point]"
+			"Comment [[[+1] [Resource.Unit.General]] from every [[Class.HolySite] and [Class.DistrictBuilding.HolySite]]]"
 		],
 		"cities": [
 			"Delhi",
@@ -1972,7 +1972,8 @@
 		"uniqueName": "Country of Thousand Islands",
 		"uniques": [
 			"Provides [1] [Resource.Livability] <in [Coastal] cities>",
-			"The Campus District and the Holy District enjoy a standard adjacent increment to the coast"
+			"Comment [[Class.Campus] grant an additional [+1] adjacency bonus to [Coast]]",
+			"Comment [[Class.HolySite] grant an additional [+1] adjacency bonus to [Coast]]"
 		],
 		"cities": [
 			"Surabaya",
@@ -2223,7 +2224,7 @@
 		"preferredVictoryType": "VictoryType.Science",
 		"uniqueName": "Heavy Industrialization and Agriculture Collectivization",
 		"uniques": [
-			"Each building in the industrial zone (workshops, factories, and power plants) offers a distinctive promotion opportunity for the newly trained military units in the city.",
+			"Comment [Every [Class.DistrictBuilding.IndustrialZone] provides a specific Promotion for the newly trained [Military] units [in this city]]",
 			"[+1 Production] from [Improvement.Farm] tiles [in all cities] <with [2] to [6] neighboring [Improvement.Farm] tiles>",
 			"[-1 Gold] per [4] population [in all cities]",
 			"[+50]% [Production] [in all cities] <if [Gov.Communism] is constructed>",
@@ -2626,7 +2627,7 @@
 		"uniques": [
 			"[UnitType.RangedInfantry] units gain the [Promotion.Atlantis] promotion",
 			"[+100]% Strength <when defending> <when [Embarked]>",
-			"Comment [-25% Production in non-coastal cities]",
+			"Comment [[-25]% [Production] [in [non-[Coastal]] cities]]",
 			"[-25]% [Production] [in all cities] <hidden from users>",
 			"[+25]% [Production] [in all coastal cities] <hidden from users>",
 			"Discover [Tech.AstronomicalNavigation] <upon entering the [Era.Classical]>",
@@ -2681,7 +2682,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Northern Thunder",
 		"uniques": [
-			"Comment [Discover all relics on the map at the beginning]",
+			"Comment [Discover all [Ancient ruins] on the map at the beginning]",
 			"Reveal up to [All] [Ancient ruins] within a [1023] tile radius <hidden from users>",
 			"May heal outside of friendly territory <for [{Military} {Water}] units>",
 			"[+50]% Production when constructing [UnitType.ShortRangedNaval] units [in all cities]"
@@ -2766,7 +2767,7 @@
 			"Debre Sina"
 		]
 	},
-	//新国家/新文明从这里开始sss
+	//新国家/新文明从这里开始
 	// City-States sorted by cityStateType, name
 	{
 		"name": "Brussels",
