@@ -79,8 +79,8 @@
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
-			"Comment [+23% Strength bonus for Military Land units within 2 tiles]",
-			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [2] tiles  <hidden from users>",
+			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [2] tiles]",
+			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [2] tiles <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Classical} {Military} {Land}] units within [2] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Medieval} {Military} {Land}] units within [2] tiles <when above [1] [Resource.AuxiliaryCounter2]> <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Renaissance} {Military} {Land}] units within [2] tiles <when above [2] [Resource.AuxiliaryCounter2]> <hidden from users>",
@@ -105,7 +105,7 @@
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
-			"Comment [+23% Strength bonus for Military Land units within 3 tiles]",
+			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [3] tiles]",
 			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [3] tiles  <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Classical} {Military} {Land}] units within [3] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Medieval} {Military} {Land}] units within [3] tiles <when above [1] [Resource.AuxiliaryCounter2]> <hidden from users>",
@@ -137,7 +137,7 @@
 		"unitType": "UnitType.CivilianShip",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Admiral] <after adopting [Culture.General Complete]> <hidden from users>",
-			"Comment [+23% Strength bonus for Military Water units within 2 tiles]",
+			"Comment [[+23]% Strength bonus for [[Military] [Water]] units within [2] tiles]",
 			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Water}] units within [2] tiles <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Classical} {Military} {Water}] units within [2] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Medieval} {Military} {Water}] units within [2] tiles <when above [1] [Resource.AuxiliaryCounter2]> <hidden from users>",
@@ -908,10 +908,8 @@
 		"obsoleteTech": "Tech.Alchemy",
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"[-51]% Strength <vs [Era.Ancient] units>",
-			"[+51]% Strength"
-		],
-		"replacementTextForUniques": "+51% Combat power against more advanced era units"
+			"[-51]% Strength <vs [non-[Era.Ancient]] units>"
+		]
 	},
 	{ //阿兹特克-雄鹰战士
 		"name": "Unit.EagleWarrior",

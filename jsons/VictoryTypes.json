@@ -1,7 +1,7 @@
 [
     { //科技胜利
         "name": "VictoryType.Science",
-        "victoryScreenHeader": "完成所有飞天项目(单位)获得胜利!",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
         "milestones": [
             "Build [Building.DistrictUnique.Spaceport]",
             "Add all [Spaceship part] in capital"

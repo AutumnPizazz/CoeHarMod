@@ -479,7 +479,7 @@
         "name": "FollowerBelief.Reliquary",
         "type": "Follower",
         "uniques": [
-            "Gain [30] [Faith] <upon expending a [Class.GreatPerson] unit> <(modified by game speed)> <during the [Era.Ancient]>.",
+            "Gain [30] [Faith] <upon expending a [Class.GreatPerson] unit> <(modified by game speed)> <during the [Era.Ancient]>",
             "Gain [60] [Faith] <upon expending a [Class.GreatPerson] unit> <(modified by game speed)> <during the [Era.Classical]>",
             "Gain [90] [Faith] <upon expending a [Class.GreatPerson] unit> <(modified by game speed)> <during the [Era.Medieval]>",
             "Gain [120] [Faith] <upon expending a [Class.GreatPerson] unit> <(modified by game speed)> <during the [Era.Renaissance]>",
