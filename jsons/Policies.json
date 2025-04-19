@@ -2,929 +2,1119 @@
     {
         "name": "Culture.Scientist",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.Scientist1",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [29] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.Scientist]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.Scientist2",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [59] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.Scientist]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.Scientist1"]
-        },
-        {
-            "name": "Culture.Scientist3",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [89] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.Scientist]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.Scientist2"]
-        },
-        {
-            "name": "Culture.Scientist4",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [119] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.Scientist]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.Scientist3"]
-        },
-        {
-            "name": "Culture.Scientist5",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [149] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.Scientist]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.Scientist4"]
-        },
-        {
-            "name": "Culture.Scientist6",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [179] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.Scientist]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.Scientist5"]
-        },
-        {
-            "name": "Culture.Scientist7",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [209] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.Scientist]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.Scientist6"]
-        },
-        {
-            "name": "Culture.Scientist8",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [239] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.Scientist]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.Scientist7"]
-        },
-        {
-            "name": "Culture.Scientist9",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [269] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.Scientist]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.Scientist8"]
-        },
-        {
-            "name": "Culture.Scientist10",
-            "uniques": [
-                "Free [Unit.Scientist] appears",
-                "Only available <when above [299] [Resource.Unit.Scientist]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.Scientist]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.Scientist9"]
-        },
-        {
-            "name": "Culture.Scientist Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.Scientist1",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [29] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Scientist]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Scientist2",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [59] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Scientist]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist1"
+                ]
+            },
+            {
+                "name": "Culture.Scientist3",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [89] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Scientist]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist2"
+                ]
+            },
+            {
+                "name": "Culture.Scientist4",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [119] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Scientist]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist3"
+                ]
+            },
+            {
+                "name": "Culture.Scientist5",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [149] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Scientist]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist4"
+                ]
+            },
+            {
+                "name": "Culture.Scientist6",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [179] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Scientist]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist5"
+                ]
+            },
+            {
+                "name": "Culture.Scientist7",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [209] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Scientist]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist6"
+                ]
+            },
+            {
+                "name": "Culture.Scientist8",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [239] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Scientist]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist7"
+                ]
+            },
+            {
+                "name": "Culture.Scientist9",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [269] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Scientist]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist8"
+                ]
+            },
+            {
+                "name": "Culture.Scientist10",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [299] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Scientist]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Scientist9"
+                ]
+            },
+            {
+                "name": "Culture.Scientist Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.Merchant",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.Merchant1",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [29] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.Merchant]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.Merchant2",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [59] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.Merchant]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.Merchant1"]
-        },
-        {
-            "name": "Culture.Merchant3",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [89] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.Merchant]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.Merchant2"]
-        },
-        {
-            "name": "Culture.Merchant4",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [119] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.Merchant]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.Merchant3"]
-        },
-        {
-            "name": "Culture.Merchant5",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [149] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.Merchant]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.Merchant4"]
-        },
-        {
-            "name": "Culture.Merchant6",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [179] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.Merchant]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.Merchant5"]
-        },
-        {
-            "name": "Culture.Merchant7",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [209] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.Merchant]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.Merchant6"]
-        },
-        {
-            "name": "Culture.Merchant8",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [239] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.Merchant]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.Merchant7"]
-        },
-        {
-            "name": "Culture.Merchant9",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [269] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.Merchant]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.Merchant8"]
-        },
-        {
-            "name": "Culture.Merchant10",
-            "uniques": [
-                "Free [Unit.Merchant] appears",
-                "Only available <when above [299] [Resource.Unit.Merchant]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.Merchant]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.Merchant9"]
-        },
-        {
-            "name": "Culture.Merchant Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.Merchant1",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [29] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Merchant]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Merchant2",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [59] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Merchant]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant1"
+                ]
+            },
+            {
+                "name": "Culture.Merchant3",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [89] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Merchant]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant2"
+                ]
+            },
+            {
+                "name": "Culture.Merchant4",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [119] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Merchant]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant3"
+                ]
+            },
+            {
+                "name": "Culture.Merchant5",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [149] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Merchant]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant4"
+                ]
+            },
+            {
+                "name": "Culture.Merchant6",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [179] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Merchant]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant5"
+                ]
+            },
+            {
+                "name": "Culture.Merchant7",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [209] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Merchant]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant6"
+                ]
+            },
+            {
+                "name": "Culture.Merchant8",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [239] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Merchant]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant7"
+                ]
+            },
+            {
+                "name": "Culture.Merchant9",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [269] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Merchant]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant8"
+                ]
+            },
+            {
+                "name": "Culture.Merchant10",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [299] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Merchant]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant9"
+                ]
+            },
+            {
+                "name": "Culture.Merchant Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.Engineer",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.Engineer1",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [29] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.Engineer]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.Engineer2",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [59] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.Engineer]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.Engineer1"]
-        },
-        {
-            "name": "Culture.Engineer3",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [89] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.Engineer]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.Engineer2"]
-        },
-        {
-            "name": "Culture.Engineer4",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [119] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.Engineer]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.Engineer3"]
-        },
-        {
-            "name": "Culture.Engineer5",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [149] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.Engineer]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.Engineer4"]
-        },
-        {
-            "name": "Culture.Engineer6",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [179] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.Engineer]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.Engineer5"]
-        },
-        {
-            "name": "Culture.Engineer7",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [209] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.Engineer]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.Engineer6"]
-        },
-        {
-            "name": "Culture.Engineer8",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [239] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.Engineer]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.Engineer7"]
-        },
-        {
-            "name": "Culture.Engineer9",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [269] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.Engineer]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.Engineer8"]
-        },
-        {
-            "name": "Culture.Engineer10",
-            "uniques": [
-                "Free [Unit.Engineer] appears",
-                "Only available <when above [299] [Resource.Unit.Engineer]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.Engineer]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.Engineer9"]
-        },
-        {
-            "name": "Culture.Engineer Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.Engineer1",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [29] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Engineer]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Engineer2",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [59] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Engineer]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer1"
+                ]
+            },
+            {
+                "name": "Culture.Engineer3",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [89] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Engineer]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer2"
+                ]
+            },
+            {
+                "name": "Culture.Engineer4",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [119] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Engineer]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer3"
+                ]
+            },
+            {
+                "name": "Culture.Engineer5",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [149] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Engineer]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer4"
+                ]
+            },
+            {
+                "name": "Culture.Engineer6",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [179] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Engineer]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer5"
+                ]
+            },
+            {
+                "name": "Culture.Engineer7",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [209] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Engineer]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer6"
+                ]
+            },
+            {
+                "name": "Culture.Engineer8",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [239] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Engineer]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer7"
+                ]
+            },
+            {
+                "name": "Culture.Engineer9",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [269] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Engineer]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer8"
+                ]
+            },
+            {
+                "name": "Culture.Engineer10",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [299] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Engineer]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Engineer9"
+                ]
+            },
+            {
+                "name": "Culture.Engineer Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.Prophet",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.Prophet1",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [29] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.Prophet]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.Prophet2",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [59] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.Prophet]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.Prophet1"]
-        },
-        {
-            "name": "Culture.Prophet3",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [89] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.Prophet]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.Prophet2"]
-        },
-        {
-            "name": "Culture.Prophet4",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [119] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.Prophet]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.Prophet3"]
-        },
-        {
-            "name": "Culture.Prophet5",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [149] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.Prophet]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.Prophet4"]
-        },
-        {
-            "name": "Culture.Prophet6",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [179] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.Prophet]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.Prophet5"]
-        },
-        {
-            "name": "Culture.Prophet7",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [209] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.Prophet]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.Prophet6"]
-        },
-        {
-            "name": "Culture.Prophet8",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [239] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.Prophet]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.Prophet7"]
-        },
-        {
-            "name": "Culture.Prophet9",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [269] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.Prophet]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.Prophet8"]
-        },
-        {
-            "name": "Culture.Prophet10",
-            "uniques": [
-                "Free [Unit.Prophet] appears",
-                "Only available <when above [299] [Resource.Unit.Prophet]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.Prophet]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.Prophet9"]
-        },
-        {
-            "name": "Culture.Prophet Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.Prophet1",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [29] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Prophet]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Prophet2",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [59] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Prophet]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet1"
+                ]
+            },
+            {
+                "name": "Culture.Prophet3",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [89] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Prophet]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet2"
+                ]
+            },
+            {
+                "name": "Culture.Prophet4",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [119] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Prophet]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet3"
+                ]
+            },
+            {
+                "name": "Culture.Prophet5",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [149] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Prophet]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet4"
+                ]
+            },
+            {
+                "name": "Culture.Prophet6",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [179] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Prophet]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet5"
+                ]
+            },
+            {
+                "name": "Culture.Prophet7",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [209] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Prophet]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet6"
+                ]
+            },
+            {
+                "name": "Culture.Prophet8",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [239] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Prophet]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet7"
+                ]
+            },
+            {
+                "name": "Culture.Prophet9",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [269] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Prophet]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet8"
+                ]
+            },
+            {
+                "name": "Culture.Prophet10",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [299] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Prophet]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Prophet9"
+                ]
+            },
+            {
+                "name": "Culture.Prophet Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.Artist",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.Artist1",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [29] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.Artist]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.Artist2",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [59] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.Artist]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.Artist1"]
-        },
-        {
-            "name": "Culture.Artist3",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [89] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.Artist]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.Artist2"]
-        },
-        {
-            "name": "Culture.Artist4",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [119] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.Artist]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.Artist3"]
-        },
-        {
-            "name": "Culture.Artist5",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [149] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.Artist]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.Artist4"]
-        },
-        {
-            "name": "Culture.Artist6",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [179] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.Artist]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.Artist5"]
-        },
-        {
-            "name": "Culture.Artist7",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [209] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.Artist]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.Artist6"]
-        },
-        {
-            "name": "Culture.Artist8",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [239] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.Artist]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.Artist7"]
-        },
-        {
-            "name": "Culture.Artist9",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [269] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.Artist]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.Artist8"]
-        },
-        {
-            "name": "Culture.Artist10",
-            "uniques": [
-                "Free [Unit.Artist] appears",
-                "Only available <when above [299] [Resource.Unit.Artist]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.Artist]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.Artist9"]
-        },
-        {
-            "name": "Culture.Artist Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.Artist1",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [29] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Artist]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Artist2",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [59] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Artist]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist1"
+                ]
+            },
+            {
+                "name": "Culture.Artist3",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [89] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Artist]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist2"
+                ]
+            },
+            {
+                "name": "Culture.Artist4",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [119] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Artist]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist3"
+                ]
+            },
+            {
+                "name": "Culture.Artist5",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [149] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Artist]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist4"
+                ]
+            },
+            {
+                "name": "Culture.Artist6",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [179] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Artist]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist5"
+                ]
+            },
+            {
+                "name": "Culture.Artist7",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [209] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Artist]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist6"
+                ]
+            },
+            {
+                "name": "Culture.Artist8",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [239] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Artist]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist7"
+                ]
+            },
+            {
+                "name": "Culture.Artist9",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [269] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Artist]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist8"
+                ]
+            },
+            {
+                "name": "Culture.Artist10",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [299] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Artist]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Artist9"
+                ]
+            },
+            {
+                "name": "Culture.Artist Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.General",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.General1",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [29] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.General2",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [59] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.General1"]
-        },
-        {
-            "name": "Culture.General3",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [89] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.General2"]
-        },
-        {
-            "name": "Culture.General4",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [119] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.General3"]
-        },
-        {
-            "name": "Culture.General5",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [149] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.General4"]
-        },
-        {
-            "name": "Culture.General6",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [179] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.General5"]
-        },
-        {
-            "name": "Culture.General7",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [209] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.General6"]
-        },
-        {
-            "name": "Culture.General8",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [239] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.General7"]
-        },
-        {
-            "name": "Culture.General9",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [269] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.General]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.General8"]
-        },
-        {
-            "name": "Culture.General10",
-            "uniques": [
-                "Free [Unit.General] appears",
-                "Only available <when above [299] [Resource.Unit.General]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.General]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.General9"]
-        },
-        {
-            "name": "Culture.General Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.General1",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [29] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.General2",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [59] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.General1"
+                ]
+            },
+            {
+                "name": "Culture.General3",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [89] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.General2"
+                ]
+            },
+            {
+                "name": "Culture.General4",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [119] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.General3"
+                ]
+            },
+            {
+                "name": "Culture.General5",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [149] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.General4"
+                ]
+            },
+            {
+                "name": "Culture.General6",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [179] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.General5"
+                ]
+            },
+            {
+                "name": "Culture.General7",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [209] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.General6"
+                ]
+            },
+            {
+                "name": "Culture.General8",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [239] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.General7"
+                ]
+            },
+            {
+                "name": "Culture.General9",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [269] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.General8"
+                ]
+            },
+            {
+                "name": "Culture.General10",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [299] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.General]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.General9"
+                ]
+            },
+            {
+                "name": "Culture.General Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.Admiral",
         "era": "Era.Ancient",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.Admiral1",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [29] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [30] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General1]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 1,
-            "column":3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.Admiral2",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [59] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [60] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General2]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 2,
-            "column":3,
-            "requires":["Culture.Admiral1"]
-        },
-        {
-            "name": "Culture.Admiral3",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [89] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [90] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General3]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 3,
-            "column":3,
-            "requires":["Culture.Admiral2"]
-        },
-        {
-            "name": "Culture.Admiral4",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [119] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [120] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General4]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 4,
-            "column":3,
-            "requires":["Culture.Admiral3"]
-        },
-        {
-            "name": "Culture.Admiral5",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [149] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [150] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General5]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 5,
-            "column":3,
-            "requires":["Culture.Admiral4"]
-        },
-        {
-            "name": "Culture.Admiral6",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [179] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [180] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General6]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 6,
-            "column":3,
-            "requires":["Culture.Admiral5"]
-        },
-        {
-            "name": "Culture.Admiral7",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [209] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [210] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General7]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 7,
-            "column":3,
-            "requires":["Culture.Admiral6"]
-        },
-        {
-            "name": "Culture.Admiral8",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [239] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [240] [Resource.Unit.Admiral]",
-                "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General8]> <hidden from users>",
-                "Comment [提高大将军和海军统帅的指挥能力-提升1个时代]"
-            ],
-            "row": 8,
-            "column":3,
-            "requires":["Culture.Admiral7"]
-        },
-        {
-            "name": "Culture.Admiral9",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [269] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [270] [Resource.Unit.Admiral]"
-            ],
-            "row": 9,
-            "column":3,
-            "requires":["Culture.Admiral8"]
-        },
-        {
-            "name": "Culture.Admiral10",
-            "uniques": [
-                "Free [Unit.Admiral] appears",
-                "Only available <when above [299] [Resource.Unit.Admiral]> <hidden from users>",
-                "Instantly consumes [300] [Resource.Unit.Admiral]"
-            ],
-            "row": 10,
-            "column":3,
-            "requires":["Culture.Admiral9"]
-        },
-        {
-            "name": "Culture.Admiral Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.Admiral1",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [29] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General1]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Admiral2",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [59] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General2]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral1"
+                ]
+            },
+            {
+                "name": "Culture.Admiral3",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [89] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General3]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral2"
+                ]
+            },
+            {
+                "name": "Culture.Admiral4",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [119] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General4]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral3"
+                ]
+            },
+            {
+                "name": "Culture.Admiral5",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [149] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General5]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral4"
+                ]
+            },
+            {
+                "name": "Culture.Admiral6",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [179] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General6]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral5"
+                ]
+            },
+            {
+                "name": "Culture.Admiral7",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [209] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General7]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral6"
+                ]
+            },
+            {
+                "name": "Culture.Admiral8",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [239] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General8]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral7"
+                ]
+            },
+            {
+                "name": "Culture.Admiral9",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [269] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Admiral]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral8"
+                ]
+            },
+            {
+                "name": "Culture.Admiral10",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [299] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Admiral]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Admiral9"
+                ]
+            },
+            {
+                "name": "Culture.Admiral Complete",
+                "uniques": []
+            }
+        ]
     },
     {
         "name": "Culture.CulturalVictorySprint",
         "era": "Era.Near-future",
-        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
         "uniques": [],
-        "policies": 
-        [{
-            "name": "Culture.CultureVictoryRush2",
-            "uniques": [],
-            "row": 1,
-            "column": 3,
-            "requires":[]
-        },
-        {
-            "name": "Culture.CultureVictoryRush3",
-            "uniques": [],
-            "row": 2,
-            "column": 3,
-            "requires":["Culture.CultureVictoryRush2"]
-        },
-        {
-            "name": "Culture.CultureVictoryRush4",
-            "uniques": [],
-            "row": 3,
-            "column": 3,
-            "requires":["Culture.CultureVictoryRush3"]
-        },
-        {
-            "name": "Culture.CultureVictoryRush5",
-            "uniques": [],
-            "row": 4,
-            "column": 3,
-            "requires":["Culture.CultureVictoryRush4"]
-        },
-        {
-            "name": "Culture.CultureVictoryRush6",
-            "uniques": [],
-            "row": 5,
-            "column": 3,
-            "requires":["Culture.CultureVictoryRush5"]
-        },
-        {
-            "name": "Culture.CulturalVictorySprint Complete",
-            "uniques": []
-        }]   
+        "policies": [
+            {
+                "name": "Culture.CultureVictoryRush2",
+                "uniques": [],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.CultureVictoryRush3",
+                "uniques": [],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush2"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush4",
+                "uniques": [],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush3"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush5",
+                "uniques": [],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush4"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush6",
+                "uniques": [],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush5"
+                ]
+            },
+            {
+                "name": "Culture.CulturalVictorySprint Complete",
+                "uniques": []
+            }
+        ]
     }
     // {
     //     "name": "PolicyCard",

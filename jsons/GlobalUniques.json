@@ -1,19 +1,24 @@
 {
     "name": "Global uniques",
     "uniques": [
-
         /*文明能力*/
-        "[-13]% Strength <for [{Military} {Wounded}] units> <vs [Nation.France] units>",//法兰西文明能力
-
-
+        "[-13]% Strength <for [{Military} {Wounded}] units> <vs [Nation.France] units>", //法兰西文明能力
         /*文明羁绊*/
-		"[+1]% Strength <for [Military] units> <vs [Nation.Gaul] units> <for [Nation.Rome] Civilizations>",
-		"[+1]% Strength <for [Military] units> <vs [Nation.Babylon] units> <for [Nation.Persia] Civilizations>",
-		"[+1]% Strength <for [Military] units> <vs [Nation.Persia] units> <for [Nation.Scythia] Civilizations>",
-		"[+1]% Strength <for [Military] units> <vs [Nation.Qin] units> <for [Nation.Han] Civilizations>",
-		"[+1]% Strength <for [Military] units> <vs [Nation.Yuan] units> <for [Nation.Ming] Civilizations>",
-
-
+        "[+1]% Strength <for [Military] units> <vs [Nation.Gaul] units> <for [Nation.Rome] Civilizations>",
+        "[+1]% Strength <for [Military] units> <vs [Nation.Babylon] units> <for [Nation.Persia] Civilizations>",
+        "[+1]% Strength <for [Military] units> <vs [Nation.Persia] units> <for [Nation.Scythia] Civilizations>",
+        "[+1]% Strength <for [Military] units> <vs [Nation.Qin] units> <for [Nation.Han] Civilizations>",
+        "[+1]% Strength <for [Military] units> <vs [Nation.Yuan] units> <for [Nation.Ming] Civilizations>",
+        /*单位维护费，目前至多支持3点减免，需要等待Countables参数支持复合运算后才能取消注释投入使用*/
+        /*
+        https://github.com/yairm210/Unciv/pull/13200
+        https://github.com/yairm210/Unciv/issues/13214
+        "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [0]> <for every [Resource.UnitMaintenance]>",
+        "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [1]> <for every [[Resource.UnitMaintenance] - [[Class.Unit.Maintenance1] Units]]>",
+        "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [2]> <for every [[Resource.UnitMaintenance] - [[Class.Unit.Maintenance1] Units] - [[Class.Unit.Maintenance2] Units]]>",
+        "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [3]> <for every [[Resource.UnitMaintenance] - [[Class.Unit.Maintenance1] Units] - [[Class.Unit.Maintenance2] Units] - [[Class.Unit.Maintenance3] Units]]>",
+        "[-7 Gold] <if [Mil.ercigongjinengli] is constructed> <for every [Class.Unit.Maintenance15]>",
+        */
         /*政策树不花费文化且自动推行第一级*/
         "[-100]% Culture cost of adopting new Policies",
         "Adopt [Culture.Scientist]",
@@ -23,16 +28,20 @@
         "Adopt [Culture.Artist]",
         "Adopt [Culture.General]",
         "Adopt [Culture.Admiral]",
-
-
+        /*应用范围不对的信条*/
+        "Provides [2] [Resource.Horse] <after adopting [Pantheon.GodOfTheForge]>", //锻造之神
+        "Provides [2] [Resource.Iron] <after adopting [Pantheon.GodOfTheForge]>", //锻造之神
+        "Gain a free [Building.Granary] [in capital] <upon adopting [Pantheon.HarvestFestival]>", //万神殿丰产仪式
+        "Provides a [Building.Monument] in your first [2] cities for free <upon adopting [Pantheon.MonumentToTheMainGod]>", //万神殿主神纪念碑
+        "Free [Unit.Settler] appears <upon discovering [Civic.PoliticalPhilosophy] technology>  <after adopting [Pantheon.ReligiousMigrant]>", //神圣之光
+        "[+34]% Strength <after adopting [FollowerBelief.Crusade]> <when fighting in [Enemy Land] tiles> <in cities following our religion>", //十字军
+        "[+13]% Strength <after adopting [FollowerBelief.DefenderOfFaith]> <when fighting in [Friendly Land] tiles> <in cities following our religion>", //信仰守护者
         /*AI修正*/
         "Provides [65535] [Resource.MilitaryPolicySlot] <for [AI player] Civilizations>",
         "Provides [65535] [Resource.EconomicPolicySlot] <for [AI player] Civilizations>",
         "Provides [65535] [Resource.DiplomaticPolicySlot] <for [AI player] Civilizations>",
         "Provides [65535] [Resource.GenericPolicySlot] <for [AI player] Civilizations>",
-
         "Free [Unit.Settler] appears <for [{AI player} {Major}] Civilizations> <with [20]% chance> <upon turn end>",
-
         "Provides [10] [Resource.Horse] <for [AI player] Civilizations>",
         "Provides [10] [Resource.Iron] <for [AI player] Civilizations>",
         "Provides [10] [Resource.Niter] <for [AI player] Civilizations>",
@@ -40,7 +49,6 @@
         "Provides [10] [Resource.Oil] <for [AI player] Civilizations>",
         "Provides [10] [Resource.Aluminum] <for [AI player] Civilizations>",
         "Provides [10] [Resource.Uranium] <for [AI player] Civilizations>",
-
         "Discover [Civic.Code] <upon entering the [Era.Classical]> <for [AI player] Civilizations>",
         "Discover [Civic.Skill] <upon entering the [Era.Classical]> <for [AI player] Civilizations>",
         "Discover [Civic.BasicTrade] <upon entering the [Era.Classical]> <for [AI player] Civilizations>",
@@ -101,14 +109,11 @@
         "Discover [Civic.InformationWarfare] <upon entering the [Era.Near-future]> <for [AI player] Civilizations>",
         "Discover [Civic.NecessityExpedition] <upon entering the [Era.Near-future]> <for [AI player] Civilizations>",
         "Discover [Civic.CulturalHegemony] <upon entering the [Era.Near-future]> <for [AI player] Civilizations>",
-
-        
         /*宜居度*/
-        "[-100]% unhappiness from the number of cities",//城市不扣快乐
-        "[-100]% Unhappiness from [Population] [in all cities]",//人口不扣快乐
-        "[-1 Happiness] for every known Natural Wonder",//发现奇观不加快乐
-        "[-4] Happiness from each type of luxury resource",//奢侈品不扣快乐
-
+        "[-100]% unhappiness from the number of cities", //城市不扣快乐
+        "[-100]% Unhappiness from [Population] [in all cities]", //人口不扣快乐
+        "[-1 Happiness] for every known Natural Wonder", //发现奇观不加快乐
+        "[-4] Happiness from each type of luxury resource", //奢侈品不扣快乐
         "[+10]% [Production] [in all cities] <when above [2] [Resource.Livability]>",
         "[+10]% [Science] [in all cities] <when above [2] [Resource.Livability]>",
         "[+10]% [Culture] [in all cities] <when above [2] [Resource.Livability]>",
@@ -119,12 +124,10 @@
         "[+15]% [Culture] [in all cities] <when above [4] [Resource.Livability]>",
         "[+15]% [Gold] [in all cities] <when above [4] [Resource.Livability]>",
         "[+15]% [Faith] [in all cities] <when above [4] [Resource.Livability]>",
-
         "[-15]% growth [in all cities] <when below [0] [Resource.Livability]>",
         "[-15]% growth [in all cities] <when below [-1] [Resource.Livability]>",
         "[-15]% growth [in all cities] <when below [-2] [Resource.Livability]>",
         "Nullifies Growth [in all cities] <when below [-2] [Resource.Livability]>",
-
         "[-10]% [Production] [in all cities] <when below [0] [Resource.Livability]>",
         "[-10]% [Science] [in all cities] <when below [0] [Resource.Livability]>",
         "[-10]% [Culture] [in all cities] <when below [0] [Resource.Livability]>",
@@ -135,12 +138,9 @@
         "[-15]% [Culture] [in all cities] <when below [-2] [Resource.Livability]>",
         "[-15]% [Gold] [in all cities] <when below [-2] [Resource.Livability]>",
         "[-15]% [Faith] [in all cities] <when below [-2] [Resource.Livability]>",
-
         "Rebel units may spawn <when below [-4] [Resource.Livability]>",
-
-
         /*人头瓶和人头琴*/
-		"[-1 Science] per [2] population [in all cities]",
+        "[-1 Science] per [2] population [in all cities]",
         "[+1 Culture] [in all cities] <in cities with at least [1] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [6] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [11] [Population]>",
@@ -148,8 +148,6 @@
         "[+1 Culture] [in all cities] <in cities with at least [21] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [26] [Population]>",
         "[+1 Culture] [in all cities] <in cities with at least [31] [Population]>",
-
-        
         /*区域覆盖资源产出*/
         "[-1 Food] from [Resource.Cattle] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
         "[-1 Food] from [Resource.Sheep] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
@@ -192,21 +190,17 @@
         "[-1 Food, -1 Gold] from [Resource.Salt] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
         "[-3 Gold] from [Resource.Truffles] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
         "[-1 Production, -1 Gold] from [Resource.Rubber] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
-
-
-        
         /*不便归类*/
-		"[-100]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]>",//取消初始城市攻击
-		"[+60]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]> <in cities with a [Building.Palace]>",//首都拥有减弱的城市攻击
-        "[-100]% maintenance costs",//单位维护费修正
-        "[-1 Gold] from every [River]",//删除河流给钱
-		"[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>",//丘陵树防御叠加
-        "May buy [Class.Governor] buildings for [0] [Gold] [in all cities]",//总督建筑0元购
-        "May buy [Building.EconomicVictory] buildings for [50000] [Gold] [in capital]",//经济胜利配套
-        "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>",//沿大河城市加速发展
-        "[-100]% [Gold] from Trade Routes",//取消贸易路线产出，改为贸易站
-
-
+        "[-100]% to Flank Attack bonuses <before discovering [Civic.MilitaryTradition]>", //取消早期夹击加成
+        "[-100]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]>", //取消初始城市攻击
+        "[+60]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]> <in cities with a [Building.Palace]>", //首都拥有减弱的城市攻击
+        "[-100]% maintenance costs", //单位维护费修正
+        "[-1 Gold] from every [River]", //删除河流给钱
+        "[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>", //丘陵树防御叠加
+        "May buy [Class.Governor] buildings for [0] [Gold] [in all cities]", //总督建筑0元购
+        "May buy [Building.EconomicVictory] buildings for [50000] [Gold] [in capital]", //经济胜利配套
+        "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>", //沿大河城市加速发展
+        "[-100]% [Gold] from Trade Routes", //取消贸易路线产出，改为贸易站
         /*政策槽位不宜为负数*/
         "Nullifies [Science] [in all cities] <when below [0] [Resource.MilitaryPolicySlot]>",
         "Nullifies [Culture] [in all cities] <when below [0] [Resource.MilitaryPolicySlot]>",
@@ -216,81 +210,15 @@
         "Nullifies [Culture] [in all cities] <when below [0] [Resource.DiplomaticPolicySlot]>",
         "Nullifies [Science] [in all cities] <when below [0] [Resource.GenericPolicySlot]>",
         "Nullifies [Culture] [in all cities] <when below [0] [Resource.GenericPolicySlot]>",
-
-
         /*伟人点数系统*/
         "May buy [UnitType.GreatPersonProject] units with [Gold] for [4] times their normal Production cost",
         "May buy [UnitType.GreatPersonProject] units with [Faith] for [2] times their normal Production cost",
-
         "May buy [Unit.Scientist] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Scientist Complete]> <when above [299] [Resource.Unit.Scientist]>",
         "May buy [Unit.Merchant] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Merchant Complete]> <when above [299] [Resource.Unit.Merchant]>",
         "May buy [Unit.Artist] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Artist Complete]> <when above [299] [Resource.Unit.Artist]>",
         "May buy [Unit.Engineer] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Engineer Complete]> <when above [299] [Resource.Unit.Engineer]>",
         "May buy [Unit.Prophet] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Prophet Complete]> <when above [299] [Resource.Unit.Prophet]>",
         "May buy [Unit.General] buildings for [0] [Gold] [in all cities] <after adopting [Culture.General Complete]> <when above [299] [Resource.Unit.General]>",
-        "May buy [Unit.Admiral] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [299] [Resource.Unit.Admiral]>",
-        
-        /*Global uniques for Types*/
-        // "Class.ResourceOnWater",
-        // "Class.BasicStrategicResource",
-        // "Class.UsualImprovement",
-        // "Class.Industrials",
-        // "Class.District",
-        // "Class.GovernmentPlaza",
-        // "Class.HolySite",
-        // "Class.Campus",
-        // "Class.TheaterSquare",
-        // "Class.CommercialHub",
-        // "Class.IndustrialZone",
-        // "Class.EntertainmentComplex",
-        // "Class.WaterPark",
-        // "Class.Harbor",
-        // "Class.Army",
-        // "Class.Raceline",
-        // "Class.ProtectionZone",
-        // "Class.Building.LevelGovernment",
-        // "Class.Building.Level1Government",
-        // "Class.Building.Level2Government",
-        // "Class.Building.Level3Government",
-        // "Class.Building.Level4Government",
-        // "Class.Building.Level5Government",
-        // "Class.Camorrist",
-        // "Class.Governor.Level1",
-        // "Class.Governor",
-        // "Class.Building.DistrictUnique",
-        // "Class.DistrictBuilding.GovernmentPlaza",
-        // "Class.DistrictBuilding.ForeignQuarter",
-        // "Class.DistrictBuilding.HolySite",
-        // "Class.Building.AdvancedReligious",
-        // "Class.DistrictBuilding.Campus",
-        // "Class.DistrictBuilding.CommercialHub",
-        // "Class.DistrictBuilding.TheaterSquare",
-        // "Class.DistrictBuilding.EntertainmentComplex",
-        // "Class.DistrictBuilding.WaterPark",
-        // "Class.DistrictBuilding.IndustrialZone",
-        // "Class.Building.PowerPlant",
-        // "Class.DistrictBuilding.MilitaryEncampment",
-        // "Class.DistrictBuilding.Port",
-        // "Class.DistrictBuilding.Spaceport",
-        // "Class.DistrictBuilding.Raceline",
-        // "Class.DistrictBuilding.ProtectionZone",
-        // "Class.WonderDistrict",
-        // "Class.WonderEra.Ancient",
-        // "Class.WonderEra.Classical",
-        // "Class.WonderEra.Medieval",
-        // "Class.WonderEra.Renaissance",
-        // "Class.WonderEra.Industrial",
-        // "Class.WonderEra.Modern",
-        // "Class.WonderEra.Atomic",
-        // "Class.Policy.Military",
-        // "Class.Policy.Economy",
-        // "Class.Policy.Diplomacy",
-        // "Class.Policy.General",
-        // "Class.Policy.Golden",
-        // "Class.Policy.Dark",
-        // "Class.GreatPerson",
-        // "Class.Unit.Builder",
-        // "Class.Unit.Aircraft",
-        // "Class.Unit.SpaceRace"
+        "May buy [Unit.Admiral] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [299] [Resource.Unit.Admiral]>"
     ]
 }

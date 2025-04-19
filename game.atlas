@@ -1500,7 +1500,7 @@ BuildingIcons/Building.CityNumberCount
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Resource.houseLimitation
+ResourceIcons/Resource.halfHouse
   rotate: false
   xy: 1500, 1228
   size: 128, 128
@@ -3081,6 +3081,706 @@ BuildingIcons/Building.Zoo
   orig: 128, 128
   offset: 0, 0
   index: -1
+BuildingIcons/Dip.Hide
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.Reveal
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.ezhi
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.guojiyuhangju
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.hejiandie
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.jitixingdongzhuyi
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.lianluochu
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.maoyiyinhang
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.meilixinglingxiu
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.mimaxue
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.paojianwaijiao
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.quanshuzhuyi
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.shangrenlianmeng
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.silingbu
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.waijiaolianmeng
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.yinyueshenchazhidu
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dip.zhimindishuishou
+  rotate: false
+  xy: 412, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.DysfunctionalUrbanization
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.Hide
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.Reveal
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.chengshiguihua
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.chengzhentexuzhuang
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.dageju
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.dianzishangwu
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.fuyi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.geteshijianzhu
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.gonggonggongcheng
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.gonggongjiaotong
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.gongxiangjiaotang
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.gulaochengqu
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.haijunjichusheshi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.jihuajingji
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.jingjitongmeng
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.jingwen
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.jitihua
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.junzhuchongbai
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.lixingzhuyi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.loufang
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.maoyilianmeng
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.meixue
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.minjianweiwang
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.motiandalou
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.nongnuzhi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.qiangpolaoyi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.qushexingjian
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.sanjiaomaoyi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.shangduilvguan
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.shichangjingji
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.tiyuchuanmei
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.tudiceliangyuan
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.weixingguangbo
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.wunianjihua
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.xianji
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.xinzheng
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.yichanlvyou
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.zaixianshequ
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.zhengshou
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.zhimin
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.zhimindibanshichu
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.ziranzhexue
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.ziyoushichang
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.ziyouzhuyi
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Eco.zongjiaojiaopai
+  rotate: false
+  xy: 548, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.AgriculturalAdjustmentAct
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.FrenchCivilCode
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.Hide
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.NationalLaborRelationsAct
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.Reveal
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.SocialSecurityAct
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.baoweizuguo
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.bihua
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.buganshezhuyi
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.faming
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.faxisichuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.feiguojiaxingweizhe
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.gongchanchuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.gonghechuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.guangrongshike
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.guatouchuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.hanghai
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.hangtianchengbaoshang
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.hanliu
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.jiangjun
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.jiaoxiangqu
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.junshiguanzhi
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.junshizuzhi
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.junzhuchuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.kexuejijinhui
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.lvxingshangren
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.minzhuchuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.qishi
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.quanqiulianhe
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.shandongrenxin
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.shenquanchuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.taikonglvyou
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.waijiaoziben
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.wenxuechuantong
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.zhongshangchuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.zhuanzhichuancheng
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gene.zonghegongjihouqinbaozhang
+  rotate: false
+  xy: 684, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 BuildingIcons/Gov.Autocracy
   rotate: false
   xy: 820, 1912
@@ -3667,6 +4367,293 @@ ResourceIcons/Resource.GovernorTitle
   xy: 1660, 500
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.Hide
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.Reveal
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.bentuzhengfu
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.bianfangjun
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.bianjie
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.dajuntuan
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.diaocha
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.disanxuanze
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.ercigongjinengli
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.fengjianqiyue
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.gonghai
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.gongjiang
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.guojiarentong
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.haiyunye
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.houqin
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.jilv
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.jingyan
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.junduixiandaihua
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.junshiyanjiu
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.lengbao
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.qiangzhengruwu
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.qishijieji
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.qishijingshen
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.quanmianzhanzheng
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.quanmindongyuan
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.saodang
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.shandianzhan
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.shicong
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.sibadajiaoyu
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.tieshensuicong
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.xianjunzhengce
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.xingdongzongjiebaogao
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.xuanchuanjigou
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.xunlianshouce
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.yanxi
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.yitihuakongjianjigou
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.zhanlvekongjun
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.zhengbing
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.zhiyejundui
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.ziyuanguanli
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mil.zongjiaozhanzheng
+  rotate: false
+  xy: 140, 1504
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Cancel improvement order
@@ -4437,993 +5424,6 @@ PolicyIcons/Culture.Scientist9
   xy: 1228, 148
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.Hide
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.Reveal
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.ezhi
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.guojiyuhangju
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.hejiandie
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.jitixingdongzhuyi
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.lianluochu
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.maoyiyinhang
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.meilixinglingxiu
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.mimaxue
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.paojianwaijiao
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.quanshuzhuyi
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.shangrenlianmeng
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.silingbu
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.waijiaolianmeng
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.yinyueshenchazhidu
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Dip.zhimindishuishou
-  rotate: false
-  xy: 412, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.DysfunctionalUrbanization
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.Hide
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.Reveal
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.chengshiguihua
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.chengzhentexuzhuang
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.dageju
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.dianzishangwu
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.fuyi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.geteshijianzhu
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.gonggonggongcheng
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.gonggongjiaotong
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.gongxiangjiaotang
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.gulaochengqu
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.haijunjichusheshi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.jihuajingji
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.jingjitongmeng
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.jingwen
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.jitihua
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.junzhuchongbai
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.lixingzhuyi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.loufang
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.maoyilianmeng
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.meixue
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.minjianweiwang
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.motiandalou
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.nongnuzhi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.qiangpolaoyi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.qushexingjian
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.sanjiaomaoyi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.shangduilvguan
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.shichangjingji
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.tiyuchuanmei
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.tudiceliangyuan
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.weixingguangbo
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.wunianjihua
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.xianji
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.xinzheng
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.yichanlvyou
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.zaixianshequ
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.zhengshou
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.zhimin
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.zhimindibanshichu
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.ziranzhexue
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.ziyoushichang
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.ziyouzhuyi
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Eco.zongjiaojiaopai
-  rotate: false
-  xy: 548, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.AgriculturalAdjustmentAct
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.FrenchCivilCode
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.Hide
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.NationalLaborRelationsAct
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.Reveal
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.SocialSecurityAct
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.baoweizuguo
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.bihua
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.buganshezhuyi
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.faming
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.faxisichuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.feiguojiaxingweizhe
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.gongchanchuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.gonghechuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.guangrongshike
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.guatouchuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.hanghai
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.hangtianchengbaoshang
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.hanliu
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.jiangjun
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.jiaoxiangqu
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.junshiguanzhi
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.junshizuzhi
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.junzhuchuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.kexuejijinhui
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.lvxingshangren
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.minzhuchuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.qishi
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.quanqiulianhe
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.shandongrenxin
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.shenquanchuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.taikonglvyou
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.waijiaoziben
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.wenxuechuantong
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.zhongshangchuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.zhuanzhichuancheng
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Gene.zonghegongjihouqinbaozhang
-  rotate: false
-  xy: 684, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.Hide
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.Reveal
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.bentuzhengfu
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.bianfangjun
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.bianjie
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.dajuntuan
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.diaocha
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.disanxuanze
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.ercigongjinengli
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.fengjianqiyue
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.gonghai
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.gongjiang
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.guojiarentong
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.haiyunye
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.houqin
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.jilv
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.jingyan
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.junduixiandaihua
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.junshiyanjiu
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.lengbao
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.qiangzhengruwu
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.qishijieji
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.qishijingshen
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.quanmianzhanzheng
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.quanmindongyuan
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.saodang
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.shandianzhan
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.shicong
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.sibadajiaoyu
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.tieshensuicong
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.xianjunzhengce
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.xingdongzongjiebaogao
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.xuanchuanjigou
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.xunlianshouce
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.yanxi
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.yitihuakongjianjigou
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.zhanlvekongjun
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.zhengbing
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.zhiyejundui
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.ziyuanguanli
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mil.zongjiaozhanzheng
-  rotate: false
-  xy: 140, 1504
-  size: 128, 128
-  orig: 128, 128
   offset: 0, 0
   index: -1
 Portraits/Background2
