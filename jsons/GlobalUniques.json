@@ -1,6 +1,8 @@
 {
     "name": "Global uniques",
     "uniques": [
+        /*触发版本提示*/
+        "Triggers a [VersionNotice] event <before turn number [1]> <upon turn end>",
         /*文明能力*/
         "[-13]% Strength <for [{Military} {Wounded}] units> <vs [Nation.France] units>", //法兰西文明能力
         /*文明羁绊*/

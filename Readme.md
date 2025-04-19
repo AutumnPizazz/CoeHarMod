@@ -154,8 +154,8 @@ CoeHarMod包含七类伟人：
 #### 11. 远古遗迹奖励
 | 奖励类型        | 权重 | 出现条件       |
 | --------------- | ---- | -------------- |
-| 20琴酒/20瓶装水 | 5    | 前30回合       |
-| 30琴酒/30瓶装水 | 5    | 30回合后       |
+| 20琴/20瓶 | 5    | 前30回合       |
+| 30琴/30瓶 | 5    | 30回合后       |
 | 50~100金币      | 8    | 无限制         |
 | 20~60信仰       | 4    | 15回合后       |
 | 免费商人        | 3    | 研究基础贸易后 |
@@ -317,8 +317,8 @@ Seven types of Great People:
 #### 11. Ancient Ruins Rewards
 | Reward Type      | Weight | Spawn Condition                  |
 | ---------------- | ------ | -------------------------------- |
-| 20 Wine/20 Water | 5      | Before Turn 30                   |
-| 30 Wine/30 Water | 5      | After Turn 30                    |
+| 20 Culture/20 Science | 5      | Before Turn 30                   |
+| 30 Culture/30 Science | 5      | After Turn 30                    |
 | 50–100 Gold      | 8      | Always                           |
 | 20–60 Faith      | 4      | After Turn 15                    |
 | Free Trader      | 3      | After researching Trade          |
