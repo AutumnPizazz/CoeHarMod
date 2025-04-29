@@ -529,6 +529,19 @@
 			"[+1 Science] <after turn number [50]> <in tiles without [Class.District]>"
 		]
 	},
+	{
+        "name": "River",
+        "type": "TerrainFeature",
+        "movementCost": 0,
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
+        "civilopediaText": [
+            {"text": "Rivers exist on tile edges, not as terrain feature per se."},
+            {"text": "Tiles on both sides gain its benefits. These benefits do not stack."},
+            {"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes)."},
+            {"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
+            {"text": "When attacking across a river, the attacker gets a -20% strength malus."}
+        ]
+    },
 	//自然奇观
 	{ //大堡礁
 		"name": "Naturalwonder.GreatBarrierReef",

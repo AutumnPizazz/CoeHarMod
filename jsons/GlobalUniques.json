@@ -197,7 +197,6 @@
         "[-100]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]>", //取消初始城市攻击
         "[+60]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]> <in cities with a [Building.Palace]>", //首都拥有减弱的城市攻击
         "[-100]% maintenance costs", //单位维护费修正
-        "[-1 Gold] from every [River]", //删除河流给钱
         "[+13]% Strength <for [Military] units> <in [Vegetation] tiles> <when defending>", //丘陵树防御叠加
         "May buy [Class.Governor] buildings for [0] [Gold] [in all cities]", //总督建筑0元购
         "May buy [Building.EconomicVictory] buildings for [50000] [Gold] [in capital]", //经济胜利配套
