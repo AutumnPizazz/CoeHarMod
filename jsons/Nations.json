@@ -1572,7 +1572,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Corsican Monster",
 		"uniques": [
-			"Comment [[-13]% Strength] <for [[Wounded] [enemy]] units> <vs [Your] units>",
+			"Comment [[-13]% Strength] <for [Wounded] units>",
 			"Heals [15] damage if it kills a unit <for [Military] units>",
 			"Earn [50]% of the damage done to [City] units as [Gold]"
 		],

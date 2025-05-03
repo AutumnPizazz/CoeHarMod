@@ -11,16 +11,15 @@
         "[+1]% Strength <for [Military] units> <vs [Nation.Persia] units> <for [Nation.Scythia] Civilizations>",
         "[+1]% Strength <for [Military] units> <vs [Nation.Qin] units> <for [Nation.Han] Civilizations>",
         "[+1]% Strength <for [Military] units> <vs [Nation.Yuan] units> <for [Nation.Ming] Civilizations>",
-        /*单位维护费，目前至多支持3点减免，需要等待Countables参数支持复合运算后才能取消注释投入使用*/
-        /*
-        https://github.com/yairm210/Unciv/pull/13200
-        https://github.com/yairm210/Unciv/issues/13214
+        /*单位维护费，目前至多支持3点减免*/
+        // https://github.com/yairm210/Unciv/pull/13200
+        // https://github.com/yairm210/Unciv/issues/13214
         "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [0]> <for every [Resource.UnitMaintenance]>",
         "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [1]> <for every [[Resource.UnitMaintenance] - [[Class.Unit.Maintenance1] Units]]>",
         "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [2]> <for every [[Resource.UnitMaintenance] - [[Class.Unit.Maintenance1] Units] - [[Class.Unit.Maintenance2] Units]]>",
         "[-1 Gold] <when number of [Resource.AuxiliaryCounter5] is equal to [3]> <for every [[Resource.UnitMaintenance] - [[Class.Unit.Maintenance1] Units] - [[Class.Unit.Maintenance2] Units] - [[Class.Unit.Maintenance3] Units]]>",
-        "[-7 Gold] <if [Mil.ercigongjinengli] is constructed> <for every [Class.Unit.Maintenance15]>",
-        */
+        "[-7 Gold] <if [Mil.ercigongjinengli] is constructed> <for every [[Class.Unit.Maintenance15] Units]>",
+        
         /*政策树不花费文化且自动推行第一级*/
         "[-100]% Culture cost of adopting new Policies",
         "Adopt [Culture.Scientist]",
@@ -214,12 +213,12 @@
         /*伟人点数系统*/
         "May buy [UnitType.GreatPersonProject] units with [Gold] for [4] times their normal Production cost",
         "May buy [UnitType.GreatPersonProject] units with [Faith] for [2] times their normal Production cost",
-        "May buy [Unit.Scientist] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Scientist Complete]> <when above [299] [Resource.Unit.Scientist]>",
-        "May buy [Unit.Merchant] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Merchant Complete]> <when above [299] [Resource.Unit.Merchant]>",
-        "May buy [Unit.Artist] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Artist Complete]> <when above [299] [Resource.Unit.Artist]>",
-        "May buy [Unit.Engineer] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Engineer Complete]> <when above [299] [Resource.Unit.Engineer]>",
-        "May buy [Unit.Prophet] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Prophet Complete]> <when above [299] [Resource.Unit.Prophet]>",
-        "May buy [Unit.General] buildings for [0] [Gold] [in all cities] <after adopting [Culture.General Complete]> <when above [299] [Resource.Unit.General]>",
-        "May buy [Unit.Admiral] buildings for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [299] [Resource.Unit.Admiral]>"
+        "May buy [Unit.Scientist] units for [0] [Gold] [in all cities] <after adopting [Culture.Scientist Complete]> <when above [299] [Resource.Unit.Scientist]>",
+        "May buy [Unit.Merchant] units for [0] [Gold] [in all cities] <after adopting [Culture.Merchant Complete]> <when above [299] [Resource.Unit.Merchant]>",
+        "May buy [Unit.Artist] units for [0] [Gold] [in all cities] <after adopting [Culture.Artist Complete]> <when above [299] [Resource.Unit.Artist]>",
+        "May buy [Unit.Engineer] units for [0] [Gold] [in all cities] <after adopting [Culture.Engineer Complete]> <when above [299] [Resource.Unit.Engineer]>",
+        "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <after adopting [Culture.Prophet Complete]> <when above [299] [Resource.Unit.Prophet]>",
+        "May buy [Unit.General] units for [0] [Gold] [in all cities] <after adopting [Culture.General Complete]> <when above [299] [Resource.Unit.General]>",
+        "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <after adopting [Culture.Admiral Complete]> <when above [299] [Resource.Unit.Admiral]>"
     ]
 }

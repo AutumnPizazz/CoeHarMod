@@ -236,7 +236,7 @@
         "type": "Pantheon",
         "uniques": [
             "Comment [Free [Unit.Settler] appears <upon discovering [Civic.PoliticalPhilosophy] technology>]",
-            "Comment [[+1] Movement] <for [Settler] units>",
+            "Comment [[+1] Movement] <for [Unit.Settler] units>",
             "[-15]% Culture cost of natural border growth [in all cities]"
         ]
     },
@@ -458,7 +458,7 @@
         "type": "Follower",
         "uniques": [
             "[Faith] cost of purchasing [Unit.Missionary] units [-30]%",
-            "Comment [[+50]% Spread Religion Strength] <for [Missionary] units>"
+            "Comment [[+50]% Spread Religion Strength] <for [Unit.Missionary] units>"
         ]
     },
     { //十字军

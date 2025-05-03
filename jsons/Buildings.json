@@ -2377,7 +2377,7 @@
         "uniques": [
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
-            "May buy [Unit.Fishery] units for [300] [Gold] [in this city] at an increasing price ([75])",
+            // "May buy [Unit.Fishery] units for [300] [Gold] [in this city] at an increasing price ([75])",
             "[+1 Production] from [Improvement.Fishery] tiles [in this city]",
             "Only available <in cities with a [Governor.LiangI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -5768,7 +5768,7 @@
         "cost": 710,
         "isWonder": true,
         "uniques": [
-            "Comment [[+13]% Strength bonus for [Military] units within [1] tiles] <for [Missionary] units>",
+            "Comment [[+13]% Strength bonus for [Military] units within [1] tiles] <for [Unit.Missionary] units>",
             "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.MaebadAlkurnak] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
