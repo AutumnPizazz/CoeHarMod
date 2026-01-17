@@ -235,7 +235,7 @@
         "name": "Pantheon.ReligiousMigrant",
         "type": "Pantheon",
         "uniques": [
-            "Comment [Free [Unit.Settler] appears <upon discovering [Civic.PoliticalPhilosophy] technology>]",
+            "Comment [Free [Unit.Settler] appears upon discovering [Civic.PoliticalPhilosophy] technology]",
             "Comment [[+1] Movement] <for [Unit.Settler] units>",
             "[-15]% Culture cost of natural border growth [in all cities]"
         ]

@@ -1,0 +1,2308 @@
+
+TileSets.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/CrosshatchHexagon
+  rotate: false
+  xy: 428, 1448
+  size: 273, 236
+  orig: 273, 236
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Hexagon
+  rotate: false
+  xy: 4, 1324
+  size: 416, 360
+  orig: 416, 360
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Highlight
+  rotate: false
+  xy: 4, 1692
+  size: 450, 315
+  orig: 450, 315
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.AlhambraPalace
+  rotate: false
+  xy: 462, 1751
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Amundsen-ScottSouthPoleStation
+  rotate: false
+  xy: 428, 1184
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.BigBen
+  rotate: false
+  xy: 4, 1060
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.BolshoiTheatre
+  rotate: false
+  xy: 692, 1184
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Broadway
+  rotate: false
+  xy: 726, 1751
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.ChichenItza
+  rotate: false
+  xy: 726, 1487
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Colossus
+  rotate: false
+  xy: 692, 920
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.EiffelTower
+  rotate: false
+  xy: 4, 796
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.ForbiddenCity
+  rotate: false
+  xy: 268, 796
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.GardenInTheAir
+  rotate: false
+  xy: 532, 656
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.GoldenGateBridge
+  rotate: false
+  xy: 4, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.GreatZimbabwe
+  rotate: false
+  xy: 268, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.HagiaSophia
+  rotate: false
+  xy: 796, 656
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.HermitageMuseum
+  rotate: false
+  xy: 990, 1751
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.HuiyiTemple
+  rotate: false
+  xy: 990, 1487
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.HungarianParliamentBuilding
+  rotate: false
+  xy: 990, 1223
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.KilwaKisiwani
+  rotate: false
+  xy: 956, 959
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Kotokuin
+  rotate: false
+  xy: 1060, 695
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MachuPicchu
+  rotate: false
+  xy: 1220, 959
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MaebadAlkurnak
+  rotate: false
+  xy: 1254, 1751
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MakobodhiTemple
+  rotate: false
+  xy: 1254, 1487
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MaracanaStadium
+  rotate: false
+  xy: 1254, 1223
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MontSaintMichel
+  rotate: false
+  xy: 1060, 431
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Oracle
+  rotate: false
+  xy: 532, 392
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Oxford
+  rotate: false
+  xy: 4, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.PanamaCanal
+  rotate: false
+  xy: 268, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Petra
+  rotate: false
+  xy: 796, 392
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.PotalaPalace
+  rotate: false
+  xy: 1324, 431
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.RomanColosseum
+  rotate: false
+  xy: 1484, 959
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.RuhrValley
+  rotate: false
+  xy: 1484, 695
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.StBasilsCathedral
+  rotate: false
+  xy: 1588, 431
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.StatueOfLiberty
+  rotate: false
+  xy: 1588, 167
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.StatueofChristtheRedeemer
+  rotate: false
+  xy: 1060, 167
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Stonehenge
+  rotate: false
+  xy: 1324, 167
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.SydneyOperaHouse
+  rotate: false
+  xy: 532, 128
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TajMahal
+  rotate: false
+  xy: 796, 128
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TempleOfArtemis
+  rotate: false
+  xy: 4, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TerraCottaWarriors
+  rotate: false
+  xy: 268, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TheGreatBathsOfCaracalla
+  rotate: false
+  xy: 1518, 1751
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TheGreatLibrary
+  rotate: false
+  xy: 1518, 1487
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TheGreatLighthouse
+  rotate: false
+  xy: 1518, 1223
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TheGreatPyramids
+  rotate: false
+  xy: 1748, 959
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.UniversityOfSankore
+  rotate: false
+  xy: 1748, 695
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.VenetianArmory
+  rotate: false
+  xy: 1782, 1751
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.WestIndiaExchange
+  rotate: false
+  xy: 1782, 1487
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Manufactory
+  rotate: false
+  xy: 1782, 1223
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Forest
+  rotate: false
+  xy: 1782, 1223
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+
+TileSets2.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Arrows/Generic
+  rotate: false
+  xy: 450, 960
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Arrows/UnitAttacked
+  rotate: false
+  xy: 140, 464
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Arrows/UnitHasAttacked
+  rotate: false
+  xy: 4, 192
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Arrows/UnitMoved
+  rotate: false
+  xy: 268, 555
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Arrows/UnitMoving
+  rotate: false
+  xy: 558, 960
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Arrows/UnitTeleported
+  rotate: false
+  xy: 140, 396
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Arrows/UnitWithdrew
+  rotate: false
+  xy: 4, 124
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConcaveConvexInner
+  rotate: false
+  xy: 450, 937
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConcaveConvexOuter
+  rotate: false
+  xy: 268, 532
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConcaveInner
+  rotate: false
+  xy: 248, 509
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConcaveOuter
+  rotate: false
+  xy: 666, 1005
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConvexConcaveInner
+  rotate: false
+  xy: 140, 373
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConvexConcaveOuter
+  rotate: false
+  xy: 4, 101
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConvexInner
+  rotate: false
+  xy: 450, 914
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Borders/ConvexOuter
+  rotate: false
+  xy: 539, 937
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Crosshair
+  rotate: false
+  xy: 268, 895
+  size: 174, 125
+  orig: 174, 125
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/HexaRealm-Landform.Nuclear fallout
+  rotate: false
+  xy: 376, 551
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.NuclearFallout
+  rotate: false
+  xy: 376, 551
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Railroad
+  rotate: false
+  xy: 393, 383
+  size: 60, 32
+  orig: 60, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Road
+  rotate: false
+  xy: 400, 13
+  size: 60, 32
+  orig: 60, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coast
+  rotate: false
+  xy: 140, 301
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lakes
+  rotate: false
+  xy: 140, 301
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/LargeRiver
+  rotate: false
+  xy: 140, 301
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 4, 37
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Landform.Hill
+  rotate: false
+  xy: 666, 941
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Landform.Hill2
+  rotate: false
+  xy: 248, 373
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Distict.BeachLandmark
+  rotate: false
+  xy: 1004, 283
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Raceline
+  rotate: false
+  xy: 1004, 283
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Torfbair
+  rotate: false
+  xy: 1004, 283
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Distict.LearningAcademy
+  rotate: false
+  xy: 1484, 764
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Campus
+  rotate: false
+  xy: 1484, 764
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MayanObservatory
+  rotate: false
+  xy: 1484, 764
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Acropolis
+  rotate: false
+  xy: 1412, 419
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.TheaterSquare
+  rotate: false
+  xy: 1412, 419
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.AngkorWat
+  rotate: false
+  xy: 1041, 411
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.ApadanaPalace
+  rotate: false
+  xy: 1105, 411
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Army
+  rotate: false
+  xy: 404, 815
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Thanh
+  rotate: false
+  xy: 404, 815
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Biosphere
+  rotate: false
+  xy: 1068, 339
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.CommercialAssociation
+  rotate: false
+  xy: 1068, 267
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.IndustrialZone
+  rotate: false
+  xy: 1068, 267
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Oppidum
+  rotate: false
+  xy: 1068, 267
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.CommercialHub
+  rotate: false
+  xy: 1548, 764
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MandingoMarket
+  rotate: false
+  xy: 1548, 764
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.CommonArtificialWonder
+  rotate: false
+  xy: 4, 396
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.CommonNaturalWonder
+  rotate: false
+  xy: 268, 759
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.EntertainmentComplex
+  rotate: false
+  xy: 1476, 419
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.EtemenankiTemple
+  rotate: false
+  xy: 1132, 291
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.ForeignQuarter
+  rotate: false
+  xy: 1132, 219
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.GovernmentPlaza
+  rotate: false
+  xy: 1196, 347
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Mayab
+  rotate: false
+  xy: 1196, 347
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Harbor
+  rotate: false
+  xy: 1196, 275
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.UShapedHarbor
+  rotate: false
+  xy: 1196, 275
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.HolySite
+  rotate: false
+  xy: 1260, 291
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.LavraMonastery
+  rotate: false
+  xy: 1260, 291
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.JebelBarkal
+  rotate: false
+  xy: 248, 437
+  size: 65, 64
+  orig: 65, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.MausoleumAtHalicarnassus
+  rotate: false
+  xy: 1260, 219
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.ProtectionZone
+  rotate: false
+  xy: 1324, 227
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.Spaceport
+  rotate: false
+  xy: 1388, 227
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.StatueOfZeus
+  rotate: false
+  xy: 1612, 764
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/District.WaterPark
+  rotate: false
+  xy: 1540, 419
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland
+  rotate: false
+  xy: 404, 751
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Landform.Hill
+  rotate: false
+  xy: 404, 687
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Landform.Hill2
+  rotate: false
+  xy: 404, 623
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Ancient ruins
+  rotate: false
+  xy: 212, 301
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Barbarian encampment
+  rotate: false
+  xy: 140, 237
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center
+  rotate: false
+  xy: 212, 229
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Ancient
+  rotate: false
+  xy: 212, 229
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Classical
+  rotate: false
+  xy: 212, 229
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Atomic
+  rotate: false
+  xy: 476, 834
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Information
+  rotate: false
+  xy: 476, 834
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Far-future
+  rotate: false
+  xy: 476, 749
+  size: 64, 77
+  orig: 64, 77
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Near-future
+  rotate: false
+  xy: 476, 749
+  size: 64, 77
+  orig: 64, 77
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Industrial
+  rotate: false
+  xy: 476, 671
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Modern
+  rotate: false
+  xy: 476, 671
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Medieval
+  rotate: false
+  xy: 548, 865
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City center-Era_Renaissance
+  rotate: false
+  xy: 548, 865
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-City ruins
+  rotate: false
+  xy: 548, 793
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-District.Amundsen-ScottSouthPoleStation
+  rotate: false
+  xy: 1452, 227
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Encampment-Pillaged
+  rotate: false
+  xy: 548, 721
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Encampment-Pillaged2
+  rotate: false
+  xy: 548, 649
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Farm+Resource.Wheat
+  rotate: false
+  xy: 476, 607
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Farm-Pillaged
+  rotate: false
+  xy: 548, 585
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.FishingBoat-Era_Industrial
+  rotate: false
+  xy: 112, 173
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Fort-Era_Atomic
+  rotate: false
+  xy: 112, 109
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Pabo-Era_Atomic
+  rotate: false
+  xy: 112, 109
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.RomeFort-Era_Atomic
+  rotate: false
+  xy: 112, 109
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Fort-Era_Industrial
+  rotate: false
+  xy: 184, 165
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Pabo-Era_Industrial
+  rotate: false
+  xy: 184, 165
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.RomeFort-Era_Industrial
+  rotate: false
+  xy: 184, 165
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.FortT-Era_Atomic
+  rotate: false
+  xy: 755, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.PaboT-Era_Atomic
+  rotate: false
+  xy: 755, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.RomeFortT-Era_Atomic
+  rotate: false
+  xy: 755, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.FortT-Era_Industrial
+  rotate: false
+  xy: 827, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.PaboT-Era_Industrial
+  rotate: false
+  xy: 827, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.RomeFortT-Era_Industrial
+  rotate: false
+  xy: 827, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Fortification-Era_Atomic
+  rotate: false
+  xy: 899, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.FortificationT-Era_Atomic
+  rotate: false
+  xy: 971, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.LumberMill-Era_Industrial
+  rotate: false
+  xy: 1043, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.LumberMillT-Era_Industrial
+  rotate: false
+  xy: 1115, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Mine-Era_Industrial
+  rotate: false
+  xy: 1187, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.MineT-Era_Industrial
+  rotate: false
+  xy: 1259, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Pasture-Era_Industrial
+  rotate: false
+  xy: 1331, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.Quarry-Era_Industrial
+  rotate: false
+  xy: 1403, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.QuarryT-Era_Industrial
+  rotate: false
+  xy: 1475, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.TerraceFarm-Pillaged
+  rotate: false
+  xy: 1547, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Improvement.TerraceFarm-Pillaged2
+  rotate: false
+  xy: 1619, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Landform.IceCap2
+  rotate: false
+  xy: 1691, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Landform.IceCap3
+  rotate: false
+  xy: 1763, 964
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Landform.Reef2
+  rotate: false
+  xy: 1835, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Landform.Reef3
+  rotate: false
+  xy: 1907, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Landform.Reef4
+  rotate: false
+  xy: 1979, 956
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Mountain2
+  rotate: false
+  xy: 476, 535
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Mountain3
+  rotate: false
+  xy: 548, 505
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Naturalwonder.HaLongBay2
+  rotate: false
+  xy: 256, 149
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Naturalwonder.TheGiantsCauseway2
+  rotate: false
+  xy: 620, 857
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Bananas+Improvement.Plantation
+  rotate: false
+  xy: 692, 877
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Cattle+Improvement.Pasture
+  rotate: false
+  xy: 764, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Cattle+Pasture-Era_Industrial
+  rotate: false
+  xy: 764, 836
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Citrus+Improvement.Plantation
+  rotate: false
+  xy: 692, 813
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Cotton+Improvement.Plantation
+  rotate: false
+  xy: 764, 772
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Deer+Improvement.Encampment
+  rotate: false
+  xy: 692, 749
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Deer+Improvement.Encampment-Era_Industrial
+  rotate: false
+  xy: 764, 708
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Deer+Improvement.EncampmentT
+  rotate: false
+  xy: 692, 685
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Deer+Improvement.EncampmentT-Era_Industrial
+  rotate: false
+  xy: 764, 644
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Dye+Improvement.Plantation
+  rotate: false
+  xy: 692, 621
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Horse+Pasture
+  rotate: false
+  xy: 764, 580
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Horse+Pasture-Era_Industrial
+  rotate: false
+  xy: 692, 557
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Incense+Improvement.Plantation
+  rotate: false
+  xy: 764, 516
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Ivory+Improvement.Encampment
+  rotate: false
+  xy: 692, 493
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Ivory+Improvement.Encampment-Era_Industrial
+  rotate: false
+  xy: 764, 452
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Leather+Improvement.Encampment
+  rotate: false
+  xy: 1763, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Leather+Improvement.Encampment-Era_Industrial
+  rotate: false
+  xy: 1835, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.LeatherT+Improvement.Encampment
+  rotate: false
+  xy: 1907, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.LeatherT+Improvement.Encampment-Era_Industrial
+  rotate: false
+  xy: 1979, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Marble+Improvement.Quarry
+  rotate: false
+  xy: 76, 37
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Marble+Improvement.Quarry-Era_Industrial
+  rotate: false
+  xy: 148, 45
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Marble+Improvement.QuarryT
+  rotate: false
+  xy: 1043, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Marble+Improvement.QuarryT-Era_Industrial
+  rotate: false
+  xy: 1115, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Oil+Offshore Platform
+  rotate: false
+  xy: 1187, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.OffshoreOilRig
+  rotate: false
+  xy: 1187, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Oil+Oil well
+  rotate: false
+  xy: 1259, 899
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.OilWell
+  rotate: false
+  xy: 1259, 899
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Sheep+Pasture
+  rotate: false
+  xy: 1331, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Sheep+Pasture-Era_Industrial
+  rotate: false
+  xy: 1403, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Silk+Improvement.Plantation
+  rotate: false
+  xy: 1475, 900
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Spices+Improvement.Plantation
+  rotate: false
+  xy: 1547, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Stone+Improvement.Quarry-Era_Industrial
+  rotate: false
+  xy: 1619, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Stone+Improvement.QuarryT
+  rotate: false
+  xy: 1691, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Stone+Improvement.QuarryT-Era_Industrial
+  rotate: false
+  xy: 1763, 836
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Stone+Improvement.Quarryy
+  rotate: false
+  xy: 1835, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.StoneD+Improvement.Quarry
+  rotate: false
+  xy: 1907, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.StoneD+Improvement.Quarry-Era_Industrial
+  rotate: false
+  xy: 1979, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Sugar+Improvement.Plantation
+  rotate: false
+  xy: 284, 229
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Truffles+Improvement.Encampment
+  rotate: false
+  xy: 328, 165
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Truffles+Improvement.Encampment-Era_Industrial
+  rotate: false
+  xy: 328, 101
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Truffles+Improvement.EncampmentT
+  rotate: false
+  xy: 256, 85
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Truffles+Improvement.EncampmentT-Era_Industrial
+  rotate: false
+  xy: 328, 37
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Whales+Improvement.FishingBoat
+  rotate: false
+  xy: 321, 445
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Whales+Improvement.FishingBoat-Era_Industrial
+  rotate: false
+  xy: 321, 381
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-Resource.Wine+Improvement.Plantation
+  rotate: false
+  xy: 320, 317
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-River-Bottom
+  rotate: false
+  xy: 356, 253
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-River-BottomLeft
+  rotate: false
+  xy: 392, 317
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HexaRealm-Tiles-River-BottomRight
+  rotate: false
+  xy: 428, 253
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.EarthVeinsExploiter
+  rotate: false
+  xy: 400, 189
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Encampment
+  rotate: false
+  xy: 400, 117
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Farm
+  rotate: false
+  xy: 400, 53
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmD
+  rotate: false
+  xy: 393, 487
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmDH
+  rotate: false
+  xy: 393, 423
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmG
+  rotate: false
+  xy: 465, 471
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmGH
+  rotate: false
+  xy: 537, 441
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmP
+  rotate: false
+  xy: 220, 21
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmPH
+  rotate: false
+  xy: 609, 441
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmS
+  rotate: false
+  xy: 681, 429
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmSH
+  rotate: false
+  xy: 753, 388
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmT
+  rotate: false
+  xy: 825, 388
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FarmTH
+  rotate: false
+  xy: 836, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FishingBoat
+  rotate: false
+  xy: 908, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Fort
+  rotate: false
+  xy: 836, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Pabo
+  rotate: false
+  xy: 836, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.RomeFort
+  rotate: false
+  xy: 836, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FortT
+  rotate: false
+  xy: 836, 764
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.PaboT
+  rotate: false
+  xy: 836, 764
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.RomeFortT
+  rotate: false
+  xy: 836, 764
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Fortification
+  rotate: false
+  xy: 908, 820
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.FortificationT
+  rotate: false
+  xy: 836, 692
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.LumberMill
+  rotate: false
+  xy: 908, 756
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.LumberMillT
+  rotate: false
+  xy: 836, 628
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Mine
+  rotate: false
+  xy: 836, 564
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.MineT
+  rotate: false
+  xy: 836, 500
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Pasture
+  rotate: false
+  xy: 825, 324
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Plantation
+  rotate: false
+  xy: 472, 125
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Prophet
+  rotate: false
+  xy: 472, 53
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.ProphetT
+  rotate: false
+  xy: 980, 827
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.Quarry
+  rotate: false
+  xy: 980, 763
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.QuarryT
+  rotate: false
+  xy: 980, 699
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Improvement.TerraceFarm
+  rotate: false
+  xy: 908, 620
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 980, 635
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleGLow
+  rotate: false
+  xy: 544, 377
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleGUp
+  rotate: false
+  xy: 544, 313
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleP
+  rotate: false
+  xy: 500, 249
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JunglePLow
+  rotate: false
+  xy: 572, 249
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JunglePUp
+  rotate: false
+  xy: 544, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.AlluvialPlain
+  rotate: false
+  xy: 544, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.FloodPlain
+  rotate: false
+  xy: 544, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.GeothermalFissure
+  rotate: false
+  xy: 544, 41
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.IceCap
+  rotate: false
+  xy: 616, 357
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Landform.Hill
+  rotate: false
+  xy: 1052, 835
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Oasis
+  rotate: false
+  xy: 1052, 763
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Rainforest
+  rotate: false
+  xy: 4, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Reef
+  rotate: false
+  xy: 616, 113
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Swamp
+  rotate: false
+  xy: 1124, 835
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.VolcanicSoil
+  rotate: false
+  xy: 1124, 755
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Landform.Volcano
+  rotate: false
+  xy: 1196, 819
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain
+  rotate: false
+  xy: 1196, 747
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.DelicateArch
+  rotate: false
+  xy: 1268, 835
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.ElDorado
+  rotate: false
+  xy: 1268, 771
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.FountainOfYouth
+  rotate: false
+  xy: 1124, 691
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.GreatBarrierReef
+  rotate: false
+  xy: 1196, 675
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.HaLongBay
+  rotate: false
+  xy: 1124, 611
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.HukouWaterfall
+  rotate: false
+  xy: 4, 260
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.MountTai
+  rotate: false
+  xy: 268, 623
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.Pantanal
+  rotate: false
+  xy: 1196, 611
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.TheGiantsCauseway
+  rotate: false
+  xy: 644, 277
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Naturalwonder.ZhangyeDanxia
+  rotate: false
+  xy: 4, 532
+  size: 256, 224
+  orig: 256, 224
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ocean
+  rotate: false
+  xy: 644, 205
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains
+  rotate: false
+  xy: 1124, 547
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Landform.Hill
+  rotate: false
+  xy: 1196, 547
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Landform.Hill2
+  rotate: false
+  xy: 688, 141
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Aluminum
+  rotate: false
+  xy: 688, 77
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Bananas
+  rotate: false
+  xy: 1124, 483
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Cattle
+  rotate: false
+  xy: 1196, 483
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.CattleP
+  rotate: false
+  xy: 1196, 483
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.CattleG
+  rotate: false
+  xy: 688, 13
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Citrus
+  rotate: false
+  xy: 1196, 419
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Coal
+  rotate: false
+  xy: 716, 324
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Copper
+  rotate: false
+  xy: 716, 260
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Cotton
+  rotate: false
+  xy: 788, 260
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Crab
+  rotate: false
+  xy: 860, 260
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Deer
+  rotate: false
+  xy: 760, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Dye
+  rotate: false
+  xy: 760, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.EarthVeins
+  rotate: false
+  xy: 760, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Fish
+  rotate: false
+  xy: 760, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Gem
+  rotate: false
+  xy: 832, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Gold
+  rotate: false
+  xy: 1340, 835
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Horse
+  rotate: false
+  xy: 1340, 771
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Incense
+  rotate: false
+  xy: 1340, 707
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Iron
+  rotate: false
+  xy: 1268, 683
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Ivory
+  rotate: false
+  xy: 1268, 619
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Leather
+  rotate: false
+  xy: 1340, 643
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.LeatherT
+  rotate: false
+  xy: 1268, 555
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Marble
+  rotate: false
+  xy: 1268, 491
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Oil
+  rotate: false
+  xy: 1268, 427
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.OilS
+  rotate: false
+  xy: 1268, 363
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Pearls
+  rotate: false
+  xy: 832, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Salt
+  rotate: false
+  xy: 832, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Sheep
+  rotate: false
+  xy: 904, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Silk
+  rotate: false
+  xy: 904, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Silver
+  rotate: false
+  xy: 904, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Spices
+  rotate: false
+  xy: 976, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Stone
+  rotate: false
+  xy: 1412, 835
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.StoneD
+  rotate: false
+  xy: 1412, 771
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Sugar
+  rotate: false
+  xy: 1412, 707
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Truffles
+  rotate: false
+  xy: 1412, 643
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Uranium
+  rotate: false
+  xy: 1412, 579
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Whales
+  rotate: false
+  xy: 1340, 555
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Wheat
+  rotate: false
+  xy: 1340, 491
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Resource.Wine
+  rotate: false
+  xy: 1412, 515
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/RuinsD
+  rotate: false
+  xy: 1340, 427
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/RuinsG
+  rotate: false
+  xy: 1340, 363
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/RuinsT
+  rotate: false
+  xy: 1340, 299
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow
+  rotate: false
+  xy: 897, 355
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Landform.Hill
+  rotate: false
+  xy: 897, 419
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Landform.Hill2
+  rotate: false
+  xy: 932, 291
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra
+  rotate: false
+  xy: 932, 227
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Landform.Hill
+  rotate: false
+  xy: 969, 355
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Landform.Hill2
+  rotate: false
+  xy: 969, 419
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/TopBorder
+  rotate: false
+  xy: 980, 920
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1

@@ -542,7 +542,7 @@
 		"preferredVictoryType": "VictoryType.Conquest",
 		"uniqueName": "The Fall of Babylon",
 		"uniques": [
-			"Empire enters a [10]-turn Golden Age <upon declaring war with a major Civilization>",
+			"Empire enters a [10]-turn Golden Age <upon declaring war on [Major] Civilizations>",
 			"Empire enters a [8]-turn Golden Age <upon conquering a city>",
 			"[+1] Movement <for [All] units> <during a Golden Age>",
 			"Improves movement speed on roads"
@@ -1096,7 +1096,7 @@
 		"uniques": [
 			"May buy [UnitType.LightCavalry] units with [Faith] for [1] times their normal Production cost",
 			"[Faith] cost of purchasing [UnitType.LightCavalry] units [-20]% <after discovering [Civic.DivinRightOfKings]>",
-			"Double quantity of [Resource.Horse] produced"
+			"[+100]% [Resource.Horse] resource production"
 		],
 		"cities": [
 			"Pokrovka",
@@ -1639,7 +1639,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Until the end of the world",
 		"uniques": [
-			"Comment [[+18]% Strength] <for [[UnitType.LightCavalry] and [UnitType.HeavyCavalry]] units> <if [[Gov.Oligarchy] or [Gene.guatouchuancheng]] is constructed>",
+			"Comment [[+18]% Strength for [UnitType.LightCavalry] and [UnitType.HeavyCavalry] units if [Gov.Oligarchy] or [Gene.guatouchuancheng] is constructed]",
 			"Comment [The debuff of Cavalry's combat effectiveness when attacking cities will be halved]"
 		],
 		"cities": [
@@ -2306,7 +2306,7 @@
 			"[+1 Production] [in all cities] <when above [5] [Resource.CityNumber]> <after discovering [Tech.Stirrups]>",
 			"[+50]% Production when constructing [UnitType.LightCavalry] units [in all cities] <when above [9] [Resource.CityNumber]>",
 			"[+50]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <when above [9] [Resource.CityNumber]>",
-			"Double quantity of [Resource.Horse] produced <when above [9] [Resource.CityNumber]>",
+			"[+100]% [Resource.Horse] resource production <when above [9] [Resource.CityNumber]>",
 			"[+51]% Strength <for [UnitType.LightCavalry] units> <vs [UnitType.AntiCavalry] units> <when above [15] [Resource.CityNumber]>",
 			"[+51]% Strength <for [UnitType.HeavyCavalry] units> <vs [UnitType.AntiCavalry] units> <when above [15] [Resource.CityNumber]>"
 		],

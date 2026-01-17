@@ -1461,7 +1461,7 @@
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
             "[+1 Gold] per [1] population [in all cities]",
-            "[-50]% maintenance cost for buildings [in all cities]",
+            "[-50]% maintenance cost for [all] buildings [in all cities]",
             "Only available <starting from the [Era.Atomic]>",
             "Only available <in cities with a [Governor.MinervaNightingaleIII]>",
             "Unsellable",
@@ -2773,7 +2773,7 @@
         "name": "Building.Court",
         "cost": 0,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
+            "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>",
             "Automatically built in all cities where it is buildable",
             "Unsellable",
@@ -6160,7 +6160,7 @@
         "name": "AWonder.Biosphere",
         "isWonder": true,
         "uniques": [
-            "Double quantity of [Resource.Electricity] produced",
+            "[+100]% [Resource.Electricity] resource production",
             "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Biosphere] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
@@ -7650,7 +7650,7 @@
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
             "Gain [150] [Culture] <upon declaring friendship>",
-            "Free [Unit.Infantry] appears <upon declaring war with a major Civilization>",
+            "Free [Unit.Infantry] appears <upon declaring war on [Major] Civilizations>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
