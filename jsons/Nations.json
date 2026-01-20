@@ -131,9 +131,8 @@
 		"uniqueName": "Yongle Prosperity",
 		"uniques": [
 			"[+2 Science, +2 Culture, +4 Gold] per [3] population [in all cities] <in cities with at least [10] [Population]>",
-			"Comment [[+1] [Resource.Livability] [in cities with at least [5] Population]]",
-			"Comment [[+2] [Resource.Livability] [in cities with at least [10] Population]]",
-			// "[+1 Happiness] per [3] population [in all cities] <in cities with at least [10] [Population]> <when above [2] [Resource.LargeCityNumber]>",
+			"[+2 Happiness] [in all cities] <in cities with at least [5] [Population]>",
+			"[+2 Happiness] [in all cities] <in cities with at least [10] [Population]>",
             "Comment [[+1] [Usage]] <for [Unit.CommonWorker1] units>",
 			"Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
 		],
@@ -1971,7 +1970,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Country of Thousand Islands",
 		"uniques": [
-			"Provides [1] [Resource.Livability] <in [Coastal] cities>",
+			"[+2 Happiness] [in all coastal cities]",
 			"Comment [[Class.Campus] grant an additional [+1] adjacency bonus to [Coast]]",
 			"Comment [[Class.HolySite] grant an additional [+1] adjacency bonus to [Coast]]"
 		],

@@ -98,7 +98,7 @@
 		"uniques": [
 			"Only available <in tiles without [Strategic resource]> <hidden from users>",
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
-			"Provides [1] [Resource.Livability] <in [River] tiles> <after adopting [Pantheon.RiverGod]> <in this city>",
+			"[+2 Happiness] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Faith] for each adjacent [Mountain]",
@@ -142,7 +142,7 @@
 		"uniques": [
 			"Only available <in tiles without [Strategic resource]> <hidden from users>",
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
-			"Provides [1] [Resource.Livability] <in [River] tiles> <after adopting [Pantheon.RiverGod]> <in this city>",
+			"[+2 Happiness] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Faith] for each adjacent [Mountain]",
@@ -964,7 +964,6 @@
 		"gold": 2,
 		"uniques": [
 			"Provides [1] [Resource.halfHouse] <in this city>",
-			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"Does not need removal of [Landform.Forest]",
 			"Does not need removal of [Landform.Rainforest]",
 			"Does not need removal of [Landform.Swamp]",
@@ -1007,7 +1006,6 @@
 		"production": 1,
 		"uniques": [
 			"Provides [1] [Resource.halfHouse] <in this city>",
-			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"[+1 Food] <after discovering [Tech.Stirrups]>",
 			"[+1 Production] <after discovering [Tech.PartSpecification]>",
 			"[+1 Food] <after discovering [Tech.Robotics]>",
@@ -1024,7 +1022,6 @@
 		"uniques": [
 			"Provides [1] [Resource.halfHouse] <in this city>",
 			"Provides [1] [Resource.halfHouse] <in this city> <for [Nation.Maya] Civilizations> <hidden from users>", //玛雅文明能力
-			"Provides [1] [Resource.AuxiliaryCounter3] <hidden from users>",
 			"[+1 Food] <after discovering [Tech.ScientificTheory]>",
 			"[+1 Food] <after discovering [Civic.Feudalism]>",
 			"[+2 Gold] <after discovering [Civic.Globalization]>",
@@ -2390,7 +2387,7 @@
 		"techRequired": "Civic.Skill",
 		"uniques": [
 			"Provides [1] [Resource.halfHouse] <in this city>",
-			"Provides [1] [Resource.Livability] <in this city> <with [1] to [1] neighboring [City center] tiles>",
+			"[+2 Happiness] <in tiles adjacent to [City center] tiles>",
 			"Cannot be built on [All] tiles <within [2] tiles of a [Improvement.Sphinx]>",
 			"[+1 Culture] <after discovering [Civic.NaturalHistory]>",
 			"[+2 Faith] for each adjacent [Class.WonderDistrict]",

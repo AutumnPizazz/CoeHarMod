@@ -880,10 +880,10 @@
         "requiredTech": "Tech.Civic.Agriculture",
         "uniqueTo": "Nation.Shang",
         "cityStrength": 40,
+        "happiness":4,
         "cost": 0,
         "uniques": [
             "[+1 Culture] from [Luxury resource] tiles [in this city]",
-            "Provides [2] [Resource.Livability] <in this city>",
             "[+2 Production] from [Class.BasicStrategicResource] tiles [in this city]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured"
@@ -893,12 +893,12 @@
         "name": "Building.Guo",
         "requiredTech": "Tech.Civic.Agriculture",
         "uniqueTo": "Nation.Zhou",
+        "happiness":4,
         "cost": 0,
         "uniques": [
             "[+50]% Production when constructing [All] buildings [in this city]",
             "[+15]% Production when constructing [All] wonders [in this city]",
             "Cannot build [Military] units <in this city>", //这个写法不生效，实际生效的词条在国家技能里
-            "Provides [2] [Resource.Livability] <in this city>",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Building.Ye]>",
             "Unsellable"
@@ -921,11 +921,11 @@
         "name": "Building.Jiao",
         "requiredTech": "Civic.Feudalism",
         "uniqueTo": "Nation.Zhou",
+        "happiness":4,
         "cost": 0,
         "uniques": [
             "[+30]% Production when constructing [All] buildings [in this city]",
             "[-30]% Production when constructing [Military] units [in this city]",
-            "Provides [2] [Resource.Livability] <in this city>",
             "Destroyed when the city is captured",
             "Only available <in cities with a [Building.Ye]>",
             "Only available <in cities without a [Building.Mu]>",
@@ -1058,7 +1058,7 @@
         "hurryCostModifier": -33,
         "requiredTech": "Civic.PoliticalPhilosophy",
         "uniques": [
-            "Comment [[+1] [Resource.Livability] [in cities with a [Class.Building.DistrictUnique]]]",
+            "[+2 Happiness] from every [Class.Building.DistrictUnique]",
             "Comment [[+2] [Resource.halfHouse] [in cities with a [Class.Building.DistrictUnique]]]",
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
@@ -1104,7 +1104,7 @@
         "requiredTech": "Civic.DivinRightOfKings",
         "uniques": [
             "[+2 Food] from every [Building.ClassificationWall]",
-            "Comment [[+1] [Resource.Livability] [in cities with a [Building.AncientWalls]]]",
+            "[+2 Happiness] from every [Building.AncientWalls]",
             "Resting point for Influence with City-States is increased by [20]",
             "Provides [2] [Resource.MilitaryPolicySlot]",
             "Provides [1] [Resource.EconomicPolicySlot]",
@@ -1259,7 +1259,7 @@
         "hurryCostModifier": -33,
         "requiredTech": "Civic.DecentralizedSovereighty",
         "uniques": [
-            "Comment [[+2] [Resource.Livability] [in all cities]]",
+            "[+4 Happiness] [in all cities]",
             "[+2 Culture] from every [Class.Building.DistrictUnique]",
             "[-13]% Strength <for [Military] units>",
             "Provides [1] [Resource.MilitaryPolicySlot]",
@@ -1391,8 +1391,8 @@
     },
     { //黑暗召唤塔
         "name": "Building.DarkCallTower",
+        "happiness":4,
         "uniques": [
-            "Provides [2] [Resource.Livability] <in this city>",
             "Unsellable",
             "Unbuildable",
             "Destroyed when the city is captured",
@@ -1753,8 +1753,7 @@
         "uniques": [
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Food] [in all cities connected to capital]",
-            "Comment [[+1] [Resource.Livability] [[in cities with at least [15] [Population]] [in cities with a [Class.Building.DistrictUnique]]]]",
+            "[+2 Food, +1 Happiness] [in all cities connected to capital]",
             "[15]% Food is carried over after population increases [in this city]",
             "Only available <in cities with a [Governor.MagnusI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
@@ -2030,10 +2029,10 @@
         "name": "Governor.AmaniIIB",
         "requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.AmaniI",
+        "happiness":4,
         "uniques": [
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [2] [Resource.Livability] <in this city>",
             "Only available <in cities with a [Governor.AmaniI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -2581,17 +2580,16 @@
         "science": 2,
         "gold": 6,
         "culture": 1,
+        "happiness":2,
         "cityStrength": 20,
         "cityHealth": 50,
         "cost": 1,
         "uniques": [
             "Indicates the capital city",
             "Provides [4] [Resource.halfHouse] <in this city>",
-            "Provides [1] [Resource.Livability] <in this city>",
             "[-100]% [Food] [in all coastal cities] <in cities without a [Building.Dam]> <starting from the [Era.Information]>", //沿海城市不修防洪坝就会被“淹没”
             "[-70]% [Production] [in all coastal cities] <in cities without a [Building.Dam]> <starting from the [Era.Information]>", //沿海城市不修防洪坝就会被“淹没”
             "May buy [Unit.Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource.Influence]>", //允许买使者
-            "Provides [2] [Resource.Livability] <after adopting [Pantheon.TheLordOfTheWisdom]> <in this city>", //明道之主修正
             "Provides [2] [Resource.Unit.Scientist] <after adopting [Pantheon.SacredLight]>", //神圣之光
             "Provides [2] [Resource.Unit.Merchant] <after adopting [Pantheon.SacredLight]>" //神圣之光
         ],
@@ -2721,9 +2719,7 @@
         "cityStrength": 50,
         "cityHealth": 50,
         "uniques": [
-            "Provides [1] [Resource.Livability] <in this city> <if [Gov.Monarchy] is constructed>",
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gov.Monarchy] is constructed>",
-            "Provides [1] [Resource.Livability] <in this city> <if [Gene.junzhuchuancheng] is constructed>",
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gene.junzhuchuancheng] is constructed>",
             "Cost increases by [6] when built",
             "Unsellable",
@@ -2828,37 +2824,13 @@
             "Provides [1] [Resource.DistrictLimitation] <in this city> <in cities with at least [22] [Population]>",
             "Provides [1] [Resource.DistrictLimitation] <in this city> <in cities with at least [25] [Population]>",
             "Provides [1] [Resource.DistrictLimitation] <in this city> <in cities with at least [28] [Population]>",
-            /*宜居度扣除*/
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [3] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [5] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [7] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [9] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [11] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [13] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [15] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [17] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [19] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [20] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [21] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [23] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [25] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [27] [Population]>",
-            "Consumes [1] [Resource.Livability] <in this city> <in cities with at least [29] [Population]>",
             /*其他效果*/
             "Provides [1] [Resource.CityNumber]",
             "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
             "Provides [4] [Resource.halfHouse] <in this city>", //基础住房
             "Provides [2] [Resource.halfHouse] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>", //古典共和修正
             "Provides [2] [Resource.halfHouse] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>", //共和传承修正
-            "Provides [1] [Resource.Livability] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>", //古典共和修正
-            "Provides [1] [Resource.Livability] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>", //共和传承修正
-            "Provides [2] [Resource.Livability] <in this city> <if [Gov.DigitalDemocracy] is constructed>", //数字化民主修正
-            "Provides [1] [Resource.Livability] <in this city> <in cities with at least [5] [Population]> <if [Governor.MagnusIIA] is constructed>", //MagnusIIA修正
-            "Provides [1] [Resource.Livability] <in this city> <in cities with a [Class.Governor.Level1]> <if [Building.AudienceChamber] is constructed>", //谒见厅修正
             "[+2 Food] <in cities with a [Class.Governor.Level1]> <if [Building.AudienceChamber] is constructed>", //谒见厅修正
-            "Provides [1] [Resource.Livability] <in this city> <if [AWonder.AngkorWat] is constructed>", //吴哥窟修正
-            "Consumes [1] [Resource.Livability] <in this city> <if [Eco.DysfunctionalUrbanization] is constructed>", //印度-畸形城市化修正
-            "Provides [1] [Resource.Livability] <in this city> <in cities with a [Class.Governor.Level1]> <if [Dip.silingbu] is constructed>", //外交-司令部修正
             "Provides [4] [Resource.halfHouse] <in this city> <in [Fresh Water] tiles>", //淡水住房修正
             "Provides [2] [Resource.halfHouse] <in this city> <in [Coastal] tiles> <in tiles without [Fresh Water]>", //海水住房修正
             "Provides [-4] [Resource.halfHouse] <in this city> <in [Fresh Water] tiles> <for [Nation.Maya] Civilizations>", //淡水住房修正-对玛雅
@@ -2868,10 +2840,7 @@
             "Provides [2] [Resource.halfHouse] <in this city> <after adopting [Pantheon.RainGod]>", //万神殿雨神修正
             "Provides [2] [Resource.halfHouse] <in this city> <in tiles without [River]> <after adopting [Pantheon.RainGod]>", //万神殿雨神修正
             "Provides [2] [Resource.halfHouse] <in this city> <in [Landform.Hill] tiles> <after adopting [Pantheon.LegendOfElDorado]>", //万神殿黄金国传说修正
-            "Provides [2] [Resource.halfHouse] <in this city> <in [Coastal] tiles> <after adopting [Pantheon.MazuBelief]>", //万神殿妈祖信仰修正
-            "Provides [1] [Resource.Livability] <in this city> <in cities with at least [5] [Population]>",
-            "Provides [2] [Resource.Livability] <in this city> <in cities with at least [10] [Population]>", //明朝修正
-            "Provides [1] [Resource.Livability] <in this city> <with [1] to [6] neighboring [Coast] tiles>" //印尼修正
+            "Provides [2] [Resource.halfHouse] <in this city> <in [Coastal] tiles> <after adopting [Pantheon.MazuBelief]>" //万神殿妈祖信仰修正
         ],
         "replacementTextForUniques": " "
     },
@@ -2886,58 +2855,6 @@
             "[+1 Gold] from every [Class.Building.DistrictUnique] <in this city>",
             "Can only be built <in cities connected to the capital>",
             "Only available <in cities without a [Building.Palace]> <hidden from users>"
-        ]
-    },
-    { //奢侈品宜居度分配1点
-        "name": "Building.LivLux1",
-        "cost": 0,
-        "uniques": [
-            "Only available <when above [0] [Resource.LivabilityFromLuxury]>",
-            "Consumes [1] [Resource.LivabilityFromLuxury] <in this city>",
-            "Provides [1] [Resource.Livability] <in this city>",
-            "Destroyed when the city is captured",
-            "Remove [Building.LivLux2] [in this city] <hidden from users>",
-            "Remove [Building.LivLux3] [in this city] <hidden from users>",
-            "Remove [Building.LivLux4] [in this city] <hidden from users>"
-        ]
-    },
-    { //奢侈品宜居度分配2点
-        "name": "Building.LivLux2",
-        "cost": 0,
-        "uniques": [
-            "Only available <when above [1] [Resource.LivabilityFromLuxury]>",
-            "Consumes [2] [Resource.LivabilityFromLuxury] <in this city>",
-            "Provides [2] [Resource.Livability] <in this city>",
-            "Destroyed when the city is captured",
-            "Remove [Building.LivLux1] [in this city] <hidden from users>",
-            "Remove [Building.LivLux3] [in this city] <hidden from users>",
-            "Remove [Building.LivLux4] [in this city] <hidden from users>"
-        ]
-    },
-    { //奢侈品宜居度分配3点
-        "name": "Building.LivLux3",
-        "cost": 0,
-        "uniques": [
-            "Only available <when above [2] [Resource.LivabilityFromLuxury]>",
-            "Consumes [3] [Resource.LivabilityFromLuxury] <in this city>",
-            "Provides [3] [Resource.Livability] <in this city>",
-            "Destroyed when the city is captured",
-            "Remove [Building.LivLux1] [in this city] <hidden from users>",
-            "Remove [Building.LivLux2] [in this city] <hidden from users>",
-            "Remove [Building.LivLux4] [in this city] <hidden from users>"
-        ]
-    },
-    { //奢侈品宜居度分配4点
-        "name": "Building.LivLux4",
-        "cost": 0,
-        "uniques": [
-            "Only available <when above [3] [Resource.LivabilityFromLuxury]>",
-            "Consumes [4] [Resource.LivabilityFromLuxury] <in this city>",
-            "Provides [4] [Resource.Livability] <in this city>",
-            "Destroyed when the city is captured",
-            "Remove [Building.LivLux1] [in this city] <hidden from users>",
-            "Remove [Building.LivLux2] [in this city] <hidden from users>",
-            "Remove [Building.LivLux3] [in this city] <hidden from users>"
         ]
     },
     /*市政广场区域建筑*/
@@ -3008,7 +2925,7 @@
         "maintenance": 1,
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
-            "Comment [[+1] [Resource.Livability] [in cities with a [Class.Governor.Level1]]]",
+            "[+2 Happiness] from every [Class.Governor.Level1]",
             "Comment [[+2 Food] [in cities with a [Class.Governor.Level1]]]",
             "Provides [1] [Resource.GovernorTitle]",
             "Only available <in cities without a [Building.AncestralHall]>",
@@ -3263,7 +3180,6 @@
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.Meditation]>",
             "Cost increases by [12] when built",
             "Unsellable",
             "Only available <when religion is enabled>",
@@ -3288,7 +3204,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.Meditation]>",
             "[+1 Faith] from [Tundra] tiles without [Landform.Hill] [in this city]",
             "Cost increases by [6] when built",
             "Unsellable",
@@ -3350,6 +3265,7 @@
         "cost": 190,
         "hurryCostModifier": -33,
         "faith": 3,
+        "happiness":2,
         "requiredBuilding": "Building.Temple",
         "specialistSlots": {
             "Specialist.Priest": 1
@@ -3359,7 +3275,6 @@
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city>",
             "Only available <after adopting [EnhancerBelief.Stupa]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3461,6 +3376,7 @@
         "name": "Building.Pagoda",
         "cost": 190,
         "faith": 3,
+        "happiness":2,
         "requiredBuilding": "Building.Temple",
         "specialistSlots": {
             "Specialist.Priest": 1
@@ -3470,7 +3386,6 @@
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city>",
             "Only available <after adopting [EnhancerBelief.Sudowoodo]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3557,7 +3472,6 @@
             "Unsellable",
             "Provides [1] [Resource.Unit.Scientist]",
             "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.Meditation]>",
             "Cost increases by [12] when built",
             "Creates a [District.Campus] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3649,7 +3563,6 @@
             "New [Military] units start with [9] XP [in this city]",
             "Provides [1] [Resource.Unit.Scientist]",
             "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
-            // "Consumes [1] [Resource.Livability] <in this city>",
             "Cost increases by [3] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
@@ -4044,11 +3957,11 @@
         "name": "Building.DistrictUnique.EntertainmentComplex",
         "cost": 44,
         "hurryCostModifier": -33,
+        "happiness":2,
         "maintenance": 1,
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredResource": "Resource.DistrictLimitation",
         "uniques": [
-            "Provides [1] [Resource.Livability] <in this city>",
             "Unsellable",
             "Cost increases by [12] when built",
             "Creates a [District.EntertainmentComplex] improvement on a specific tile",
@@ -4064,10 +3977,10 @@
         "hurryCostModifier": -33,
         "maintenance": 1,
         "culture": 1,
+        "happiness":4,
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Provides [2] [Resource.Livability] <in this city>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
@@ -4082,6 +3995,7 @@
         "hurryCostModifier": -33,
         "maintenance": 1,
         "culture": 3,
+        "happiness":6,
         "faith": 2,
         "greatPersonPoints": {
             "Unit.General": 2
@@ -4089,7 +4003,6 @@
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Provides [3] [Resource.Livability] <in this city>",
             "Cost increases by [3] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
@@ -4101,11 +4014,10 @@
         "cost": 350,
         "hurryCostModifier": -33,
         "maintenance": 2,
+        "happiness":6,
         "requiredBuilding": "Building.Arena",
         "requiredTech": "Civic.NaturalHistory",
         "uniques": [
-            "Provides [3] [Resource.Livability] <in this city>",
-            "Provides [1] [Resource.Livability] <in this city> <if [AWonder.MaracanaStadium] is constructed>",
             "[+1 Science] from [Landform.Rainforest] tiles [in this city]",
             "[+1 Science] from [Landform.Swamp] tiles [in this city]",
             "Cost increases by [6] when built",
@@ -4117,13 +4029,11 @@
     {
         "name": "Building.Stadium",
         "cost": 470,
+        "happiness":4,
         "hurryCostModifier": -33,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Zoo",
         "uniques": [
-            "Provides [2] [Resource.Livability] <in this city>",
-            "Provides [1] [Resource.Livability] <in this city> <if [AWonder.MaracanaStadium] is constructed>",
-            "Provides [1] [Resource.Livability] <in this city> <if [Eco.tiyuchuanmei] is constructed>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
@@ -4133,10 +4043,10 @@
     {
         "name": "Building.Powered.Stadium",
         "cost": 1,
+        "happiness":8,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Stadium",
         "uniques": [
-            "Provides [4] [Resource.Livability] <in this city>",
             "Consumes [2] [Resource.Electricity]",
             "Destroyed when the city is captured",
             "Consumes [3] [Resource.Electricity]"
@@ -4148,11 +4058,11 @@
         "cost": 44,
         "hurryCostModifier": -33,
         "maintenance": 1,
+        "happiness":2,
         "requiredTech": "Civic.NaturalHistory",
         "requiredResource": "Resource.DistrictLimitation",
         //        "cannotBeBuiltWith":"Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Provides [1] [Resource.Livability] <in this city>",
             "Unsellable",
             "Must be next to [Coast]",
             "Cost increases by [12] when built",
@@ -4169,10 +4079,10 @@
         "hurryCostModifier": -33,
         "maintenance": 1,
         "culture": 3,
+        "happiness":8,
         "requiredTech": "Civic.NaturalHistory",
         "requiredBuilding": "Building.DistrictUnique.WaterPark",
         "uniques": [
-            "Provides [4] [Resource.Livability] <in this city>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
@@ -4183,11 +4093,11 @@
         "name": "Building.Aquarium",
         "cost": 350,
         "hurryCostModifier": -33,
+        "happiness":8,
         "maintenance": 2,
         "requiredBuilding": "Building.FerrisWheel",
         "requiredTech": "Civic.NaturalHistory",
         "uniques": [
-            "Provides [4] [Resource.Livability] <in this city>",
             "[+1 Science] from [Landform.Reef] tiles [in this city]",
             "[+1 Science] from [Class.ResourceOnWater] tiles [in this city]",
             "Cost increases by [6] when built",
@@ -4200,10 +4110,10 @@
         "name": "Building.WaterSportsCenter",
         "cost": 470,
         "hurryCostModifier": -33,
+        "happiness":4,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Aquarium",
         "uniques": [
-            "Provides [2] [Resource.Livability] <in this city>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
@@ -4213,10 +4123,10 @@
     {
         "name": "Building.Powered.WaterSportsCenter",
         "cost": 1,
+        "happiness":8,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.WaterSportsCenter",
         "uniques": [
-            "Provides [4] [Resource.Livability] <in this city>",
             "Consumes [2] [Resource.Electricity]",
             "Destroyed when the city is captured",
             "Consumes [3] [Resource.Electricity]"
@@ -4817,6 +4727,7 @@
         "replaces": "Building.DistrictUnique.Port",
         "uniqueTo": "Nation.England",
         "cost": 22,
+        "happiness":2,
         "hurryCostModifier": -33,
         "maintenance": 1,
         "requiredTech": "Tech.AstronomicalNavigation",
@@ -4826,7 +4737,6 @@
         },
         "uniques": [
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.SunNeverSets] promotion",
-            "Provides [1] [Resource.Livability] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
             "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Unsellable",
@@ -5060,11 +4970,11 @@
         "replaces": "Building.DistrictUnique.Raceline",
         "uniqueTo": "Nation.Rome",
         "cost": 18,
+        "happiness":2,
         "hurryCostModifier": -33,
         "maintenance": 1,
         "requiredTech": "Tech.Project",
         "uniques": [
-            "Provides [1] [Resource.Livability] <in this city>",
             "Provides [6] [Resource.halfHouse] <in this city>",
             "Cost increases by [6] when built",
             "Unsellable",
@@ -5385,7 +5295,6 @@
         "uniques": [
             "Provides [6] [Resource.halfHouse] <in this city>",
             "[+1 Faith] from [River] tiles [in this city]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.TheGreatBathsOfCaracalla] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5401,7 +5310,6 @@
         "uniques": [
             "Must have an owned [Resource.Stone] within [3] tiles",
             "Free [Unit.Prophet] appears",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Stonehenge] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5416,7 +5324,6 @@
         "uniques": [
             "Provides [6] [Resource.halfHouse] <in this city>",
             "[15]% Food is carried over after population increases [in all cities]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.GardenInTheAir] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5432,7 +5339,6 @@
         "uniques": [
             "[+1 Production, +1 Science] from [Landform.AlluvialPlain] tiles [in this city]",
             "[+1 Production, +2 Science] from every [Landform.Swamp] <in tiles without [Class.District]>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.EtemenankiTemple] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5446,13 +5352,9 @@
         "isWonder": true,
         "uniques": [
             "Provides [6] [Resource.halfHouse] <in this city>",
-            "Comment [Provides 1 Livability from each Plantation,Pasture and Encampment in this city (at most +5)]",
-            "Provides [1] [Resource.Livability] <in this city> <when above [0] [Resource.AuxiliaryCounter3]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <when above [1] [Resource.AuxiliaryCounter3]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <when above [2] [Resource.AuxiliaryCounter3]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <when above [3] [Resource.AuxiliaryCounter3]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <when above [4] [Resource.AuxiliaryCounter3]> <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
+            "[+1 Happiness] from [Improvement.Plantation] tiles [in this city]",
+            "[+1 Happiness] from [Improvement.Pasture] tiles [in this city]",
+            "[+1 Happiness] from [Improvement.Encampment] tiles [in this city]",
             "Creates a [District.TempleOfArtemis] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5468,7 +5370,6 @@
             "Free [Unit.CommonWorker1] appears",
             "Comment [[+1] [Usage]] <for [Unit.CommonWorker1] units>",
             "Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.TheGreatPyramids] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5484,7 +5385,6 @@
         "faith": 1,
         "uniques": [
             "[Faith] cost of purchasing [UnitType.GreatPersonProject] units [15]%",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Oracle] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -5503,7 +5403,6 @@
             "Provides [4] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
             "[+1] Movement <for [Water] units>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.TheGreatLighthouse] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5519,7 +5418,6 @@
         "uniques": [
             "[+4 Faith] <after discovering [Tech.Mechanical]>",
             "Provides [5] [Resource.Iron]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.JebelBarkal] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5532,14 +5430,11 @@
         "cost": 400,
         "isWonder": true,
         "culture": 3,
+        "happiness":4,
         "requiredBuilding": "Building.Arena",
         "uniques": [
-            "Provides [2] [Resource.Livability] <in this city>",
-            "[+3 Culture] <starting from the [Era.Medieval]>",
-            "Provides [1] [Resource.Livability] <in this city> <starting from the [Era.Medieval]>",
-            "[+3 Culture] <starting from the [Era.Renaissance]>",
-            "Provides [1] [Resource.Livability] <in this city> <starting from the [Era.Renaissance]>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
+            "[+3 Culture, +2 Happiness] <starting from the [Era.Medieval]>",
+            "[+3 Culture, +2 Happiness] <starting from the [Era.Renaissance]>",
             "Creates a [District.RomanColosseum] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5558,7 +5453,6 @@
             "Provides [1] [Resource.TradeRouteCapacity]",
             "Provides [1] [Resource.Unit.Admiral]",
             "Free [Unit.Trader] appears",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Colossus] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5572,7 +5466,6 @@
         "isWonder": true,
         "uniques": [
             "[+2 Food, +1 Production, +2 Gold] from [Desert] tiles without [Landform.AlluvialPlain] [in this city]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Petra] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5588,7 +5481,6 @@
             "[-25]% City-State Influence degradation",
             "Gifts of Gold to City-States generate [25]% more Influence",
             "Only available <in cities with a [Building.Palace]>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.ApadanaPalace] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5604,7 +5496,6 @@
         "uniques": [
             "[1] XP gained from combat <for [{Military} {Land}] units>",
             "Earn [10]% of killed [{Military} {Land}] unit's [Strength] as [Gold]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.TerraCottaWarriors] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5620,7 +5511,6 @@
         "uniques": [
             "[+13]% Strength <for [{Military} {Land}] units> <within [1] tiles of a [Mountain]>",
             "[+13]% Strength <for [{Military} {Land}] units> <within [2] tiles of a [Mountain]>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.MachuPicchu] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5636,7 +5526,6 @@
             "[3] free [Unit.Spearman] units appear",
             "[3] free [Unit.Archer] units appear",
             "[+35]% Production when constructing [UnitType.AntiCavalry] units [in this city]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.StatueOfZeus] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5651,7 +5540,6 @@
         "uniques": [
             "[+1 Science, +1 Culture, +1 Faith] from [Coast] tiles [in this city]",
             "Provides [3] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.MausoleumAtHalicarnassus] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5669,7 +5557,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.TheGreatLibrary] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Classical"
@@ -5691,7 +5578,6 @@
         "uniques": [
             "[3] free [Unit.Missionary] units appear",
             "Provides [2] [Resource.DiplomaticFavor]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.MakobodhiTemple] improvement on a specific tile",
             "Only available <after founding a religion>",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
@@ -5707,7 +5593,6 @@
         "isWonder": true,
         "uniques": [
             "All newly-trained [Unit.Missionary] units [in this city] receive the [Promotion.Devout1] promotion",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.HagiaSophia] improvement on a specific tile",
             "Only available <after founding a religion>",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
@@ -5719,11 +5604,10 @@
     { //休伊神庙
         "name": "AWonder.HuiyiTemple",
         "cost": 710,
+        "happiness":4,
         "isWonder": true,
         "uniques": [
             "[+1 Food, +1 Production] from every [Lakes] <in tiles without [Class.District]>",
-            "Provides [2] [Resource.Livability] <in this city>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.HuiyiTemple] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5738,7 +5622,6 @@
         "uniques": [
             "Provides [4] [Resource.halfHouse] <in this city>",
             "Resting point for Influence with City-States is increased by [20]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.KilwaKisiwani] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5755,7 +5638,6 @@
         "requiredBuilding": "Building.University",
         "uniques": [
             "[+1 Science, +1 Gold, +1 Faith] from each Trade Route",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.UniversityOfSankore] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5769,7 +5651,6 @@
         "isWonder": true,
         "uniques": [
             "Comment [[+13]% Strength bonus for [Military] units within [1] tiles] <for [Unit.Missionary] units>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.MaebadAlkurnak] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5783,8 +5664,7 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in cities with a [Building.CityNumberCount]>",
             "[+2] population [in all cities]",
-            "Comment [[+1] [Resource.Livability] [in all cities]]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
+            "[+2 Happiness] [in all cities]",
             "Creates a [District.AngkorWat] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5798,7 +5678,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city>",
             "[+1 Production, +2 Culture] from [Landform.Rainforest] tiles [in this city]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.ChichenItza] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5809,13 +5688,12 @@
     { //阿尔罕布拉宫
         "name": "AWonder.AlhambraPalace",
         "isWonder": true,
+        "happiness":2,
         "uniques": [
-            "Provides [1] [Resource.Livability] <in this city>",
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Provides [2] [Resource.Unit.General]",
             "Provides [1] [Resource.MilitaryPolicySlot]",
             "Comment [This tile would provide a defence of [+51]%]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.AlhambraPalace] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5834,7 +5712,6 @@
             "Gain [90] [Culture] <upon gaining a [Unit.Missionary] unit> <during the [Era.Industrial]>",
             "Gain [120] [Culture] <upon gaining a [Unit.Missionary] unit> <during the [Era.Modern]>",
             "Gain [150] [Culture] <upon gaining a [Unit.Missionary] unit> <starting from the [Era.Atomic]>",*/
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.MontSaintMichel] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5850,7 +5727,6 @@
         },
         "uniques": [
             "Provides [4] [Resource.remainingMonksCount]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Kotokuin] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5865,7 +5741,6 @@
             "Provides [3] [Resource.GovernorTitle]",
             "[+8]% Strength <for [{Military} {Land}] units> <on foreign continents>",
             "[+1] Movement <for [{Military} {Land}] units> <on foreign continents>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.WestIndiaExchange] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5878,7 +5753,6 @@
         "isWonder": true,
         "uniques": [
             "[+75]% Production when constructing [Water] units [in all coastal cities]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.VenetianArmory] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5896,7 +5770,6 @@
             "Provides [2] [Resource.Unit.Merchant]",
             "[+2 Gold] from [Bonus resource] tiles [in this city]",
             "[+2 Gold] from each Trade Route",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.GreatZimbabwe] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5911,7 +5784,6 @@
         "uniques": [
             "Provides [4] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.ForbiddenCity] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5926,7 +5798,6 @@
             "Empire enters golden age",
             "[+25]% Golden Age length",
             "[+4 Production] in cities on [River] tiles <during a Golden Age>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.TajMahal] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5940,7 +5811,6 @@
         "uniques": [
             "[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]",
             "[-10]% Culture cost of adopting new Policies",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.StBasilsCathedral] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5956,7 +5826,6 @@
         "uniques": [
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [2] [Resource.DiplomaticFavor]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.PotalaPalace] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -5974,7 +5843,6 @@
         "uniques": [
             "[+1 Production] from [Improvement.Mine] tiles [in this city]",
             "[+1 Production] from [Improvement.Quarry] tiles [in this city]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.RuhrValley] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -5993,7 +5861,6 @@
         "uniques": [
             "[2] Free Technologies",
             "Provides [3] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Oxford] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -6004,11 +5871,10 @@
     { //自由女神像
         "name": "AWonder.StatueOfLiberty",
         "isWonder": true,
+        "happiness":8,
         "uniques": [
             "Provides [4] [Resource.DiplomaticFavor]",
-            "Provides [4] [Resource.Livability] <in this city>",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.StatueOfLiberty] improvement on a specific tile",
             "Class.WonderEra.Industrial"
         ],
@@ -6022,7 +5888,6 @@
         "uniques": [
             "Free Great Person",
             "Provides [4] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.BolshoiTheatre] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -6037,7 +5902,6 @@
         "isWonder": true,
         "uniques": [
             "[+4 Gold] [in all cities connected to capital]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.PanamaCanal] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -6055,7 +5919,6 @@
             "[+100]% [Science] from City-States",
             "[+100]% [Culture] from City-States",
             "[+100]% [Faith] from City-States",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.HungarianParliamentBuilding] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -6072,7 +5935,6 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [3] [Resource.Unit.Merchant]",
             "Free [Unit.Merchant] appears",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.BigBen] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -6087,7 +5949,6 @@
         "uniques": [
             "[2] free [Unit.Artist] units appear",
             "Provides [5] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.HermitageMuseum] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Industrial"
@@ -6101,7 +5962,6 @@
         "uniques": [
             "[+2 Culture] from every [Luxury resource] <in tiles without [Class.District]>",
             "[+2 Science] from every [Strategic resource] <in tiles without [Class.District]>",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.EiffelTower] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Modern"
@@ -6117,7 +5977,6 @@
         },
         "uniques": [
             "Free Great Person",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Broadway] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Modern"
@@ -6131,7 +5990,6 @@
         "culture": 4,
         "uniques": [
             "Gain [1600] [Culture]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.StatueofChristtheRedeemer] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Modern"
@@ -6142,13 +6000,12 @@
     { //金门大桥
         "name": "AWonder.GoldenGateBridge",
         "isWonder": true,
+        "happiness":8,
         "percentStatBonus": {
             "gold": 30
         },
         "uniques": [
-            "Provides [4] [Resource.Livability] <in this city>",
-            "This tile would provide a defence of 28%",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
+            "Comment [Gives a defensive bonus of [28]%]",
             "Creates a [District.GoldenGateBridge] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Modern"
@@ -6161,7 +6018,6 @@
         "isWonder": true,
         "uniques": [
             "[+100]% [Resource.Electricity] resource production",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Biosphere] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Atomic"
@@ -6176,7 +6032,6 @@
         //        "greatPersonPoints":{"Unit.Artist":6},
         "uniques": [
             "Provides [6] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.SydneyOperaHouse] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Atomic"
@@ -6188,12 +6043,11 @@
         "name": "AWonder.MaracanaStadium",
         "isWonder": true,
         "culture": 6,
+        "happiness":4,
         "requiredBuilding": "Building.Stadium",
         "uniques": [
-            "Provides [2] [Resource.Livability] <in this city>",
-            "Comment [[+1] [Resource.Livability] from every [Building.Zoo]]",
-            "Comment [[+1] [Resource.Livability] from every [Building.Stadium]]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
+            "[+2 Happiness] from every [Building.Zoo]",
+            "[+2 Happiness] from every [Building.Stadium]",
             "Creates a [District.MaracanaStadium] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Atomic"
@@ -6210,7 +6064,6 @@
             "Provides [5] [Resource.Unit.Scientist]",
             "[+20]% [Science] [in all cities]",
             "[+10]% [Production] [in all cities]",
-            "Provides [1] [Resource.Livability] <in this city> <after adopting [FollowerBelief.DivineRevelation]> <hidden from users>",
             "Creates a [District.Amundsen-ScottSouthPoleStation] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Atomic"
@@ -6255,7 +6108,6 @@
         "cost": 0,
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
-            "Comment [Provides 1 Livability in cities with a Unique District Landmark]",
             "Comment [Provides 2 1/2 Remaining Housing Capacity in cities with a Unique District Landmark]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -6292,7 +6144,7 @@
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
             "[+2 Food] from every [Building.ClassificationWall]",
-            "Comment [Provides 1 Livability in cities with a Wall]",
+            "[+2 Happiness] from every [Building.AncientWalls]",
             "Resting point for Influence with City-States is increased by [20]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -7607,7 +7459,7 @@
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
             "[+100]% Yield from every [Class.TheaterSquare]",
-            "Comment [Provides 1 more Livability from every Stadium]",
+            "[+2 Happiness] from every [Building.Stadium]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -7665,7 +7517,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "Comment [[-1] [Resource.Livability] [in all cities]]",
+            "[-2 Happiness] [in all cities]",
             "[+1 Production] per [1] population [in capital]",
             "[+1 Production] per [3] population [in all cities]",
             "Can only be built <in [Capital] cities>",
@@ -7734,7 +7586,7 @@
         "cost": 0,
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
-            "Comment [[+1] [Resource.Livability] from every [Class.Governor.Level1]]",
+            "[+2 Happiness] from every [Class.Governor.Level1]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.SocialMedia]>",
