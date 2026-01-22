@@ -880,7 +880,7 @@
         "requiredTech": "Tech.Civic.Agriculture",
         "uniqueTo": "Nation.Shang",
         "cityStrength": 40,
-        "happiness":4,
+        "happiness": 4,
         "cost": 0,
         "uniques": [
             "[+1 Culture] from [Luxury resource] tiles [in this city]",
@@ -893,7 +893,7 @@
         "name": "Building.Guo",
         "requiredTech": "Tech.Civic.Agriculture",
         "uniqueTo": "Nation.Zhou",
-        "happiness":4,
+        "happiness": 4,
         "cost": 0,
         "uniques": [
             "[+50]% Production when constructing [All] buildings [in this city]",
@@ -921,7 +921,7 @@
         "name": "Building.Jiao",
         "requiredTech": "Civic.Feudalism",
         "uniqueTo": "Nation.Zhou",
-        "happiness":4,
+        "happiness": 4,
         "cost": 0,
         "uniques": [
             "[+30]% Production when constructing [All] buildings [in this city]",
@@ -1391,7 +1391,7 @@
     },
     { //黑暗召唤塔
         "name": "Building.DarkCallTower",
-        "happiness":4,
+        "happiness": 4,
         "uniques": [
             "Unsellable",
             "Unbuildable",
@@ -2029,7 +2029,7 @@
         "name": "Governor.AmaniIIB",
         "requiredResource": "Resource.GovernorTitle",
         // "requiredBuilding":"Governor.AmaniI",
-        "happiness":4,
+        "happiness": 4,
         "uniques": [
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
@@ -2580,10 +2580,13 @@
         "science": 2,
         "gold": 6,
         "culture": 1,
-        "happiness":2,
+        "happiness": 4,
         "cityStrength": 20,
         "cityHealth": 50,
         "cost": 1,
+        "specialistSlots": {
+            "Specialist.BasicPop": 2
+        },
         "uniques": [
             "Indicates the capital city",
             "Provides [4] [Resource.halfHouse] <in this city>",
@@ -2779,6 +2782,9 @@
     { //城市计数器
         "name": "Building.CityNumberCount",
         "cost": 0,
+        "specialistSlots": {
+            "Specialist.BasicPop": 1
+        },
         "uniques": [
             "Unsellable",
             "Automatically built in all cities where it is buildable",
@@ -3265,12 +3271,13 @@
         "cost": 190,
         "hurryCostModifier": -33,
         "faith": 3,
-        "happiness":2,
+        "happiness": 2,
         "requiredBuilding": "Building.Temple",
         "specialistSlots": {
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3293,6 +3300,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3316,6 +3324,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3338,6 +3347,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3359,6 +3369,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3376,12 +3387,13 @@
         "name": "Building.Pagoda",
         "cost": 190,
         "faith": 3,
-        "happiness":2,
+        "happiness": 2,
         "requiredBuilding": "Building.Temple",
         "specialistSlots": {
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3404,6 +3416,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3425,6 +3438,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3446,6 +3460,7 @@
             "Specialist.Priest": 1
         },
         "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
@@ -3628,6 +3643,7 @@
             "Specialist.Scientist": 1
         },
         "uniques": [
+            "[+1 Science] from every [Specialist.Scientist] <in this city>",
             "Provides [1] [Resource.Unit.Scientist]",
             "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
@@ -3767,6 +3783,7 @@
             "Specialist.Merchant": 1
         },
         "uniques": [
+            "[+3 Gold] from every [Specialist.Merchant] <in this city>",
             "Provides [1] [Resource.Unit.Merchant]",
             "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
@@ -3933,6 +3950,7 @@
         },
         //        "greatPersonPoints": {"Unit.Artist": 1},
         "uniques": [
+            "[+1 Culture] from every [Specialist.Artist] <in this city>",
             "Provides [1] [Resource.Unit.Artist]",
             "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
@@ -3957,7 +3975,7 @@
         "name": "Building.DistrictUnique.EntertainmentComplex",
         "cost": 44,
         "hurryCostModifier": -33,
-        "happiness":2,
+        "happiness": 2,
         "maintenance": 1,
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredResource": "Resource.DistrictLimitation",
@@ -3977,7 +3995,7 @@
         "hurryCostModifier": -33,
         "maintenance": 1,
         "culture": 1,
-        "happiness":4,
+        "happiness": 4,
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
@@ -3995,7 +4013,7 @@
         "hurryCostModifier": -33,
         "maintenance": 1,
         "culture": 3,
-        "happiness":6,
+        "happiness": 6,
         "faith": 2,
         "greatPersonPoints": {
             "Unit.General": 2
@@ -4014,7 +4032,7 @@
         "cost": 350,
         "hurryCostModifier": -33,
         "maintenance": 2,
-        "happiness":6,
+        "happiness": 6,
         "requiredBuilding": "Building.Arena",
         "requiredTech": "Civic.NaturalHistory",
         "uniques": [
@@ -4029,7 +4047,7 @@
     {
         "name": "Building.Stadium",
         "cost": 470,
-        "happiness":4,
+        "happiness": 4,
         "hurryCostModifier": -33,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Zoo",
@@ -4043,7 +4061,7 @@
     {
         "name": "Building.Powered.Stadium",
         "cost": 1,
-        "happiness":8,
+        "happiness": 8,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Stadium",
         "uniques": [
@@ -4058,7 +4076,7 @@
         "cost": 44,
         "hurryCostModifier": -33,
         "maintenance": 1,
-        "happiness":2,
+        "happiness": 2,
         "requiredTech": "Civic.NaturalHistory",
         "requiredResource": "Resource.DistrictLimitation",
         //        "cannotBeBuiltWith":"Building.DistrictUnique.EntertainmentComplex",
@@ -4079,7 +4097,7 @@
         "hurryCostModifier": -33,
         "maintenance": 1,
         "culture": 3,
-        "happiness":8,
+        "happiness": 8,
         "requiredTech": "Civic.NaturalHistory",
         "requiredBuilding": "Building.DistrictUnique.WaterPark",
         "uniques": [
@@ -4093,7 +4111,7 @@
         "name": "Building.Aquarium",
         "cost": 350,
         "hurryCostModifier": -33,
-        "happiness":8,
+        "happiness": 8,
         "maintenance": 2,
         "requiredBuilding": "Building.FerrisWheel",
         "requiredTech": "Civic.NaturalHistory",
@@ -4110,7 +4128,7 @@
         "name": "Building.WaterSportsCenter",
         "cost": 470,
         "hurryCostModifier": -33,
-        "happiness":4,
+        "happiness": 4,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Aquarium",
         "uniques": [
@@ -4123,7 +4141,7 @@
     {
         "name": "Building.Powered.WaterSportsCenter",
         "cost": 1,
-        "happiness":8,
+        "happiness": 8,
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.WaterSportsCenter",
         "uniques": [
@@ -4293,6 +4311,7 @@
         },
         //		"greatPersonPoints": {"Unit.Engineer": 1},
         "uniques": [
+            "[+1 Production] from every [Specialist.Engineer] <in this city>",
             "Provides [1] [Resource.Unit.Engineer]",
             "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
@@ -4368,6 +4387,7 @@
         },
         //		"greatPersonPoints": {"Unit.Engineer": 1},
         "uniques": [
+            "[+1 Production] from every [Specialist.Engineer] <in this city>",
             "Provides [1] [Resource.Unit.Engineer]",
             "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
@@ -4443,6 +4463,7 @@
         },
         //		"greatPersonPoints": {"Unit.Engineer": 1},
         "uniques": [
+            "[+1 Production] from every [Specialist.Engineer] <in this city>",
             "Provides [1] [Resource.Unit.Engineer]",
             "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
@@ -4632,6 +4653,7 @@
         },
         //		"greatPersonPoints": {"Unit.General": 1},
         "uniques": [
+            "[+1 Production] from every [Specialist.ArmyLogistics] <in this city>",
             "Provides [1] [Resource.Unit.General]",
             "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Coal]",
@@ -4658,6 +4680,7 @@
         },
         //		"greatPersonPoints": {"Unit.General": 1},
         "uniques": [
+            "[+1 Production] from every [Specialist.ArmyLogistics] <in this city>",
             "[+3 Production] per [5] population [in this city]",
             "[+100]% Production when constructing [Unit.RedArmy] units [in this city]",
             "Provides [1] [Resource.Unit.General]",
@@ -4727,7 +4750,7 @@
         "replaces": "Building.DistrictUnique.Port",
         "uniqueTo": "Nation.England",
         "cost": 22,
-        "happiness":2,
+        "happiness": 2,
         "hurryCostModifier": -33,
         "maintenance": 1,
         "requiredTech": "Tech.AstronomicalNavigation",
@@ -4864,6 +4887,7 @@
         },
         //		"greatPersonPoints": {"Unit.Admiral": 1},
         "uniques": [
+            "[+1 Food, +1 Gold] from every [Specialist.ArmyLogistics] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
             "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "[+2 Gold] from [Coast] tiles [in this city]",
@@ -4970,7 +4994,7 @@
         "replaces": "Building.DistrictUnique.Raceline",
         "uniqueTo": "Nation.Rome",
         "cost": 18,
-        "happiness":2,
+        "happiness": 2,
         "hurryCostModifier": -33,
         "maintenance": 1,
         "requiredTech": "Tech.Project",
@@ -5430,7 +5454,7 @@
         "cost": 400,
         "isWonder": true,
         "culture": 3,
-        "happiness":4,
+        "happiness": 4,
         "requiredBuilding": "Building.Arena",
         "uniques": [
             "[+3 Culture, +2 Happiness] <starting from the [Era.Medieval]>",
@@ -5604,7 +5628,7 @@
     { //休伊神庙
         "name": "AWonder.HuiyiTemple",
         "cost": 710,
-        "happiness":4,
+        "happiness": 4,
         "isWonder": true,
         "uniques": [
             "[+1 Food, +1 Production] from every [Lakes] <in tiles without [Class.District]>",
@@ -5688,7 +5712,7 @@
     { //阿尔罕布拉宫
         "name": "AWonder.AlhambraPalace",
         "isWonder": true,
-        "happiness":2,
+        "happiness": 2,
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Provides [2] [Resource.Unit.General]",
@@ -5871,7 +5895,7 @@
     { //自由女神像
         "name": "AWonder.StatueOfLiberty",
         "isWonder": true,
-        "happiness":8,
+        "happiness": 8,
         "uniques": [
             "Provides [4] [Resource.DiplomaticFavor]",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
@@ -6000,7 +6024,7 @@
     { //金门大桥
         "name": "AWonder.GoldenGateBridge",
         "isWonder": true,
-        "happiness":8,
+        "happiness": 8,
         "percentStatBonus": {
             "gold": 30
         },
@@ -6043,7 +6067,7 @@
         "name": "AWonder.MaracanaStadium",
         "isWonder": true,
         "culture": 6,
-        "happiness":4,
+        "happiness": 4,
         "requiredBuilding": "Building.Stadium",
         "uniques": [
             "[+2 Happiness] from every [Building.Zoo]",

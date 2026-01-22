@@ -114,7 +114,7 @@
         "[-100]% unhappiness from the number of cities", //城市不扣快乐
         // "[-100]% Unhappiness from [Population] [in all cities]", //人口不扣快乐
         "[-1 Happiness] for every known Natural Wonder", //发现奇观不加快乐
-        "[+4] Happiness from each type of luxury resource", //奢侈品+8快乐
+        "[+2] Happiness from each type of luxury resource <after discovering [Civic.GamesAndEntertainment]>",
         "[+10]% [Production] [in all cities] <when number of [[Happiness] / ([Cities] * (1-floor(1/(1+abs([Cities])))) + floor(1/(1+abs([Cities]))))] is more than [2]>",
         "[+10]% [Science] [in all cities] <when number of [[Happiness] / ([Cities] * (1-floor(1/(1+abs([Cities])))) + floor(1/(1+abs([Cities]))))] is more than [2]>",
         "[+10]% [Culture] [in all cities] <when number of [[Happiness] / ([Cities] * (1-floor(1/(1+abs([Cities])))) + floor(1/(1+abs([Cities]))))] is more than [2]>",

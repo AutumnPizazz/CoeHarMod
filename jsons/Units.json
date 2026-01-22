@@ -374,11 +374,11 @@
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"uniques": [
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[4] times> <when above [0] [Resource.AuxiliaryCounter1]> <when below [2] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <when above [1] [Resource.AuxiliaryCounter1]> <when below [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times> <when above [2] [Resource.AuxiliaryCounter1]> <when below [4] [Resource.AuxiliaryCounter1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <when above [3] [Resource.AuxiliaryCounter1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[3] times> <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is equal to [0]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[4] times> <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is equal to [1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is equal to [2]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times>  <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is equal to [3]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is more than [3]> <hidden from users>",
 			"Can build [Repair] improvements on tiles",
 			"Cost increases by [10] when built",
 			"Class.Unit.Builder"
