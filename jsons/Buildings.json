@@ -1058,7 +1058,8 @@
         "hurryCostModifier": -33,
         "requiredTech": "Civic.PoliticalPhilosophy",
         "uniques": [
-            "[+2 Happiness] from every [Class.Building.DistrictUnique]",
+            "[+1 Happiness] [in all cities]",
+            "[+1 Happiness] [in all cities] <when number of [[Building.Monument] Buildings] is equal to [Cities]>",
             "Comment [[+2] [Resource.halfHouse] [in cities with a [Class.Building.DistrictUnique]]]",
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
@@ -1083,6 +1084,7 @@
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.GovernmentPlaza]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.ForeignQuarter]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
+            "[+1 Food, +1 Production] from every [Building.Monument]",
             "Provides [1] [Resource.MilitaryPolicySlot]",
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
