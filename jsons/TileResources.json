@@ -519,8 +519,8 @@
 		"revealedBy": "Civic.BasicTrade",
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen"
+			"Cannot be traded"
+			// "Not shown on world screen"
 		]
 	},
 	{ //间谍容量
@@ -588,7 +588,7 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Not shown on world screen",
+			// "Not shown on world screen",
 			"City-level resource"
 		]
 	},
@@ -608,7 +608,7 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Not shown on world screen",
+			// "Not shown on world screen",
 			"City-level resource"
 		]
 	},
