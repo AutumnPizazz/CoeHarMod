@@ -867,7 +867,7 @@
         "uniqueTo": "Nation.Yuan",
         "cost": 0,
         "uniques": [
-            "Provides [1] [Resource.CityNumber]",
+            // "Provides [1] [Resource.CityNumber]",
             "Consumes [1] [Resource.halfHouse] <in this city>",
             "Can only be built <in cities without a [Building.Palace]>",
             "Automatically built in all cities where it is buildable",
@@ -2825,8 +2825,8 @@
             "Provides [1] [Resource.DistrictLimitation] <in this city> <in cities with at least [25] [Population]>",
             "Provides [1] [Resource.DistrictLimitation] <in this city> <in cities with at least [28] [Population]>",
             /*其他效果*/
-            "Provides [1] [Resource.CityNumber]",
-            "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
+            // "Provides [1] [Resource.CityNumber]",
+            // "Provides [1] [Resource.LargeCityNumber] <in cities with at least [10] [Population]>",
             "Provides [4] [Resource.halfHouse] <in this city>", //基础住房
             "Provides [2] [Resource.halfHouse] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>", //古典共和修正
             "Provides [2] [Resource.halfHouse] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>", //共和传承修正

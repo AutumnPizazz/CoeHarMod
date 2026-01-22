@@ -747,15 +747,15 @@
 			"Not shown on world screen"
 		]
 	},
-	{ //大城市数量
-		"name": "Resource.LargeCityNumber",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen"
-		]
-	},
+	// { //大城市数量
+	// 	"name": "Resource.LargeCityNumber",
+	// 	"resourceType": "Strategic",
+	// 	"terrainsCanBeFoundOn": [],
+	// 	"uniques": [
+	// 		"Cannot be traded",
+	// 		"Not shown on world screen"
+	// 	]
+	// },
 	{ //单位维护费
 		"name": "Resource.UnitMaintenance",
 		"resourceType": "Strategic",
