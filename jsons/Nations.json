@@ -131,8 +131,7 @@
 		"uniqueName": "Yongle Prosperity",
 		"uniques": [
 			"[+2 Science, +2 Culture, +4 Gold] per [3] population [in all cities] <in cities with at least [10] [Population]>",
-			"[+2 Happiness] [in all cities] <in cities with at least [5] [Population]>",
-			"[+2 Happiness] [in all cities] <in cities with at least [10] [Population]>",
+			"[-15]% Unhappiness from [Population] [in all cities] <in cities with at least [10] [Population]>",
             "Comment [[+1] [Usage]] <for [Unit.CommonWorker1] units>",
 			"Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
 		],

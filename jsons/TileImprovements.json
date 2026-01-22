@@ -16,8 +16,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
@@ -43,8 +41,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
@@ -70,8 +66,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
@@ -96,8 +90,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"[+2 Happiness] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -140,8 +132,6 @@
 		],
 		"faith": 2,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"[+2 Happiness] <in [River] tiles> <after adopting [Pantheon.RiverGod]>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -182,8 +172,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Mountain]",
@@ -227,8 +215,6 @@
 		],
 		"science": 3,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
@@ -269,8 +255,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -308,8 +292,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Culture] <with [2] to [3] neighboring [Class.District] tiles>",
@@ -343,8 +325,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Culture] for each adjacent [Class.District]",
@@ -378,8 +358,6 @@
 		],
 		"gold": 2,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -414,8 +392,6 @@
 		],
 		"gold": 2,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -449,8 +425,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -486,8 +460,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Tile provides yield without assigned population",
@@ -519,8 +491,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -557,8 +527,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -585,8 +553,6 @@
 		],
 		"overrideStats": true,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -606,8 +572,6 @@
 		],
 		"overrideStats": true,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
@@ -625,8 +589,6 @@
 			"LargeRiver"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles>",
@@ -649,8 +611,6 @@
 			"Lakes"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Gold] for each adjacent [Class.District]",
@@ -680,8 +640,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Cannot be built on [Resource.EarthVeins] tiles",
@@ -709,8 +667,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"[+1 Culture] for each adjacent [Class.District]",
@@ -739,8 +695,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Only available <with [1] to [1] neighboring [City center] tiles> <hidden from users>",
 			"Great Improvement",
 			"Can only be built on [River] tiles",
@@ -770,8 +724,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Only available <with [1] to [1] neighboring [City center] tiles> <hidden from users>",
 			"Great Improvement",
 			"Can only be built on [River] tiles",
@@ -804,8 +756,6 @@
 		"food": 2,
 		"production": 2,
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Only available <with [1] to [1] neighboring [City center] tiles> <hidden from users>",
 			"Great Improvement",
 			"Can only be built on [River] tiles",
@@ -829,8 +779,6 @@
 			"Land"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Tile provides yield without assigned population",
@@ -1294,7 +1242,8 @@
 			"Class.District",
 			"Unpillagable",
 			"Irremovable",
-			"Unbuildable"
+			"Unbuildable",
+			"Great Improvement"
 		],
 		"civilopediaText": [
 			{
@@ -1349,8 +1298,6 @@
 			"Landform.FloodPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Can only be built on [River] tiles",
 			"Tile provides yield without assigned population",
@@ -1378,8 +1325,6 @@
 			"Landform.Swamp"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Removes removable features when built",
@@ -1401,8 +1346,6 @@
 			"Landform.Swamp"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1419,8 +1362,6 @@
 			"Landform.AlluvialPlain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1439,8 +1380,6 @@
 			"Landform.Swamp"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1456,8 +1395,6 @@
 			"Desert"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1473,8 +1410,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1490,8 +1425,6 @@
 			"Coast"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1507,8 +1440,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1527,8 +1458,6 @@
 			"Landform.Swamp"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1544,8 +1473,6 @@
 			"Coast"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1581,8 +1508,6 @@
 			"Landform.Hill"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1603,8 +1528,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1620,8 +1543,6 @@
 			"Mountain"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1642,8 +1563,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1659,8 +1578,6 @@
 			"Coast"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1680,8 +1597,6 @@
 			"Landform.Swamp"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1703,8 +1618,6 @@
 			"Landform.Forest"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1721,8 +1634,6 @@
 			"Plains"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1738,8 +1649,6 @@
 			"Lakes"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1777,8 +1686,6 @@
 			"Landform.Swamp"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1798,8 +1705,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1818,8 +1723,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1835,8 +1738,6 @@
 			"Landform.Rainforest"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1852,8 +1753,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Gives a defensive bonus of [28]%",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -1873,8 +1772,6 @@
 			"Landform.FloodPlain"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1893,8 +1790,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1915,8 +1810,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1932,8 +1825,6 @@
 			"Coast"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1953,8 +1844,6 @@
 			"Landform.Hill"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1973,8 +1862,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -1991,8 +1878,6 @@
 			"Plains"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2011,8 +1896,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2028,8 +1911,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2050,8 +1931,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2069,8 +1948,6 @@
 			"Plains"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2086,8 +1963,6 @@
 			"Coast"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2103,8 +1978,6 @@
 			"Plains"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2124,8 +1997,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2145,8 +2016,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2165,8 +2034,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2187,8 +2054,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2204,8 +2069,6 @@
 			"Plains"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2222,8 +2085,6 @@
 			"Plains"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2239,8 +2100,6 @@
 			"Landform.Hill"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2256,8 +2115,6 @@
 			"Coast"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Gives a defensive bonus of [28]%",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
@@ -2277,8 +2134,6 @@
 			"Snow"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2294,8 +2149,6 @@
 			"Coast"
 		], //看情况改
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2314,8 +2167,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",
@@ -2331,8 +2182,6 @@
 			"Snow"
 		],
 		"uniques": [
-			"Only available <in tiles without [Strategic resource]> <hidden from users>",
-			"Only available <in tiles without [Luxury resource]> <hidden from users>",
 			"Great Improvement",
 			"Tile provides yield without assigned population",
 			"Irremovable",

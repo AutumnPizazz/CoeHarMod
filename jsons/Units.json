@@ -429,6 +429,7 @@
 			"[+2] Movement <before turn number [2]>",
 			"[+1] Movement <after adopting [Pantheon.ReligiousMigrant]>",
 			"Requires at least [2] population",
+			"[-1] population [in this city]",
 			"[+1] Sight",
 			"Cost increases by [20] when built"
 		]
@@ -1167,7 +1168,7 @@
 		"obsoleteTech": "Tech.MilitaryScience",
 		"attackSound": "metalhit",
 		"uniques": [
-			"[-1] population in a random city <upon being defeated>",
+			"[-1] population [in this city]",
 			"Instantly consumes [15] [Resource.Niter]",
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance4",
