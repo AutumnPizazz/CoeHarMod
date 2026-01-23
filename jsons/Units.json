@@ -429,7 +429,7 @@
 			"[+2] Movement <before turn number [2]>",
 			"[+1] Movement <after adopting [Pantheon.ReligiousMigrant]>",
 			"Requires at least [2] population",
-			"[-1] population [in this city]",
+			"[-1] population [in this city] <in cities without a [Governor.MagnusIIB]>",
 			"[+1] Sight",
 			"Cost increases by [20] when built"
 		]

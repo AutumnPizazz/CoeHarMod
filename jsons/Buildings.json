@@ -1789,7 +1789,8 @@
         "uniques": [
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
-            "[+50]% Production when constructing [Unit.Settler] units [in this city]",
+            "Comment [New trained [Unit.Settler] in this city cannot cause population loss]",
+            "All newly-trained [Unit.Settler] units [in this city] receive the [Promotion.FastMove] promotion",
             "Only available <in cities with a [Governor.MagnusI]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
@@ -3737,7 +3738,7 @@
         "name": "Building.Bank",
         "cost": 280,
         "hurryCostModifier": -33,
-        "gold": 5,
+        "gold": 10,
         "requiredBuilding": "Building.Market",
         "requiredTech": "Tech.Banking",
         "specialistSlots": {
@@ -3758,7 +3759,7 @@
         "uniqueTo": "Nation.Ottoman",
         "cost": 200,
         "hurryCostModifier": -33,
-        "gold": 6,
+        "gold": 15,
         "requiredBuilding": "Building.Market",
         "requiredTech": "Tech.Banking",
         "specialistSlots": {
@@ -3778,7 +3779,7 @@
         "name": "Building.StockExchange",
         "cost": 320,
         "hurryCostModifier": -33,
-        "gold": 4,
+        "gold": 10,
         "requiredBuilding": "Building.Bank",
         "requiredTech": "Tech.Economy",
         "specialistSlots": {
@@ -3797,7 +3798,7 @@
     { //证券交易所(通电)
         "name": "Building.Powered.StockExchange",
         "cost": 1,
-        "gold": 7,
+        "gold": 30,
         "requiredBuilding": "Building.StockExchange",
         "requiredTech": "Tech.Economy",
         "uniques": [
