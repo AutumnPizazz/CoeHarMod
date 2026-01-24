@@ -62,7 +62,9 @@
 					"Tech.Civic.Agriculture"
 				],
 				"quote": "东西南北，无不可至，遥涉波涛，若履平地。\n——《资治通鉴·唐纪三十四》",
-				"uniques": []
+				"uniques": [
+					"Enables embarkation for land units <for [Unit.CommonWorker1] units>"
+				]
 			},
 			{ //占星术
 				"name": "Tech.Astrology",
@@ -231,7 +233,7 @@
 				],
 				"quote": "兵贵神速，不贵多。\n——《史记·淮阴侯列传》",
 				"uniques": [
-					"Military units have the ability to enjoy the Flank Attack bonuses",
+					"Comment [Military units have the ability to enjoy the Flank Attack bonuses and Support Defend bonus]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},

@@ -1479,8 +1479,8 @@
 			//		"Empire enters golden age <upon constructing [Building.Factory] [in capital]>",
 			"[+50]% Golden Age length",
 			"Empire enters golden age <upon entering the [Era.Industrial]>",
-			"[+80]% [Production] [in all coastal cities] <during a Golden Age>",
-			"[+100]% [Gold] [in all coastal cities] <during a Golden Age>",
+			"[+20]% [Production] [in all coastal cities] <during a Golden Age> <for every [Era number]>",
+			"[+25]% [Gold] [in all coastal cities] <during a Golden Age> <for every [Era number]>",
 			"[+2] Movement <for [Embarked] units> <during a Golden Age>"
 		],
 		"cities": [
@@ -1946,7 +1946,6 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Country of Thousand Islands",
 		"uniques": [
-			"[+2 Happiness] [in all coastal cities]",
 			"Comment [[Class.Campus] grant an additional [+1] adjacency bonus to [Coast]]",
 			"Comment [[Class.HolySite] grant an additional [+1] adjacency bonus to [Coast]]"
 		],

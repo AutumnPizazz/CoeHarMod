@@ -854,7 +854,6 @@
         "requiredTech": "Tech.Shipbuilding",
         "uniques": [
             "May buy [{Water} {Military}] units with [Faith] for [1] times their normal Production cost",
-            "[+3 Faith] [in all coastal cities]",
             "[+2 Faith] from every [Class.DistrictBuilding.Port]",
             "Destroyed when the city is captured",
             "Triggers a global alert upon completion"
@@ -989,7 +988,7 @@
         "cityStrength": 100,
         "uniques": [
             "[+50]% Yield from every [Improvement.Qanat]",
-            "[+2 Gold] from each Trade Route",
+            "[+2 Gold] from every [Building.TradingPost]",
             "Class.WonderEra.Classical",
             "Triggers a global alert upon completion"
         ]
@@ -1059,7 +1058,7 @@
         "requiredTech": "Civic.PoliticalPhilosophy",
         "uniques": [
             "[+1 Happiness] [in all cities]",
-            "[+1 Happiness] [in all cities] <when number of [[Building.Monument] Buildings] is equal to [Cities]>",
+            "[+1 Happiness] from every [Building.Monument]",
             "Comment [[+2] [Resource.halfHouse] [in cities with a [Class.Building.DistrictUnique]]]",
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
@@ -1082,7 +1081,9 @@
         "uniques": [
             "[+10]% Production when constructing [All] wonders [in all cities]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.GovernmentPlaza]",
+            "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.DistrictUnique.GovernmentPlaza]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.ForeignQuarter]",
+            "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.DistrictUnique.ForeignQuarter]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
             "[+1 Food, +1 Production] from every [Building.Monument]",
             "Provides [1] [Resource.MilitaryPolicySlot]",
@@ -1172,7 +1173,7 @@
         "hurryCostModifier": -33,
         "requiredTech": "Civic.RightToVote",
         "uniques": [
-            "[+4 Food, +4 Production] from each Trade Route",
+            "[+4 Food, +4 Production] from every [Building.TradingPost]",
             "[Gold] cost of purchasing items in cities [-15]%",
             "Provides [1] [Resource.MilitaryPolicySlot]",
             "Provides [3] [Resource.EconomicPolicySlot]",
@@ -1860,7 +1861,7 @@
         "uniques": [
             "Unbuildable",
             "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Gold] from each Trade Route",
+            "[+2 Gold] from every [Building.TradingPost]",
             "Unsellable",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor.Level1]>",
@@ -2839,7 +2840,6 @@
             "Provides [4] [Resource.halfHouse] <in this city>", //基础住房
             "Provides [2] [Resource.halfHouse] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gov.ClassicalRepublic] is constructed>", //古典共和修正
             "Provides [2] [Resource.halfHouse] <in this city> <in cities with a [Class.Building.DistrictUnique]> <if [Gene.gonghechuancheng] is constructed>", //共和传承修正
-            "[+2 Food] <in cities with a [Class.Governor.Level1]> <if [Building.AudienceChamber] is constructed>", //谒见厅修正
             "Provides [4] [Resource.halfHouse] <in this city> <in [Fresh Water] tiles>", //淡水住房修正
             "Provides [2] [Resource.halfHouse] <in this city> <in [Coastal] tiles> <in tiles without [Fresh Water]>", //海水住房修正
             "Provides [-4] [Resource.halfHouse] <in this city> <in [Fresh Water] tiles> <for [Nation.Maya] Civilizations>", //淡水住房修正-对玛雅
@@ -2934,8 +2934,7 @@
         "maintenance": 1,
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
-            "[+2 Happiness] from every [Class.Governor.Level1]",
-            "Comment [[+2 Food] [in cities with a [Class.Governor.Level1]]]",
+            "[+2 Happiness, +3 Food] from every [Class.Governor.Level1]",
             "Provides [1] [Resource.GovernorTitle]",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.WarlordThrone]>",
@@ -2954,7 +2953,8 @@
         "maintenance": 1,
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
-            "[+1 Production] [in all cities]",
+            "[+25]% Production when constructing [Military] units [in all non-occupied cities]",
+            "[+25]% [Class.BasicStrategicResource] resource production",
             "Provides [2] [Resource.Horse] <after discovering [Tech.AnimalHusbandry]>",
             "Provides [2] [Resource.Iron] <after discovering [Tech.CopperCasting]>",
             "Provides [2] [Resource.Niter] <after discovering [Tech.MilitaryEngineering]>",
@@ -5664,7 +5664,7 @@
         "isWonder": true,
         "requiredBuilding": "Building.University",
         "uniques": [
-            "[+1 Science, +1 Gold, +1 Faith] from each Trade Route",
+            "[+1 Science, +2 Gold, +2 Faith] from every [Building.TradingPost]",
             "Creates a [District.UniversityOfSankore] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -5796,7 +5796,7 @@
             "Provides [1] [Resource.TradeRouteCapacity]",
             "Provides [2] [Resource.Unit.Merchant]",
             "[+2 Gold] from [Bonus resource] tiles [in this city]",
-            "[+2 Gold] from each Trade Route",
+            "[+2 Gold] from every [Building.TradingPost]",
             "Creates a [District.GreatZimbabwe] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -6135,7 +6135,9 @@
         "cost": 0,
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
-            "Comment [Provides 2 1/2 Remaining Housing Capacity in cities with a Unique District Landmark]",
+            "[+1 Happiness] [in all cities]",
+            "[+1 Happiness] from every [Building.Monument]",
+            "Comment [[+2] [Resource.halfHouse] [in cities with a [Class.Building.DistrictUnique]]]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -6153,7 +6155,9 @@
         "uniques": [
             "[+10]% Production when constructing [All] wonders [in all cities]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.GovernmentPlaza]",
+            "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.DistrictUnique.GovernmentPlaza]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.ForeignQuarter]",
+            "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.DistrictUnique.ForeignQuarter]",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -6222,7 +6226,7 @@
         "cost": 0,
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
-            "[+4 Food, +4 Production] from each Trade Route",
+            "[+4 Food, +4 Production] from every [Building.TradingPost]",
             "[Gold] cost of purchasing items in cities [-15]%",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -6993,7 +6997,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "[+2 Gold] from each Trade Route",
+            "[+2 Gold] from every [Building.TradingPost]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Mercantilism]>",
@@ -7144,7 +7148,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "[+1 Science, +1 Culture] from each Trade Route",
+            "[+1 Science, +1 Culture] from every [Building.TradingPost]",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Capitalism]>",
             "Destroyed when the city is captured",
@@ -7261,7 +7265,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "[+4 Gold, +1 Faith] from each Trade Route",
+            "[+4 Gold, +1 Faith] from every [Building.TradingPost]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Globalization]>",
@@ -7514,7 +7518,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "[+2 Production, +5 Gold] from each Trade Route",
+            "[+2 Production, +5 Gold] from every [Building.TradingPost]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -7656,7 +7660,7 @@
         "cost": 0,
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
-            "[+2 Food, +2 Production] from each Trade Route",
+            "[+2 Food, +2 Production] from every [Building.TradingPost]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",

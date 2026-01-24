@@ -193,6 +193,7 @@
         "[-1 Production, -1 Gold] from [Resource.Rubber] tiles [in all cities] <in [Class.District] tiles> <in tiles without [City center]>",
         /*不便归类*/
         "[-100]% to Flank Attack bonuses <before discovering [Civic.MilitaryTradition]>", //取消早期夹击加成
+        "[+10]% Strength <after discovering [Civic.MilitaryTradition]> <when defending> <vs [Melee] units> <for [Melee] units> <when adjacent to a [Friendly] unit>",//解锁支援加成
         "[-100]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]>", //取消初始城市攻击
         "[+60]% Strength for cities <when attacking> <in cities without a [Building.AncientWalls]> <in cities with a [Building.Palace]>", //首都拥有减弱的城市攻击
         "[-100]% maintenance costs", //单位维护费修正

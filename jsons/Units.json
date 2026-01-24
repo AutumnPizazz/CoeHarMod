@@ -404,7 +404,7 @@
 		"movement": 2,
 		"requiredTech": "Civic.BasicTrade",
 		"uniques": [
-			"Consumes [1] [Resource.TradeRouteCapacity]",
+			// "Consumes [1] [Resource.TradeRouteCapacity]",
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
 			"Can build [Improvement.Fort] improvements on tiles",
