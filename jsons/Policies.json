@@ -1,6 +1,6 @@
 [
     {
-        "name": "Culture.Scientist",
+        "name": "Culture.GreatPerson",
         "era": "Era.Ancient",
         "priorities": {
             "Neutral": 10,
@@ -19,7 +19,7 @@
                     "Instantly consumes [30] [Resource.Unit.Scientist]"
                 ],
                 "row": 1,
-                "column": 3,
+                "column": 1,
                 "requires": []
             },
             {
@@ -30,7 +30,7 @@
                     "Instantly consumes [60] [Resource.Unit.Scientist]"
                 ],
                 "row": 2,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist1"
                 ]
@@ -43,7 +43,7 @@
                     "Instantly consumes [90] [Resource.Unit.Scientist]"
                 ],
                 "row": 3,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist2"
                 ]
@@ -56,7 +56,7 @@
                     "Instantly consumes [120] [Resource.Unit.Scientist]"
                 ],
                 "row": 4,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist3"
                 ]
@@ -69,7 +69,7 @@
                     "Instantly consumes [150] [Resource.Unit.Scientist]"
                 ],
                 "row": 5,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist4"
                 ]
@@ -82,7 +82,7 @@
                     "Instantly consumes [180] [Resource.Unit.Scientist]"
                 ],
                 "row": 6,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist5"
                 ]
@@ -95,7 +95,7 @@
                     "Instantly consumes [210] [Resource.Unit.Scientist]"
                 ],
                 "row": 7,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist6"
                 ]
@@ -108,7 +108,7 @@
                     "Instantly consumes [240] [Resource.Unit.Scientist]"
                 ],
                 "row": 8,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist7"
                 ]
@@ -121,7 +121,7 @@
                     "Instantly consumes [270] [Resource.Unit.Scientist]"
                 ],
                 "row": 9,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist8"
                 ]
@@ -134,29 +134,11 @@
                     "Instantly consumes [300] [Resource.Unit.Scientist]"
                 ],
                 "row": 10,
-                "column": 3,
+                "column": 1,
                 "requires": [
                     "Culture.Scientist9"
                 ]
             },
-            {
-                "name": "Culture.Scientist Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Culture.Merchant",
-        "era": "Era.Ancient",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
             {
                 "name": "Culture.Merchant1",
                 "uniques": [
@@ -286,24 +268,6 @@
                 ]
             },
             {
-                "name": "Culture.Merchant Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Culture.Engineer",
-        "era": "Era.Ancient",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
-            {
                 "name": "Culture.Engineer1",
                 "uniques": [
                     "Free [Unit.Engineer] appears",
@@ -311,7 +275,7 @@
                     "Instantly consumes [30] [Resource.Unit.Engineer]"
                 ],
                 "row": 1,
-                "column": 3,
+                "column": 5,
                 "requires": []
             },
             {
@@ -322,7 +286,7 @@
                     "Instantly consumes [60] [Resource.Unit.Engineer]"
                 ],
                 "row": 2,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer1"
                 ]
@@ -335,7 +299,7 @@
                     "Instantly consumes [90] [Resource.Unit.Engineer]"
                 ],
                 "row": 3,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer2"
                 ]
@@ -348,7 +312,7 @@
                     "Instantly consumes [120] [Resource.Unit.Engineer]"
                 ],
                 "row": 4,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer3"
                 ]
@@ -361,7 +325,7 @@
                     "Instantly consumes [150] [Resource.Unit.Engineer]"
                 ],
                 "row": 5,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer4"
                 ]
@@ -374,7 +338,7 @@
                     "Instantly consumes [180] [Resource.Unit.Engineer]"
                 ],
                 "row": 6,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer5"
                 ]
@@ -387,7 +351,7 @@
                     "Instantly consumes [210] [Resource.Unit.Engineer]"
                 ],
                 "row": 7,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer6"
                 ]
@@ -400,7 +364,7 @@
                     "Instantly consumes [240] [Resource.Unit.Engineer]"
                 ],
                 "row": 8,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer7"
                 ]
@@ -413,7 +377,7 @@
                     "Instantly consumes [270] [Resource.Unit.Engineer]"
                 ],
                 "row": 9,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer8"
                 ]
@@ -426,29 +390,11 @@
                     "Instantly consumes [300] [Resource.Unit.Engineer]"
                 ],
                 "row": 10,
-                "column": 3,
+                "column": 5,
                 "requires": [
                     "Culture.Engineer9"
                 ]
             },
-            {
-                "name": "Culture.Engineer Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Culture.Prophet",
-        "era": "Era.Ancient",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
             {
                 "name": "Culture.Prophet1",
                 "uniques": [
@@ -457,7 +403,7 @@
                     "Instantly consumes [30] [Resource.Unit.Prophet]"
                 ],
                 "row": 1,
-                "column": 3,
+                "column": 7,
                 "requires": []
             },
             {
@@ -468,7 +414,7 @@
                     "Instantly consumes [60] [Resource.Unit.Prophet]"
                 ],
                 "row": 2,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet1"
                 ]
@@ -481,7 +427,7 @@
                     "Instantly consumes [90] [Resource.Unit.Prophet]"
                 ],
                 "row": 3,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet2"
                 ]
@@ -494,7 +440,7 @@
                     "Instantly consumes [120] [Resource.Unit.Prophet]"
                 ],
                 "row": 4,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet3"
                 ]
@@ -507,7 +453,7 @@
                     "Instantly consumes [150] [Resource.Unit.Prophet]"
                 ],
                 "row": 5,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet4"
                 ]
@@ -520,7 +466,7 @@
                     "Instantly consumes [180] [Resource.Unit.Prophet]"
                 ],
                 "row": 6,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet5"
                 ]
@@ -533,7 +479,7 @@
                     "Instantly consumes [210] [Resource.Unit.Prophet]"
                 ],
                 "row": 7,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet6"
                 ]
@@ -546,7 +492,7 @@
                     "Instantly consumes [240] [Resource.Unit.Prophet]"
                 ],
                 "row": 8,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet7"
                 ]
@@ -559,7 +505,7 @@
                     "Instantly consumes [270] [Resource.Unit.Prophet]"
                 ],
                 "row": 9,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet8"
                 ]
@@ -572,29 +518,11 @@
                     "Instantly consumes [300] [Resource.Unit.Prophet]"
                 ],
                 "row": 10,
-                "column": 3,
+                "column": 7,
                 "requires": [
                     "Culture.Prophet9"
                 ]
             },
-            {
-                "name": "Culture.Prophet Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Culture.Artist",
-        "era": "Era.Ancient",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
             {
                 "name": "Culture.Artist1",
                 "uniques": [
@@ -603,7 +531,7 @@
                     "Instantly consumes [30] [Resource.Unit.Artist]"
                 ],
                 "row": 1,
-                "column": 3,
+                "column": 9,
                 "requires": []
             },
             {
@@ -614,7 +542,7 @@
                     "Instantly consumes [60] [Resource.Unit.Artist]"
                 ],
                 "row": 2,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist1"
                 ]
@@ -627,7 +555,7 @@
                     "Instantly consumes [90] [Resource.Unit.Artist]"
                 ],
                 "row": 3,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist2"
                 ]
@@ -640,7 +568,7 @@
                     "Instantly consumes [120] [Resource.Unit.Artist]"
                 ],
                 "row": 4,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist3"
                 ]
@@ -653,7 +581,7 @@
                     "Instantly consumes [150] [Resource.Unit.Artist]"
                 ],
                 "row": 5,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist4"
                 ]
@@ -666,7 +594,7 @@
                     "Instantly consumes [180] [Resource.Unit.Artist]"
                 ],
                 "row": 6,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist5"
                 ]
@@ -679,7 +607,7 @@
                     "Instantly consumes [210] [Resource.Unit.Artist]"
                 ],
                 "row": 7,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist6"
                 ]
@@ -692,7 +620,7 @@
                     "Instantly consumes [240] [Resource.Unit.Artist]"
                 ],
                 "row": 8,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist7"
                 ]
@@ -705,7 +633,7 @@
                     "Instantly consumes [270] [Resource.Unit.Artist]"
                 ],
                 "row": 9,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist8"
                 ]
@@ -718,29 +646,11 @@
                     "Instantly consumes [300] [Resource.Unit.Artist]"
                 ],
                 "row": 10,
-                "column": 3,
+                "column": 9,
                 "requires": [
                     "Culture.Artist9"
                 ]
             },
-            {
-                "name": "Culture.Artist Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Culture.General",
-        "era": "Era.Ancient",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
             {
                 "name": "Culture.General1",
                 "uniques": [
@@ -751,7 +661,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 1,
-                "column": 3,
+                "column": 11,
                 "requires": []
             },
             {
@@ -764,7 +674,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 2,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General1"
                 ]
@@ -779,7 +689,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 3,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General2"
                 ]
@@ -794,7 +704,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 4,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General3"
                 ]
@@ -809,7 +719,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 5,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General4"
                 ]
@@ -824,7 +734,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 6,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General5"
                 ]
@@ -839,7 +749,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 7,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General6"
                 ]
@@ -854,7 +764,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 8,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General7"
                 ]
@@ -869,7 +779,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 9,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General8"
                 ]
@@ -882,29 +792,11 @@
                     "Instantly consumes [300] [Resource.Unit.General]"
                 ],
                 "row": 10,
-                "column": 3,
+                "column": 11,
                 "requires": [
                     "Culture.General9"
                 ]
             },
-            {
-                "name": "Culture.General Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
-        "name": "Culture.Admiral",
-        "era": "Era.Ancient",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
             {
                 "name": "Culture.Admiral1",
                 "uniques": [
@@ -915,7 +807,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 1,
-                "column": 3,
+                "column": 13,
                 "requires": []
             },
             {
@@ -928,7 +820,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 2,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral1"
                 ]
@@ -943,7 +835,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 3,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral2"
                 ]
@@ -958,7 +850,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 4,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral3"
                 ]
@@ -973,7 +865,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 5,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral4"
                 ]
@@ -988,7 +880,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 6,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral5"
                 ]
@@ -1003,7 +895,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 7,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral6"
                 ]
@@ -1018,7 +910,7 @@
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 8,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral7"
                 ]
@@ -1031,7 +923,7 @@
                     "Instantly consumes [270] [Resource.Unit.Admiral]"
                 ],
                 "row": 9,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral8"
                 ]
@@ -1044,13 +936,13 @@
                     "Instantly consumes [300] [Resource.Unit.Admiral]"
                 ],
                 "row": 10,
-                "column": 3,
+                "column": 13,
                 "requires": [
                     "Culture.Admiral9"
                 ]
             },
             {
-                "name": "Culture.Admiral Complete",
+                "name": "Culture.GreatPerson Complete",
                 "uniques": []
             }
         ]
@@ -1112,6 +1004,228 @@
             },
             {
                 "name": "Culture.CulturalVictorySprint Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Policy.Camorrist",
+        "era": "Era.Ancient",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "policies": [
+            {
+                "name": "Policy.Governor.VoidchonerI",
+                "uniques": [
+                    "[+3 Faith] from every [Building.Monument]",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>",
+                    "Only available <before adopting [Policy.Governor.BloodContractI]>"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Policy.Governor.VoidchonerII",
+                "uniques": [
+                    "[+1 Science, +1 Culture, +1 Gold] from every [Class.DistrictBuilding.HolySite]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 1,
+                "requires": [
+                    "Policy.Governor.VoidchonerI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.VoidchonerIII",
+                "uniques": [
+                    "May buy [Building.VoidAltar] buildings for [500] [Faith] [in all cities]",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 1,
+                "requires": [
+                    "Policy.Governor.VoidchonerII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.VoidchonerIV",
+                "uniques": [
+                    "May buy [Building.DarkCallTower] buildings for [750] [Faith] [in all cities]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 1,
+                "requires": [
+                    "Policy.Governor.VoidchonerIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleI",
+                "uniques": [
+                    "Provides [1] [Resource.EconomicPolicySlot]",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>",
+                    "Only available <before adopting [Policy.Governor.BloodContractI]>"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleII",
+                "uniques": [
+                    "[+4 Culture, +4 Production] from every [Building.Bank]",
+                    "[+100]% Production when constructing [Building.Bank] buildings [in all cities]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Policy.Governor.MinervaNightingaleI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleIII",
+                "uniques": [
+                    "Provides [1] [Resource.GenericPolicySlot]",
+                    "Provides [2] [Resource.SpyCapacity]",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Policy.Governor.MinervaNightingaleII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleIV",
+                "uniques": [
+                    "[+1 Gold] per [1] population [in all cities]",
+                    "[-50]% maintenance cost for [all] buildings [in all cities]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Policy.Governor.MinervaNightingaleIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnI",
+                "uniques": [
+                    "Discover [Tech.UniqueToGoldenDawn]",
+                    "[+1 Production, +1 Science] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
+                    "Only available <after turn number [8]>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.BloodContractI]>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnII",
+                "uniques": [
+                    "[+5 Gold] from every [Building.University]",
+                    "[+100]% Production when constructing [Building.University] buildings [in all cities]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 5,
+                "requires": [
+                    "Policy.Governor.GoldenDawnI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnIII",
+                "uniques": [
+                    "[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 5,
+                "requires": [
+                    "Policy.Governor.GoldenDawnII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnIV",
+                "uniques": [
+                    "Discover [Tech.UniqueToGoldenDawn2]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 5,
+                "requires": [
+                    "Policy.Governor.GoldenDawnIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.BloodContractI",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "Discover [Tech.UniqueToVampire]",
+                    "May buy [Unit.VampireI] units for [0] [Gold] [in all cities] <when above [0] [Resource.remainingAvailableVampireCount]>",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Policy.Governor.BloodContractII",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "Comment [All tiles cost 1 movement] <for [UnitType.Vampire] units>",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 7,
+                "requires": [
+                    "Policy.Governor.BloodContractI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.BloodContractIII",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "[+23]% Strength <for [UnitType.Vampire] units>",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 7,
+                "requires": [
+                    "Policy.Governor.BloodContractII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.BloodContractIV",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "Comment [[-23]% Strength for enemy [Military] units in adjacent [All] tiles] <for [UnitType.Vampire] units>",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 7,
+                "requires": [
+                    "Policy.Governor.BloodContractIII"
+                ]
+            },
+            {
+                "name": "Policy.Camorrist Complete",
                 "uniques": []
             }
         ]

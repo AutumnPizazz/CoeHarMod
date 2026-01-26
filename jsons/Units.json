@@ -4,7 +4,7 @@
 		"name": "Unit.Scientist",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Scientist] <after adopting [Culture.Scientist Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Scientist] <after adopting [Culture.Scientist10]> <hidden from users>",
 			"Can hurry technology research",
 			"Great Person - [Science]",
 			"Class.GreatPerson",
@@ -17,7 +17,7 @@
 		"name": "Unit.Merchant",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Merchant Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Merchant10]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Great Person - [Gold]",
 			"Class.GreatPerson",
@@ -30,7 +30,7 @@
 		"name": "Unit.Engineer",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Engineer Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Engineer10]> <hidden from users>",
 			"Can speed up construction of a building",
 			"Great Person - [Production]",
 			"Class.GreatPerson",
@@ -43,7 +43,7 @@
 		"name": "Unit.Prophet",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Prophet Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Prophet10]> <hidden from users>",
 			"Can instantly construct a [Improvement.Prophet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -65,7 +65,7 @@
 		"name": "Unit.Artist",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Artist Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Artist10]> <hidden from users>",
 			"Empire enters a [16]-turn Golden Age <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Class.GreatPerson",
@@ -78,7 +78,7 @@
 		"name": "Unit.General",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [2] tiles]",
 			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [2] tiles <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Classical} {Military} {Land}] units within [2] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
@@ -104,7 +104,7 @@
 		"uniqueTo": "Nation.Qin",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [3] tiles]",
 			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [3] tiles  <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Classical} {Military} {Land}] units within [3] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
@@ -136,7 +136,7 @@
 		"name": "Unit.Admiral",
 		"unitType": "UnitType.CivilianShip",
 		"uniques": [
-			"Instantly consumes [300] [Resource.Unit.Admiral] <after adopting [Culture.General Complete]> <hidden from users>",
+			"Instantly consumes [300] [Resource.Unit.Admiral] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Water]] units within [2] tiles]",
 			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Water}] units within [2] tiles <hidden from users>",
 			"[+23]% Strength bonus for [{Era.Classical} {Military} {Water}] units within [2] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
@@ -392,7 +392,7 @@
 		"requiredTech": "Tech.UniqueToGoldenDawn2",
 		"uniques": [
 			"Can instantly construct a [Improvement.EarthVeinsExploiter] improvement <by consuming this unit>",
-			"Only available <if [Governor.GoldenDawnIV] is constructed>",
+			"Only available <after adopting [Policy.Governor.GoldenDawnIV]>",
 			"Class.Unit.Builder",
 			"Will not be displayed in Civilopedia"
 		],
@@ -427,7 +427,6 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
 			"[+2] Movement <before turn number [2]>",
-			"[+1] Movement <after adopting [Pantheon.ReligiousMigrant]>",
 			"Requires at least [2] population",
 			"[-1] population [in this city] <in cities without a [Governor.MagnusIIB]>",
 			"[+1] Sight",

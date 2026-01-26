@@ -1303,66 +1303,6 @@
         ]
     },
     /*秘密结社建筑*/
-    { //虚空吟唱者I
-        "name": "Governor.VoidchonerI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+3 Faith] from every [Building.Monument]",
-            "Only available <starting from the [Era.Ancient]>",
-            "Only available <after turn number [8]>",
-            "Unsellable",
-            "Class.Camorrist",
-            "Only available <in cities without a [Class.Camorrist]>",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Triggers a global alert upon completion",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //虚空吟唱者II
-        "name": "Governor.VoidchonerII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.VoidchonerI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+3 Faith] from every [Building.Monument]",
-            // "[+1 Science] per every [10] [Faith]",
-            // "[+1 Culture] per every [15] [Faith]",
-            // "[+1 Gold] per every [5] [Faith]",
-            "[+1 Science, +1 Culture, +1 Gold] from every [Class.DistrictBuilding.HolySite]",
-            // "May buy [Unit.VoidchonerConsumerI] units for [50] [Faith] [in all cities]",
-            // "May buy [Unit.VoidchonerConsumerII] units for [200] [Faith] [in all cities]",
-            // "May buy [Unit.VoidchonerConsumerIII] units for [500] [Faith] [in all cities]",
-            "Only available <starting from the [Era.Medieval]>",
-            "Only available <in cities with a [Governor.VoidchonerI]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //虚空吟唱者III
-        "name": "Governor.VoidchonerIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.VoidchonerII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+3 Faith] from every [Building.Monument]",
-            "May buy [Building.VoidAltar] buildings for [500] [Faith] [in all cities]",
-            "Only available <starting from the [Era.Industrial]>",
-            "Only available <in cities with a [Governor.VoidchonerII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
     { //虚空祭坛
         "name": "Building.VoidAltar",
         "faith": 10,
@@ -1372,23 +1312,6 @@
             "Unsellable",
             "Unbuildable",
             "Destroyed when the city is captured",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //虚空吟唱者IV
-        "name": "Governor.VoidchonerIV",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.VoidchonerIII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "May buy [Building.DarkCallTower] buildings for [750] [Faith] [in all cities]",
-            "Only available <starting from the [Era.Atomic]>",
-            "Only available <in cities with a [Governor.VoidchonerIII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
             "Only available <when [Pattern.Camorrist] Victory is enabled>"
         ]
     },
@@ -1402,149 +1325,6 @@
             "Only available <when [Pattern.Camorrist] Victory is enabled>"
         ]
     },
-    { //弥涅耳瓦夜莺I
-        "name": "Governor.MinervaNightingaleI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.EconomicPolicySlot]",
-            "Only available <starting from the [Era.Ancient]>",
-            "Only available <after turn number [8]>",
-            "Unsellable",
-            "Class.Camorrist",
-            "Only available <in cities without a [Class.Camorrist]>",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Triggers a global alert upon completion",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //弥涅耳瓦夜莺II
-        "name": "Governor.MinervaNightingaleII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.MinervaNightingaleI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+4 Culture, +4 Production] from every [Building.Bank]",
-            "[+100]% Production when constructing [Building.Bank] buildings [in all cities]",
-            "Only available <starting from the [Era.Medieval]>",
-            "Only available <in cities with a [Governor.MinervaNightingaleI]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //弥涅耳瓦夜莺III
-        "name": "Governor.MinervaNightingaleIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.MinervaNightingaleII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.GenericPolicySlot]",
-            "Provides [2] [Resource.SpyCapacity]",
-            "Only available <starting from the [Era.Industrial]>",
-            "Only available <in cities with a [Governor.MinervaNightingaleII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //弥涅耳瓦夜莺IV
-        "name": "Governor.MinervaNightingaleIV",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.MinervaNightingaleIII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+1 Gold] per [1] population [in all cities]",
-            "[-50]% maintenance cost for [all] buildings [in all cities]",
-            "Only available <starting from the [Era.Atomic]>",
-            "Only available <in cities with a [Governor.MinervaNightingaleIII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //黄金黎明I
-        "name": "Governor.GoldenDawnI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Discover [Tech.UniqueToGoldenDawn]",
-            "[+1 Production, +1 Science] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
-            "Only available <starting from the [Era.Ancient]>",
-            "Only available <after turn number [8]>",
-            "Unsellable",
-            "Class.Camorrist",
-            "Only available <in cities without a [Class.Camorrist]>",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Triggers a global alert upon completion",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //黄金黎明II
-        "name": "Governor.GoldenDawnII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.GoldenDawnI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+5 Gold] from every [Building.University]",
-            "[+100]% Production when constructing [Building.University] buildings [in all cities]",
-            "Only available <starting from the [Era.Medieval]>",
-            "Only available <in cities with a [Governor.GoldenDawnI]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //黄金黎明III
-        "name": "Governor.GoldenDawnIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.GoldenDawnII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
-            "Only available <starting from the [Era.Industrial]>",
-            "Only available <in cities with a [Governor.GoldenDawnII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //黄金黎明IV
-        "name": "Governor.GoldenDawnIV",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.GoldenDawnIII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Discover [Tech.UniqueToGoldenDawn2]",
-            "Only available <starting from the [Era.Atomic]>",
-            "Only available <in cities with a [Governor.GoldenDawnIII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
     { //秘术研究
         "name": "Building.SecretTechniqueResearch",
         "cost": 100,
@@ -1555,80 +1335,6 @@
             "Unsellable",
             "Destroyed when the city is captured",
             "Limited to [10] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //血色契约I
-        "name": "Governor.BloodContractI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.remainingAvailableVampireCount]",
-            "Discover [Tech.UniqueToVampire]",
-            "May buy [Unit.VampireI] units for [0] [Gold] [in all cities] <when above [0] [Resource.remainingAvailableVampireCount]>",
-            "Only available <starting from the [Era.Ancient]>",
-            "Only available <after turn number [8]>",
-            "Unsellable",
-            "Class.Camorrist",
-            "Only available <in cities without a [Class.Camorrist]>",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Triggers a global alert upon completion",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //血色契约II
-        "name": "Governor.BloodContractII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.BloodContractI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.remainingAvailableVampireCount]",
-            "Comment [All tiles cost 1 movement] <for [UnitType.Vampire] units>",
-            "Only available <starting from the [Era.Medieval]>",
-            "Only available <in cities with a [Governor.BloodContractI]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //血色契约III
-        "name": "Governor.BloodContractIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.BloodContractII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.remainingAvailableVampireCount]",
-            "Comment [[+23%] strength] <for [UnitType.Vampire] units>",
-            "Only available <starting from the [Era.Industrial]>",
-            "Only available <in cities with a [Governor.BloodContractII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Camorrist] Victory is enabled>"
-        ]
-    },
-    { //血色契约IV
-        "name": "Governor.BloodContractIV",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.BloodContractIII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.remainingAvailableVampireCount]",
-            "Comment [[-23]% Strength for enemy [Military] units in adjacent [All] tiles]  <for [UnitType.Vampire] units>",
-            "Only available <starting from the [Era.Atomic]>",
-            "Only available <in cities with a [Governor.BloodContractIII]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
             "Only available <when [Pattern.Camorrist] Victory is enabled>"
         ]
     },
@@ -2848,7 +2554,7 @@
             "Provides [2] [Resource.halfHouse] <in [River] tiles> <for [Nation.Egypt] Civilizations>", //沿河城市住房修正-对埃及
             "Provides [2] [Resource.halfHouse] <in this city> <in [River] tiles> <after adopting [Pantheon.RiverGod]>", //万神殿河神修正
             "Provides [2] [Resource.halfHouse] <in this city> <after adopting [Pantheon.RainGod]>", //万神殿雨神修正
-            "Provides [2] [Resource.halfHouse] <in this city> <in tiles without [River]> <after adopting [Pantheon.RainGod]>", //万神殿雨神修正
+            "Provides [4] [Resource.halfHouse] <in this city> <in [non-fresh water] tiles> <after adopting [Pantheon.RainGod]>", //万神殿雨神修正
             "Provides [2] [Resource.halfHouse] <in this city> <in [Landform.Hill] tiles> <after adopting [Pantheon.LegendOfElDorado]>", //万神殿黄金国传说修正
             "Provides [2] [Resource.halfHouse] <in this city> <in [Coastal] tiles> <after adopting [Pantheon.MazuBelief]>" //万神殿妈祖信仰修正
         ],
@@ -2878,7 +2584,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.GovernorTitle]",
-            "Cost increases by [12] when built",
             "Creates a [District.GovernmentPlaza] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Limited to [1] per Civilization",
@@ -2899,7 +2604,6 @@
             "[+23]% Strength <for [Military] units> <within [6] tiles of a [District.Mayab]>",
             "Unsellable",
             "Provides [1] [Resource.GovernorTitle]",
-            "Cost increases by [12] when built",
             "Creates a [District.Mayab] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Limited to [1] per Civilization",
@@ -2921,7 +2625,6 @@
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities without a [Building.WarlordThrone]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level2Government] is constructed>",
@@ -2940,7 +2643,6 @@
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.WarlordThrone]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level2Government] is constructed>",
@@ -2966,7 +2668,6 @@
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level2Government] is constructed>",
@@ -2994,7 +2695,6 @@
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [3] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level2Government] is constructed>",
@@ -3015,7 +2715,6 @@
             "Only available <in cities without a [Building.ForeignMinistry]>",
             "Only available <in cities without a [Building.OrderOfFriars]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level3Government] is constructed>",
@@ -3037,7 +2736,6 @@
             "Only available <in cities without a [Building.IntelligenceAgency]>",
             "Only available <in cities without a [Building.OrderOfFriars]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level3Government] is constructed>",
@@ -3058,7 +2756,6 @@
             "Only available <in cities without a [Building.IntelligenceAgency]>",
             "Only available <in cities without a [Building.ForeignMinistry]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level3Government] is constructed>",
@@ -3078,7 +2775,6 @@
             "Only available <in cities without a [Building.RoyalSociety]>",
             "Only available <in cities without a [Building.WarDepartment]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level4Government] is constructed>",
@@ -3098,7 +2794,6 @@
             "Only available <in cities without a [Building.NationalHistoryMuseum]>",
             "Only available <in cities without a [Building.WarDepartment]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level4Government] is constructed>",
@@ -3117,7 +2812,6 @@
             "Only available <in cities without a [Building.NationalHistoryMuseum]>",
             "Only available <in cities without a [Building.RoyalSociety]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.GovernmentPlaza",
             "Destroyed when the city is captured",
             "Only available <if [Class.Building.Level4Government] is constructed>",
@@ -3133,7 +2827,6 @@
         "requiredTech": "Tech.Math",
         "requiredResource": "Resource.DistrictLimitation",
         "uniques": [
-            "Cost increases by [12] when built",
             "Unsellable",
             "Only available <when religion is enabled>",
             "Limited to [1] per Civilization",
@@ -3152,7 +2845,6 @@
         "requiredBuilding": "Building.DistrictUnique.ForeignQuarter",
         "uniques": [
             "Resting point for Influence with City-States is increased by [15]",
-            "Cost increases by [6] when built",
             "Only available <in cities with a [Building.DistrictUnique.ForeignQuarter]>",
             "Unsellable",
             "Destroyed when the city is captured",
@@ -3168,7 +2860,6 @@
         "requiredBuilding": "Building.Consulate",
         "uniques": [
             "Resting point for Influence with City-States is increased by [15]",
-            "Cost increases by [6] when built",
             "Only available <in cities with a [Building.DistrictUnique.ForeignQuarter]>",
             "Unsellable",
             "Destroyed when the city is captured",

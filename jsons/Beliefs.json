@@ -46,7 +46,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Faith] from [Landform.Hill] tiles without [Class.UsualImprovement] [in all cities] <in tiles without [Class.District]>",
-            "[+5 Faith] from every [Mountain] <in tiles without [Class.District]>"
+            "[+5 Faith] from every [Mountain] <in tiles without [Class.District]> <for [non-[Nation.Inca]] Civilizations>",
+            "[+1 Faith] from every [Mountain] <in tiles without [Class.District]> <for [Nation.Inca] Civilizations>"
         ]
     },
     { //锻造之神
@@ -71,10 +72,8 @@
         "name": "Pantheon.HarvestFestival",
         "type": "Pantheon",
         "uniques": [
-            "Comment [Gain a free [Building.Granary] [in capital]]",
-            "May buy [Building.Granary] buildings with [Faith] for [2] times their normal Production cost",
-            "[+1 Food] from every [Building.Granary]",
-            "Free [Unit.CommonWorker1] appears"
+            "[+1 Food] [in capital]",
+            "[+1 Food] per [3] population [in this city]"
         ]
     },
     { //工匠之神
@@ -88,8 +87,8 @@
         "name": "Pantheon.RiverGod",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture] in cities on [River] tiles",
-            "Comment [[+2 Happiness] in cities with a [District.HolySite] where is on [River] tiles]",
+            "[+1 Faith] in cities on [River] tiles",
+            "Comment [[+1 Happiness] in cities with a [District.HolySite] where is on [River] tiles]",
             "Comment [[[+2] [Resource.halfHouse]] in cities with a [District.HolySite] where is on [River] tiles]"
         ]
     },
@@ -98,7 +97,7 @@
         "type": "Pantheon",
         "uniques": [
             "Comment [[+2] [Resource.halfHouse] [in all cities]]",
-            "Comment [[+2] [Resource.halfHouse] in cities on [non-[River]] tiles]"
+            "Comment [[+4] [Resource.halfHouse] in cities on [non-[River]] tiles]"
         ]
     },
     { //火之女神
@@ -139,15 +138,15 @@
         "name": "Pantheon.GoddessOfFestivals",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +1 Production] from every [Improvement.Plantation]"
+            "[+1 Culture] from every [Improvement.Plantation]"
         ]
     },
     { //长生天
         "name": "Pantheon.LongevityHeaven",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production] from every [Improvement.Pasture]",
-            "[+1 Faith, +1 Culture] from [Improvement.Pasture] tiles [in all cities] <in cities with a [Building.DistrictUnique.HolySite]>"
+            "[+1 Faith, +1 Culture] from [Improvement.Pasture] tiles [in this city] <in cities with a [Building.DistrictUnique.HolySite]>",
+            "[+25]% Production when constructing [Building.Stable] buildings [in this city]"
         ]
     },
     { //芦苇和沼泽地里的夫人
@@ -210,9 +209,8 @@
         "name": "Pantheon.MonumentToTheMainGod",
         "type": "Pantheon",
         "uniques": [
-            "Comment [Gain a free [Building.Monument] [in all cities]] <when number of [Cities] is less than [3]>",
-            "May buy [Building.Monument] buildings with [Faith] for [2] times their normal Production cost",
-            "Comment [[+10]% [Culture] from every [Building.Monument]]"
+            "[+1 Culture] [in capital]",
+            "[+1 Culture] [in capital] <for every [3] [[Building.Monument] Buildings]>"
         ]
     },
     { //众神纪念碑
@@ -235,24 +233,23 @@
         "name": "Pantheon.ReligiousMigrant",
         "type": "Pantheon",
         "uniques": [
-            "Comment [Free [Unit.Settler] appears upon discovering [Civic.PoliticalPhilosophy] technology]",
-            "Comment [[+1] Movement] <for [Unit.Settler] units>",
-            "[-15]% Culture cost of natural border growth [in all cities]"
+            "[+20]% Production when constructing [Unit.Settler] units [in this city]",
+            "[-15]% Culture cost of natural border growth [in this city]"
         ]
     },
     { //恩惠女神
         "name": "Pantheon.GraceGoddess",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Food, +1 Production, +1 Gold] from every [Improvement.Plantation]"
+            "[+1 Food, +2 Gold] from every [Improvement.Plantation]"
         ]
     },
     { //明道之主
         "name": "Pantheon.TheLordOfTheWisdom",
         "type": "Pantheon",
         "uniques": [
-            "[+4 Happiness] [in capital]",
-            "[+1 Production] [in all cities]"
+            "[-5]% Unhappiness from [Population] [in this city]",
+            "[+1 Production] [in this city] <in cities with less than [3] [Population]>"
         ]
     },
     { //牧民之路
@@ -356,8 +353,8 @@
         "name": "Pantheon.SeedlingsOfTheMountain",
         "type": "Pantheon",
         "uniques": [
-            "Comment [[Class.Campus] grant an additional [+2] adjacency bonus to [Mountain]]",
-            "Comment [[Class.HolySite] grant an additional [+2] adjacency bonus to [Mountain]]"
+            "[+1 Faith] [in this city] <in tiles adjacent to [Mountain] tiles>",
+            "May buy [Building.Monument] buildings with [Faith] for [2] times their normal Production cost <in tiles adjacent to [Mountain] tiles>"
         ]
     },
     { //神王
@@ -421,8 +418,8 @@
         "name": "FollowerBelief.JesuitEducation",
         "type": "Follower",
         "uniques": [
-            "May buy [Class.DistrictBuilding.Campus] buildings with [Faith] [in all cities]",
-            "May buy [Class.DistrictBuilding.TheaterSquare] buildings with [Faith] [in all cities]"
+            "May buy [Class.DistrictBuilding.Campus] buildings with [Faith] for [2] times their normal Production cost",
+            "May buy [Class.DistrictBuilding.TheaterSquare] buildings with [Faith] for [2] times their normal Production cost"
         ]
     },
     { //职业道德

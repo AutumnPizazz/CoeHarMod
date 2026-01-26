@@ -3062,62 +3062,6 @@ BuildingIcons/Governor.AmaniIV
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Governor.BloodContractI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.BloodContractII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.BloodContractIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.BloodContractIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GoldenDawnI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GoldenDawnII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GoldenDawnIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GoldenDawnIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Governor.GrandVizierI
   rotate: false
   xy: 1092, 1524
@@ -3224,34 +3168,6 @@ BuildingIcons/Governor.MagnusIIIB
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.MagnusIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MinervaNightingaleI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MinervaNightingaleII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MinervaNightingaleIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MinervaNightingaleIV
   rotate: false
   xy: 1092, 1524
   size: 100, 100
@@ -3420,34 +3336,6 @@ BuildingIcons/Governor.VictorIIIB
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.VictorIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VoidchonerI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VoidchonerII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VoidchonerIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VoidchonerIV
   rotate: false
   xy: 1092, 1524
   size: 100, 100
