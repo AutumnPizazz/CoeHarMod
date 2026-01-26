@@ -64,8 +64,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+18]% Strength for cities <when defending>",
-            "[-1 Food, +3 Production] [in all cities with a garrison]",
-            "[+100]% Production when constructing [Building.AncientWalls] buildings [in this city]"
+            "Gain a free [Building.AncientWalls] [in this city]"
         ]
     },
     { //丰产仪式

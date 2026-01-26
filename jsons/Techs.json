@@ -62,9 +62,7 @@
 					"Tech.Civic.Agriculture"
 				],
 				"quote": "东西南北，无不可至，遥涉波涛，若履平地。\n——《资治通鉴·唐纪三十四》",
-				"uniques": [
-					"Enables embarkation for land units <for [Unit.CommonWorker1] units>"
-				]
+				"uniques": []
 			},
 			{ //占星术
 				"name": "Tech.Astrology",

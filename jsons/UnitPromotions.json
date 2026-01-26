@@ -329,11 +329,12 @@
 	{
 		"name": "Promotion.Disciple",
 		"uniques": [
-			"Can Spread Religion <[4] times> <after which this unit is consumed>"
+			"Can Spread Religion <[4] times>"
 		],
 		"unitTypes": [
 			"UnitType.Monk"
 		],
+		"prerequisites":["Promotion.HypnoticScreen"],
 		"column": 1,
 		"row": 2
 	},
@@ -345,6 +346,7 @@
 		"unitTypes": [
 			"UnitType.Monk"
 		],
+		"prerequisites":["Promotion.ShadowlessFist"],
 		"column": 2,
 		"row": 2
 	},
@@ -356,6 +358,7 @@
 		"unitTypes": [
 			"UnitType.Monk"
 		],
+		"prerequisites":["Promotion.Disciple"],
 		"column": 1,
 		"row": 3
 	},
@@ -367,6 +370,7 @@
 		"unitTypes": [
 			"UnitType.Monk"
 		],
+		"prerequisites":["Promotion.HeartPiercingPalm"],
 		"column": 2,
 		"row": 3
 	},
@@ -378,6 +382,7 @@
 		"unitTypes": [
 			"UnitType.Monk"
 		],
+		"prerequisites":["Promotion.WindDanceFist","Promotion.WhiteCraneFist"],
 		"column": 1,
 		"row": 4
 	},

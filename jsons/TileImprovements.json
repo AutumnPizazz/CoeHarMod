@@ -844,8 +844,8 @@
 			"[+1 Production] <after discovering [Tech.Apprentices]>",
 			"[+1 Production] <after discovering [Tech.Industrialization]>",
 			"[+1 Production] <after discovering [Tech.SmartMaterials]>",
-			"Does not need removal of [Landform.Forest]",
-			"Does not need removal of [Landform.Rainforest]",
+			// "Does not need removal of [Landform.Forest]",
+			// "Does not need removal of [Landform.Rainforest]",
 			"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.Math]>",
 			"[+1 Science] for each adjacent [Distict.LearningAcademy] <after discovering [Tech.ScientificTheory]>",
 			"Pillaging this improvement yields approximately [+25 Gold]",
@@ -1150,13 +1150,13 @@
 	// the improvement that removes the terrainfeature after it.
 	{ //砍伐森林
 		"name": "Remove Landform.Forest",
-		"turnsToBuild": 4,
+		"turnsToBuild": 2,
 		"techRequired": "Tech.Mining",
 		"uniques": []
 	},
 	{ //砍伐雨林
 		"name": "Remove Landform.Rainforest",
-		"turnsToBuild": 6,
+		"turnsToBuild": 2,
 		"techRequired": "Tech.CopperCasting",
 		"uniques": []
 	},
@@ -1170,7 +1170,7 @@
 	},
 	{ //清理沼泽
 		"name": "Remove Landform.Swamp",
-		"turnsToBuild": 6,
+		"turnsToBuild": 2,
 		"techRequired": "Tech.Irrigation"
 	},
 	// These are unique and have unique in-game checks related to them
@@ -2298,6 +2298,7 @@
 		],
 		"food": 1,
 		"uniques": [
+			"Provides [1] [Resource.halfHouse] <in this city>",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Production] for each adjacent [Class.Raceline]",
 			"[+1 Production] from [Fresh water] tiles <after discovering [Tech.Project]>",

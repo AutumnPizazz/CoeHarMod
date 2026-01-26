@@ -815,22 +815,22 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	{ //美利坚-新政法案
-		"name": "Resource.NewDealLegislation",
-		"revealedBy": "Tech.UniqueToUnitedStates",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Stockpiled"
-		],
-		"civilopediaText": [
-			{
-				"text": "Nation.UnitedStates",
-				"link": "Nation/Nation.UnitedStates"
-			}
-		]
-	},
+	// { //美利坚-新政法案
+	// 	"name": "Resource.NewDealLegislation",
+	// 	"revealedBy": "Tech.UniqueToUnitedStates",
+	// 	"resourceType": "Strategic",
+	// 	"terrainsCanBeFoundOn": [],
+	// 	"uniques": [
+	// 		"Cannot be traded",
+	// 		"Stockpiled"
+	// 	],
+	// 	"civilopediaText": [
+	// 		{
+	// 			"text": "Nation.UnitedStates",
+	// 			"link": "Nation/Nation.UnitedStates"
+	// 		}
+	// 	]
+	// },
 	/*
 	{
 		"name": "Resource.Era.Score1",

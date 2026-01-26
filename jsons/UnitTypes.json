@@ -50,9 +50,9 @@
         "name": "UnitType.RangedInfantry",
         "movementType": "Land",
         "uniques": [
-            "[-34]% Strength <vs cities> <when attacking> <during the [Era.Ancient]>",
-            "[-58]% Strength <vs cities> <when attacking> <during the [Era.Classical]>",
-            "[-96]% Strength <vs cities> <when attacking> <starting from the [Era.Medieval]>",
+            // "[-34]% Strength <vs cities> <when attacking> <during the [Era.Ancient]>",
+            // "[-58]% Strength <vs cities> <when attacking> <during the [Era.Classical]>",
+            // "[-96]% Strength <vs cities> <when attacking> <starting from the [Era.Medieval]>",
             "[-23]% Strength <vs [{Military} {Water}] units> <when attacking>",
             "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"
         ]
@@ -61,8 +61,8 @@
         "name": "UnitType.Siege",
         "movementType": "Land",
         "uniques": [
-            "[+51]% Strength <vs cities> <when attacking>",
-            "[+51]% Strength <vs [{Military} {Water}] units> <when attacking>",
+            "[+104]% Strength <vs cities> <when attacking>",
+            "[+70]% Strength <vs [{Military} {Water}] units> <when attacking>",
             "Must set up to ranged attack",
             "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"
         ]

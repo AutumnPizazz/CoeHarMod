@@ -2158,6 +2158,7 @@
 		"hurryCostModifier": -33,
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
+			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
 			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
 			"Class.Unit.Maintenance1",
 			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
@@ -2177,6 +2178,7 @@
 		"hurryCostModifier": -33,
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
+			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
 			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
 			"Class.Unit.Maintenance1",
 			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
@@ -2199,6 +2201,7 @@
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
 			"[+1] Sight",
+			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
 			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
 			"Class.Unit.Maintenance1",
 			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
@@ -2218,6 +2221,7 @@
 		"hurryCostModifier": -33,
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
+			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
 			"[+23]% Strength <when fighting in [Foreign Land] tiles>",
 			"Class.Unit.Maintenance1",
 			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"

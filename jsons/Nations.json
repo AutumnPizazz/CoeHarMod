@@ -1739,7 +1739,7 @@
 		"uniques": [
 			"Gain [100] [Faith] <upon declaring friendship>",
 			"All newly-trained [Unit.Missionary] units [in all cities] receive the [Promotion.Devout2] promotion",
-			"[+2 Faith] from each Trade Route",
+			"[+2 Faith] from every [Building.TradingPost]",
 			"Comment [[[+1] [Resource.Unit.General]] from every [[Class.HolySite] and [Class.DistrictBuilding.HolySite]]]"
 		],
 		"cities": [
@@ -2129,7 +2129,7 @@
 		"uniques": [
 			"[+20]% [Production] [in all cities] <on foreign continents>",
 			"[+50]% [Gold] [in all cities] <on foreign continents>",
-			"[+1 Production, +2 Faith, +3 Gold] from each Trade Route",
+			"[+1 Production, +2 Faith, +3 Gold] from every [Building.TradingPost]",
 			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
 		"cities": [
@@ -2497,7 +2497,7 @@
 		"uniqueName": "Silk Road",
 		"uniques": [
 			"[UnitType.Scout] units gain the [Promotion.RoadBuild] promotion",
-			"[+3 Gold] from each Trade Route"
+			"[+3 Gold] from every [Building.TradingPost]"
 		],
 		"cities": [
 			"Loulan",
