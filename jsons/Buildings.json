@@ -1339,947 +1339,166 @@
         ]
     },
     /*文明特色总督*/
-    { //大维齐尔I
-        "name": "Governor.GrandVizierI",
+    { //大维齐尔
+        "name": "Governor.GrandVizier",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+20]% Production when constructing [Military] units [in all cities]",
-            "[+23]% Strength <for [Military] units> <vs cities> <when attacking>",
-            "Only available <starting from the [Era.Ancient]>",
-            "Only available <for [Nation.Ottoman] Civilizations>",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Unsellable",
-            "Class.Governor.Level1",
-            "Class.Governor",
-            "Destroyed when the city is captured",
-            // "Can only be built <in [Capital] cities>",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //大维齐尔II
-        "name": "Governor.GrandVizierII",
-        "cityStrength": 50,
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.GrandVizierI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+13]% Strength <for [{Military} {Land}] units> <in [Friendly Land] tiles>",
-            "Provides [2] [Resource.Influence]",
-            "Only available <starting from the [Era.Classical]>",
-            "Only available <for [Nation.Ottoman] Civilizations>",
-            "Only available <in cities with a [Governor.GrandVizierI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Class.Governor",
-            // "Can only be built <in [Capital] cities>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.GrandVizierI]>",
             "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    { //大维齐尔III
-        "name": "Governor.GrandVizierIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.GrandVizierII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Instantly provides [60] [Resource.Horse]",
-            "Instantly provides [60] [Resource.Iron]",
-            "Only available <starting from the [Era.Medieval]>",
-            "Only available <for [Nation.Ottoman] Civilizations>",
-            "Only available <in cities with a [Governor.GrandVizierII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            // "Can only be built <in [Capital] cities>",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //大维齐尔IV
-        "name": "Governor.GrandVizierIV",
-        "requiredResource": "Resource.GovernorTitle",
-        "requiredBuilding": "Governor.GrandVizierIII",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Instantly provides [40] [Resource.Niter]",
-            "Instantly provides [5] [Resource.Niter] <upon gaining a [Unit.SudaneseParamilitary] unit>",
-            "[+25]% Production when constructing [Unit.SudaneseParamilitary] units [in all cities]",
-            "Only available <starting from the [Era.Renaissance]>",
-            "Only available <for [Nation.Ottoman] Civilizations>",
-            "Only available <in cities with a [Governor.GrandVizierIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            // "Can only be built <in [Capital] cities>",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //大维齐尔-移除
+    { //大维齐尔-卸任
         "name": "Governor.GrandVizier.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.GrandVizierI] [in this city]",
-            "Remove [Governor.GrandVizierII] [in this city]",
-            "Remove [Governor.GrandVizierIII] [in this city]",
-            "Remove [Governor.GrandVizierIV] [in this city]",
+            "Remove [Governor.GrandVizier] [in this city]",
             "Remove [Governor.GrandVizier.Remove] [in this city]",
-            "Only available <in cities with a [Governor.GrandVizierI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.GrandVizier]>"
         ]
     },
-    /*通用总督建筑*/
-    {
-        "name": "Governor.MagnusI",
-        "requiredResource": "Resource.GovernorTitle",
+    /*通用总督*/
+    { //马格努斯
+        "name": "Governor.Magnus",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+1 Production] from [Vegetation] tiles [in this city] <in tiles without [Class.District]>",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.MagnusI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor.Level1",
-            "Class.Governor",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    {
-        "name": "Governor.MagnusIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Food, +1 Happiness] [in all cities connected to capital]",
-            "[15]% Food is carried over after population increases [in this city]",
-            "Only available <in cities with a [Governor.MagnusI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MagnusIIIA",
-        "production": 8,
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Only available <in cities with a [Governor.MagnusIIA]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MagnusIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.MagnusI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Comment [New trained [Unit.Settler] in this city cannot cause population loss]",
-            "All newly-trained [Unit.Settler] units [in this city] receive the [Promotion.FastMove] promotion",
-            "Only available <in cities with a [Governor.MagnusI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MagnusIIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.MagnusIIB",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Food, +1 Production] from every [Building.TradingPost]",
-            "Only available <in cities with a [Governor.MagnusIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MagnusIV",
-        "percentStatBonus": {
-            "production": 25
-        },
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Unsellable",
-            "Only available <in cities with a [Governor.MagnusIIIA]>",
-            "Only available <in cities with a [Governor.MagnusIIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //马格努斯-移除
+    { //马格努斯-卸任
         "name": "Governor.Magnus.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.MagnusI] [in this city]",
-            "Remove [Governor.MagnusIIA] [in this city]",
-            "Remove [Governor.MagnusIIIA] [in this city]",
-            "Remove [Governor.MagnusIIB] [in this city]",
-            "Remove [Governor.MagnusIIIB] [in this city]",
-            "Remove [Governor.MagnusIV] [in this city]",
+            "Remove [Governor.Magnus] [in this city]",
             "Remove [Governor.Magnus.Remove] [in this city]",
-            "Only available <in cities with a [Governor.MagnusI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Magnus]>"
         ]
     },
-    {
-        "name": "Governor.ReynaI",
-        "gold": 2,
-        "requiredResource": "Resource.GovernorTitle",
+    { //瑞纳
+        "name": "Governor.Reyna",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Gold] from every [Building.TradingPost]",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.ReynaI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor",
-            "Class.Governor.Level1",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    { //瑞娜IIA
-        "name": "Governor.ReynaIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.ReynaI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+100]% Yield from every [Class.CommercialHub] <in this city>",
-            "[+100]% Yield from every [Class.Harbor] <in this city>",
-            "Only available <in cities with a [Governor.ReynaI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.ReynaIIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.ReynaIIA",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Gold] per [1] population [in this city]",
-            "Only available <in cities with a [Governor.ReynaIIA]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.ReynaIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.ReynaI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Gold] from [Improvement.ProtectionZone] tiles [in this city]",
-            "Only available <in cities with a [Governor.ReynaI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.ReynaIIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.ReynaIIB",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[Gold] cost of purchasing items in cities [-15]%",
-            "Only available <in cities with a [Governor.ReynaIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.ReynaIV",
-        "percentStatBonus": {
-            "production": 25
-        },
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+5 Gold] from every [Improvement.GeothermalPowerPlant]",
-            "Unsellable",
-            "Only available <in cities with a [Governor.ReynaIIIA]>",
-            "Only available <in cities with a [Governor.ReynaIIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //瑞纳-移除
+    { //瑞纳-卸任
         "name": "Governor.Reyna.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.ReynaI] [in this city]",
-            "Remove [Governor.ReynaIIA] [in this city]",
-            "Remove [Governor.ReynaIIIA] [in this city]",
-            "Remove [Governor.ReynaIIB] [in this city]",
-            "Remove [Governor.ReynaIIIB] [in this city]",
-            "Remove [Governor.ReynaIV] [in this city]",
+            "Remove [Governor.Reyna] [in this city]",
             "Remove [Governor.Reyna.Remove] [in this city]",
-            "Only available <in cities with a [Governor.ReynaI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Reyna]>"
         ]
     },
-    {
-        "name": "Governor.AmaniI",
+    { //阿玛尼
+        "name": "Governor.Amani",
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "City-State territory always counts as friendly territory",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.AmaniI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor",
-            "Class.Governor.Level1",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    {
-        "name": "Governor.AmaniIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.AmaniI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [2] [Resource.DiplomaticFavor]",
-            "Only available <in cities with a [Governor.AmaniI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.AmaniIIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.AmaniIIA",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
-            "Only available <in cities with a [Governor.AmaniIIA]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.AmaniIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.AmaniI",
-        "happiness": 4,
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Only available <in cities with a [Governor.AmaniI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.AmaniIIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.AmaniIIB",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Provides [1] [Resource.SpyCapacity]",
-            "Only available <in cities with a [Governor.AmaniIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.AmaniIV",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Resting point for Influence with City-States is increased by [60]",
-            "City-State Influence recovers at twice the normal rate",
-            "Unsellable",
-            "Only available <in cities with a [Governor.AmaniIIIA]>",
-            "Only available <in cities with a [Governor.AmaniIIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //阿玛尼-移除
+    { //阿玛尼-卸任
         "name": "Governor.Amani.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.AmaniI] [in this city]",
-            "Remove [Governor.AmaniIIA] [in this city]",
-            "Remove [Governor.AmaniIIIA] [in this city]",
-            "Remove [Governor.AmaniIIB] [in this city]",
-            "Remove [Governor.AmaniIIIB] [in this city]",
-            "Remove [Governor.AmaniIV] [in this city]",
+            "Remove [Governor.Amani] [in this city]",
             "Remove [Governor.Amani.Remove] [in this city]",
-            "Only available <in cities with a [Governor.AmaniI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Amani]>"
         ]
     },
-    {
-        "name": "Governor.VictorI",
-        "cityStrength": 50,
-        "requiredResource": "Resource.GovernorTitle",
+    { //维克多
+        "name": "Governor.Victor",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.VictorI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor",
-            "Class.Governor.Level1",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    {
-        "name": "Governor.VictorIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.VictorI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+50]% Strength for cities <with a garrison> <when attacking>",
-            "Only available <in cities with a [Governor.VictorI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.VictorIIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.VictorIIA",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "All newly-trained [Military] units [in this city] receive the [Promotion.LordTraining] promotion",
-            "Only available <in cities with a [Governor.VictorIIA]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.VictorIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.VictorI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+18]% Strength <for [Military] units> <when defending> <in cities with a [Building.DistrictUnique.MilitaryEncampment]>",
-            "Only available <in cities with a [Governor.VictorI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.VictorIIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.VictorIIB",
-        //        "xpForNewUnits":10,
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "New [Military] units start with [10] XP [in this city]",
-            "Only available <in cities with a [Governor.VictorIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.VictorIV",
-        "requiredResource": "Resource.GovernorTitle",
-        //        "xpForNewUnits":20,
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "New [Military] units start with [20] XP [in this city]",
-            "Unsellable",
-            "Only available <in cities with a [Governor.VictorIIIA]>",
-            "Only available <in cities with a [Governor.VictorIIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //维克多-移除
+    { //维克多-卸任
         "name": "Governor.Victor.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.VictorI] [in this city]",
-            "Remove [Governor.VictorIIA] [in this city]",
-            "Remove [Governor.VictorIIIA] [in this city]",
-            "Remove [Governor.VictorIIB] [in this city]",
-            "Remove [Governor.VictorIIIB] [in this city]",
-            "Remove [Governor.VictorIV] [in this city]",
+            "Remove [Governor.Victor] [in this city]",
             "Remove [Governor.Victor.Remove] [in this city]",
-            "Only available <in cities with a [Governor.VictorI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Victor]>"
         ]
     },
-    {
-        "name": "Governor.PingalaI",
-        "percentStatBonus": {
-            "science": 8,
-            "culture": 6
-        },
-        "requiredResource": "Resource.GovernorTitle",
+    { //平加拉
+        "name": "Governor.Pingala",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.PingalaI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor",
-            "Class.Governor.Level1",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    {
-        "name": "Governor.PingalaIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.PingalaI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+4 Science] per [4] population [in this city]",
-            "Only available <in cities with a [Governor.PingalaI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.PingalaIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.PingalaI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+3 Culture] per [3] population [in this city]",
-            "Only available <in cities with a [Governor.PingalaI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.PingalaIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+100]% Great Person generation [in this city]", //TODO:需要伟人点数重做才能生效！
-            "Only available <in cities with a [Governor.PingalaIIA]>",
-            "Only available <in cities with a [Governor.PingalaIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.PingalaIVA",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+50]% [Science] [in this city]", //将来会和旅游业绩相关
-            "Unsellable",
-            "Only available <in cities with a [Governor.PingalaIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.PingalaIVB",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+50]% Production when constructing [Class.Unit.SpaceRace] units [in this city]",
-            "Unsellable",
-            "Only available <in cities with a [Governor.PingalaIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //平加拉-移除
+    { //平加拉-卸任
         "name": "Governor.Pingala.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.PingalaI] [in this city]",
-            "Remove [Governor.PingalaIIA] [in this city]",
-            "Remove [Governor.PingalaIII] [in this city]",
-            "Remove [Governor.PingalaIIB] [in this city]",
-            "Remove [Governor.PingalaIVA] [in this city]",
-            "Remove [Governor.PingalaIVB] [in this city]",
+            "Remove [Governor.Pingala] [in this city]",
             "Remove [Governor.Pingala.Remove] [in this city]",
-            "Only available <in cities with a [Governor.PingalaI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Pingala]>"
         ]
     },
-    {
-        "name": "Governor.LiangI",
-        "cityStrength": 30,
-        "requiredResource": "Resource.GovernorTitle",
+    { //梁
+        "name": "Governor.Liang",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "All newly-trained [UnitType.Civilian] units [in this city] receive the [Promotion.UnionLeader] promotion",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.LiangI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor",
-            "Class.Governor.Level1",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    {
-        "name": "Governor.LiangIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.LiangI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+40]% Production when constructing [Class.Building.DistrictUnique] buildings [in this city]",
-            "Only available <in cities with a [Governor.LiangI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.LiangIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.LiangI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            // "May buy [Unit.Fishery] units for [300] [Gold] [in this city] at an increasing price ([75])",
-            "[+1 Production] from [Improvement.Fishery] tiles [in this city]",
-            "Only available <in cities with a [Governor.LiangI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.LiangIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+1 Production] from [Improvement.ProtectionZone] tiles [in this city]",
-            "Only available <in cities with a [Governor.LiangIIA]>",
-            "Only available <in cities with a [Governor.LiangIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.LiangIVA",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+100]% Production when constructing [Class.Unit.Builder] units [in this city]",
-            "Unsellable",
-            "Only available <in cities with a [Governor.LiangIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.LiangIVB",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+1 Culture] from [Improvement.ProtectionZone] tiles [in this city]", //将来和市立公园有关
-            "Unsellable",
-            "Only available <in cities with a [Governor.LiangIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //梁-移除
+    { //梁-卸任
         "name": "Governor.Liang.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.LiangI] [in this city]",
-            "Remove [Governor.LiangIIA] [in this city]",
-            "Remove [Governor.LiangIII] [in this city]",
-            "Remove [Governor.LiangIIB] [in this city]",
-            "Remove [Governor.LiangIVA] [in this city]",
-            "Remove [Governor.LiangIVB] [in this city]",
+            "Remove [Governor.Liang] [in this city]",
             "Remove [Governor.Liang.Remove] [in this city]",
-            "Only available <in cities with a [Governor.LiangI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Liang]>"
         ]
     },
-    {
-        "name": "Governor.MokshaI",
-        "requiredResource": "Resource.GovernorTitle",
+    { //莫克夏
+        "name": "Governor.Moksha",
         "uniques": [
             "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+2 Faith] from every [Class.Building.DistrictUnique] <in this city>",
             "Unsellable",
             "Destroyed when the city is captured",
-            "Only available <in cities without a [Class.Governor.Level1]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.MokshaI]>",
             "Limited to [1] per Civilization",
-            "Class.Governor",
-            "Class.Governor.Level1",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Class.Governor"
         ]
     },
-    {
-        "name": "Governor.MokshaIIA",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.MokshaI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "May choose [1] additional belief(s) of any type when [enhancing] a religion",
-            "Only available <in cities with a [Governor.MokshaI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MokshaIIB",
-        "requiredResource": "Resource.GovernorTitle",
-        // "requiredBuilding":"Governor.MokshaI",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "Comment [This city allows conversion of Production to [Faith] at a [2:1] ratio ([3:2] for [Nation.Ming])]",
-            "Enables conversion of city production to [Faith] <in this city> <hidden from users>",
-            "Production to [Faith] conversion in cities changed by [100]% <hidden from users>",
-            "Only available <in cities with a [Governor.MokshaI]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MokshaIII",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "All newly-trained [Unit.Missionary] units [in this city] receive the [Promotion.Devout1] promotion",
-            "Only available <in cities with a [Governor.MokshaIIA]>",
-            "Only available <in cities with a [Governor.MokshaIIB]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Unsellable",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MokshaIVA",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[Faith] cost of purchasing items in cities [-15]%",
-            "Unsellable",
-            "Only available <in cities with a [Governor.MokshaIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    {
-        "name": "Governor.MokshaIVB",
-        "requiredResource": "Resource.GovernorTitle",
-        "uniques": [
-            "Unbuildable",
-            "Can be purchased for [0] [Gold] [in capital]",
-            "[+400]% Natural religion spread [in all cities]",
-            "Unsellable",
-            "Only available <in cities with a [Governor.MokshaIII]>",
-            "Only available <when above [0] [Resource.GovernorTitle]>",
-            "Destroyed when the city is captured",
-            "Class.Governor",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
-        ]
-    },
-    { //莫克夏-移除
+    { //莫克夏-卸任
         "name": "Governor.Moksha.Remove",
-        "cost": 30,
+        "cost": 50,
         "uniques": [
-            "Remove [Governor.MokshaI] [in this city]",
-            "Remove [Governor.MokshaIIA] [in this city]",
-            "Remove [Governor.MokshaIII] [in this city]",
-            "Remove [Governor.MokshaIIB] [in this city]",
-            "Remove [Governor.MokshaIVA] [in this city]",
-            "Remove [Governor.MokshaIVB] [in this city]",
+            "Remove [Governor.Moksha] [in this city]",
             "Remove [Governor.Moksha.Remove] [in this city]",
-            "Only available <in cities with a [Governor.MokshaI]>",
-            "Destroyed when the city is captured",
-            "Limited to [1] per Civilization",
-            "Only available <when [Pattern.Viceroy] Victory is enabled>"
+            "Only available <in cities with a [Governor.Moksha]>"
         ]
     },
     /*市中心建筑*/
@@ -2638,7 +1857,7 @@
         "maintenance": 1,
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
-            "[+2 Happiness, +3 Food] from every [Class.Governor.Level1]",
+            "[+2 Happiness, +3 Food] from every [Class.Governor]",
             "Provides [1] [Resource.GovernorTitle]",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.WarlordThrone]>",
@@ -2879,9 +2098,7 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Cost increases by [12] when built",
             "Unsellable",
             "Only available <when religion is enabled>",
@@ -2905,7 +2122,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "[+1 Faith] from [Tundra] tiles without [Landform.Hill] [in this city]",
             "Cost increases by [6] when built",
             "Unsellable",
@@ -2929,9 +2145,7 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <when religion is enabled>",
             "Cost increases by [6] when built",
             "Unsellable",
@@ -2952,9 +2166,7 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <when religion is enabled>",
             "Cost increases by [6] when built",
             "Unsellable",
@@ -2975,9 +2187,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <after adopting [EnhancerBelief.Stupa]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -2998,9 +2208,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Provides [1] [Resource.Influence]",
             "Only available <after adopting [EnhancerBelief.Cathedral]>",
             "Only available <when religion is enabled>",
@@ -3022,9 +2230,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <after adopting [EnhancerBelief.BuddhistTemple]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3045,9 +2251,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <after adopting [EnhancerBelief.Temple]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3067,9 +2271,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "All newly-trained [Unit.Missionary] units [in this city] receive the [Promotion.Devout1] promotion",
             "Only available <after adopting [EnhancerBelief.Mosque]>",
             "Only available <when religion is enabled>",
@@ -3091,9 +2293,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <after adopting [EnhancerBelief.Sudowoodo]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3114,9 +2314,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <after adopting [EnhancerBelief.Monastery]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3136,9 +2334,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <after adopting [EnhancerBelief.Synagogue]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3158,9 +2354,7 @@
         "uniques": [
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <for [Nation.India] Civilizations> <hidden from users>",
             "[+1 Faith] from [Landform.GeothermalFissure] tiles [in this city]",
             "Only available <after adopting [EnhancerBelief.FireTemple]>",
             "Only available <when religion is enabled>",
@@ -3182,7 +2376,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [12] when built",
             "Creates a [District.Campus] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3206,7 +2399,6 @@
             "Unsellable",
             "Consumes [1] [Resource.DistrictLimitation]",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Creates a [Distict.LearningAcademy] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3229,7 +2421,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Creates a [District.MayanObservatory] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3250,7 +2441,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
@@ -3273,7 +2463,6 @@
         "uniques": [
             "New [Military] units start with [9] XP [in this city]",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [3] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
@@ -3293,7 +2482,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.Campus",
@@ -3317,9 +2505,7 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Unit.Prophet]",
-            "Provides [1] [Resource.Unit.Prophet] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Cost increases by [3] when built",
             "Class.DistrictBuilding.Campus",
@@ -3341,7 +2527,6 @@
         "uniques": [
             "[+1 Science] from every [Specialist.Scientist] <in this city>",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Provides [1] [Resource.Unit.Scientist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
@@ -3374,7 +2559,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Merchant]",
-            "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [12] when built",
             "Creates a [District.CommercialHub] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3397,7 +2581,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Merchant]",
-            "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Provides [4] [Resource.halfHouse] <in this city>",
             "[Gold] cost of purchasing [All] units [-20]% <in this city>",
@@ -3419,7 +2602,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
-            "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.TradeRouteCapacity]",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
@@ -3439,7 +2621,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
-            "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
             "Never destroyed when the city is captured",
@@ -3460,7 +2641,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
-            "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides 1 extra copy of each improved luxury resource near this City",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
@@ -3481,7 +2661,6 @@
         "uniques": [
             "[+3 Gold] from every [Specialist.Merchant] <in this city>",
             "Provides [1] [Resource.Unit.Merchant]",
-            "Provides [1] [Resource.Unit.Merchant] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
             "Never destroyed when the city is captured",
@@ -3513,7 +2692,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [12] when built",
             "Creates a [District.TheaterSquare] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3536,7 +2714,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Creates a [District.Acropolis] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3557,7 +2734,6 @@
         "uniques": [
             "[+2 Culture] <for every [Era number]>",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
@@ -3580,7 +2756,6 @@
             "Can only be built <in [Coastal] cities>",
             "[+1 Culture, +1 Faith] from [Land] tiles without [Class.UsualImprovement] [in this city]",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
@@ -3602,7 +2777,6 @@
         "uniques": [
             "[+1 Culture] <for every [[Building.DistrictUnique.TheaterSquare] Buildings by [Major] Civilizations]>",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Only available <in cities without a [Building.ArchaeologicalMuseum]>",
             "Class.DistrictBuilding.TheaterSquare",
@@ -3625,7 +2799,6 @@
         "uniques": [
             "[Culture] cost of purchasing items in cities [-3]%",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Only available <in cities without a [Building.ArtMuseum]>",
             "Class.DistrictBuilding.TheaterSquare",
@@ -3648,7 +2821,6 @@
         "uniques": [
             "[+1 Culture] from every [Specialist.Artist] <in this city>",
             "Provides [1] [Resource.Unit.Artist]",
-            "Provides [1] [Resource.Unit.Artist] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
@@ -3861,7 +3033,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [12] when built",
             "Creates a [District.IndustrialZone] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3886,7 +3057,6 @@
             "Discover [Tech.Apprentices]",
             "Unsellable",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [12] when built",
             "Creates a [District.Oppidum] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3908,7 +3078,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [6] when built",
             "Creates a [District.CommercialAssociation] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3929,7 +3098,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik I] promotion <for [Nation.SU] Civilizations>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.IndustrialZone",
@@ -3950,7 +3118,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik II] promotion <for [Nation.SU] Civilizations>",
             "Cost increases by [6] when built",
             "Class.DistrictBuilding.IndustrialZone",
@@ -3974,7 +3141,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Cost increases by [3] when built",
             "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
@@ -4009,7 +3175,6 @@
         "uniques": [
             "[+1 Production] from every [Specialist.Engineer] <in this city>",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
             "Provides [4] [Resource.Electricity]",
             "Cost increases by [6] when built",
@@ -4085,7 +3250,6 @@
         "uniques": [
             "[+1 Production] from every [Specialist.Engineer] <in this city>",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
             "Never destroyed when the city is captured",
             "Provides [4] [Resource.Electricity]",
@@ -4161,7 +3325,6 @@
         "uniques": [
             "[+1 Production] from every [Specialist.Engineer] <in this city>",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Provides [1] [Resource.Unit.Engineer] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
             "Never destroyed when the city is captured",
             "Provides [16] [Resource.Electricity]",
@@ -4198,7 +3361,6 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.DistrictLimitation] <in this city> <for [Nation.SRC] Civilizations> <hidden from users>",
             "Cost increases by [12] when built",
             "Creates a [District.Army] improvement on a specific tile",
@@ -4243,7 +3405,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [2] [Resource.Iron]",
             "All newly-trained [UnitType.MeleeInfantry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "All newly-trained [UnitType.AntiCavalry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
@@ -4269,7 +3430,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [2] [Resource.Horse]",
             "All newly-trained [UnitType.LightCavalry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
@@ -4297,7 +3457,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [2] [Resource.Horse]",
             "All newly-trained [UnitType.LightCavalry] units [in this city] receive the [Promotion.FastMove] promotion",
             "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.FastMove] promotion",
@@ -4327,7 +3486,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [2] [Resource.Niter]",
             "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion.ArmyCombatTrainingII] promotion",
             "Cost increases by [6] when built",
@@ -4351,7 +3509,6 @@
         "uniques": [
             "[+1 Production] from every [Specialist.ArmyLogistics] <in this city>",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Coal]",
             "Provides [1] [Resource.Oil]",
             "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion.ArmyCombatTrainingIII] promotion",
@@ -4380,7 +3537,6 @@
             "[+3 Production] per [5] population [in this city]",
             "[+100]% Production when constructing [Unit.RedArmy] units [in this city]",
             "Provides [1] [Resource.Unit.General]",
-            "Provides [1] [Resource.Unit.General] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Provides [1] [Resource.Coal]",
             "Provides [1] [Resource.Oil]",
             "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion.ArmyCombatTrainingIII] promotion",
@@ -4431,7 +3587,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Unsellable",
             "Must be next to [Coast]",
             "Cost increases by [12] when built",
@@ -4457,7 +3612,6 @@
         "uniques": [
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.SunNeverSets] promotion",
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Unsellable",
             "Must be next to [Coast]",
             "Cost increases by [6] when built",
@@ -4484,7 +3638,6 @@
             "[+25]% Production when constructing [Unit.Settler] units [in this city]",
             "[{Military} {Water}] Units adjacent to this city heal [100] HP per turn when healing",
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "Unsellable",
             "Must be next to [Coast]",
             "Cost increases by [6] when built",
@@ -4507,7 +3660,6 @@
         "uniques": [
             "Provides [4] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "[+1 Food] from [Coast] tiles [in this city]",
             "[+1 Food] from [Lakes] tiles [in this city]",
             "[+1 Food] from [Ocean] tiles [in this city]",
@@ -4535,7 +3687,6 @@
             "[+50]% [Gold] from Trade Routes",
             "Provides [4] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "[+1 Food] from [Coast] tiles [in this city]",
             "[+1 Food] from [Lakes] tiles [in this city]",
             "[+1 Food] from [Ocean] tiles [in this city]",
@@ -4560,7 +3711,6 @@
         //		"greatPersonPoints": {"Unit.Admiral": 1},
         "uniques": [
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "[+1 Production] from [Coast] tiles [in this city]",
             "[+1 Production] from [Lakes] tiles [in this city]",
             "[+1 Production] from [Ocean] tiles [in this city]",
@@ -4585,7 +3735,6 @@
         "uniques": [
             "[+1 Food, +1 Gold] from every [Specialist.ArmyLogistics] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
-            "Provides [1] [Resource.Unit.Admiral] <in cities with a [Governor.PingalaIII]> <hidden from users>",
             "[+2 Gold] from [Coast] tiles [in this city]",
             "[+2 Gold] from [Lakes] tiles [in this city]",
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatTrainingIII] promotion",
@@ -6832,7 +5981,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "[+4 Food, -1 Production, +3 Gold] from every [Class.Governor.Level1]",
+            "[+4 Food, -1 Production, +3 Gold] from every [Class.Governor]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.MassMedia]>",
@@ -7316,7 +6465,7 @@
         "cost": 0,
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
-            "[+2 Happiness] from every [Class.Governor.Level1]",
+            "[+2 Happiness] from every [Class.Governor]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.SocialMedia]>",

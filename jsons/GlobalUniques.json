@@ -24,6 +24,7 @@
         "[-100]% Culture cost of adopting new Policies",
         "Adopt [Culture.GreatPerson]",
         "Adopt [Policy.Camorrist]",
+        "Adopt [Policy.Governor]",
         /*应用范围不对的信条*/
         "Provides [2] [Resource.Horse] <after adopting [Pantheon.GodOfTheForge]>", //锻造之神
         "Provides [2] [Resource.Iron] <after adopting [Pantheon.GodOfTheForge]>", //锻造之神

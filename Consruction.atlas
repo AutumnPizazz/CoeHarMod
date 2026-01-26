@@ -2964,378 +2964,112 @@ BuildingIcons/Gov.Theocracy
   orig: 128, 128
   offset: 0, 0
   index: -1
-BuildingIcons/Governor.Amani.Remove
+BuildingIcons/Governor.Amani
   rotate: false
   xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.GrandVizier
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Liang
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Magnus
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Moksha
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Pingala
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Reyna
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Victor
+  rotate: false
+  xy: 956, 1388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Governor.Amani.Remove
+  rotate: false
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.GrandVizier.Remove
   rotate: false
-  xy: 956, 1388
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.Liang.Remove
   rotate: false
-  xy: 956, 1388
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.Magnus.Remove
   rotate: false
-  xy: 956, 1388
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.Moksha.Remove
   rotate: false
-  xy: 956, 1388
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.Pingala.Remove
   rotate: false
-  xy: 956, 1388
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.Reyna.Remove
   rotate: false
-  xy: 956, 1388
+  xy: 1092, 1524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Governor.Victor.Remove
-  rotate: false
-  xy: 956, 1388
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.AmaniI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.AmaniIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.AmaniIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.AmaniIIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.AmaniIIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.AmaniIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GrandVizierI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GrandVizierII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GrandVizierIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.GrandVizierIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.LiangI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.LiangIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.LiangIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.LiangIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.LiangIVA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.LiangIVB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MagnusI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MagnusIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MagnusIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MagnusIIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MagnusIIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MagnusIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MokshaI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MokshaIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MokshaIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MokshaIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MokshaIVA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.MokshaIVB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.PingalaI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.PingalaIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.PingalaIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.PingalaIII
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.PingalaIVA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.PingalaIVB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.ReynaI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.ReynaIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.ReynaIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.ReynaIIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.ReynaIIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.ReynaIV
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VictorI
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VictorIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VictorIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VictorIIIA
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VictorIIIB
-  rotate: false
-  xy: 1092, 1524
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Governor.VictorIV
   rotate: false
   xy: 1092, 1524
   size: 100, 100

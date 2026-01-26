@@ -428,7 +428,7 @@
 			"Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
 			"[+2] Movement <before turn number [2]>",
 			"Requires at least [2] population",
-			"[-1] population [in this city] <in cities without a [Governor.MagnusIIB]>",
+			"[-1] population [in this city]",
 			"[+1] Sight",
 			"Cost increases by [20] when built"
 		]

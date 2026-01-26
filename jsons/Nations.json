@@ -81,8 +81,9 @@
 		"preferredVictoryType": "VictoryType.Science",
 		"uniqueName": "Hwarang",
 		"uniques": [
-			"[+4]% [Science] from every [Class.Governor]",
-			"[+4]% [Culture] from every [Class.Governor]"
+			// 等待重做
+			// "[+4]% [Science] from every [Class.Governor]",
+			// "[+4]% [Culture] from every [Class.Governor]"
 		],
 		"cities": [
 			"Seoul",

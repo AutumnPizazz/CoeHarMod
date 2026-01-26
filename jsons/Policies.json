@@ -1,5 +1,66 @@
 [
     {
+        "name": "Culture.CulturalVictorySprint",
+        "era": "Era.Near-future",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [],
+        "policies": [
+            {
+                "name": "Culture.CultureVictoryRush2",
+                "uniques": [],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.CultureVictoryRush3",
+                "uniques": [],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush2"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush4",
+                "uniques": [],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush3"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush5",
+                "uniques": [],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush4"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush6",
+                "uniques": [],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush5"
+                ]
+            },
+            {
+                "name": "Culture.CulturalVictorySprint Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
         "name": "Culture.GreatPerson",
         "era": "Era.Ancient",
         "priorities": {
@@ -948,67 +1009,6 @@
         ]
     },
     {
-        "name": "Culture.CulturalVictorySprint",
-        "era": "Era.Near-future",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [],
-        "policies": [
-            {
-                "name": "Culture.CultureVictoryRush2",
-                "uniques": [],
-                "row": 1,
-                "column": 3,
-                "requires": []
-            },
-            {
-                "name": "Culture.CultureVictoryRush3",
-                "uniques": [],
-                "row": 2,
-                "column": 3,
-                "requires": [
-                    "Culture.CultureVictoryRush2"
-                ]
-            },
-            {
-                "name": "Culture.CultureVictoryRush4",
-                "uniques": [],
-                "row": 3,
-                "column": 3,
-                "requires": [
-                    "Culture.CultureVictoryRush3"
-                ]
-            },
-            {
-                "name": "Culture.CultureVictoryRush5",
-                "uniques": [],
-                "row": 4,
-                "column": 3,
-                "requires": [
-                    "Culture.CultureVictoryRush4"
-                ]
-            },
-            {
-                "name": "Culture.CultureVictoryRush6",
-                "uniques": [],
-                "row": 5,
-                "column": 3,
-                "requires": [
-                    "Culture.CultureVictoryRush5"
-                ]
-            },
-            {
-                "name": "Culture.CulturalVictorySprint Complete",
-                "uniques": []
-            }
-        ]
-    },
-    {
         "name": "Policy.Camorrist",
         "era": "Era.Ancient",
         "priorities": {
@@ -1227,6 +1227,571 @@
             {
                 "name": "Policy.Camorrist Complete",
                 "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Policy.Governor",
+        "era": "Era.Ancient",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "policies":[
+            {
+                "name" :"Policy.Governor.MagnusI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":2
+            },
+            {
+                "name" :"Policy.Governor.MagnusIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":1,
+                "requires": [
+                    "Policy.Governor.MagnusI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MagnusIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":3,
+                "requires": [
+                    "Policy.Governor.MagnusI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MagnusIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":1,
+                "requires": [
+                    "Policy.Governor.MagnusIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MagnusIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":3,
+                "requires": [
+                    "Policy.Governor.MagnusIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MagnusIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":2,
+                "requires": [
+                    "Policy.Governor.MagnusIIIA",
+                    "Policy.Governor.MagnusIIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.ReynaI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":6
+            },
+            {
+                "name" :"Policy.Governor.ReynaIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":5,
+                "requires": [
+                    "Policy.Governor.ReynaI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.ReynaIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":7,
+                "requires": [
+                    "Policy.Governor.ReynaI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.ReynaIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":5,
+                "requires": [
+                    "Policy.Governor.ReynaIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.ReynaIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":7,
+                "requires": [
+                    "Policy.Governor.ReynaIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.ReynaIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":6,
+                "requires": [
+                    "Policy.Governor.ReynaIIIA",
+                    "Policy.Governor.ReynaIIIB"
+                ]
+            },
+
+            {
+                "name" :"Policy.Governor.AmaniI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":10
+            },
+            {
+                "name" :"Policy.Governor.AmaniIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":9,
+                "requires": [
+                    "Policy.Governor.AmaniI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.AmaniIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":11,
+                "requires": [
+                    "Policy.Governor.AmaniI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.AmaniIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":9,
+                "requires": [
+                    "Policy.Governor.AmaniIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.AmaniIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":11,
+                "requires": [
+                    "Policy.Governor.AmaniIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.AmaniIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":10,
+                "requires": [
+                    "Policy.Governor.AmaniIIIA",
+                    "Policy.Governor.AmaniIIIB"
+                ]
+            },
+
+            {
+                "name" :"Policy.Governor.VictorI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":14
+            },
+            {
+                "name" :"Policy.Governor.VictorIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":13,
+                "requires": [
+                    "Policy.Governor.VictorI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.VictorIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":15,
+                "requires": [
+                    "Policy.Governor.VictorI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.VictorIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":13,
+                "requires": [
+                    "Policy.Governor.VictorIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.VictorIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":15,
+                "requires": [
+                    "Policy.Governor.VictorIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.VictorIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":14,
+                "requires": [
+                    "Policy.Governor.VictorIIIA",
+                    "Policy.Governor.VictorIIIB"
+                ]
+            },
+
+            {
+                "name" :"Policy.Governor.PingalaI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":18
+            },
+            {
+                "name" :"Policy.Governor.PingalaIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":17,
+                "requires": [
+                    "Policy.Governor.PingalaI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.PingalaIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":19,
+                "requires": [
+                    "Policy.Governor.PingalaI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.PingalaIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":17,
+                "requires": [
+                    "Policy.Governor.PingalaIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.PingalaIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":19,
+                "requires": [
+                    "Policy.Governor.PingalaIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.PingalaIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":18,
+                "requires": [
+                    "Policy.Governor.PingalaIIIA",
+                    "Policy.Governor.PingalaIIIB"
+                ]
+            },
+
+            {
+                "name" :"Policy.Governor.LiangI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":22
+            },
+            {
+                "name" :"Policy.Governor.LiangIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":21,
+                "requires": [
+                    "Policy.Governor.LiangI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.LiangIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":23,
+                "requires": [
+                    "Policy.Governor.LiangI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.LiangIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":21,
+                "requires": [
+                    "Policy.Governor.LiangIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.LiangIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":23,
+                "requires": [
+                    "Policy.Governor.LiangIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.LiangIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":22,
+                "requires": [
+                    "Policy.Governor.LiangIIIA",
+                    "Policy.Governor.LiangIIIB"
+                ]
+            },
+
+            {
+                "name" :"Policy.Governor.MokshaI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":26
+            },
+            {
+                "name" :"Policy.Governor.MokshaIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":25,
+                "requires": [
+                    "Policy.Governor.MokshaI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MokshaIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":27,
+                "requires": [
+                    "Policy.Governor.MokshaI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MokshaIIIA",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":25,
+                "requires": [
+                    "Policy.Governor.MokshaIIA"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MokshaIIIB",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":27,
+                "requires": [
+                    "Policy.Governor.MokshaIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.MokshaIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":26,
+                "requires": [
+                    "Policy.Governor.MokshaIIIA",
+                    "Policy.Governor.MokshaIIIB"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.GrandVizierI",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <for [Nation.Ottoman] Civilizations>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row":1,
+                "column":29
+            },
+            {
+                "name" :"Policy.Governor.GrandVizierII",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":2,
+                "column":29,
+                "requires": [
+                    "Policy.Governor.GrandVizierI"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.GrandVizierIII",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":3,
+                "column":29,
+                "requires": [
+                    "Policy.Governor.GrandVizierII"
+                ]
+            },
+            {
+                "name" :"Policy.Governor.GrandVizierIV",
+                "uniques":[
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                ],
+                "row":4,
+                "column":29,
+                "requires": [
+                    "Policy.Governor.GrandVizierIII"
+                ]
+            },
+            {
+                "name" :"Policy.Governor Complete"
             }
         ]
     }
