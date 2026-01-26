@@ -146,7 +146,7 @@ ResourceIcons/Resource.EconomicPolicySlot
   index: -1
 ResourceIcons/Resource.Electricity
   rotate: false
-  xy: 1588, 1274
+  xy: 932, 354
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -195,7 +195,7 @@ ResourceIcons/Resource.Gold
   index: -1
 ResourceIcons/Resource.GovernorTitle
   rotate: false
-  xy: 1852, 1530
+  xy: 1588, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -258,14 +258,14 @@ ResourceIcons/Resource.Leather
   index: -1
 ResourceIcons/Resource.Livability
   rotate: false
-  xy: 684, 90
+  xy: 1852, 1530
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.LivabilityFromLuxury
   rotate: false
-  xy: 684, 90
+  xy: 1852, 1530
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -319,13 +319,6 @@ ResourceIcons/Resource.MilitaryPolicySlot
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Resource.NewDealLegislation
-  rotate: false
-  xy: 548, 62
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
 ResourceIcons/Resource.Niter
   rotate: false
   xy: 268, 462
@@ -342,14 +335,14 @@ ResourceIcons/Resource.Oil
   index: -1
 ResourceIcons/Resource.Porcelain
   rotate: false
-  xy: 1324, 982
+  xy: 548, 62
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Rubber
   rotate: false
-  xy: 1460, 1118
+  xy: 1324, 982
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -391,7 +384,7 @@ ResourceIcons/Resource.Spices
   index: -1
 ResourceIcons/Resource.SpyCapacity
   rotate: false
-  xy: 932, 218
+  xy: 684, 90
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -412,7 +405,7 @@ ResourceIcons/Resource.Sugar
   index: -1
 ResourceIcons/Resource.TradeRouteCapacity
   rotate: false
-  xy: 1696, 1274
+  xy: 932, 246
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -433,42 +426,42 @@ ResourceIcons/Resource.Unit.Admiral
   index: -1
 ResourceIcons/Resource.Unit.Artist
   rotate: false
-  xy: 792, 82
+  xy: 1696, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Unit.Engineer
   rotate: false
-  xy: 1596, 1166
+  xy: 792, 82
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Unit.General
   rotate: false
-  xy: 1596, 1058
+  xy: 1596, 1166
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Unit.Merchant
   rotate: false
-  xy: 1860, 1422
+  xy: 1596, 1058
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Unit.Prophet
   rotate: false
-  xy: 1460, 982
+  xy: 1460, 1118
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Unit.Scientist
   rotate: false
-  xy: 1596, 950
+  xy: 1860, 1422
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -503,21 +496,21 @@ ResourceIcons/Resource.Wine
   index: -1
 ResourceIcons/Resource.halfHouse
   rotate: false
-  xy: 1724, 1382
+  xy: 1460, 982
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.remainingAvailableVampireCount
   rotate: false
-  xy: 796, 190
+  xy: 1724, 1382
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.remainingMonksCount
   rotate: false
-  xy: 932, 326
+  xy: 796, 190
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
