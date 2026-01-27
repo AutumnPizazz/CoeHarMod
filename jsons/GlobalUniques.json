@@ -196,6 +196,7 @@
         "[+20]% [Food] [in all cities] <with [1] to [6] neighboring [LargeRiver] tiles>", //沿大河城市加速发展
         "[-100]% [Gold] from Trade Routes", //取消贸易路线产出，改为贸易站
         "Gain a free [Building.AncientWalls] [in City-State cities] <when number of [Adopted [Policy.Governor.AmaniIIA] Policies by [Major] Civilizations] is more than [0]>",//阿玛尼IIA为城邦赠送远古城墙
+        "May buy [Class.Governor] buildings for [0] [Gold] [in all cities]",//0元购总督建筑
         /*政策槽位不宜为负数*/
         "Nullifies [Science] [in all cities] <when below [0] [Resource.MilitaryPolicySlot]>",
         "Nullifies [Culture] [in all cities] <when below [0] [Resource.MilitaryPolicySlot]>",

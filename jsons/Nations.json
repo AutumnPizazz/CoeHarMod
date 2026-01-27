@@ -838,25 +838,6 @@
 			"Comment [Civilization-unique Governor: Grand Vizier]",
 			"Provides [1] [Resource.GovernorTitle] <after discovering [Tech.Gunpowder]>"
 		],
-		"civilopediaText": [
-			/*      {"separator":true,"color":"#FFFFFF","size":2},*/
-			{
-				"text": "Governor.GrandVizierI",
-				"link": "Building/Governor.GrandVizierI"
-			},
-			{
-				"text": "Governor.GrandVizierII",
-				"link": "Building/Governor.GrandVizierII"
-			},
-			{
-				"text": "Governor.GrandVizierIII",
-				"link": "Building/Governor.GrandVizierIII"
-			},
-			{
-				"text": "Governor.GrandVizierIV",
-				"link": "Building/Governor.GrandVizierIV"
-			}
-		],
 		"cities": [
 			"Istanbul",
 			"Edirne",

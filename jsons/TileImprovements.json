@@ -1295,13 +1295,6 @@
 	/*人造奇观部分*/
 	{ //大浴场
 		"name": "District.TheGreatBathsOfCaracalla",
-		"food": -10,
-		"production": -10,
-		"gold": -10,
-		"science": -10,
-		"culture": -10,
-		"faith": -10,
-		"happiness": -10,
 		"terrainsCanBeBuiltOn": [
 			"Grassland",
 			"Plains",

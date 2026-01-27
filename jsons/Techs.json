@@ -25,16 +25,16 @@
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
-			{
-				"name": "Tech.UniqueToUnitedStates",
-				"cost": 33554431,
-				"row": 14,
-				"quote": "罗斯福新政，燃起希望之光，重建经济，保障劳动，铸就辉煌，引领未来。",
-				"uniques": [
-					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
-					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
-				]
-			},
+			// {
+			// 	"name": "Tech.UniqueToUnitedStates",
+			// 	"cost": 33554431,
+			// 	"row": 14,
+			// 	"quote": "罗斯福新政，燃起希望之光，重建经济，保障劳动，铸就辉煌，引领未来。",
+			// 	"uniques": [
+			// 		"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
+			// 		"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+			// 	]
+			// },
 			{
 				"name": "Tech.UniqueToVampire",
 				"cost": 33554431,

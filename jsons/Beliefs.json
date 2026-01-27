@@ -322,7 +322,7 @@
         "uniques": [
             "Provides [1] [Resource.TradeRouteCapacity]",
             "Free [Unit.Trader] appears",
-            "[+1 Gold] from each Trade Route"
+            "[+1 Gold] from every [Building.TradingPost]"
         ]
     },
     { //酒神秘仪
