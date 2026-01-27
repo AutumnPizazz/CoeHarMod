@@ -292,15 +292,21 @@
 	},
 	/*总督buff*/
 	{
-		"name": "Promotion.LordTraining",
+		"name": "Promotion.AllTilesCost1Movement",
 		"uniques": [
-			"[+13]% Strength"
+			"All tiles cost 1 movement"
 		]
 	},
+	// {
+	// 	"name": "Promotion.LordTraining",
+	// 	"uniques": [
+	// 		"[+13]% Strength"
+	// 	]
+	// },
 	{
 		"name": "Promotion.UnionLeader",
 		"uniques": [
-			"[+1] Movement <for [Class.Unit.Builder] units>"
+			"[+2] Movement"
 		]
 	},
 	/*单位-武僧*/

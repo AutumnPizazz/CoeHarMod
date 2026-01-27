@@ -1362,6 +1362,9 @@
     /*通用总督*/
     { //马格努斯
         "name": "Governor.Magnus",
+        "specialistSlots": {
+            "Specialist.BasicPop": 2
+        },
         "uniques": [
             "Unbuildable",
             "Unsellable",
@@ -1385,6 +1388,7 @@
         "uniques": [
             "Unbuildable",
             "Unsellable",
+            "All newly-trained [Unit.Trader] units [in this city] receive the [Promotion.AllTilesCost1Movement] promotion",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Governor]> <after adopting [Policy.Governor.ReynaI]>",
             "Limited to [1] per Civilization",
@@ -1476,6 +1480,7 @@
         "name": "Governor.Liang.Remove",
         "cost": 50,
         "uniques": [
+            "[-60]% production cost <after adopting [Policy.Governor.LiangIIIA]>",
             "Remove [Governor.Liang] [in this city]",
             "Remove [Governor.Liang.Remove] [in this city]",
             "Only available <in cities with a [Governor.Liang]>"
@@ -1513,9 +1518,6 @@
         "cityStrength": 20,
         "cityHealth": 50,
         "cost": 1,
-        "specialistSlots": {
-            "Specialist.BasicPop": 2
-        },
         "uniques": [
             "Indicates the capital city",
             "Provides [4] [Resource.halfHouse] <in this city>",
@@ -1790,6 +1792,15 @@
             "[+1 Gold] from every [Class.Building.DistrictUnique] <in this city>",
             "Can only be built <in cities connected to the capital>",
             "Only available <in cities without a [Building.Palace]> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Park",
+        "cost": 30,
+        "uniques":[
+            "Only available <after adopting [Policy.Governor.LiangIIIA]> <in cities with a [Governor.Liang]> <after discovering [Civic.GamesAndEntertainment]>",
+            "Creates a [Improvement.Park] improvement on a specific tile",
+            "Never destroyed when the city is captured"
         ]
     },
     /*市政广场区域建筑*/

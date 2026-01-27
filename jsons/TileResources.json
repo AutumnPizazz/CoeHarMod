@@ -646,7 +646,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	{ //大商人点数
@@ -655,7 +656,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	{ //大艺术家点数
@@ -664,7 +666,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	{ //大工程师点数
@@ -673,7 +676,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	{ //大预言家点数
@@ -682,7 +686,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	{ //大将军点数
@@ -691,7 +696,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	{ //海军统帅点数
@@ -700,7 +706,8 @@
 		"terrainsCanBeFoundOn": [],
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Class.GreatPersonPoint"
 		]
 	},
 	// 	{//军队维护费(征兵可减免)

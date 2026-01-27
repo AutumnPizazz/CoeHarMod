@@ -81,9 +81,8 @@
 		"preferredVictoryType": "VictoryType.Science",
 		"uniqueName": "Hwarang",
 		"uniques": [
-			// 等待重做
-			// "[+4]% [Science] from every [Class.Governor]",
-			// "[+4]% [Culture] from every [Class.Governor]"
+			"[+8]% [Science] [in all cities] <in cities with a [Class.Governor]>",
+			"[-15]% [Science] [in all cities] <in cities without a [Class.Governor]>"
 		],
 		"cities": [
 			"Seoul",
@@ -712,7 +711,7 @@
 			"[+1 Food, +1 Faith, +1 Gold] [in all cities] <with [1] to [2] neighboring [Desert] tiles>",
 			"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
 			"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
-			"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] [in all cities]",
+			"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] for [2] times their normal Production cost",
 			"[-15]% [Production] [in all cities]",
 			"[-1 Production, +3 Gold] from every [Landform.Hill] <in tiles without [Class.District]>",
 			"[+1 Gold] from [Desert] tiles [in all cities] <in tiles without [Class.District]> <in cities with a [Building.DistrictUnique.MandingoMarket]>"

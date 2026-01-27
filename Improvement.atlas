@@ -718,30 +718,37 @@ ImprovementIcons/Improvement.Pabo
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Improvement.Pasture
+ImprovementIcons/Improvement.Park
   rotate: false
   xy: 1324, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Improvement.PersianCourtyard
+ImprovementIcons/Improvement.Pasture
   rotate: false
   xy: 1432, 1382
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Improvement.Plantation
+ImprovementIcons/Improvement.PersianCourtyard
   rotate: false
   xy: 1432, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Improvement.Prophet
+ImprovementIcons/Improvement.Plantation
   rotate: false
   xy: 1540, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Prophet
+  rotate: false
+  xy: 1540, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -762,7 +769,7 @@ ImprovementIcons/Improvement.Qanat
   index: -1
 ImprovementIcons/Improvement.Quarry
   rotate: false
-  xy: 1540, 1274
+  xy: 1648, 1382
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -776,63 +783,63 @@ ImprovementIcons/Improvement.Rock-HewnChurch
   index: -1
 ImprovementIcons/Improvement.Seastead
   rotate: false
-  xy: 1648, 1382
+  xy: 1648, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Sphinx
   rotate: false
-  xy: 1648, 1274
+  xy: 1756, 1382
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.TerraceFarm
   rotate: false
-  xy: 1756, 1382
+  xy: 1756, 1274
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Railroad
   rotate: false
-  xy: 1756, 1274
+  xy: 784, 1166
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Landform.Forest
   rotate: false
-  xy: 784, 1166
+  xy: 892, 1166
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Landform.Rainforest
   rotate: false
-  xy: 784, 1166
+  xy: 892, 1166
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Landform.Nuclear fallout
   rotate: false
-  xy: 892, 1166
+  xy: 1000, 1166
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Landform.Swamp
   rotate: false
-  xy: 1000, 1167
+  xy: 1108, 1167
   size: 100, 99
   orig: 100, 99
   offset: 0, 0
   index: -1
 ImprovementIcons/Road
   rotate: false
-  xy: 1108, 1166
+  xy: 1216, 1166
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

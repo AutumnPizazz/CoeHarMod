@@ -1228,6 +1228,23 @@
 			"Removes removable features when built"
 		]
 	},
+	{
+		"name": "Improvement.Park",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"happiness": 2,
+		"science": 3,
+		"culture": 2,
+		"uniques": [
+			"Great Improvement",
+			"Irremovable",
+			"Cannot be built on [Landform.Hill] tiles",
+			"Can only be built on [Featureless] tiles",
+			"Provides [4] [Resource.halfHouse] <in this city>",
+			"Pillaging this improvement yields approximately [+50 Gold]"
+		]
+	},
 	//市中心和蛮寨
 	{ //城市中心
 		"name": "City center",
