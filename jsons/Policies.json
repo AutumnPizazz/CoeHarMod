@@ -1176,7 +1176,7 @@
                 "uniques": [
                     "Provides [1] [Resource.remainingAvailableVampireCount]",
                     "Discover [Tech.UniqueToVampire]",
-                    "May buy [Unit.VampireI] units for [0] [Gold] [in all cities] <when above [0] [Resource.remainingAvailableVampireCount]>",
+                    "May buy [Unit.VampireI] units for [0] [Gold] [in capital] <when above [0] [Resource.remainingAvailableVampireCount]>",
                     "Only available <after turn number [8]>",
                     "Only available <when [Pattern.Camorrist] Victory is enabled>",
                     "Only available <before adopting [Policy.Governor.VoidchonerI]>",

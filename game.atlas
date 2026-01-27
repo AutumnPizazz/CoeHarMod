@@ -1,1601 +1,1601 @@
 
 game.png
-size: 2048, 2048
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 EmojiIcons/Culture
   rotate: false
-  xy: 4, 4
+  xy: 4, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Faith
   rotate: false
-  xy: 341, 1077
+  xy: 1988, 970
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Food
   rotate: false
-  xy: 1971, 1989
+  xy: 628, 182
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Gold
   rotate: false
-  xy: 420, 45
+  xy: 1600, 194
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Production
   rotate: false
-  xy: 1162, 1381
+  xy: 1988, 912
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 EmojiIcons/Science
   rotate: false
-  xy: 1893, 1329
+  xy: 1658, 194
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 NationIcons/Nation.Arabia
   rotate: false
-  xy: 4, 798
+  xy: 4, 764
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Nation.Atlantis
   rotate: false
-  xy: 1246, 1495
+  xy: 420, 4
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Nation.Aztec
   rotate: false
-  xy: 584, 184
+  xy: 1576, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Babylon
   rotate: false
-  xy: 341, 1135
-  size: 256, 256
-  orig: 256, 256
+  xy: 1684, 468
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Byzantium
   rotate: false
-  xy: 420, 103
+  xy: 1792, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Egypt
   rotate: false
-  xy: 813, 1280
+  xy: 1900, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.England
   rotate: false
-  xy: 860, 1400
+  xy: 684, 624
   size: 186, 188
   orig: 186, 188
   offset: 0, 0
   index: -1
 NationIcons/Nation.Ethiopia
   rotate: false
-  xy: 921, 1292
+  xy: 628, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.France
   rotate: false
-  xy: 1054, 1331
+  xy: 1144, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Gaul
   rotate: false
-  xy: 1894, 1387
+  xy: 1252, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Germany
   rotate: false
-  xy: 652, 1596
+  xy: 4, 500
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Nation.Greece
   rotate: false
-  xy: 1926, 1523
+  xy: 1360, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Han
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Ming
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Qin
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Shang
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Tang
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Yuan
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Zhou
   rotate: false
-  xy: 748, 964
+  xy: 1468, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Iceland
   rotate: false
-  xy: 1382, 1495
+  xy: 556, 4
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Nation.Inca
   rotate: false
-  xy: 692, 184
+  xy: 1576, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.India
   rotate: false
-  xy: 528, 76
+  xy: 1684, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Indonesia
   rotate: false
-  xy: 636, 76
+  xy: 1792, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Japan
   rotate: false
-  xy: 612, 940
+  xy: 1070, 580
   size: 101, 96
   orig: 101, 96
   offset: 0, 0
   index: -1
 NationIcons/Nation.Korea
   rotate: false
-  xy: 744, 76
+  xy: 1900, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.LouLan
   rotate: false
-  xy: 1518, 1495
+  xy: 1070, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Nation.Macedonia
   rotate: false
-  xy: 4, 1062
-  size: 329, 329
-  orig: 329, 329
+  xy: 684, 380
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Mali
   rotate: false
-  xy: 1029, 1223
+  xy: 736, 272
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Maori
   rotate: false
-  xy: 921, 1184
+  xy: 844, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Maya
   rotate: false
-  xy: 856, 1076
+  xy: 736, 164
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Norway
   rotate: false
-  xy: 856, 968
+  xy: 844, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Ottoman
   rotate: false
-  xy: 964, 1076
+  xy: 692, 56
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.PRC
   rotate: false
-  xy: 964, 968
+  xy: 800, 56
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Persia
   rotate: false
-  xy: 1072, 1115
+  xy: 952, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Phoenicia
   rotate: false
-  xy: 1072, 1007
+  xy: 1060, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Rome
   rotate: false
-  xy: 1137, 1223
+  xy: 1168, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Russia
   rotate: false
-  xy: 1180, 1115
+  xy: 1276, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.SRC
   rotate: false
-  xy: 1654, 1495
+  xy: 1206, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Nation.SU
   rotate: false
-  xy: 1790, 1495
+  xy: 1342, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Nation.Scythia
   rotate: false
-  xy: 1180, 1007
+  xy: 1384, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Spain
   rotate: false
-  xy: 4, 534
-  size: 256, 256
-  orig: 256, 256
+  xy: 1492, 252
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.UnitedStates
   rotate: false
-  xy: 1245, 1279
+  xy: 1600, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Vietnam
   rotate: false
-  xy: 4, 270
+  xy: 268, 764
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 OtherIcons/Livability
   rotate: false
-  xy: 813, 1222
+  xy: 62, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Admiral9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Artist9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Engineer9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.General9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Merchant9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Prophet9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist1
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist10
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist2
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist3
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist4
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist5
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist6
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist7
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist8
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.Scientist9
   rotate: false
-  xy: 612, 616
+  xy: 1611, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.CultureVictoryRush2
   rotate: false
-  xy: 612, 508
+  xy: 1719, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.CultureVictoryRush3
   rotate: false
-  xy: 612, 400
+  xy: 1827, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.CultureVictoryRush4
   rotate: false
-  xy: 476, 211
+  xy: 1935, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.CultureVictoryRush5
   rotate: false
-  xy: 612, 292
+  xy: 820, 516
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Culture.CultureVictoryRush6
   rotate: false
-  xy: 748, 1072
+  xy: 928, 520
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor Complete
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.AmaniI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.AmaniIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.AmaniIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.AmaniIIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.AmaniIIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.AmaniIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.BloodContractI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.BloodContractII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.BloodContractIII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.BloodContractIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GoldenDawnI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GoldenDawnII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GoldenDawnIII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GoldenDawnIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GrandVizierI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GrandVizierII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GrandVizierIII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.GrandVizierIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.LiangI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.LiangIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.LiangIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.LiangIIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.LiangIIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.LiangIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MagnusI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MagnusIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MagnusIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MagnusIIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MagnusIIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MagnusIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MinervaNightingaleI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MinervaNightingaleII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MinervaNightingaleIII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MinervaNightingaleIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MokshaI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MokshaIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MokshaIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MokshaIIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MokshaIIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.MokshaIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.PingalaI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.PingalaIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.PingalaIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.PingalaIIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.PingalaIIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.PingalaIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.ReynaI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.ReynaIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.ReynaIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.ReynaIII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.ReynaIVA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.ReynaIVB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VictorI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VictorIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VictorIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VictorIIIA
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VictorIIIB
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VictorIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VoidchonerI
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VoidchonerII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VoidchonerIII
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Policy.Governor.VoidchonerIV
   rotate: false
-  xy: 1353, 1279
+  xy: 1816, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 Portraits/Background
   rotate: false
-  xy: 1054, 1439
+  xy: 878, 628
   size: 184, 184
   orig: 184, 184
   offset: 0, 0
   index: -1
 Portraits/Background2
   rotate: false
-  xy: 612, 832
+  xy: 1179, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Bahai Faith
   rotate: false
-  xy: 652, 1860
-  size: 271, 179
-  orig: 271, 179
+  xy: 1287, 576
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Catholicism
   rotate: false
-  xy: 4, 62
-  size: 200, 200
-  orig: 200, 200
+  xy: 1395, 576
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Jainism
   rotate: false
-  xy: 652, 1388
-  size: 200, 200
-  orig: 200, 200
+  xy: 1468, 468
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Orthodox Christianity
   rotate: false
-  xy: 476, 999
-  size: 128, 128
-  orig: 128, 128
+  xy: 1708, 252
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Protestantism
   rotate: false
-  xy: 931, 1839
-  size: 200, 200
-  orig: 200, 200
+  xy: 908, 56
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Shamanism
   rotate: false
-  xy: 476, 863
-  size: 128, 128
-  orig: 128, 128
+  xy: 1168, 144
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Shintoism
   rotate: false
-  xy: 4, 1399
-  size: 640, 640
-  orig: 640, 640
+  xy: 1276, 144
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 612, 724
+  xy: 1503, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Faith
   rotate: false
-  xy: 1570, 1387
+  xy: 1144, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 1678, 1387
+  xy: 1252, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 1786, 1387
+  xy: 1360, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Production
   rotate: false
-  xy: 1461, 1279
+  xy: 1924, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 1569, 1279
+  xy: 1060, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/DomainAir
   rotate: false
-  xy: 1246, 1387
+  xy: 820, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/DomainLand
   rotate: false
-  xy: 1354, 1387
+  xy: 928, 412
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/DomainWater
   rotate: false
-  xy: 1462, 1387
+  xy: 1036, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.AircraftCarrier
   rotate: false
-  xy: 1139, 1839
+  xy: 4, 292
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.AntiCavalry
   rotate: false
-  xy: 1347, 1839
+  xy: 268, 556
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Bomber
   rotate: false
-  xy: 1555, 1839
+  xy: 532, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Civic.Civilian
   rotate: false
-  xy: 476, 727
+  xy: 1478, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Civilian
   rotate: false
-  xy: 476, 591
+  xy: 1614, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.CivilianShip
   rotate: false
-  xy: 1763, 1839
+  xy: 4, 84
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Fighter
   rotate: false
-  xy: 916, 1631
+  xy: 740, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.HeavyCavalry
   rotate: false
-  xy: 1124, 1631
+  xy: 948, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.LightCavalry
   rotate: false
-  xy: 1332, 1631
+  xy: 1156, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.LongRangedNaval
   rotate: false
-  xy: 1540, 1631
+  xy: 1364, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Mech
   rotate: false
-  xy: 1677, 1279
+  xy: 1384, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.MeleeInfantry
   rotate: false
-  xy: 1748, 1631
+  xy: 1572, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Missile
   rotate: false
-  xy: 605, 1180
+  xy: 1780, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Monk
   rotate: false
-  xy: 268, 854
+  xy: 212, 292
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.NavalAttacker
   rotate: false
-  xy: 268, 646
+  xy: 212, 84
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.RangedInfantry
   rotate: false
-  xy: 268, 438
+  xy: 476, 556
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Scout
   rotate: false
-  xy: 476, 455
+  xy: 1750, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.ShortRangedNaval
   rotate: false
-  xy: 268, 230
+  xy: 420, 348
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Siege
   rotate: false
-  xy: 212, 22
+  xy: 420, 140
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Unit.Project
   rotate: false
-  xy: 476, 319
+  xy: 1886, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitType.Vampire
   rotate: false
-  xy: 612, 1044
+  xy: 684, 488
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitTypeIcons/UnitTypes
   rotate: false
-  xy: 1785, 1279
+  xy: 1492, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

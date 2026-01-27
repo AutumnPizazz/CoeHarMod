@@ -431,6 +431,13 @@ UnitPromotionIcons/Promotion.ShadowlessFist
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Promotion.SickBlood
+  rotate: false
+  xy: 1364, 973
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Promotion.SnakeStyleFist
   rotate: false
   xy: 334, 1553

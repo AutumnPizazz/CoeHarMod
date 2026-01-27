@@ -290,6 +290,13 @@
 			"Only available <for units with [Promotion.Blood]>"
 		]
 	},
+	{
+		"name": "Promotion.SickBlood",
+		"uniques": [
+			"[-97]% Strength",
+			"[-2] Movement"
+		]
+	},
 	/*总督buff*/
 	{
 		"name": "Promotion.AllTilesCost1Movement",
