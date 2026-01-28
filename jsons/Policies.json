@@ -1413,7 +1413,7 @@
                 "name": "Policy.Governor.AmaniI",
                 "uniques": [
                     "[+2 Food, +2 Production] [in all cities] <in cities with a [Governor.Amani]>",
-                    "Free [Unit.Envoy] appears",
+                    "Free [Unit.Envoy2] appears",
                     "Provides [-1] [Resource.GovernorTitle]",
                     "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
