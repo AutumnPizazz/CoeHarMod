@@ -3694,12 +3694,11 @@
             "Specialist.ArmyLogistics": 1
         },
         "uniques": [
-            "[+50]% [Gold] from Trade Routes",
             "Provides [4] [Resource.halfHouse] <in this city>",
             "Provides [1] [Resource.Unit.Admiral]",
-            "[+1 Food] from [Coast] tiles [in this city]",
-            "[+1 Food] from [Lakes] tiles [in this city]",
-            "[+1 Food] from [Ocean] tiles [in this city]",
+            "[+1 Food, +2 Gold] from [Coast] tiles [in this city]",
+            "[+1 Food, +2 Gold] from [Lakes] tiles [in this city]",
+            "[+1 Food, +2 Gold] from [Ocean] tiles [in this city]",
             "Connects trade routes over water",
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatTrainingI] promotion",
             "Cost increases by [6] when built",
