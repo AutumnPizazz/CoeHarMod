@@ -218,6 +218,6 @@
         "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <after adopting [Culture.Admiral10]> <when above [299] [Resource.Unit.Admiral]>"
     ],
     "unitUniques": [
-        "[Target Unit] gains the [Promotion.FearOfNapoleon] status for [2] turn(s) <for [Nation.France] Civilizations>"
+        "[Target Unit] gains the [Promotion.FearOfNapoleon] status for [2] turn(s) <upon entering combat> <for [Nation.France] Civilizations>"
     ]
 }
