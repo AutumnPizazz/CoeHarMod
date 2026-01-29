@@ -1787,5 +1787,12 @@
 			"[+1] Movement <in [Friendly Land] tiles>",
 			"[This Unit] heals [8] HP <in [Friendly Land] tiles> <upon turn end>"
 		]
+	},
+	{ //法兰西-惧怕拿破仑
+		"name": "Promotion.FearOfNapoleon",
+		"uniques": [
+			"[-13]% Strength",
+			"[-1] Movement <when [Wounded]>"
+		]
 	}
 ]

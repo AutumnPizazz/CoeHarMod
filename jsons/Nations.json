@@ -1528,7 +1528,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Corsican Monster",
 		"uniques": [
-			"Comment [[-13]% Strength] <for [Wounded] units>",
+			"Comment [[Target Unit] gains the [Promotion.FearOfNapoleon] status for [2] turn(s)]",
 			"Heals [15] damage if it kills a unit <for [Military] units>",
 			"Earn [50]% of the damage done to [City] units as [Gold]"
 		],

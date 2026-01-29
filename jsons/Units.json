@@ -1184,7 +1184,7 @@
 		"replaces": "Unit.Musketman",
 		"uniqueTo": "Nation.France",
 		"unitType": "UnitType.MeleeInfantry",
-		"strength": 462,
+		"strength": 425,
 		"movement": 2,
 		"cost": 192,
 		"hurryCostModifier": -33,

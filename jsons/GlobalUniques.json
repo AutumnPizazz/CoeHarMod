@@ -3,8 +3,6 @@
     "uniques": [
         /*触发版本提示*/
         "Triggers a [VersionNotice] event <before turn number [1]> <upon turn end>",
-        /*文明能力*/
-        "[-13]% Strength <for [{Military} {Wounded}] units> <vs [Nation.France] units>", //法兰西文明能力
         /*文明羁绊*/
         "[+1]% Strength <for [Military] units> <vs [Nation.Gaul] units> <for [Nation.Rome] Civilizations>",
         "[+1]% Strength <for [Military] units> <vs [Nation.Babylon] units> <for [Nation.Persia] Civilizations>",
@@ -107,7 +105,9 @@
         "[-100]% unhappiness from the number of cities", //城市不扣快乐
         // "[-100]% Unhappiness from [Population] [in all cities]", //人口不扣快乐
         "[-1 Happiness] for every known Natural Wonder", //发现奇观不加快乐
-        "[+2] Happiness from each type of luxury resource <after discovering [Civic.GamesAndEntertainment]>",
+        "[-2] Happiness from each type of luxury resource <when number of [Cities] is equal to [1]>",
+        "[+2] Happiness from each type of luxury resource <when number of [Cities] is equal to [3]>",
+        "[+4] Happiness from each type of luxury resource <when number of [Cities] is more than [3]>",//奢侈随城市数量给额外快乐
         "[+10]% [Production] [in all cities] <when number of [[Happiness] / [Cities]] is more than [2]>",
         "[+10]% [Science] [in all cities] <when number of [[Happiness] / [Cities]] is more than [2]>",
         "[+10]% [Culture] [in all cities] <when number of [[Happiness] / [Cities]] is more than [2]>",
@@ -216,5 +216,8 @@
         "May buy [Unit.Prophet] units for [0] [Gold] [in all cities] <after adopting [Culture.Prophet10]> <when above [299] [Resource.Unit.Prophet]>",
         "May buy [Unit.General] units for [0] [Gold] [in all cities] <after adopting [Culture.General10]> <when above [299] [Resource.Unit.General]>",
         "May buy [Unit.Admiral] units for [0] [Gold] [in all cities] <after adopting [Culture.Admiral10]> <when above [299] [Resource.Unit.Admiral]>"
+    ],
+    "unitUniques": [
+        "[Target Unit] gains the [Promotion.FearOfNapoleon] status for [2] turn(s) <for [Nation.France] Civilizations>"
     ]
 }

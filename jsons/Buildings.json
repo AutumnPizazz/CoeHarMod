@@ -6685,10 +6685,11 @@
         "cost": 0,
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
-            "[+50]% [Production] [in annexed cities]",
+            "[+25]% [Production] [in annexed cities]",
             "[+25]% [Science] [in annexed cities]",
             "[+25]% [Culture] [in annexed cities]",
-            "[+1] Movement <for [Unit.Musketeer] units>",
+            "[+37] Strength <for [Unit.Musketeer] units>",
+            "[+2] Movement <for [Unit.Musketeer] units>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
