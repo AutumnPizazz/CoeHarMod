@@ -8,9 +8,9 @@ title: CoeHarMod（和合共生）首页
 ## 📋 重要链接
 
 - [📜 查看更新日志](./changelog)
-- [🔍 查看模组源代码](https://github.com/你的用户名/仓库名)
+- [🔍 查看模组源代码](https://github.com/AutumnPizazz/CoeHarMod)
 - [➕ 加入QQ群](https://qm.qq.com/q/amwSqibPmo)
-- [💬 问题反馈](https://github.com/你的用户名/仓库名/issues)
+- [💬 问题反馈](https://github.com/AutumnPizazz/CoeHarMod/issues)
 
 ## 📝 模组简介
 
