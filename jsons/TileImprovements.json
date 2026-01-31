@@ -261,7 +261,7 @@
 			"[+1 Science] <with [2] to [3] neighboring [Improvement.Farm] tiles>",
 			"[+2 Science] <with [4] to [5] neighboring [Improvement.Farm] tiles>",
 			"[+3 Science] <with [6] to [7] neighboring [Improvement.Farm] tiles>",
-			"[+2 Science] for each adjacent [Improvement.Plantation]",
+			"[+1 Science] for each adjacent [Improvement.Plantation]",
 			"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
 			"[+1 Science] for each adjacent [Resource.EarthVeins] <after adopting [Policy.Governor.GoldenDawnI]>",
 			"[+2 Science] for each adjacent [Naturalwonder.GreatBarrierReef]",
@@ -967,6 +967,8 @@
 		"uniques": [
 			"Provides [1] [Resource.halfHouse] <in this city>",
 			"Provides [1] [Resource.halfHouse] <in this city> <for [Nation.Maya] Civilizations> <hidden from users>", //玛雅文明能力
+			"[+1 Science] for each adjacent [District.MayanObservatory] <for [Nation.Maya] Civilizations>",//玛雅文明能力
+			"[+1 Science] for each adjacent [District.MayanObservatory] <for [Nation.Maya] Civilizations> <after discovering [Tech.CivilianEducation]>",//玛雅文明能力
 			"[+1 Food] <after discovering [Tech.ScientificTheory]>",
 			"[+1 Food] <after discovering [Civic.Feudalism]>",
 			"[+2 Gold] <after discovering [Civic.Globalization]>",

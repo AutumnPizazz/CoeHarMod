@@ -1226,6 +1226,55 @@
                 ]
             },
             {
+                "name": "Policy.Governor.AncientOrderI",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Policy.Governor.AncientOrderII",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 9,
+                "requires": [
+                    "Policy.Governor.AncientOrderI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.AncientOrderIII",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 9,
+                "requires": [
+                    "Policy.Governor.AncientOrderII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.AncientOrderIV",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 9,
+                "requires": [
+                    "Policy.Governor.AncientOrderIII"
+                ]
+            },
+            {
                 "name": "Policy.Camorrist Complete",
                 "uniques": []
             }

@@ -1591,9 +1591,7 @@
         "cost": 70,
         "hurryCostModifier": -33,
         "uniques": [
-            "Must be on [River]",
-            "[+1 Food] from [Resource.Wheat] tiles [in this city]",
-            "[+1 Food] from [Resource.Corn] tiles [in this city]",
+            "[+1 Production] from [Improvement.Farm] tiles [in this city]",
             "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -6033,7 +6031,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
-            "[+2 Culture] <in cities with a [Class.Building.DistrictUnique]>",
+            "[+2 Culture] [in all cities] <in cities with a [Class.Building.DistrictUnique]>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.RightToVote]>",
             "Destroyed when the city is captured",
@@ -6685,9 +6683,9 @@
         "cost": 0,
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
-            "[+25]% [Production] [in annexed cities]",
-            "[+25]% [Science] [in annexed cities]",
-            "[+25]% [Culture] [in annexed cities]",
+            "[+25]% [Production] [in annexed cities] <after discovering [Civic.Enlightenment]>",
+            "[+25]% [Science] [in annexed cities] <after discovering [Civic.Enlightenment]>",
+            "[+25]% [Culture] [in annexed cities] <after discovering [Civic.Enlightenment]>",
             "[+37] Strength <for [Unit.Musketeer] units>",
             "[+2] Movement <for [Unit.Musketeer] units>",
             "Can only be built <in [Capital] cities>",
@@ -6696,7 +6694,7 @@
             "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
             "Class.Policy.General"
         ],
-        "requiredTech": "Civic.Enlightenment"
+        "requiredTech": "Tech.Gunpowder"
     },
     {
         "name": "Gene.jiangjun",

@@ -1791,8 +1791,9 @@
 	{ //法兰西-惧怕拿破仑
 		"name": "Promotion.FearOfNapoleon",
 		"uniques": [
-			"[-13]% Strength",
-			"[-1] Movement <when [Wounded]>"
+			"[-13]% Strength <for [non-[Nation.France]] Civilizations>",
+			"[-1] Movement <when [Wounded]> <for [non-[Nation.France]] Civilizations>",
+			"[+13]% Strength <when below [50] HP> <for [Nation.France] Civilizations>"
 		]
 	}
 ]

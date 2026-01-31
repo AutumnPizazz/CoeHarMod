@@ -380,6 +380,12 @@
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times>  <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is equal to [3]> <hidden from users>",
 			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <after which this unit is consumed> <when number of [Resource.AuxiliaryCounter1] is more than [3]> <hidden from users>",
 			"Can build [Repair] improvements on tiles",
+			"Can build [Remove Landform.Forest] improvements on tiles",
+			"Can build [Remove Landform.Rainforest] improvements on tiles",
+			"Can build [Remove Landform.NuclearFallout] improvements on tiles",
+			"Can build [Remove Landform.Swamp] improvements on tiles",
+			"Can build [Remove Road] improvements on tiles",
+			"Can build [Remove Railroad] improvements on tiles",
 			"Cost increases by [10] when built",
 			"Class.Unit.Builder"
 		],
@@ -405,6 +411,7 @@
 		"requiredTech": "Civic.BasicTrade",
 		"uniques": [
 			// "Consumes [1] [Resource.TradeRouteCapacity]",
+			"Can build [Repair] improvements on tiles",
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
 			"Can build [Improvement.Fort] improvements on tiles",
