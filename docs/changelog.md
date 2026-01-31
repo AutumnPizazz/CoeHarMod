@@ -1,4 +1,7 @@
-# CoeHarMod更新日志
+---
+
+layout: default
+title: CoeHarMod更新日志
 
 ---
 
