@@ -2,3 +2,9 @@ theme: just-the-docs
 
 title: CoeHarMod
 description: AutumnPizazz 制作的大型规则集模组
+
+nav:
+  - title: 首页
+    url: /
+  - title: 更新日志
+    url: /changelog

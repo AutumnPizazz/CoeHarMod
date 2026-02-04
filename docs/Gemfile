@@ -1,4 +1,4 @@
 source "https://gems.ruby-china.com"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.0"
 gem "just-the-docs"
