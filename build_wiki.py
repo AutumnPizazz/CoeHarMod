@@ -1,32 +1,35 @@
 #!/usr/bin/env python3
 """
 Mod Wiki Builder for CoeHarMod
-- Supports Unciv-style JSON (with comments)
-- Outputs to docs/ (for GitHub Pages on main branch)
-- Stores temp files in python/ directory
-- Handles ModOptions.json correctly
+- Fully supports Unciv-style JSON (with // and /* */ comments)
+- Correctly translates complex 'uniques' like:
+    "[+1 Culture] from every [Improvement.Library] <after discovering [Tech.Writing]>"
+- Outputs to 'docs/' for GitHub Pages (served from main branch)
+- Stores temp files in 'python/' directory
+- No pollution of mod root directory
 """
 import json
+import re
 import sys
 from pathlib import Path
 from urllib.request import urlopen
 from typing import Dict, Any, List, Union
 
-# ==================== 配置 ====================
+# ==================== Configuration ====================
 MOD_ROOT = Path(__file__).parent.resolve()
-PYTHON_DIR = MOD_ROOT / "python"  # ← 临时文件目录
+PYTHON_DIR = MOD_ROOT / "python"  # Temporary files go here
 JSON_DIR = MOD_ROOT / "jsons"
 IMAGES_DIR = MOD_ROOT / "Images"
-OUTPUT_DIR = MOD_ROOT / "docs"  # ← GitHub Pages 标准目录
-BASE_TRANSLATIONS_URL = "https://raw.githubusercontent.com/yairm210/Unciv/master/android/assets/jsons/translations"
+OUTPUT_DIR = MOD_ROOT / "docs"  # GitHub Pages standard
 
+BASE_TRANSLATIONS_URL = "https://raw.githubusercontent.com/yairm210/Unciv/master/android/assets/jsons/translations"
 LANGUAGES = ["English", "Simplified_Chinese"]
 
 
-# ==================== 工具函数 ====================
+# ==================== Utility Functions ====================
 
 def strip_json_comments(json_str: str) -> str:
-    """安全移除 JSON 注释（不破坏字符串内容）"""
+    """Safely remove // and /* */ comments without breaking string content."""
     result = []
     in_string = False
     escape_next = False
@@ -58,17 +61,15 @@ def strip_json_comments(json_str: str) -> str:
 
 
 def load_unciv_json(file_path: Path) -> Union[List[Dict], Dict]:
-    """智能加载 Unciv JSON（兼容注释和纯 JSON）"""
-    with open(file_path, encoding="utf-8-sig") as f:  # 处理 UTF-8 BOM
+    """Load JSON that may contain comments or be pure JSON."""
+    with open(file_path, encoding="utf-8-sig") as f:
         content = f.read()
 
-    # 先尝试原生解析
     try:
         return json.loads(content)
     except json.JSONDecodeError:
         pass
 
-    # 去注释后重试
     clean_content = strip_json_comments(content)
     try:
         return json.loads(clean_content)
@@ -77,7 +78,6 @@ def load_unciv_json(file_path: Path) -> Union[List[Dict], Dict]:
 
 
 def download_file(url: str, target: Path):
-    """安全下载文件"""
     try:
         with urlopen(url) as response, open(target, 'wb') as f:
             f.write(response.read())
@@ -87,7 +87,6 @@ def download_file(url: str, target: Path):
 
 
 def load_properties(file_path: Path) -> Dict[str, str]:
-    """加载 .properties 文件"""
     if not file_path.exists():
         return {}
     trans = {}
@@ -100,31 +99,55 @@ def load_properties(file_path: Path) -> Dict[str, str]:
     return trans
 
 
-def replace_placeholders(text: str, trans: Dict[str, str], depth=0) -> str:
-    """递归替换 [key] 占位符"""
-    if depth > 5 or not isinstance(text, str):
-        return text
+def translate_unique(unique_str: str, trans: Dict[str, str]) -> str:
+    """
+    Accurately translate Unciv 'uniques' by parsing structure,
+    not treating as plain text.
+    """
 
-    def replace_match(match):
+    # Handle <condition> blocks
+    def handle_condition(match):
         inner = match.group(1).strip()
-        if inner.isdigit():
-            return match.group(0)
-        translated_inner = replace_placeholders(inner, trans, depth + 1)
-        full_key = f"[{translated_inner}]"
-        if full_key in trans:
-            return trans[full_key]
-        return f"[{translated_inner}]"
+        if inner.startswith("after discovering [") and inner.endswith("]"):
+            key = inner[18:-1]
+            name = trans.get(key, key)
+            prefix = trans.get("after discovering", "after discovering")
+            return f"<{prefix} {name}>"
+        elif inner.startswith("before discovering [") and inner.endswith("]"):
+            key = inner[19:-1]
+            name = trans.get(key, key)
+            prefix = trans.get("before discovering", "before discovering")
+            return f"<{prefix} {name}>"
+        else:
+            return f"<{trans.get(inner, inner)}>"
 
-    result = re.sub(r"\$([^]]+)\$", replace_match, text)
-    if result in trans:
-        return trans[result]
+    # Handle [...] placeholders
+    def handle_bracket(match):
+        content = match.group(1)
+        # Match [+N Stat] pattern
+        stat_match = re.match(r'^([+-]\d+(?:\.\d+)?)\s+(.+)$', content)
+        if stat_match:
+            amount, stat_key = stat_match.groups()
+            stat_name = trans.get(stat_key, stat_key)
+            return f"{amount} {stat_name}"
+        # Otherwise treat as translation key
+        return trans.get(content, content)
+
+    # Apply transformations
+    result = re.sub(r'<([^<>]+)>', handle_condition, unique_str)
+    result = re.sub(r'\[([^\[\]]+)]', handle_bracket, result)
     return result
 
 
 def translate_value(value: Any, trans: Dict[str, str]) -> Any:
-    """深度翻译任意值"""
+    """General-purpose translator for non-uniques fields."""
     if isinstance(value, str):
-        return replace_placeholders(value, trans)
+        # Simple placeholder replacement (for descriptions etc.)
+        def repl(m):
+            key = m.group(1)
+            return trans.get(key, f"[{key}]")
+
+        return re.sub(r'\[([^\[\]]+)]', repl, value)
     elif isinstance(value, dict):
         return {k: translate_value(v, trans) for k, v in value.items()}
     elif isinstance(value, list):
@@ -133,7 +156,6 @@ def translate_value(value: Any, trans: Dict[str, str]) -> Any:
 
 
 def find_image(name: str) -> Path | None:
-    """严格按 name 匹配图片"""
     if not name:
         return None
     image_path = IMAGES_DIR / f"{name}.png"
@@ -142,17 +164,17 @@ def find_image(name: str) -> Path | None:
     return None
 
 
-# ==================== 主流程 ====================
+# ==================== Main Process ====================
 
 def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
-    PYTHON_DIR.mkdir(exist_ok=True)  # 创建 python/ 目录
+    PYTHON_DIR.mkdir(exist_ok=True)
 
     if not JSON_DIR.exists():
-        print(f"❌ 错误: jsons 目录不存在! 当前路径: {JSON_DIR}", file=sys.stderr)
+        print(f"❌ Error: 'jsons' directory not found at {JSON_DIR}", file=sys.stderr)
         sys.exit(1)
 
-    # 1. 下载基础翻译到 python/base_translations/
+    # Download base translations into python/base_translations/
     base_trans_dir = PYTHON_DIR / "base_translations"
     base_trans_dir.mkdir(exist_ok=True)
     for lang in LANGUAGES:
@@ -161,7 +183,7 @@ def main():
         if not target.exists():
             download_file(url, target)
 
-    # 2. 生成文档
+    # Generate wiki for each language
     for lang in LANGUAGES:
         print(f"\n🌍 Processing language: {lang}")
         lang_output = OUTPUT_DIR / lang
@@ -178,7 +200,6 @@ def main():
             print(f"  📄 {json_file.name}")
             try:
                 data = load_unciv_json(json_file)
-                # 支持对象或数组
                 entries = data if isinstance(data, list) else [data]
 
                 md_lines = [f"# {json_file.stem}\n"]
@@ -186,10 +207,12 @@ def main():
                     if not isinstance(entry, dict) or "name" not in entry:
                         continue
 
-                    translated_entry = {
-                        k: translate_value(v, merged_trans)
-                        for k, v in entry.items()
-                    }
+                    # Translate basic fields (but NOT uniques)
+                    translated_entry = {}
+                    for k, v in entry.items():
+                        if k == "uniques":
+                            continue  # Handle separately
+                        translated_entry[k] = translate_value(v, merged_trans)
 
                     name = translated_entry["name"]
                     md_lines.append(f"## {name}\n")
@@ -197,13 +220,15 @@ def main():
                     if img_rel := find_image(entry.get("name")):
                         md_lines.append(f"![{name}]({img_rel})\n")
 
+                    # Categories (Class.*)
                     categories = []
                     for k, v in translated_entry.items():
                         if k.startswith("Class.") and v != "<hidden from users>":
                             categories.append(str(v))
                     if categories:
-                        md_lines.append(f"**分类**: {', '.join(categories)}\n")
+                        md_lines.append(f"**Category**: {', '.join(categories)}\n")
 
+                    # Basic fields
                     skip_keys = {"name", "uniques", "specialistSlots"}
                     for k, v in translated_entry.items():
                         if k in skip_keys or k.startswith("Class."):
@@ -212,15 +237,22 @@ def main():
                             continue
                         md_lines.append(f"- **{k.title()}**: {v}")
 
-                    if "specialistSlots" in translated_entry:
-                        md_lines.append("\n**专家槽位**:")
-                        for role, count in translated_entry["specialistSlots"].items():
+                    # Specialist slots
+                    if "specialistSlots" in entry:
+                        translated_slots = translate_value(entry["specialistSlots"], merged_trans)
+                        md_lines.append("\n**Specialist Slots**:")
+                        for role, count in translated_slots.items():
                             md_lines.append(f"- {role}: {count}")
 
-                    if "uniques" in translated_entry and isinstance(translated_entry["uniques"], list):
-                        md_lines.append("\n**独特效果**:")
-                        for u in translated_entry["uniques"]:
-                            md_lines.append(f"- {u}")
+                    # UNIQUES — handled with special logic!
+                    if "uniques" in entry and isinstance(entry["uniques"], list):
+                        md_lines.append("\n**Unique Abilities**:")
+                        for u in entry["uniques"]:
+                            if isinstance(u, str):
+                                translated_u = translate_unique(u, merged_trans)
+                                md_lines.append(f"- {translated_u}")
+                            else:
+                                md_lines.append(f"- {u}")  # fallback
 
                     md_lines.append("\n---\n")
 
@@ -230,15 +262,14 @@ def main():
             except Exception as e:
                 print(f"  ❌ Error processing {json_file}: {e}", file=sys.stderr)
 
+    # Generate index
     (OUTPUT_DIR / "index.md").write_text(
-        "# CoeHarMod 百科\n\n"
+        "# CoeHarMod Wiki\n\n"
         "- [English](English/)\n"
         "- [简体中文](Simplified_Chinese/)\n"
     )
-    print(f"\n🎉 Wiki generated at: {OUTPUT_DIR}")
+    print(f"\n🎉 Wiki generated successfully in: {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":
-    import re  # 确保 re 在使用前导入
-
     main()
