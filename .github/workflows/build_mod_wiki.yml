@@ -3,11 +3,11 @@ name: 📚 Build Mod Wiki
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - 'jsons/**'
       - 'Images/**'
-      - 'build_wiki.py'          # 脚本更新也触发
+      - 'build_wiki.py'
       - '.github/workflows/build-mod-wiki.yml'
   workflow_dispatch:
 
@@ -26,8 +26,4 @@ jobs:
       - name: Run wiki builder
         run: python build_wiki.py
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./wiki-output
+      # ⚠️ 不再部署！GitHub Pages 直接读取 main/docs
