@@ -1,0 +1,65 @@
+name: 📚 Build Mod Wiki (Skeleton)
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'jsons/**'
+      - 'Images/**'
+      - '.github/workflows/build-mod-wiki.yml'
+  workflow_dispatch:  # 手动触发按钮
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # =============== 1. 检出代码 ===============
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v4
+
+      # =============== 2. 下载游戏本体翻译 ===============
+      - name: 🌐 Download base game translations
+        run: |
+          mkdir -p translations_base
+          echo "Downloading English.properties..."
+          curl -fsSL "https://raw.githubusercontent.com/yairm210/Unciv/master/android/assets/jsons/translations/English.properties" -o translations_base/English.properties || echo "⚠️ Failed to download English.properties"
+          echo "Downloading Simplified_Chinese.properties..."
+          curl -fsSL "https://raw.githubusercontent.com/yairm210/Unciv/master/android/assets/jsons/translations/Simplified_Chinese.properties" -o translations_base/Simplified_Chinese.properties || echo "⚠️ Failed to download Simplified_Chinese.properties"
+          ls -lh translations_base/
+
+      # =============== 3. 合并翻译（占位：后续替换为 merge_translations.py） ===============
+      - name: 🔀 Merge translations (Local > Base)
+        run: |
+          mkdir -p translations
+          # 临时逻辑：直接复制本地翻译（后续用Python脚本精准合并）
+          if [ -d "jsons/translations" ]; then
+            cp jsons/translations/*.properties translations/ 2>/dev/null || echo "⚠️ No local translations found"
+            echo "✅ Local translations copied to ./translations/"
+          else
+            echo "⚠️ Local translations folder not found (jsons/translations/)"
+          fi
+          # 验证合并结果
+          echo "=== Merged translations preview ==="
+          head -5 translations/*.properties 2>/dev/null || echo "No translations available"
+
+      # =============== 4. 生成文档（占位：后续替换为 generate_wiki.py） ===============
+      - name: 📝 Generate Wiki Pages (Placeholder)
+        run: |
+          mkdir -p wiki-output
+          echo "# CoeHarMod Wiki (Build: ${{ github.sha }})" > wiki-output/index.md
+          echo "- Status: Workflow skeleton verified" >> wiki-output/index.md
+          echo "- Next: Implement generate_wiki.py" >> wiki-output/index.md
+          echo "- Images folder exists: $(ls Images 2>/dev/null | wc -l) files" >> wiki-output/index.md
+          echo "- JSON files found: $(find jsons -name '*.json' -not -path '*/translations/*' | wc -l)" >> wiki-output/index.md
+          cat wiki-output/index.md
+
+      # =============== 5. 部署到 GitHub Pages ===============
+      - name: 🌐 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: success()  # 仅当上一步成功时部署
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./wiki-output
+          publish_branch: gh-pages
+          keep_files: false  # 每次全量覆盖
+          commit_message: "docs: auto-update wiki (sha: ${{ github.sha }})"
