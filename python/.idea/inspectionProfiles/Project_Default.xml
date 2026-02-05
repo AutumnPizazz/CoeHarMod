@@ -1,8 +1,0 @@
-<component name="InspectionProjectProfileManager">
-  <profile version="1.0">
-    <option name="myName" value="Project Default" />
-    <inspection_tool class="GrazieInspection" enabled="false" level="STYLE_SUGGESTION" enabled_by_default="false" editorAttributes="TEXT_STYLE_SUGGESTION" />
-    <inspection_tool class="NonAsciiCharacters" enabled="false" level="WARNING" enabled_by_default="false" editorAttributes="WARNING_ATTRIBUTES" />
-    <inspection_tool class="PyPep8NamingInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-  </profile>
-</component>
