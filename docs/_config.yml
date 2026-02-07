@@ -1,6 +1,4 @@
-remote_theme: just-the-docs/just-the-docs
-
-search:
-  provider: local
+theme: just-the-docs
+search: true
 
 title: CoeHarMod
