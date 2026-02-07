@@ -1,4 +1,6 @@
-remote_theme: mmistakes/minimal-mistakes@4.19.0
-search: true
+remote_theme: just-the-docs/just-the-docs
+
+search:
+  provider: local
 
 title: CoeHarMod
