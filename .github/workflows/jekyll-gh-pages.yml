@@ -1,0 +1,32 @@
+# .github/workflows/deploy.yml
+name: Deploy site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Install dependencies
+        run: |
+          cd docs
+          bundle install
+      - name: Build site
+        run: |
+          cd docs
+          bundle exec jekyll build --destination ../_site --baseurl "/CoeHarMod"
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
