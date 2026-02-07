@@ -3,5 +3,5 @@ theme: just-the-docs
 search: true
 url: https://autumnpizazz.github.io
 baseurl: /CoeHarMod
-include:
+static_files:
   - assets
