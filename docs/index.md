@@ -3,6 +3,10 @@ layout: default
 title: 00首页
 ---
 
+<!-- markdownlint-disable MD033 -->
+
+<meta name="algolia-site-verification"  content="3047FE9C962807B5" />
+
 - [🔍 查看模组源代码](https://github.com/AutumnPizazz/CoeHarMod)
 - [➕ 加入QQ群](https://qm.qq.com/q/amwSqibPmo)
 
