@@ -47,8 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
           searchInput.parentNode.appendChild(resultsContainer);
         }
 
-        searchInput.addEventListener('input', function () {
-          var query = this.value.trim();
+        var isComposing = false;
+
+        function performSearch() {
+          var query = searchInput.value.trim();
           if (!query) {
             resultsContainer.innerHTML = '';
             return;
@@ -60,6 +62,21 @@ document.addEventListener('DOMContentLoaded', function() {
           }).join('');
 
           resultsContainer.innerHTML = results || '<div style="padding:8px 12px;color:#666;">No results</div>';
+        }
+
+        searchInput.addEventListener('compositionstart', function() {
+          isComposing = true;
+        });
+
+        searchInput.addEventListener('compositionend', function() {
+          isComposing = false;
+          performSearch();
+        });
+
+        searchInput.addEventListener('input', function() {
+          if (!isComposing) {
+            performSearch();
+          }
         });
       };
       document.head.appendChild(script);
