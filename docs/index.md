@@ -6,7 +6,7 @@ hero:
   text: 和合共生
   tagline: Unciv 的大型规则集模组
   image:
-    src: /logo.webp
+    src: /banner.webp
     alt: CoeHarMod
   # actions:
   #   - theme: brand
