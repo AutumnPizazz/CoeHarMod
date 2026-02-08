@@ -8,22 +8,24 @@ hero:
   image:
     src: /logo.webp
     alt: CoeHarMod
-  actions:
-    - theme: brand
-      text: 查看更新日志
-      link: /changelog
-    - theme: alt
-      text: GitHub
-      link: https://github.com/AutumnPizazz/CoeHarMod
+  # actions:
+  #   - theme: brand
+  #     text: 查看更新日志
+  #     link: /changelog
+  #   - theme: alt
+  #     text: GitHub
+  #     link: https://github.com/AutumnPizazz/CoeHarMod
 
-features:
-  - title: 多元胜利路径
-    details: 8种以上胜利方式：科技、文化、宗教、经济、外交、征服、统一、时间胜利
-  - title: 深度单位系统
-    details: 大量新单位类型，各文明拥有独特单位（UU），完整的晋升与转化机制
-  - title: 政体与总督
-    details: 五级政体演进树，总督系统提供强大城市增益
+# features:
+#   - title: 多元胜利路径
+#     details: 8种以上胜利方式：科技、文化、宗教、经济、外交、征服、统一、时间胜利
+#   - title: 深度单位系统
+#     details: 大量新单位类型，各文明拥有独特单位（UU），完整的晋升与转化机制
+#   - title: 政体与总督
+#     details: 五级政体演进树，总督系统提供强大城市增益
 ---
+
+<!--markdownlint-disable MD041-->
 
 ## 快速链接
 
@@ -34,7 +36,7 @@ features:
 
 CoeHarMod（中文"和合共生"）是一个为开源策略游戏 [Unciv](https://github.com/yairm210/Unciv) 开发的大型规则集模组。该模组在原版 Unciv 的基础上进行了深度扩展与重构，显著丰富了游戏机制、胜利条件、单位系统、政体结构以及文化宗教体系，旨在提供更具策略深度、历史沉浸感和多样玩法体验的游戏环境。
 
-## 核心特色概览
+<!-- ## 核心特色概览
 
 ### 1. 多元胜利路径
 
@@ -101,4 +103,4 @@ CoeHarMod 并非简单堆砌内容，而是试图构建一个**多层次、高�
 
 **CoeHarMod（和合共生模组）是 Unciv 社区中最具野心与完成度的模组之一**。它将原版游戏从一个轻量级《文明》替代品，转变为一个拥有**8种以上胜利方式、数十个特色文明、数百个单位与建筑、以及复杂内政外交系统**的深度策略平台。无论是喜欢科技登月、文化辐射、宗教感召，还是铁骑征服、资本霸权的玩家，都能在此找到专属的胜利之路。
 
-**适合人群**：追求高重玩性、喜爱多线策略、希望在移动端或 PC 上体验"类文明VI"复杂度的策略游戏玩家。
+**适合人群**：追求高重玩性、喜爱多线策略、希望在移动端或 PC 上体验"类文明VI"复杂度的策略游戏玩家。 -->

@@ -2,6 +2,8 @@
 title: 更新日志
 ---
 
+<!--markdownlint-disable MD025-->
+
 # 更新日志
 
 ## 更新计划
