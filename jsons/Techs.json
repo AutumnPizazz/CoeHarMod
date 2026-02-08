@@ -9,7 +9,7 @@
 			{
 				"name": "Tech.Civic.Agriculture",
 				"row": 8,
-				"quote": "农家之人，务本之谓也，务本而已，则富可保矣。\n——《周礼·天官·农师》",
+				"quote": "Quote.Tech.Civic.Agriculture",
 				"uniques": [
 					"Starting tech",
 					"Enables Defensive Pacts"
@@ -19,7 +19,7 @@
 				"name": "Tech.UniqueToGoldenDawn",
 				"cost": 33554431,
 				"row": 15,
-				"quote": "你能够看到土地上撰写的文字，但却无法识别。光芒从世界的洞穴中倾泻而出，道行浅薄之人无缘得见，而你尚不明了其中含义。真理之光忽明忽暗地闪烁着。世界不过是一层面纱，笼罩着更深的奥秘，这便是真理。",
+				"quote": "Quote.Tech.UniqueToGoldenDawn",
 				"uniques": [
 					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -29,7 +29,7 @@
 			// 	"name": "Tech.UniqueToUnitedStates",
 			// 	"cost": 33554431,
 			// 	"row": 14,
-			// 	"quote": "罗斯福新政，燃起希望之光，重建经济，保障劳动，铸就辉煌，引领未来。",
+			// 	"quote": "Quote.Tech.UniqueToUnitedStates",
 			// 	"uniques": [
 			// 		"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
 			// 		"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -39,7 +39,7 @@
 				"name": "Tech.UniqueToVampire",
 				"cost": 33554431,
 				"row": 16,
-				"quote": "拥抱内心的黑暗，它赋予我们永恒的力量。带着刺破黑夜的尖牙，我们将在阴影中茁壮成长。释放吸血鬼的愤怒，因为统治夜晚、饮尽生命本质是我们的天赋。当世界因恐惧而颤抖时，我们，夜之子民，必将独霸天下。",
+				"quote": "Quote.Tech.UniqueToVampire",
 				"uniques": [
 					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -61,7 +61,7 @@
 				"prerequisites": [
 					"Tech.Civic.Agriculture"
 				],
-				"quote": "东西南北，无不可至，遥涉波涛，若履平地。\n——《资治通鉴·唐纪三十四》",
+				"quote": "Quote.Tech.NauticalArt",
 				"uniques": []
 			},
 			{ //占星术
@@ -71,7 +71,7 @@
 				"prerequisites": [
 					"Tech.Civic.Agriculture"
 				],
-				"quote": "夫星者，物之精也。\n——《淮南子·天文训》",
+				"quote": "Quote.Tech.Astrology",
 				"uniques": []
 			},
 			{ //制陶术
@@ -81,7 +81,7 @@
 				"prerequisites": [
 					"Tech.Civic.Agriculture"
 				],
-				"quote": "制陶之人，以时节作器，以风土制度，无使不便。\n——《周礼·天官·工贾》",
+				"quote": "Quote.Tech.Pottery",
 				"uniques": []
 			},
 			{ //畜牧业
@@ -91,7 +91,7 @@
 				"prerequisites": [
 					"Tech.Civic.Agriculture"
 				],
-				"quote": "羊肥牛壮，人民安乐。\n——《礼记·曲礼上》",
+				"quote": "Quote.Tech.AnimalHusbandry",
 				"uniques": []
 			},
 			{ //采矿业
@@ -101,7 +101,7 @@
 				"prerequisites": [
 					"Tech.Civic.Agriculture"
 				],
-				"quote": "工矿之事，必借于山林之材。\n——《淮南子·说山训》",
+				"quote": "Quote.Tech.Mining",
 				"uniques": []
 			},
 			{ //法典
@@ -110,7 +110,7 @@
 				"prerequisites": [
 					"Tech.Civic.Agriculture"
 				],
-				"quote": "宽则得众，严则失民。\n——《管子·权修》",
+				"quote": "Quote.Civic.Code",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -122,7 +122,7 @@
 				"prerequisites": [
 					"Tech.UniqueToGoldenDawn"
 				],
-				"quote": "你能够看到土地上撰写的文字，但却无法识别。光芒从世界的洞穴中倾泻而出，道行浅薄之人无缘得见，而你尚不明了其中含义。真理之光忽明忽暗地闪烁着。世界不过是一层面纱，笼罩着更深的奥秘，这便是真理。",
+				"quote": "Quote.Tech.UniqueToGoldenDawn2",
 				"uniques": [
 					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -143,7 +143,7 @@
 				"prerequisites": [
 					"Tech.Pottery"
 				],
-				"quote": "沃野千里，滋润之由，必在于水而不在于人。\n——《吕氏春秋·本性》",
+				"quote": "Quote.Tech.Irrigation",
 				"uniques": []
 			},
 			{
@@ -152,7 +152,7 @@
 				"prerequisites": [
 					"Tech.Pottery"
 				],
-				"quote": "笔者所言，举世闻之。\n——《庄子·养生主》",
+				"quote": "Quote.Tech.Writing",
 				"uniques": []
 			},
 			{
@@ -161,7 +161,7 @@
 				"prerequisites": [
 					"Tech.AnimalHusbandry"
 				],
-				"quote": "箭以钩为心，弓以弦为命。\n——《孙子兵法·九地》",
+				"quote": "Quote.Tech.Archey",
 				"uniques": []
 			},
 			{
@@ -170,7 +170,7 @@
 				"prerequisites": [
 					"Civic.Code"
 				],
-				"quote": "巧工妙匠之人，地之宝也。\n——《管子·地数》",
+				"quote": "Quote.Civic.Skill",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -181,7 +181,7 @@
 				"prerequisites": [
 					"Civic.Code"
 				],
-				"quote": "货财流通，民不饥寒。\n——《管子·商君》",
+				"quote": "Quote.Civic.BasicTrade",
 				"uniques": [
 					"Provides [1] [Resource.TradeRouteCapacity]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -202,7 +202,7 @@
 				"prerequisites": [
 					"Tech.Mining"
 				],
-				"quote": "砖之以土成也，其糜粥之本也。\n——《礼记·曲礼上》",
+				"quote": "Quote.Tech.Bricklaying",
 				"uniques": []
 			},
 			{
@@ -211,7 +211,7 @@
 				"prerequisites": [
 					"Tech.Mining"
 				],
-				"quote": "匠者不可以不知铜之所从出，而可以铸以成器。\n——《淮南子·说山训》",
+				"quote": "Quote.Tech.CopperCasting",
 				"uniques": []
 			},
 			{
@@ -220,7 +220,7 @@
 				"prerequisites": [
 					"Tech.Mining"
 				],
-				"quote": "车之以轮为体，以木为骨，以帛为肌肤，以铁为骊纁。\n——《礼记·曲礼上》",
+				"quote": "Quote.Tech.Wheels",
 				"uniques": []
 			},
 			{
@@ -229,7 +229,7 @@
 				"prerequisites": [
 					"Civic.Skill"
 				],
-				"quote": "兵贵神速，不贵多。\n——《史记·淮阴侯列传》",
+				"quote": "Quote.Civic.MilitaryTradition",
 				"uniques": [
 					"Comment [Military units have the ability to enjoy the Flank Attack bonuses and Support Defend bonus]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -241,7 +241,7 @@
 				"prerequisites": [
 					"Civic.Skill"
 				],
-				"quote": "国之利器不在金石，而在人才。\n——《管子·牧民》",
+				"quote": "Quote.Civic.NationalLaborForce",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -253,7 +253,7 @@
 				"prerequisites": [
 					"Civic.BasicTrade"
 				],
-				"quote": "治国有常，而利民为本。\n——《尚书·禹贡》",
+				"quote": "Quote.Civic.EarlyEmpire",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Enables Open Borders agreements",
@@ -266,7 +266,7 @@
 				"prerequisites": [
 					"Civic.BasicTrade"
 				],
-				"quote": "神者，隐而不见，不可得而观也。\n——《庄子·天下篇》",
+				"quote": "Quote.Civic.Mysticism",
 				"uniques": [
 					"Free [Unit.Envoy2] appears",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -288,7 +288,7 @@
 					"Tech.Astrology",
 					"Tech.NauticalArt"
 				],
-				"quote": "星象所指，海岳所趋。\n——《淮南子·天文训》",
+				"quote": "Quote.Tech.AstronomicalNavigation",
 				"uniques": []
 			},
 			{
@@ -297,7 +297,7 @@
 				"prerequisites": [
 					"Tech.Writing"
 				],
-				"quote": "钱，治国之要器，存亡之道也。\n——《资治通鉴·唐纪三十四》",
+				"quote": "Quote.Tech.Currency",
 				"uniques": []
 			},
 			{
@@ -306,7 +306,7 @@
 				"prerequisites": [
 					"Tech.Archey"
 				],
-				"quote": "马非常之兽也，人所重用。\n——《逸周书·说命》",
+				"quote": "Quote.Tech.HorsebackRiding",
 				"uniques": []
 			},
 			{
@@ -315,7 +315,7 @@
 				"prerequisites": [
 					"Tech.CopperCasting"
 				],
-				"quote": "采铁于山，铁石为砺。\n——《礼记·曲礼上》",
+				"quote": "Quote.Tech.Alchemy",
 				"uniques": []
 			},
 			{
@@ -325,7 +325,7 @@
 				"prerequisites": [
 					"Tech.Wheels"
 				],
-				"quote": "工程之成，不在于力，而在于思。\n——《列子·汤问》",
+				"quote": "Quote.Tech.Project",
 				"uniques": [
 					"Roads connect tiles across rivers"
 				]
@@ -336,7 +336,7 @@
 				"prerequisites": [
 					"Civic.NationalLaborForce"
 				],
-				"quote": "百姓好游，然后乐工出。\n——《礼记·曲礼下》",
+				"quote": "Quote.Civic.GamesAndEntertainment",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -348,7 +348,7 @@
 					"Civic.NationalLaborForce",
 					"Civic.EarlyEmpire"
 				],
-				"quote": "民无信不立，国无信不守。\n——《左传·襄公十五年》",
+				"quote": "Quote.Civic.PoliticalPhilosophy",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -359,7 +359,7 @@
 				"prerequisites": [
 					"Civic.EarlyEmpire"
 				],
-				"quote": "乐以易志，志以长久。\n——《诗经·小雅·鹤鸣》",
+				"quote": "Quote.Civic.DramaAndPoetry",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -379,7 +379,7 @@
 				"prerequisites": [
 					"Tech.NauticalArt"
 				],
-				"quote": "大江之行，浸润四方；行舟既远，择木而止。\n——《诗经·大雅·大明》",
+				"quote": "Quote.Tech.Shipbuilding",
 				"uniques": [
 					"Enables embarkation for land units"
 				]
@@ -390,7 +390,7 @@
 				"prerequisites": [
 					"Tech.Currency"
 				],
-				"quote": "六一既成，以亿为零。\n——《孙子算经》",
+				"quote": "Quote.Tech.Math",
 				"uniques": []
 			},
 			{
@@ -400,7 +400,7 @@
 					"Tech.Bricklaying",
 					"Tech.Alchemy"
 				],
-				"quote": "工欲善其事，必先利其器。\n——《礼记·中庸》",
+				"quote": "Quote.Tech.Build",
 				"uniques": []
 			},
 			{
@@ -410,7 +410,7 @@
 					"Civic.MilitaryTradition",
 					"Civic.GamesAndEntertainment"
 				],
-				"quote": "兵者，国之大事，死生之地，存亡之道，不可不察也。\n——《孙子兵法·始计》",
+				"quote": "Quote.Civic.MilitaryTraining",
 				"uniques": [
 					"Free [Unit.Envoy2] appears",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -423,7 +423,7 @@
 					"Civic.GamesAndEntertainment",
 					"Civic.PoliticalPhilosophy"
 				],
-				"quote": "不战而屈人之兵，善之善者也。\n——《道德经·三十一章》",
+				"quote": "Quote.Civic.DefensiveTactics",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -436,7 +436,7 @@
 					"Civic.PoliticalPhilosophy",
 					"Civic.DramaAndPoetry"
 				],
-				"quote": "君子乐胥，万邦之屏。\n——《诗经·大雅·荡》",
+				"quote": "Quote.Civic.History",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -449,7 +449,7 @@
 					"Civic.DramaAndPoetry",
 					"Civic.Mysticism"
 				],
-				"quote": "上天无路，下地无门，唯人自通。\n——明·罗贯中《三国演义》",
+				"quote": "Quote.Civic.Theology",
 				"uniques": [
 					"Free [Unit.Envoy2] appears",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -470,7 +470,7 @@
 				"prerequisites": [
 					"Tech.Shipbuilding"
 				],
-				"quote": "扶壁之功，不在于高大，而在于坚实。\n——《韩非子·说林》",
+				"quote": "Quote.Tech.Buttresses",
 				"uniques": []
 			},
 			{
@@ -480,7 +480,7 @@
 					"Tech.Shipbuilding",
 					"Tech.Math"
 				],
-				"quote": "知己知彼，百战不殆。\n——《孙子兵法·谋攻》",
+				"quote": "Quote.Tech.Tactics",
 				"uniques": []
 			},
 			{
@@ -490,7 +490,7 @@
 					"Tech.Currency",
 					"Tech.HorsebackRiding"
 				],
-				"quote": "传薪不灭，有子孙焉。\n——《诗经·小雅·鹤鸣》",
+				"quote": "Quote.Tech.Apprentices",
 				"uniques": []
 			},
 			{
@@ -500,7 +500,7 @@
 					"Tech.Alchemy",
 					"Tech.Project"
 				],
-				"quote": "器械之成，必先其器之利。\n——《礼记·中庸》",
+				"quote": "Quote.Tech.Mechanical",
 				"uniques": [
 					"Improves movement speed on roads"
 				]
@@ -511,7 +511,7 @@
 				"prerequisites": [
 					"Civic.DefensiveTactics"
 				],
-				"quote": "此日漫挥天下泪，有公足壮海军威。\n——光绪帝 爱新觉罗·载湉",
+				"quote": "Quote.Civic.NavalTradition",
 				"uniques": [
 					"Free [Unit.Envoy2] appears",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -523,7 +523,7 @@
 				"prerequisites": [
 					"Civic.DefensiveTactics"
 				],
-				"quote": "君君，臣臣，父父，子子。\n——《论语·颜渊》",
+				"quote": "Quote.Civic.Feudalism",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -535,7 +535,7 @@
 					"Civic.DefensiveTactics",
 					"Civic.History"
 				],
-				"quote": "上不尊法，下不安民，虽举世而誉之，亦何益哉？\n——李斯《谏逐客书》",
+				"quote": "Quote.Civic.Administration",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -556,7 +556,7 @@
 					"Tech.Math",
 					"Tech.Apprentices"
 				],
-				"quote": "读书破万卷，下笔如有神。\n——唐·杜甫《题李凝幽居》",
+				"quote": "Quote.Tech.CivilianEducation",
 				"uniques": []
 			},
 			{
@@ -565,7 +565,7 @@
 				"prerequisites": [
 					"Tech.Apprentices"
 				],
-				"quote": "马上之功，以镫为重。\n——《韩非子·说林》",
+				"quote": "Quote.Tech.Stirrups",
 				"uniques": []
 			},
 			{
@@ -574,7 +574,7 @@
 				"prerequisites": [
 					"Tech.Build"
 				],
-				"quote": "兵器利国，不可不察。\n——《孙子兵法·谋攻》",
+				"quote": "Quote.Tech.MilitaryEngineering",
 				"uniques": []
 			},
 			{
@@ -583,7 +583,7 @@
 				"prerequisites": [
 					"Tech.Alchemy"
 				],
-				"quote": "城之将克，必先固其器。\n——《孙子兵法·攻城》",
+				"quote": "Quote.Tech.Castle",
 				"uniques": []
 			},
 			{
@@ -592,7 +592,7 @@
 				"prerequisites": [
 					"Civic.MilitaryTraining"
 				],
-				"quote": "兵马未动，粮草先行。\n——《三国演义》",
+				"quote": "Quote.Civic.Mercenaries",
 				"uniques": [
 					"Free [Unit.Envoy2] appears",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -604,7 +604,7 @@
 				"prerequisites": [
 					"Civic.Feudalism"
 				],
-				"quote": "市井之德，修而不改。\n——《礼记·中庸》",
+				"quote": "Quote.Civic.MedievalBazaar",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -616,7 +616,7 @@
 				"prerequisites": [
 					"Civic.Administration"
 				],
-				"quote": "众志成城，泰山移。\n——《史记·项羽本纪》",
+				"quote": "Quote.Civic.TheWorkersUnion",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -629,7 +629,7 @@
 					"Civic.Administration",
 					"Civic.Theology"
 				],
-				"quote": "天命之谓性，率性之谓道，修道之谓教。\n——《礼记·大学》",
+				"quote": "Quote.Civic.DivinRightOfKings",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -649,7 +649,7 @@
 				"prerequisites": [
 					"Tech.Buttresses"
 				],
-				"quote": "制图之道在于准确，准确之道在于精确，精确之道在于分寸。\n——《清华简·数书九》",
+				"quote": "Quote.Tech.Cartography",
 				"uniques": [
 					"Enables [All] units to enter ocean tiles"
 				]
@@ -662,7 +662,7 @@
 					"Tech.Tactics",
 					"Tech.CivilianEducation"
 				],
-				"quote": "以一人之力，无以造大功；以众人之力，则可为所欲为。\n——《韩非子·说林》",
+				"quote": "Quote.Tech.MassProduction",
 				"uniques": []
 			},
 			{
@@ -672,7 +672,7 @@
 				"prerequisites": [
 					"Tech.CivilianEducation"
 				],
-				"quote": "天文学的研究不仅关乎科学，也关涉到哲学、宗教和文化等方面。\n——《钦定四库全书总目提要·天文志》",
+				"quote": "Quote.Tech.Astronomy",
 				"uniques": []
 			},
 			{
@@ -682,7 +682,7 @@
 					"Tech.CivilianEducation",
 					"Tech.Stirrups"
 				],
-				"quote": "凡银钱，皆在银号中，通行无阻，大小异色，以为区别。\n——《四库全书·纂要·经济六》",
+				"quote": "Quote.Tech.Banking",
 				"uniques": []
 			},
 			{
@@ -692,7 +692,7 @@
 					"Tech.Stirrups",
 					"Tech.MilitaryEngineering"
 				],
-				"quote": "《九域志》云：火药，本出西域，至唐时始行。\n——《武备志·杂器志》",
+				"quote": "Quote.Tech.Gunpowder",
 				"uniques": []
 			},
 			{
@@ -701,7 +701,7 @@
 				"prerequisites": [
 					"Tech.Mechanical"
 				],
-				"quote": "以印刷之法，则万卷可为一日之功。\n——《明史·艺文志》",
+				"quote": "Quote.Tech.Printing",
 				"uniques": []
 			},
 			{
@@ -711,7 +711,7 @@
 					"Civic.Mercenaries",
 					"Civic.MedievalBazaar"
 				],
-				"quote": "一旦停止探索，我们将生活在一个停滞不前的世界，缺乏好奇心，没有梦想。\n——奈尔·德葛拉司·泰森",
+				"quote": "Quote.Civic.Exploration",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -723,7 +723,7 @@
 					"Civic.MedievalBazaar",
 					"Civic.TheWorkersUnion"
 				],
-				"quote": "好的城市规划，是为了人们的幸福和自由。\n——托马斯·莫尔《乌托邦》",
+				"quote": "Quote.Civic.Humanism",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -734,7 +734,7 @@
 				"prerequisites": [
 					"Civic.TheWorkersUnion"
 				],
-				"quote": "外交政策不是由外交部门独立制定的，而是由整个政府制定的，包括市政府。\n——《美国国务院职能与任务》",
+				"quote": "Quote.Civic.ForeighService",
 				"uniques": [
 					"Enables Research agreements",
 					"Provides [1] [Resource.SpyCapacity]",
@@ -748,7 +748,7 @@
 					"Civic.TheWorkersUnion",
 					"Civic.DivinRightOfKings"
 				],
-				"quote": "归正会本是为民间讼狱处理之，后以治安为主。\n——《清实录·道光朝实录》",
+				"quote": "Quote.Civic.ReformedChurch",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -768,7 +768,7 @@
 				"prerequisites": [
 					"Tech.Cartography"
 				],
-				"quote": "世界上某些地方人类无法靠近，但帆船却可以。\n——艾伦·维利耶",
+				"quote": "Quote.Tech.CrossailDevice",
 				"uniques": []
 			},
 			{
@@ -777,7 +777,7 @@
 				"prerequisites": [
 					"Tech.Gunpowder"
 				],
-				"quote": "金属铸造，乃天地之大机，人力之所不能及也。\n——《太平御览》",
+				"quote": "Quote.Tech.MetalCasting",
 				"uniques": []
 			},
 			{
@@ -786,7 +786,7 @@
 				"prerequisites": [
 					"Tech.Castle"
 				],
-				"quote": "攻城之法，有围、攻、突、固之四术。\n——《三十六计·围魏救赵》",
+				"quote": "Quote.Tech.Siege",
 				"uniques": []
 			},
 			{
@@ -795,7 +795,7 @@
 				"prerequisites": [
 					"Civic.Humanism"
 				],
-				"quote": "商贾者，国之货也，货不可无，故贵之。\n——《孟子·滕文公上》",
+				"quote": "Quote.Civic.Mercantilism",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -807,7 +807,7 @@
 					"Civic.Humanism",
 					"Civic.ForeighService"
 				],
-				"quote": "启蒙是人类从无知到知识的过程，只有通过理性的思考和科学的探索，才能真正实现社会进步和人类文明的发展。\n——伏尔泰《论启蒙》",
+				"quote": "Quote.Civic.Enlightenment",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -828,7 +828,7 @@
 					"Tech.CrossailDevice",
 					"Tech.MassProduction"
 				],
-				"quote": "暴力经济学的关键词是城市化、工业化、集中、效率、数量、速度。\n——舒马赫",
+				"quote": "Quote.Tech.Industrialization",
 				"uniques": []
 			},
 			{
@@ -838,7 +838,7 @@
 					"Tech.Astronomy",
 					"Tech.Banking"
 				],
-				"quote": "科学没有政治上的意义，它只有方法上的意义。\n——阿尔伯特·爱因斯坦",
+				"quote": "Quote.Tech.ScientificTheory",
 				"uniques": []
 			},
 			{
@@ -847,7 +847,7 @@
 				"prerequisites": [
 					"Tech.MetalCasting"
 				],
-				"quote": "有件事可用来推测发生了什么，但我们没有妄自揣测，直到弹道学证实了发生的一切…\n——约翰·汉森",
+				"quote": "Quote.Tech.Ballistics",
 				"uniques": []
 			},
 			{
@@ -857,7 +857,7 @@
 					"Tech.Siege",
 					"Tech.Printing"
 				],
-				"quote": "不管战略多美妙，偶尔看看结果如何很重要。\n——温斯顿·丘吉尔",
+				"quote": "Quote.Tech.MilitaryScience",
 				"uniques": []
 			},
 			{
@@ -866,7 +866,7 @@
 				"prerequisites": [
 					"Civic.Mercantilism"
 				],
-				"quote": "记住：政治、殖民主义、帝国主义和战争都源于人类的大脑。\n——维莱亚努尔·拉马钱德兰",
+				"quote": "Quote.Civic.Colonialism",
 				"uniques": [
 					"[2] free [Unit.Envoy2] units appear",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -878,7 +878,7 @@
 				"prerequisites": [
 					"Civic.Mercantilism"
 				],
-				"quote": "改造使弯路变得笔直；但未经改造的弯路才是成就天才之路。\n——威廉·布雷克",
+				"quote": "Quote.Civic.CivilEngineering",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -890,7 +890,7 @@
 				"prerequisites": [
 					"Civic.Enlightenment"
 				],
-				"quote": "民族主义促使国家产生，而不是国家产生了民族主义。\n——欧内斯特·葛尔纳",
+				"quote": "Quote.Civic.Nationalism",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Provides [1] [Resource.SpyCapacity]",
@@ -903,7 +903,7 @@
 				"prerequisites": [
 					"Civic.Enlightenment"
 				],
-				"quote": "歌剧是，当一个人背后被捅了一刀，他不流血，他唱歌剧。\n——罗伯特·本奇利",
+				"quote": "Quote.Civic.OperaAndBallet",
 				"uniques": [
 					"[2] free [Unit.Envoy2] units appear",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -924,7 +924,7 @@
 				"prerequisites": [
 					"Tech.Industrialization"
 				],
-				"quote": "蒸汽机对科学的贡献远远大于科学对蒸汽机的贡献。\n——劳伦斯· 亨德尔森",
+				"quote": "Quote.Tech.SteamPower",
 				"uniques": []
 			},
 			{
@@ -933,7 +933,7 @@
 				"prerequisites": [
 					"Tech.ScientificTheory"
 				],
-				"quote": "除卫生设备、医疗、教育、葡萄酒、公共秩序、道路、淡水系统和公共卫生以外…罗马人还为我们做了什么？\n——约翰·克里斯",
+				"quote": "Quote.Tech.SanitaryEquipment",
 				"uniques": []
 			},
 			{
@@ -943,7 +943,7 @@
 					"Tech.ScientificTheory",
 					"Tech.MetalCasting"
 				],
-				"quote": "经济学这门学科不太尊重个人意愿。\n——尼基塔·赫鲁晓夫",
+				"quote": "Quote.Tech.Economy",
 				"uniques": []
 			},
 			{
@@ -953,7 +953,7 @@
 					"Tech.Ballistics",
 					"Tech.MilitaryScience"
 				],
-				"quote": "事实胜于雄辩。\n——克莱格·罗伯茨",
+				"quote": "Quote.Tech.Rifling",
 				"uniques": []
 			},
 			{
@@ -962,7 +962,7 @@
 				"prerequisites": [
 					"Civic.Colonialism"
 				],
-				"quote": "如果我参与造物，我会提出一些有用的建议使宇宙秩序更加和谐。\n——纳尔逊·艾格林",
+				"quote": "Quote.Civic.NaturalHistory",
 				"uniques": [
 					"[2] free [Unit.Envoy2] units appear",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -975,7 +975,7 @@
 					"Civic.CivilEngineering",
 					"Civic.Nationalism"
 				],
-				"quote": "我喜欢城市里所有的东西都很巨大，一切的美丽和丑陋。\n——约瑟夫·布罗茨基",
+				"quote": "Quote.Civic.Urbanization",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -986,7 +986,7 @@
 				"prerequisites": [
 					"Civic.Nationalism"
 				],
-				"quote": "战争就是地狱。\n——威廉·特库姆塞·谢尔曼",
+				"quote": "Quote.Civic.ScorchedEarthStrategy",
 				"uniques": [
 					"[2] free [Unit.Envoy2] units appear",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1008,7 +1008,7 @@
 					"Tech.Industrialization",
 					"Tech.ScientificTheory"
 				],
-				"quote": "如果着陆后你能安全走出机舱，那这个着陆还不错；如果第二天你还能继续使用这架飞机，那这个着陆简直棒呆啦。\n——查克·叶格",
+				"quote": "Quote.Tech.Flight",
 				"uniques": []
 			},
 			{
@@ -1017,7 +1017,7 @@
 				"prerequisites": [
 					"Tech.Economy"
 				],
-				"quote": "很多人爱惜汽车胜过爱惜自己的身体…但汽车部件是可以更换的。\n——帕尔默",
+				"quote": "Quote.Tech.PartSpecification",
 				"uniques": []
 			},
 			{
@@ -1026,7 +1026,7 @@
 				"prerequisites": [
 					"Tech.Rifling"
 				],
-				"quote": "最好的钢并不总是最亮的。\n——乔·艾伯康比",
+				"quote": "Quote.Tech.Steel",
 				"uniques": []
 			},
 			{
@@ -1035,7 +1035,7 @@
 				"prerequisites": [
 					"Tech.Rifling"
 				],
-				"quote": "所谓工程，就是一门将大自然中绝佳的能量源用于惠世济民的艺术。\n——托马斯·特雷戈德",
+				"quote": "Quote.Tech.Refining",
 				"uniques": []
 			},
 			{
@@ -1044,7 +1044,7 @@
 				"prerequisites": [
 					"Civic.NaturalHistory"
 				],
-				"quote": "水和空气这两样生活必须品已变成全球垃圾桶了。\n——雅克·伊夫·库斯托",
+				"quote": "Quote.Civic.EarthProtection",
 				"uniques": [
 					"[3] free [Unit.Envoy2] units appear",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1057,7 +1057,7 @@
 					"Civic.NaturalHistory",
 					"Civic.Urbanization"
 				],
-				"quote": "大众媒体的作用并不是让你产生信仰，而是让你保持对政党组织的兴趣。\n——克里斯托弗·拉什",
+				"quote": "Quote.Civic.MassMedia",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1070,7 +1070,7 @@
 					"Civic.Urbanization",
 					"Civic.ScorchedEarthStrategy"
 				],
-				"quote": "当他们为战争做准备时，那些最有发言权的人大量发表和平宣言，直到完成整个动员过程。\n——斯蒂芬·茨威格",
+				"quote": "Quote.Civic.Mobilization",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1092,7 +1092,7 @@
 					"Tech.Steel",
 					"Tech.Refining"
 				],
-				"quote": "当我们还是小孩儿时，汽车没那么先进。归根结底，汽车仍然只是一台汽油内燃机。\n——德纳·布鲁奈蒂",
+				"quote": "Quote.Tech.InternalCombustionEngine",
 				"uniques": []
 			},
 			{
@@ -1101,7 +1101,7 @@
 				"prerequisites": [
 					"Civic.MassMedia"
 				],
-				"quote": "资本主义的固有邪恶是幸福的不平等分享；社会主义的固有邪恶是痛苦的平等分享。\n——温斯顿·丘吉尔",
+				"quote": "Quote.Civic.Capitalism",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1113,7 +1113,7 @@
 					"Civic.MassMedia",
 					"Civic.Mobilization"
 				],
-				"quote": "它表明没有一种系统，即使最不人道的，可以离开意识形态而继续存在。\n——乔·斯洛沃",
+				"quote": "Quote.Civic.Ideology",
 				"uniques": [
 					"Provides [1] [Resource.SpyCapacity]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1135,7 +1135,7 @@
 				"prerequisites": [
 					"Tech.SteamPower"
 				],
-				"quote": "如果没电，那我们就得借着烛光看电视。\n——乔治·戈布尔",
+				"quote": "Quote.Tech.Electricity",
 				"uniques": []
 			},
 			{
@@ -1146,7 +1146,7 @@
 					"Tech.SteamPower",
 					"Tech.Flight"
 				],
-				"quote": "没有无线电的世界是聋人世界。\n——欧内斯特·耶博阿",
+				"quote": "Quote.Tech.Radio",
 				"uniques": []
 			},
 			{
@@ -1157,7 +1157,7 @@
 					"Tech.SanitaryEquipment",
 					"Tech.PartSpecification"
 				],
-				"quote": "化学是物理当中令人讨厌的一部分。\n——彼得·瑞斯",
+				"quote": "Quote.Tech.Chemistry",
 				"uniques": []
 			},
 			{
@@ -1166,7 +1166,7 @@
 				"prerequisites": [
 					"Civic.Ideology"
 				],
-				"quote": "原子能的释放，改变了除人类思考模式之外的一切…解决这个问题在于人心。早知道我就当个钟表匠了。\n——阿尔伯特·爱因斯坦",
+				"quote": "Quote.Civic.NuclearProgram",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1177,7 +1177,7 @@
 				"prerequisites": [
 					"Civic.Ideology"
 				],
-				"quote": "为什么对女性区别对待？妇女参政会成功，别在乎这些可怜的游击队性质的反对派。\n——维多利亚·伍德胡尔",
+				"quote": "Quote.Civic.RightToVote",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1188,7 +1188,7 @@
 				"prerequisites": [
 					"Civic.Ideology"
 				],
-				"quote": "只有暴徒和精英会被极权主义本身的势头所吸引。依靠宣传才能获取民心。\n——汉娜·阿伦特",
+				"quote": "Quote.Civic.Tolalitarianism",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1199,7 +1199,7 @@
 				"prerequisites": [
 					"Civic.Ideology"
 				],
-				"quote": "阶级斗争必然导致无产阶级专政。\n——卡尔·马克思",
+				"quote": "Quote.Civic.ClassStruggle",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1220,7 +1220,7 @@
 					"Tech.Radio",
 					"Tech.Chemistry"
 				],
-				"quote": "科学火箭神话被编成了神话，这和它真正的困难不相称。\n——约翰·卡马克",
+				"quote": "Quote.Tech.RocketResearch",
 				"uniques": []
 			},
 			{
@@ -1230,7 +1230,7 @@
 					"Tech.PartSpecification",
 					"Tech.Steel"
 				],
-				"quote": "在理性的子弹面前，无知的勇气是没用的。\n——乔治·巴顿",
+				"quote": "Quote.Tech.AdvancedBallistics",
 				"uniques": []
 			},
 			{
@@ -1239,7 +1239,7 @@
 				"prerequisites": [
 					"Tech.InternalCombustionEngine"
 				],
-				"quote": "有意义的战斗胜过无意义的生活。\n——乔治·史密斯·巴顿",
+				"quote": "Quote.Tech.JointOperations",
 				"uniques": []
 			},
 			{
@@ -1248,7 +1248,7 @@
 				"prerequisites": [
 					"Tech.InternalCombustionEngine"
 				],
-				"quote": "在主要可塑性物质的层级结构里，塑料制品是一种不受待见的材料，它消失在橡胶的热情洋溢和金属的平坦坚硬之中。\n——罗兰·巴特",
+				"quote": "Quote.Tech.Plastic",
 				"uniques": []
 			},
 			{
@@ -1257,7 +1257,7 @@
 				"prerequisites": [
 					"Civic.EarthProtection"
 				],
-				"quote": "一个对历史、起源和文化不了解的人，就好比没有根的大树。\n——马库斯·加维",
+				"quote": "Quote.Civic.CulturalHeritage",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1268,7 +1268,7 @@
 				"prerequisites": [
 					"Civic.Ideology"
 				],
-				"quote": "从波罗的海的斯德丁到亚得里亚海的德里雅斯特，一幅横贯欧洲大陆的铁幕已经拉下。\n——温斯顿·丘吉尔",
+				"quote": "Quote.Civic.ColdWar",
 				"uniques": [
 					"Provides [1] [Resource.SpyCapacity]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1290,7 +1290,7 @@
 				"prerequisites": [
 					"Tech.Radio"
 				],
-				"quote": "飞机确实又快又实惠，不过一味追求效率，我们得失去多少快乐，牺牲多少休闲时光啊。\n——金吉·罗杰斯",
+				"quote": "Quote.Tech.ModernAviation",
 				"uniques": []
 			},
 			{
@@ -1300,7 +1300,7 @@
 					"Tech.Electricity",
 					"Tech.Radio"
 				],
-				"quote": "人都会犯错，但是想真正把事情搞砸你还需要一台计算机。\n——保罗·埃利希",
+				"quote": "Quote.Tech.Computer",
 				"uniques": []
 			},
 			{
@@ -1310,7 +1310,7 @@
 					"Tech.AdvancedBallistics",
 					"Tech.JointOperations"
 				],
-				"quote": "别碰原子能。\n——哈伯格",
+				"quote": "Quote.Tech.NuclearFission",
 				"uniques": []
 			},
 			{
@@ -1319,7 +1319,7 @@
 				"prerequisites": [
 					"Tech.Plastic"
 				],
-				"quote": "文化里充斥着太多的塑料，以致于含乙烯基的塑料美洲豹兽皮变成了濒临灭绝的合成物。\n——莉莉·汤姆林",
+				"quote": "Quote.Tech.Synthetic",
 				"uniques": []
 			},
 			{
@@ -1328,7 +1328,7 @@
 				"prerequisites": [
 					"Civic.ColdWar"
 				],
-				"quote": "立即认真执行一项好计划远比下周执行一项完美计划好。\n——乔治·史密斯·巴顿",
+				"quote": "Quote.Civic.EmergencyDeployment",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1339,7 +1339,7 @@
 				"prerequisites": [
 					"Civic.ColdWar"
 				],
-				"quote": "美国宇航局花了上百万美元来研发可以在太空使用的圆珠笔。俄罗斯人带了支铅笔。\n——威尔·沙博",
+				"quote": "Quote.Civic.SpaceRace",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1351,7 +1351,7 @@
 				"prerequisites": [
 					"Civic.Ideology"
 				],
-				"quote": "如果输赢不代表一切，那为什么还要在比赛中记分呢？\n——文斯·隆巴迪",
+				"quote": "Quote.Civic.ProfessionalSports",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1371,7 +1371,7 @@
 				"prerequisites": [
 					"Tech.Computer"
 				],
-				"quote": "沟通的最大问题是会产生错觉。\n——乔治·萧伯纳",
+				"quote": "Quote.Tech.Telecommunication",
 				"uniques": []
 			},
 			{
@@ -1381,7 +1381,7 @@
 					"Tech.ModernAviation",
 					"Tech.RocketResearch"
 				],
-				"quote": "卫星没有意识。\n——爱德华·默罗",
+				"quote": "Quote.Tech.Satellite",
 				"uniques": []
 			},
 			{
@@ -1391,7 +1391,7 @@
 					"Tech.RocketResearch",
 					"Tech.AdvancedBallistics"
 				],
-				"quote": "生大材，不遇其时，其势定衰。生平庸，不化其势，其性定弱。\n——老子",
+				"quote": "Quote.Tech.GuidanceSystem",
 				"uniques": []
 			},
 			{
@@ -1400,7 +1400,7 @@
 				"prerequisites": [
 					"Tech.NuclearFission"
 				],
-				"quote": "当上帝说让光芒普照大地时，他的意思肯定是指完美的相干光线。\n——查尔斯·汤斯",
+				"quote": "Quote.Tech.Laser",
 				"uniques": []
 			},
 			{
@@ -1409,7 +1409,7 @@
 				"prerequisites": [
 					"Tech.Synthetic"
 				],
-				"quote": "所有物质事物看起来都是由硬粒子和固相颗粒组成…在很多方面，都和智能主体决策创造的第一个产物联系在一起。\n——艾萨克·牛顿",
+				"quote": "Quote.Tech.Composite",
 				"uniques": []
 			},
 			{
@@ -1418,7 +1418,7 @@
 				"prerequisites": [
 					"Tech.Synthetic"
 				],
-				"quote": "我想说的是隐形是一种有趣的能力，你可以穿过世界看看它到底是什么样子，而没人能看到你。\n——凯文·贝肯",
+				"quote": "Quote.Tech.Stealth",
 				"uniques": []
 			},
 			{
@@ -1428,7 +1428,7 @@
 					"Civic.CulturalHeritage",
 					"Civic.EmergencyDeployment"
 				],
-				"quote": "“我将在明媚的日光之下再度降临，为子孙后裔造下美好家园。”\n——《阿尔戈船英雄记》,罗德岛的阿波罗尼奥斯",
+				"quote": "Quote.Civic.Environmentalism",
 				"uniques": [
 					"[+2 Culture, +1 Science] from [Vegetation] tiles [in all cities]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1441,7 +1441,7 @@
 					"Civic.EmergencyDeployment",
 					"Civic.SpaceRace"
 				],
-				"quote": "据说，反对全球化就像反对万有引力定律。\n——科菲·安南",
+				"quote": "Quote.Civic.Globalization",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1454,7 +1454,7 @@
 					"Civic.SpaceRace",
 					"Civic.ProfessionalSports"
 				],
-				"quote": "在我所有重要的毫无意义的事里面，我应该先告诉你哪一件呢？\n——简·奥斯汀",
+				"quote": "Quote.Civic.SocialMedia",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
@@ -1478,7 +1478,7 @@
 					"Tech.GuidanceSystem",
 					"Tech.Laser"
 				],
-				"quote": "机器人技术永远存在，它永远都是下一件大事，这项技术如此让人兴奋，如此扣人心弦，以至于很容易得意忘形。\n——科林·安格尔",
+				"quote": "Quote.Tech.Robotics",
 				"uniques": []
 			},
 			{
@@ -1487,7 +1487,7 @@
 				"prerequisites": [
 					"Tech.Laser"
 				],
-				"quote": "我支持从15亿千米远的地方来控制核聚变能量。通过太阳进行的核聚变非常不错,而且是免费的。地球上的反应堆…没有那么多。\n——乔·罗姆",
+				"quote": "Quote.Tech.NuclearFusion",
 				"uniques": []
 			},
 			{
@@ -1496,7 +1496,7 @@
 				"prerequisites": [
 					"Tech.Composite"
 				],
-				"quote": "如果科技能推动变革，那么纳米科技是人类未来的推动力。\n——娜塔莎·维塔莫尔",
+				"quote": "Quote.Tech.Nanotechnology",
 				"uniques": []
 			},
 			{
@@ -1506,7 +1506,7 @@
 					"Civic.Environmentalism",
 					"Civic.Globalization"
 				],
-				"quote": "司法是国家中人民之间的纽带，司法的施行即为对公正的裁定，这是政治社会长治久安的基本原则。\n——亚里士多德",
+				"quote": "Quote.Civic.Near-FutureGovernance",
 				"uniques": [
 					"[3] free [Unit.Envoy2] units appear",
 					"Provides [1] [Resource.GovernorTitle]",
@@ -1520,7 +1520,7 @@
 					"Civic.Globalization",
 					"Civic.SocialMedia"
 				],
-				"quote": "人之于其身心，主权之尊而无上，无异自主之一国也。\n——约翰·斯图尔特·密尔",
+				"quote": "Quote.Civic.PoliticalAdventures",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1532,7 +1532,7 @@
 					"Civic.Globalization",
 					"Civic.SocialMedia"
 				],
-				"quote": "决断谷中人头攒动，因为主之日临近此处。\n——旧约《约珥书》3:14",
+				"quote": "Quote.Civic.DecentralizedSovereighty",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1544,7 +1544,7 @@
 					"Civic.Globalization",
 					"Civic.SocialMedia"
 				],
-				"quote": "我们发现，机械天才、感官敏锐之人、智力拔群之人皆异口同声称机器人仅仅是纯粹的机器，其行为不受人工操控。也正是因此，它无可比拟地成为了人类最伟大的发明。\n——埃德加·艾伦·坡",
+				"quote": "Quote.Civic.OptimizationCommand",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1564,7 +1564,7 @@
 				"prerequisites": [
 					"Tech.GuidanceSystem"
 				],
-				"quote": "我务须再度潜入那无底深海，如流浪吉卜赛人一般生活；在那里，疾风如利刃般刺骨，而我如海鸥般恣意翱翔，如鲸鱼般纵情遨游。\n——约翰·麦斯菲尔"
+				"quote": "Quote.Tech.OceanHome"
 			},
 			{
 				"name": "Tech.AdvancedAI",
@@ -1575,7 +1575,7 @@
 				"uniques": [
 					"[+33]% Strength <for [UnitType.Mech] units> <vs [All] units> <when attacking>"
 				],
-				"quote": "我能恳求你以赞许的眼光来看待你所造之物吗？我在此祈求你的善良与恻隐之心。\n——玛丽·雪莱"
+				"quote": "Quote.Tech.AdvancedAI"
 			},
 			{
 				"name": "Tech.AdvancedEnergyBattery",
@@ -1586,7 +1586,7 @@
 				"uniques": [
 					"[+50]% Strength <for [UnitType.Mech] units> <vs cities> <when attacking>"
 				],
-				"quote": "曲则全，枉则直，洼则盈，敝则新。\n——《道德经》"
+				"quote": "Quote.Tech.AdvancedEnergyBattery"
 			},
 			{
 				"name": "Tech.Cybernetics",
@@ -1597,7 +1597,7 @@
 				"uniques": [
 					"[+2] Movement <for [UnitType.Mech] units>"
 				],
-				"quote": "如果来生有劳作，那你须替我受其劳。一旦我有所召唤，你须即刻回应。在此劳作之时需谨言慎行。耕我之田，将水和沙运往东西四方。一旦我有所召唤，你须即刻回应。\n——埃及夏勃梯人像铭文"
+				"quote": "Quote.Tech.Cybernetics"
 			},
 			{
 				"name": "Tech.SmartMaterials",
@@ -1608,7 +1608,7 @@
 				"uniques": [
 					"[+66]% Strength <for [UnitType.Mech] units> <when defending>"
 				],
-				"quote": "它上天入地，然后又破土上天，从优劣万物中获得终极之力。\n——赫耳墨斯·特里斯墨吉斯忒斯"
+				"quote": "Quote.Tech.SmartMaterials"
 			},
 			{
 				"name": "Tech.ForecastingSystem",
@@ -1619,7 +1619,7 @@
 				"uniques": [
 					"[+10000]% Strength <for [UnitType.Mech] units> <vs [UnitType.Missile] units>"
 				],
-				"quote": "吾所与战之地不可知，不可知，则敌所备者多；敌所备者多，则吾所与战者，寡矣。\n——孙子"
+				"quote": "Quote.Tech.ForecastingSystem"
 			},
 			{
 				"name": "Civic.GlobalWarmingMitigation",
@@ -1629,7 +1629,7 @@
 					"Civic.OptimizationCommand",
 					"Civic.DecentralizedSovereighty"
 				],
-				"quote": "将这恶人紧锁在尖锐的岩石上，\n永生不得释放。\n——埃斯库罗斯",
+				"quote": "Quote.Civic.GlobalWarmingMitigation",
 				"uniques": [
 					"[3] free [Unit.Envoy2] units appear",
 					"Provides [1] [Resource.DiplomaticFavor]",
@@ -1644,7 +1644,7 @@
 					"Civic.OptimizationCommand",
 					"Civic.DecentralizedSovereighty"
 				],
-				"quote": "这一刻终将到来，且避无可避。构建在武力之上的所有体制都将在众目睽睽下暴露出无用、愚蠢，甚至不便，从而消逝殆尽。\n——列夫·托尔斯泰",
+				"quote": "Quote.Civic.SmartPowerFoctrine",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1657,7 +1657,7 @@
 					"Civic.OptimizationCommand",
 					"Civic.DecentralizedSovereighty"
 				],
-				"quote": "“吾所与战之地不可知，不可知，则敌所备者多；敌所备者多，则吾所与战者，寡矣。”\n——孙子",
+				"quote": "Quote.Civic.InformationWarfare",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1670,7 +1670,7 @@
 					"Civic.OptimizationCommand",
 					"Civic.DecentralizedSovereighty"
 				],
-				"quote": "“我最亲爱的人儿啊，这是个很久很久以前的故事啦。”\n——鲁德亚德·吉卜林",
+				"quote": "Quote.Civic.NecessityExpedition",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1683,7 +1683,7 @@
 					"Civic.OptimizationCommand",
 					"Civic.DecentralizedSovereighty"
 				],
-				"quote": "啊，我的爱人，请倒满我面前的酒杯。\n让我们干杯，敬往昔的懊悔与未来的敬畏。\n为何不敬明日？\n因为，明日我会带着千年的忧愁再饮一杯。\n——爱德华·菲茨杰拉尔德",
+				"quote": "Quote.Civic.CulturalHegemony",
 				"uniques": [
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1708,7 +1708,7 @@
 					"Tech.SmartMaterials",
 					"Tech.ForecastingSystem"
 				],
-				"quote": "不，我的朋友，我们没有回到地球，我们也没有坠入墨西哥湾。相反，我们正冲向太空！亲眼见证那些在夜空中闪耀的明星，还有地球和我们之间堆积的重重黑幕！\n——儒勒·凡尔纳",
+				"quote": "Quote.Tech.AlienMissons",
 				"uniques": []
 			}
 		]
@@ -1726,7 +1726,7 @@
 				"prerequisites": [
 					"Tech.AlienMissons"
 				],
-				"quote": "虽然未来似乎很遥远，但其实已经开始了。\n——马提·史提潘尼克",
+				"quote": "Quote.Tech.FutureTechnology",
 				"uniques": [
 					"Gain [1000] [Gold]",
 					"[+5]% [Production] [in all cities]",
@@ -1743,7 +1743,7 @@
 					"Civic.NecessityExpedition",
 					"Civic.CulturalHegemony"
 				],
-				"quote": "我从不思考未来。因为它迟早会来的。\n——阿尔伯特·爱因斯坦",
+				"quote": "Quote.Civic.FutureMunicipal",
 				"uniques": [
 					"Provides [1] [Resource.GovernorTitle]",
 					"Can be continually researched"
@@ -1761,7 +1761,7 @@
 				"name": "",
 				"row": ,
 				"prerequisites": ["",""],
-				"quote": "",
+				"quote": "Quote.Civic.FutureMunicipal",
 				"uniques": []
 			},
 		]
