@@ -912,6 +912,7 @@
 			"Does not need removal of [Landform.Forest]",
 			"Does not need removal of [Landform.Rainforest]",
 			"Does not need removal of [Landform.Swamp]",
+			"[+1 Production] <in [non-[Landform.Hill]] tiles>",
 			"[+1 Production, +1 Food] <after discovering [Civic.Mercantilism]>",
 			"[+2 Gold] <after discovering [Tech.Synthetic]>",
 			"Can only be built to improve a resource",
@@ -969,6 +970,7 @@
 			"Provides [1] [Resource.halfHouse] <in this city> <for [Nation.Maya] Civilizations> <hidden from users>", //玛雅文明能力
 			"[+1 Science] for each adjacent [District.MayanObservatory] <for [Nation.Maya] Civilizations>",//玛雅文明能力
 			"[+1 Science] for each adjacent [District.MayanObservatory] <for [Nation.Maya] Civilizations> <after discovering [Tech.CivilianEducation]>",//玛雅文明能力
+			"[+1 Production] <in [non-[Landform.Hill]] tiles>",
 			"[+1 Food] <after discovering [Tech.ScientificTheory]>",
 			"[+1 Food] <after discovering [Civic.Feudalism]>",
 			"[+2 Gold] <after discovering [Civic.Globalization]>",

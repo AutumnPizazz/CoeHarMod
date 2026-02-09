@@ -1314,13 +1314,11 @@
                     "[+7 Production] from every [Class.Building.PowerPlant] <in cities with a [Governor.Magnus]>",
                     "Provides [4] [Resource.Electricity] <after discovering [Tech.Industrialization]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusI]>"
                 ],
                 "row": 2,
-                "column": 1,
-                "requires": [
-                    "Policy.Governor.MagnusI"
-                ]
+                "column": 1
             },
             {
                 "name": "Policy.Governor.MagnusIIB",
@@ -1329,53 +1327,44 @@
                     "[+20]% growth [in all cities] <in cities with a [Governor.Magnus]>",
                     "Comment [New trained [Unit.Settler] in cities with a [Governor.Magnus] cannot cause population loss]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusI]>"
                 ],
                 "row": 2,
-                "column": 3,
-                "requires": [
-                    "Policy.Governor.MagnusI"
-                ]
+                "column": 3
             },
             {
                 "name": "Policy.Governor.MagnusIIIA",
                 "uniques": [
                     "[+20]% [Production] [in all cities] <in cities with a [Governor.Magnus]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusIIA]>"
                 ],
                 "row": 3,
-                "column": 1,
-                "requires": [
-                    "Policy.Governor.MagnusIIA"
-                ]
+                "column": 1
             },
             {
                 "name": "Policy.Governor.MagnusIIIB",
                 "uniques": [
                     "[+1 Food, +2 Production] from every [Building.TradingPost]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusIIB]>"
                 ],
                 "row": 3,
-                "column": 3,
-                "requires": [
-                    "Policy.Governor.MagnusIIB"
-                ]
+                "column": 3
             },
             {
                 "name": "Policy.Governor.MagnusIV",
                 "uniques": [
                     "[+3 Production] [in all cities] <in cities with a [Governor.Magnus]> <for every [[Class.Building.PowerPlant] Buildings]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusIIIA]> <after adopting [Policy.Governor.MagnusIIIB]>"
                 ],
                 "row": 4,
-                "column": 2,
-                "requires": [
-                    "Policy.Governor.MagnusIIIA",
-                    "Policy.Governor.MagnusIIIB"
-                ]
+                "column": 2
             },
             {
                 "name": "Policy.Governor.ReynaI",
@@ -1396,26 +1385,22 @@
                     "[+100]% Yield from every [Class.Harbor] <in cities with a [Governor.Reyna]>",
                     "[+15]% [Gold] [in all cities] <in cities with a [Governor.Reyna]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaI]>"
                 ],
                 "row": 2,
-                "column": 5,
-                "requires": [
-                    "Policy.Governor.ReynaI"
-                ]
+                "column": 5
             },
             {
                 "name": "Policy.Governor.ReynaIIB",
                 "uniques": [
                     "[+3 Gold] from [unimproved] tiles [in all cities] <in cities with a [Governor.Reyna]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaI]>"
                 ],
                 "row": 2,
-                "column": 7,
-                "requires": [
-                    "Policy.Governor.ReynaI"
-                ]
+                "column": 7
             },
             {
                 "name": "Policy.Governor.ReynaIII",
@@ -1423,40 +1408,33 @@
                     "[+2 Gold] per [1] population [in all cities] <in cities with a [Governor.Reyna]>",
                     "Provides [1] [Resource.TradeRouteCapacity]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaIIA]> <after adopting [Policy.Governor.ReynaIIB]>"
                 ],
                 "row": 3,
-                "column": 6,
-                "requires": [
-                    "Policy.Governor.ReynaIIA",
-                    "Policy.Governor.ReynaIIB"
-                ]
+                "column": 6
             },
             {
                 "name": "Policy.Governor.ReynaIVA",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-50]% <in cities with a [Governor.Reyna]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaIII]>"
                 ],
                 "row": 4,
-                "column": 5,
-                "requires": [
-                    "Policy.Governor.ReynaIII"
-                ]
+                "column": 5
             },
             {
                 "name": "Policy.Governor.ReynaIVB",
                 "uniques": [
                     "[+1 Science, +1 Culture] from every [Building.TradingPost] <for every [3] [[Building.TradingPost] Buildings by [Major] Civilizations]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaIII]>"
                 ],
                 "row": 4,
-                "column": 7,
-                "requires": [
-                    "Policy.Governor.ReynaIII"
-                ]
+                "column": 7
             },
             {
                 "name": "Policy.Governor.AmaniI",
@@ -1475,13 +1453,11 @@
                 "uniques": [
                     "Comment [Gain a free [Building.AncientWalls] for all city-state]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniI]>"
                 ],
                 "row": 2,
-                "column": 9,
-                "requires": [
-                    "Policy.Governor.AmaniI"
-                ]
+                "column": 9
             },
             {
                 "name": "Policy.Governor.AmaniIIB",
@@ -1494,13 +1470,11 @@
                     "Provides [2] [Resource.Aluminum] <after discovering [Tech.Radio]>",
                     "Provides [2] [Resource.Uranium] <after discovering [Tech.JointOperations]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniI]>"
                 ],
                 "row": 2,
-                "column": 11,
-                "requires": [
-                    "Policy.Governor.AmaniI"
-                ]
+                "column": 11
             },
             {
                 "name": "Policy.Governor.AmaniIIIA",
@@ -1508,13 +1482,11 @@
                     "Provides [2] [Resource.SpyCapacity]",
                     "Free [Unit.Spy] appears",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniIIA]>"
                 ],
                 "row": 3,
-                "column": 9,
-                "requires": [
-                    "Policy.Governor.AmaniIIA"
-                ]
+                "column": 9
             },
             {
                 "name": "Policy.Governor.AmaniIIIB",
@@ -1522,13 +1494,11 @@
                     "[+1 Food, +2 Production] from every [Class.DistrictBuilding.GovernmentPlaza]",
                     "[+1 Food, +2 Production] from every [Class.DistrictBuilding.ForeignQuarter]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniIIB]>"
                 ],
                 "row": 3,
-                "column": 11,
-                "requires": [
-                    "Policy.Governor.AmaniIIB"
-                ]
+                "column": 11
             },
             {
                 "name": "Policy.Governor.AmaniIV",
@@ -1536,14 +1506,11 @@
                     "[+100]% [Resource.Influence] resource production",
                     "Gifts of Gold to City-States generate [+100]% more Influence",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniIIIA]> <after adopting [Policy.Governor.AmaniIIIB]>"
                 ],
                 "row": 4,
-                "column": 10,
-                "requires": [
-                    "Policy.Governor.AmaniIIIA",
-                    "Policy.Governor.AmaniIIIB"
-                ]
+                "column": 10
             },
             {
                 "name": "Policy.Governor.VictorI",
@@ -1561,52 +1528,44 @@
                 "uniques": [
                     "[+23]% Strength <in cities with a [Governor.Victor]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorI]>"
                 ],
                 "row": 2,
-                "column": 13,
-                "requires": [
-                    "Policy.Governor.VictorI"
-                ]
+                "column": 13
             },
             {
                 "name": "Policy.Governor.VictorIIB",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities] <in cities with a [Governor.Victor]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorI]>"
                 ],
                 "row": 2,
-                "column": 15,
-                "requires": [
-                    "Policy.Governor.VictorI"
-                ]
+                "column": 15
             },
             {
                 "name": "Policy.Governor.VictorIIIA",
                 "uniques": [
                     "[+51]% Strength for cities <in cities with a [Governor.Victor]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorIIA]>"
                 ],
                 "row": 3,
-                "column": 13,
-                "requires": [
-                    "Policy.Governor.VictorIIA"
-                ]
+                "column": 13
             },
             {
                 "name": "Policy.Governor.VictorIIIB",
                 "uniques": [
                     "New [Military] units start with [10] XP [in all cities] <in cities with a [Governor.Victor]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorIIB]>"
                 ],
                 "row": 3,
-                "column": 15,
-                "requires": [
-                    "Policy.Governor.VictorIIB"
-                ]
+                "column": 15
             },
             {
                 "name": "Policy.Governor.VictorIV",
@@ -1614,14 +1573,11 @@
                     "[+100]% Production when constructing [Unit.NuclearDevice] units [in all cities] <in cities with a [Governor.Victor]>",
                     "[+100]% Production when constructing [Unit.ThermonuclearDevice] units [in all cities] <in cities with a [Governor.Victor]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorIIIA]> <after adopting [Policy.Governor.VictorIIIB]>"
                 ],
                 "row": 4,
-                "column": 14,
-                "requires": [
-                    "Policy.Governor.VictorIIIA",
-                    "Policy.Governor.VictorIIIB"
-                ]
+                "column": 14
             },
             {
                 "name": "Policy.Governor.PingalaI",
@@ -1639,26 +1595,22 @@
                 "uniques": [
                     "[+100]% [Class.GreatPersonPoint] resource production <in cities with a [Governor.Pingala]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaI]>"
                 ],
                 "row": 2,
-                "column": 17,
-                "requires": [
-                    "Policy.Governor.PingalaI"
-                ]
+                "column": 17
             },
             {
                 "name": "Policy.Governor.PingalaIIB",
                 "uniques": [
                     "[+1 Science] per [1] population [in all cities] <in cities with a [Governor.Pingala]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaI]>"
                 ],
                 "row": 2,
-                "column": 19,
-                "requires": [
-                    "Policy.Governor.PingalaI"
-                ]
+                "column": 19
             },
             {
                 "name": "Policy.Governor.PingalaIIIA",
@@ -1667,40 +1619,33 @@
                     "[+5 Science] from every [Building.University] <in cities with a [Governor.Pingala]>",
                     "[+7 Science] from every [Building.ResearchLab] <in cities with a [Governor.Pingala]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaIIA]>"
                 ],
                 "row": 3,
-                "column": 17,
-                "requires": [
-                    "Policy.Governor.PingalaIIA"
-                ]
+                "column": 17
             },
             {
                 "name": "Policy.Governor.PingalaIIIB",
                 "uniques": [
                     "[+1 Food, +3 Science] from every [Building.TradingPost]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaIIB]>"
                 ],
                 "row": 3,
-                "column": 19,
-                "requires": [
-                    "Policy.Governor.PingalaIIB"
-                ]
+                "column": 19
             },
             {
                 "name": "Policy.Governor.PingalaIV",
                 "uniques": [
                     "[+50]% Production when constructing [Class.Unit.SpaceRace] units [in all cities] <in cities with a [Governor.Pingala]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaIIIA]> <after adopting [Policy.Governor.PingalaIIIB]>"
                 ],
                 "row": 4,
-                "column": 18,
-                "requires": [
-                    "Policy.Governor.PingalaIIIA",
-                    "Policy.Governor.PingalaIIIB"
-                ]
+                "column": 18
             },
             {
                 "name": "Policy.Governor.LiangI",
@@ -1720,26 +1665,22 @@
                     "[+1 Production] from [Landform.VolcanicSoil] tiles [in all cities] <in cities with a [Governor.Liang]>",
                     "[+1 Production] from [Landform.AlluvialPlain] tiles [in all cities] <in cities with a [Governor.Liang]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangI]>"
                 ],
                 "row": 2,
-                "column": 21,
-                "requires": [
-                    "Policy.Governor.LiangI"
-                ]
+                "column": 21
             },
             {
                 "name": "Policy.Governor.LiangIIB",
                 "uniques": [
                     "[+1 Food] from [resource] tiles [in all cities] <in cities with a [Governor.Liang]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangI]>"
                 ],
                 "row": 2,
-                "column": 23,
-                "requires": [
-                    "Policy.Governor.LiangI"
-                ]
+                "column": 23
             },
             {
                 "name": "Policy.Governor.LiangIIIA",
@@ -1747,26 +1688,22 @@
                     "Comment [Permit improving [Improvement.Park] in this city]",
                     "Comment [Reduce the cost of [Governor.Liang.Remove] to [20] Production]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangIIA]>"
                 ],
                 "row": 3,
-                "column": 21,
-                "requires": [
-                    "Policy.Governor.LiangIIA"
-                ]
+                "column": 21
             },
             {
                 "name": "Policy.Governor.LiangIIIB",
                 "uniques": [
                     "[+1 Production] from [resource] tiles [in all cities] <in cities with a [Governor.Liang]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangIIB]>"
                 ],
                 "row": 3,
-                "column": 23,
-                "requires": [
-                    "Policy.Governor.LiangIIB"
-                ]
+                "column": 23
             },
             {
                 "name": "Policy.Governor.LiangIV",
@@ -1774,14 +1711,11 @@
                     "[+2 Happiness] from every [Class.Building.DistrictUnique] <in cities with a [Governor.Liang]>",
                     "Provides [10] [Resource.halfHouse] <in cities with a [Governor.Liang]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangIIIA]> <after adopting [Policy.Governor.LiangIIIB]>"
                 ],
                 "row": 4,
-                "column": 22,
-                "requires": [
-                    "Policy.Governor.LiangIIIA",
-                    "Policy.Governor.LiangIIIB"
-                ]
+                "column": 22
             },
             {
                 "name": "Policy.Governor.MokshaI",
@@ -1801,13 +1735,11 @@
                     "[+1 Culture] per [1] population [in all cities] <in cities with a [Governor.Moksha]>",
                     "[+100]% Natural religion spread [in all cities] <in cities with a [Governor.Moksha]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaI]>"
                 ],
                 "row": 2,
-                "column": 25,
-                "requires": [
-                    "Policy.Governor.MokshaI"
-                ]
+                "column": 25
             },
             {
                 "name": "Policy.Governor.MokshaIIB",
@@ -1815,13 +1747,11 @@
                     "Provides [2] [Resource.Unit.Prophet] <if [Building.DistrictUnique.HolySite] is constructed>",
                     "[+2 Faith] <for every [[Building.DistrictUnique.HolySite] Buildings]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaI]>"
                 ],
                 "row": 2,
-                "column": 27,
-                "requires": [
-                    "Policy.Governor.MokshaI"
-                ]
+                "column": 27
             },
             {
                 "name": "Policy.Governor.MokshaIIIA",
@@ -1829,26 +1759,22 @@
                     "[+1 Food, +2 Culture] from every [Building.TradingPost]",
                     "[Faith] cost of purchasing items in cities [-10]% <in cities with a [Governor.Moksha]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaIIA]>"
                 ],
                 "row": 3,
-                "column": 25,
-                "requires": [
-                    "Policy.Governor.MokshaIIA"
-                ]
+                "column": 25
             },
             {
                 "name": "Policy.Governor.MokshaIIIB",
                 "uniques": [
                     "[150]% of excess happiness converted to [Faith]",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaIIB]>"
                 ],
                 "row": 3,
-                "column": 27,
-                "requires": [
-                    "Policy.Governor.MokshaIIB"
-                ]
+                "column": 27
             },
             {
                 "name": "Policy.Governor.MokshaIV",
@@ -1856,14 +1782,11 @@
                     "[+25]% Production when constructing [Class.DistrictBuilding.TheaterSquare] buildings [in all cities] <in cities with a [Governor.Moksha]> <in cities with a [Building.DistrictUnique.HolySite]>",
                     "[+25]% Production when constructing [Class.DistrictBuilding.TheaterSquare] buildings [in all cities] <in cities with a [Building.DistrictUnique.HolySite]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaIIIA]> <after adopting [Policy.Governor.MokshaIIIB]>"
                 ],
                 "row": 4,
-                "column": 26,
-                "requires": [
-                    "Policy.Governor.MokshaIIIA",
-                    "Policy.Governor.MokshaIIIB"
-                ]
+                "column": 26
             },
             {
                 "name": "Policy.Governor.GrandVizierI",
@@ -1883,13 +1806,11 @@
                     "[+1 Science] per [1] population [in all cities] <in cities with a [Governor.GrandVizier]>",
                     "[+23]% Strength <when attacking> <vs cities>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.GrandVizierI]>"
                 ],
                 "row": 2,
-                "column": 29,
-                "requires": [
-                    "Policy.Governor.GrandVizierI"
-                ]
+                "column": 29
             },
             {
                 "name": "Policy.Governor.GrandVizierIII",
@@ -1897,13 +1818,11 @@
                     "[+1 Culture] per [1] population [in all cities] <in cities with a [Governor.GrandVizier]>",
                     "All newly-trained [All] units [in all cities] receive the [Promotion.FastMove] promotion <in cities with a [Governor.GrandVizier]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.GrandVizierII]>"
                 ],
                 "row": 3,
-                "column": 29,
-                "requires": [
-                    "Policy.Governor.GrandVizierII"
-                ]
+                "column": 29
             },
             {
                 "name": "Policy.Governor.GrandVizierIV",
@@ -1911,13 +1830,11 @@
                     "[+10 Happiness]",
                     "Provides [10] [Resource.halfHouse] <in cities with a [Governor.GrandVizier]>",
                     "Provides [-1] [Resource.GovernorTitle]",
-                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>"
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.GrandVizierIII]>"
                 ],
                 "row": 4,
-                "column": 29,
-                "requires": [
-                    "Policy.Governor.GrandVizierIII"
-                ]
+                "column": 29
             },
             {
                 "name": "Policy.Governor Complete"

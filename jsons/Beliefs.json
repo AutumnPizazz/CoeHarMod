@@ -4,9 +4,8 @@
         "name": "Pantheon.MoonGoddess",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Gold] from every [Improvement.FishingBoat]",
-            "[+1 Gold] from every [Improvement.Fishery]",
-            "[+1 Gold] from every [Improvement.FishingBoat] <after discovering [Tech.CrossailDevice]>"
+            "[+4 Gold] from every [Improvement.FishingBoat]",
+            "[+2 Gold] from every [Improvement.FishingBoat] <after discovering [Tech.Cartography]>"
         ]
     },
     { //海洋之神
@@ -38,7 +37,7 @@
         "name": "Pantheon.CityGuardianGoddess",
         "type": "Pantheon",
         "uniques": [
-            "[+100]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <in cities without a [Class.Building.DistrictUnique]>"
+            "[+40]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities] <in cities without a [Class.Building.DistrictUnique]>"
         ]
     },
     { //大地女神
@@ -73,14 +72,15 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Food] [in capital]",
-            "[+1 Food] per [3] population [in this city]"
+            "[+1 Food] from every [Building.Granary]",
+            "[+1 Happiness] from every [Building.DistrictUnique.Raceline]"
         ]
     },
     { //工匠之神
         "name": "Pantheon.GodOfCraftsmen",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production, +1 Gold, +1 Faith] from [Class.BasicStrategicResource] tiles [in all cities] <after turn number [25]>"
+            "[+1 Production, +1 Gold, +1 Faith] from [Class.BasicStrategicResource] tiles [in all cities] <starting from the [Era.Classical]>"
         ]
     },
     { //河神
@@ -186,7 +186,7 @@
         "name": "Pantheon.GoddessOfTheHunt",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food, +1 Production, +3 Gold] from every [Improvement.Encampment]"
+            "[+1 Food, +2 Gold] from every [Improvement.Encampment]"
         ]
     },
     { //治愈之神
@@ -217,16 +217,15 @@
         "name": "Pantheon.MonumentToTheGods",
         "type": "Pantheon",
         "uniques": [
-            "[+35]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
-            "[+20]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities]"
+            "[+20]% Production when constructing [World] wonders [in all cities]"
         ]
     },
     { //宗教偶像
         "name": "Pantheon.ReligiousIdol",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith, +2 Gold] from every [Luxury resource] <in tiles without [Class.District]>",
-            "Comment [[+1] Happiness from each type of luxury resource]"
+            "[+1 Faith, +1 Gold] from every [{improved} {non-[Class.District]} {Luxury resource}]",
+            "[+1 Happiness] [in capital] <for every [3] [Owned [{improved} {non-[Class.District]} {Luxury resource}] Tiles]>"
         ]
     },
     { //宗教移民
@@ -256,9 +255,8 @@
         "name": "Pantheon.HerdsmensRoad",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food] from every [Resource.Sheep]",
-            "[+1 Food] from every [Resource.Cattle]",
-            "[+1 Production] from every [Resource.Horse]"
+            "[+1 Gold] from every [Improvement.Pasture]",
+            "[+1 Production] from every [Improvement.Pasture] <in cities with a [Building.Stable]>"
         ]
     },
     { //农耕女神
@@ -272,8 +270,7 @@
         "name": "Pantheon.DragonPrayerCeremony",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith] from every [Improvement.FishingBoat]",
-            "[+2 Faith] from every [Landform.Reef] <in tiles without [Class.District]>"
+            "[+3 Faith] from every [Improvement.FishingBoat]"
         ]
     },
     { //启蒙会
@@ -377,16 +374,14 @@
         "type": "Follower",
         "uniques": [
             "[+2 Food] from every [Building.Shrine]",
-            "[+3 Food] from every [Building.Temple]",
-            "[+4 Food] from every [Class.Building.AdvancedReligious]"
+            "[+4 Food] from every [Building.Temple]"
         ]
     },
     { //禅修
         "name": "FollowerBelief.Meditation",
         "type": "Follower",
         "uniques": [
-            "[+2 Happiness] from every [Building.DistrictUnique.HolySite]",
-            "[+2 Happiness] from every [Building.DistrictUnique.Campus]"
+            "[+2 Happiness] [in all cities] <in cities with a [Class.Building.DistrictUnique]>"
         ]
     },
     { //合唱圣歌
@@ -394,16 +389,14 @@
         "type": "Follower",
         "uniques": [
             "[+2 Culture] from every [Building.Shrine]",
-            "[+3 Culture] from every [Building.Temple]",
-            "[+3 Culture] from every [Class.Building.AdvancedReligious]"
+            "[+4 Culture] from every [Building.Temple]"
         ]
     },
     { //神灵启示
         "name": "FollowerBelief.DivineRevelation",
         "type": "Follower",
         "uniques": [
-            "[+4 Faith, +1 Gold] from every [Wonders] <in tiles without [Class.District]>",
-            "[+2 Happiness] from every [Wonders]"
+            "[+2 Science, +2 Culture, +2 Faith, +2 Gold] [in all cities] <in cities with a [World Wonder]>"
         ]
     },
     { //武僧
@@ -426,28 +419,24 @@
         "name": "FollowerBelief.ProfessionalEthics",
         "type": "Follower",
         "uniques": [
-            "[+1]% [Production] from every follower, up to [30]%",
-            "[+1 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Ancient]>",
-            "[+2 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Classical]>",
-            "[+3 Production] from every [Building.DistrictUnique.HolySite] <during the [Era.Medieval]>",
-            "[+4 Production] from every [Building.DistrictUnique.HolySite] <starting from the [Era.Renaissance]>"
+            "[+2 Production] from every [Building.Shrine]",
+            "[+4 Production] from every [Building.Temple]"
         ]
     },
     { //宗教社区
         "name": "FollowerBelief.ReligiousCommunity",
         "type": "Follower",
         "uniques": [
-            "[+1 Science] from every [Class.DistrictBuilding.HolySite]",
-            "[+1 Science] from every [Class.DistrictBuilding.HolySite] <after discovering [Civic.Theology]>"
+            "[+6 Gold] from every [Building.Shrine]",
+            "[+12 Gold] from every [Building.Temple]"
         ]
     },
     { //经文
         "name": "FollowerBelief.Scripture",
         "type": "Follower",
         "uniques": [
-            "[+30]% Natural religion spread [in cities following this religion]",
-            "[+30]% Natural religion spread [in cities following this religion] <after discovering [Tech.Printing]>",
-            "Religion naturally spreads to cities [3] tiles away <after discovering [Tech.Printing]>"
+            "[+100]% Natural religion spread [in cities following this religion]",
+            "[+100]% Natural religion spread [in cities following this religion] <after discovering [Tech.Printing]>"
         ]
     },
     { //神圣采购
@@ -508,22 +497,16 @@
         "name": "FounderBelief.AdministrativeWork",
         "type": "Founder",
         "uniques": [
-            "[+1 Science] from every [Building.DistrictUnique.Campus]",
-            "[+1 Gold] from every [Building.DistrictUnique.CommercialHub]",
-            "[+1 Gold] from every [Building.DistrictUnique.Port]",
-            "[+1 Science] from every [Building.DistrictUnique.Campus] <after discovering [Civic.DivinRightOfKings]>",
-            "[+1 Gold] from every [Building.DistrictUnique.CommercialHub] <after discovering [Civic.DivinRightOfKings]>",
-            "[+1 Gold] from every [Building.DistrictUnique.Port] <after discovering [Civic.DivinRightOfKings]>"
+            "[+2 Science] from every [Building.DistrictUnique.Campus]",
+            "[+2 Gold] from every [Building.DistrictUnique.CommercialHub]"
         ]
     },
     { //民间宗教团
         "name": "FounderBelief.FolkReligiousGroup",
         "type": "Founder",
         "uniques": [
-            "[+1 Faith] from every [Building.DistrictUnique.HolySite]",
-            "[+1 Culture] from every [Building.DistrictUnique.TheaterSquare]",
-            "[+1 Faith] from every [Building.DistrictUnique.HolySite] <after discovering [Civic.DivinRightOfKings]>",
-            "[+1 Culture] from every [Building.DistrictUnique.TheaterSquare] <after discovering [Civic.DivinRightOfKings]>"
+            "[+2 Faith] from every [Building.DistrictUnique.HolySite]",
+            "[+2 Culture] from every [Building.DistrictUnique.TheaterSquare]"
         ]
     },
     { //教皇权威

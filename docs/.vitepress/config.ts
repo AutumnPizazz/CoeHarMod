@@ -48,7 +48,14 @@ export default defineConfig({
           //     { text: 'Item C', link: '/item-3' }
           //   ]
           // },
-          { text: '更新日志', link: '/changelog' }
+          { 
+            text: '更新日志',
+            link: '/changelog',
+            collapsed: true,
+            items: [
+              {text: '更新计划', link: '/changeplan'},
+            ]
+          }
         ]
       }
     ],
