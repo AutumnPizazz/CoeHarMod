@@ -63,6 +63,7 @@
         "uniques": [
             "[+104]% Strength <vs cities> <when attacking>",
             "[+70]% Strength <vs [{Military} {Water}] units> <when attacking>",
+            "[+70]% Strength <vs [Embarked] units> <when attacking>",
             "Must set up to ranged attack",
             "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>"
         ]

@@ -708,11 +708,9 @@
 		"uniqueName": "The Hajj",
 		//		"uniqueText":"",
 		"uniques": [
-			"[+1 Food, +1 Faith, +1 Gold] [in all cities] <with [1] to [2] neighboring [Desert] tiles>",
-			"[+3 Food, +3 Faith, +3 Gold] [in all cities] <with [3] to [4] neighboring [Desert] tiles>",
-			"[+5 Food, +5 Faith, +5 Gold] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
+			"[+2 Food, +2 Faith, +2 Gold] [in all cities] <in tiles adjacent to [Desert] tiles>",
 			"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] for [2] times their normal Production cost",
-			"[-15]% [Production] [in all cities]",
+			"[-5]% [Production] [in all cities]",
 			"[-1 Production, +3 Gold] from every [Landform.Hill] <in tiles without [Class.District]>",
 			"[+1 Gold] from [Desert] tiles [in all cities] <in tiles without [Class.District]> <in cities with a [Building.DistrictUnique.MandingoMarket]>"
 		],
@@ -1171,10 +1169,10 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Divinely Ordained Rules",
 		"uniques": [
-			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.DistrictUnique.EntertainmentComplex]>",
-			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.Arena]>",
-			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.Zoo]>",
-			"[+25]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <in cities with a [Building.Stadium]>"
+			"[+1]% Strength <for [UnitType.HeavyCavalry] units> <for every [[Happiness]/[[UnitType.HeavyCavalry] Units]]>",
+			"[+1 Happiness] <for every [[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10]> <hidden from users>",
+			"Comment [Each [UnitType.HeavyCavalry] unit provides Happiness equal to its era number ([Unit.Chariot]'s era is 1, [Unit.Knight] unlocked with [Tech.Stirrups]'s era is 3, and so on)]"
+			//[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10
 		],
 		"cities": [
 			"Constantinople",
@@ -1927,8 +1925,7 @@
 		"preferredVictoryType": "VictoryType.Unity",
 		"uniqueName": "Country of Thousand Islands",
 		"uniques": [
-			"Comment [[Class.Campus] grant an additional [+1] adjacency bonus to [Coast]]",
-			"Comment [[Class.HolySite] grant an additional [+1] adjacency bonus to [Coast]]"
+			"[+50]% Yield from every [Class.District] <in [Coastal] tiles>"
 		],
 		"cities": [
 			"Surabaya",
