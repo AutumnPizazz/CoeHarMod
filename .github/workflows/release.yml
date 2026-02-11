@@ -3,7 +3,7 @@ name: Create Release
 on:
   push:
     tags:
-      - 'v[0-9]+\.[0-9]+\.[0-9]+$'
+      - 'v*'
 
 permissions:
   contents: write
@@ -24,6 +24,16 @@ jobs:
         id: get_version
         run: echo "version=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
 
+      - name: Check version format
+        run: |
+          VERSION="${{ steps.get_version.outputs.version }}"
+          if [[ ! $VERSION =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Error: 版本号格式必须是 x.x.x（三位数字）"
+            echo "当前版本号: $VERSION"
+            exit 1
+          fi
+          echo "版本号格式正确: $VERSION"
+
       - name: Extract changelog
         id: changelog
         run: |
@@ -37,6 +47,8 @@ jobs:
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: CoeHarMod_*.zip
           draft: false

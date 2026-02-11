@@ -23,6 +23,17 @@ def get_mod_version(properties_file):
     raise ValueError("未能在properties文件中找到modVersion")
 
 
+def get_mod_version(properties_file):
+    """从properties文件中读取modVersion"""
+    version_pattern = r'modVersion\s*=\s*([\d.]+)'
+    with open(properties_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            match = re.search(version_pattern, line)
+            if match:
+                return match.group(1)
+    raise ValueError("未能在properties文件中找到modVersion")
+
+
 def parse_gitignore(gitignore_path, base_dir):
     """
     解析.gitignore文件，返回忽略规则的集合
@@ -117,6 +128,11 @@ def build_mod_package(source_dir, output_dir=None):
     gitignore_path = source_dir / '.gitignore'
     ignore_rules = parse_gitignore(gitignore_path, source_dir)
     print(f"从.gitignore读取到 {len(ignore_rules)} 条忽略规则")
+    
+    # 读取版本号
+    properties_file = source_dir / 'jsons' / 'translations' / 'Simplified_Chinese.properties'
+    if not properties_file.exists():
+        raise FileNotFoundError(f"找不到文件: {properties_file}")
     
     # 读取版本号
     properties_file = source_dir / 'jsons' / 'translations' / 'Simplified_Chinese.properties'
