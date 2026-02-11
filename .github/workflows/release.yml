@@ -20,12 +20,20 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Build mod package
-        run: python python_tool/build_mod.py
-
       - name: Get version from tag
         id: get_version
         run: echo "version=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: Extract changelog
+        id: changelog
+        run: |
+          CHANGELOG=$(python python_tool/extract_changelog.py "${{ steps.get_version.outputs.version }}")
+          echo "content<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGELOG" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Build mod package
+        run: python python_tool/build_mod.py
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
@@ -33,8 +41,4 @@ jobs:
           files: CoeHarMod_*.zip
           draft: false
           prerelease: false
-          generate_release_notes: true
-          body: |
-            ## 版本 ${{ steps.get_version.outputs.version }}
-
-            完整的模组安装包，包含所有游戏资源。
+          body: ${{ steps.changelog.outputs.content }}
