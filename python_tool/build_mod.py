@@ -2,97 +2,23 @@
 # -*- coding: utf-8 -*-
 """
 CoeHarMod 打包脚本
-将指定目录下的所有文件（不包括文件夹）和jsons、sounds文件夹一起放在CoeHarMod文件夹中并压缩
+根据核心文件定义打包模组
 """
 
 import os
 import shutil
 import zipfile
-import re
 import sys
 from pathlib import Path
 
-
-def parse_gitignore(gitignore_path, base_dir):
-    """
-    解析.gitignore文件，返回忽略规则的集合
-    
-    Args:
-        gitignore_path: .gitignore文件路径
-        base_dir: 基础目录路径
-    
-    Returns:
-        包含忽略规则的集合
-    """
-    ignore_rules = set()
-    if not gitignore_path.exists():
-        return ignore_rules
-    
-    with open(gitignore_path, 'r', encoding='utf-8') as f:
-        for line in f:
-            line = line.strip()
-            # 跳过空行和注释
-            if not line or line.startswith('#'):
-                continue
-            ignore_rules.add(line)
-    
-    return ignore_rules
-
-
-def should_ignore(path, ignore_rules, base_dir):
-    """
-    判断路径是否应该被忽略
-    
-    Args:
-        path: 要检查的路径
-        ignore_rules: 忽略规则集合
-        base_dir: 基础目录路径
-    
-    Returns:
-        True如果应该忽略，False否则
-    """
-    rel_path = path.relative_to(base_dir)
-    path_str = str(rel_path).replace('\\', '/')
-    path_str = '/' + path_str  # 添加前导斜杠以匹配从根目录开始的规则
-    path_name = path.name
-    
-    for rule in ignore_rules:
-        rule = rule.replace('\\', '/')
-        
-        # 跳过以/开头但不是从根目录开始的规则（目录相对规则）
-        if rule.startswith('/') and not rule.startswith('//'):
-            rule = rule[1:]
-        
-        # 处理通配符模式
-        import fnmatch
-        
-        # 检查完整路径是否匹配
-        if fnmatch.fnmatch(path_str, rule) or fnmatch.fnmatch(path_str, '*/' + rule):
-            return True
-        
-        # 检查文件名是否匹配
-        if fnmatch.fnmatch(path_name, rule):
-            return True
-        
-        # 检查路径是否以规则结尾
-        if rule.startswith('*/') and path_str.endswith(rule[1:]):
-            return True
-        
-        # 处理目录规则（以/结尾）
-        if rule.endswith('/'):
-            # 检查是否在忽略的目录中
-            dir_rule = rule[:-1]
-            parts = path_str.split('/')
-            if dir_rule in parts:
-                return True
-    
-    return False
+# 导入核心文件定义模块
+from core_files import get_core_files, is_core_file
 
 
 def build_mod_package(source_dir, version=None, output_dir=None):
     """
     构建mod压缩包
-    
+
     Args:
         source_dir: 源目录路径
         version: 版本号（如果为None，则使用默认值"unknown"）
@@ -103,78 +29,54 @@ def build_mod_package(source_dir, version=None, output_dir=None):
         output_dir = source_dir
     else:
         output_dir = Path(output_dir).resolve()
-    
+
     # 如果没有提供版本号，使用默认值
     if version is None:
         version = "unknown"
-    
-    # 读取.gitignore规则
-    gitignore_path = source_dir / '.gitignore'
-    ignore_rules = parse_gitignore(gitignore_path, source_dir)
-    print(f"从.gitignore读取到 {len(ignore_rules)} 条忽略规则")
-    
+
     print(f"使用版本号: {version}")
-    
+
+    # 获取核心文件列表
+    core_files_list = get_core_files(source_dir)
+    print(f"识别到 {len(core_files_list)} 个核心文件")
+
     # 创建临时文件夹
     temp_folder = output_dir / 'CoeHarMod'
     zip_name = f"CoeHarMod_{version}.zip"
     zip_path = output_dir / zip_name
-    
+
     # 清理临时文件夹（如果存在）
     if temp_folder.exists():
         shutil.rmtree(temp_folder)
     temp_folder.mkdir()
-    
+
     print(f"创建临时文件夹: {temp_folder}")
-    
-    # 需要复制的文件夹列表
-    folders_to_copy = ['jsons', 'sounds']
-    
-    # 复制所有文件（不包括文件夹）
-    for item in source_dir.iterdir():
-        if item.is_file():
-            # 跳过脚本本身
-            if item.name == os.path.basename(__file__):
-                continue
-            # 跳过压缩包文件
-            if item.name.startswith('CoeHarMod_') and item.suffix == '.zip':
-                continue
-            # 跳过.gitignore文件
-            if item.name == '.gitignore':
-                continue
-            # 检查.gitignore规则
-            if should_ignore(item, ignore_rules, source_dir):
-                print(f"跳过文件（忽略规则）: {item.name}")
-                continue
-            shutil.copy2(item, temp_folder / item.name)
-            print(f"复制文件: {item.name}")
-    
-    # 复制指定文件夹（递归复制，并过滤掉忽略的文件）
-    for folder_name in folders_to_copy:
-        folder_path = source_dir / folder_name
-        if folder_path.exists() and folder_path.is_dir():
-            dest_folder = temp_folder / folder_name
-            
-            # 递归复制文件夹，应用忽略规则
-            for root, dirs, files in os.walk(folder_path):
-                root_path = Path(root)
-                rel_root = root_path.relative_to(source_dir)
-                dest_root = temp_folder / rel_root
-                
-                # 创建目标目录
-                dest_root.mkdir(parents=True, exist_ok=True)
-                
-                # 复制文件（过滤忽略的）
-                for file in files:
-                    file_path = root_path / file
-                    if should_ignore(file_path, ignore_rules, source_dir):
-                        print(f"跳过文件（忽略规则）: {rel_root / file}")
-                        continue
-                    shutil.copy2(file_path, dest_root / file)
-                    print(f"复制文件: {rel_root / file}")
-            
-            print(f"复制文件夹: {folder_name}/")
-    
+
+    # 复制核心文件
+    for file_path in core_files_list:
+        rel_path = file_path.relative_to(source_dir)
+
+        # 跳过文件夹本身
+        if file_path.is_dir():
+            continue
+
+        # 跳过脚本本身
+        if file_path.name == os.path.basename(__file__):
+            continue
+
+        # 跳过压缩包文件
+        if file_path.name.startswith('CoeHarMod_') and file_path.suffix == '.zip':
+            continue
+
+        # 跳过 .gitignore 文件
+        if file_path.name == '.gitignore':
+            continue
+
+        dest_path = temp_folder / rel_path
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(file_path, dest_path)
+        print(f"复制文件: {rel_path}")
+
     # 创建压缩包
     print(f"\n创建压缩包: {zip_name}")
     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
@@ -184,11 +86,11 @@ def build_mod_package(source_dir, version=None, output_dir=None):
                 arcname = file_path.relative_to(temp_folder.parent)
                 zipf.write(file_path, arcname)
                 print(f"  添加到压缩包: {arcname}")
-    
+
     # 清理临时文件夹
     shutil.rmtree(temp_folder)
     print(f"\n清理临时文件夹: {temp_folder}")
-    
+
     print(f"\n✓ 打包完成！")
     print(f"  压缩包路径: {zip_path}")
     return zip_path
@@ -197,19 +99,19 @@ def build_mod_package(source_dir, version=None, output_dir=None):
 if __name__ == '__main__':
     # 获取版本号（从命令行参数或环境变量）
     version = os.environ.get('MOD_VERSION')
-    
+
     if len(sys.argv) > 1:
         version = sys.argv[1]
-    
+
     # 获取脚本所在目录的父目录（项目根目录）
     script_dir = Path(__file__).parent.resolve()
     project_dir = script_dir.parent.resolve()
-    
+
     print("=" * 50)
     print("CoeHarMod 打包工具")
     print("=" * 50)
     print(f"项目目录: {project_dir}")
-    
+
     try:
         build_mod_package(project_dir, version=version)
     except Exception as e:

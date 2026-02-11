@@ -57,14 +57,22 @@ jobs:
           # 进入 main 分支
           cd main
           
-          # 清理旧的文件
-          git rm -rf Images* *.atlas *.png jsons sounds 2>/dev/null || true
+          # 获取核心文件列表
+          CORE_FILES=$(python ../python_tool/core_files.py --list-files)
+          
+          # 清理所有文件
+          git rm -rf . 2>/dev/null || true
           
           # 从 workspace 分支复制核心文件
-          cp -r ../Images* .
-          cp -r ../jsons .
-          cp -r ../sounds .
-          cp ../*.atlas ../*.png . 2>/dev/null || true
+          for file in $CORE_FILES; do
+            if [[ -f "../$file" ]]; then
+              mkdir -p "$(dirname "$file")"
+              cp "../$file" "$file"
+            elif [[ -d "../$file" ]]; then
+              mkdir -p "$file"
+              cp -r "../$file"/* "$file"/ 2>/dev/null || true
+            fi
+          done
           
           # 添加所有文件
           git add .

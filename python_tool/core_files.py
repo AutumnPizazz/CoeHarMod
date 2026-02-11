@@ -8,6 +8,7 @@ CoeHarMod 核心文件定义模块
 
 from pathlib import Path
 from typing import Set, List
+import argparse
 
 
 def get_core_files(root_dir: Path) -> List[Path]:
@@ -111,21 +112,64 @@ def is_core_file(file_path: Path, root_dir: Path) -> bool:
     return False
 
 
+def list_core_files(root_dir: Path, output_format: str = "relative") -> None:
+    """
+    列出核心文件
+
+    Args:
+        root_dir: 项目根目录
+        output_format: 输出格式（relative, absolute, paths）
+    """
+    core_files = get_core_files(root_dir)
+
+    if output_format == "relative":
+        for f in core_files:
+            print(f.relative_to(root_dir))
+    elif output_format == "absolute":
+        for f in core_files:
+            print(f)
+    elif output_format == "paths":
+        # 只输出文件和文件夹的路径（不递归列出内部文件）
+        seen_dirs = set()
+        for f in core_files:
+            if f.is_dir():
+                rel_path = f.relative_to(root_dir)
+                dir_str = str(rel_path).replace('\\', '/')
+                if dir_str not in seen_dirs:
+                    print(dir_str)
+                    seen_dirs.add(dir_str)
+            else:
+                rel_path = f.relative_to(root_dir)
+                path_str = str(rel_path).replace('\\', '/')
+                # 检查是否已经在某个目录中
+                parts = path_str.split('/')
+                if parts[0] in seen_dirs:
+                    continue
+                print(path_str)
+
+
 if __name__ == "__main__":
-    # 测试代码
-    import sys
+    parser = argparse.ArgumentParser(description="CoeHarMod 核心文件定义工具")
+    parser.add_argument("--list-files", action="store_true", help="列出核心文件")
+    parser.add_argument("--format", choices=["relative", "absolute", "paths"], default="relative",
+                        help="输出格式 (relative: 相对路径, absolute: 绝对路径, paths: 文件夹和文件路径)")
+    args = parser.parse_args()
 
     root = Path(__file__).parent.parent
-    print(f"项目根目录: {root}\n")
 
-    print("核心文件模式:")
-    for pattern in get_core_file_patterns():
-        print(f"  - {pattern}")
-    print()
+    if args.list_files:
+        list_core_files(root, args.format)
+    else:
+        print(f"项目根目录: {root}\n")
 
-    print("核心文件列表:")
-    core_files = get_core_files(root)
-    for f in core_files:
-        print(f"  - {f.relative_to(root)}")
+        print("核心文件模式:")
+        for pattern in get_core_file_patterns():
+            print(f"  - {pattern}")
+        print()
 
-    print(f"\n总计: {len(core_files)} 个核心文件")
+        print("核心文件列表:")
+        core_files = get_core_files(root)
+        for f in core_files:
+            print(f"  - {f.relative_to(root)}")
+
+        print(f"\n总计: {len(core_files)} 个核心文件")

@@ -3,6 +3,12 @@
 /jsons/error.txt
 AGENTS.md
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # Node.js
 node_modules/
 
