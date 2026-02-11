@@ -24,39 +24,45 @@ export default defineConfig({
     nav: [
       { text: 'GitHub', link: 'https://github.com/AutumnPizazz/CoeHarMod' },
       { text: '首页', link: '/' },
-      { text: '更新日志', link: '/changelog' }
-      // {
-      //   text: '666', items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' }
-      //   ]
-      // },
+      {
+        text: '原版专区',
+        link: '/原版专区/军事实力计算方式'
+      },
+      {
+        text: 'CoeHarMod专区',
+        items: [
+          { text: '更新记录', link: '/CoeHarMod专区/更新日志' },
+          { text: '更新计划', link: '/CoeHarMod专区/更新计划' }
+        ]
+      }
     ],
 
     sidebar: [
       {
         text: '文档',
         items: [
-          { text: '首页', link: '/' },
-          // {
-          //   text: '666', 
-          //   collapsed: true,
-          //   items: [
-          //     { text: 'Item A', link: '/item-1' },
-          //     { text: 'Item B', link: '/item-2' },
-          //     { text: 'Item C', link: '/item-3' }
-          //   ]
-          // },
-          { 
-            text: '更新日志',
-            link: '/changelog',
-            collapsed: true,
-            items: [
-              {text: '更新计划', link: '/changeplan'},
-            ]
-          }
+          { text: '首页', link: '/' }
         ]
+      },
+      {
+        text: '原版专区',
+        collapsed: true,
+        items: [
+          { text: '军事实力计算', link: '/原版专区/军事实力计算方式' }
+        ]
+      },
+      {
+        text: 'CoeHarMod专区',
+        collapsed: true,
+        items: [
+          { text: '更新记录', link: '/CoeHarMod专区/更新日志' },
+          { text: '更新计划', link: '/CoeHarMod专区/更新计划' }
+        ]
+      },
+      {
+        text: '其他模组专区',
+        collapsed: true,
+        items: []
       }
     ],
 

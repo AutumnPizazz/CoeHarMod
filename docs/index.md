@@ -2,39 +2,51 @@
 layout: home
 
 hero:
-  name: CoeHarMod
-  text: 和合共生
-  tagline: Unciv 的大型规则集模组
+  name: Unciv 中文社区
+  text: 开源策略游戏
+  tagline: 共建、共享、共玩的中文社区
   image:
     src: /banner.webp
-    alt: CoeHarMod
-  # actions:
-  #   - theme: brand
-  #     text: 查看更新日志
-  #     link: /changelog
-  #   - theme: alt
-  #     text: GitHub
-  #     link: https://github.com/AutumnPizazz/CoeHarMod
+    alt: Unciv
+  actions:
+    - theme: brand
+      text: 浏览文档
+      link: /原版专区/军事实力计算方式
+    - theme: alt
+      text: GitHub
+      link: https://github.com/AutumnPizazz/CoeHarMod
 
-# features:
-#   - title: 多元胜利路径
-#     details: 8种以上胜利方式：科技、文化、宗教、经济、外交、征服、统一、时间胜利
-#   - title: 深度单位系统
-#     details: 大量新单位类型，各文明拥有独特单位（UU），完整的晋升与转化机制
-#   - title: 政体与总督
-#     details: 五级政体演进树，总督系统提供强大城市增益
+features:
+  - title: 原版游戏指南
+    details: Unciv 原版游戏机制说明、军事实力计算、玩法技巧等
+  - title: CoeHarMod 模组
+    details: 和合共生 - Unciv 的大型规则集模组
+  - title: 模组分享
+    details: 分享各类 Unciv 模组，丰富游戏体验
+
 ---
 
 <!--markdownlint-disable MD041-->
 
 ## 快速链接
 
-- [查看模组源代码](https://github.com/AutumnPizazz/CoeHarMod)
-- [加入QQ群](https://qm.qq.com/q/amwSqibPmo)
+- [Unciv 官方仓库](https://github.com/yairm210/Unciv)
+- [CoeHarMod 模组源代码](https://github.com/AutumnPizazz/CoeHarMod)
+- [加入 QQ 群](https://qm.qq.com/q/amwSqibPmo)
 
-## 项目简介
+## 关于本站
 
-CoeHarMod（中文"和合共生"）是一个为开源策略游戏 [Unciv](https://github.com/yairm210/Unciv) 开发的大型规则集模组。该模组在原版 Unciv 的基础上进行了深度扩展与重构，显著丰富了游戏机制、胜利条件、单位系统、政体结构以及文化宗教体系，旨在提供更具策略深度、历史沉浸感和多样玩法体验的游戏环境。
+这是 **Unciv 中文社区**的公用网页，旨在为中文玩家提供游戏攻略、模组介绍、更新日志等内容。
+
+### 内容专区
+
+- **原版专区**：Unciv 原版游戏机制说明和计算公式
+- **CoeHarMod 专区**：社区主要维护的大型规则集模组
+- **其他模组专区**：各类模组介绍和分享
+
+---
+
+欢迎所有 Unciv 玩家加入我们，共同建设这个中文社区！
 
 <!-- ## 核心特色概览
 

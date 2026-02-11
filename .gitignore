@@ -1,8 +1,8 @@
 /.idea/
 /.vscode/
 /jsons/error.txt
-*.bat
-/python
+/python_tool/
+AGENTS.md
 
 # Node.js
 node_modules/
