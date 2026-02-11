@@ -22,23 +22,21 @@ def extract_changelog(version, changelog_path):
     with open(changelog_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # 匹配版本标题和下一个版本标题之间的内容
-    pattern = rf'^# v{re.escape(version)}[^\n]*\n(.*?)(?=\n^# v|\Z)'
-    match = re.search(pattern, content, re.MULTILINE | re.DOTALL)
+    # 先尝试匹配带适配后缀的版本号（如 v3.3.7-适配4.19.11）
+    # 使用 ^# 匹配行首的 #，然后允许任意数量的 #（+），后面跟 v
+    pattern = rf'^#+\s*v{re.escape(version)}-[^\n]*\n((?:.|\n)*?)(?=^\n#+\s*v|^\Z)'
+    match = re.search(pattern, content, re.MULTILINE)
+
+    if not match:
+        # 尝试匹配不带适配后缀的版本号
+        pattern = rf'^#+\s*v{re.escape(version)}[^\n]*\n((?:.|\n)*?)(?=^\n#+\s*v|^\Z)'
+        match = re.search(pattern, content, re.MULTILINE)
 
     if match:
         changelog_content = match.group(1).strip()
         # 移除开头的 front matter（如果存在）
         changelog_content = re.sub(r'^---.*?---\n', '', changelog_content, flags=re.DOTALL)
         return changelog_content
-    else:
-        # 尝试匹配带适配后缀的版本号
-        pattern = rf'^# v{re.escape(version)}-[^\n]*\n(.*?)(?=\n^# v|\Z)'
-        match = re.search(pattern, content, re.MULTILINE | re.DOTALL)
-        if match:
-            changelog_content = match.group(1).strip()
-            changelog_content = re.sub(r'^---.*?---\n', '', changelog_content, flags=re.DOTALL)
-            return changelog_content
 
     return "## 更新内容\n\n暂无此版本的更新日志。"
 
