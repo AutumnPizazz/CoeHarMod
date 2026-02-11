@@ -9,29 +9,8 @@ import os
 import shutil
 import zipfile
 import re
+import sys
 from pathlib import Path
-
-
-def get_mod_version(properties_file):
-    """从properties文件中读取modVersion"""
-    version_pattern = r'modVersion\s*=\s*([\d.]+)'
-    with open(properties_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            match = re.search(version_pattern, line)
-            if match:
-                return match.group(1)
-    raise ValueError("未能在properties文件中找到modVersion")
-
-
-def get_mod_version(properties_file):
-    """从properties文件中读取modVersion"""
-    version_pattern = r'modVersion\s*=\s*([\d.]+)'
-    with open(properties_file, 'r', encoding='utf-8') as f:
-        for line in f:
-            match = re.search(version_pattern, line)
-            if match:
-                return match.group(1)
-    raise ValueError("未能在properties文件中找到modVersion")
 
 
 def parse_gitignore(gitignore_path, base_dir):
@@ -110,12 +89,13 @@ def should_ignore(path, ignore_rules, base_dir):
     return False
 
 
-def build_mod_package(source_dir, output_dir=None):
+def build_mod_package(source_dir, version=None, output_dir=None):
     """
     构建mod压缩包
     
     Args:
         source_dir: 源目录路径
+        version: 版本号（如果为None，则使用默认值"unknown"）
         output_dir: 输出目录路径（默认为源目录）
     """
     source_dir = Path(source_dir).resolve()
@@ -124,27 +104,20 @@ def build_mod_package(source_dir, output_dir=None):
     else:
         output_dir = Path(output_dir).resolve()
     
+    # 如果没有提供版本号，使用默认值
+    if version is None:
+        version = "unknown"
+    
     # 读取.gitignore规则
     gitignore_path = source_dir / '.gitignore'
     ignore_rules = parse_gitignore(gitignore_path, source_dir)
     print(f"从.gitignore读取到 {len(ignore_rules)} 条忽略规则")
     
-    # 读取版本号
-    properties_file = source_dir / 'jsons' / 'translations' / 'Simplified_Chinese.properties'
-    if not properties_file.exists():
-        raise FileNotFoundError(f"找不到文件: {properties_file}")
-    
-    # 读取版本号
-    properties_file = source_dir / 'jsons' / 'translations' / 'Simplified_Chinese.properties'
-    if not properties_file.exists():
-        raise FileNotFoundError(f"找不到文件: {properties_file}")
-    
-    mod_version = get_mod_version(properties_file)
-    print(f"检测到模组版本: {mod_version}")
+    print(f"使用版本号: {version}")
     
     # 创建临时文件夹
     temp_folder = output_dir / 'CoeHarMod'
-    zip_name = f"CoeHarMod_{mod_version}.zip"
+    zip_name = f"CoeHarMod_{version}.zip"
     zip_path = output_dir / zip_name
     
     # 清理临时文件夹（如果存在）
@@ -222,6 +195,12 @@ def build_mod_package(source_dir, output_dir=None):
 
 
 if __name__ == '__main__':
+    # 获取版本号（从命令行参数或环境变量）
+    version = os.environ.get('MOD_VERSION')
+    
+    if len(sys.argv) > 1:
+        version = sys.argv[1]
+    
     # 获取脚本所在目录的父目录（项目根目录）
     script_dir = Path(__file__).parent.resolve()
     project_dir = script_dir.parent.resolve()
@@ -232,7 +211,7 @@ if __name__ == '__main__':
     print(f"项目目录: {project_dir}")
     
     try:
-        build_mod_package(project_dir)
+        build_mod_package(project_dir, version=version)
     except Exception as e:
         print(f"\n✗ 错误: {e}")
         import traceback
