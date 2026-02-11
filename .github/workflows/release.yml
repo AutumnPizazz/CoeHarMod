@@ -58,23 +58,13 @@ jobs:
           cd main
           
           # 清理旧的文件
-          git rm -rf Images* *.atlas *.png jsons sounds docs 2>/dev/null || true
+          git rm -rf Images* *.atlas *.png jsons sounds 2>/dev/null || true
           
           # 从 workspace 分支复制核心文件
           cp -r ../Images* .
           cp -r ../jsons .
           cp -r ../sounds .
-          cp -r ../docs .
           cp ../*.atlas ../*.png . 2>/dev/null || true
-          
-          # 删除 docs 中非核心文件（只保留图片库）
-          rm -rf docs/图片库
-          
-          # 删除 python_tool（如果有）
-          rm -rf python_tool
-          
-          # 删除其他非核心文件
-          rm -rf .github .gitignore
           
           # 添加所有文件
           git add .
