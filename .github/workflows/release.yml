@@ -17,18 +17,24 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Fetch all branches
+        run: git fetch --all
+
       - name: Check branch
         run: |
-          BRANCH=$(git rev-parse --abbrev-ref HEAD)
-          if [[ "$BRANCH" != "workspace" ]]; then
+          # 获取标签名称
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          
+          # 检查标签是否在 workspace 分支上
+          if git branch -r --contains "$TAG_NAME" | grep -q "origin/workspace"; then
+            echo "✓ 标签在 workspace 分支上"
+          else
             echo "Error: Release workflow 只能在 workspace 分支运行"
-            echo "当前分支: $BRANCH"
+            echo "当前标签: $TAG_NAME"
+            echo "标签所在的分支:"
+            git branch -r --contains "$TAG_NAME"
             exit 1
           fi
-          echo "✓ 在 workspace 分支运行"
-
-      - name: Fetch main branch
-        run: git fetch origin main:main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -54,25 +60,56 @@ jobs:
           
           VERSION="${{ steps.get_version.outputs.version }}"
           
-          # 进入 main 分支
-          cd main
-          
-          # 获取核心文件列表
-          CORE_FILES=$(python ../python_tool/core_files.py --list-files)
+          # 切换到 main 分支（如果不存在则创建）
+          if git show-ref --verify refs/remotes/origin/main 2>/dev/null; then
+            git checkout main
+            git pull origin main
+          else
+            git checkout --orphan main
+            git rm -rf .
+          fi
           
           # 清理所有文件
           git rm -rf . 2>/dev/null || true
           
-          # 从 workspace 分支复制核心文件
-          for file in $CORE_FILES; do
-            if [[ -f "../$file" ]]; then
-              mkdir -p "$(dirname "$file")"
-              cp "../$file" "$file"
-            elif [[ -d "../$file" ]]; then
-              mkdir -p "$file"
-              cp -r "../$file"/* "$file"/ 2>/dev/null || true
-            fi
+          # 切换回 workspace 分支获取文件
+          git checkout workspace
+          
+          # 创建临时目录
+          mkdir -p /tmp/main_files
+          
+          # 复制核心文件到临时目录
+          # Atlases.json
+          [[ -f "Atlases.json" ]] && cp "Atlases.json" /tmp/main_files/
+          
+          # *.atlas 文件
+          for file in *.atlas; do
+            [[ -f "$file" ]] && cp "$file" /tmp/main_files/
           done
+          
+          # *.png 文件
+          for file in *.png; do
+            [[ -f "$file" ]] && cp "$file" /tmp/main_files/
+          done
+          
+          # jsons 文件夹
+          if [[ -d "jsons" ]]; then
+            cp -r jsons /tmp/main_files/
+          fi
+          
+          # sounds 文件夹
+          if [[ -d "sounds" ]]; then
+            cp -r sounds /tmp/main_files/
+          fi
+          
+          # 切换到 main 分支
+          git checkout main
+          
+          # 复制文件到 main 分支
+          cp -r /tmp/main_files/* .
+          
+          # 清理临时目录
+          rm -rf /tmp/main_files
           
           # 添加所有文件
           git add .
@@ -83,13 +120,15 @@ jobs:
           # 推送到 main 分支
           git push origin main --force
           
+          # 切换回 workspace 分支
+          git checkout workspace
+          
           echo "✓ 已将核心文件同步到 main 分支"
 
       - name: Build mod package
         env:
           MOD_VERSION: ${{ steps.get_version.outputs.version }}
         run: |
-          # 使用 workspace 分支的 python_tool
           python python_tool/build_mod.py "$MOD_VERSION"
 
       - name: Create Release
