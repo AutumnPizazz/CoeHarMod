@@ -32,7 +32,8 @@ features:
 
 - [Unciv 官方仓库](https://github.com/yairm210/Unciv)
 - [CoeHarMod 模组源代码](https://github.com/AutumnPizazz/CoeHarMod)
-- [加入 QQ 群](https://qm.qq.com/q/amwSqibPmo)
+- [加入 Unciv 中文社区群](https://qm.qq.com/q/G5lpttg688)
+- [加入 CoeHarMod 模组群](https://qm.qq.com/q/amwSqibPmo)
 
 ## 关于本站
 
