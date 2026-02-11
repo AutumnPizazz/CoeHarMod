@@ -47,18 +47,6 @@ jobs:
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Copy python_tool to main branch
-        run: |
-          cp -r python_tool main/
-          cp -r docs main/
-
-      - name: Build mod package from main branch
-        env:
-          MOD_VERSION: ${{ steps.get_version.outputs.version }}
-        run: |
-          cd main
-          python python_tool/build_mod.py "$MOD_VERSION"
-
       - name: Sync core files to main branch
         run: |
           git config user.name "github-actions[bot]"
@@ -66,31 +54,50 @@ jobs:
           
           VERSION="${{ steps.get_version.outputs.version }}"
           
-          # 清理 main 分支的旧核心文件
+          # 进入 main 分支
           cd main
-          git rm -rf Images* *.atlas *.png jsons sounds 2>/dev/null || true
+          
+          # 清理旧的文件
+          git rm -rf Images* *.atlas *.png jsons sounds docs 2>/dev/null || true
           
           # 从 workspace 分支复制核心文件
           cp -r ../Images* .
           cp -r ../jsons .
           cp -r ../sounds .
+          cp -r ../docs .
           cp ../*.atlas ../*.png . 2>/dev/null || true
+          
+          # 删除 docs 中非核心文件（只保留图片库）
+          rm -rf docs/图片库
+          
+          # 删除 python_tool（如果有）
+          rm -rf python_tool
+          
+          # 删除其他非核心文件
+          rm -rf .github .gitignore
           
           # 添加所有文件
           git add .
           
           # 提交更新
-          git commit -m "Update core files for version $VERSION"
+          git commit -m "Update core files for version $VERSION" || echo "No changes to commit"
           
           # 推送到 main 分支
           git push origin main --force
           
           echo "✓ 已将核心文件同步到 main 分支"
 
+      - name: Build mod package
+        env:
+          MOD_VERSION: ${{ steps.get_version.outputs.version }}
+        run: |
+          # 使用 workspace 分支的 python_tool
+          python python_tool/build_mod.py "$MOD_VERSION"
+
       - name: Create Release
         uses: softprops/action-gh-release@v1
         env:
-          GITHUB_TOKEN: $GitHub_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: CoeHarMod_*.zip
           draft: false
