@@ -1,0 +1,517 @@
+
+Resource.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ResourceIcons/Resource.Bison
+  rotate: false
+  xy: 1324, 764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.CityNumber
+  rotate: false
+  xy: 956, 332
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.LargeCityNumber
+  rotate: false
+  xy: 956, 332
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Cocoa
+  rotate: false
+  xy: 1588, 1228
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.DiplomaticFavor
+  rotate: false
+  xy: 796, 250
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.DistrictLimitation
+  rotate: false
+  xy: 1234, 596
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Electricity
+  rotate: false
+  xy: 1092, 314
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Era_Score1
+  rotate: false
+  xy: 1524, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Era_Score2
+  rotate: false
+  xy: 1524, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.GovernorTitle
+  rotate: false
+  xy: 1484, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Influence
+  rotate: false
+  xy: 1660, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Lobster
+  rotate: false
+  xy: 1724, 1228
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.MilitaryMaintenance1
+  rotate: false
+  xy: 1796, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.MilitaryMaintenance2
+  rotate: false
+  xy: 1796, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.MilitaryMaintenance3
+  rotate: false
+  xy: 1796, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.NuclearDeviceMaintenance
+  rotate: false
+  xy: 1796, 1092
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Porcelain
+  rotate: false
+  xy: 1370, 628
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Rubber
+  rotate: false
+  xy: 1460, 764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.SpyCapacity
+  rotate: false
+  xy: 1592, 984
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.halfHouse
+  rotate: false
+  xy: 1506, 628
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.remainingAvailableVampireCount
+  rotate: false
+  xy: 1860, 1316
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.remainingMonksCount
+  rotate: false
+  xy: 1092, 422
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Background
+  rotate: false
+  xy: 4, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Aluminum
+  rotate: false
+  xy: 4, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Bananas
+  rotate: false
+  xy: 4, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Cattle
+  rotate: false
+  xy: 268, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Citrus
+  rotate: false
+  xy: 4, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Coal
+  rotate: false
+  xy: 268, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Copper
+  rotate: false
+  xy: 532, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Corn
+  rotate: false
+  xy: 4, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Cotton
+  rotate: false
+  xy: 268, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Crab
+  rotate: false
+  xy: 532, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Deer
+  rotate: false
+  xy: 796, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.DiplomaticPolicySlot
+  rotate: false
+  xy: 796, 308
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Dye
+  rotate: false
+  xy: 4, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.EarthVeins
+  rotate: false
+  xy: 268, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.EconomicPolicySlot
+  rotate: false
+  xy: 1588, 1364
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Fish
+  rotate: false
+  xy: 532, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Gem
+  rotate: false
+  xy: 796, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.GenericPolicySlot
+  rotate: false
+  xy: 1324, 900
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Gold
+  rotate: false
+  xy: 1060, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Horse
+  rotate: false
+  xy: 4, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Incense
+  rotate: false
+  xy: 268, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Iron
+  rotate: false
+  xy: 532, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Ivory
+  rotate: false
+  xy: 796, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Jewelry
+  rotate: false
+  xy: 1060, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Pearls
+  rotate: false
+  xy: 1060, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Leather
+  rotate: false
+  xy: 1324, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Marble
+  rotate: false
+  xy: 4, 204
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.MilitaryPolicySlot
+  rotate: false
+  xy: 1060, 558
+  size: 166, 166
+  orig: 166, 166
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Niter
+  rotate: false
+  xy: 268, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Oil
+  rotate: false
+  xy: 532, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Salt
+  rotate: false
+  xy: 796, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Sheep
+  rotate: false
+  xy: 1060, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Silk
+  rotate: false
+  xy: 1324, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Silver
+  rotate: false
+  xy: 1588, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Spices
+  rotate: false
+  xy: 268, 204
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Stone
+  rotate: false
+  xy: 532, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Sugar
+  rotate: false
+  xy: 796, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.TradeRouteCapacity
+  rotate: false
+  xy: 1060, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Truffles
+  rotate: false
+  xy: 1324, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.Admiral
+  rotate: false
+  xy: 1852, 1852
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.Artist
+  rotate: false
+  xy: 204, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.Engineer
+  rotate: false
+  xy: 1852, 1652
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.General
+  rotate: false
+  xy: 404, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.GrandMarshal
+  rotate: false
+  xy: 404, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.Merchant
+  rotate: false
+  xy: 604, 4
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.Prophet
+  rotate: false
+  xy: 1852, 1452
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Unit.Scientist
+  rotate: false
+  xy: 1324, 1060
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Uranium
+  rotate: false
+  xy: 1588, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Whales
+  rotate: false
+  xy: 532, 204
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Wheat
+  rotate: false
+  xy: 796, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourcePortraits/Resource.Wine
+  rotate: false
+  xy: 1060, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

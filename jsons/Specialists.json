@@ -1,0 +1,85 @@
+[
+	{
+		"name": "Specialist.BasicPop",
+		"food": 2,
+		"production": 2,
+		//		"greatPersonPoints": {"Unit.Scientist":1},
+		"color": [
+			0,
+			0,
+			255
+		]
+	},
+	{
+		"name": "Specialist.Scientist",
+		"science": 2,
+		//		"greatPersonPoints": {"Unit.Scientist":1},
+		"color": [
+			0,
+			0,
+			255
+		]
+	},
+	{
+		"name": "Specialist.Merchant",
+		"gold": 4,
+		//		"greatPersonPoints": {"Unit.Merchant":1},
+		"color": [
+			255,
+			215,
+			0
+		]
+	},
+	{
+		"name": "Specialist.Artist",
+		"culture": 2,
+		//		"greatPersonPoints": {"Unit.Artist":1},
+		"color": [
+			160,
+			32,
+			240
+		]
+	},
+	{
+		"name": "Specialist.Engineer",
+		"production": 3,
+		//		"greatPersonPoints": {"Unit.Engineer":1},
+		"color": [
+			139,
+			69,
+			19
+		]
+	},
+	{
+		"name": "Specialist.Priest",
+		"faith": 3,
+		//		"greatPersonPoints": {"Unit.Prophet":1},
+		"color": [
+			255,
+			255,
+			255
+		]
+	},
+	{
+		"name": "Specialist.ArmyLogistics",
+		"production": 1,
+		"gold": 2,
+		//		"greatPersonPoints": {"Unit.General":1},
+		"color": [
+			128,
+			128,
+			128
+		]
+	},
+	{
+		"name": "Specialist.NavyLogistics",
+		"food": 2,
+		"gold": 2,
+		//		"greatPersonPoints": {"Unit.Admiral":1},
+		"color": [
+			0,
+			0,
+			128
+		]
+	}
+]

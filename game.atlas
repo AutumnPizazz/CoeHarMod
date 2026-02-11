@@ -1,0 +1,2001 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+EmojiIcons/Automate
+  rotate: false
+  xy: 1994, 1885
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Culture
+  rotate: false
+  xy: 949, 678
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Death
+  rotate: false
+  xy: 949, 620
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Faith
+  rotate: false
+  xy: 181, 13
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Food
+  rotate: false
+  xy: 239, 13
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 297, 13
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Happiness
+  rotate: false
+  xy: 1596, 905
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Production
+  rotate: false
+  xy: 1654, 905
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Science
+  rotate: false
+  xy: 1712, 905
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Turn
+  rotate: false
+  xy: 644, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.Admiral
+  rotate: false
+  xy: 4, 28
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.Artist
+  rotate: false
+  xy: 644, 377
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.Engineer
+  rotate: false
+  xy: 63, 28
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.General
+  rotate: false
+  xy: 122, 28
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.GrandMarshal
+  rotate: false
+  xy: 122, 28
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.Merchant
+  rotate: false
+  xy: 1964, 1370
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.Prophet
+  rotate: false
+  xy: 1964, 1311
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+EmojiIcons/Unit.Scientist
+  rotate: false
+  xy: 1964, 1252
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Arabia
+  rotate: false
+  xy: 4, 991
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Atlantis
+  rotate: false
+  xy: 1878, 1565
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Aztec
+  rotate: false
+  xy: 1488, 1179
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Babylon
+  rotate: false
+  xy: 1596, 1179
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Byzantium
+  rotate: false
+  xy: 1488, 1071
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Egypt
+  rotate: false
+  xy: 1596, 1071
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.England
+  rotate: false
+  xy: 1684, 1643
+  size: 186, 188
+  orig: 186, 188
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Ethiopia
+  rotate: false
+  xy: 1704, 1127
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.France
+  rotate: false
+  xy: 1812, 1105
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Gaul
+  rotate: false
+  xy: 1920, 1105
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Germany
+  rotate: false
+  xy: 268, 1255
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Greece
+  rotate: false
+  xy: 212, 395
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Han
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Ming
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Qin
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Shang
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Tang
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Yuan
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Zhou
+  rotate: false
+  xy: 212, 287
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Iceland
+  rotate: false
+  xy: 1876, 1429
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Inca
+  rotate: false
+  xy: 212, 179
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.India
+  rotate: false
+  xy: 320, 411
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Indonesia
+  rotate: false
+  xy: 320, 303
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Japan
+  rotate: false
+  xy: 1931, 1943
+  size: 101, 96
+  orig: 101, 96
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Korea
+  rotate: false
+  xy: 320, 195
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.LouLan
+  rotate: false
+  xy: 1476, 1287
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Macedonia
+  rotate: false
+  xy: 428, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Mali
+  rotate: false
+  xy: 536, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Maori
+  rotate: false
+  xy: 428, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Maya
+  rotate: false
+  xy: 536, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Norway
+  rotate: false
+  xy: 212, 71
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Ottoman
+  rotate: false
+  xy: 320, 87
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.PRC
+  rotate: false
+  xy: 428, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Persia
+  rotate: false
+  xy: 536, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Phoenicia
+  rotate: false
+  xy: 644, 251
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Rome
+  rotate: false
+  xy: 752, 251
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Russia
+  rotate: false
+  xy: 860, 251
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.SRC
+  rotate: false
+  xy: 1612, 1287
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.SU
+  rotate: false
+  xy: 479, 708
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Scythia
+  rotate: false
+  xy: 948, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Spain
+  rotate: false
+  xy: 1056, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.UnitedStates
+  rotate: false
+  xy: 1164, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Vietnam
+  rotate: false
+  xy: 532, 1519
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NotificationIcons/EnhanceReligion
+  rotate: false
+  xy: 268, 1783
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NotificationIcons/ReformReligion
+  rotate: false
+  xy: 268, 1783
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NotificationIcons/FoundPantheon
+  rotate: false
+  xy: 4, 1255
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NotificationIcons/FoundReligion
+  rotate: false
+  xy: 268, 1519
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickConstruction
+  rotate: false
+  xy: 796, 1783
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/Capital
+  rotate: false
+  xy: 708, 575
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+OtherIcons/Star
+  rotate: false
+  xy: 708, 575
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+OtherIcons/Cities
+  rotate: false
+  xy: 4, 1783
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertCulture
+  rotate: false
+  xy: 1856, 1213
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickPolicy
+  rotate: false
+  xy: 1856, 1213
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Culture
+  rotate: false
+  xy: 1856, 1213
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertFaith
+  rotate: false
+  xy: 708, 359
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Faith
+  rotate: false
+  xy: 708, 359
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertGold
+  rotate: false
+  xy: 816, 467
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/DollarSign
+  rotate: false
+  xy: 816, 467
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Gold
+  rotate: false
+  xy: 816, 467
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertNothing
+  rotate: false
+  xy: 4, 1519
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NotificationIcons/Loading
+  rotate: false
+  xy: 4, 1519
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/Loading
+  rotate: false
+  xy: 4, 1519
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertScience
+  rotate: false
+  xy: 816, 359
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickTech
+  rotate: false
+  xy: 816, 359
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Science
+  rotate: false
+  xy: 816, 359
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Diplomacy
+  rotate: false
+  xy: 532, 1052
+  size: 200, 195
+  orig: 200, 195
+  offset: 0, 0
+  index: -1
+OtherIcons/DiplomacyW
+  rotate: false
+  xy: 532, 1052
+  size: 200, 195
+  orig: 200, 195
+  offset: 0, 0
+  index: -1
+OtherIcons/Link
+  rotate: false
+  xy: 532, 1783
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/Policies
+  rotate: false
+  xy: 268, 754
+  size: 203, 229
+  orig: 203, 229
+  offset: 0, 0
+  index: -1
+OtherIcons/Present
+  rotate: false
+  xy: 4, 727
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/Score
+  rotate: false
+  xy: 1920, 889
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Shield
+  rotate: false
+  xy: 4, 503
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+OtherIcons/Skip
+  rotate: false
+  xy: 268, 991
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/Sleep
+  rotate: false
+  xy: 532, 1255
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/Stop
+  rotate: false
+  xy: 796, 1519
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+OtherIcons/WLTKD
+  rotate: false
+  xy: 1060, 1800
+  size: 239, 239
+  orig: 239, 239
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Admiral9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Artist9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Engineer9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.General9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Merchant9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Prophet9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist1
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist10
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist2
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist3
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist4
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist5
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist6
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist7
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist8
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.Scientist9
+  rotate: false
+  xy: 1004, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.CultureVictoryRush2
+  rotate: false
+  xy: 1112, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.CultureVictoryRush3
+  rotate: false
+  xy: 1220, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.CultureVictoryRush4
+  rotate: false
+  xy: 1328, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.CultureVictoryRush5
+  rotate: false
+  xy: 948, 1168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Culture.CultureVictoryRush6
+  rotate: false
+  xy: 948, 1060
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor Complete
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AmaniI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AmaniIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AmaniIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AmaniIIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AmaniIIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AmaniIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AncientOrderI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AncientOrderII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AncientOrderIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.AncientOrderIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.BloodContractI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.BloodContractII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.BloodContractIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.BloodContractIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GoldenDawnI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GoldenDawnII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GoldenDawnIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GoldenDawnIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GrandVizierI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GrandVizierII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GrandVizierIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.GrandVizierIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.LiangI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.LiangIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.LiangIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.LiangIIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.LiangIIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.LiangIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MagnusI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MagnusIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MagnusIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MagnusIIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MagnusIIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MagnusIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MinervaNightingaleI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MinervaNightingaleII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MinervaNightingaleIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MinervaNightingaleIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MokshaI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MokshaIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MokshaIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MokshaIIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MokshaIIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.MokshaIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.PingalaI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.PingalaIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.PingalaIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.PingalaIIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.PingalaIIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.PingalaIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.ReynaI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.ReynaIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.ReynaIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.ReynaIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.ReynaIVA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.ReynaIVB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VictorI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VictorIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VictorIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VictorIIIA
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VictorIIIB
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VictorIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VoidchonerI
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VoidchonerII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VoidchonerIII
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Policy.Governor.VoidchonerIV
+  rotate: false
+  xy: 1380, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Portraits/Background
+  rotate: false
+  xy: 1684, 1451
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+Portraits/Background2
+  rotate: false
+  xy: 708, 467
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Bahai Faith
+  rotate: false
+  xy: 1748, 1343
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Catholicism
+  rotate: false
+  xy: 1856, 1321
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Jainism
+  rotate: false
+  xy: 1272, 1060
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Orthodox Christianity
+  rotate: false
+  xy: 1272, 952
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Protestantism
+  rotate: false
+  xy: 751, 736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Shamanism
+  rotate: false
+  xy: 536, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Shintoism
+  rotate: false
+  xy: 752, 143
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Acquire
+  rotate: false
+  xy: 1878, 1701
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+StatIcons/CityConnection
+  rotate: false
+  xy: 1748, 1235
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Food
+  rotate: false
+  xy: 1164, 1060
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Happiness
+  rotate: false
+  xy: 1272, 1168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/InterceptRange
+  rotate: false
+  xy: 1931, 1880
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+StatIcons/Malcontent
+  rotate: false
+  xy: 1380, 1168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Movement
+  rotate: false
+  xy: 1380, 1060
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Population
+  rotate: false
+  xy: 1488, 963
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Specialist
+  rotate: false
+  xy: 1488, 963
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Production
+  rotate: false
+  xy: 1596, 963
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Range
+  rotate: false
+  xy: 1812, 997
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/RangedStrength
+  rotate: false
+  xy: 1920, 997
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/ReligiousStrength
+  rotate: false
+  xy: 1704, 963
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Resistance
+  rotate: false
+  xy: 1812, 889
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Strength
+  rotate: false
+  xy: 860, 143
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/DomainAir
+  rotate: false
+  xy: 1056, 1168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/DomainLand
+  rotate: false
+  xy: 1056, 1060
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/DomainWater
+  rotate: false
+  xy: 1164, 1168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.AircraftCarrier
+  rotate: false
+  xy: 796, 1311
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.AntiCavalry
+  rotate: false
+  xy: 1060, 1592
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Bomber
+  rotate: false
+  xy: 1307, 1839
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Civic.Civilian
+  rotate: false
+  xy: 615, 708
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Civilian
+  rotate: false
+  xy: 436, 572
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.CivilianShip
+  rotate: false
+  xy: 4, 295
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Fighter
+  rotate: false
+  xy: 1515, 1839
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.HeavyCavalry
+  rotate: false
+  xy: 4, 87
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.LightCavalry
+  rotate: false
+  xy: 1723, 1839
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.LongRangedNaval
+  rotate: false
+  xy: 1060, 1384
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Mech
+  rotate: false
+  xy: 859, 736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.MeleeInfantry
+  rotate: false
+  xy: 532, 844
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Missile
+  rotate: false
+  xy: 740, 1047
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Monk
+  rotate: false
+  xy: 228, 519
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.NavalAttacker
+  rotate: false
+  xy: 1268, 1592
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.RangedInfantry
+  rotate: false
+  xy: 1268, 1384
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Scout
+  rotate: false
+  xy: 572, 572
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.ShortRangedNaval
+  rotate: false
+  xy: 1476, 1631
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Siege
+  rotate: false
+  xy: 1476, 1423
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Unit.Project
+  rotate: false
+  xy: 436, 436
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitType.Vampire
+  rotate: false
+  xy: 572, 436
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/UnitTypes
+  rotate: false
+  xy: 841, 628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

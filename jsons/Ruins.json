@@ -1,0 +1,166 @@
+[
+    {
+        "name": "Gain [20] [Culture]",
+        "notification": "We discovered the wisdom of our ancestors in the ruins - gained [Culture] culture",
+        "uniques": [
+            "Gain [20] [Culture]",
+            "Only available <before turn number [30]>"
+        ],
+        "weight": 5
+    },
+    {
+        "name": "Gain [20] [Science]",
+        "notification": "We discovered the wisdom of our ancestors in the ruins - gained [Science] science",
+        "uniques": [
+            "Gain [20] [Science]",
+            "Only available <before turn number [30]>"
+        ],
+        "weight": 5
+    },
+    {
+        "name": "Gain [30] [Culture]",
+        "notification": "We discovered the wisdom of our ancestors in the ruins - gained [Culture] culture",
+        "uniques": [
+            "Gain [30] [Culture]",
+            "Only available <after turn number [29]>"
+        ],
+        "weight": 5
+    },
+    {
+        "name": "Gain [30] [Science]",
+        "notification": "We discovered the wisdom of our ancestors in the ruins - gained [Science] science",
+        "uniques": [
+            "Gain [30] [Science]",
+            "Only available <after turn number [29]>"
+        ],
+        "weight": 5
+    },
+    {
+        "name": "Gain [50]-[100] [Gold]",
+        "notification": "We discovered gold and jewelry in the ruins",
+        "uniques": [
+            "Gain [50]-[100] [Gold]"
+        ],
+        "weight": 8
+    },
+    {
+        "name": "Gain [20]-[60] [Faith]",
+        "notification": "We discovered mysterious totems in the ruins",
+        "uniques": [
+            "Gain [20]-[60] [Faith]",
+            "Only available <after turn number [14]>"
+        ],
+        "weight": 4
+    },
+    {
+        "name": "Free [Unit.Trader] found in the ruins",
+        "notification": "We discovered a wandering trader in the ruins",
+        "uniques": [
+            "Free [Unit.Trader] found in the ruins",
+            "Only available <after discovering [Civic.BasicTrade]>"
+        ],
+        "weight": 3
+    },
+    {
+        "name": "Free [Unit.Scout] found in the ruins",
+        "notification": "We discovered a lost scout in the ruins",
+        "uniques": [
+            "Free [Unit.Scout] found in the ruins"
+        ],
+        "weight": 8
+    },
+    {
+        "name": "Free [Unit.Settler] found in the ruins",
+        "notification": "We discovered an abandoned settler in the ruins",
+        "uniques": [
+            "Free [Unit.Settler] found in the ruins",
+            "Only available <after turn number [49]>"
+        ],
+        "weight": 1
+    },
+    {
+        "name": "[This Unit] gains [20] XP",
+        "notification": "We discovered ancient combat tactics in the ruins",
+        "uniques": [
+            "[This Unit] gains [20] XP"
+        ],
+        "weight": 6
+    },
+    {
+        "name": "Instantly provides [15] [Resource.Horse]",
+        "notification": "We discovered abandoned horses in the ruins",
+        "uniques": [
+            "Instantly provides [15] [Resource.Horse]",
+            "Only available <after discovering [Tech.AnimalHusbandry]>"
+        ],
+        "weight": 4
+    },
+    {
+        "name": "Instantly provides [15] [Resource.Iron]",
+        "notification": "We discovered abandoned iron tools in the ruins",
+        "uniques": [
+            "Instantly provides [15] [Resource.Iron]",
+            "Only available <after discovering [Tech.CopperCasting]>"
+        ],
+        "weight": 4
+    }
+    // {
+    //     "name": "squatters willing to work for you",
+    //     "notification": "A [Unit.Farmer] has joined us!",
+    //     "uniques": ["Free [Unit.Farmer] found in the ruins"],
+    //     "excludedDifficulties": ["Difficulty.Prince", "Difficulty.King", "Difficulty.Emperor", "Difficulty.Immortal", "Difficulty.Deity","Difficulty.Online"]
+    // },
+    // {
+    //     "name": "squatters willing to work for you",
+    //     "notification": "A [Unit.Miner] has joined us!",
+    //     "uniques": ["Free [Unit.Miner] found in the ruins"],
+    //     "excludedDifficulties": ["Difficulty.Prince", "Difficulty.King", "Difficulty.Emperor", "Difficulty.Immortal", "Difficulty.Deity","Difficulty.Online"]
+    // },
+    // {
+    //     "name": "squatters wishing to settle under your rule",
+    //     "notification": "A [Unit.Settler] has joined us!",
+    //     "uniques": ["Free [Unit.Settler] found in the ruins"],
+    //     "excludedDifficulties": ["Difficulty.Warlord","Difficulty.Prince","Difficulty.King","Difficulty.Emperor","Difficulty.Immortal","Difficulty.Deity"]
+    // },
+    // {
+    //     "name": "your exploring unit receives training",
+    //     "notification": "An ancient tribe trained us in their ways of combat!",
+    //     "uniques": ["This Unit gains [10] XP", "Only available <after turn number [10]>"]
+    // },
+    // {
+    //     "name": "survivors (adds population to a city)",
+    //     "notification": "We have found survivors in the ruins! Population added to [cityName].",
+    //     "uniques": ["[+1] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic
+    // 	"color": "#81c784"
+    // },
+    // {
+    //     "name": "a stash of gold",
+    //     "notification": "", // trigger notification only
+    //     "uniques": ["Gain [50]-[100] [Gold]"],
+    //     "color": "#ffeb7f"
+    // },
+    // {
+    //     "name": "discover a lost technology",
+    //     "notification": "We have discovered the lost technology of [techName] in the ruins!",
+    //     "uniques": ["[1] free random researchable Tech(s) from the [Era.Ancient]"],
+    // 	"color": "#7f7fff"
+    // },
+    // {
+    //     "name": "reveal nearby Barbarian camps",
+    //     "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
+    //     "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
+    // },
+    // {
+    //     "name": "discover holy symbols",
+    //     "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
+    //     "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after turn number [20]>"],
+    // 	"color": "#CDDDF4"
+    // },
+    // {
+    //     "name": "an ancient prophecy",
+    //     "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
+    //     "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet",
+    //         "Only available <after founding a Pantheon>", "Only available <after turn number [20]>"],
+    // 	"color": "#CDDDF4"
+    // }
+]

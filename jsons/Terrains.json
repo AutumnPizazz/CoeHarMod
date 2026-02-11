@@ -1,0 +1,925 @@
+[
+	//基础地形
+	{ //海洋
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [
+			43,
+			87,
+			151
+		],
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>"
+		]
+	},
+	{ //海滨
+		"name": "Coast",
+		"type": "Water",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [
+			70,
+			138,
+			216
+		], //Darker87, 139, 199  Lighter59, 137, 227
+		"uniques": [
+			"[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[+2] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations <on water maps>",
+			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //草原
+		"name": "Grassland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [
+			0,
+			163,
+			0
+		],
+		"uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
+			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations <in [Landform.Rainforest] Regions>",
+			"Considered [Food] when determining start locations <in [Landform.Forest] Regions>",
+			"Considered [Food] when determining start locations <in [Landform.Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //平原
+		"name": "Plains",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [
+			153,
+			180,
+			51
+		],
+		"uniques": [
+			"[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"[+4] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
+			"A Region can not contain more [Grassland] tiles than [Plains] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Considered [Food] when determining start locations <in [Desert] Regions>",
+			"Considered [Food] when determining start locations <in [Landform.Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Plains] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //冻土
+		"name": "Tundra",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [
+			30,
+			113,
+			69
+		],
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+			"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+			"Becomes [Plains] when adjacent to [River]",
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //沙漠
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [
+			230,
+			172,
+			0
+		],
+		"uniques": [
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+			"Becomes [Landform.AlluvialPlain] when adjacent to [River]",
+			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //湖泊
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [
+			0,
+			171,
+			169
+		],
+		"uniques": [
+			"[-2 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Fresh water",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
+	},
+	{ //大河
+		"name": "LargeRiver",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [
+			0,
+			171,
+			169
+		],
+		"uniques": [
+			"[-2 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Fresh water",
+			"Doesn't generate naturally",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
+	},
+	{ //山脉
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.23,
+		"movementCost": 2,
+		"RGB": [
+			102,
+			102,
+			102
+		],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [3] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [15] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{ //雪原
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [
+			230,
+			238,
+			255
+		], //Darker229, 229, 255
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+			"Always Fertility [-1] for Map Generation",
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Tundra] when adjacent to [River]",
+			"Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Never receives any resources <in [Landform.Hill] tiles>"
+		]
+	},
+	//地貌
+	{ //丘陵
+		"name": "Landform.Hill",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"overrideStats": false,
+		"defenceBonus": 0.13,
+		"RGB": [
+			105,
+			125,
+			72
+		],
+		"occursOn": [
+			"Tundra",
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Snow"
+		],
+		"uniques": [
+			"[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Rough terrain",
+			"[14] Strength for cities built on this terrain",
+			"Has an elevation of [1] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [35]% [Landform.Hill] tiles, with priority [3]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Starts in regions of this type receive an extra [Resource.Sheep]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //森林
+		"name": "Landform.Forest",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"overrideStats": false,
+		"unbuildable": true,
+		"occursOn": [
+			"Tundra",
+			"Plains",
+			"Grassland",
+			"Landform.Hill"
+		],
+		"uniques": [
+			"[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Rough terrain",
+			"Vegetation",
+			"[+1] to Fertility for Map Generation",
+			"Provides a one-time bonus of [+20 Production] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"A Region is formed with at least [30]% [Landform.Forest] tiles, with priority [3]",
+			"A Region is formed with at least [35]% [Landform.Forest] tiles and [Landform.Rainforest] tiles, with priority [3]",
+			"A Region can not contain more [Landform.Rainforest] tiles than [Landform.Forest] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Considered [Production] when determining start locations <in [Landform.Forest] Regions>",
+			"Considered [Production] when determining start locations <in [Tundra] Regions>",
+			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A [Improvement.Encampment] can be built here without cutting it down",
+				"link": "Improvement/Improvement.Encampment"
+			},
+			{
+				"text": "A [Improvement.Plantation] can be built here without cutting it down",
+				"link": "Improvement/Improvement.Plantation"
+			}
+		]
+	},
+	{ //雨林
+		"name": "Landform.Rainforest",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 2,
+		"overrideStats": false,
+		"unbuildable": true,
+		"occursOn": [
+			"Plains",
+			"Grassland"
+		],
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Rough terrain",
+			"Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"[+1] to Fertility for Map Generation",
+			"Provides a one-time bonus of [+10 Production, +10 Food] to the closest city when cut down <(modified by game speed)>",
+			"A Region is formed with at least [30]% [Landform.Rainforest] tiles, with priority [2]",
+			"A Region is formed with at least [35]% [Landform.Rainforest] tiles and [Landform.Forest] tiles, with priority [2]",
+			"A Region can not contain more [Landform.Forest] tiles than [Landform.Rainforest] tiles",
+			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //沼泽
+		"name": "Landform.Swamp",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 3,
+		"unbuildable": true,
+		"defenceBonus": -0.13,
+		"occursOn": [
+			"Grassland",
+			"Plains"
+		],
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Rare feature",
+			"[+1] to Fertility for Map Generation",
+			"Provides a one-time bonus of [+20 Food] to the closest city when cut down <(modified by game speed)>",
+			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in all except [Plains] Regions>",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{ //核污染
+		"name": "Landform.NuclearFallout",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"unbuildable": true,
+		"uniques": [
+			"Nullifies all other stats this tile provides",
+			"Doesn't generate naturally"
+		],
+		"occursOn": [
+			"Grassland",
+			"Plains",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Landform.Forest",
+			"Landform.Rainforest",
+			"Landform.Hill",
+			"Landform.AlluvialPlain",
+			"Landform.Swamp",
+			"Landform.Oasis"
+		],
+		"defenceBonus": -0.13
+	},
+	{ //绿洲
+		"name": "Landform.Oasis",
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"occursOn": [
+			"Desert"
+		],
+		"uniques": [
+			"[-3 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Fresh water",
+			"Rare feature",
+			"Only [All Road] improvements may be built on this tile",
+			"Always Fertility [4] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
+	},
+	{ //冲积平原
+		"name": "Landform.AlluvialPlain",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"defenceBonus": -0.13,
+		// "overrideStats": true,
+		"occursOn": [
+			"Desert"
+		],
+		"uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Always Fertility [3] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations",
+			// "Must be adjacent to [1] to [6] [River] tiles",
+			"[-8] Strength for cities built on this terrain"
+		]
+	},
+	{ //泛滥平原
+		"name": "Landform.FloodPlain",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"defenceBonus": -0.13,
+		// "overrideStats": true,
+		"occursOn": [
+			"Grassland",
+			"Plains"
+		],
+		"uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Always Fertility [3] for Map Generation",
+			"Considered [Food] when determining start locations",
+			// "Must be adjacent to [1] to [6] [River] tiles",
+			"[-8] Strength for cities built on this terrain"
+		]
+	},
+	{ //冰区
+		"name": "Landform.IceCap",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"overrideStats": true,
+		"occursOn": [
+			"Ocean",
+			"Coast"
+		],
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+			"[-2] to Fertility for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{ //礁石
+		"name": "Landform.Reef",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+		"production": 1,
+		"defenceBonus": 0.2,
+		"unbuildable": false,
+		"occursOn": [
+			"Coast"
+		],
+		"uniques": [
+			"[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Rare feature",
+			"[+2] to Fertility for Map Generation"
+		]
+	},
+	{ //地热裂缝
+		"name": "Landform.GeothermalFissure",
+		"type": "TerrainFeature",
+		"science": 1,
+		"movementCost": 1,
+		"unbuildable": false,
+		"occursOn": [
+			"Plains",
+			"Tundra",
+			"Grassland",
+			"Snow"
+		],
+		"uniques": [
+			"[-1 Science] <in [Class.District] tiles> <in tiles without [City center]>",
+			"Rare feature",
+			"Never receives any resources",
+			"[+1] to Fertility for Map Generation"
+		]
+	},
+	{ //火山
+		"name": "Landform.Volcano",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"defenceBonus": 0.48,
+		"movementCost": 5,
+		"RGB": [
+			255,
+			69,
+			0
+		],
+		"occursOn": [
+			"Grassland",
+			"Plains",
+			"Tundra",
+			"Desert",
+			"Snow",
+			"Ocean"
+		],
+		"uniques": [
+			"Never receives any resources",
+			"Doesn't generate naturally",
+			"Occurs in groups of [1] to [1] tiles",
+			"Has an elevation of [3] for visibility calculations",
+			"Occurs in chains at high elevations"
+			//            "Units ending their turn on this terrain take [80] damage",
+		]
+	},
+	{ //火山土
+		"name": "Landform.VolcanicSoil",
+		"type": "TerrainFeature",
+		"defenceBonus": -0.13,
+		"occursOn": [
+			"Grassland",
+			"Plains",
+			"Tundra",
+			"Desert",
+			"Snow"
+		],
+		"uniques": [
+			"Rare feature",
+			"Doesn't generate naturally",
+			"Units ending their turn on this terrain take [25] damage",
+			"[+1 Food] <after turn number [10]> <in tiles without [Class.District]>",
+			"[+1 Production] <after turn number [15]> <in tiles without [Class.District]>",
+			"[+1 Food] <after turn number [30]> <in tiles without [Class.District]>",
+			"[+1 Production] <after turn number [40]> <in tiles without [Class.District]>",
+			"[+1 Science] <after turn number [50]> <in tiles without [Class.District]>"
+		]
+	},
+	{
+        "name": "River",
+        "type": "TerrainFeature",
+        "movementCost": 0,
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
+        "civilopediaText": [
+            {"text": "Rivers exist on tile edges, not as terrain feature per se."},
+            {"text": "Tiles on both sides gain its benefits. These benefits do not stack."},
+            {"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes)."},
+            {"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
+            {"text": "When attacking across a river, the attacker gets a -20% strength malus."}
+        ]
+    },
+	//自然奇观
+	{ //大堡礁
+		"name": "Naturalwonder.GreatBarrierReef",
+		"type": "NaturalWonder",
+		"food": 3,
+		"science": 2,
+		"occursOn": [
+			"Coast"
+		],
+		"uniques": [
+			"Must be adjacent to [1] to [5] [Coast] tiles",
+			"Must be adjacent to [1] to [3] [Land] tiles",
+			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
+			"Occurs in groups of [2] to [2] tiles"
+		],
+		"turnsInto": "Coast",
+		"overrideStats": true,
+		"impassable": false,
+		"defenceBonus": 0.13,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{
+				"text": "Lots of adjacent bonuses for adjacent campus",
+				"link": "Improvement/District.Campus"
+			}
+		]
+	},
+	{ //黄金国
+		"name": "Naturalwonder.ElDorado",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"gold": 4,
+		"culture": 2,
+		"occursOn": [
+			"Plains"
+		],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Landform.Rainforest] tiles",
+			"Occurs in groups of [4] to [4] tiles",
+			"Tile provides yield without assigned population"
+		],
+		"weight": 2
+		/*
+		"civilopediaText": [
+			{
+				"text":"Provide +4 ¤Gold and +2 Culture for adjacent tiles, but only for terrain, not landforms"
+			}
+		]
+		*/
+	},
+	{ //青春之泉
+		"name": "Naturalwonder.FountainOfYouth",
+		"type": "NaturalWonder",
+		"faith": 4,
+		"science": 4,
+		"overrideStats": true,
+		"occursOn": [
+			"Plains"
+		],
+		"turnsInto": "Plains",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Grants [Promotion.WaterOfLife] ([Heal with an additional [10] HP]) to adjacent [Land] units for the rest of the game",
+			"Fresh water"
+		],
+		"weight": 8
+	},
+	{ //泰山
+		"name": "Naturalwonder.MountTai",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Plains",
+			"Grassland"
+		],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [2] to [6] [Landform.Hill] tiles",
+			"Must be adjacent to [1] to [6] [Mountain] tiles"
+		],
+		"civilopediaText": [
+			{
+				"text": "[Class.TheaterSquare] grant an additional [+2] adjacency bonus to [Naturalwonder.MountTai]",
+				"link": "Improvement/District.TheaterSquare"
+			}
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{ //巨人堤
+		"name": "Naturalwonder.TheGiantsCauseway",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Plains"
+		],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [3] [Coast] tiles",
+			"Occurs in groups of [2] to [2] tiles",
+			"Grants [Promotion.GiantSpear] ([[+23]% Strength]) to adjacent [{Military} {Land}] units for the rest of the game"
+		],
+		"weight": 3
+	},
+	{ //张掖丹霞
+		"name": "Naturalwonder.ZhangyeDanxia",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Landform.Hill"
+		],
+		"turnsInto": "Desert",
+		"impassable": false,
+		"unbuildable": true,
+		"production": 2,
+		"culture": 2,
+		"gold": 5,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Landform.Hill] tiles",
+			"Occurs in groups of [2] to [2] tiles"
+		],
+		"weight": 5,
+		"movementCost": 3,
+		"defenceBonus": 0.28
+	},
+	{ //壶口瀑布
+		"name": "Naturalwonder.HukouWaterfall",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Grassland"
+		],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"food": 4,
+		"uniques": [
+			"Occurs in groups of [1] to [1] tiles",
+			"Must be adjacent to [4] to [6] [Plains] tiles",
+			"Fresh water"
+		],
+		"weight": 5,
+		"civilopediaText": [
+			{
+				"text": "[+2 Happiness] for each adjacent [Naturalwonder.HukouWaterfall] <for [Class.Raceline]>",
+				"link": "Improvement/District.Raceline"
+			}
+		]
+	},
+	{ //下龙湾
+		"name": "Naturalwonder.HaLongBay",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Coast"
+		],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"defenceBonus": 0.28,
+		"movementCost": 2,
+		"food": 3,
+		"production": 1,
+		"culture": 1,
+		"uniques": [
+			"Must be adjacent to [2] to [4] [Land] tiles",
+			"Occurs in groups of [2] to [2] tiles"
+		],
+		"weight": 6
+	},
+	{ //潘塔纳尔湿地
+		"name": "Naturalwonder.Pantanal",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Grassland"
+		],
+		"turnsInto": "Grassland",
+		"impassable": false,
+		"unbuildable": true,
+		"movementCost": 2,
+		"food": 3,
+		"culture": 3,
+		"uniques": [
+			"Must be adjacent to [6] to [6] [Grassland] tiles",
+			"Occurs in groups of [4] to [4] tiles"
+		],
+		"weight": 5
+	},
+	{ //精致拱门
+		"name": "Naturalwonder.DelicateArch",
+		"type": "NaturalWonder",
+		"overrideStats": true,
+		"occursOn": [
+			"Desert"
+		],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"gold": 3,
+		"faith": 3,
+		"uniques": [
+			"Must be adjacent to [6] to [6] [Desert] tiles",
+			"Occurs in groups of [1] to [1] tiles",
+			"Tile provides yield without assigned population"
+		],
+		"weight": 8
+	}
+	/*
+	{
+		"name": "Krakatoa",
+		"type": "NaturalWonder",
+		"science": 5,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] [Ice] tiles",
+			"Neighboring tiles will convert to [Coast]"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Rock of Gibraltar",
+		"type": "NaturalWonder",
+		"food": 2,
+		"gold": 5,
+		"occursOn": ["Grassland"],
+		"uniques": ["Must be adjacent to [1] to [5] [Coast] tiles",
+			"Must be adjacent to [1] [Mountain] tiles",
+			"Neighboring tiles except [Mountain] will convert to [Coast]"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Cerro de Potosi",
+		"type": "NaturalWonder",
+		"gold": 10,
+		"occursOn": ["Plains","Mountain"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Landform.Hill] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 5
+	},
+	{
+		"name": "Barringer Crater",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"science": 3,
+		"occursOn": ["Desert","Tundra"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Must be adjacent to [0] to [4] [Elevated] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	// G&K Wonders
+	{
+		"name": "Mount Kailash",
+		"type": "NaturalWonder",
+		"faith": 6,
+		"happiness": 2,
+		"occursOn": ["Plains","Grassland"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Landform.Swamp] tiles",
+			"Must be adjacent to [0] to [1] [Desert] tiles",
+			"Must be adjacent to [4] to [6] [Elevated] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Mount Sinai",
+		"type": "NaturalWonder",
+		"faith": 8,
+		"occursOn": ["Desert","Plains"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Landform.Swamp] tiles",
+			"Must be adjacent to [3] to [6] [Desert] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Sri Pada",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 4,
+		"happiness": 2,
+		"occursOn": ["Plains","Grassland"],
+		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Landform.Swamp] tiles",
+			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Uluru",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 6,
+		"occursOn": ["Plains","Desert"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Landform.Swamp] tiles",
+			"Must be adjacent to [3] to [6] [Plains] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	// BNW wonders
+	{
+		"name": "King Solomon's Mines",
+		"type": "NaturalWonder",
+		"production": 6,
+		"overrideStats": true,
+		"occursOn": ["Plains","Desert"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles"],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 4
+	},
+	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
+		"name": "Lake Victoria",
+		"type": "NaturalWonder",
+		"food": 6,
+		"occursOn": ["Plains"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
+		"weight": 10
+	},
+	{
+		"name": "Mount Kilimanjaro",
+		"type": "NaturalWonder",
+		"food": 3,
+		"culture": 2,
+		"occursOn": ["Plains","Grassland"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Landform.Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
+		"weight": 10
+	}
+*/
+]

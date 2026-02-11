@@ -1,0 +1,283 @@
+[
+    {
+        "name": "Era.Ancient",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Unit.Warrior",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 70,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [
+            255,
+            87,
+            35
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Gain [20] [Gold]"
+        ]
+    },
+    {
+        "name": "Era.Classical",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Unit.Swordsman",
+        "startingGold": 10,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 120,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [
+            233,
+            31,
+            99
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Instantly provides [20] [Resource.Iron]"
+        ]
+    },
+    {
+        "name": "Era.Medieval",
+        "researchAgreementCost": 250,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Unit.Hoplite",
+        "startingGold": 25,
+        "startingCulture": 200,
+        "settlerPopulation": 1,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 200,
+        "startPercent": 25,
+        "citySound": "cityMedieval",
+        "iconRGB": [
+            157,
+            39,
+            176
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Instantly provides [20] [Resource.Iron]"
+        ]
+    },
+    {
+        "name": "Era.Renaissance",
+        "researchAgreementCost": 250,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Unit.Musketman",
+        "startingGold": 50,
+        "startingCulture": 300,
+        "settlerPopulation": 2,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 300,
+        "embarkDefense": 320,
+        "startPercent": 37,
+        "citySound": "cityRenaissance",
+        "iconRGB": [
+            104,
+            58,
+            183
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Instantly provides [30] [Resource.Niter]"
+        ]
+    },
+    {
+        "name": "Era.Industrial",
+        "researchAgreementCost": 300,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Unit.LineInfantry",
+        "startingGold": 100,
+        "startingCulture": 400,
+        "settlerPopulation": 3,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 400,
+        "embarkDefense": 450,
+        "startPercent": 50,
+        "citySound": "cityIndustrial",
+        "iconRGB": [
+            63,
+            81,
+            182
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "Era.Modern",
+        "researchAgreementCost": 350,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Unit.LineInfantry",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 3,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 600,
+        "embarkDefense": 600,
+        "startPercent": 65,
+        "citySound": "cityModern",
+        "iconRGB": [
+            33,
+            150,
+            243
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "Era.Atomic",
+        "researchAgreementCost": 400,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Unit.Infantry",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 4,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 800,
+        "embarkDefense": 600,
+        "startPercent": 65,
+        "citySound": "cityAtomic",
+        "iconRGB": [
+            0,
+            150,
+            136
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "May buy [Unit.Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "Era.Information",
+        "researchAgreementCost": 400,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Unit.Infantry",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 600,
+        "startPercent": 80,
+        "citySound": "cityInformation",
+        "iconRGB": [
+            76,
+            176,
+            81
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "Era.Near-future",
+        "researchAgreementCost": 400,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Unit.MechanizedInfantry",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 600,
+        "startPercent": 80,
+        "citySound": "cityFuture",
+        "iconRGB": [
+            76,
+            176,
+            81
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "Era.Far-future",
+        "researchAgreementCost": 400,
+        "startingSettlerUnit": "Unit.Settler",
+        "startingWorkerUnit": "Unit.Farmer",
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Unit.MechanizedInfantry",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 600,
+        "startPercent": 80,
+        "citySound": "cityFuture",
+        "iconRGB": [
+            76,
+            176,
+            81
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
+            "Starting in this era disables religion",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    }
+]

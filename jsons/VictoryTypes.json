@@ -1,0 +1,118 @@
+[
+    { //科技胜利
+        "name": "VictoryType.Science",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "milestones": [
+            "Build [Building.DistrictUnique.Spaceport]",
+            "Add all [Spaceship part] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "Unit.LaunchEarthSatellite.project",
+            "Unit.InitiateMoonLanding.project",
+            "Unit.InitiateMarsColonization.project",
+            "Unit.InitiateInterstellarExploration.project",
+            "Unit.InitiateLagrangeLaserStation.project",
+            "Unit.InitiateLagrangeLaserStation.project",
+            "Unit.InitiateLagrangeLaserStation.project",
+            "Unit.BuildGroundLaserStation.project",
+            "Unit.BuildGroundLaserStation.project",
+            "Unit.BuildGroundLaserStation.project"
+        ],
+        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //文化胜利
+        "name": "VictoryType.Culture",
+        "victoryScreenHeader": "Complete 2 policy branches and\nbuild the Utopia Project to win!",
+        "milestones": [
+            "Complete [2] Policy branches",
+            "Build [Building.UtopiaProject]"
+        ],
+        "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //外交胜利
+        "name": "VictoryType.Diplomacy",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Gaining as much diplomatic support as possible and building Domination Victory Building to win!",
+        "milestones": [
+            "Build [Building.DominationVictory]"
+        ],
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //宗教胜利
+        "name": "VictoryType.Religion",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Become the dominant religion in every city of the world to win!",
+        "milestones": [
+            "Become the world religion"
+        ],
+        "victoryString": "You have achieved victory through the power of faith and conviction. All the nations have submitted to your teachings, for better or worse. Rejoice! For your faith has converted the world.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //经济胜利
+        "name": "VictoryType.Economic",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Become the wealthiest civilization in the world to win!",
+        "milestones": [
+            "Build [Building.EconomicVictory]"
+        ],
+        "victoryString": "You have achieved victory through the power of wealth and commerce. Your civilization dominates the global economy, and all nations look to you for guidance. Rejoice! For your prosperity has lifted the world.",
+        "defeatString": "You have been defeated. Your civilization has fallen behind in the race for wealth and prosperity. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //征服胜利
+        "name": "VictoryType.Conquest",
+        "victoryScreenHeader": "Capture all capitals to win!",
+        "milestones": [
+            "Capture all capitals"
+        ],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //统一胜利
+        "name": "VictoryType.Unity",
+        "victoryScreenHeader": "Destroy all enemies to win!",
+        "milestones": [
+            "Destroy all players"
+        ],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //时间胜利
+        "name": "VictoryType.Score",
+        "milestones": [
+            "Have highest score after max turns"
+        ],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    { //允许建造世界奇观
+        "name": "Pattern.EnableWorldWonders",
+        "hiddenInVictoryScreen": true,
+        "milestones": [
+            "Build [Building.WorldWonder]"
+        ]
+    },
+    { //启用通用总督
+        "name": "Pattern.Viceroy",
+        "hiddenInVictoryScreen": true,
+        "milestones": [
+            "Build [Building.Viceroy]"
+        ]
+    },
+    { //启用秘密结社
+        "name": "Pattern.Camorrist",
+        "hiddenInVictoryScreen": true,
+        "milestones": [
+            "Build [Building.Camorrist]"
+        ]
+    },
+    { //启用斗地主模式
+        "name": "Pattern.Landlords",
+        "hiddenInVictoryScreen": true,
+        "milestones": [
+            "Build [Building.Landlords]"
+        ]
+    }
+]

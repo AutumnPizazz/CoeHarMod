@@ -1,0 +1,3547 @@
+[
+    {
+        "name": "Culture.CulturalVictorySprint",
+        "era": "Era.Near-future",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [],
+        "policies": [
+            {
+                "name": "Culture.CultureVictoryRush2",
+                "uniques": [],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.CultureVictoryRush3",
+                "uniques": [],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush2"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush4",
+                "uniques": [],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush3"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush5",
+                "uniques": [],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush4"
+                ]
+            },
+            {
+                "name": "Culture.CultureVictoryRush6",
+                "uniques": [],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.CultureVictoryRush5"
+                ]
+            },
+            {
+                "name": "Culture.CulturalVictorySprint Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Culture.GreatPerson",
+        "era": "Era.Ancient",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [],
+        "policies": [
+            {
+                "name": "Culture.Scientist1",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [29] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Scientist]"
+                ],
+                "row": 1,
+                "column": 1,
+                "requires": []
+            },
+            {
+                "name": "Culture.Scientist2",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [59] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Scientist]"
+                ],
+                "row": 2,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist1"
+                ]
+            },
+            {
+                "name": "Culture.Scientist3",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [89] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Scientist]"
+                ],
+                "row": 3,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist2"
+                ]
+            },
+            {
+                "name": "Culture.Scientist4",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [119] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Scientist]"
+                ],
+                "row": 4,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist3"
+                ]
+            },
+            {
+                "name": "Culture.Scientist5",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [149] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Scientist]"
+                ],
+                "row": 5,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist4"
+                ]
+            },
+            {
+                "name": "Culture.Scientist6",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [179] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Scientist]"
+                ],
+                "row": 6,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist5"
+                ]
+            },
+            {
+                "name": "Culture.Scientist7",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [209] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Scientist]"
+                ],
+                "row": 7,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist6"
+                ]
+            },
+            {
+                "name": "Culture.Scientist8",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [239] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Scientist]"
+                ],
+                "row": 8,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist7"
+                ]
+            },
+            {
+                "name": "Culture.Scientist9",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [269] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Scientist]"
+                ],
+                "row": 9,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist8"
+                ]
+            },
+            {
+                "name": "Culture.Scientist10",
+                "uniques": [
+                    "Free [Unit.Scientist] appears",
+                    "Only available <when above [299] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Scientist]"
+                ],
+                "row": 10,
+                "column": 1,
+                "requires": [
+                    "Culture.Scientist9"
+                ]
+            },
+            {
+                "name": "Culture.Merchant1",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [29] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Merchant]"
+                ],
+                "row": 1,
+                "column": 3,
+                "requires": []
+            },
+            {
+                "name": "Culture.Merchant2",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [59] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Merchant]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant1"
+                ]
+            },
+            {
+                "name": "Culture.Merchant3",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [89] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Merchant]"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant2"
+                ]
+            },
+            {
+                "name": "Culture.Merchant4",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [119] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Merchant]"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant3"
+                ]
+            },
+            {
+                "name": "Culture.Merchant5",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [149] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Merchant]"
+                ],
+                "row": 5,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant4"
+                ]
+            },
+            {
+                "name": "Culture.Merchant6",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [179] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Merchant]"
+                ],
+                "row": 6,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant5"
+                ]
+            },
+            {
+                "name": "Culture.Merchant7",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [209] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Merchant]"
+                ],
+                "row": 7,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant6"
+                ]
+            },
+            {
+                "name": "Culture.Merchant8",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [239] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Merchant]"
+                ],
+                "row": 8,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant7"
+                ]
+            },
+            {
+                "name": "Culture.Merchant9",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [269] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Merchant]"
+                ],
+                "row": 9,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant8"
+                ]
+            },
+            {
+                "name": "Culture.Merchant10",
+                "uniques": [
+                    "Free [Unit.Merchant] appears",
+                    "Only available <when above [299] [Resource.Unit.Merchant]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Merchant]"
+                ],
+                "row": 10,
+                "column": 3,
+                "requires": [
+                    "Culture.Merchant9"
+                ]
+            },
+            {
+                "name": "Culture.Engineer1",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [29] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Engineer]"
+                ],
+                "row": 1,
+                "column": 5,
+                "requires": []
+            },
+            {
+                "name": "Culture.Engineer2",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [59] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Engineer]"
+                ],
+                "row": 2,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer1"
+                ]
+            },
+            {
+                "name": "Culture.Engineer3",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [89] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Engineer]"
+                ],
+                "row": 3,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer2"
+                ]
+            },
+            {
+                "name": "Culture.Engineer4",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [119] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Engineer]"
+                ],
+                "row": 4,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer3"
+                ]
+            },
+            {
+                "name": "Culture.Engineer5",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [149] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Engineer]"
+                ],
+                "row": 5,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer4"
+                ]
+            },
+            {
+                "name": "Culture.Engineer6",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [179] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Engineer]"
+                ],
+                "row": 6,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer5"
+                ]
+            },
+            {
+                "name": "Culture.Engineer7",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [209] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Engineer]"
+                ],
+                "row": 7,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer6"
+                ]
+            },
+            {
+                "name": "Culture.Engineer8",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [239] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Engineer]"
+                ],
+                "row": 8,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer7"
+                ]
+            },
+            {
+                "name": "Culture.Engineer9",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [269] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Engineer]"
+                ],
+                "row": 9,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer8"
+                ]
+            },
+            {
+                "name": "Culture.Engineer10",
+                "uniques": [
+                    "Free [Unit.Engineer] appears",
+                    "Only available <when above [299] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Engineer]"
+                ],
+                "row": 10,
+                "column": 5,
+                "requires": [
+                    "Culture.Engineer9"
+                ]
+            },
+            {
+                "name": "Culture.Prophet1",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [29] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Prophet]"
+                ],
+                "row": 1,
+                "column": 7,
+                "requires": []
+            },
+            {
+                "name": "Culture.Prophet2",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [59] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Prophet]"
+                ],
+                "row": 2,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet1"
+                ]
+            },
+            {
+                "name": "Culture.Prophet3",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [89] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Prophet]"
+                ],
+                "row": 3,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet2"
+                ]
+            },
+            {
+                "name": "Culture.Prophet4",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [119] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Prophet]"
+                ],
+                "row": 4,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet3"
+                ]
+            },
+            {
+                "name": "Culture.Prophet5",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [149] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Prophet]"
+                ],
+                "row": 5,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet4"
+                ]
+            },
+            {
+                "name": "Culture.Prophet6",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [179] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Prophet]"
+                ],
+                "row": 6,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet5"
+                ]
+            },
+            {
+                "name": "Culture.Prophet7",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [209] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Prophet]"
+                ],
+                "row": 7,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet6"
+                ]
+            },
+            {
+                "name": "Culture.Prophet8",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [239] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Prophet]"
+                ],
+                "row": 8,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet7"
+                ]
+            },
+            {
+                "name": "Culture.Prophet9",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [269] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Prophet]"
+                ],
+                "row": 9,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet8"
+                ]
+            },
+            {
+                "name": "Culture.Prophet10",
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Only available <when above [299] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Prophet]"
+                ],
+                "row": 10,
+                "column": 7,
+                "requires": [
+                    "Culture.Prophet9"
+                ]
+            },
+            {
+                "name": "Culture.Artist1",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [29] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Artist]"
+                ],
+                "row": 1,
+                "column": 9,
+                "requires": []
+            },
+            {
+                "name": "Culture.Artist2",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [59] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Artist]"
+                ],
+                "row": 2,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist1"
+                ]
+            },
+            {
+                "name": "Culture.Artist3",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [89] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Artist]"
+                ],
+                "row": 3,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist2"
+                ]
+            },
+            {
+                "name": "Culture.Artist4",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [119] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Artist]"
+                ],
+                "row": 4,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist3"
+                ]
+            },
+            {
+                "name": "Culture.Artist5",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [149] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Artist]"
+                ],
+                "row": 5,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist4"
+                ]
+            },
+            {
+                "name": "Culture.Artist6",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [179] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Artist]"
+                ],
+                "row": 6,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist5"
+                ]
+            },
+            {
+                "name": "Culture.Artist7",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [209] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Artist]"
+                ],
+                "row": 7,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist6"
+                ]
+            },
+            {
+                "name": "Culture.Artist8",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [239] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Artist]"
+                ],
+                "row": 8,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist7"
+                ]
+            },
+            {
+                "name": "Culture.Artist9",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [269] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Artist]"
+                ],
+                "row": 9,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist8"
+                ]
+            },
+            {
+                "name": "Culture.Artist10",
+                "uniques": [
+                    "Free [Unit.Artist] appears",
+                    "Only available <when above [299] [Resource.Unit.Artist]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Artist]"
+                ],
+                "row": 10,
+                "column": 9,
+                "requires": [
+                    "Culture.Artist9"
+                ]
+            },
+            {
+                "name": "Culture.General1",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [29] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 1,
+                "column": 11,
+                "requires": []
+            },
+            {
+                "name": "Culture.General2",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [59] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 2,
+                "column": 11,
+                "requires": [
+                    "Culture.General1"
+                ]
+            },
+            {
+                "name": "Culture.General3",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [89] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 3,
+                "column": 11,
+                "requires": [
+                    "Culture.General2"
+                ]
+            },
+            {
+                "name": "Culture.General4",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [119] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 4,
+                "column": 11,
+                "requires": [
+                    "Culture.General3"
+                ]
+            },
+            {
+                "name": "Culture.General5",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [149] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 5,
+                "column": 11,
+                "requires": [
+                    "Culture.General4"
+                ]
+            },
+            {
+                "name": "Culture.General6",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [179] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 6,
+                "column": 11,
+                "requires": [
+                    "Culture.General5"
+                ]
+            },
+            {
+                "name": "Culture.General7",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [209] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 7,
+                "column": 11,
+                "requires": [
+                    "Culture.General6"
+                ]
+            },
+            {
+                "name": "Culture.General8",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [239] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 8,
+                "column": 11,
+                "requires": [
+                    "Culture.General7"
+                ]
+            },
+            {
+                "name": "Culture.General9",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [269] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.General]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 9,
+                "column": 11,
+                "requires": [
+                    "Culture.General8"
+                ]
+            },
+            {
+                "name": "Culture.General10",
+                "uniques": [
+                    "Free [Unit.General] appears",
+                    "Only available <when above [299] [Resource.Unit.General]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.General]"
+                ],
+                "row": 10,
+                "column": 11,
+                "requires": [
+                    "Culture.General9"
+                ]
+            },
+            {
+                "name": "Culture.Admiral1",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [29] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [30] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General1]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 1,
+                "column": 13,
+                "requires": []
+            },
+            {
+                "name": "Culture.Admiral2",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [59] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [60] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General2]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 2,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral1"
+                ]
+            },
+            {
+                "name": "Culture.Admiral3",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [89] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [90] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General3]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 3,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral2"
+                ]
+            },
+            {
+                "name": "Culture.Admiral4",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [119] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [120] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General4]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 4,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral3"
+                ]
+            },
+            {
+                "name": "Culture.Admiral5",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [149] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [150] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General5]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 5,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral4"
+                ]
+            },
+            {
+                "name": "Culture.Admiral6",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [179] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [180] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General6]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 6,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral5"
+                ]
+            },
+            {
+                "name": "Culture.Admiral7",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [209] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [210] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General7]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 7,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral6"
+                ]
+            },
+            {
+                "name": "Culture.Admiral8",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [239] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [240] [Resource.Unit.Admiral]",
+                    "Provides [1] [Resource.AuxiliaryCounter2] <before adopting [Culture.General8]> <hidden from users>",
+                    "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
+                ],
+                "row": 8,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral7"
+                ]
+            },
+            {
+                "name": "Culture.Admiral9",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [269] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [270] [Resource.Unit.Admiral]"
+                ],
+                "row": 9,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral8"
+                ]
+            },
+            {
+                "name": "Culture.Admiral10",
+                "uniques": [
+                    "Free [Unit.Admiral] appears",
+                    "Only available <when above [299] [Resource.Unit.Admiral]> <hidden from users>",
+                    "Instantly consumes [300] [Resource.Unit.Admiral]"
+                ],
+                "row": 10,
+                "column": 13,
+                "requires": [
+                    "Culture.Admiral9"
+                ]
+            },
+            {
+                "name": "Culture.GreatPerson Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Policy.Camorrist",
+        "era": "Era.Ancient",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "policies": [
+            {
+                "name": "Policy.Governor.VoidchonerI",
+                "uniques": [
+                    "[+3 Faith] from every [Building.Monument]",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>",
+                    "Only available <before adopting [Policy.Governor.BloodContractI]>"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Policy.Governor.VoidchonerII",
+                "uniques": [
+                    "[+1 Science, +1 Culture, +1 Gold] from every [Class.DistrictBuilding.HolySite]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 1,
+                "requires": [
+                    "Policy.Governor.VoidchonerI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.VoidchonerIII",
+                "uniques": [
+                    "May buy [Building.VoidAltar] buildings for [500] [Faith] [in all cities]",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 1,
+                "requires": [
+                    "Policy.Governor.VoidchonerII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.VoidchonerIV",
+                "uniques": [
+                    "May buy [Building.DarkCallTower] buildings for [750] [Faith] [in all cities]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 1,
+                "requires": [
+                    "Policy.Governor.VoidchonerIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleI",
+                "uniques": [
+                    "Provides [1] [Resource.EconomicPolicySlot]",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>",
+                    "Only available <before adopting [Policy.Governor.BloodContractI]>"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleII",
+                "uniques": [
+                    "[+4 Culture, +4 Production] from every [Building.Bank]",
+                    "[+100]% Production when constructing [Building.Bank] buildings [in all cities]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Policy.Governor.MinervaNightingaleI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleIII",
+                "uniques": [
+                    "Provides [1] [Resource.GenericPolicySlot]",
+                    "Provides [2] [Resource.SpyCapacity]",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 3,
+                "requires": [
+                    "Policy.Governor.MinervaNightingaleII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.MinervaNightingaleIV",
+                "uniques": [
+                    "[+1 Gold] per [1] population [in all cities]",
+                    "[-50]% maintenance cost for [all] buildings [in all cities]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 3,
+                "requires": [
+                    "Policy.Governor.MinervaNightingaleIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnI",
+                "uniques": [
+                    "Discover [Tech.UniqueToGoldenDawn]",
+                    "[+1 Production, +1 Science] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.BloodContractI]>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnII",
+                "uniques": [
+                    "[+5 Gold] from every [Building.University]",
+                    "[+100]% Production when constructing [Building.University] buildings [in all cities]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 5,
+                "requires": [
+                    "Policy.Governor.GoldenDawnI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnIII",
+                "uniques": [
+                    "[+4 Food, +4 Production, +4 Science, +4 Culture, +4 Faith] from every [Resource.EarthVeins] <in tiles without [Class.District]>",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 5,
+                "requires": [
+                    "Policy.Governor.GoldenDawnII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.GoldenDawnIV",
+                "uniques": [
+                    "Discover [Tech.UniqueToGoldenDawn2]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 5,
+                "requires": [
+                    "Policy.Governor.GoldenDawnIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.BloodContractI",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "Discover [Tech.UniqueToVampire]",
+                    "May buy [Unit.VampireI] units for [0] [Gold] [in capital] <when above [0] [Resource.remainingAvailableVampireCount]>",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Policy.Governor.BloodContractII",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "Comment [All tiles cost 1 movement] <for [UnitType.Vampire] units>",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 7,
+                "requires": [
+                    "Policy.Governor.BloodContractI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.BloodContractIII",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "[+23]% Strength <for [UnitType.Vampire] units>",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 7,
+                "requires": [
+                    "Policy.Governor.BloodContractII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.BloodContractIV",
+                "uniques": [
+                    "Provides [1] [Resource.remainingAvailableVampireCount]",
+                    "Comment [[-23]% Strength for enemy [Military] units in adjacent [All] tiles] <for [UnitType.Vampire] units>",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 7,
+                "requires": [
+                    "Policy.Governor.BloodContractIII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.AncientOrderI",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <after turn number [8]>",
+                    "Only available <when [Pattern.Camorrist] Victory is enabled>",
+                    "Only available <before adopting [Policy.Governor.VoidchonerI]>",
+                    "Only available <before adopting [Policy.Governor.MinervaNightingaleI]>",
+                    "Only available <before adopting [Policy.Governor.GoldenDawnI]>"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Policy.Governor.AncientOrderII",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <starting from the [Era.Medieval]>"
+                ],
+                "row": 2,
+                "column": 9,
+                "requires": [
+                    "Policy.Governor.AncientOrderI"
+                ]
+            },
+            {
+                "name": "Policy.Governor.AncientOrderIII",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <starting from the [Era.Industrial]>"
+                ],
+                "row": 3,
+                "column": 9,
+                "requires": [
+                    "Policy.Governor.AncientOrderII"
+                ]
+            },
+            {
+                "name": "Policy.Governor.AncientOrderIV",
+                "uniques": [
+                    "Comment [There's nothing, waiting for next version plz :)]",
+                    "Only available <starting from the [Era.Atomic]>"
+                ],
+                "row": 4,
+                "column": 9,
+                "requires": [
+                    "Policy.Governor.AncientOrderIII"
+                ]
+            },
+            {
+                "name": "Policy.Camorrist Complete",
+                "uniques": []
+            }
+        ]
+    },
+    {
+        "name": "Policy.Governor",
+        "era": "Era.Ancient",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "policies": [
+            {
+                "name": "Policy.Governor.MagnusI",
+                "uniques": [
+                    "[-1 Production] from [Landform.Forest] tiles [in all cities] <in cities with a [Governor.Magnus]>",
+                    "[-1 Food] from [Landform.Rainforest] tiles [in all cities] <in cities with a [Governor.Magnus]>",
+                    "[-1 Food] from [Landform.Swamp] tiles [in all cities] <in cities with a [Governor.Magnus]>",
+                    "[+1 Production] from every [Specialist.BasicPop] <in cities with a [Governor.Magnus]>",
+                    "Comment [Provides extra [2] [Specialist.BasicPop] in cities with a [Governor.Magnus]]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Policy.Governor.MagnusIIA",
+                "uniques": [
+                    "[+2 Production] from every [Building.Workshop] <in cities with a [Governor.Magnus]>",
+                    "[+4 Production] from every [Building.Factory] <in cities with a [Governor.Magnus]>",
+                    "[+7 Production] from every [Class.Building.PowerPlant] <in cities with a [Governor.Magnus]>",
+                    "Provides [4] [Resource.Electricity] <after discovering [Tech.Industrialization]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusI]>"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Policy.Governor.MagnusIIB",
+                "uniques": [
+                    "Provides [8] [Resource.halfHouse] <in cities with a [Governor.Magnus]>",
+                    "[+20]% growth [in all cities] <in cities with a [Governor.Magnus]>",
+                    "Comment [New trained [Unit.Settler] in cities with a [Governor.Magnus] cannot cause population loss]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusI]>"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Policy.Governor.MagnusIIIA",
+                "uniques": [
+                    "[+20]% [Production] [in all cities] <in cities with a [Governor.Magnus]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusIIA]>"
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Policy.Governor.MagnusIIIB",
+                "uniques": [
+                    "[+1 Food, +2 Production] from every [Building.TradingPost]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusIIB]>"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Policy.Governor.MagnusIV",
+                "uniques": [
+                    "[+3 Production] [in all cities] <in cities with a [Governor.Magnus]> <for every [[Class.Building.PowerPlant] Buildings]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MagnusIIIA]> <after adopting [Policy.Governor.MagnusIIIB]>"
+                ],
+                "row": 4,
+                "column": 2
+            },
+            {
+                "name": "Policy.Governor.ReynaI",
+                "uniques": [
+                    "[+4 Gold] from every [Building.TradingPost]",
+                    "Comment [All newly-trained [Unit.Trader] units [in this city] receive the [Promotion.AllTilesCost1Movement] promotion]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 6
+            },
+            {
+                "name": "Policy.Governor.ReynaIIA",
+                "uniques": [
+                    "[+100]% Yield from every [Class.CommercialHub] <in cities with a [Governor.Reyna]>",
+                    "[+100]% Yield from every [Class.Harbor] <in cities with a [Governor.Reyna]>",
+                    "[+15]% [Gold] [in all cities] <in cities with a [Governor.Reyna]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaI]>"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Policy.Governor.ReynaIIB",
+                "uniques": [
+                    "[+3 Gold] from [unimproved] tiles [in all cities] <in cities with a [Governor.Reyna]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaI]>"
+                ],
+                "row": 2,
+                "column": 7
+            },
+            {
+                "name": "Policy.Governor.ReynaIII",
+                "uniques": [
+                    "[+2 Gold] per [1] population [in all cities] <in cities with a [Governor.Reyna]>",
+                    "Provides [1] [Resource.TradeRouteCapacity]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaIIA]> <after adopting [Policy.Governor.ReynaIIB]>"
+                ],
+                "row": 3,
+                "column": 6
+            },
+            {
+                "name": "Policy.Governor.ReynaIVA",
+                "uniques": [
+                    "[Gold] cost of purchasing items in cities [-50]% <in cities with a [Governor.Reyna]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaIII]>"
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Policy.Governor.ReynaIVB",
+                "uniques": [
+                    "[+1 Science, +1 Culture] from every [Building.TradingPost] <for every [3] [[Building.TradingPost] Buildings by [Major] Civilizations]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.ReynaIII]>"
+                ],
+                "row": 4,
+                "column": 7
+            },
+            {
+                "name": "Policy.Governor.AmaniI",
+                "uniques": [
+                    "[+2 Food, +2 Production] [in all cities] <in cities with a [Governor.Amani]>",
+                    "Free [Unit.Envoy2] appears",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 10
+            },
+            {
+                "name": "Policy.Governor.AmaniIIA",
+                "uniques": [
+                    "Comment [Gain a free [Building.AncientWalls] for all city-state]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniI]>"
+                ],
+                "row": 2,
+                "column": 9
+            },
+            {
+                "name": "Policy.Governor.AmaniIIB",
+                "uniques": [
+                    "Provides [2] [Resource.Horse] <after discovering [Tech.AnimalHusbandry]>",
+                    "Provides [2] [Resource.Iron] <after discovering [Tech.CopperCasting]>",
+                    "Provides [2] [Resource.Niter] <after discovering [Tech.MilitaryEngineering]>",
+                    "Provides [2] [Resource.Coal] <after discovering [Tech.Industrialization]>",
+                    "Provides [2] [Resource.Oil] <after discovering [Tech.Refining]>",
+                    "Provides [2] [Resource.Aluminum] <after discovering [Tech.Radio]>",
+                    "Provides [2] [Resource.Uranium] <after discovering [Tech.JointOperations]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniI]>"
+                ],
+                "row": 2,
+                "column": 11
+            },
+            {
+                "name": "Policy.Governor.AmaniIIIA",
+                "uniques": [
+                    "Provides [2] [Resource.SpyCapacity]",
+                    "Free [Unit.Spy] appears",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniIIA]>"
+                ],
+                "row": 3,
+                "column": 9
+            },
+            {
+                "name": "Policy.Governor.AmaniIIIB",
+                "uniques": [
+                    "[+1 Food, +2 Production] from every [Class.DistrictBuilding.GovernmentPlaza]",
+                    "[+1 Food, +2 Production] from every [Class.DistrictBuilding.ForeignQuarter]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniIIB]>"
+                ],
+                "row": 3,
+                "column": 11
+            },
+            {
+                "name": "Policy.Governor.AmaniIV",
+                "uniques": [
+                    "[+100]% [Resource.Influence] resource production",
+                    "Gifts of Gold to City-States generate [+100]% more Influence",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.AmaniIIIA]> <after adopting [Policy.Governor.AmaniIIIB]>"
+                ],
+                "row": 4,
+                "column": 10
+            },
+            {
+                "name": "Policy.Governor.VictorI",
+                "uniques": [
+                    "[+51]% Strength <in [City center] tiles> <in cities with a [Governor.Victor]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 14
+            },
+            {
+                "name": "Policy.Governor.VictorIIA",
+                "uniques": [
+                    "[+23]% Strength <in cities with a [Governor.Victor]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorI]>"
+                ],
+                "row": 2,
+                "column": 13
+            },
+            {
+                "name": "Policy.Governor.VictorIIB",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities] <in cities with a [Governor.Victor]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorI]>"
+                ],
+                "row": 2,
+                "column": 15
+            },
+            {
+                "name": "Policy.Governor.VictorIIIA",
+                "uniques": [
+                    "[+51]% Strength for cities <in cities with a [Governor.Victor]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorIIA]>"
+                ],
+                "row": 3,
+                "column": 13
+            },
+            {
+                "name": "Policy.Governor.VictorIIIB",
+                "uniques": [
+                    "New [Military] units start with [10] XP [in all cities] <in cities with a [Governor.Victor]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorIIB]>"
+                ],
+                "row": 3,
+                "column": 15
+            },
+            {
+                "name": "Policy.Governor.VictorIV",
+                "uniques": [
+                    "[+100]% Production when constructing [Unit.NuclearDevice] units [in all cities] <in cities with a [Governor.Victor]>",
+                    "[+100]% Production when constructing [Unit.ThermonuclearDevice] units [in all cities] <in cities with a [Governor.Victor]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.VictorIIIA]> <after adopting [Policy.Governor.VictorIIIB]>"
+                ],
+                "row": 4,
+                "column": 14
+            },
+            {
+                "name": "Policy.Governor.PingalaI",
+                "uniques": [
+                    "[+15]% [Science] [in all cities] <in cities with a [Governor.Pingala]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 18
+            },
+            {
+                "name": "Policy.Governor.PingalaIIA",
+                "uniques": [
+                    "[+100]% [Class.GreatPersonPoint] resource production <in cities with a [Governor.Pingala]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaI]>"
+                ],
+                "row": 2,
+                "column": 17
+            },
+            {
+                "name": "Policy.Governor.PingalaIIB",
+                "uniques": [
+                    "[+1 Science] per [1] population [in all cities] <in cities with a [Governor.Pingala]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaI]>"
+                ],
+                "row": 2,
+                "column": 19
+            },
+            {
+                "name": "Policy.Governor.PingalaIIIA",
+                "uniques": [
+                    "[+3 Science] from every [Building.Library] <in cities with a [Governor.Pingala]>",
+                    "[+5 Science] from every [Building.University] <in cities with a [Governor.Pingala]>",
+                    "[+7 Science] from every [Building.ResearchLab] <in cities with a [Governor.Pingala]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaIIA]>"
+                ],
+                "row": 3,
+                "column": 17
+            },
+            {
+                "name": "Policy.Governor.PingalaIIIB",
+                "uniques": [
+                    "[+1 Food, +3 Science] from every [Building.TradingPost]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaIIB]>"
+                ],
+                "row": 3,
+                "column": 19
+            },
+            {
+                "name": "Policy.Governor.PingalaIV",
+                "uniques": [
+                    "[+50]% Production when constructing [Class.Unit.SpaceRace] units [in all cities] <in cities with a [Governor.Pingala]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.PingalaIIIA]> <after adopting [Policy.Governor.PingalaIIIB]>"
+                ],
+                "row": 4,
+                "column": 18
+            },
+            {
+                "name": "Policy.Governor.LiangI",
+                "uniques": [
+                    "All newly-trained [Unit.CommonWorker1] units [in all cities] receive the [Promotion.UnionLeader] promotion <in cities with a [Governor.Liang]>",
+                    "[+20]% Production when constructing [Unit.CommonWorker1] units [in all cities] <in cities with a [Governor.Liang]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 22
+            },
+            {
+                "name": "Policy.Governor.LiangIIA",
+                "uniques": [
+                    "[+1 Production] from [Landform.VolcanicSoil] tiles [in all cities] <in cities with a [Governor.Liang]>",
+                    "[+1 Production] from [Landform.AlluvialPlain] tiles [in all cities] <in cities with a [Governor.Liang]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangI]>"
+                ],
+                "row": 2,
+                "column": 21
+            },
+            {
+                "name": "Policy.Governor.LiangIIB",
+                "uniques": [
+                    "[+1 Food] from [resource] tiles [in all cities] <in cities with a [Governor.Liang]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangI]>"
+                ],
+                "row": 2,
+                "column": 23
+            },
+            {
+                "name": "Policy.Governor.LiangIIIA",
+                "uniques": [
+                    "Comment [Permit improving [Improvement.Park] in this city]",
+                    "Comment [Reduce the cost of [Governor.Liang.Remove] to [20] Production]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangIIA]>"
+                ],
+                "row": 3,
+                "column": 21
+            },
+            {
+                "name": "Policy.Governor.LiangIIIB",
+                "uniques": [
+                    "[+1 Production] from [resource] tiles [in all cities] <in cities with a [Governor.Liang]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangIIB]>"
+                ],
+                "row": 3,
+                "column": 23
+            },
+            {
+                "name": "Policy.Governor.LiangIV",
+                "uniques": [
+                    "[+2 Happiness] from every [Class.Building.DistrictUnique] <in cities with a [Governor.Liang]>",
+                    "Provides [10] [Resource.halfHouse] <in cities with a [Governor.Liang]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.LiangIIIA]> <after adopting [Policy.Governor.LiangIIIB]>"
+                ],
+                "row": 4,
+                "column": 22
+            },
+            {
+                "name": "Policy.Governor.MokshaI",
+                "uniques": [
+                    "[+15]% [Culture] [in all cities] <in cities with a [Governor.Moksha]>",
+                    "[+2 Faith] from every [Class.Building.DistrictUnique] <in cities with a [Governor.Moksha]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 26
+            },
+            {
+                "name": "Policy.Governor.MokshaIIA",
+                "uniques": [
+                    "[+1 Culture] per [1] population [in all cities] <in cities with a [Governor.Moksha]>",
+                    "[+100]% Natural religion spread [in all cities] <in cities with a [Governor.Moksha]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaI]>"
+                ],
+                "row": 2,
+                "column": 25
+            },
+            {
+                "name": "Policy.Governor.MokshaIIB",
+                "uniques": [
+                    "Provides [2] [Resource.Unit.Prophet] <if [Building.DistrictUnique.HolySite] is constructed>",
+                    "[+2 Faith] <for every [[Building.DistrictUnique.HolySite] Buildings]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaI]>"
+                ],
+                "row": 2,
+                "column": 27
+            },
+            {
+                "name": "Policy.Governor.MokshaIIIA",
+                "uniques": [
+                    "[+1 Food, +2 Culture] from every [Building.TradingPost]",
+                    "[Faith] cost of purchasing items in cities [-10]% <in cities with a [Governor.Moksha]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaIIA]>"
+                ],
+                "row": 3,
+                "column": 25
+            },
+            {
+                "name": "Policy.Governor.MokshaIIIB",
+                "uniques": [
+                    "[150]% of excess happiness converted to [Faith]",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaIIB]>"
+                ],
+                "row": 3,
+                "column": 27
+            },
+            {
+                "name": "Policy.Governor.MokshaIV",
+                "uniques": [
+                    "[+25]% Production when constructing [Class.DistrictBuilding.TheaterSquare] buildings [in all cities] <in cities with a [Governor.Moksha]> <in cities with a [Building.DistrictUnique.HolySite]>",
+                    "[+25]% Production when constructing [Class.DistrictBuilding.TheaterSquare] buildings [in all cities] <in cities with a [Building.DistrictUnique.HolySite]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.MokshaIIIA]> <after adopting [Policy.Governor.MokshaIIIB]>"
+                ],
+                "row": 4,
+                "column": 26
+            },
+            {
+                "name": "Policy.Governor.GrandVizierI",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities] <in cities with a [Governor.GrandVizier]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <for [Nation.Ottoman] Civilizations>",
+                    "Only available <when [Pattern.Viceroy] Victory is enabled>"
+                ],
+                "row": 1,
+                "column": 29
+            },
+            {
+                "name": "Policy.Governor.GrandVizierII",
+                "uniques": [
+                    "[+1 Science] per [1] population [in all cities] <in cities with a [Governor.GrandVizier]>",
+                    "[+23]% Strength <when attacking> <vs cities>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.GrandVizierI]>"
+                ],
+                "row": 2,
+                "column": 29
+            },
+            {
+                "name": "Policy.Governor.GrandVizierIII",
+                "uniques": [
+                    "[+1 Culture] per [1] population [in all cities] <in cities with a [Governor.GrandVizier]>",
+                    "All newly-trained [All] units [in all cities] receive the [Promotion.FastMove] promotion <in cities with a [Governor.GrandVizier]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.GrandVizierII]>"
+                ],
+                "row": 3,
+                "column": 29
+            },
+            {
+                "name": "Policy.Governor.GrandVizierIV",
+                "uniques": [
+                    "[+10 Happiness]",
+                    "Provides [10] [Resource.halfHouse] <in cities with a [Governor.GrandVizier]>",
+                    "Provides [-1] [Resource.GovernorTitle]",
+                    "Only available <when above [0] [Resource.GovernorTitle]> <hidden from users>",
+                    "Only available <after adopting [Policy.Governor.GrandVizierIII]>"
+                ],
+                "row": 4,
+                "column": 29
+            },
+            {
+                "name": "Policy.Governor Complete"
+            }
+        ]
+    }
+    // {
+    //     "name": "PolicyCard",
+    //     "era": "Era.Ancient",
+    //     "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+    //     "uniques": [],
+    //     "policies": //政策卡
+    //     [
+    //         {
+    //             "name": "Mil.jilv",
+    //             "uniques": [
+    //                 "[+23]% Strength <for [Military] units> <vs [Barbarians] units>",
+    //                 "Only available <before discovering [Civic.Colonialism]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Code]>"
+    //             ],
+    //             "row": 1,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Mil.diaocha",
+    //             "uniques": [
+    //                 "[100]% XP gained from combat <for [UnitType.Scout] units>",
+    //                 "Only available <before discovering [Civic.Colonialism]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Code]>"
+    //             ],
+    //             "row": 1,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Mil.sibadajiaoyu",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.Feudalism]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Skill]>"
+    //             ],
+    //             "row": 1,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Mil.haiyunye",
+    //             "uniques": [
+    //                 "[+100]% Production when constructing [{Era.Ancient} {Military} {Water}] units [in all cities]",
+    //                 "[+100]% Production when constructing [{Era.Classical} {Military} {Water}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.Exploration]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.BasicTrade]>"
+    //             ],
+    //             "row": 1,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Mil.yanxi",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.DivinRightOfKings]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MilitaryTradition]>"
+    //             ],
+    //             "row": 1,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Mil.zhengbing",
+    //             "uniques": [
+    //                 "Maintenance fees for all military units -1",
+    //                 "Only available <before discovering [Civic.Mobilization]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NationalLaborForce]>"
+    //             ],
+    //             "row": 1,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Mil.bianfangjun",
+    //             "uniques": [
+    //                 "[+2 Production] [in all cities with a garrison]",
+    //                 "Only available <in cities without a [Mil.lengbao]>",
+    //                 "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.EarlyEmpire]>"
+    //             ],
+    //             "row": 2,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Mil.saodang",
+    //             "uniques": [
+    //                 "No movement cost to pillage <for [UnitType.MeleeInfantry] units>",
+    //                 "No movement cost to pillage <for [UnitType.AntiCavalry] units>",
+    //                 "No movement cost to pillage <for [UnitType.ShortRangedNaval] units>",
+    //                 "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MilitaryTraining]>"
+    //             ],
+    //             "row": 2,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Mil.jingyan",
+    //             "uniques": [
+    //                 "[+30]% Production when constructing [Class.DistrictBuilding.MilitaryEncampment] buildings [in all cities]",
+    //                 "[+30]% Production when constructing [Class.DistrictBuilding.Port] buildings [in all cities]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MilitaryTraining]>"
+    //             ],
+    //             "row": 2,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Mil.qishijieji",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Horse]",
+    //                 "Provides [2] [Resource.Iron]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MilitaryTraining]>"
+    //             ],
+    //             "row": 2,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Mil.lengbao",
+    //             "uniques": [
+    //                 "[+34]% Strength for cities <when defending>",
+    //                 "Only available <in cities without a [Mil.bianfangjun]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.DefensiveTactics]>"
+    //             ],
+    //             "row": 2,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Mil.bianjie",
+    //             "uniques": [
+    //                 "[+100]% Production when constructing [Building.ClassificationWall] buildings [in all cities]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.DefensiveTactics]>"
+    //             ],
+    //             "row": 2,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Mil.fengjianqiyue",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.Nationalism]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Feudalism]>"
+    //             ],
+    //             "row": 3,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Mil.shicong",
+    //             "uniques": [
+    //                 "[+3 Faith] [in all cities with a garrison]",
+    //                 "Only available <before discovering [Civic.MassMedia]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Administration]>"
+    //             ],
+    //             "row": 3,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Mil.zhiyejundui",
+    //             "uniques": [
+    //                 "[-50]% Gold cost of upgrading",
+    //                 "Only available <before discovering [Civic.Urbanization]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mercenaries]>"
+    //             ],
+    //             "row": 3,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Mil.gongjiang",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.IndustrialZone]",
+    //                 "Only available <before discovering [Civic.Ideology]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.TheWorkersUnion]>"
+    //             ],
+    //             "row": 3,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Mil.qishijingshen",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Industrial} {UnitType.LightCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Industrial} {UnitType.HeavyCavalry}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.Ideology]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.DivinRightOfKings]>"
+    //             ],
+    //             "row": 3,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Mil.qiangzhengruwu",
+    //             "uniques": [
+    //                 "[+100]% Production when constructing [{Era.Ancient} {Military} {Water}] units [in all cities]",
+    //                 "[+100]% Production when constructing [{Era.Classical} {Military} {Water}] units [in all cities]",
+    //                 "[+100]% Production when constructing [{Era.Medieval} {Military} {Water}] units [in all cities]",
+    //                 "[+100]% Production when constructing [{Era.Renaissance} {Military} {Water}] units [in all cities]",
+    //                 "[+100]% Production when constructing [{Era.Industrial} {Military} {Water}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.ColdWar]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Exploration]>"
+    //             ],
+    //             "row": 3,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Mil.houqin",
+    //             "uniques": [
+    //                 "[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mercantilism]>"
+    //             ],
+    //             "row": 4,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Mil.xunlianshouce",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Niter]",
+    //                 "Provides [2] [Resource.Coal]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mercantilism]>"
+    //             ],
+    //             "row": 4,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Mil.bentuzhengfu",
+    //             "uniques": [
+    //                 "Earn [20]% of killed [Military] unit's [Strength] as [Gold]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Colonialism]>"
+    //             ],
+    //             "row": 4,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Mil.dajuntuan",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Industrial} {UnitType.MeleeInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Industrial} {UnitType.RangedInfantry}] units [in all cities]",
+    //                 "[+50]% Production when constructing [{Era.Industrial} {UnitType.AntiCavalry}] units [in all cities]",
+    //                 "Only available <before discovering [Civic.EmergencyDeployment]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Nationalism]>"
+    //             ],
+    //             "row": 4,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Mil.guojiarentong",
+    //             "uniques": [
+    //                 "No damage penalty for wounded units",
+    //                 "Only available <before discovering [Civic.EmergencyDeployment]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Nationalism]>"
+    //             ],
+    //             "row": 4,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Mil.junshiyanjiu",
+    //             "uniques": [
+    //                 "[+2 Science] from every [Building.MilitaryAcademy]",
+    //                 "[+2 Science] from every [Building.Dock]",
+    //                 "[+2 Science] from every [Building.RenaissanceWalls]",
+    //                 "Only available <before discovering [Civic.SpaceRace]>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Urbanization]>"
+    //             ],
+    //             "row": 4,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Mil.junduixiandaihua",
+    //             "uniques": [
+    //                 "[-75]% Gold cost of upgrading",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Urbanization]>"
+    //             ],
+    //             "row": 5,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Mil.quanmianzhanzheng",
+    //             "uniques": [
+    //                 "No movement cost to pillage <for [UnitType.MeleeInfantry] units>",
+    //                 "No movement cost to pillage <for [UnitType.AntiCavalry] units>",
+    //                 "No movement cost to pillage <for [UnitType.ShortRangedNaval] units>",
+    //                 "No movement cost to pillage <for [UnitType.RangedInfantry] units>",
+    //                 "No movement cost to pillage <for [UnitType.Siege] units>",
+    //                 "No movement cost to pillage <for [UnitType.LongRangedNaval] units>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ScorchedEarthStrategy]>"
+    //             ],
+    //             "row": 5,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Mil.ziyuanguanli",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Aluminum]",
+    //                 "Provides [2] [Resource.Oil]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.EarthProtection]>"
+    //             ],
+    //             "row": 5,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Mil.quanmindongyuan",
+    //             "uniques": [
+    //                 "Maintenance fees for all military units -1",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mobilization]>"
+    //             ],
+    //             "row": 5,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Mil.shandianzhan",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [UnitType.LightCavalry] units [in all cities]",
+    //                 "[+50]% Production when constructing [UnitType.HeavyCavalry] units [in all cities]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Ideology]>"
+    //             ],
+    //             "row": 5,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Mil.disanxuanze",
+    //             "uniques": [
+    //                 "[+2 Culture] from every [Building.ResearchLab]",
+    //                 "[+2 Culture] from every [Building.MilitaryAcademy]",
+    //                 "[+2 Culture] from every [Class.Building.PowerPlant]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Tolalitarianism]>"
+    //             ],
+    //             "row": 5,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Mil.gonghai",
+    //             "uniques": [
+    //                 "[+100]% Production when constructing [{Military} {Water}] units [in all cities]",
+    //                 "[-100]% Production when constructing [UnitType.AircraftCarrier] units [in all cities]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ColdWar]>"
+    //             ],
+    //             "row": 6,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Mil.ercigongjinengli",
+    //             "uniques": [
+    //                 "Nuclear device maintenance fee reduced by 50%",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ColdWar]>"
+    //             ],
+    //             "row": 6,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Mil.xingdongzongjiebaogao",
+    //             "uniques": [
+    //                 "[+50]% XP gained from combat <for [Military] units>",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.EmergencyDeployment]>"
+    //             ],
+    //             "row": 6,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Mil.xianjunzhengce",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [UnitType.MeleeInfantry] units [in all cities]",
+    //                 "[+50]% Production when constructing [UnitType.RangedInfantry] units [in all cities]",
+    //                 "[+50]% Production when constructing [UnitType.AntiCavalry] units [in all cities]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.EmergencyDeployment]>"
+    //             ],
+    //             "row": 6,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Mil.yitihuakongjianjigou",
+    //             "uniques": [
+    //                 "[+8]% [Production] from every [Building.MilitaryAcademy]",
+    //                 "[+8]% [Production] from every [Building.Dock]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SpaceRace]>"
+    //             ],
+    //             "row": 6,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Mil.zhanlvekongjun",
+    //             "uniques": [
+    //                 "[+100]% Production when constructing [Air] units [in all cities]",
+    //                 "[+100]% Production when constructing [UnitType.AircraftCarrier] units [in all cities]",
+    //                 "Class.Policy.Military",
+    //                 "Consumes [1] [Resource.MilitaryPolicySlot]",
+    //                 "Only available <when above [0] [Resource.MilitaryPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Globalization]>"
+    //             ],
+    //             "row": 6,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.junzhuchongbai",
+    //             "uniques": [
+    //                 "Only available <before discovering [Civic.Theology]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Code]>",
+    //                 "[+1 Gold]",
+    //                 "[+2 Faith]"
+    //             ],
+    //             "row": 7,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.chengshiguihua",
+    //             "uniques": [
+    //                 "[+1 Production] [in all cities]",
+    //                 "Only available <before discovering [Civic.Feudalism]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Code]>"
+    //             ],
+    //             "row": 7,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.fuyi",
+    //             "uniques": [
+    //                 "[+30]% Production when constructing [Class.Unit.Builder] units [in all cities]",
+    //                 "Only available <before discovering [Civic.Feudalism]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Skill]>"
+    //             ],
+    //             "row": 7,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.xianji",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [Class.Unit.Builder] units [in all cities]",
+    //                 "Only available <before discovering [Civic.Feudalism]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Skill]>",
+    //                 "Only available <for [Nation.Aztec]>",
+    //                 "Unavailable <after adopting []>"
+    //             ],
+    //             "row": 7,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.shangduilvguan",
+    //             "uniques": [
+    //                 "[+2 Gold] from each Trade Route",
+    //                 "Only available <before discovering [Civic.Mercantilism]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.BasicTrade]>"
+    //             ],
+    //             "row": 7,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.qiangpolaoyi",
+    //             "uniques": [
+    //                 "[+15]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
+    //                 "[+15]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities]",
+    //                 "Only available <before discovering [Civic.DivinRightOfKings]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NationalLaborForce]>"
+    //             ],
+    //             "row": 7,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.tudiceliangyuan",
+    //             "uniques": [
+    //                 "[-20]% Gold cost of acquiring tiles [in all cities]",
+    //                 "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.EarlyEmpire]>"
+    //             ],
+    //             "row": 8,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.zhimin",
+    //             "uniques": [
+    //                 "[+50]% Production when constructing [Unit.Settler] units [in all cities]",
+    //                 "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.EarlyEmpire]>"
+    //             ],
+    //             "row": 8,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.loufang",
+    //             "uniques": [
+    //                 "[+1 Food] from every [Class.Building.DistrictUnique]",
+    //                 "Only available <before discovering [Civic.MedievalBazaar]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.GamesAndEntertainment]>"
+    //             ],
+    //             "row": 8,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.ziranzhexue",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.Campus]",
+    //                 "Only available <before discovering [Civic.Ideology]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.History]>"
+    //             ],
+    //             "row": 8,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.jingwen",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.HolySite]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Theology]>"
+    //             ],
+    //             "row": 8,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.haijunjichusheshi",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.Harbor]",
+    //                 "Only available <before discovering [Civic.NavalTradition]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NavalTradition]>"
+    //             ],
+    //             "row": 8,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.nongnuzhi",
+    //             "uniques": [
+    //                 "Comment [+2 usage for all Builders]",
+    //                 "Provides [2] [Resource.AuxiliaryCounter1] <hidden from users>",
+    //                 "Only available <before discovering [Civic.CivilEngineering]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Feudalism]>"
+    //             ],
+    //             "row": 9,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.minjianweiwang",
+    //             "uniques": [
+    //                 "[+4 Food, -1 Production, +3 Gold] from every [Class.Governor.Level1]",
+    //                 "Only available <before discovering [Civic.MassMedia]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Administration]>"
+    //             ],
+    //             "row": 9,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.maoyilianmeng",
+    //             "uniques": [
+    //                 "[+1 Science, +1 Culture] from each Trade Route",
+    //                 "Only available <before discovering [Civic.Capitalism]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mercenaries]>"
+    //             ],
+    //             "row": 9,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.meixue",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.TheaterSquare]",
+    //                 "Only available <before discovering [Civic.ProfessionalSports]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MedievalBazaar]>"
+    //             ],
+    //             "row": 9,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.gulaochengqu",
+    //             "uniques": [
+    //                 "[+2 Culture] <in cities with a [Class.Building.DistrictUnique]>",
+    //                 "Only available <before discovering [Civic.RightToVote]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MedievalBazaar]>"
+    //             ],
+    //             "row": 9,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.chengzhentexuzhuang",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.CommercialHub]",
+    //                 "Only available <before discovering [Civic.Ideology]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.TheWorkersUnion]>"
+    //             ],
+    //             "row": 9,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.geteshijianzhu",
+    //             "uniques": [
+    //                 "[+15]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
+    //                 "[+15]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities]",
+    //                 "[+15]% Production when constructing [Class.WonderEra.Medieval] wonders [in all cities]",
+    //                 "[+15]% Production when constructing [Class.WonderEra.Renaissance] wonders [in all cities]",
+    //                 "Only available <before discovering [Civic.CivilEngineering]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.DivinRightOfKings]>"
+    //             ],
+    //             "row": 10,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.zhimindibanshichu",
+    //             "uniques": [
+    //                 "[20]% Food is carried over after population increases [in all cities connected to capital]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Exploration]>"
+    //             ],
+    //             "row": 10,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.zongjiaojiaopai",
+    //             "uniques": [
+    //                 "[+100]% Spread Religion Strength <for [Unit.Missionary] units>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ReformedChurch]>"
+    //             ],
+    //             "row": 10,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.gongxiangjiaotang",
+    //             "uniques": [
+    //                 "[+1 Faith] from every [Class.DistrictBuilding.HolySite]",
+    //                 "[+50]% [Faith] <in cities with at least [15] [Population]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ReformedChurch]>"
+    //             ],
+    //             "row": 10,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.sanjiaomaoyi",
+    //             "uniques": [
+    //                 "[+4 Gold, +1 Faith] from each Trade Route",
+    //                 "Only available <before discovering [Civic.Globalization]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mercantilism]>"
+    //             ],
+    //             "row": 10,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.lixingzhuyi",
+    //             "uniques": [
+    //                 "[+1 Science] from every [Class.DistrictBuilding.Campus]",
+    //                 "[+50]% [Science] <in cities with at least [15] [Population]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Enlightenment]>"
+    //             ],
+    //             "row": 10,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.ziyoushichang",
+    //             "uniques": [
+    //                 "[+1 Gold] from every [Class.DistrictBuilding.CommercialHub]",
+    //                 "[+50]% [Gold] <in cities with at least [15] [Population]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Enlightenment]>"
+    //             ],
+    //             "row": 11,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.ziyouzhuyi",
+    //             "uniques": [
+    //                 "[+2] Movement <for [Class.GreatPerson] units>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Enlightenment]>"
+    //             ],
+    //             "row": 11,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.gonggonggongcheng",
+    //             "uniques": [
+    //                 "[+30]% Production when constructing [Class.Unit.Builder] units [in all cities]",
+    //                 "Comment [+2 usage for all Builders]",
+    //                 "Provides [2] [Resource.AuxiliaryCounter1] <hidden from users>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.CivilEngineering]>"
+    //             ],
+    //             "row": 11,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.motiandalou",
+    //             "uniques": [
+    //                 "[+15]% Production when constructing [All] wonders [in all cities]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.CivilEngineering]>"
+    //             ],
+    //             "row": 11,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.ziyoushichang2",
+    //             "uniques": [
+    //                 "[+1 Culture] from every [Class.DistrictBuilding.TheaterSquare]",
+    //                 "[+50]% [Culture] <in cities with at least [15] [Population]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.OperaAndBallet]>"
+    //             ],
+    //             "row": 11,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.zhengshou",
+    //             "uniques": [
+    //                 "[-20]% Gold cost of acquiring tiles [in all cities]",
+    //                 "[+50]% Production when constructing [Unit.Settler] units [in all cities]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ScorchedEarthStrategy]>"
+    //             ],
+    //             "row": 11,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.shichangjingji",
+    //             "uniques": [
+    //                 "[+1 Gold, +2 Culture] from [Luxury resource] tiles [in all cities] <in cities with a [Building.Market]>",
+    //                 "[+1 Gold, +2 Science] from [Strategic resource] tiles [in all cities] <in cities with a [Building.Market]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Capitalism]>"
+    //             ],
+    //             "row": 12,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.jihuajingji",
+    //             "uniques": [
+    //                 "[+1 Science, +1 Culture, +1 Production] from [Strategic resource] tiles [in all cities] <in cities with a [Building.Workshop]>",
+    //                 "[+1 Science, +1 Culture, +1 Production] from [Luxury resource] tiles [in all cities] <in cities with a [Building.Workshop]>",
+    //                 "[+1 Science, +1 Culture, +1 Production] from [Bonus resource] tiles [in all cities] <in cities with a [Building.Workshop]>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Capitalism]>",
+    //                 "Only available <for [Nation.SU]>",
+    //                 "Unavailable <after adopting []>"
+    //             ],
+    //             "row": 12,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.jingjitongmeng",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.CommercialHub]",
+    //                 "[+100]% Yield from every [Class.Harbor]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Ideology]>"
+    //             ],
+    //             "row": 12,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.wunianjihua",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.Campus]",
+    //                 "[+100]% Yield from every [Class.IndustrialZone]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Ideology]>"
+    //             ],
+    //             "row": 12,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.xinzheng",
+    //             "uniques": [
+    //                 "[+1 Production] from every [Class.Building.DistrictUnique]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.RightToVote]>"
+    //             ],
+    //             "row": 12,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.jitihua",
+    //             "uniques": [
+    //                 "[+2 Food, +4 Production] [in all cities connected to capital]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ClassStruggle]>"
+    //             ],
+    //             "row": 12,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.yichanlvyou",
+    //             "uniques": [
+    //                 "[+15]% [Culture] [in all cities]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.CulturalHeritage]>"
+    //             ],
+    //             "row": 13,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Eco.tiyuchuanmei",
+    //             "uniques": [
+    //                 "[+100]% Yield from every [Class.TheaterSquare]",
+    //                 "Comment [Provides 1 more Livability from every Stadium]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ProfessionalSports]>"
+    //             ],
+    //             "row": 13,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Eco.weixingguangbo",
+    //             "uniques": [
+    //                 "[+15]% [Culture] [in all cities]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SpaceRace]>"
+    //             ],
+    //             "row": 13,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Eco.dianzishangwu",
+    //             "uniques": [
+    //                 "[+2 Production, +5 Gold] from each Trade Route",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Globalization]>"
+    //             ],
+    //             "row": 13,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Eco.zaixianshequ",
+    //             "uniques": [
+    //                 "Gain [150] [Culture] <upon declaring friendship>",
+    //                 "Free [Unit.Infantry] appears <upon declaring war with a major Civilization>",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SocialMedia]>"
+    //             ],
+    //             "row": 13,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Eco.DysfunctionalUrbanization",
+    //             "uniques": [
+    //                 "Comment [Consumes 1 Livability in all cities]",
+    //                 "[+1 Production] per [1] population [in capital]",
+    //                 "[+1 Production] per [3] population [in all cities]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Urbanization]>",
+    //                 "Only available <for [Nation.India]>",
+    //                 "Unavailable <after adopting []>"
+    //             ],
+    //             "row": 13,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Eco.qushexingjian",
+    //             "uniques": [
+    //                 "[+15]% [Gold] [in all cities]",
+    //                 "Class.Policy.Economy",
+    //                 "Consumes [1] [Resource.EconomicPolicySlot]",
+    //                 "Only available <when above [0] [Resource.EconomicPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NationalLaborForce]>",
+    //                 "Only available <for [Nation.Shang]>",
+    //                 "Unavailable <after adopting []>"
+    //             ],
+    //             "row": 14,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Dip.meilixinglingxiu",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Influence]",
+    //                 "Only available <before discovering [Civic.Ideology]>",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.PoliticalPhilosophy]>"
+    //             ],
+    //             "row": 14,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Dip.silingbu",
+    //             "uniques": [
+    //                 "Comment [Provides 1 Livability from every Governor Level 1 Building]",
+    //                 "Only available <before discovering [Civic.SocialMedia]>",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.History]>"
+    //             ],
+    //             "row": 14,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Dip.shangrenlianmeng",
+    //             "uniques": [
+    //                 "[+100]% [Gold] from City-States",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MedievalBazaar]>"
+    //             ],
+    //             "row": 14,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Dip.quanshuzhuyi",
+    //             "uniques": [
+    //                 "Enemy [Unit.Spy] units must spend [2] extra movement points when inside your territory",
+    //                 "[+50]% Production when constructing [Unit.Spy] units [in all cities]",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ForeighService]>"
+    //             ],
+    //             "row": 14,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Dip.maoyiyinhang",
+    //             "uniques": [
+    //                 "[+2 Food, +2 Production] from each Trade Route",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ForeighService]>"
+    //             ],
+    //             "row": 14,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Dip.zhimindishuishou",
+    //             "uniques": [
+    //                 "[+25]% [Gold] [in all cities connected to capital] <in cities with a [Building.Lighthouse]>",
+    //                 "[+10]% [Production] [in all cities connected to capital] <in cities with a [Building.Lighthouse]>",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Colonialism]>"
+    //             ],
+    //             "row": 15,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Dip.paojianwaijiao",
+    //             "uniques": [
+    //                 "City-State territory always counts as friendly territory",
+    //                 "Provides [4] [Resource.Influence]",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Ideology]>"
+    //             ],
+    //             "row": 15,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Dip.hejiandie",
+    //             "uniques": [
+    //                 "[+2] Sight <for [Unit.Spy] units>",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NuclearProgram]>"
+    //             ],
+    //             "row": 15,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Dip.mimaxue",
+    //             "uniques": [
+    //                 "[+1] Sight <for [All] units>",
+    //                 "[+2] Movement <for [Unit.Spy] units>",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ColdWar]>"
+    //             ],
+    //             "row": 15,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Dip.ezhi",
+    //             "uniques": [
+    //                 "[+30]% Strength <vs [City-States]>",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ColdWar]>"
+    //             ],
+    //             "row": 15,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Dip.yinyueshenchazhidu",
+    //             "uniques": [
+    //                 "Influence of all other civilizations with all city-states degrades [100]% faster",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SpaceRace]>"
+    //             ],
+    //             "row": 15,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Dip.guojiyuhangju",
+    //             "uniques": [
+    //                 "Consumes [5] [Resource.DiplomaticFavor]",
+    //                 "[+30]% [Science] [in all cities]",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Globalization]>"
+    //             ],
+    //             "row": 16,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Dip.jitixingdongzhuyi",
+    //             "uniques": [
+    //                 "Consumes [5] [Resource.DiplomaticFavor]",
+    //                 "[+30]% [Culture] [in all cities]",
+    //                 "Class.Policy.Diplomacy",
+    //                 "Consumes [1] [Resource.DiplomaticPolicySlot]",
+    //                 "Only available <when above [0] [Resource.DiplomaticPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SocialMedia]>"
+    //             ],
+    //             "row": 16,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Gene.FrenchCivilCode",
+    //             "uniques": [
+    //                 "[+50]% [Production] [in annexed cities]",
+    //                 "[+25]% [Science] [in annexed cities]",
+    //                 "[+25]% [Culture] [in annexed cities]",
+    //                 "[+1] Movement <for [Unit.Musketeer] units>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Enlightenment]>",
+    //                 "Only available <for [Nation.France]>",
+    //                 "Unavailable <after adopting []>"
+    //             ],
+    //             "row": 16,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Gene.jiangjun",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Unit.General]",
+    //                 "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.MilitaryTradition]>"
+    //             ],
+    //             "row": 16,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Gene.guwu",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Unit.Scientist]",
+    //                 "Only available <before discovering [Civic.NuclearProgram]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mysticism]>"
+    //             ],
+    //             "row": 16,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Gene.qishi",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Unit.Prophet]",
+    //                 "Only available <before founding a religion>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Mysticism]>"
+    //             ],
+    //             "row": 16,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Gene.wenxuechuantong",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Unit.Artist]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.DramaAndPoetry]>"
+    //             ],
+    //             "row": 17,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Gene.hanghai",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Unit.Admiral]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NavalTradition]>"
+    //             ],
+    //             "row": 17,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Gene.lvxingshangren",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.Unit.Merchant]",
+    //                 "Only available <before discovering [Civic.Capitalism]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.TheWorkersUnion]>"
+    //             ],
+    //             "row": 17,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Gene.faming",
+    //             "uniques": [
+    //                 "Provides [6] [Resource.Unit.Engineer]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Humanism]>"
+    //             ],
+    //             "row": 17,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Gene.bihua",
+    //             "uniques": [
+    //                 "Provides [6] [Resource.Unit.Artist]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Humanism]>"
+    //             ],
+    //             "row": 17,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Gene.jiaoxiangqu",
+    //             "uniques": [
+    //                 "Provides [6] [Resource.Unit.Artist]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.OperaAndBallet]>"
+    //             ],
+    //             "row": 17,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Gene.junshizuzhi",
+    //             "uniques": [
+    //                 "Provides [6] [Resource.Unit.General]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ScorchedEarthStrategy]>"
+    //             ],
+    //             "row": 18,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Gene.buganshezhuyi",
+    //             "uniques": [
+    //                 "[Unit.Merchant] is earned [50]% faster",
+    //                 "Provides [6] [Resource.Unit.Merchant]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Capitalism]>"
+    //             ],
+    //             "row": 18,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Gene.kexuejijinhui",
+    //             "uniques": [
+    //                 "Provides [6] [Resource.Unit.Scientist]",
+    //                 "Provides [6] [Resource.Unit.Engineer]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NuclearProgram]>"
+    //             ],
+    //             "row": 18,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Gene.guangrongshike",
+    //             "uniques": [
+    //                 "[+23]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.RightToVote]>"
+    //             ],
+    //             "row": 18,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Gene.junshiguanzhi",
+    //             "uniques": [
+    //                 "[+50]% Strength for cities <with a garrison> <when attacking>",
+    //                 "[+4 Production, -2 Food] [in all cities with a garrison]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.Tolalitarianism]>"
+    //             ],
+    //             "row": 18,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Gene.baoweizuguo",
+    //             "uniques": [
+    //                 "[+34]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+    //                 "[-13]% Strength <for [Military] units> <in [Foreign Land] tiles>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.ClassStruggle]>"
+    //             ],
+    //             "row": 18,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Gene.waijiaoziben",
+    //             "uniques": [
+    //                 "Provides [2] [Resource.DiplomaticFavor]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SmartPowerFoctrine]>"
+    //             ],
+    //             "row": 19,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Gene.quanqiulianhe",
+    //             "uniques": [
+    //                 "[+34]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.SmartPowerFoctrine]>"
+    //             ],
+    //             "row": 19,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Gene.zonghegongjihouqinbaozhang",
+    //             "uniques": [
+    //                 "[+2] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>",
+    //                 "[+50]% Production when constructing [UnitType.Mech] units [in all cities]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.InformationWarfare]>"
+    //             ],
+    //             "row": 19,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Gene.shandongrenxin",
+    //             "uniques": [
+    //                 "[+100]% Production when constructing [Building.UtopiaProject] buildings [in all cities]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.InformationWarfare]>"
+    //             ],
+    //             "row": 19,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Gene.hangtianchengbaoshang",
+    //             "uniques": [
+    //                 "Provides [5] [Resource.Aluminum]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NecessityExpedition]>"
+    //             ],
+    //             "row": 19,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Gene.taikonglvyou",
+    //             "uniques": [
+    //                 "[-30]% Culture cost of adopting new Policies",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.NecessityExpedition]>"
+    //             ],
+    //             "row": 19,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Gene.hanliu",
+    //             "uniques": [
+    //                 "New [Military] units start with [30] Experience [in all cities]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.CulturalHegemony]>"
+    //             ],
+    //             "row": 20,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Gene.feiguojiaxingweizhe",
+    //             "uniques": [
+    //                 "Provides [4] [Resource.SpyCapacity]",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>",
+    //                 "Only available <after discovering [Civic.CulturalHegemony]>"
+    //             ],
+    //             "row": 20,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Gene.guatouchuancheng",
+    //             "uniques": [
+    //                 "[+18]% Strength <for [UnitType.MeleeInfantry] units>",
+    //                 "[+18]% Strength <for [UnitType.AntiCavalry] units>",
+    //                 "[+18]% Strength <for [UnitType.ShortRangedNaval] units>",
+    //                 "[+18]% Strength <for [UnitType.LightCavalry] units> <for [Nation.Macedonia]> <hidden from users>",
+    //                 "[+18]% Strength <for [UnitType.HeavyCavalry] units> <for [Nation.Macedonia]> <hidden from users>",
+    //                 "Only available <if [Class.Building.Level3Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.gonghechuancheng]>",
+    //                 "Only available <in cities without a [Gene.zhuanzhichuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 20,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Gene.gonghechuancheng",
+    //             "uniques": [
+    //                 "Comment [Provides 1 Livability in cities with a Unique District Landmark]",
+    //                 "Comment [Provides 2 1/2 Remaining Housing Capacity in cities with a Unique District Landmark]",
+    //                 "Only available <if [Class.Building.Level3Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.guatouchuancheng]>",
+    //                 "Only available <in cities without a [Gene.zhuanzhichuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 20,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Gene.zhuanzhichuancheng",
+    //             "uniques": [
+    //                 "[+10]% Production when constructing [All] wonders [in all cities]",
+    //                 "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.GovernmentPlaza]",
+    //                 "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Class.DistrictBuilding.ForeignQuarter]",
+    //                 "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
+    //                 "Only available <if [Class.Building.Level3Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.guatouchuancheng]>",
+    //                 "Only available <in cities without a [Gene.gonghechuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 20,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "Gene.junzhuchuancheng",
+    //             "uniques": [
+    //                 "[+2 Food] from every [Building.ClassificationWall]",
+    //                 "Comment [Provides 1 Livability in cities with a Wall]",
+    //                 "Resting point for Influence with City-States is increased by [20]",
+    //                 "Only available <if [Class.Building.Level4Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.shenquanchuancheng]>",
+    //                 "Only available <in cities without a [Gene.zhongshangchuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 20,
+    //             "column": 11
+    //         },
+    //         {
+    //             "name": "Gene.shenquanchuancheng",
+    //             "uniques": [
+    //                 "[+1 Faith] per [2] population [in all cities]",
+    //                 "[Faith] cost of purchasing items in cities [-15]%",
+    //                 "Only available <if [Class.Building.Level4Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.junzhuchuancheng]>",
+    //                 "Only available <in cities without a [Gene.zhongshangchuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 21,
+    //             "column": 1
+    //         },
+    //         {
+    //             "name": "Gene.zhongshangchuancheng",
+    //             "uniques": [
+    //                 "[+15]% [Gold] [in all cities]",
+    //                 "[+50]% Production when constructing [Class.Building.DistrictUnique] buildings [in all cities]",
+    //                 "Only available <if [Class.Building.Level4Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.junzhuchuancheng]>",
+    //                 "Only available <in cities without a [Gene.shenquanchuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 21,
+    //             "column": 3
+    //         },
+    //         {
+    //             "name": "Gene.minzhuchuancheng",
+    //             "uniques": [
+    //                 "[+4 Food, +4 Production] from each Trade Route",
+    //                 "[Gold] cost of purchasing items in cities [-15]%",
+    //                 "Only available <if [Class.Building.Level5Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.gongchanchuancheng]>",
+    //                 "Only available <in cities without a [Gene.faxisichuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 21,
+    //             "column": 5
+    //         },
+    //         {
+    //             "name": "Gene.gongchanchuancheng",
+    //             "uniques": [
+    //                 "[+10]% [Science] [in all cities]",
+    //                 "[+4 Production] per [5] population [in all cities]",
+    //                 "Only available <if [Class.Building.Level5Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.minzhuchuancheng]>",
+    //                 "Only available <in cities without a [Gene.faxisichuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 21,
+    //             "column": 7
+    //         },
+    //         {
+    //             "name": "Gene.faxisichuancheng",
+    //             "uniques": [
+    //                 "[+23]% Strength <for [Military] units>",
+    //                 "[+35]% Production when constructing [All] units [in all cities]",
+    //                 "Only available <if [Class.Building.Level5Government] is constructed>",
+    //                 "Only available <in cities without a [Gene.minzhuchuancheng]>",
+    //                 "Only available <in cities without a [Gene.gongchanchuancheng]>",
+    //                 "Class.Policy.General",
+    //                 "Consumes [1] [Resource.GenericPolicySlot]",
+    //                 "Only available <when above [0] [Resource.GenericPolicySlot]>"
+    //             ],
+    //             "row": 21,
+    //             "column": 9
+    //         },
+    //         {
+    //             "name": "PolicyCard Complete"
+    //         }
+    //     ]
+    // }
+]

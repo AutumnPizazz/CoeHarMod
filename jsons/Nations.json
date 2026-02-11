@@ -1,0 +1,3686 @@
+[
+	{ //看海
+		"name": "Spectator",
+		"outerColor": [
+			255,
+			255,
+			255
+		]
+		//		"innerColor": [255,255,255]
+	},
+	{ //罗马
+		"name": "Nation.Rome",
+		"leaderName": "Trajan",
+		"adjective": [
+			"Roman"
+		],
+		"startBias": [
+			"Plains",
+			"Grassland"
+		],
+		"preferredVictoryType": "VictoryType.Conquest",
+		"outerColor": [
+			72,
+			61,
+			139
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		],
+		"uniqueName": "Roman Legions",
+		"uniques": [
+			"Gain a free [Building.Monument] [in all cities]",
+			"[-1 Culture] from every [Building.Monument] <before discovering [Civic.EarlyEmpire]>",
+			"[-50]% construction time for [All Road] improvements"
+		],
+		"cities": [
+			"Rome",
+			"Carthage",
+			"Athens",
+			"Alexandria",
+			"Sparta",
+			"Corinth",
+			"Byzantium",
+			"Pompeii",
+			"Florence",
+			"Venice",
+			"Naples",
+			"Milan",
+			"Turin",
+			"Verona",
+			"Genoa",
+			"Pisa",
+			"Siena",
+			"Palermo",
+			"Catania",
+			"Bari"
+		]
+	},
+	{ //朝鲜
+		"name": "Nation.Korea",
+		"leaderName": "Queen Seondeok",
+		"adjective": [
+			"Korean"
+		],
+		"outerColor": [
+			0,
+			104,
+			183
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"startBias": [
+			"Landform.Hill",
+			"Avoid [Mountain]"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Hwarang",
+		"uniques": [
+			"[+8]% [Science] [in all cities] <in cities with a [Class.Governor]>",
+			"[-15]% [Science] [in all cities] <in cities without a [Class.Governor]>"
+		],
+		"cities": [
+			"Seoul",
+			"Pyongyang",
+			"Busan",
+			"Gyeongju",
+			"Kaesong",
+			"Jeonju",
+			"Suwon",
+			"Andong",
+			"Gwangju",
+			"Jeju",
+			"Ulsan",
+			"Incheon",
+			"Changwon",
+			"Gimhae",
+			"Cheongju",
+			"Daegu",
+			"Daejeon",
+			"Gangneung",
+			"Wonju",
+			"Yeongju"
+		]
+	},
+	{ //明朝
+		"name": "Nation.Ming",
+		"leaderName": "Emperor Zhu Di",
+		"adjective": [
+			"Ming"
+		],
+		"outerColor": [
+			0,
+			128,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"startBias": [
+			"Landform.Rainforest",
+			"Landform.Swamp"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Yongle Prosperity",
+		"uniques": [
+			"[+2 Science, +2 Culture, +4 Gold] per [3] population [in all cities] <in cities with at least [10] [Population]>",
+			"[-15]% Unhappiness from [Population] [in all cities] <in cities with at least [10] [Population]>",
+            "Comment [[+1] [Usage]] <for [Unit.CommonWorker1] units>",
+			"Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
+		],
+		"cities": [
+			"Beijing",
+			"Nanjing",
+			"Suzhou",
+			"Hangzhou",
+			"Xi'an",
+			"Kaifeng",
+			"Wuhan",
+			"Changsha",
+			"Fuzhou",
+			"Guangzhou",
+			"Quanzhou",
+			"Ningbo",
+			"Shaoxing",
+			"Wenzhou",
+			"Taizhou",
+			"Yangzhou",
+			"Chengdu",
+			"Kunming",
+			"Lanzhou",
+			"Zhengzhou"
+		]
+	},
+	{ //高卢
+		"name": "Nation.Gaul",
+		"leaderName": "Ambiorix",
+		"adjective": [
+			"Gaulish"
+		],
+		"outerColor": [
+			139,
+			69,
+			19
+		],
+		"innerColor": [
+			255,
+			153,
+			51
+		],
+		"startBias": [
+			"Landform.Hill"
+		],
+		"preferredVictoryType": "VictoryType.Conquest",
+		"uniqueName": "Halltarstadt",
+		"uniques": [
+			"[+1 Culture] from every [Improvement.Mine] <after discovering [Tech.Apprentices]>",
+			"[+23]% Strength <for [UnitType.MeleeInfantry] units> <when adjacent to a [{Military} {Land}] unit>",
+			"[+23]% Strength <for [UnitType.AntiCavalry] units> <when adjacent to a [{Military} {Land}] unit>",
+			"[+23]% Strength <for [UnitType.RangedInfantry] units> <when adjacent to a [{Military} {Land}] unit>",
+			"[+34]% Strength <for [Military] units> <when fighting in [District.Oppidum] tiles> <when defending>"
+		],
+		"cities": [
+			"Lutetia",
+			"Gergovia",
+			"Alesia",
+			"Bibracte",
+			"Mediolanum",
+			"Aedica",
+			"Edua",
+			"Divodurum",
+			"Noviodunum",
+			"Vesontio",
+			"Briva Curretia",
+			"Lugdunum",
+			"Nemetocenna",
+			"Vindonissa",
+			"Alesia Mandubiorum",
+			"Bibracte Allobrogum",
+			"Noviodunum Biturigum",
+			"Avaricum",
+			"Cabillonum",
+			"Durocortorum"
+		]
+	},
+	{ //神圣罗马帝国
+		"name": "Nation.Germany",
+		"leaderName": "Frederick Barbarossa",
+		"adjective": [
+			"German"
+		],
+		"outerColor": [
+			255,
+			215,
+			0
+		],
+		"innerColor": [
+			139,
+			0,
+			0
+		],
+		"startBias": [
+			"River"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Freie Reichsstadt",
+		"uniques": [
+			"Provides [1] [Resource.MilitaryPolicySlot]",
+			"[+28]% Strength <vs [City-States]>"
+		],
+		"cities": [
+			"Berlin",
+			"Hamburg",
+			"Munich",
+			"Cologne",
+			"Frankfurt",
+			"Stuttgart",
+			"Dresden",
+			"Leipzig",
+			"Nuremberg",
+			"Hannover",
+			"Bremen",
+			"Dortmund",
+			"Essen",
+			"Düsseldorf",
+			"Duisburg",
+			"Bochum",
+			"Wuppertal",
+			"Bielefeld",
+			"Bonn",
+			"Münster"
+		]
+	},
+	{ //埃及
+		"name": "Nation.Egypt",
+		"leaderName": "Cleopatra",
+		"adjective": [
+			"Egyptian"
+		],
+		"outerColor": [
+			0,
+			128,
+			128
+		], // 深青色
+		"innerColor": [
+			255,
+			215,
+			0
+		], // 金色
+		"startBias": [
+			"River"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Mother Nile",
+		"uniques": [
+			"[+2 Food] in cities on [River] tiles",
+			"Comment [[[+2] [Resource.halfHouse]] in cities on [River] tiles]"
+		],
+		"cities": [
+			"Thebes",
+			"Memphis",
+			"Heliopolis",
+			"Elephantine",
+			"Alexandria",
+			"Pi-Ramesses",
+			"Giza",
+			"Byblos",
+			"Akhetaten",
+			"Hieraconpolis",
+			"Abydos",
+			"Asyut",
+			"Avaris",
+			"Lisht",
+			"Buto",
+			"Edfu",
+			"Pithom",
+			"Busiris",
+			"Kahun",
+			"Athribis",
+			"Mendes",
+			"Elashmunein",
+			"Tanis",
+			"Bubastis",
+			"Oryx",
+			"Sebennytus",
+			"Akhmin",
+			"Karnak",
+			"Luxor",
+			"El Kab",
+			"Armant",
+			"Balat",
+			"Ellahun",
+			"Hawara",
+			"Dashur",
+			"Damanhur",
+			"Ellahun",
+			"Abusir",
+			"Ellahun",
+			"Herakleopolis",
+			"Akoris",
+			"Benihasan",
+			"Badari",
+			"Hermopolis",
+			"Amrah",
+			"Koptos",
+			"Ombos",
+			"Naqada",
+			"Semna",
+			"Soleb"
+		]
+	},
+	{ //俄罗斯
+		"name": "Nation.Russia",
+		"leaderName": "Peter the Great",
+		"adjective": [
+			"Russian"
+		],
+		"outerColor": [
+			218,
+			165,
+			32
+		],
+		"innerColor": [
+			0,
+			51,
+			102
+		],
+		"preferredVictoryType": "VictoryType.Religion",
+		"startBias": [
+			"Tundra"
+		],
+		"uniqueName": "Personification of Russia",
+		"uniques": [
+			"[-45]% Culture cost of natural border growth [in all cities]",
+			"[-45]% Gold cost of acquiring tiles [in all cities]",
+			"[+1 Production] from every [Tundra] <in tiles without [Class.District]>"
+		],
+		"cities": [
+			"Moscow",
+			"St. Petersburg",
+			"Volgograd",
+			"Kaluga",
+			"Kirov",
+			"Saratov",
+			"Kostroma",
+			"Orenburg",
+			"Krasnodar",
+			"Voronezh",
+			"Ufa",
+			"Ulyanovsk",
+			"Nizhny Novgorod",
+			"Yekaterinburg",
+			"Novosibirsk",
+			"Kazan",
+			"Rostov-on-Don",
+			"Samara",
+			"Chelyabinsk",
+			"Perm"
+		]
+	},
+	{ //巴比伦
+		"name": "Nation.Babylon",
+		"leaderName": "Hammurabi",
+		"adjective": [
+			"Babylonian"
+		],
+		"outerColor": [
+			0,
+			51,
+			102
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"startBias": [
+			"Plains"
+		],
+		"uniqueName": "BabylonianGods",
+		"uniques": [
+			"Free Technology <upon constructing [Building.DistrictUnique.Campus]>",
+			"Free Technology <upon constructing [Class.DistrictBuilding.Campus]>",
+			"[-20]% [Science] [in all cities]"
+		],
+		"cities": [
+			"Babylon",
+			"Akkad",
+			"Dur-Kurigalzu",
+			"Nippur",
+			"Borsippa",
+			"Sippar",
+			"Opis",
+			"Mari",
+			"Shushan",
+			"Eshnunna",
+			"Ellasar",
+			"Erech",
+			"Kutha",
+			"Sirpurla",
+			"Neribtum",
+			"Ashur",
+			"Ninveh",
+			"Nimrud",
+			"Arbela",
+			"Nuzi",
+			"Arrapkha",
+			"Tutub",
+			"Shaduppum",
+			"Rapiqum",
+			"Mashkan Shapir",
+			"Tuttul",
+			"Ramad",
+			"Ana",
+			"Haradum",
+			"Agrab",
+			"Uqair",
+			"Gubba",
+			"Hafriyat",
+			"Nagar",
+			"Shubat Enlil",
+			"Urhai",
+			"Urkesh",
+			"Awan",
+			"Riblah",
+			"Tayma"
+		]
+	},
+	{ //玛雅
+		"name": "Nation.Maya",
+		"leaderName": "Lady Six Sky",
+		"adjective": [
+			"Mayan"
+		],
+		"outerColor": [
+			198,
+			141,
+			99
+		],
+		"innerColor": [
+			24,
+			63,
+			66
+		],
+		"startBias": [
+			"Plains",
+			"Avoid [Mountain]"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Mayab",
+		"uniques": [
+			"Comment [Fresh and salt water do not provide [Resource.halfHouse]]",
+			"Comment [Get [1] extra [Resource.halfHouse] from [Improvement.Farm] and [Improvement.Plantation]]",
+			"Free [Unit.CommonWorker1] appears <upon founding a city>"
+		],
+		"cities": [
+			"Palenque",
+			"Tikal",
+			"Chichen Itza",
+			"Uxmal",
+			"Tulum",
+			"Copan",
+			"Coba",
+			"El Mirador",
+			"Calakmul",
+			"Edzna",
+			"Lamanai",
+			"Izapa",
+			"Uaxactun",
+			"Comalcalco",
+			"Piedras Negras",
+			"Cancuen",
+			"Yaxha",
+			"Quirigua",
+			"Q'umarkaj",
+			"Nakbe",
+			"Cerros",
+			"Xunantunich",
+			"Takalik Abaj",
+			"Cival",
+			"San Bartolo",
+			"Altar de Sacrificios",
+			"Seibal",
+			"Caracol",
+			"Naranjo",
+			"Dos Pilas",
+			"Mayapan",
+			"Ixinche",
+			"Zaculeu",
+			"Kabah"
+		]
+	},
+	{ //波斯
+		"name": "Nation.Persia",
+		"leaderName": "Cyrus",
+		"adjective": [
+			"Persian"
+		],
+		"outerColor": [
+			82,
+			0,
+			64
+		], // 深紫色
+		"innerColor": [
+			255,
+			165,
+			0
+		], // 橙黄色
+		"startBias": [
+			"Landform.Hill",
+			"Mountain"
+		],
+		"preferredVictoryType": "VictoryType.Conquest",
+		"uniqueName": "The Fall of Babylon",
+		"uniques": [
+			"Empire enters a [10]-turn Golden Age <upon declaring war on [Major] Civilizations>",
+			"Empire enters a [8]-turn Golden Age <upon conquering a city>",
+			"[+1] Movement <for [All] units> <during a Golden Age>",
+			"Improves movement speed on roads"
+		],
+		"cities": [
+			"Persepolis",
+			"Parsagadae",
+			"Susa",
+			"Ecbatana",
+			"Tarsus",
+			"Gordium",
+			"Bactra",
+			"Sardis",
+			"Ergili",
+			"Dariushkabir",
+			"Ghulaman",
+			"Zohak",
+			"Istakhr",
+			"Jinjan",
+			"Borazjan",
+			"Herat",
+			"Dakyanus",
+			"Bampur",
+			"Turengtepe",
+			"Rey",
+			"Shiraz",
+			"Thuspa",
+			"Hasanlu",
+			"Gabae",
+			"Merv",
+			"Behistun",
+			"Kandahar",
+			"Altintepe",
+			"Bunyan",
+			"Charsadda",
+			"Uratyube",
+			"Dura Europos",
+			"Aleppo",
+			"Qatna",
+			"Kabul",
+			"Capisa",
+			"Kyreskhata",
+			"Marakanda",
+			"Peshawar",
+			"Van",
+			"Pteira",
+			"Arshada",
+			"Artakaona",
+			"Aspabota",
+			"Autiyara",
+			"Bagastana",
+			"Baxtri",
+			"Darmasa",
+			"Daphnai",
+			"Drapsaka",
+			"Eion",
+			"Gandutava",
+			"Gaugamela",
+			"Harmozeia",
+			"Ekatompylos",
+			"Izata",
+			"Kampada",
+			"Kapisa",
+			"Karmana",
+			"Kounaxa",
+			"Kuganaka",
+			"Nautaka",
+			"Paishiyauvada",
+			"Patigrbana",
+			"Phrada"
+		]
+	},
+	{ //阿兹特克
+		"name": "Nation.Aztec",
+		"leaderName": "Montezuma",
+		"adjective": [
+			"Aztec"
+		],
+		"outerColor": [
+			162,
+			47,
+			73
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		], // 黄色
+		"startBias": [
+			"Landform.Rainforest",
+			"Landform.Forest"
+		],
+		"preferredVictoryType": "VictoryType.Conquest",
+		"uniqueName": "The Legend of the Five Suns",
+		"uniques": [
+			"Comment [Each Luxury gives [Military] units [4]% Strength bonus, up to [32]%]",
+			"[+4]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [1]> <hidden from users>",
+			"[+8]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [2]> <hidden from users>",
+			"[+12]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [3]> <hidden from users>",
+			"[+16]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [4]> <hidden from users>",
+			"[+20]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [5]> <hidden from users>",
+			"[+24]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [6]> <hidden from users>",
+			"[+28]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is equal to [7]> <hidden from users>",
+			"[+32]% Strength <for [Military] units> <when number of [Resource.AuxiliaryCounter4] is more than [7]> <hidden from users>"
+		],
+		"cities": [
+			"Tenochtitlan",
+			"Teotihuacan",
+			"Tlatelolco",
+			"Texcoco",
+			"Tlaxcala",
+			"Calixtlahuaca",
+			"Xochicalco",
+			"Tlacopan",
+			"Atzcapotzalco",
+			"Tzintzuntzan",
+			"Malinalco",
+			"Tula",
+			"Tamuin",
+			"Teayo",
+			"Cempoala",
+			"Chalco",
+			"Tlalmanalco",
+			"Ixtapaluca",
+			"Huexotla",
+			"Tepexpan",
+			"Tepetlaoxtoc",
+			"Chiconautla",
+			"Zitlaltepec",
+			"Coyotepec",
+			"Tequixquiac",
+			"Jilotzingo",
+			"Tlapanaloya",
+			"Tultitan",
+			"Ecatepec",
+			"Coatepec",
+			"Chalchiuites",
+			"Chiauhita",
+			"Chapultepec",
+			"Itzapalapa",
+			"Ayotzinco",
+			"Iztapam"
+		]
+	},
+	{ //马里
+		"name": "Nation.Mali",
+		"leaderName": "Mansa Musa",
+		"adjective": [
+			"Malian"
+		],
+		"outerColor": [
+			139,
+			69,
+			19
+		], // 红褐色
+		"innerColor": [
+			218,
+			165,
+			32
+		], // 金色
+		"startBias": [
+			"Desert"
+		],
+		"preferredVictoryType": "VictoryType.Economic",
+		"uniqueName": "The Hajj",
+		//		"uniqueText":"",
+		"uniques": [
+			"[+2 Food, +2 Faith, +2 Gold] [in all cities] <in tiles adjacent to [Desert] tiles>",
+			"May buy [Class.DistrictBuilding.CommercialHub] buildings with [Faith] for [2] times their normal Production cost",
+			"[-5]% [Production] [in all cities]",
+			"[-1 Production, +3 Gold] from every [Landform.Hill] <in tiles without [Class.District]>",
+			"[+1 Gold] from [Desert] tiles [in all cities] <in tiles without [Class.District]> <in cities with a [Building.DistrictUnique.MandingoMarket]>"
+		],
+		"cities": [
+			"Timbuktu",
+			"Djenne",
+			"Gao",
+			"Koumbi Saleh",
+			"Walata",
+			"Aoudaghost",
+			"Niani",
+			"Segou",
+			"Kangaba",
+			"Bamako",
+			"Kita",
+			"Koulikoro",
+			"Mopti",
+			"Goundam",
+			"Tombouctou",
+			"Boucle du Baoule",
+			"Jenne-Jeno",
+			"Tondibi",
+			"Gao-Saney",
+			"Djenné-Djenno",
+			"Oualata",
+			"Kumbi",
+			"Manden-Kouroukan",
+			"Kangaba-Kouroukan"
+		]
+	},
+	{ //希腊
+		"name": "Nation.Greece",
+		"leaderName": "Gorgon",
+		"adjective": [
+			"Greek"
+		],
+		"outerColor": [
+			0,
+			0,
+			139
+		], // 蓝色
+		"innerColor": [
+			255,
+			255,
+			255
+		], // 白色
+		"startBias": [
+			"Landform.Hill"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Plato's Republic",
+		"uniques": [
+			"Provides [1] [Resource.GenericPolicySlot] <after discovering [Civic.PoliticalPhilosophy]>",
+			"Earn [6]% of killed [Military] unit's [Strength] as [Culture]"
+		],
+		"cities": [
+			"Athens",
+			"Sparta",
+			"Corinth",
+			"Argos",
+			"Knossos",
+			"Mycenae",
+			"Pharsalos",
+			"Ephesus",
+			"Halicarnassus",
+			"Rhodes",
+			"Eretria",
+			"Pergamon",
+			"Miletos",
+			"Megara",
+			"Phocaea",
+			"Sicyon",
+			"Tiryns",
+			"Samos",
+			"Mytilene",
+			"Chios",
+			"Paros",
+			"Elis",
+			"Syracuse",
+			"Herakleia",
+			"Gortyn",
+			"Chalkis",
+			"Pylos",
+			"Pella",
+			"Naxos",
+			"Sicyon",
+			"Larissa",
+			"Apollonia",
+			"Messene",
+			"Orchomenos",
+			"Ambracia",
+			"Kos",
+			"Knidos",
+			"Amphipolis",
+			"Patras",
+			"Lamia",
+			"Nafplion",
+			"Apolyton"
+		]
+	},
+	{ //奥斯曼
+		"name": "Nation.Ottoman",
+		"leaderName": "Suleiman",
+		"adjective": [
+			"Ottoman"
+		],
+		"outerColor": [
+			0,
+			128,
+			0
+		], // 绿色
+		"innerColor": [
+			255,
+			255,
+			102
+		], // 黄色
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Grand Vizier",
+		"uniques": [
+			"Comment [Civilization-unique Governor: Grand Vizier]",
+			"Provides [1] [Resource.GovernorTitle] <after discovering [Tech.Gunpowder]>"
+		],
+		"cities": [
+			"Istanbul",
+			"Edirne",
+			"Ankara",
+			"Bursa",
+			"Konya",
+			"Samsun",
+			"Gaziantep",
+			"Diyarbakir",
+			"Izmir",
+			"Kayseri",
+			"Malatya",
+			"Mersin",
+			"Antalya",
+			"Zonguldak",
+			"Denizli",
+			"Ordu",
+			"Mugla",
+			"Eskisehir",
+			"Inebolu",
+			"Sinop",
+			"Adana",
+			"Artvin",
+			"Bodrum",
+			"Eregli",
+			"Silifke",
+			"Sivas",
+			"Amasya",
+			"Marmaris",
+			"Trabzon",
+			"Erzurum",
+			"Urfa",
+			"Izmit",
+			"Afyonkarahisar",
+			"Bitlis",
+			"Yalova"
+		]
+	},
+	{ //美利坚
+		"name": "Nation.UnitedStates",
+		"leaderName": "Delano Roosevelt",
+		"adjective": [
+			"American"
+		],
+		"outerColor": [
+			165,
+			30,
+			55
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Roosevelt's New Deal",
+		"uniques": [
+			"[{Military} {Land}] units gain the [Promotion.MinuteMen] promotion",
+			"Gain [-20] [Gold] <upon turn end> <before discovering [Civic.CivilEngineering]>",
+			"Gain [-40] [Gold] <upon turn end> <after discovering [Civic.CivilEngineering]>",
+			"[-3 Gold, +3 Production] from every [Class.DistrictBuilding.CommercialHub] <after discovering [Civic.CivilEngineering]>",
+			"[+15]% [Culture] <when below [0] [Gold]>",
+			"[+25]% [Production] <when below [-300] [Gold]>",
+			"[+4 Production] [in all cities] <when below [-750] [Gold]>",
+			"Provides [1] [Resource.EconomicPolicySlot] <when below [-1500] [Gold]>",
+			"Provides [1] [Resource.MilitaryPolicySlot] <when below [-3000] [Gold]>"
+		],
+		//		"uniqueText":"",
+		"cities": [
+			"Washington",
+			"New York",
+			"Boston",
+			"Philadelphia",
+			"Atlanta",
+			"Chicago",
+			"Seattle",
+			"San Francisco",
+			"Los Angeles",
+			"Houston",
+			"Portland",
+			"St. Louis",
+			"Miami",
+			"Buffalo",
+			"Detroit",
+			"New Orleans",
+			"Baltimore",
+			"Denver",
+			"Cincinnati",
+			"Dallas",
+			"Memphis",
+			"Cleveland",
+			"Kansas City",
+			"San Diego",
+			"Richmond",
+			"Las Vegas",
+			"Phoenix",
+			"Albuquerque",
+			"Minneapolis",
+			"Pittsburgh",
+			"Oakland",
+			"Tampa Bay",
+			"Orlando",
+			"Tacoma",
+			"Santa Fe",
+			"Olympia",
+			"Hunt Valley",
+			"Springfield",
+			"Palo Alto",
+			"Centralia",
+			"Spokane",
+			"Jacksonville",
+			"Svannah",
+			"Charleston",
+			"San Antonio",
+			"Birmingham",
+			"Anchorage",
+			"Sacramento",
+			"Reno",
+			"Salt Lake City",
+			"Boise",
+			"Milwaukee",
+			"Santa Cruz",
+			"Little Rock"
+		]
+	},
+	{ //秦朝
+		"name": "Nation.Qin",
+		"leaderName": "Ying Zheng",
+		"adjective": [
+			"Qin"
+		],
+		"outerColor": [
+			23,
+			31,
+			42
+		],
+		"innerColor": [
+			255,
+			204,
+			0
+		],
+		"startBias": [
+			"Landform.Hill"
+		],
+		"preferredVictoryType": "VictoryType.Conquest",
+		"uniqueName": "Statist",
+		"uniques": [
+			"[+5]% [Science] [in capital] <for every [Cities]>",
+			"[+5]% [Production] [in capital] <for every [Cities]>",
+			"[-5]% [Science] [in all cities]",
+			"[-5]% [Production] [in all cities]",
+			"[+18]% Strength <for [Military] units> <if [Gov.Monarchy] is constructed>",
+			"[+18]% Strength <for [Military] units> <if [Gene.junzhuchuancheng] is constructed>"
+		],
+		"cities": [
+			"Xianyang",
+			"Chang'an",
+			"Weicheng",
+			"Jialing",
+			"Shujun",
+			"Chencang",
+			"Bajun",
+			"Hanzhong",
+			"Yongcheng",
+			"Luoyang",
+			"Chaoge",
+			"Pingyang",
+			"Fenglingdu",
+			"Wugong",
+			"Sishui",
+			"Lantian",
+			"Yongjia",
+			"Fufeng",
+			"Shangdang",
+			"Yangcheng",
+			"Gumu",
+			"Nanjun",
+			"Wu County",
+			"Jiangling",
+			"Zhengjun",
+			"Huxiang",
+			"Jiangxia",
+			"Xiangyang",
+			"Kuaiji",
+			"Linqi"
+		]
+	},
+	{ //斯基泰
+		"name": "Nation.Scythia",
+		"leaderName": "Tomyris",
+		"adjective": [
+			"Scythian"
+		],
+		"outerColor": [
+			0,
+			0,
+			128
+		],
+		"innerColor": [
+			255,
+			165,
+			0
+		],
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Cyrus Terminator",
+		"uniques": [
+			"May buy [UnitType.LightCavalry] units with [Faith] for [1] times their normal Production cost",
+			"[Faith] cost of purchasing [UnitType.LightCavalry] units [-20]% <after discovering [Civic.DivinRightOfKings]>",
+			"[+100]% [Resource.Horse] resource production"
+		],
+		"cities": [
+			"Pokrovka",
+			"Issyk",
+			"Kul Oba",
+			"Gelonus",
+			"Pazyryk",
+			"Chertomlyk",
+			"Neapolis",
+			"Kostromskaya",
+			"Myriv",
+			"Solokha",
+			"Malkop",
+			"Kamianka-Dniprovska",
+			"Tolstaya",
+			"Seven Brothers",
+			"Olbia",
+			"Kelermes",
+			"Solocha",
+			"Ulski",
+			"Arzhan",
+			"Elizavetovskaya",
+			"Melgunov",
+			"Panticapaeum",
+			"Tsarskaya",
+			"Ogüz",
+			"Tanais",
+			"Alexandropol",
+			"Kurdzhips",
+			"Tsymbalka",
+			"Theodosia",
+			"Kozei"
+		]
+	},
+	{ //阿拉伯
+		"name": "Nation.Arabia",
+		"leaderName": "Saladin",
+		"adjective": [
+			"Arabian"
+		],
+		"outerColor": [
+			185,
+			91,
+			51
+		],
+		"innerColor": [
+			238,
+			221,
+			185
+		],
+		"startBias": [
+			"Desert"
+		],
+		"preferredVictoryType": "VictoryType.Religion",
+		"uniqueName": "The Army of Kings",
+		"uniques": [
+			"Provides [1] [Resource.Unit.Prophet]",
+			"[Faith] cost of purchasing [Class.Building.AdvancedReligious] buildings [-90]%",
+			"[+100]% to Flank Attack bonuses"
+		],
+		"cities": [
+			"Mecca",
+			"Medina",
+			"Damascus",
+			"Baghdad",
+			"Najran",
+			"Kufah",
+			"Basra",
+			"Khurasan",
+			"Anjar",
+			"Fustat",
+			"Aden",
+			"Yamama",
+			"Muscat",
+			"Mansura",
+			"Bukhara",
+			"Fez",
+			"Shiraz",
+			"Merw",
+			"Balkh",
+			"Mosul",
+			"Aydab",
+			"Bayt",
+			"Suhar",
+			"Taif",
+			"Hama",
+			"Tabuk",
+			"Sana'a",
+			"Shihr",
+			"Tripoli",
+			"Tunis",
+			"Kairouan",
+			"Algiers",
+			"Oran"
+		]
+	},
+	{ //拜占庭
+		"name": "Nation.Byzantium",
+		"leaderName": "Basil II",
+		"adjective": [
+			"Byzantine"
+		],
+		"outerColor": [
+			55,
+			0,
+			101
+		],
+		"innerColor": [
+			233,
+			226,
+			158
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Divinely Ordained Rules",
+		"uniques": [
+			"[+1]% Strength <for [UnitType.HeavyCavalry] units> <for every [[Happiness]/[[UnitType.HeavyCavalry] Units]]>",
+			"[+1 Happiness] <for every [[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10]> <hidden from users>",
+			"Comment [Each [UnitType.HeavyCavalry] unit provides Happiness equal to its era number ([Unit.Chariot]'s era is 1, [Unit.Knight] unlocked with [Tech.Stirrups]'s era is 3, and so on)]"
+			//[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10
+		],
+		"cities": [
+			"Constantinople",
+			"Thessaloniki",
+			"Nicaea",
+			"Antioch",
+			"Alexandria",
+			"Athens",
+			"Rome",
+			"Syracuse",
+			"Jerusalem",
+			"Carthage",
+			"Ravenna",
+			"Ephesus",
+			"Chersonesus",
+			"Trebizond",
+			"Cyprus",
+			"Sofia",
+			"Tarsus",
+			"Naples",
+			"Smyrna",
+			"Amphipolis",
+			"Patras",
+			"Sardis",
+			"Corinth",
+			"Adrianople",
+			"Ephesos",
+			"Chalcedon",
+			"Dyrrachium",
+			"Thebes",
+			"Pella",
+			"Pergamon",
+			"Mytilene",
+			"Caesarea",
+			"Paphos"
+		]
+	},
+	{ //唐朝
+		"name": "Nation.Tang",
+		"leaderName": "Li Shimin",
+		"adjective": [
+			"Tang"
+		],
+		"outerColor": [
+			174,
+			127,
+			10
+		],
+		"innerColor": [
+			255,
+			240,
+			143
+		],
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Emperor Khan",
+		"uniques": [
+			"[+23]% Strength <for [Military] units> <vs [City-State] units>",
+			"[+23]% Strength <for [Military] units> <vs [Barbarians] units>",
+			"[+1] Movement <for [All] units> <in [Enemy Land] tiles>"
+		],
+		"cities": [
+			"Chang'an",
+			"Luoyang",
+			"Dunhuang",
+			"Kaifeng",
+			"Lanzhou",
+			"Taiyuan",
+			"Chengdu",
+			"Hangzhou",
+			"Yangzhou",
+			"Nanjing",
+			"Guangzhou",
+			"Xianyang",
+			"Zhengzhou",
+			"Wuhan",
+			"Chongqing",
+			"Beijing",
+			"Shanghai",
+			"Shenzhen",
+			"Tianjin",
+			"Suzhou",
+			"Qingdao",
+			"Fuzhou",
+			"Nanning",
+			"Urumqi",
+			"Guiyang",
+			"Kunming",
+			"Harbin",
+			"Shenyang",
+			"Xiamen",
+			"Nanning",
+			"Haikou",
+			"Dalian"
+		]
+	},
+	{ //汉朝
+		"name": "Nation.Han",
+		"leaderName": "Liu Che",
+		"adjective": [
+			"Han"
+		],
+		"outerColor": [
+			0,
+			102,
+			0
+		], // 深绿色
+		"innerColor": [
+			255,
+			204,
+			0
+		], // 金黄色
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Merit-based selection, Confucianism honored",
+		"uniques": [
+			"[+1 Culture] from every [Building.Palace]",
+			"[+1 Culture] from every [Building.Palace] <after discovering [Civic.NationalLaborForce]>",
+			"[+1 Culture] from every [Building.Library]",
+			"[+1 Culture] from every [Building.Library] <after discovering [Tech.CivilianEducation]>",
+			"[+25]% [Science] [in all cities] <in cities with a [Building.Library]> <during a Golden Age>"
+		],
+		"cities": [
+			"Chang'an",
+			"Luoyang",
+			"Luoxian",
+			"Handan",
+			"Xuchang",
+			"Pingyang",
+			"Xiangyang",
+			"Chenggao",
+			"Kaifeng",
+			"Wuyang",
+			"Gongxian",
+			"Fengxian",
+			"Liangxian",
+			"Runan",
+			"Yingchuan",
+			"Peixian",
+			"Wanxian",
+			"Nanyang",
+			"Chenliu",
+			"Yangdi",
+			"Huya",
+			"Donghai",
+			"Shouchun",
+			"Pengcheng",
+			"Taishan",
+			"Wenxian",
+			"Anyang",
+			"Yanjin",
+			"Heyang",
+			"Jixian"
+		]
+	},
+	{ //苏维埃中国
+		"name": "Nation.SRC",
+		"leaderName": "Mao Zedong",
+		"adjective": [
+			"Chinese"
+		],
+		"outerColor": [
+			220,
+			20,
+			60
+		], // 猩红色
+		"innerColor": [
+			255,
+			215,
+			0
+		], // 金黄色
+		"startBias": [
+			"Landform.Hill"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "ideological party building, political army building",
+		"uniques": [
+			"[+2 Culture] from every [Building.DistrictUnique.MilitaryEncampment]",
+			"Comment [[[+1] [Resource.DistrictLimitation]] from every [Building.DistrictUnique.MilitaryEncampment]]",
+			"[+50]% Production when constructing [Class.DistrictBuilding.MilitaryEncampment] buildings [in all cities]",
+			"Provides [1] [Resource.GenericPolicySlot] <after discovering [Civic.Ideology]>",
+			"[+2] Movement <for [All] units> <in [Enemy Land] tiles> <after discovering [Civic.Ideology]>",
+			"Free [Unit.General] appears <upon discovering [Civic.MilitaryTraining] technology>"
+		],
+		"cities": [
+			"Ruijin",
+			"Beijing",
+			"Shanghai",
+			"Guangzhou",
+			"Shenzhen",
+			"Tianjin",
+			"Chongqing",
+			"Chengdu",
+			"Hangzhou",
+			"Nanjing",
+			"Wuhan",
+			"Xi'an",
+			"Changsha",
+			"Qingdao",
+			"Dalian",
+			"Xiamen",
+			"Fuzhou",
+			"Jinan",
+			"Shenyang",
+			"Harbin",
+			"Kunming",
+			"Taiyuan",
+			"Zhengzhou",
+			"Changchun",
+			"Nanchang",
+			"Haikou",
+			"Hefei",
+			"Urumqi",
+			"Lanzhou",
+			"Yinchuan",
+			"Hohhot",
+			"Guiyang",
+			"Nanning",
+			"Fuzhou",
+			"Nanchang",
+			"Changchun",
+			"Shenyang",
+			"Harbin",
+			"Jinan",
+			"Zhengzhou",
+			"Taiyuan",
+			"Xi'an",
+			"Lanzhou",
+			"Yinchuan",
+			"Xining",
+			"Urumqi",
+			"Lhasa",
+			"Kunming",
+			"Chengdu",
+			"Chongqing",
+			"Wuhan",
+			"Nanjing",
+			"Hangzhou",
+			"Hefei",
+			"Fuzhou",
+			"Nanning",
+			"Guangzhou",
+			"Shenzhen",
+			"Haikou",
+			"Taipei",
+			"Hong Kong",
+			"Macao"
+		],
+		"civilopediaText": [
+			{
+				"text": "Mao Zedong was the leader of the Chinese people, a great Marxist, a great proletarian revolutionist, strategist, and theorist, as well as the main founder and leader of the Communist Party of China, the People's Liberation Army, and the People's Republic of China.",
+				"size": 15
+			}
+		]
+	},
+	{ //英吉利
+		"name": "Nation.England",
+		"leaderName": "Victoria",
+		"adjective": [
+			"English"
+		],
+		"outerColor": [
+			109,
+			2,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Victorian era",
+		"uniques": [
+			//		"Empire enters golden age <upon constructing [Building.Workshop] [in capital]>",
+			//		"Empire enters golden age <upon constructing [Building.Factory] [in capital]>",
+			"[+50]% Golden Age length",
+			"Empire enters golden age <upon entering the [Era.Industrial]>",
+			"[+20]% [Production] [in all coastal cities] <during a Golden Age> <for every [Era number]>",
+			"[+25]% [Gold] [in all coastal cities] <during a Golden Age> <for every [Era number]>",
+			"[+2] Movement <for [Embarked] units> <during a Golden Age>"
+		],
+		"cities": [
+			"London",
+			"York",
+			"Nottingham",
+			"Hastings",
+			"Canterbury",
+			"Coventry",
+			"Warwick",
+			"Newcastle",
+			"Oxford",
+			"Liverpool",
+			"Dover",
+			"Brighton",
+			"Norwich",
+			"Leeds",
+			"Reading",
+			"Birmingham",
+			"Richmond",
+			"Exeter",
+			"Cambridge",
+			"Gloucester",
+			"Manchester",
+			"Bristol",
+			"Leicester",
+			"Carlisle",
+			"Ipswich",
+			"Portsmouth",
+			"Berwick",
+			"Bath",
+			"Mumbles",
+			"Southampton",
+			"Sheffield",
+			"Salisbury",
+			"Colchester",
+			"Plymouth",
+			"Lancaster",
+			"Blackpool",
+			"Winchester",
+			"Hull"
+		]
+	},
+	{ //法兰西
+		"name": "Nation.France",
+		"leaderName": "Napoleon",
+		"adjective": [
+			"French"
+		],
+		"outerColor": [
+			0,
+			48,
+			135
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"startBias": [
+			"Grassland",
+			"Avoid [Landform.Forest]"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Corsican Monster",
+		"uniques": [
+			"Comment [[[enemy] gains the [Promotion.FearOfNapoleon] status for [2] turn(s)] [upon entering combat]]",
+			"Heals [15] damage if it kills a unit <for [Military] units>",
+			"Earn [50]% of the damage done to [City] units as [Gold]"
+		],
+		"cities": [
+			"Paris",
+			"Orleans",
+			"Lyon",
+			"Troyes",
+			"Tours",
+			"Marseille",
+			"Chartres",
+			"Avignon",
+			"Rouen",
+			"Grenoble",
+			"Dijon",
+			"Amiens",
+			"Cherbourg",
+			"Poitiers",
+			"Toulouse",
+			"Bayonne",
+			"Strasbourg",
+			"Brest",
+			"Bordeaux",
+			"Rennes",
+			"Nice",
+			"Saint Etienne",
+			"Nantes",
+			"Reims",
+			"Le Mans",
+			"Montpellier",
+			"Limoges",
+			"Nancy",
+			"Lille",
+			"Caen",
+			"Toulon",
+			"Le Havre",
+			"Lourdes",
+			"Cannes",
+			"Aix-En-Provence",
+			"La Rochelle",
+			"Bourges",
+			"Calais"
+		]
+	},
+	{ //马其顿
+		"name": "Nation.Macedonia",
+		"leaderName": "Alexander the Great",
+		"adjective": [
+			"Macedonian"
+		],
+		"outerColor": [
+			22,
+			45,
+			70
+		],
+		"innerColor": [
+			140,
+			165,
+			185
+		],
+		"startBias": [
+			"Landform.Hill"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Until the end of the world",
+		"uniques": [
+			"Comment [[+18]% Strength for [UnitType.LightCavalry] and [UnitType.HeavyCavalry] units if [Gov.Oligarchy] or [Gene.guatouchuancheng] is constructed]",
+			"Comment [The debuff of Cavalry's combat effectiveness when attacking cities will be halved]"
+		],
+		"cities": [
+			"Pella",
+			"Amphipolis",
+			"Alexandria",
+			"Babylon",
+			"Susa",
+			"Persepolis",
+			"Gordion",
+			"Thebes",
+			"Memphis",
+			"Tyre",
+			"Athens",
+			"Miletus",
+			"Ephesus",
+			"Tarsus",
+			"Sparta",
+			"Rhodes",
+			"Corinth",
+			"Delphi",
+			"Olympia",
+			"Argos",
+			"Megalopolis",
+			"Philippi",
+			"Thessaloniki",
+			"Knossos",
+			"Pydna",
+			"Patras",
+			"Larissa",
+			"Nicomedia",
+			"Chalcis"
+		]
+	},
+	{ //印加
+		"name": "Nation.Inca",
+		"leaderName": "Pachacuti",
+		"adjective": [
+			"Incan"
+		],
+		"outerColor": [
+			255,
+			184,
+			33
+		],
+		"innerColor": [
+			3,
+			115,
+			86
+		],
+		"startBias": [
+			"Mountain"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Mita System",
+		"uniques": [
+			"[+3 Production, +3 Food] from every [Mountain]",
+			"[+3 Production] from every [Mountain] <after discovering [Tech.Industrialization]>",
+			"Free [Unit.Scientist] appears <upon discovering [Civic.BasicTrade] technology>",
+			"Land units may cross [Mountain] tiles after the first [Unit.Scientist] is earned"
+		],
+		//		"uniqueText": "",
+		"cities": [
+			"Cuzco",
+			"Tiwanaku",
+			"Machu",
+			"Ollantaytambo",
+			"Corihuayrachina",
+			"Huamanga",
+			"Rumicucho",
+			"Vilcabamba",
+			"Vitcos",
+			"Andahuaylas",
+			"Ica",
+			"Arequipa",
+			"Nasca",
+			"Atico",
+			"Juli",
+			"Chuito",
+			"Chuquiapo",
+			"Huanuco Pampa",
+			"Tamboccocha",
+			"Huaras",
+			"Riobamba",
+			"Caxamalca",
+			"Sausa",
+			"Tambo Colorado",
+			"Huaca",
+			"Tumbes",
+			"Chan Chan",
+			"Sipan",
+			"Pachacamac",
+			"Llactapata",
+			"Pisac",
+			"Kuelap",
+			"Pajaten",
+			"Chucuito",
+			"Choquequirao"
+		]
+	},
+	{ //印度
+		"name": "Nation.India",
+		"leaderName": "Mahatma Gandhi",
+		"adjective": [
+			"Indian"
+		],
+		"outerColor": [
+			14,
+			113,
+			4
+		],
+		"innerColor": [
+			255,
+			163,
+			71
+		],
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "VictoryType.Religion",
+		"uniqueName": "Non-violent non-cooperation",
+		"uniques": [
+			"Gain [100] [Faith] <upon declaring friendship>",
+			"All newly-trained [Unit.Missionary] units [in all cities] receive the [Promotion.Devout2] promotion",
+			"[+2 Faith] from every [Building.TradingPost]",
+			"Comment [[[+1] [Resource.Unit.General]] from every [[Class.HolySite] and [Class.DistrictBuilding.HolySite]]]"
+		],
+		"cities": [
+			"Delhi",
+			"Mumbai",
+			"Vijayanagara",
+			"Pataliputra",
+			"Varanasi",
+			"Agra",
+			"Calcutta",
+			"Lahore",
+			"Bangalore",
+			"Hyderabad",
+			"Madurai",
+			"Ahmedabad",
+			"Kolhapur",
+			"Prayaga",
+			"Ayodhya",
+			"Indraprastha",
+			"Mathura",
+			"Ujjain",
+			"Gulbarga",
+			"Jaunpur",
+			"Rajagriha",
+			"Sravasti",
+			"Tiruchirapalli",
+			"Thanjavur",
+			"Bodhgaya",
+			"Kushinagar",
+			"Amaravati",
+			"Gaur",
+			"Gwalior",
+			"Jaipur",
+			"Karachi"
+		]
+	},
+	{ //毛利
+		"name": "Nation.Maori",
+		"leaderName": "Kupe",
+		"adjective": [
+			"Maori"
+		],
+		"outerColor": [
+			217,
+			89,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			75
+		],
+		"startBias": [
+			"Ocean"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Mana",
+		"uniques": [
+			"Enables embarkation for land units <starting from the [Era.Ancient]>",
+			"Enables [All] units to enter ocean tiles <starting from the [Era.Ancient]>",
+			"[+1] Movement <for [Embarked] units>",
+			"[+1 Food] from every [Improvement.FishingBoat]",
+			"[-4 Production] from every [Improvement.LumberMill]",
+			"[+1 Production] from [Vegetation] tiles [in all coastal cities]",
+			"[+1 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.Mercantilism]>",
+			"[+2 Production] from [Vegetation] tiles [in all coastal cities] <after discovering [Civic.EarthProtection]>",
+			"Discover [Tech.NauticalArt] <upon founding a city>",
+			// "[+2 Science, +2 Culture] <before discovering [Tech.NauticalArt]>",
+			"Gain [8] [Culture] <upon founding a city> <in [Coastal] tiles>"
+		],
+		"cities": [
+			"Honolulu",
+			"Samoa",
+			"Tonga",
+			"Nuku Hiva",
+			"Raiatea",
+			"Aotearoa",
+			"Tahiti",
+			"Hilo",
+			"Te Wai Pounamu",
+			"Rapa Nui",
+			"Tuamotu",
+			"Rarotonga",
+			"Tuvalu",
+			"Tubuai",
+			"Mangareva",
+			"Oahu",
+			"Kiritimati",
+			"Ontong Java",
+			"Niue",
+			"Rekohu",
+			"Rakahanga",
+			"Bora Bora",
+			"Kailua",
+			"Uvea",
+			"Futuna",
+			"Rotuma",
+			"Tokelau",
+			"Lahaina",
+			"Bellona",
+			"Mungava",
+			"Tikopia",
+			"Emae",
+			"Kapingamarangi",
+			"Takuu",
+			"Nukuoro",
+			"Sikaiana",
+			"Anuta",
+			"Nuguria",
+			"Pileni",
+			"Nukumanu"
+		]
+	},
+	{ //日本
+		"name": "Nation.Japan",
+		"leaderName": "Hojo Tokimune",
+		"adjective": [
+			"Japanese"
+		],
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			184,
+			0,
+			0
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Kamikaze",
+		"uniques": [
+			"[+1] Movement <for [All] units> <in [Coastal] tiles>",
+			"[+13]% Strength <for [Military] units> <when fighting in [Coastal] tiles>",
+			"[+100]% Production when constructing [Building.DistrictUnique.HolySite] buildings [in all cities]",
+			"[+100]% Production when constructing [Building.DistrictUnique.TheaterSquare] buildings [in all cities]",
+			"[+100]% Production when constructing [Building.DistrictUnique.MilitaryEncampment] buildings [in all cities]"
+		],
+		"cities": [
+			"Kyoto",
+			"Osaka",
+			"Tokyo",
+			"Satsuma",
+			"Kagoshima",
+			"Nara",
+			"Nagoya",
+			"Izumo",
+			"Nagasaki",
+			"Yokohama",
+			"Shimonoseki",
+			"Matsuyama",
+			"Sapporo",
+			"Hakodate",
+			"Ise",
+			"Toyama",
+			"Fukushima",
+			"Suo",
+			"Bizen",
+			"Echizen",
+			"Izumi",
+			"Omi",
+			"Echigo",
+			"Kozuke",
+			"Sado",
+			"Kobe",
+			"Nagano",
+			"Hiroshima",
+			"Takayama",
+			"Akita",
+			"Fukuoka",
+			"Aomori",
+			"Kamakura",
+			"Kochi",
+			"Naha",
+			"Sendai",
+			"Gifu",
+			"Yamaguchi",
+			"Ota",
+			"Tottori"
+		]
+	},
+	{ //印度尼西亚
+		"name": "Nation.Indonesia",
+		"leaderName": "Gitarja",
+		"adjective": [
+			"Indonesian"
+		],
+		"innerColor": [
+			239,
+			138,
+			56
+		],
+		"outerColor": [
+			14,
+			82,
+			150
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Country of Thousand Islands",
+		"uniques": [
+			"[+50]% Yield from every [Class.District] <in [Coastal] tiles>"
+		],
+		"cities": [
+			"Surabaya",
+			"Yogyakarta",
+			"Denpasar",
+			"Jakarta",
+			"Bandung",
+			"Medan",
+			"Semarang",
+			"Makassar",
+			"Palembang",
+			"Tangerang",
+			"Depok",
+			"Batam",
+			"Bekasi",
+			"Solo",
+			"Banjarmasin",
+			"Serang",
+			"Padang",
+			"Pekanbaru",
+			"Bandar Lampung",
+			"Surakarta",
+			"Malang",
+			"Bogor",
+			"Cimahi",
+			"Pontianak",
+			"Manado",
+			"Balikpapan",
+			"Banda Aceh",
+			"Jambi",
+			"Mataram",
+			"Kupang",
+			"Palu"
+		]
+	},
+	{ //腓尼基
+		"name": "Nation.Phoenicia",
+		"leaderName": "Dido",
+		"adjective": [
+			"Phoenician"
+		],
+		"outerColor": [
+			109,
+			0,
+			205
+		],
+		"innerColor": [
+			117,
+			163,
+			243
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Mediterranean Colony",
+		"uniques": [
+			"Starts with [Tech.Writing]",
+			"[+4] Movement <for [{Embarked} {Unit.Settler}] units>",
+			"[+50]% [Production] from every [Building.DistrictUnique.GovernmentPlaza]"
+		],
+		"cities": [
+			"Carthage",
+			"Utique",
+			"Hippo Regius",
+			"Gades",
+			"Saguntum",
+			"Carthago Nova",
+			"Panormus",
+			"Lilybaeum",
+			"Hadrumetum",
+			"Zama Regia",
+			"Karalis",
+			"Malaca",
+			"Leptis Magna",
+			"Hippo Diarrhytus",
+			"Motya",
+			"Sulci",
+			"Leptis Parva",
+			"Tharros",
+			"Soluntum",
+			"Lixus",
+			"Oea",
+			"Theveste",
+			"Ibossim",
+			"Thapsus",
+			"Aleria",
+			"Tingis",
+			"Abyla",
+			"Sabratha",
+			"Rusadir",
+			"Baecula",
+			"Saldae"
+		]
+	},
+	{ //冰岛
+		"name": "Nation.Iceland",
+		"leaderName": "Ingolfur Arnarson",
+		"adjective": [
+			"Icelandic"
+		],
+		"outerColor": [
+			1,
+			41,
+			84
+		], // 外深蓝色
+		"innerColor": [
+			255,
+			255,
+			255
+		], // 内白色
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Bill of Settlement",
+		"uniques": [
+			"[+1] Sight <for [Unit.Settler] units>",
+			"[+1] Movement <for [UnitType.Scout] units>",
+			"Empire enters a [4]-turn Golden Age <upon gaining a [Class.GreatPerson] unit>",
+			"[+1 Science, +1 Culture] from every [Rare feature] <in tiles without [Class.District]>",
+			"[+1 Science, +1 Culture] from every [Natural Wonder] <in tiles without [Class.District]>"
+		],
+		"cities": [
+			"Reykjavik",
+			"Kopavogur",
+			"Hafnarfjordur",
+			"Akureyri",
+			"Reykjanesbaer",
+			"Gardabaer",
+			"Mosfellsbaer",
+			"Akranes",
+			"Selfoss",
+			"Saudarkrokur",
+			"Isafjordur",
+			"Egilsstadir",
+			"Borgarnes",
+			"Husavik",
+			"Hveragerdi",
+			"Seydisfjordur",
+			"Njardvik",
+			"Siglufjordur",
+			"Grindavik",
+			"Dalvik",
+			"Hvolsvollur",
+			"Olafsvik",
+			"Stykkisholmur",
+			"Sandgerdi",
+			"Sauoarkrokur",
+			"Eskifjordur",
+			"Faskrudsfjordur",
+			"Vik",
+			"Hofn",
+			"Sudureyri",
+			"Keflavik"
+		]
+	},
+	{ //西班牙
+		"name": "Nation.Spain",
+		"leaderName": "Philip II",
+		"adjective": [
+			"Spanish"
+		],
+		"outerColor": [
+			84,
+			26,
+			26
+		],
+		"innerColor": [
+			255,
+			168,
+			168
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Treasure Fleet",
+		"uniques": [
+			"[+20]% [Production] [in all cities] <on foreign continents>",
+			"[+50]% [Gold] [in all cities] <on foreign continents>",
+			"[+1 Production, +2 Faith, +3 Gold] from every [Building.TradingPost]",
+			"[+100]% Strength <when defending> <when [Embarked]>"
+		],
+		"cities": [
+			"Madrid",
+			"Barcelona",
+			"Seville",
+			"Cordoba",
+			"Toledo",
+			"Santiago",
+			"Salamanca",
+			"Murcia",
+			"Valencia",
+			"Zaragoza",
+			"Pamplona",
+			"Vitoria",
+			"Santander",
+			"Oviedo",
+			"Jaen",
+			"Logro~no",
+			"Valladolid",
+			"Palma",
+			"Teruel",
+			"Almeria",
+			"Leon",
+			"Zamora",
+			"Mida",
+			"Lugo",
+			"Alicante",
+			"Càdiz",
+			"Eiche",
+			"Alcorcon",
+			"Burgos",
+			"Vigo",
+			"Badajoz",
+			"La Coru~na",
+			"Guadalquivir",
+			"Bilbao",
+			"San Sebastian",
+			"Granada",
+			"Mérida",
+			"Huelva",
+			"Ibiza",
+			"Las Palmas",
+			"Tenerife"
+		]
+	},
+	{ //苏联
+		"name": "Nation.SU",
+		"leaderName": "Stalin",
+		"adjective": [
+			"Soviet"
+		],
+		"outerColor": [
+			220,
+			20,
+			60
+		], // 猩红色
+		"innerColor": [
+			255,
+			200,
+			0
+		],
+		"startBias": [
+			"Tundra"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Heavy Industrialization and Agriculture Collectivization",
+		"uniques": [
+			"Comment [Every [Class.DistrictBuilding.IndustrialZone] provides a specific Promotion for the newly trained [Military] units [in this city]]",
+			"[+1 Production] from [Improvement.Farm] tiles [in all cities] <with [2] to [6] neighboring [Improvement.Farm] tiles>",
+			"[-1 Gold] per [4] population [in all cities]",
+			"[+50]% [Production] [in all cities] <if [Gov.Communism] is constructed>",
+			"[-50]% [Gold] [in all cities] <if [Gov.Communism] is constructed>",
+			"[+50]% [Production] [in all cities] <if [Gene.gongchanchuancheng] is constructed>",
+			"[-50]% [Gold] [in all cities] <if [Gene.gongchanchuancheng] is constructed>"
+		],
+		"cities": [
+			"Moscow",
+			"Saint Petersburg",
+			"Kyiv",
+			"Minsk",
+			"Tashkent",
+			"Kazan",
+			"Almaty",
+			"Yerevan",
+			"Baku",
+			"Tbilisi",
+			"Nur-Sultan",
+			"Vilnius",
+			"Riga",
+			"Astana",
+			"Dushanbe",
+			"Osh",
+			"Bishkek",
+			"Ashgabat",
+			"Yekaterinburg",
+			"Novosibirsk",
+			"Samara",
+			"Omsk",
+			"Chelyabinsk",
+			"Ufa",
+			"Volgograd",
+			"Perm",
+			"Krasnoyarsk",
+			"Voronezh",
+			"Rostov-on-Don",
+			"Ulyanovsk"
+		],
+		"civilopediaText": [
+			{
+				"text": "Promotion.Bolshevik I",
+				"link": "Promotion/Promotion.Bolshevik I"
+			},
+			{
+				"text": "Promotion.Bolshevik II",
+				"link": "Promotion/Promotion.Bolshevik II"
+			},
+			{
+				"text": "Promotion.Bolshevik III",
+				"link": "Promotion/Promotion.Bolshevik III"
+			}
+		]
+	},
+	{ //元朝
+		"name": "Nation.Yuan",
+		"leaderName": "Kublai",
+		"adjective": [
+			"Yuan"
+		],
+		"outerColor": [
+			254,
+			215,
+			0
+		], // 外金德色
+		"innerColor": [
+			207,
+			20,
+			43
+		], // 内深红色
+		"startBias": [
+			"Grassland",
+			"Avoid [Mountain]"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Magnificent Qian Yuan",
+		"uniques": [
+			"[+2 Production] [in all cities] <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [5]>",
+			"[+1 Production] [in all cities] <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [5]> <after discovering [Tech.Stirrups]>",
+			"[+50]% Production when constructing [UnitType.LightCavalry] units [in all cities] <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [9]>",
+			"[+50]% Production when constructing [UnitType.HeavyCavalry] units [in all cities] <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [9]>",
+			"[+100]% [Resource.Horse] resource production <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [9]>",
+			"[+51]% Strength <for [UnitType.LightCavalry] units> <vs [UnitType.AntiCavalry] units> <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [15]>",
+			"[+51]% Strength <for [UnitType.HeavyCavalry] units> <vs [UnitType.AntiCavalry] units> <when number of [[Cities] + [[Building.ExecutiveSecretariat] Buildings]] is more than [15]>"
+		],
+		// "uniqueText": "When the number of cities is ≥6, each city [+2 Production], after discovering [Tech.Stirrups], [+1 Production]\nWhen the number of cities is ≥10, all cities train cavalry units +50% [Production] and double the production of [Resource.Horse]\nWhen the number of cities is ≥16, cavalry units against cavalry units +51% combat effectiveness and experience acquisition speed +100%",
+		"civilopediaText": [
+			{
+				"text": "Promotion.FastMove",
+				"link": "Promotion/Promotion.FastMove"
+			}
+		],
+		"cities": [
+			"Shangdu",
+			"Zhongdu",
+			"Dadu",
+			"Xingqing",
+			"Shangdu Road",
+			"Daming",
+			"Xijin",
+			"Dade",
+			"Qingning",
+			"Da'an",
+			"Dexing",
+			"Xuande",
+			"Hening",
+			"Yidu",
+			"Haidu",
+			"Yuanhe",
+			"Shangdu Liushousi",
+			"Shunde",
+			"Liaoyang",
+			"Ningxia",
+			"Huizhou",
+			"Chaozhou",
+			"Liuzhou",
+			"Guangzhou",
+			"Hangzhou",
+			"Helin",
+			"Tianshui",
+			"Ganzhou",
+			"Suzhou",
+			"Guazhou",
+			"Shazhou",
+			"Yijinai"
+		]
+	},
+	{ //商朝
+		"name": "Nation.Shang",
+		"leaderName": "Pan Geng",
+		"adjective": [
+			"Shang"
+		],
+		"outerColor": [
+			246,
+			246,
+			246
+		], // 浅白色
+		"innerColor": [
+			0,
+			153,
+			153
+		], // 青色
+		"startBias": [
+			"River"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Pan Geng's Revival",
+		"uniques": [
+			" "
+		],
+		"uniqueText": "Each turn you can perform one city relocation (selling [Building.ShangEmperorPalace] in the current city and buying it in another city within the same turn)",
+		"cities": [
+			"亳",
+			"商",
+			"殷",
+			"郑",
+			"宋",
+			"曹",
+			"陈",
+			"滑",
+			"范",
+			"丹",
+			"酆",
+			"曾",
+			"毛",
+			"鄢",
+			"匡",
+			"盖",
+			"闾",
+			"夏",
+			"桑",
+			"薄",
+			"唐",
+			"虞",
+			"太",
+			"田",
+			"邓",
+			"邬",
+			"姬",
+			"姜",
+			"姚",
+			"姬",
+			"姜"
+		]
+	},
+	{ //周朝
+		"name": "Nation.Zhou",
+		"leaderName": "Ji Fa",
+		"adjective": [
+			"Zhou"
+		],
+		"outerColor": [
+			156,
+			113,
+			9
+		],
+		"innerColor": [
+			255,
+			201,
+			210
+		],
+		"startBias": [
+			"Plains",
+			"Grassland"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Founding with Enfeoffment",
+		"uniques": [
+			"Cannot build [Military] units <in cities with a [Building.Guo]>"
+		],
+		"uniqueText": "All cities can choose one of the following attributes when they are established: Guo[Building.Guo], Ye[Building.Ye]\n\nAfter researching Feudalism [Civic.Feudalism], cities with the attribute 'Ye[Building.Ye]' can choose one of the following attributes: Jiao[Building.Jiao], Mu[Building.Mu], Ze[Building.Ze]",
+		"cities": [
+			"镐",
+			"管",
+			"蔡",
+			"郕",
+			"霍",
+			"鲁",
+			"卫",
+			"毛",
+			"聃",
+			"郜",
+			"雍",
+			"曹",
+			"滕",
+			"毕",
+			"太原",
+			"郇",
+			"邗",
+			"晋",
+			"应",
+			"韩",
+			"鲁",
+			"凡",
+			"蒋",
+			"邢",
+			"茅",
+			"胙",
+			"祭",
+			"齐",
+			"吕",
+			"申",
+			"陈",
+			"宋",
+			"蓟",
+			"焦",
+			"祝",
+			"杞",
+			"纪",
+			"许",
+			"楚",
+			"越",
+			"英",
+			"舒",
+			"黄",
+			"江",
+			"息",
+			"徐",
+			"莒",
+			"奄",
+			"郯",
+			"莱",
+			"六",
+			"郧",
+			"孤竹",
+			"邾",
+			"缯",
+			"祝其",
+			"费",
+			"颛臾",
+			"鲜于",
+			"邾",
+			"郑",
+			"梁",
+			"秦"
+		]
+	},
+	{ //楼兰
+		"name": "Nation.LouLan",
+		"leaderName": "Wei Tuqi",
+		"outerColor": [
+			101,
+			67,
+			33
+		],
+		"innerColor": [
+			255,
+			204,
+			0
+		],
+		"startBias": [
+			"Landform.Oasis"
+		],
+		"preferredVictoryType": "VictoryType.Economic",
+		"uniqueName": "Silk Road",
+		"uniques": [
+			"[UnitType.Scout] units gain the [Promotion.RoadBuild] promotion",
+			"[+3 Gold] from every [Building.TradingPost]"
+		],
+		"cities": [
+			"Loulan",
+			"Gaochang",
+			"Yanqi",
+			"Yutian",
+			"Kangju",
+			"Shule",
+			"Shanshan",
+			"Qiuci",
+			"Yiwu",
+			"Tuhuoluo",
+			"Cheshi",
+			"Qiemo",
+			"Suiye",
+			"Tianbo",
+			"Yili",
+			"Qitai",
+			"Tarim",
+			"Shufu",
+			"Kangguo",
+			"Gonggao"
+		]
+	},
+	{ //越南
+		"name": "Nation.Vietnam",
+		"leaderName": "Lady Trieu",
+		"outerColor": [
+			192,
+			150,
+			23
+		],
+		"innerColor": [
+			92,
+			38,
+			104
+		],
+		"startBias": [
+			"Landform.Forest"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Pearl River Delta",
+		"uniques": [
+			"[{Military} {Land}] units gain the [Promotion.Hidden] promotion",
+			"[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>",
+			"[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>",
+			"[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>"
+		],
+		// "uniqueText":"[[{Military} {Land}] units gain the [Promotion.Hidden] promotion]\n'[+1 Culture] from every [Class.District] <in [Landform.Forest] tiles>'\n[[+1 Science] from every [Class.District] <in [Landform.Rainforest] tiles>]\n[[+1 Production] from every [Class.District] <in [Landform.Swamp] tiles>]",
+		"cities": [
+			"Hanoi",
+			"Ho Chi Minh City",
+			"Da Nang",
+			"Hoi An",
+			"Nha Trang",
+			"Hue",
+			"Ha Long",
+			"Phu Quoc",
+			"Vung Tau",
+			"Can Tho",
+			"Mui Ne",
+			"Sapa",
+			"Dalat",
+			"Hai Phong",
+			"Quy Nhon",
+			"Phan Thiet",
+			"Tam Coc",
+			"Cat Ba",
+			"Mekong Delta",
+			"Hoa Lu",
+			"Phong Nha",
+			"Cao Bang",
+			"Buon Ma Thuot",
+			"Qui Nhon",
+			"My Tho",
+			"Bien Hoa",
+			"Rach Gia",
+			"Ben Tre",
+			"Ha Giang",
+			"Dien Bien Phu"
+		]
+	},
+	{ //亚特兰蒂斯
+		"name": "Nation.Atlantis",
+		"leaderName": "Poseidon",
+		"outerColor": [
+			0,
+			153,
+			204
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Science",
+		"uniqueName": "Poseidon Worship",
+		"uniques": [
+			"[UnitType.RangedInfantry] units gain the [Promotion.Atlantis] promotion",
+			"[+100]% Strength <when defending> <when [Embarked]>",
+			"Comment [[-25]% [Production] [in [non-[Coastal]] cities]]",
+			"[-25]% [Production] [in all cities] <hidden from users>",
+			"[+25]% [Production] [in all coastal cities] <hidden from users>",
+			"Discover [Tech.AstronomicalNavigation] <upon entering the [Era.Classical]>",
+			"Discover [Tech.Shipbuilding] <upon entering the [Era.Medieval]>",
+			"Discover [Tech.Cartography] <upon entering the [Era.Renaissance]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Promotion.Atlantis",
+				"link": "Promotion/Promotion.Atlantis"
+			}
+		],
+		"cities": [
+			"Alania",
+			"Serrastia",
+			"Isilia",
+			"Santolia",
+			"Atlenia",
+			"Alexsis",
+			"Arcadia",
+			"Sirenia",
+			"Elisya",
+			"Orlisda",
+			"Yarxia",
+			"Teralis",
+			"Astrala",
+			"Apollonia",
+			"Seltis",
+			"Merlia",
+			"Istantisia",
+			"Elliot",
+			"Melfis",
+			"Icalia"
+		]
+	},
+	{ //挪威
+		"name": "Nation.Norway",
+		"leaderName": "Harald",
+		"outerColor": [
+			214,
+			40,
+			40
+		],
+		"innerColor": [
+			0,
+			32,
+			91
+		],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "VictoryType.Unity",
+		"uniqueName": "Northern Thunder",
+		"uniques": [
+			"Comment [Discover all [Ancient ruins] on the map at the beginning]",
+			"Reveal up to [All] [Ancient ruins] within a [1023] tile radius <hidden from users>",
+			"May heal outside of friendly territory <for [{Military} {Water}] units>",
+			"[+50]% Production when constructing [UnitType.ShortRangedNaval] units [in all cities]"
+		],
+		"cities": [
+			"Oslo",
+			"Bergen",
+			"Trondheim",
+			"Stavanger",
+			"Drammen",
+			"Fredrikstad",
+			"Kristiansand",
+			"Sandnes",
+			"Tromsø",
+			"Sarpsborg",
+			"Skien",
+			"Ålesund",
+			"Sandefjord",
+			"Haugesund",
+			"Moss",
+			"Porsgrunn",
+			"Bodø",
+			"Arendal",
+			"Hamar",
+			"Ytrebygda"
+		]
+	},
+	{ //埃塞俄比亚
+		"name": "Nation.Ethiopia",
+		"leaderName": "Menelik II",
+		"outerColor": [
+			248,
+			217,
+			2
+		],
+		"innerColor": [
+			21,
+			108,
+			49
+		],
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "VictoryType.Culture",
+		"uniqueName": "Aksumite Legacy",
+		"uniques": [
+			"[+1 Faith] from every [Luxury resource]",
+			"[+18]% Strength <when fighting in [Landform.Hill] tiles>",
+			"[+15]% [Culture] [in all cities] <in [Landform.Hill] tiles>"
+		],
+		"cities": [
+			"Addis Ababa",
+			"Gondar",
+			"Harar",
+			"Axum",
+			"Adwa",
+			"Lalibela",
+			"Mekele",
+			"Dessie",
+			"Jimma",
+			"Sodo",
+			"Dire Dawa",
+			"Adigrat",
+			"Weldiya",
+			"Ankober",
+			"Alamata",
+			"Yirgalem",
+			"Gore",
+			"Negele Borana",
+			"Ginir",
+			"Debarq",
+			"Nejo",
+			"Debre Berhan",
+			"Abiy Addi",
+			"Mersa",
+			"Soqota",
+			"Sayint Ajebar",
+			"Chencha",
+			"Antalo",
+			"Yifat",
+			"Dabat",
+			"Debre Sina"
+		]
+	},
+	//新国家/新文明从这里开始
+	// City-States sorted by cityStateType, name
+	{
+		"name": "Brussels",
+		"adjective": [
+			"Bruxellois"
+		],
+		"cityStateType": "CitystateType.Cultural",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			153,
+			255,
+			51
+		],
+		"cities": [
+			"Brussels"
+		]
+	},
+	{
+		"name": "Florence",
+		"adjective": [
+			"Florentine"
+		],
+		"cityStateType": "CitystateType.Cultural",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the flower of Florence falls to barbaric hands...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			62,
+			197,
+			252
+		],
+		"cities": [
+			"Florence"
+		]
+	},
+	{
+		"name": "Hanoi",
+		"adjective": [
+			"Hanoi"
+		],
+		"cityStateType": "CitystateType.Cultural",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			51,
+			51,
+			255
+		],
+		"cities": [
+			"Hanoi"
+		]
+	},
+	{
+		"name": "Kabul",
+		"adjective": [
+			"Kabul"
+		],
+		"cityStateType": "CitystateType.Cultural",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			168,
+			38,
+			102
+		],
+		"cities": [
+			"Kabul"
+		]
+	},
+	{
+		"name": "Kuala Lumpur",
+		"adjective": [
+			"KLite"
+		],
+		"cityStateType": "CitystateType.Scientific",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			102,
+			102
+		],
+		"cities": [
+			"Kuala Lumpur"
+		]
+	},
+	{
+		"name": "Lhasa",
+		"translatedName": "Lhasa",
+		"adjective": [
+			"tibetano"
+		],
+		"cityStateType": "CitystateType.Scientific",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			204,
+			102,
+			0
+		],
+		"cities": [
+			"Lhasa"
+		]
+	},
+	{
+		"name": "Milan",
+		"adjective": [
+			"Milanese"
+		],
+		"cityStateType": "CitystateType.Cultural",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			185,
+			132,
+			66
+		],
+		"cities": [
+			"Milan"
+		]
+	},
+	{
+		"name": "Quebec City",
+		"adjective": [
+			"Québécois"
+		],
+		"cityStateType": "CitystateType.Scientific",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			51,
+			102,
+			0
+		],
+		"cities": [
+			"Quebec City"
+		]
+	},
+	{
+		"name": "Cape Town",
+		"adjective": [
+			"Cape Town"
+		],
+		"cityStateType": "CitystateType.Scientific",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			153,
+			153
+		],
+		"cities": [
+			"Cape Town"
+		]
+	},
+	{
+		"name": "Helsinki",
+		"adjective": [
+			"Helsinki"
+		],
+		"cityStateType": "CitystateType.Scientific",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			178,
+			102
+		],
+		"cities": [
+			"Helsinki"
+		]
+	},
+	{
+		"name": "Manila",
+		"adjective": [
+			"Manilan"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			96,
+			96,
+			96
+		],
+		"cities": [
+			"Manila"
+		]
+	},
+	{
+		"name": "Mogadishu",
+		"adjective": [
+			"Mogadishu"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			224,
+			224,
+			224
+		],
+		"cities": [
+			"Mogadishu"
+		]
+	},
+	{
+		"name": "Rio de Janeiro",
+		"adjective": [
+			"Carioca"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			211,
+			220,
+			103
+		],
+		"cities": [
+			"Rio de Janeiro"
+		]
+	},
+	{
+		"name": "Sydney",
+		"adjective": [
+			"Sydney"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			204,
+			204
+		],
+		"cities": [
+			"Sydney"
+		]
+	},
+	{
+		"name": "Ur",
+		"adjective": [
+			"Ur"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			69,
+			0
+		],
+		"cities": [
+			"Ur"
+		]
+	},
+	{
+		"name": "Vancouver",
+		"translatedName": "Vancouver",
+		"adjective": [
+			"Vancouverite"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			255,
+			128
+		],
+		"cities": [
+			"Vancouver"
+		]
+	},
+	{
+		"name": "Venice",
+		"adjective": [
+			"Venetian"
+		],
+		"cityStateType": "CitystateType.Industrial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			153,
+			204,
+			255
+		],
+		"cities": [
+			"Venice"
+		]
+	},
+	{
+		"name": "Antwerp",
+		"adjective": [
+			"Antwerp"
+		],
+		"cityStateType": "CitystateType.Commercial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			194,
+			97,
+			255
+		],
+		"cities": [
+			"Antwerp"
+		]
+	},
+	{
+		"name": "Genoa",
+		"adjective": [
+			"Genoese"
+		],
+		"cityStateType": "CitystateType.Commercial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			45,
+			255,
+			86
+		],
+		"cities": [
+			"Genoa"
+		]
+	},
+	{
+		"name": "Kathmandu",
+		"adjective": [
+			"Kathmandu"
+		],
+		"cityStateType": "CitystateType.Commercial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			151,
+			125,
+			0
+		],
+		"cities": [
+			"Kathmandu"
+		]
+	},
+	{
+		"name": "Singapore",
+		"adjective": [
+			"Singaporean"
+		],
+		"cityStateType": "CitystateType.Commercial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			0
+		],
+		"cities": [
+			"Singapore"
+		]
+	},
+	{
+		"name": "Tyre",
+		"adjective": [
+			"Tyrian"
+		],
+		"cityStateType": "CitystateType.Commercial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"startBias": [
+			"Coast"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			97,
+			255
+		],
+		"cities": [
+			"Tyre"
+		]
+	},
+	{
+		"name": "Zanzibar",
+		"adjective": [
+			"Zanzibar"
+		],
+		"cityStateType": "CitystateType.Commercial",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			153,
+			255
+		],
+		"cities": [
+			"Zanzibar"
+		]
+	},
+	{
+		"name": "Almaty",
+		"adjective": [
+			"Almaty"
+		],
+		"cityStateType": "CitystateType.Military",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			152,
+			0,
+			241
+		],
+		"cities": [
+			"Almaty"
+		]
+	},
+	{
+		"name": "Belgrade",
+		"adjective": [
+			"Belgrade"
+		],
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"cityStateType": "CitystateType.Military",
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "The serbian guerilla will never stop haunting you!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			211,
+			180,
+			113
+		],
+		"cities": [
+			"Belgrade"
+		]
+	},
+	{
+		"name": "Dublin",
+		"adjective": [
+			"Dubliner"
+		],
+		"cityStateType": "CitystateType.Military",
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
+		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			211,
+			180,
+			113
+		],
+		"cities": [
+			"Dublin"
+		],
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		]
+	},
+	{
+		"name": "Edinburgh",
+		"adjective": [
+			"Edinburghensian"
+		],
+		"cityStateType": "CitystateType.Military",
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			102,
+			102
+		],
+		"cities": [
+			"Edinburgh"
+		],
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		]
+	},
+	{
+		"name": "M'Banza-Kongo",
+		"adjective": [
+			"M'Banza-Kongo"
+		],
+		"cityStateType": "CitystateType.Military",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			128,
+			0
+		],
+		"cities": [
+			"M'Banza-Kongo"
+		]
+	},
+	{
+		"name": "Sidon",
+		"adjective": [
+			"Sidon"
+		],
+		"cityStateType": "CitystateType.Military",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Sidon is willing to serve you!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			250,
+			128,
+			114
+		],
+		"cities": [
+			"Sidon"
+		]
+	},
+	{
+		"name": "Valletta",
+		"adjective": [
+			"maltese"
+		],
+		"cityStateType": "CitystateType.Military",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "This ship may sink, but our spirits will linger.",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			102,
+			102
+		],
+		"cities": [
+			"Valletta"
+		]
+	},
+	{
+		"name": "Bratislava",
+		"adjective": [
+			"Bratislava"
+		],
+		"cityStateType": "CitystateType.Religious",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. ForGod is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"cities": [
+			"Bratislava"
+		]
+	},
+	{
+		"name": "Cahokia",
+		"adjective": [
+			"Cahokia"
+		],
+		"cityStateType": "CitystateType.Religious",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			203,
+			253,
+			232
+		],
+		"cities": [
+			"Cahokia"
+		]
+	},
+	{
+		"name": "Jerusalem",
+		"adjective": [
+			"Jerusalem"
+		],
+		"cityStateType": "CitystateType.Religious",
+		"uniques": [
+			"[+1900]% Culture cost of natural border growth [in all cities]",
+			"[+1900]% Gold cost of acquiring tiles [in all cities]",
+			"[+100]% Strength for cities <when attacking>"
+		],
+		"declaringWar": "ByGod's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "MayGod have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			198,
+			255,
+			192
+		],
+		"cities": [
+			"Jerusalem"
+		]
+	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			185,
+			12,
+			12
+		],
+		"uniques": [
+			"Can only heal by pillaging"
+			// "May capture killed [Wounded] units"
+		]
+	}
+]

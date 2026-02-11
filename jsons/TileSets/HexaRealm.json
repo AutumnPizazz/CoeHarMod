@@ -1,0 +1,160 @@
+{
+    "useColorAsBaseTerrain": "false",
+	"unexploredTileColor": {"r":1,"g":1,"b":1,"a":1}, //White
+	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1}, //Black
+	"tileScale": 1.0,
+    "ruleVariants": {
+		"Grassland+Landform.Hill+Landform.Forest":["Grassland+Landform.Hill","Landform.Forest"],
+		"Plains+Landform.Hill+Landform.Forest":["Plains+Landform.Hill","Landform.Forest"],
+		"Tundra+Landform.Hill+Landform.Forest":["Tundra+Landform.Hill","Landform.Forest"],
+
+		"Plains+Landform.NuclearFallout":["Plains","Landform.NuclearFallout"],
+		"Grassland+Landform.NuclearFallout":["Grassland","Landform.NuclearFallout"],
+		"Tundra+Landform.NuclearFallout":["Tundra","Landform.NuclearFallout"],
+		"Desert+Landform.NuclearFallout":["Desert","Landform.NuclearFallout"],
+		"Snow+Landform.NuclearFallout":["Snow","Landform.NuclearFallout"],
+		
+		"Plains+Landform.Hill+Landform.NuclearFallout":["Plains+Landform.Hill","Landform.NuclearFallout"],
+		"Grassland+Landform.Hill+Landform.NuclearFallout":["Grassland+Landform.Hill","Landform.NuclearFallout"],
+		"Tundra+Landform.Hill+Landform.NuclearFallout":["Tundra+Landform.Hill","Landform.NuclearFallout"],
+		"Desert+Landform.Hill+Landform.NuclearFallout":["Desert+Landform.Hill","Landform.NuclearFallout"],
+		"Snow+Landform.Hill+Landform.NuclearFallout":["Snow+Landform.Hill","Landform.NuclearFallout"],
+
+		"Plains+Landform.Hill+Landform.VolcanicSoil":["Plains+Landform.Hill","Landform.VolcanicSoil"],
+		"Grassland+Landform.Hill+Landform.VolcanicSoil":["Grassland+Landform.Hill","Landform.VolcanicSoil"],
+		"Tundra+Landform.Hill+Landform.VolcanicSoil":["Tundra+Landform.Hill","Landform.VolcanicSoil"],
+		"Desert+Landform.Hill+Landform.VolcanicSoil":["Desert+Landform.Hill","Landform.VolcanicSoil"],
+		"Snow+Landform.Hill+Landform.VolcanicSoil":["Snow+Landform.Hill","Landform.VolcanicSoil"]
+		/*
+// other	
+		"Forest+Lumber mill": ["Forest+Lumber mill"],
+	    	"Plains+Lake Victoria": ["Lakes+Lake Victoria"],
+	    	"Plains+Forest+Lumber mill": ["Plains","Forest+Lumber mill"],
+	    	"Plains+Forest": ["Plains","Forest"], //maybe?
+	    	"Grassland+Forest": ["Grassland","Forest"],	  //no idea tho  
+	    	"Grassland+Forest+Lumber mill": ["Grassland","Forest+Lumber mill"],
+	    	"Tundra+Forest+Lumber mill": ["Tundra","TF+Lumber mill"],
+	    	"Plains+Landform.Hill+Forest+Lumber mill": ["Plains","Landform.Hill","HF+Lumber mill"],
+	    	"Grassland+Landform.Hill+Forest+Lumber mill": ["Grassland","Landform.Hill","HF+Lumber mill"],
+			"Tundra+Landform.Hill+Forest+Lumber mill": ["Tundra","Landform.Hill","HF+Lumber mill"],
+	        "Coast+Oil+Oil well": ["Coast","Offshore platform"],
+	    	"Tundra+Academy": ["Tundra","AcademySnowy"],
+	   	"Snow+Academy": ["Snow","AcademySnowy"],
+		"Tundra+Ancient ruins": ["Tundra","AncientRuinsSnowTundra"],
+	    	"Snow+Ancient ruins": ["Snow","AncientRuinsSnowTundra"],
+		"Tundra+Landform.Hill+Ancient ruins": ["Tundra","Landform.Hill","Landform.HillD","AncientRuinsSnowTundra"],
+	    	"Snow+Landform.Hill+Ancient ruins": ["Snow","Landform.HillR","AncientRuinsSnowTundra"],
+	    	"Desert+Ancient ruins": ["Desert","AncientRuinsDesert"],
+	    	"Desert+Landform.Hill+Ancient ruins": ["Desert","Landform.HillR","AncientRuinsDesert"],
+// plains
+		"Plains+Jungle+Antiquity Site": ["Plains","Oil","Antiquity Site","Jungle"],
+		"Plains+Jungle+Oil": ["Plains","Oil","Jungle"],
+		"Plains+Jungle+Gold": ["Plains","Gold Ore","Jungle"],
+		"Plains+Jungle+Gems": ["Plains","Gems","Jungle"],
+		"Plains+Jungle+Gold Ore": ["Plains","Gold Ore","Jungle"],
+		"Plains+Jungle+Coal": ["Plains","Coal","Jungle"],
+		"Plains+Jungle+Uranium": ["Plains","Uranium","Jungle"],
+		"Plains+Jungle+Aluminum": ["Plains","Aluminum","Jungle"],
+		"Plains+Jungle+Iron": ["Plains","Iron","Jungle"],
+		"Plains+Jungle+Silver": ["Plains","Silver","Jungle"],
+		"Plains+Jungle+Copper": ["Plains","Copper","Jungle"],
+		"Plains+Forest+Antiquity Site": ["Plains","Antiquity Site","Forest"],
+		"Plains+Forest+Oil": ["Plains","Oil","Forest"],
+		"Plains+Forest+Gold": ["Plains","Gold Ore","Forest"],
+		"Plains+Forest+Gems": ["Plains","Gems","Forest"],
+		"Plains+Forest+Gold Ore": ["Plains","Gold Ore","Forest"],
+		"Plains+Forest+Coal": ["Plains","Coal","Forest"],
+		"Plains+Forest+Uranium": ["Plains","Uranium","Forest"],
+		"Plains+Forest+Aluminum": ["Plains","Aluminum","Forest"],
+		"Plains+Forest+Iron": ["Plains","Iron","Forest"],
+		"Plains+Forest+Silver": ["Plains","Silver","Forest"],
+		"Plains+Forest+Copper": ["Plains","Copper","Forest"],
+
+// graslands
+		"Grassland+Jungle+Oil": ["Grassland","Oil","Jungle"],
+		"Grassland+Jungle+Gold": ["Grassland","Gold Ore","Jungle"],
+		"Grassland+Jungle+Gems": ["Grassland","Gems","Jungle"],
+		"Grassland+Jungle+Gold Ore": ["Grassland","Gold Ore","Jungle"],
+		"Grassland+Jungle+Coal": ["Grassland","Coal","Jungle"],
+		"Grassland+Jungle+Uranium": ["Grassland","Uranium","Jungle"],
+		"Grassland+Jungle+Aluminum": ["Grassland","Aluminum","Jungle"],
+		"Grassland+Jungle+Iron": ["Grassland","Iron","Jungle"],
+		"Grassland+Jungle+Silver": ["Grassland","Silver","Jungle"],
+		"Grassland+Jungle+Copper": ["Grassland","Copper","Jungle"]
+		"Grassland+Jungle+Antiquity Site": ["Grassland","Antiquity Site","Jungle"]
+		"Grassland+Forest+Antiquity Site": ["Grassland","Antiquity Site","Forest"]
+		"Grassland+Forest+Oil": ["Grassland","Oil","Forest"]
+		"Grassland+Forest+Gold": ["Grassland","Gold Ore","Forest"]
+		"Grassland+Forest+Gems": ["Grassland","Gems","Forest"]
+		"Grassland+Forest+Gold Ore": ["Grassland","Gold Ore","Forest"]
+		"Grassland+Forest+Coal": ["Grassland","Coal","Forest"]
+		"Grassland+Forest+Uranium": ["Grassland","Uranium","Forest"]
+		"Grassland+Forest+Aluminum": ["Grassland","Aluminum","Forest"]
+		"Grassland+Forest+Iron": ["Grassland","Iron","Forest"]
+		"Grassland+Forest+Silver": ["Grassland","Silver","Forest"]
+		"Grassland+Forest+Copper": ["Grassland","Copper","Forest"]
+			    	"Plains+Forest+Hardwood+Lumber mill": ["Plains","Forest+Hardwood+Lumber mill"]
+			"Tundra+Forest+Hardwood+Lumber mill": ["Tundra","TF+Hardwood+Lumber mill"]
+			"Grassland+Forest+Hardwood+Lumber mill": ["Grassland","Forest+Hardwood+Lumber mill"]
+			"Plains+Landform.Hill+Forest+Hardwood+Lumber mill": ["Plains","Landform.Hill","HF+Hardwood+Lumber mill"]
+			"Tundra+Landform.Hill+Forest+Hardwood+Lumber mill": ["Tundra","Landform.Hill","HF+Hardwood+Lumber mill"]
+			"Grassland+Landform.Hill+Forest+Hardwood+Lumber mill": ["Grassland","Landform.Hill","HF+Hardwood+Lumber mill"]
+			"Plains+Jungle+Brazilwood Camp": ["Plains","Jungle+Brazilwood Camp"]
+			"Grassland+Jungle+Brazilwood Camp": ["Grassland","Jungle+Brazilwood camp"]
+		
+// tundra
+		"Tundra+Forest": ["Tundra","TF"]
+		"Tundra+Landform.Hill+Forest": ["Tundra","Landform.Hill","Landform.HillD","HF"]
+		"Desert+Landform.Hill": ["Desert","Landform.HillR"]
+		"Snow+Landform.Hill": ["Snow","Landform.HillR"]
+		"Tundra+Landform.Hill": ["Tundra","Landform.Hill","Landform.HillD"]
+		"Plains+Landform.Hill+Forest": ["Plains","Landform.Hill","HF"]
+		"Grassland+Landform.Hill+Forest": ["Grassland","Landform.Hill","HF"]
+		"Tundra+Landform.Hill+Forest+Lumber mill": ["Tundra","Landform.Hill","Landform.HillD","HF+Lumber mill"]
+		"Plains+Landform.Hill+Forest+Lumber mill": ["Plains","Landform.Hill","HF+Lumber mill"]
+		"Grassland+Landform.Hill+Forest+Lumber mill": ["Grassland","Landform.Hill","HF+Lumber mill"]
+		"Tundra+Forest+Iron": ["Tundra","Iron","TF"]
+		"Tundra+Forest+Silver": ["Tundra","Silver","TF"]
+		"Tundra+Forest+Aluminum": ["Tundra","Aluminum","TF"]
+		"Tundra+Forest+Aluminum": ["Tundra","Uranium","TF"]
+		"Tundra+Forest+Gold": ["Tundra","Gold Ore","TF"]	
+		"Tundra+Forest+Gold Ore": ["Tundra","Gold Ore","TF"]
+		"Tundra+Forest+Gems": ["Tundra","Gems","TF"]			
+		"Tundra+Forest+Citrus": ["Tundra","TF+Citrus"]
+		"Tundra+Forest+Deer": ["Tundra","TF+Deer"]
+		"Tundra+Forest+Deer+Camp": ["Tundra","TF+Deer+Camp"]
+		"Tundra+Forest+Dyes": ["Tundra","TF+Dyes"]
+		"Tundra+Forest+Furs": ["Tundra","TF+Furs"]
+		"Tundra+Forest+Furs+Camp": ["Tundra","TF+Furs+Camp"]
+		"Tundra+Forest+Lumber mill": ["Tundra","TF+Lumber mill"]
+		"Tundra+Forest+Sacred Grove": ["Tundra","TF+Sacred Grove"]
+		"Tundra+Forest+Silk": ["Tundra","TF+Silk"]
+		"Tundra+Forest+Spices": ["Tundra","TF+Spices"]
+		"Tundra+Forest+Trading post": ["Tundra","TF+Trading post"]
+		"Tundra+Forest+Truffles": ["Tundra","TF+Truffles"]
+		"Tundra+Forest+Truffles+Camp": ["Tundra","TF+Truffles+Camp"]
+		
+		"Tundra+Forest+Ancient ruins": ["Tundra","TF","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Iron+Ancient ruins": ["Tundra","Iron","TF","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Silver+Ancient ruins": ["Tundra","Silver","TF","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Aluminum+Ancient ruins": ["Tundra","Aluminum","TF","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Aluminum+Ancient ruins": ["Tundra","Uranium","TF","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Gold+Ancient ruins": ["Tundra","Gold Ore","TF","AncientRuinsSnowTundra"]	
+		"Tundra+Forest+Gold Ore+Ancient ruins": ["Tundra","Gold Ore","TF","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Gems+Ancient ruins": ["Tundra","Gems","TF","AncientRuinsSnowTundra"]			
+		"Tundra+Forest+Citrus+Ancient ruins": ["Tundra","TF+Citrus","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Deer+Ancient ruins": ["Tundra","TF+Deer","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Deer+Camp+Ancient ruins": ["Tundra","TF+Deer+Camp","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Dyes+Ancient ruins": ["Tundra","TF+Dyes","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Furs+Ancient ruins": ["Tundra","TF+Furs","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Furs+Camp+Ancient ruins": ["Tundra","TF+Furs+Camp","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Lumber mill+Ancient ruins": ["Tundra","TF+Lumber mill","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Sacred Grove+Ancient ruins": ["Tundra","TF+Sacred Grove","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Silk+Ancient ruins": ["Tundra","TF+Silk","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Spices+Ancient ruins": ["Tundra","TF+Spices","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Trading post+Ancient ruins": ["Tundra","TF+Trading post","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Truffles+Ancient ruins": ["Tundra","TF+Truffles","AncientRuinsSnowTundra"]
+		"Tundra+Forest+Truffles+Camp+Ancient ruins": ["Tundra","TF+Truffles+Camp","AncientRuinsSnowTundra"]
+		*/
+    }
+}

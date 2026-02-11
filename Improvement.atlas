@@ -1,0 +1,846 @@
+
+Improvement.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ImprovementIcons/Canal
+  rotate: false
+  xy: 4, 1196
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Cancel improvement order
+  rotate: false
+  xy: 532, 679
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Railroad
+  rotate: false
+  xy: 532, 679
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Road
+  rotate: false
+  xy: 532, 679
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/City center
+  rotate: false
+  xy: 562, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Distict.BeachLandmark
+  rotate: false
+  xy: 4, 932
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Raceline
+  rotate: false
+  xy: 4, 932
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Distict.LearningAcademy
+  rotate: false
+  xy: 268, 1196
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Campus
+  rotate: false
+  xy: 268, 1196
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MayanObservatory
+  rotate: false
+  xy: 268, 1196
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Acropolis
+  rotate: false
+  xy: 562, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TheaterSquare
+  rotate: false
+  xy: 562, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.AlhambraPalace
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Amundsen-ScottSouthPoleStation
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.AngkorWat
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.ApadanaPalace
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.BigBen
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Biosphere
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.BolshoiTheatre
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Broadway
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.ChichenItza
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Colossus
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.EiffelTower
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.EtemenankiTemple
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.ForbiddenCity
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.GardenInTheAir
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.GoldenGateBridge
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.GreatZimbabwe
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.HagiaSophia
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.HermitageMuseum
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.HuiyiTemple
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.HungarianParliamentBuilding
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.JebelBarkal
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.KilwaKisiwani
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Kotokuin
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MachuPicchu
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MaebadAlkurnak
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MakobodhiTemple
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MaracanaStadium
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MausoleumAtHalicarnassus
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MontSaintMichel
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Oracle
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Oxford
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.PanamaCanal
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Petra
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.PotalaPalace
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.RomanColosseum
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.RuhrValley
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.StBasilsCathedral
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.StatueOfLiberty
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.StatueOfZeus
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.StatueofChristtheRedeemer
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Stonehenge
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.SydneyOperaHouse
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TajMahal
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TempleOfArtemis
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TerraCottaWarriors
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TheGreatBathsOfCaracalla
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TheGreatLibrary
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TheGreatLighthouse
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.TheGreatPyramids
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.UniversityOfSankore
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.VenetianArmory
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.WestIndiaExchange
+  rotate: false
+  xy: 532, 923
+  size: 244, 265
+  orig: 244, 265
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Army
+  rotate: false
+  xy: 826, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Thanh
+  rotate: false
+  xy: 826, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.CommercialAssociation
+  rotate: false
+  xy: 4, 668
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.CommercialHub
+  rotate: false
+  xy: 268, 932
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.MandingoMarket
+  rotate: false
+  xy: 268, 932
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.EntertainmentComplex
+  rotate: false
+  xy: 826, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.ForeignQuarter
+  rotate: false
+  xy: 1090, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.GovernmentPlaza
+  rotate: false
+  xy: 4, 404
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Mayab
+  rotate: false
+  xy: 4, 404
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Harbor
+  rotate: false
+  xy: 268, 668
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.UShapedHarbor
+  rotate: false
+  xy: 268, 668
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.HolySite
+  rotate: false
+  xy: 1090, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.LavraMonastery
+  rotate: false
+  xy: 1090, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.IndustrialZone
+  rotate: false
+  xy: 1354, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Oppidum
+  rotate: false
+  xy: 1354, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.ProtectionZone
+  rotate: false
+  xy: 4, 140
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Spaceport
+  rotate: false
+  xy: 268, 404
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.Torfbair
+  rotate: false
+  xy: 1354, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/District.WaterPark
+  rotate: false
+  xy: 1618, 1754
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.EarthVeinsExploiter
+  rotate: false
+  xy: 268, 140
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Encampment
+  rotate: false
+  xy: 668, 815
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Farm
+  rotate: false
+  xy: 276, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Fishery
+  rotate: false
+  xy: 1882, 1638
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.FishingBoat
+  rotate: false
+  xy: 532, 571
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Fort
+  rotate: false
+  xy: 384, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.RomeFort
+  rotate: false
+  xy: 384, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Fortification
+  rotate: false
+  xy: 1882, 1530
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.GeothermalPowerPlant
+  rotate: false
+  xy: 532, 463
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Kurgan
+  rotate: false
+  xy: 532, 355
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.LumberMill
+  rotate: false
+  xy: 532, 247
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Magnetite
+  rotate: false
+  xy: 4, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Manufactory
+  rotate: false
+  xy: 4, 1460
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Mine
+  rotate: false
+  xy: 532, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.MingGreatWall
+  rotate: false
+  xy: 1882, 1882
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.MountainRoadNetwork
+  rotate: false
+  xy: 532, 787
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.OffshoreOilRig
+  rotate: false
+  xy: 796, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.OilWell
+  rotate: false
+  xy: 796, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Pabo
+  rotate: false
+  xy: 904, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Park
+  rotate: false
+  xy: 1618, 1490
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Pasture
+  rotate: false
+  xy: 904, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.PersianCourtyard
+  rotate: false
+  xy: 1012, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Plantation
+  rotate: false
+  xy: 1012, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Prophet
+  rotate: false
+  xy: 1120, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.ProtectionZone
+  rotate: false
+  xy: 532, 1196
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Qanat
+  rotate: false
+  xy: 140, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Quarry
+  rotate: false
+  xy: 1120, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Rock-HewnChurch
+  rotate: false
+  xy: 1882, 1746
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Seastead
+  rotate: false
+  xy: 1228, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.Sphinx
+  rotate: false
+  xy: 1228, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Improvement.TerraceFarm
+  rotate: false
+  xy: 1336, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Railroad
+  rotate: false
+  xy: 1336, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Landform.Forest
+  rotate: false
+  xy: 1444, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Landform.Rainforest
+  rotate: false
+  xy: 1444, 1382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Landform.Nuclear fallout
+  rotate: false
+  xy: 1444, 1274
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Landform.Swamp
+  rotate: false
+  xy: 1552, 1383
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Road
+  rotate: false
+  xy: 1552, 1275
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

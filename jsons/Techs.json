@@ -1,0 +1,1770 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Era.Ancient",
+		"techCost": 1,
+		"buildingCost": 60,
+		"wonderCost": 180,
+		"techs": [
+			{
+				"name": "Tech.Civic.Agriculture",
+				"row": 8,
+				"quote": "Quote.Tech.Civic.Agriculture",
+				"uniques": [
+					"Starting tech",
+					"Enables Defensive Pacts"
+				]
+			},
+			{
+				"name": "Tech.UniqueToGoldenDawn",
+				"cost": 33554431,
+				"row": 15,
+				"quote": "Quote.Tech.UniqueToGoldenDawn",
+				"uniques": [
+					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			// {
+			// 	"name": "Tech.UniqueToUnitedStates",
+			// 	"cost": 33554431,
+			// 	"row": 14,
+			// 	"quote": "Quote.Tech.UniqueToUnitedStates",
+			// 	"uniques": [
+			// 		"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
+			// 		"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+			// 	]
+			// },
+			{
+				"name": "Tech.UniqueToVampire",
+				"cost": 33554431,
+				"row": 16,
+				"quote": "Quote.Tech.UniqueToVampire",
+				"uniques": [
+					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Era.Ancient",
+		"buildingCost": 60,
+		"wonderCost": 180,
+		"techCost": 25,
+		"techs": [
+			{ //航海术
+				"name": "Tech.NauticalArt",
+				"cost": 50,
+				"row": 1,
+				"prerequisites": [
+					"Tech.Civic.Agriculture"
+				],
+				"quote": "Quote.Tech.NauticalArt",
+				"uniques": []
+			},
+			{ //占星术
+				"name": "Tech.Astrology",
+				"cost": 50,
+				"row": 2,
+				"prerequisites": [
+					"Tech.Civic.Agriculture"
+				],
+				"quote": "Quote.Tech.Astrology",
+				"uniques": []
+			},
+			{ //制陶术
+				"name": "Tech.Pottery",
+				"cost": 25,
+				"row": 4,
+				"prerequisites": [
+					"Tech.Civic.Agriculture"
+				],
+				"quote": "Quote.Tech.Pottery",
+				"uniques": []
+			},
+			{ //畜牧业
+				"name": "Tech.AnimalHusbandry",
+				"cost": 25,
+				"row": 5,
+				"prerequisites": [
+					"Tech.Civic.Agriculture"
+				],
+				"quote": "Quote.Tech.AnimalHusbandry",
+				"uniques": []
+			},
+			{ //采矿业
+				"name": "Tech.Mining",
+				"cost": 25,
+				"row": 7,
+				"prerequisites": [
+					"Tech.Civic.Agriculture"
+				],
+				"quote": "Quote.Tech.Mining",
+				"uniques": []
+			},
+			{ //法典
+				"name": "Civic.Code",
+				"row": 12,
+				"prerequisites": [
+					"Tech.Civic.Agriculture"
+				],
+				"quote": "Quote.Civic.Code",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Tech.UniqueToGoldenDawn2",
+				"cost": 33554431,
+				"row": 15,
+				"prerequisites": [
+					"Tech.UniqueToGoldenDawn"
+				],
+				"quote": "Quote.Tech.UniqueToGoldenDawn2",
+				"uniques": [
+					"Only available <after discovering [Tech.FutureTechnology]> <hidden from users>",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Era.Ancient",
+		"techCost": 50,
+		"buildingCost": 60,
+		"wonderCost": 180,
+		"techs": [
+			{ //灌溉
+				"name": "Tech.Irrigation",
+				"row": 3,
+				"prerequisites": [
+					"Tech.Pottery"
+				],
+				"quote": "Quote.Tech.Irrigation",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Writing",
+				"row": 4,
+				"prerequisites": [
+					"Tech.Pottery"
+				],
+				"quote": "Quote.Tech.Writing",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Archey",
+				"row": 5,
+				"prerequisites": [
+					"Tech.AnimalHusbandry"
+				],
+				"quote": "Quote.Tech.Archey",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Skill",
+				"row": 10,
+				"prerequisites": [
+					"Civic.Code"
+				],
+				"quote": "Quote.Civic.Skill",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.BasicTrade",
+				"row": 14,
+				"prerequisites": [
+					"Civic.Code"
+				],
+				"quote": "Quote.Civic.BasicTrade",
+				"uniques": [
+					"Provides [1] [Resource.TradeRouteCapacity]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Era.Ancient",
+		"techCost": 80,
+		"buildingCost": 60,
+		"wonderCost": 180,
+		"techs": [
+			{
+				"name": "Tech.Bricklaying",
+				"row": 6,
+				"prerequisites": [
+					"Tech.Mining"
+				],
+				"quote": "Quote.Tech.Bricklaying",
+				"uniques": []
+			},
+			{
+				"name": "Tech.CopperCasting",
+				"row": 7,
+				"prerequisites": [
+					"Tech.Mining"
+				],
+				"quote": "Quote.Tech.CopperCasting",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Wheels",
+				"row": 8,
+				"prerequisites": [
+					"Tech.Mining"
+				],
+				"quote": "Quote.Tech.Wheels",
+				"uniques": []
+			},
+			{
+				"name": "Civic.MilitaryTradition",
+				"row": 9,
+				"prerequisites": [
+					"Civic.Skill"
+				],
+				"quote": "Quote.Civic.MilitaryTradition",
+				"uniques": [
+					"Comment [Military units have the ability to enjoy the Flank Attack bonuses and Support Defend bonus]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.NationalLaborForce",
+				"row": 12,
+				"prerequisites": [
+					"Civic.Skill"
+				],
+				"quote": "Quote.Civic.NationalLaborForce",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.EarlyEmpire",
+				"row": 13,
+				"prerequisites": [
+					"Civic.BasicTrade"
+				],
+				"quote": "Quote.Civic.EarlyEmpire",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Enables Open Borders agreements",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{ //神秘主义
+				"name": "Civic.Mysticism",
+				"row": 15,
+				"prerequisites": [
+					"Civic.BasicTrade"
+				],
+				"quote": "Quote.Civic.Mysticism",
+				"uniques": [
+					"Free [Unit.Envoy2] appears",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Era.Classical",
+		"techCost": 120,
+		"buildingCost": 60,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Tech.AstronomicalNavigation",
+				"row": 2,
+				"prerequisites": [
+					"Tech.Astrology",
+					"Tech.NauticalArt"
+				],
+				"quote": "Quote.Tech.AstronomicalNavigation",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Currency",
+				"row": 4,
+				"prerequisites": [
+					"Tech.Writing"
+				],
+				"quote": "Quote.Tech.Currency",
+				"uniques": []
+			},
+			{
+				"name": "Tech.HorsebackRiding",
+				"row": 5,
+				"prerequisites": [
+					"Tech.Archey"
+				],
+				"quote": "Quote.Tech.HorsebackRiding",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Alchemy",
+				"row": 7,
+				"prerequisites": [
+					"Tech.CopperCasting"
+				],
+				"quote": "Quote.Tech.Alchemy",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Project",
+				"cost": 120,
+				"row": 8,
+				"prerequisites": [
+					"Tech.Wheels"
+				],
+				"quote": "Quote.Tech.Project",
+				"uniques": [
+					"Roads connect tiles across rivers"
+				]
+			},
+			{
+				"name": "Civic.GamesAndEntertainment",
+				"row": 10,
+				"prerequisites": [
+					"Civic.NationalLaborForce"
+				],
+				"quote": "Quote.Civic.GamesAndEntertainment",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.PoliticalPhilosophy",
+				"row": 12,
+				"prerequisites": [
+					"Civic.NationalLaborForce",
+					"Civic.EarlyEmpire"
+				],
+				"quote": "Quote.Civic.PoliticalPhilosophy",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.DramaAndPoetry",
+				"row": 14,
+				"prerequisites": [
+					"Civic.EarlyEmpire"
+				],
+				"quote": "Quote.Civic.DramaAndPoetry",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Era.Classical",
+		"techCost": 200,
+		"buildingCost": 60,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Tech.Shipbuilding",
+				"row": 1,
+				"prerequisites": [
+					"Tech.NauticalArt"
+				],
+				"quote": "Quote.Tech.Shipbuilding",
+				"uniques": [
+					"Enables embarkation for land units"
+				]
+			},
+			{
+				"name": "Tech.Math",
+				"row": 3,
+				"prerequisites": [
+					"Tech.Currency"
+				],
+				"quote": "Quote.Tech.Math",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Build",
+				"row": 6,
+				"prerequisites": [
+					"Tech.Bricklaying",
+					"Tech.Alchemy"
+				],
+				"quote": "Quote.Tech.Build",
+				"uniques": []
+			},
+			{
+				"name": "Civic.MilitaryTraining",
+				"row": 9,
+				"prerequisites": [
+					"Civic.MilitaryTradition",
+					"Civic.GamesAndEntertainment"
+				],
+				"quote": "Quote.Civic.MilitaryTraining",
+				"uniques": [
+					"Free [Unit.Envoy2] appears",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.DefensiveTactics",
+				"row": 11,
+				"prerequisites": [
+					"Civic.GamesAndEntertainment",
+					"Civic.PoliticalPhilosophy"
+				],
+				"quote": "Quote.Civic.DefensiveTactics",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.History",
+				"row": 13,
+				"prerequisites": [
+					"Civic.PoliticalPhilosophy",
+					"Civic.DramaAndPoetry"
+				],
+				"quote": "Quote.Civic.History",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Theology",
+				"row": 15,
+				"prerequisites": [
+					"Civic.DramaAndPoetry",
+					"Civic.Mysticism"
+				],
+				"quote": "Quote.Civic.Theology",
+				"uniques": [
+					"Free [Unit.Envoy2] appears",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Era.Medieval",
+		"techCost": 300,
+		"buildingCost": 60,
+		"wonderCost": 710,
+		"techs": [
+			{
+				"name": "Tech.Buttresses",
+				"row": 1,
+				"prerequisites": [
+					"Tech.Shipbuilding"
+				],
+				"quote": "Quote.Tech.Buttresses",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Tactics",
+				"row": 2,
+				"prerequisites": [
+					"Tech.Shipbuilding",
+					"Tech.Math"
+				],
+				"quote": "Quote.Tech.Tactics",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Apprentices",
+				"row": 4,
+				"prerequisites": [
+					"Tech.Currency",
+					"Tech.HorsebackRiding"
+				],
+				"quote": "Quote.Tech.Apprentices",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Mechanical",
+				"row": 8,
+				"prerequisites": [
+					"Tech.Alchemy",
+					"Tech.Project"
+				],
+				"quote": "Quote.Tech.Mechanical",
+				"uniques": [
+					"Improves movement speed on roads"
+				]
+			},
+			{
+				"name": "Civic.NavalTradition",
+				"row": 10,
+				"prerequisites": [
+					"Civic.DefensiveTactics"
+				],
+				"quote": "Quote.Civic.NavalTradition",
+				"uniques": [
+					"Free [Unit.Envoy2] appears",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Feudalism",
+				"row": 11,
+				"prerequisites": [
+					"Civic.DefensiveTactics"
+				],
+				"quote": "Quote.Civic.Feudalism",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Administration",
+				"row": 13,
+				"prerequisites": [
+					"Civic.DefensiveTactics",
+					"Civic.History"
+				],
+				"quote": "Quote.Civic.Administration",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Era.Medieval",
+		"techCost": 390,
+		"buildingCost": 60,
+		"wonderCost": 710,
+		"techs": [
+			{
+				"name": "Tech.CivilianEducation",
+				"row": 3,
+				"prerequisites": [
+					"Tech.Math",
+					"Tech.Apprentices"
+				],
+				"quote": "Quote.Tech.CivilianEducation",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Stirrups",
+				"row": 5,
+				"prerequisites": [
+					"Tech.Apprentices"
+				],
+				"quote": "Quote.Tech.Stirrups",
+				"uniques": []
+			},
+			{
+				"name": "Tech.MilitaryEngineering",
+				"row": 6,
+				"prerequisites": [
+					"Tech.Build"
+				],
+				"quote": "Quote.Tech.MilitaryEngineering",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Castle",
+				"row": 7,
+				"prerequisites": [
+					"Tech.Alchemy"
+				],
+				"quote": "Quote.Tech.Castle",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Mercenaries",
+				"row": 9,
+				"prerequisites": [
+					"Civic.MilitaryTraining"
+				],
+				"quote": "Quote.Civic.Mercenaries",
+				"uniques": [
+					"Free [Unit.Envoy2] appears",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.MedievalBazaar",
+				"row": 11,
+				"prerequisites": [
+					"Civic.Feudalism"
+				],
+				"quote": "Quote.Civic.MedievalBazaar",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.TheWorkersUnion",
+				"row": 13,
+				"prerequisites": [
+					"Civic.Administration"
+				],
+				"quote": "Quote.Civic.TheWorkersUnion",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.DivinRightOfKings",
+				"row": 15,
+				"prerequisites": [
+					"Civic.Administration",
+					"Civic.Theology"
+				],
+				"quote": "Quote.Civic.DivinRightOfKings",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Era.Renaissance",
+		"techCost": 600,
+		"buildingCost": 60,
+		"wonderCost": 920,
+		"techs": [
+			{
+				"name": "Tech.Cartography",
+				"row": 1,
+				"prerequisites": [
+					"Tech.Buttresses"
+				],
+				"quote": "Quote.Tech.Cartography",
+				"uniques": [
+					"Enables [All] units to enter ocean tiles"
+				]
+			},
+			{
+				"name": "Tech.MassProduction",
+				"row": 2,
+				"prerequisites": [
+					"Tech.Buttresses",
+					"Tech.Tactics",
+					"Tech.CivilianEducation"
+				],
+				"quote": "Quote.Tech.MassProduction",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Astronomy",
+				"cost": 600,
+				"row": 3,
+				"prerequisites": [
+					"Tech.CivilianEducation"
+				],
+				"quote": "Quote.Tech.Astronomy",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Banking",
+				"row": 4,
+				"prerequisites": [
+					"Tech.CivilianEducation",
+					"Tech.Stirrups"
+				],
+				"quote": "Quote.Tech.Banking",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Gunpowder",
+				"row": 5,
+				"prerequisites": [
+					"Tech.Stirrups",
+					"Tech.MilitaryEngineering"
+				],
+				"quote": "Quote.Tech.Gunpowder",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Printing",
+				"row": 8,
+				"prerequisites": [
+					"Tech.Mechanical"
+				],
+				"quote": "Quote.Tech.Printing",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Exploration",
+				"row": 9,
+				"prerequisites": [
+					"Civic.Mercenaries",
+					"Civic.MedievalBazaar"
+				],
+				"quote": "Quote.Civic.Exploration",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Humanism",
+				"row": 11,
+				"prerequisites": [
+					"Civic.MedievalBazaar",
+					"Civic.TheWorkersUnion"
+				],
+				"quote": "Quote.Civic.Humanism",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.ForeighService",
+				"row": 13,
+				"prerequisites": [
+					"Civic.TheWorkersUnion"
+				],
+				"quote": "Quote.Civic.ForeighService",
+				"uniques": [
+					"Enables Research agreements",
+					"Provides [1] [Resource.SpyCapacity]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.ReformedChurch",
+				"row": 14,
+				"prerequisites": [
+					"Civic.TheWorkersUnion",
+					"Civic.DivinRightOfKings"
+				],
+				"quote": "Quote.Civic.ReformedChurch",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Era.Renaissance",
+		"techCost": 730,
+		"buildingCost": 60,
+		"wonderCost": 920,
+		"techs": [
+			{
+				"name": "Tech.CrossailDevice",
+				"row": 1,
+				"prerequisites": [
+					"Tech.Cartography"
+				],
+				"quote": "Quote.Tech.CrossailDevice",
+				"uniques": []
+			},
+			{
+				"name": "Tech.MetalCasting",
+				"row": 5,
+				"prerequisites": [
+					"Tech.Gunpowder"
+				],
+				"quote": "Quote.Tech.MetalCasting",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Siege",
+				"row": 7,
+				"prerequisites": [
+					"Tech.Castle"
+				],
+				"quote": "Quote.Tech.Siege",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Mercantilism",
+				"row": 11,
+				"prerequisites": [
+					"Civic.Humanism"
+				],
+				"quote": "Quote.Civic.Mercantilism",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Enlightenment",
+				"row": 13,
+				"prerequisites": [
+					"Civic.Humanism",
+					"Civic.ForeighService"
+				],
+				"quote": "Quote.Civic.Enlightenment",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Era.Industrial",
+		"techCost": 930,
+		"buildingCost": 60,
+		"wonderCost": 1240,
+		"techs": [
+			{
+				"name": "Tech.Industrialization",
+				"row": 2,
+				"prerequisites": [
+					"Tech.CrossailDevice",
+					"Tech.MassProduction"
+				],
+				"quote": "Quote.Tech.Industrialization",
+				"uniques": []
+			},
+			{
+				"name": "Tech.ScientificTheory",
+				"row": 3,
+				"prerequisites": [
+					"Tech.Astronomy",
+					"Tech.Banking"
+				],
+				"quote": "Quote.Tech.ScientificTheory",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Ballistics",
+				"row": 6,
+				"prerequisites": [
+					"Tech.MetalCasting"
+				],
+				"quote": "Quote.Tech.Ballistics",
+				"uniques": []
+			},
+			{
+				"name": "Tech.MilitaryScience",
+				"row": 8,
+				"prerequisites": [
+					"Tech.Siege",
+					"Tech.Printing"
+				],
+				"quote": "Quote.Tech.MilitaryScience",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Colonialism",
+				"row": 9,
+				"prerequisites": [
+					"Civic.Mercantilism"
+				],
+				"quote": "Quote.Civic.Colonialism",
+				"uniques": [
+					"[2] free [Unit.Envoy2] units appear",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.CivilEngineering",
+				"row": 11,
+				"prerequisites": [
+					"Civic.Mercantilism"
+				],
+				"quote": "Quote.Civic.CivilEngineering",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Nationalism",
+				"row": 12,
+				"prerequisites": [
+					"Civic.Enlightenment"
+				],
+				"quote": "Quote.Civic.Nationalism",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Provides [1] [Resource.SpyCapacity]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.OperaAndBallet",
+				"row": 14,
+				"prerequisites": [
+					"Civic.Enlightenment"
+				],
+				"quote": "Quote.Civic.OperaAndBallet",
+				"uniques": [
+					"[2] free [Unit.Envoy2] units appear",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Era.Industrial",
+		"techCost": 1070,
+		"buildingCost": 60,
+		"wonderCost": 1240,
+		"techs": [
+			{
+				"name": "Tech.SteamPower",
+				"row": 1,
+				"prerequisites": [
+					"Tech.Industrialization"
+				],
+				"quote": "Quote.Tech.SteamPower",
+				"uniques": []
+			},
+			{
+				"name": "Tech.SanitaryEquipment",
+				"row": 4,
+				"prerequisites": [
+					"Tech.ScientificTheory"
+				],
+				"quote": "Quote.Tech.SanitaryEquipment",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Economy",
+				"row": 5,
+				"prerequisites": [
+					"Tech.ScientificTheory",
+					"Tech.MetalCasting"
+				],
+				"quote": "Quote.Tech.Economy",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Rifling",
+				"row": 7,
+				"prerequisites": [
+					"Tech.Ballistics",
+					"Tech.MilitaryScience"
+				],
+				"quote": "Quote.Tech.Rifling",
+				"uniques": []
+			},
+			{
+				"name": "Civic.NaturalHistory",
+				"row": 9,
+				"prerequisites": [
+					"Civic.Colonialism"
+				],
+				"quote": "Quote.Civic.NaturalHistory",
+				"uniques": [
+					"[2] free [Unit.Envoy2] units appear",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Urbanization",
+				"row": 11,
+				"prerequisites": [
+					"Civic.CivilEngineering",
+					"Civic.Nationalism"
+				],
+				"quote": "Quote.Civic.Urbanization",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.ScorchedEarthStrategy",
+				"row": 14,
+				"prerequisites": [
+					"Civic.Nationalism"
+				],
+				"quote": "Quote.Civic.ScorchedEarthStrategy",
+				"uniques": [
+					"[2] free [Unit.Envoy2] units appear",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Era.Modern",
+		"techCost": 1250,
+		"buildingCost": 60,
+		"wonderCost": 1620,
+		"techs": [
+			{
+				"name": "Tech.Flight",
+				"row": 3,
+				"prerequisites": [
+					"Tech.Industrialization",
+					"Tech.ScientificTheory"
+				],
+				"quote": "Quote.Tech.Flight",
+				"uniques": []
+			},
+			{
+				"name": "Tech.PartSpecification",
+				"row": 5,
+				"prerequisites": [
+					"Tech.Economy"
+				],
+				"quote": "Quote.Tech.PartSpecification",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Steel",
+				"row": 6,
+				"prerequisites": [
+					"Tech.Rifling"
+				],
+				"quote": "Quote.Tech.Steel",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Refining",
+				"row": 8,
+				"prerequisites": [
+					"Tech.Rifling"
+				],
+				"quote": "Quote.Tech.Refining",
+				"uniques": []
+			},
+			{
+				"name": "Civic.EarthProtection",
+				"row": 9,
+				"prerequisites": [
+					"Civic.NaturalHistory"
+				],
+				"quote": "Quote.Civic.EarthProtection",
+				"uniques": [
+					"[3] free [Unit.Envoy2] units appear",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.MassMedia",
+				"row": 11,
+				"prerequisites": [
+					"Civic.NaturalHistory",
+					"Civic.Urbanization"
+				],
+				"quote": "Quote.Civic.MassMedia",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Mobilization",
+				"row": 13,
+				"prerequisites": [
+					"Civic.Urbanization",
+					"Civic.ScorchedEarthStrategy"
+				],
+				"quote": "Quote.Civic.Mobilization",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Era.Modern",
+		"techCost": 1370,
+		"buildingCost": 60,
+		"wonderCost": 1620,
+		"techs": [
+			{
+				"name": "Tech.InternalCombustionEngine",
+				"row": 7,
+				"prerequisites": [
+					"Tech.Steel",
+					"Tech.Refining"
+				],
+				"quote": "Quote.Tech.InternalCombustionEngine",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Capitalism",
+				"row": 10,
+				"prerequisites": [
+					"Civic.MassMedia"
+				],
+				"quote": "Quote.Civic.Capitalism",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Ideology",
+				"row": 11,
+				"prerequisites": [
+					"Civic.MassMedia",
+					"Civic.Mobilization"
+				],
+				"quote": "Quote.Civic.Ideology",
+				"uniques": [
+					"Provides [1] [Resource.SpyCapacity]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Era.Modern",
+		"techCost": 1480,
+		"buildingCost": 60,
+		"wonderCost": 1620,
+		"techs": [
+			{
+				"name": "Tech.Electricity",
+				"cost": 1575,
+				"row": 1,
+				"prerequisites": [
+					"Tech.SteamPower"
+				],
+				"quote": "Quote.Tech.Electricity",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Radio",
+				"cost": 1575,
+				"row": 2,
+				"prerequisites": [
+					"Tech.SteamPower",
+					"Tech.Flight"
+				],
+				"quote": "Quote.Tech.Radio",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Chemistry",
+				"cost": 1575,
+				"row": 3,
+				"prerequisites": [
+					"Tech.SanitaryEquipment",
+					"Tech.PartSpecification"
+				],
+				"quote": "Quote.Tech.Chemistry",
+				"uniques": []
+			},
+			{
+				"name": "Civic.NuclearProgram",
+				"row": 10,
+				"prerequisites": [
+					"Civic.Ideology"
+				],
+				"quote": "Quote.Civic.NuclearProgram",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.RightToVote",
+				"row": 13,
+				"prerequisites": [
+					"Civic.Ideology"
+				],
+				"quote": "Quote.Civic.RightToVote",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Tolalitarianism",
+				"row": 14,
+				"prerequisites": [
+					"Civic.Ideology"
+				],
+				"quote": "Quote.Civic.Tolalitarianism",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.ClassStruggle",
+				"row": 15,
+				"prerequisites": [
+					"Civic.Ideology"
+				],
+				"quote": "Quote.Civic.ClassStruggle",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Era.Atomic",
+		"techCost": 1660,
+		"buildingCost": 60,
+		"wonderCost": 1740,
+		"techs": [
+			{
+				"name": "Tech.RocketResearch",
+				"row": 3,
+				"prerequisites": [
+					"Tech.Radio",
+					"Tech.Chemistry"
+				],
+				"quote": "Quote.Tech.RocketResearch",
+				"uniques": []
+			},
+			{
+				"name": "Tech.AdvancedBallistics",
+				"row": 4,
+				"prerequisites": [
+					"Tech.PartSpecification",
+					"Tech.Steel"
+				],
+				"quote": "Quote.Tech.AdvancedBallistics",
+				"uniques": []
+			},
+			{
+				"name": "Tech.JointOperations",
+				"row": 5,
+				"prerequisites": [
+					"Tech.InternalCombustionEngine"
+				],
+				"quote": "Quote.Tech.JointOperations",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Plastic",
+				"row": 6,
+				"prerequisites": [
+					"Tech.InternalCombustionEngine"
+				],
+				"quote": "Quote.Tech.Plastic",
+				"uniques": []
+			},
+			{
+				"name": "Civic.CulturalHeritage",
+				"row": 9,
+				"prerequisites": [
+					"Civic.EarthProtection"
+				],
+				"quote": "Quote.Civic.CulturalHeritage",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.ColdWar",
+				"row": 11,
+				"prerequisites": [
+					"Civic.Ideology"
+				],
+				"quote": "Quote.Civic.ColdWar",
+				"uniques": [
+					"Provides [1] [Resource.SpyCapacity]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Era.Atomic",
+		"techCost": 1850,
+		"buildingCost": 60,
+		"wonderCost": 1740,
+		"techs": [
+			{
+				"name": "Tech.ModernAviation",
+				"cost": 2200,
+				"row": 2,
+				"prerequisites": [
+					"Tech.Radio"
+				],
+				"quote": "Quote.Tech.ModernAviation",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Computer",
+				"row": 1,
+				"prerequisites": [
+					"Tech.Electricity",
+					"Tech.Radio"
+				],
+				"quote": "Quote.Tech.Computer",
+				"uniques": []
+			},
+			{
+				"name": "Tech.NuclearFission",
+				"row": 5,
+				"prerequisites": [
+					"Tech.AdvancedBallistics",
+					"Tech.JointOperations"
+				],
+				"quote": "Quote.Tech.NuclearFission",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Synthetic",
+				"row": 6,
+				"prerequisites": [
+					"Tech.Plastic"
+				],
+				"quote": "Quote.Tech.Synthetic",
+				"uniques": []
+			},
+			{
+				"name": "Civic.EmergencyDeployment",
+				"row": 11,
+				"prerequisites": [
+					"Civic.ColdWar"
+				],
+				"quote": "Quote.Civic.EmergencyDeployment",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.SpaceRace",
+				"row": 12,
+				"prerequisites": [
+					"Civic.ColdWar"
+				],
+				"quote": "Quote.Civic.SpaceRace",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.ProfessionalSports",
+				"cost": 2200,
+				"row": 14,
+				"prerequisites": [
+					"Civic.Ideology"
+				],
+				"quote": "Quote.Civic.ProfessionalSports",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Era.Information",
+		"techCost": 2155,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.Telecommunication",
+				"row": 2,
+				"prerequisites": [
+					"Tech.Computer"
+				],
+				"quote": "Quote.Tech.Telecommunication",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Satellite",
+				"row": 3,
+				"prerequisites": [
+					"Tech.ModernAviation",
+					"Tech.RocketResearch"
+				],
+				"quote": "Quote.Tech.Satellite",
+				"uniques": []
+			},
+			{
+				"name": "Tech.GuidanceSystem",
+				"row": 4,
+				"prerequisites": [
+					"Tech.RocketResearch",
+					"Tech.AdvancedBallistics"
+				],
+				"quote": "Quote.Tech.GuidanceSystem",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Laser",
+				"row": 5,
+				"prerequisites": [
+					"Tech.NuclearFission"
+				],
+				"quote": "Quote.Tech.Laser",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Composite",
+				"row": 6,
+				"prerequisites": [
+					"Tech.Synthetic"
+				],
+				"quote": "Quote.Tech.Composite",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Stealth",
+				"row": 7,
+				"prerequisites": [
+					"Tech.Synthetic"
+				],
+				"quote": "Quote.Tech.Stealth",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Environmentalism",
+				"row": 10,
+				"prerequisites": [
+					"Civic.CulturalHeritage",
+					"Civic.EmergencyDeployment"
+				],
+				"quote": "Quote.Civic.Environmentalism",
+				"uniques": [
+					"[+2 Culture, +1 Science] from [Vegetation] tiles [in all cities]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.Globalization",
+				"row": 13,
+				"prerequisites": [
+					"Civic.EmergencyDeployment",
+					"Civic.SpaceRace"
+				],
+				"quote": "Quote.Civic.Globalization",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.SocialMedia",
+				"row": 15,
+				"prerequisites": [
+					"Civic.SpaceRace",
+					"Civic.ProfessionalSports"
+				],
+				"quote": "Quote.Civic.SocialMedia",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Era.Information",
+		"techCost": 2200,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.Robotics",
+				"row": 1,
+				"prerequisites": [
+					"Tech.Computer",
+					"Tech.Satellite",
+					"Tech.GuidanceSystem",
+					"Tech.Laser"
+				],
+				"quote": "Quote.Tech.Robotics",
+				"uniques": []
+			},
+			{
+				"name": "Tech.NuclearFusion",
+				"row": 8,
+				"prerequisites": [
+					"Tech.Laser"
+				],
+				"quote": "Quote.Tech.NuclearFusion",
+				"uniques": []
+			},
+			{
+				"name": "Tech.Nanotechnology",
+				"row": 9,
+				"prerequisites": [
+					"Tech.Composite"
+				],
+				"quote": "Quote.Tech.Nanotechnology",
+				"uniques": []
+			},
+			{
+				"name": "Civic.Near-FutureGovernance",
+				"row": 11,
+				"prerequisites": [
+					"Civic.Environmentalism",
+					"Civic.Globalization"
+				],
+				"quote": "Quote.Civic.Near-FutureGovernance",
+				"uniques": [
+					"[3] free [Unit.Envoy2] units appear",
+					"Provides [1] [Resource.GovernorTitle]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.PoliticalAdventures",
+				"row": 12,
+				"prerequisites": [
+					"Civic.Globalization",
+					"Civic.SocialMedia"
+				],
+				"quote": "Quote.Civic.PoliticalAdventures",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.DecentralizedSovereighty",
+				"row": 13,
+				"prerequisites": [
+					"Civic.Globalization",
+					"Civic.SocialMedia"
+				],
+				"quote": "Quote.Civic.DecentralizedSovereighty",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.OptimizationCommand",
+				"row": 14,
+				"prerequisites": [
+					"Civic.Globalization",
+					"Civic.SocialMedia"
+				],
+				"quote": "Quote.Civic.OptimizationCommand",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Era.Near-future",
+		"techCost": 2500,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.OceanHome",
+				"row": 2,
+				"prerequisites": [
+					"Tech.GuidanceSystem"
+				],
+				"quote": "Quote.Tech.OceanHome"
+			},
+			{
+				"name": "Tech.AdvancedAI",
+				"row": 3,
+				"prerequisites": [
+					"Tech.GuidanceSystem"
+				],
+				"uniques": [
+					"[+33]% Strength <for [UnitType.Mech] units> <vs [All] units> <when attacking>"
+				],
+				"quote": "Quote.Tech.AdvancedAI"
+			},
+			{
+				"name": "Tech.AdvancedEnergyBattery",
+				"row": 4,
+				"prerequisites": [
+					"Tech.GuidanceSystem"
+				],
+				"uniques": [
+					"[+50]% Strength <for [UnitType.Mech] units> <vs cities> <when attacking>"
+				],
+				"quote": "Quote.Tech.AdvancedEnergyBattery"
+			},
+			{
+				"name": "Tech.Cybernetics",
+				"row": 5,
+				"prerequisites": [
+					"Tech.GuidanceSystem"
+				],
+				"uniques": [
+					"[+2] Movement <for [UnitType.Mech] units>"
+				],
+				"quote": "Quote.Tech.Cybernetics"
+			},
+			{
+				"name": "Tech.SmartMaterials",
+				"row": 6,
+				"prerequisites": [
+					"Tech.GuidanceSystem"
+				],
+				"uniques": [
+					"[+66]% Strength <for [UnitType.Mech] units> <when defending>"
+				],
+				"quote": "Quote.Tech.SmartMaterials"
+			},
+			{
+				"name": "Tech.ForecastingSystem",
+				"row": 7,
+				"prerequisites": [
+					"Tech.GuidanceSystem"
+				],
+				"uniques": [
+					"[+10000]% Strength <for [UnitType.Mech] units> <vs [UnitType.Missile] units>"
+				],
+				"quote": "Quote.Tech.ForecastingSystem"
+			},
+			{
+				"name": "Civic.GlobalWarmingMitigation",
+				"row": 10,
+				"prerequisites": [
+					"Civic.PoliticalAdventures",
+					"Civic.OptimizationCommand",
+					"Civic.DecentralizedSovereighty"
+				],
+				"quote": "Quote.Civic.GlobalWarmingMitigation",
+				"uniques": [
+					"[3] free [Unit.Envoy2] units appear",
+					"Provides [1] [Resource.DiplomaticFavor]",
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.SmartPowerFoctrine",
+				"row": 11,
+				"prerequisites": [
+					"Civic.PoliticalAdventures",
+					"Civic.OptimizationCommand",
+					"Civic.DecentralizedSovereighty"
+				],
+				"quote": "Quote.Civic.SmartPowerFoctrine",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.InformationWarfare",
+				"row": 12,
+				"prerequisites": [
+					"Civic.PoliticalAdventures",
+					"Civic.OptimizationCommand",
+					"Civic.DecentralizedSovereighty"
+				],
+				"quote": "Quote.Civic.InformationWarfare",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.NecessityExpedition",
+				"row": 13,
+				"prerequisites": [
+					"Civic.PoliticalAdventures",
+					"Civic.OptimizationCommand",
+					"Civic.DecentralizedSovereighty"
+				],
+				"quote": "Quote.Civic.NecessityExpedition",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			},
+			{
+				"name": "Civic.CulturalHegemony",
+				"row": 14,
+				"prerequisites": [
+					"Civic.PoliticalAdventures",
+					"Civic.OptimizationCommand",
+					"Civic.DecentralizedSovereighty"
+				],
+				"quote": "Quote.Civic.CulturalHegemony",
+				"uniques": [
+					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 20,
+		"era": "Era.Near-future",
+		"techCost": 2600,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.AlienMissons",
+				"row": 4,
+				"prerequisites": [
+					"Tech.OceanHome",
+					"Tech.AdvancedAI",
+					"Tech.Cybernetics",
+					"Tech.AdvancedEnergyBattery",
+					"Tech.SmartMaterials",
+					"Tech.ForecastingSystem"
+				],
+				"quote": "Quote.Tech.AlienMissons",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 21,
+		"era": "Era.Far-future",
+		"techCost": 3000,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.FutureTechnology",
+				"row": 4,
+				"prerequisites": [
+					"Tech.AlienMissons"
+				],
+				"quote": "Quote.Tech.FutureTechnology",
+				"uniques": [
+					"Gain [1000] [Gold]",
+					"[+5]% [Production] [in all cities]",
+					"Can be continually researched"
+				]
+			},
+			{
+				"name": "Civic.FutureMunicipal",
+				"row": 12,
+				"prerequisites": [
+					"Civic.GlobalWarmingMitigation",
+					"Civic.SmartPowerFoctrine",
+					"Civic.InformationWarfare",
+					"Civic.NecessityExpedition",
+					"Civic.CulturalHegemony"
+				],
+				"quote": "Quote.Civic.FutureMunicipal",
+				"uniques": [
+					"Provides [1] [Resource.GovernorTitle]",
+					"Can be continually researched"
+				]
+			}
+		]
+	}
+	/*模板
+	{
+		"columnNumber": ,
+		"era": "时代-",
+		"techCost": ,
+		"techs": [
+			{
+				"name": "",
+				"row": ,
+				"prerequisites": ["",""],
+				"quote": "Quote.Civic.FutureMunicipal",
+				"uniques": []
+			},
+		]
+	},
+	*/
+]

@@ -1,0 +1,55 @@
+
+TechAndCivic.png
+size: 512, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TechIcons/Initial tech_civic_Agriculture
+  rotate: false
+  xy: 4, 112
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Advanced AI
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Advanced ballistics
+  rotate: false
+  xy: 140, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Advanced energy battery
+  rotate: false
+  xy: 248, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Modern aviation
+  rotate: false
+  xy: 356, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Radio
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Steel
+  rotate: false
+  xy: 220, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

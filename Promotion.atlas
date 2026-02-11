@@ -1,0 +1,1077 @@
+
+Promotion.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitPromotionIcons/Promotion.Ambush
+  rotate: false
+  xy: 4, 1200
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Amphibious
+  rotate: false
+  xy: 334, 1689
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ArmyCombatTrainingI
+  rotate: false
+  xy: 542, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ArmyCombatTrainingII
+  rotate: false
+  xy: 4, 1064
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ArmyCombatTrainingIII
+  rotate: false
+  xy: 678, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.AssaultTeam
+  rotate: false
+  xy: 4, 928
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Atlantis
+  rotate: false
+  xy: 814, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Blood
+  rotate: false
+  xy: 4, 792
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty2
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty3
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty4
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty5
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty6
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty7
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bloodthirsty8
+  rotate: false
+  xy: 950, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Bolshevik
+  rotate: false
+  xy: 4, 656
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.BuGeng
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.CheHou
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.DaFu
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.DaShangZao
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.DaShuZhang
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.GongCheng
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.GongDaFu
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.GongShi
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.GuanDaFu
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.GuanNeiHou
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ShangZao
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ShaoShangZao
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.SiCheShuZhang
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.WuDaFu
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.YouGeng
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.YouShuZhang
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ZanNiao
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ZhongGeng
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ZuoGeng
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ZuoShuZhang
+  rotate: false
+  xy: 4, 1600
+  size: 322, 425
+  orig: 322, 425
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Canticle
+  rotate: false
+  xy: 1086, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Devout1
+  rotate: false
+  xy: 4, 520
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Devout2
+  rotate: false
+  xy: 4, 520
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Devout3
+  rotate: false
+  xy: 4, 520
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Disciple
+  rotate: false
+  xy: 1222, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Disguise
+  rotate: false
+  xy: 4, 384
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.EliteGuard
+  rotate: false
+  xy: 1358, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.FastMove
+  rotate: false
+  xy: 4, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.FearOfNapoleon
+  rotate: false
+  xy: 1494, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.GiantSpear
+  rotate: false
+  xy: 4, 112
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Guerrilla
+  rotate: false
+  xy: 1630, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.HealingGod
+  rotate: false
+  xy: 1766, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.HeartPiercingPalm
+  rotate: false
+  xy: 1902, 1897
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Hidden
+  rotate: false
+  xy: 334, 1825
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.HighMountain
+  rotate: false
+  xy: 140, 1200
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.HypnoticScreen
+  rotate: false
+  xy: 140, 1064
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.LordTraining
+  rotate: false
+  xy: 140, 928
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.MinuteMen
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.NavyCombatTrainingI
+  rotate: false
+  xy: 140, 792
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.NavyCombatTrainingII
+  rotate: false
+  xy: 140, 656
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.NavyCombatTrainingIII
+  rotate: false
+  xy: 140, 520
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Rangers
+  rotate: false
+  xy: 140, 384
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.RoadBuild
+  rotate: false
+  xy: 140, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Sentinel
+  rotate: false
+  xy: 140, 112
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ShadowlessFist
+  rotate: false
+  xy: 334, 1553
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.SickBlood
+  rotate: false
+  xy: 1500, 973
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.SnakeStyleFist
+  rotate: false
+  xy: 470, 1689
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.SunNeverSets
+  rotate: false
+  xy: 4, 1336
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.Telescope
+  rotate: false
+  xy: 470, 1553
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.qianfangguanchayuan
+  rotate: false
+  xy: 470, 1553
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.TortoiseFormation
+  rotate: false
+  xy: 268, 1417
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.TrenchWarfare
+  rotate: false
+  xy: 404, 1417
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.TwoHandedSword
+  rotate: false
+  xy: 540, 1417
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.UnionLeader
+  rotate: false
+  xy: 606, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.UrbanWarfare
+  rotate: false
+  xy: 606, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.ranshaodan
+  rotate: false
+  xy: 606, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.WaterOfLife
+  rotate: false
+  xy: 742, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.WhiteCraneFist
+  rotate: false
+  xy: 742, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.WindDanceFist
+  rotate: false
+  xy: 878, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.cejuyizhi
+  rotate: false
+  xy: 878, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.changmaozhen
+  rotate: false
+  xy: 1014, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.chaojibaolei
+  rotate: false
+  xy: 1014, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.chaojihangkongmujian
+  rotate: false
+  xy: 1150, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.chongfeng
+  rotate: false
+  xy: 1150, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.chongxinbushu
+  rotate: false
+  xy: 1286, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.chuanjianbuji
+  rotate: false
+  xy: 1286, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.chuantouhujia
+  rotate: false
+  xy: 1422, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.dengchuan
+  rotate: false
+  xy: 1422, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.diqinrenyuan
+  rotate: false
+  xy: 1558, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.duoshou
+  rotate: false
+  xy: 1558, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.fangzhen
+  rotate: false
+  xy: 1694, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.fangzhenxingshi
+  rotate: false
+  xy: 1694, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.fanyingzhuangjia
+  rotate: false
+  xy: 1830, 1761
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.feixingjiaban
+  rotate: false
+  xy: 1830, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jikujiaban
+  rotate: false
+  xy: 1830, 1625
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.fengbaozhijian
+  rotate: false
+  xy: 676, 1489
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.fuyouxiang
+  rotate: false
+  xy: 676, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.fuzhuchuan
+  rotate: false
+  xy: 276, 1281
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.guancha
+  rotate: false
+  xy: 276, 1145
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.hangxianhaitu
+  rotate: false
+  xy: 412, 1281
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.hongzha
+  rotate: false
+  xy: 276, 1009
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.huhangdui
+  rotate: false
+  xy: 412, 1145
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.huolizhunbei
+  rotate: false
+  xy: 276, 873
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.huoyaoshixiao
+  rotate: false
+  xy: 412, 1009
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jiabanzhuanyuan
+  rotate: false
+  xy: 276, 737
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jiaguchuanke
+  rotate: false
+  xy: 412, 873
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jidongguibi
+  rotate: false
+  xy: 276, 601
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jikui
+  rotate: false
+  xy: 412, 737
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jinbaoyinguan
+  rotate: false
+  xy: 276, 465
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.jinjukongzhongzhiyuan
+  rotate: false
+  xy: 412, 601
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.kongzhongchandou
+  rotate: false
+  xy: 276, 329
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.langqunzhanshu
+  rotate: false
+  xy: 412, 465
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.lanjieji
+  rotate: false
+  xy: 276, 193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.liangyibaowei
+  rotate: false
+  xy: 412, 329
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.liuxiandan
+  rotate: false
+  xy: 412, 193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.longgugailiang
+  rotate: false
+  xy: 276, 57
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.lveduo
+  rotate: false
+  xy: 412, 57
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.lveduo2
+  rotate: false
+  xy: 412, 57
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.qiangjie
+  rotate: false
+  xy: 412, 57
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.mayi
+  rotate: false
+  xy: 548, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.paodan
+  rotate: false
+  xy: 684, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.paotai
+  rotate: false
+  xy: 812, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.pufugongji
+  rotate: false
+  xy: 820, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.qishe
+  rotate: false
+  xy: 948, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.qiusheng
+  rotate: false
+  xy: 956, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.saoshe
+  rotate: false
+  xy: 1084, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.shenqiangshou
+  rotate: false
+  xy: 1092, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.tankekexing
+  rotate: false
+  xy: 1220, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.tidui
+  rotate: false
+  xy: 1228, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.tupo
+  rotate: false
+  xy: 1356, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.tuxi
+  rotate: false
+  xy: 1364, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.wushengyunxing
+  rotate: false
+  xy: 1492, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.xiandan
+  rotate: false
+  xy: 1500, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.xianjinceju
+  rotate: false
+  xy: 1628, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.xianjinfadongji
+  rotate: false
+  xy: 1636, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.xiexingzhen
+  rotate: false
+  xy: 1764, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.xujindan
+  rotate: false
+  xy: 1772, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.yanhouyaodao
+  rotate: false
+  xy: 1900, 1353
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.yazhen
+  rotate: false
+  xy: 1908, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.yazhi
+  rotate: false
+  xy: 1908, 1217
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.yuancheng
+  rotate: false
+  xy: 684, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.yuleihongzhaji
+  rotate: false
+  xy: 820, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhandouduixing
+  rotate: false
+  xy: 956, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhanmakaijia
+  rotate: false
+  xy: 1092, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhanshuweihu
+  rotate: false
+  xy: 1228, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhenchafeiji
+  rotate: false
+  xy: 1364, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zheyi
+  rotate: false
+  xy: 1500, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhongwuqi
+  rotate: false
+  xy: 1636, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhuanjiazu
+  rotate: false
+  xy: 1772, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhuiji
+  rotate: false
+  xy: 1908, 1081
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhuiliezhe
+  rotate: false
+  xy: 684, 945
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zhujun
+  rotate: false
+  xy: 820, 945
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zidaoyulei
+  rotate: false
+  xy: 956, 945
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Promotion.zuocanghujia
+  rotate: false
+  xy: 1092, 945
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/double star
+  rotate: false
+  xy: 1228, 945
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/triple star
+  rotate: false
+  xy: 1364, 945
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

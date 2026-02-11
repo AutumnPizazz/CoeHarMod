@@ -1,0 +1,32 @@
+{
+    "isBaseRuleset": true,
+    "constants": {
+        "maxXPfromBarbarians": 10,
+        "cityStrengthBase": 60,
+        "cityStrengthPerPop": 13.8,
+        "cityStrengthFromTechsFullMultiplier": 8,
+        "unitSupplyPerPopulation": 1,
+        "naturalWonderCountMultiplier": 0.2,
+        "naturalWonderCountAddedConstant": 0.5,
+        "ancientRuinCountMultiplier": 0.05,
+        "maxLakeSize": 18,
+        "riverCountMultiplier": 0.15,
+        "minRiverLength": 1,
+        "maxRiverLength": 999,
+        "pantheonBase": 12,
+        "pantheonGrowth": 0
+    },
+    "modUrl": "https://github.com/AutumnPizazz/CoeHarMod",
+    "defaultBranch": "main",
+    "author": "AutumnPizazz",
+    "lastUpdated": "2024-05-28T07:25:34Z",
+    "modSize": 443938,
+    "topics": [
+        "unciv",
+        "unciv-mod",
+        "unciv-mod-rulesets"
+    ],
+    "uniques": [
+        "Cannot be used as permanent audiovisual mod"
+    ]
+}

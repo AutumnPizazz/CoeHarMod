@@ -1,0 +1,146 @@
+[
+    {
+        "name": "CitystateType.Cultural",
+        "friendBonusUniques": [
+            "[+1 Culture] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Culture] [in all cities] <in cities with a [Building.Amphitheater]>",
+            "[+2 Culture] [in all cities] <in cities with a [Building.ArtMuseum]>",
+            "[+2 Culture] [in all cities] <in cities with a [Building.ArchaeologicalMuseum]>",
+            "[+3 Culture] [in all cities] <in cities with a [Building.BroadcastCenter]>",
+            "[+2 Culture] [in all cities] <in cities with a [Building.Consulate]>",
+            "Provides [1] [Resource.DiplomaticFavor]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Culture] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Culture] [in all cities] <in cities with a [Building.Amphitheater]>",
+            "[+2 Culture] [in all cities] <in cities with a [Building.ArtMuseum]>",
+            "[+2 Culture] [in all cities] <in cities with a [Building.ArchaeologicalMuseum]>",
+            "[+3 Culture] [in all cities] <in cities with a [Building.BroadcastCenter]>",
+            "[+4 Culture] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
+            "Provides [3] [Resource.DiplomaticFavor]"
+        ],
+        "color": [
+            139,
+            96,
+            255
+        ]
+    },
+    {
+        "name": "CitystateType.Scientific",
+        "friendBonusUniques": [
+            "[+1 Science] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Science] [in all cities] <in cities with a [Building.Library]>",
+            "[+2 Science] [in all cities] <in cities with a [Building.University]>",
+            "[+3 Science] [in all cities] <in cities with a [Building.ResearchLab]>",
+            "[+2 Science] [in all cities] <in cities with a [Building.Consulate]>",
+            "Provides [1] [Resource.DiplomaticFavor]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Science] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Science] [in all cities] <in cities with a [Building.Library]>",
+            "[+2 Science] [in all cities] <in cities with a [Building.University]>",
+            "[+3 Science] [in all cities] <in cities with a [Building.ResearchLab]>",
+            "[+4 Science] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
+            "Provides [3] [Resource.DiplomaticFavor]"
+        ],
+        "color": [
+            0,
+            0,
+            255
+        ]
+    },
+    {
+        "name": "CitystateType.Commercial",
+        "friendBonusUniques": [
+            "[+2 Gold] [in all cities] <in cities with a [Building.Palace]>",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Market]>",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Lighthouse]>",
+            "[+4 Gold] [in all cities] <in cities with a [Building.Bank]>",
+            "[+4 Gold] [in all cities] <in cities with a [Building.Shipyard]>",
+            "[+6 Gold] [in all cities] <in cities with a [Building.StockExchange]>",
+            "[+6 Gold] [in all cities] <in cities with a [Building.Dock]>",
+            "[+4 Gold] [in all cities] <in cities with a [Building.Consulate]>",
+            "Provides [1] [Resource.DiplomaticFavor]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Gold] [in all cities] <in cities with a [Building.Palace]>",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Market]>",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Lighthouse]>",
+            "[+4 Gold] [in all cities] <in cities with a [Building.Bank]>",
+            "[+4 Gold] [in all cities] <in cities with a [Building.Shipyard]>",
+            "[+6 Gold] [in all cities] <in cities with a [Building.StockExchange]>",
+            "[+6 Gold] [in all cities] <in cities with a [Building.Dock]>",
+            "[+6 Gold] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
+            "Provides [3] [Resource.DiplomaticFavor]"
+        ],
+        "color": [
+            255,
+            216,
+            0
+        ]
+    },
+    {
+        "name": "CitystateType.Military",
+        "friendBonusUniques": [
+            "[+13]% Strength <when defending> <for [Military] units>",
+            "Provides [1] [Resource.DiplomaticFavor]"
+        ],
+        "allyBonusUniques": [
+            "[+13]% Strength <for [Military] units>",
+            "Provides [3] [Resource.DiplomaticFavor]"
+        ],
+        "color": [
+            255,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "CitystateType.Religious",
+        "friendBonusUniques": [
+            "[+1 Faith] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Faith] [in all cities] <in cities with a [Building.Shrine]>",
+            "[+2 Faith] [in all cities] <in cities with a [Building.Temple]>",
+            "[+3 Faith] [in all cities] <in cities with a [Class.Building.AdvancedReligious]>",
+            "[+1 Faith] [in all cities] <in cities with a [Building.Consulate]>",
+            "Provides [1] [Resource.DiplomaticFavor]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Faith] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Faith] [in all cities] <in cities with a [Building.Shrine]>",
+            "[+2 Faith] [in all cities] <in cities with a [Building.Temple]>",
+            "[+3 Faith] [in all cities] <in cities with a [Class.Building.AdvancedReligious]>",
+            "[+3 Faith] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
+            "Provides [3] [Resource.DiplomaticFavor]"
+        ],
+        "color": [
+            255,
+            255,
+            255
+        ]
+    },
+    {
+        "name": "CitystateType.Industrial",
+        "friendBonusUniques": [
+            "[+1 Production] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Production] [in all cities] <in cities with a [Building.Workshop]>",
+            "[+2 Production] [in all cities] <in cities with a [Building.Factory]>",
+            "[+3 Production] [in all cities] <in cities with a [Class.Building.PowerPlant]>",
+            "[+2 Production] [in all cities] <in cities with a [Building.Consulate]>",
+            "Provides [1] [Resource.DiplomaticFavor]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Production] [in all cities] <in cities with a [Building.Palace]>",
+            "[+1 Production] [in all cities] <in cities with a [Building.Workshop]>",
+            "[+2 Production] [in all cities] <in cities with a [Building.Factory]>",
+            "[+3 Production] [in all cities] <in cities with a [Class.Building.PowerPlant]>",
+            "[+3 Production] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
+            "Provides [3] [Resource.DiplomaticFavor]"
+        ],
+        "color": [
+            139,
+            96,
+            255
+        ]
+    }
+]
