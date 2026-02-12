@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress'
 // @ts-ignore
 import taskLists from 'markdown-it-task-lists'
+import mathjax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(taskLists)
+      md.use(mathjax3)
     }
   },
 
