@@ -2,12 +2,6 @@
 /.vscode/
 /jsons/error.txt
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
 # Node.js
 node_modules/
 
@@ -15,3 +9,6 @@ node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 jsons/translations/English_bak.properties
+
+# pycache
+python_tool/__pycache__
