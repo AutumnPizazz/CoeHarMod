@@ -29,6 +29,7 @@ export default defineConfig({
       {
         text: '原版专区',
         items: [
+          { text: 'Unciv基础术语', link: '/原版专区/Unciv基础术语' },
           { text: '众神与国王入门指南', link: '/原版专区/众神与国王入门指南' },
           { text: '军事实力计算', link: '/原版专区/军事实力计算方式' }
         ]
@@ -53,6 +54,7 @@ export default defineConfig({
         text: '原版专区',
         collapsed: true,
         items: [
+          { text: 'Unciv基础术语', link: '/原版专区/Unciv基础术语' },
           { text: '众神与国王入门指南', link: '/原版专区/众神与国王入门指南' },
           { text: '军事实力计算', link: '/原版专区/军事实力计算方式' }
         ]
