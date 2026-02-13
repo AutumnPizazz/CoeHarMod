@@ -68,7 +68,7 @@ jobs:
 
           # 2. 从 workspace 提取 Python 脚本以获取核心文件路径
           git checkout $SOURCE_SHA -- python_tool/core_files.py
-          CORE_PATHS=$(python python_tool/core_files.py --git-paths)
+          CORE_PATHS=$(python python_tool/core_files.py --format paths --list-files)
           echo "核心文件路径: $CORE_PATHS"
 
           # 3. 清理旧文件 - 删除 .git 目录以外的所有文件和目录
