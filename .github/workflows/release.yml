@@ -67,8 +67,9 @@ jobs:
           git checkout main
 
           # 2. 清理旧文件
-          # 删除当前目录下除了 .git 以外的所有内容
-          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          # 删除 .git 目录以外的所有文件和目录
+          git ls-files --others -z | xargs -0 rm -rf
+          git ls-files -z | xargs -0 rm -rf
 
           # 3. 从 workspace 提取 Python 脚本以获取核心文件路径
           git checkout $SOURCE_SHA -- python_tool/core_files.py
