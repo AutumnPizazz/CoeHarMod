@@ -43,37 +43,6 @@ jobs:
         run: |
           python python_tool/build_mod.py "$MOD_VERSION"
 
-      - name: Sync core files to main branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          VERSION="${{ steps.get_version.outputs.version }}"
-          SOURCE_SHA=${{ github.sha }}
-
-          # 1. 准备 main 分支
-          git fetch origin main:main || git checkout -b main
-          git checkout main
-          
-          # 2. 清理旧文件
-          # 删除当前目录下除了 .git 以外的所有内容
-          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
-          
-          # 3. 从 workspace 的标签处提取最新核心文件
-          git checkout $SOURCE_SHA -- Atlases.json *.atlas *.png jsons/ sounds/ 2>/dev/null || true
-          
-          # 4. 提交并推送
-          git add -A
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Release $VERSION: clean and sync files from $SOURCE_SHA"
-            git push origin main
-          else
-            echo "No changes to sync"
-          fi
-          
-          # 切换回原始 SHA 以供后续 Step 使用
-          git checkout $SOURCE_SHA
-
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
@@ -83,6 +52,43 @@ jobs:
           prerelease: false
           fail_on_unmatched_files: true # 如果没找到 zip 直接报错，触发回滚
           body: "[完整更新日志](https://unciv.netlify.app/CoeHarMod%E4%B8%93%E5%8C%BA/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html)"
+
+      - name: Sync core files to main branch
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          VERSION="${{ steps.get_version.outputs.version }}"
+          SOURCE_SHA=${{ github.sha }}
+
+          # 1. 准备 main 分支
+          git fetch origin main:main || git checkout -b main
+          git checkout main
+
+          # 2. 清理旧文件
+          # 删除当前目录下除了 .git 以外的所有内容
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+
+          # 3. 从 workspace 提取 Python 脚本以获取核心文件路径
+          git checkout $SOURCE_SHA -- python_tool/core_files.py
+          CORE_PATHS=$(python python_tool/core_files.py --git-paths)
+          echo "核心文件路径: $CORE_PATHS"
+
+          # 4. 从 workspace 的标签处提取最新核心文件
+          git checkout $SOURCE_SHA -- $CORE_PATHS
+
+          # 5. 清理临时文件
+          rm -rf python_tool/
+
+          # 6. 提交并推送
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Release $VERSION: clean and sync files from $SOURCE_SHA"
+            git push origin main
+          else
+            echo "No changes to sync"
+          fi
 
       # === 失败时自动删除标签 ===
       - name: Rollback Tag on Failure

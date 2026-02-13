@@ -69,6 +69,17 @@ def get_core_file_patterns() -> Set[str]:
     }
 
 
+def get_git_checkout_paths() -> str:
+    """
+    获取 git checkout 命令所需的路径格式
+
+    Returns:
+        空格分隔的路径字符串，用于 git checkout 命令
+    """
+    paths = ["Atlases.json", "*.atlas", "*.png", "jsons/", "sounds/"]
+    return " ".join(paths)
+
+
 def is_core_file(file_path: Path, root_dir: Path) -> bool:
     """
     判断给定文件是否为核心文件
@@ -100,6 +111,10 @@ def is_core_file(file_path: Path, root_dir: Path) -> bool:
     # *.png
     if file_path.suffix == ".png":
         return True
+
+    # 空路径检查
+    if not rel_path.parts:
+        return False
 
     # jsons 文件夹及其内容
     if rel_path.parts[0] == "jsons":
@@ -153,11 +168,14 @@ if __name__ == "__main__":
     parser.add_argument("--list-files", action="store_true", help="列出核心文件")
     parser.add_argument("--format", choices=["relative", "absolute", "paths"], default="relative",
                         help="输出格式 (relative: 相对路径, absolute: 绝对路径, paths: 文件夹和文件路径)")
+    parser.add_argument("--git-paths", action="store_true", help="输出 git checkout 路径格式")
     args = parser.parse_args()
 
     root = Path(__file__).parent.parent
 
-    if args.list_files:
+    if args.git_paths:
+        print(get_git_checkout_paths())
+    elif args.list_files:
         list_core_files(root, args.format)
     else:
         print(f"项目根目录: {root}\n")
