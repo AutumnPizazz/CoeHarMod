@@ -66,15 +66,14 @@ jobs:
           git fetch origin main:main || git checkout -b main
           git checkout main
 
-          # 2. 清理旧文件
-          # 删除 .git 目录以外的所有文件和目录
-          git ls-files --others -z | xargs -0 rm -rf
-          git ls-files -z | xargs -0 rm -rf
-
-          # 3. 从 workspace 提取 Python 脚本以获取核心文件路径
+          # 2. 从 workspace 提取 Python 脚本以获取核心文件路径
           git checkout $SOURCE_SHA -- python_tool/core_files.py
           CORE_PATHS=$(python python_tool/core_files.py --git-paths)
           echo "核心文件路径: $CORE_PATHS"
+
+          # 3. 清理旧文件 - 删除 .git 目录以外的所有文件和目录
+          git ls-files --others -z | xargs -0 rm -rf
+          git ls-files -z | xargs -0 rm -rf
 
           # 4. 从 workspace 的标签处提取最新核心文件
           git checkout $SOURCE_SHA -- $CORE_PATHS
