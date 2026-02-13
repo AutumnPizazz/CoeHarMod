@@ -5,9 +5,6 @@
 # Node.js
 node_modules/
 
-# VitePress
-docs/.vitepress/cache/
-docs/.vitepress/dist/
 jsons/translations/English_bak.properties
 
 # pycache
