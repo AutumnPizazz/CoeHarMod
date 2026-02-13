@@ -45,14 +45,6 @@ jobs:
         id: get_version
         run: echo "version=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
-      - name: Extract changelog
-        id: changelog
-        run: |
-          CHANGELOG=$(python python_tool/extract_changelog.py "${{ steps.get_version.outputs.version }}")
-          echo "content<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGELOG" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
       - name: Sync core files to main branch
         run: |
           git config user.name "github-actions[bot]"
@@ -139,4 +131,4 @@ jobs:
           files: CoeHarMod_*.zip
           draft: false
           prerelease: false
-          body: ${{ steps.changelog.outputs.content }}
+          body: "[完整更新日志](https://unciv.netlify.app/CoeHarMod%E4%B8%93%E5%8C%BA/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html)"
