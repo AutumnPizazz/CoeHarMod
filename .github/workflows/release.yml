@@ -17,22 +17,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Fetch all branches
-        run: git fetch --all
-
-      - name: Check branch
+      - name: Verify Tag Branch
+        id: verify_branch
         run: |
-          # 获取标签名称
-          TAG_NAME="${GITHUB_REF#refs/tags/}"
-          
-          # 检查标签是否在 workspace 分支上
-          if git branch -r --contains "$TAG_NAME" | grep -q "origin/workspace"; then
-            echo "✓ 标签在 workspace 分支上"
+          # 检查当前标签是否包含在远程 workspace 分支中
+          if git branch -r --contains ${{ github.sha }} | grep -q "origin/workspace"; then
+            echo "✓ 校验通过: 标签在 workspace 分支上"
           else
-            echo "Error: Release workflow 只能在 workspace 分支运行"
-            echo "当前标签: $TAG_NAME"
-            echo "标签所在的分支:"
-            git branch -r --contains "$TAG_NAME"
+            echo "Error: Release 只能从 workspace 分支的提交触发"
             exit 1
           fi
 
@@ -41,81 +33,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Get version from tag
+      - name: Get version
         id: get_version
         run: echo "version=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
-
-      - name: Sync core files to main branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          VERSION="${{ steps.get_version.outputs.version }}"
-          
-          # 切换到 main 分支（如果不存在则创建）
-          if git show-ref --verify refs/remotes/origin/main 2>/dev/null; then
-            git checkout main
-            git pull origin main
-          else
-            git checkout --orphan main
-            git rm -rf .
-          fi
-          
-          # 清理所有文件
-          git rm -rf . 2>/dev/null || true
-          
-          # 切换回 workspace 分支获取文件
-          git checkout workspace
-          
-          # 创建临时目录
-          mkdir -p /tmp/main_files
-          
-          # 复制核心文件到临时目录
-          # Atlases.json
-          [[ -f "Atlases.json" ]] && cp "Atlases.json" /tmp/main_files/
-          
-          # *.atlas 文件
-          for file in *.atlas; do
-            [[ -f "$file" ]] && cp "$file" /tmp/main_files/
-          done
-          
-          # *.png 文件
-          for file in *.png; do
-            [[ -f "$file" ]] && cp "$file" /tmp/main_files/
-          done
-          
-          # jsons 文件夹
-          if [[ -d "jsons" ]]; then
-            cp -r jsons /tmp/main_files/
-          fi
-          
-          # sounds 文件夹
-          if [[ -d "sounds" ]]; then
-            cp -r sounds /tmp/main_files/
-          fi
-          
-          # 切换到 main 分支
-          git checkout main
-          
-          # 复制文件到 main 分支
-          cp -r /tmp/main_files/* .
-          
-          # 清理临时目录
-          rm -rf /tmp/main_files
-          
-          # 添加所有文件
-          git add .
-          
-          # 提交更新
-          git commit -m "Update core files for version $VERSION" || echo "No changes to commit"
-          
-          # 推送到 main 分支
-          git push origin main --force
-          
-          # 切换回 workspace 分支
-          git checkout workspace
-          
-          echo "✓ 已将核心文件同步到 main 分支"
 
       - name: Build mod package
         env:
@@ -123,12 +43,51 @@ jobs:
         run: |
           python python_tool/build_mod.py "$MOD_VERSION"
 
+      - name: Sync core files to main branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          VERSION="${{ steps.get_version.outputs.version }}"
+          SOURCE_SHA=${{ github.sha }}
+
+          # 1. 准备 main 分支
+          git fetch origin main:main || git checkout -b main
+          git checkout main
+          
+          # 2. 清理旧文件
+          # 删除当前目录下除了 .git 以外的所有内容
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          
+          # 3. 从 workspace 的标签处提取最新核心文件
+          git checkout $SOURCE_SHA -- Atlases.json *.atlas *.png jsons/ sounds/ 2>/dev/null || true
+          
+          # 4. 提交并推送
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Release $VERSION: clean and sync files from $SOURCE_SHA"
+            git push origin main
+          else
+            echo "No changes to sync"
+          fi
+          
+          # 切换回原始 SHA 以供后续 Step 使用
+          git checkout $SOURCE_SHA
+
       - name: Create Release
-        uses: softprops/action-gh-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
           files: CoeHarMod_*.zip
           draft: false
           prerelease: false
           body: "[完整更新日志](https://unciv.netlify.app/CoeHarMod%E4%B8%93%E5%8C%BA/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html)"
+
+      # === 失败时自动删除标签 ===
+      - name: Rollback Tag on Failure
+        if: failure()
+        run: |
+          TAG_NAME="${{ github.ref_name }}"
+          echo "检测到构建失败，正在撤回远程标签: $TAG_NAME"
+          # 删除远程标签
+          git push origin --delete "$TAG_NAME"
+          echo "✓ 远程标签 $TAG_NAME 已删除"

@@ -141,11 +141,6 @@ D:\unciv3\mods\CoeHarMod\
   - `deploy.yml`: VitePress 文档站自动部署
   - `release.yml`: 自动发布模组（v.x.x.x 标签触发）
 
-### 文档
-
-- **VitePress**: 基于 Vue 的静态站点生成器
-- **文档站**: https://autumnpizazz.github.io/CoeHarMod/
-
 ## 版本控制
 
 ### Git 配置
@@ -153,13 +148,6 @@ D:\unciv3\mods\CoeHarMod\
 - **远程仓库**: https://github.com/AutumnPizazz/CoeHarMod.git
 - **当前分支**: main
 - **主分支 HEAD**: 1386c825ea8b00a14cad881398ff8378be0cd353
-
-### 工作流状态
-
-```txt
-Modified: .gitignore
-Untracked: IFLOW.md
-```
 
 ## 关键文件说明
 
@@ -174,13 +162,6 @@ Untracked: IFLOW.md
 - `python_tool/core_files.py`: 核心文件定义
 - `python_tool/local_build.py`: 本地快速构建
 - `python_tool/extract_changelog.py`: 更新日志解析
-
-### docs文档
-
-- `docs/index.md`: 文档站点首页
-- `docs/CoeHarMod专区/更新日志.md`: 版本更新记录
-- `docs/CoeHarMod专区/更新计划.md`: 未来开发计划
-- `docs/原版专区/`: Unciv 原版攻略
 
 ## 开发注意事项
 
@@ -200,15 +181,6 @@ python build_mod.py [version]
 
 # 快速打包（使用 bat 脚本）
 本地快速打包CH.bat
-```
-
-### 文档更新
-
-```powershell
-cd D:\unciv3\mods\CoeHarMod\docs
-npm install
-npm run docs:build
-npm run docs:dev  # 预览
 ```
 
 ## 社区资源
@@ -239,5 +211,4 @@ npm run docs:dev  # 预览
 - **操作系统**: Windows 10.0.26200 (win32)
 - **Git 版本**: 2.48.1.windows.1
 - **Python**: 未安装
-- **Node.js**: 通过 npm 在 docs 目录使用
 - **工作目录**: D:\unciv3\mods\CoeHarMod
