@@ -13,7 +13,6 @@ export default defineConfig({
 
   title: 'CoeHarMod',
   description: '和合共生 - Unciv 大型规则集模组',
-  base: '/CoeHarMod/',
   lang: 'zh-CN',
 
   head: [
