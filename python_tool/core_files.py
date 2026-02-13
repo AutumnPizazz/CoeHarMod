@@ -108,8 +108,8 @@ def is_core_file(file_path: Path, root_dir: Path) -> bool:
     if file_path.suffix == ".atlas":
         return True
 
-    # *.png
-    if file_path.suffix == ".png":
+    # *.png（仅根目录下的图集纹理）
+    if file_path.suffix == ".png" and len(rel_path.parts) == 1:
         return True
 
     # 空路径检查
