@@ -1,11 +1,34 @@
 [
     {
         "name": "VersionNotice",
-        "text" :"[VersionNotice]\n\n[CoeHarMod's version is [modVersion], and suggested with game version [gameVersion]]\n[It must be the same versions if you are playing a multi-game!]",
-        "choices":[
+        "text": "[VersionNotice]\n\n[CoeHarMod's version is [modVersion], and suggested with game version [gameVersion]]\n[It must be the same versions if you are playing a multi-game!]",
+        "choices": [
             {
                 "text": "I get it, let me go!",
-                "keyShortcut": "Y"
+                "keyShortcut": "Y",
+                "uniques": [
+                    "Triggers a [Reveal policy-card-buildings or hide] event <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Reveal policy-card-buildings or hide",
+        "text": "Reveal policy-card-buildings or hide",
+        "choices": [
+            {
+                "text": "Yes",
+                "keyShortcut": "Y",
+                "uniques": [
+                    "Gain a free [Mil.Reveal] [in capital] <hidden from users>",
+                    "Gain a free [Eco.Reveal] [in capital] <hidden from users>",
+                    "Gain a free [Dip.Reveal] [in capital] <hidden from users>",
+                    "Gain a free [Gene.Reveal] [in capital] <hidden from users>"
+                ]
+            },
+            {
+                "text": "No",
+                "keyShortcut": "N"
             }
         ]
     }
