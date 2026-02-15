@@ -682,7 +682,6 @@
 		"movement": 3,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Religious Unit",
 			"Class.Unit.Maintenance1",
 			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
@@ -699,7 +698,6 @@
 		"movement": 3,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Religious Unit",
 			"Class.Unit.Maintenance1",
 			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
@@ -716,7 +714,6 @@
 		"cost": 160,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Religious Unit",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
@@ -734,7 +731,6 @@
 		"movement": 3,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Religious Unit",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
@@ -752,7 +748,6 @@
 		"cost": 360,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Religious Unit",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
@@ -768,7 +763,6 @@
 		"cost": 430,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Religious Unit",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
