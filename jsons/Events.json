@@ -31,5 +31,14 @@
                 "keyShortcut": "N"
             }
         ]
+    },
+    {
+        "name": "There's free [Resource.GovernorTitle] to use",
+        "text": "There's free [Resource.GovernorTitle] to use",
+        "choices": [
+            {
+                "text": "I get it, let me go!"
+            }
+        ]
     }
 ]

@@ -1,8 +1,9 @@
 {
     "name": "Global uniques",
     "uniques": [
-        /*触发版本提示*/
+        /*触发提示*/
         "Triggers a [VersionNotice] event <before turn number [1]> <upon turn end>",
+        "Triggers a [There's free [Resource.GovernorTitle] to use] event <when above [0] [Resource.GovernorTitle]> <upon turn start>",
         /*文明羁绊*/
         "[+1]% Strength <for [Military] units> <vs [Nation.Gaul] units> <for [Nation.Rome] Civilizations>",
         "[+1]% Strength <for [Military] units> <vs [Nation.Babylon] units> <for [Nation.Persia] Civilizations>",
