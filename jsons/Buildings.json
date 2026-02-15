@@ -1534,7 +1534,6 @@
         "cost": 50,
         "hurryCostModifier": -33,
         "uniques": [
-            "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
         ]
@@ -1565,7 +1564,6 @@
         "hurryCostModifier": -33,
         "uniques": [
             "Provides [4] [Resource.halfHouse] <in this city>",
-            "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
         ],
@@ -1579,7 +1577,6 @@
 		"cost": 70,
 		"hurryCostModifier":-33,
 		"uniques": ["Provides [6] [Resource.halfHouse] <in this city>",
-		"Cost increases by [6] when built",
 		"Unsellable"],
 		"requiredTech": "Tech.Pottery"
 	},*/
@@ -1592,7 +1589,6 @@
         "hurryCostModifier": -33,
         "uniques": [
             "[+1 Production] from [Improvement.Farm] tiles [in this city]",
-            "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
         ],
@@ -1609,7 +1605,6 @@
         "uniques": [
             "Must be on [River]",
             "[+1 Food] from [River] tiles without [Class.UsualImprovement] [in this city]",
-            "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
         ],
@@ -1624,7 +1619,6 @@
         "uniques": [
             "Provides [4] [Resource.halfHouse] <in this city>",
             "[25]% Food is carried over after population increases [in this city]",
-            "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
         ],
@@ -1637,7 +1631,6 @@
         "hurryCostModifier": 32,
         "uniques": [
             "Must be next to [Coast]",
-            "Cost increases by [6] when built",
             "Never destroyed when the city is captured",
             "Unsellable"
         ],
@@ -1652,7 +1645,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gov.Monarchy] is constructed>",
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gene.junzhuchuancheng] is constructed>",
-            "Cost increases by [6] when built",
             "Unsellable",
             "Cannot be purchased",
             "Destroyed when the city is captured",
@@ -1670,7 +1662,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gov.Monarchy] is constructed>",
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gene.junzhuchuancheng] is constructed>",
-            "Cost increases by [6] when built",
             "Unsellable",
             "Cannot be purchased",
             "Destroyed when the city is captured",
@@ -1688,7 +1679,6 @@
         "uniques": [
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gov.Monarchy] is constructed>",
             "Provides [2] [Resource.halfHouse] <in this city> <if [Gene.junzhuchuancheng] is constructed>",
-            "Cost increases by [6] when built",
             "Unsellable",
             "Cannot be purchased",
             "Destroyed when the city is captured",
@@ -2107,7 +2097,7 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Unsellable",
             "Only available <when religion is enabled>",
             "Creates a [District.HolySite] improvement on a specific tile",
@@ -2131,7 +2121,7 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet]",
             "[+1 Faith] from [Tundra] tiles without [Landform.Hill] [in this city]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Unsellable",
             "Only available <when religion is enabled>",
             "Creates a [District.LavraMonastery] improvement on a specific tile",
@@ -2155,7 +2145,6 @@
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <when religion is enabled>",
-            "Cost increases by [6] when built",
             "Unsellable",
             "Never destroyed when the city is captured",
             "Class.DistrictBuilding.HolySite"
@@ -2176,7 +2165,6 @@
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
             "Only available <when religion is enabled>",
-            "Cost increases by [6] when built",
             "Unsellable",
             "Never destroyed when the city is captured",
             "Class.DistrictBuilding.HolySite"
@@ -2384,7 +2372,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.Campus] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -2407,7 +2395,7 @@
             "Unsellable",
             "Consumes [1] [Resource.DistrictLimitation]",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [Distict.LearningAcademy] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -2429,7 +2417,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [District.MayanObservatory] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -2449,7 +2437,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2471,7 +2458,6 @@
         "uniques": [
             "New [Military] units start with [9] XP [in this city]",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Cost increases by [3] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2491,7 +2477,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
             "Provides [2] [Resource.halfHouse] <in this city>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2515,7 +2500,6 @@
             "Provides [1] [Resource.Unit.Scientist]",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [2] [Resource.halfHouse] <in this city>",
-            "Cost increases by [3] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2535,7 +2519,6 @@
         "uniques": [
             "[+1 Science] from every [Specialist.Scientist] <in this city>",
             "Provides [1] [Resource.Unit.Scientist]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Campus",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2567,7 +2550,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Merchant]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.CommercialHub] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -2589,7 +2572,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Merchant]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Provides [4] [Resource.halfHouse] <in this city>",
             "[Gold] cost of purchasing [All] units [-20]% <in this city>",
             "Creates a [District.MandingoMarket] improvement on a specific tile",
@@ -2611,7 +2594,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
             "Provides [1] [Resource.TradeRouteCapacity]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2629,7 +2611,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2650,7 +2631,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
             "Provides 1 extra copy of each improved luxury resource near this City",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2669,7 +2649,6 @@
         "uniques": [
             "[+3 Gold] from every [Specialist.Merchant] <in this city>",
             "Provides [1] [Resource.Unit.Merchant]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.CommercialHub",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2700,7 +2679,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.TheaterSquare] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -2722,7 +2701,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [District.Acropolis] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -2742,7 +2721,6 @@
         "uniques": [
             "[+2 Culture] <for every [Era number]>",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2764,7 +2742,6 @@
             "Can only be built <in [Coastal] cities>",
             "[+1 Culture, +1 Faith] from [Land] tiles without [Class.UsualImprovement] [in this city]",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2785,7 +2762,6 @@
         "uniques": [
             "[+1 Culture] <for every [[Building.DistrictUnique.TheaterSquare] Buildings by [Major] Civilizations]>",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [6] when built",
             "Only available <in cities without a [Building.ArchaeologicalMuseum]>",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
@@ -2807,7 +2783,6 @@
         "uniques": [
             "[Culture] cost of purchasing items in cities [-3]%",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [6] when built",
             "Only available <in cities without a [Building.ArtMuseum]>",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
@@ -2829,7 +2804,6 @@
         "uniques": [
             "[+1 Culture] from every [Specialist.Artist] <in this city>",
             "Provides [1] [Resource.Unit.Artist]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.TheaterSquare",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -2857,7 +2831,7 @@
         "requiredResource": "Resource.DistrictLimitation",
         "uniques": [
             "Unsellable",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.EntertainmentComplex] improvement on a specific tile",
             "Only available <in cities without a [Building.DistrictUnique.WaterPark]>",
             "Class.Building.DistrictUnique",
@@ -2875,7 +2849,6 @@
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -2897,7 +2870,6 @@
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Cost increases by [3] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -2914,7 +2886,6 @@
         "uniques": [
             "[+1 Science] from [Landform.Rainforest] tiles [in this city]",
             "[+1 Science] from [Landform.Swamp] tiles [in this city]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -2928,7 +2899,6 @@
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Zoo",
         "uniques": [
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -2959,7 +2929,7 @@
         "uniques": [
             "Unsellable",
             "Must be next to [Coast]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.WaterPark] improvement on a specific tile",
             "Only available <in cities without a [Building.DistrictUnique.EntertainmentComplex]>",
             "Class.Building.DistrictUnique",
@@ -2977,7 +2947,6 @@
         "requiredTech": "Civic.NaturalHistory",
         "requiredBuilding": "Building.DistrictUnique.WaterPark",
         "uniques": [
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -2994,7 +2963,6 @@
         "uniques": [
             "[+1 Science] from [Landform.Reef] tiles [in this city]",
             "[+1 Science] from [Class.ResourceOnWater] tiles [in this city]",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -3008,7 +2976,6 @@
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Aquarium",
         "uniques": [
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
             "Unsellable"
@@ -3041,7 +3008,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.IndustrialZone] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3065,7 +3032,7 @@
             "Discover [Tech.Apprentices]",
             "Unsellable",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.Oppidum] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3086,7 +3053,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.Unit.Engineer]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [District.CommercialAssociation] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3107,7 +3074,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik I] promotion <for [Nation.SU] Civilizations>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3127,7 +3093,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik II] promotion <for [Nation.SU] Civilizations>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3149,7 +3114,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
-            "Cost increases by [3] when built",
             "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3185,7 +3149,6 @@
             "Provides [1] [Resource.Unit.Engineer]",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
             "Provides [4] [Resource.Electricity]",
-            "Cost increases by [6] when built",
             "Only available <in cities without a [Building.OilPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
             "Never destroyed when the city is captured",
@@ -3261,7 +3224,6 @@
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
             "Never destroyed when the city is captured",
             "Provides [4] [Resource.Electricity]",
-            "Cost increases by [6] when built",
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
             "Class.DistrictBuilding.IndustrialZone",
@@ -3336,7 +3298,6 @@
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik III] promotion <for [Nation.SU] Civilizations>",
             "Never destroyed when the city is captured",
             "Provides [16] [Resource.Electricity]",
-            "Cost increases by [6] when built",
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.OilPowerPlant]>",
             "Class.DistrictBuilding.IndustrialZone",
@@ -3370,7 +3331,7 @@
             "Unsellable",
             "Provides [1] [Resource.Unit.General]",
             "Provides [1] [Resource.DistrictLimitation] <in this city> <for [Nation.SRC] Civilizations> <hidden from users>",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.Army] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3392,7 +3353,7 @@
         "uniques": [
             "Unsellable",
             "Provides [1] [Resource.DistrictLimitation] <in this city> <for [Nation.SRC] Civilizations> <hidden from users>",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [District.Thanh] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3418,7 +3379,6 @@
             "All newly-trained [UnitType.AntiCavalry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "All newly-trained [UnitType.RangedInfantry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "Only available <in cities without a [Building.Stable]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.MilitaryEncampment",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3443,7 +3403,6 @@
             "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "All newly-trained [UnitType.Siege] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "Only available <in cities without a [Building.Barracks]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.MilitaryEncampment",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3473,7 +3432,6 @@
             "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "All newly-trained [UnitType.Siege] units [in this city] receive the [Promotion.ArmyCombatTrainingI] promotion",
             "Only available <in cities without a [Building.Barracks]>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.MilitaryEncampment",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3496,7 +3454,6 @@
             "Provides [1] [Resource.Unit.General]",
             "Provides [2] [Resource.Niter]",
             "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion.ArmyCombatTrainingII] promotion",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.MilitaryEncampment",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3520,7 +3477,6 @@
             "Provides [1] [Resource.Coal]",
             "Provides [1] [Resource.Oil]",
             "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion.ArmyCombatTrainingIII] promotion",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.MilitaryEncampment",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3548,7 +3504,6 @@
             "Provides [1] [Resource.Coal]",
             "Provides [1] [Resource.Oil]",
             "All newly-trained [{Military} {Land}] units [in this city] receive the [Promotion.ArmyCombatTrainingIII] promotion",
-            "Cost increases by [3] when built",
             "Class.DistrictBuilding.MilitaryEncampment",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3597,7 +3552,7 @@
             "Provides [1] [Resource.Unit.Admiral]",
             "Unsellable",
             "Must be next to [Coast]",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Creates a [District.Harbor] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3622,7 +3577,7 @@
             "Provides [1] [Resource.Unit.Admiral]",
             "Unsellable",
             "Must be next to [Coast]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [District.Harbor] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3648,7 +3603,7 @@
             "Provides [1] [Resource.Unit.Admiral]",
             "Unsellable",
             "Must be next to [Coast]",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Creates a [District.UShapedHarbor] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Never destroyed when the city is captured",
@@ -3673,7 +3628,6 @@
             "[+1 Food] from [Ocean] tiles [in this city]",
             "Connects trade routes over water",
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatTrainingI] promotion",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Port",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3699,7 +3653,6 @@
             "[+1 Food, +2 Gold] from [Ocean] tiles [in this city]",
             "Connects trade routes over water",
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatTrainingI] promotion",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Port",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3722,7 +3675,6 @@
             "[+1 Production] from [Lakes] tiles [in this city]",
             "[+1 Production] from [Ocean] tiles [in this city]",
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatTrainingII] promotion",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Port",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3745,7 +3697,6 @@
             "[+2 Gold] from [Coast] tiles [in this city]",
             "[+2 Gold] from [Lakes] tiles [in this city]",
             "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatTrainingIII] promotion",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.Port",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3832,7 +3783,7 @@
         "requiredTech": "Tech.Project",
         "uniques": [
             "Provides [4] [Resource.halfHouse] <in this city>",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Unsellable",
             "Creates a [District.Raceline] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3852,7 +3803,7 @@
         "requiredTech": "Tech.Project",
         "uniques": [
             "Provides [6] [Resource.halfHouse] <in this city>",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Unsellable",
             "Creates a [Distict.BeachLandmark] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3871,7 +3822,7 @@
         "requiredTech": "Civic.EarlyEmpire",
         "uniques": [
             "Provides [6] [Resource.halfHouse] <in this city>",
-            "Cost increases by [6] when built",
+            "Cost increases by [12] when built",
             "Unsellable",
             "Creates a [District.Torfbair] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3891,7 +3842,7 @@
         "uniques": [
             "Provides [6] [Resource.halfHouse] <in this city>",
             "Free [Unit.ProtectionZone] appears",
-            "Cost increases by [12] when built",
+            "Cost increases by [24] when built",
             "Unsellable",
             "Creates a [District.ProtectionZone] improvement on a specific tile",
             "Class.Building.DistrictUnique",
@@ -3911,7 +3862,6 @@
             "[+1 Food, +1 Faith, +1 Culture] from [Improvement.ProtectionZone] tiles [in this city] <with [1] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Food, +1 Faith, +1 Culture] from [Improvement.ProtectionZone] tiles [in this city] <with [2] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Food, +1 Faith, +1 Culture] from [Improvement.ProtectionZone] tiles [in this city] <with [3] to [6] neighboring [Class.ProtectionZone] tiles>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.ProtectionZone",
             "Never destroyed when the city is captured",
             "Unsellable"
@@ -3928,7 +3878,6 @@
             "[+1 Science, +1 Production, +1 Gold] from [Improvement.ProtectionZone] tiles [in this city] <with [1] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Science, +1 Production, +1 Gold] from [Improvement.ProtectionZone] tiles [in this city] <with [2] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Science, +1 Production, +1 Gold] from [Improvement.ProtectionZone] tiles [in this city] <with [3] to [6] neighboring [Class.ProtectionZone] tiles>",
-            "Cost increases by [6] when built",
             "Class.DistrictBuilding.ProtectionZone",
             "Never destroyed when the city is captured",
             "Unsellable"
