@@ -51,7 +51,7 @@ jobs:
           draft: false
           prerelease: false
           fail_on_unmatched_files: true # 如果没找到 zip 直接报错，触发回滚
-          body: "[完整更新日志](https://unciv.netlify.app/CoeHarMod%E4%B8%93%E5%8C%BA/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html)"
+          body: "[完整更新日志](https://club.unciv.cn/%E6%A8%A1%E7%BB%84%E4%B8%93%E5%8C%BA/CoeHarMod/)"
 
       - name: Sync core files to main branch
         run: |
