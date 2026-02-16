@@ -403,8 +403,8 @@
         "name": "FollowerBelief.MartialArts",
         "type": "Follower",
         "uniques": [
-            "Comment [[Melee Infantry] unit can be transfered as [Monk]]",
-            "Provides [5] [Resource.remainingMonksCount]"
+            "Comment [[UnitType.MeleeInfantry] unit can be transfered as [UnitType.Monk]]",
+            "Comment [Provides [5] [Resource.remainingMonksCount]]"
         ]
     },
     { //耶稣会教育

@@ -29,6 +29,7 @@
         "Provides [2] [Resource.Iron] <after adopting [Pantheon.GodOfTheForge]>", //锻造之神
         "[+13]% Strength <after adopting [FollowerBelief.Crusade]> <when fighting in [Enemy Land] tiles>", //十字军
         "[+13]% Strength <after adopting [FollowerBelief.DefenderOfFaith]> <when fighting in [Friendly Land] tiles> <in cities following our religion>", //信仰守护者
+        "Provides [5] [Resource.remainingMonksCount] <after adopting [FollowerBelief.MartialArts]>",//武僧
         /*AI修正*/
         "Provides [65535] [Resource.MilitaryPolicySlot] <for [AI player] Civilizations>",
         "Provides [65535] [Resource.EconomicPolicySlot] <for [AI player] Civilizations>",
