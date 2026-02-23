@@ -1170,8 +1170,10 @@
 		"uniqueName": "Divinely Ordained Rules",
 		"uniques": [
 			"[+1]% Strength <for [UnitType.HeavyCavalry] units> <for every [[Happiness]/[[UnitType.HeavyCavalry] Units]]>",
-			"[+1 Happiness] <for every [[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10]> <hidden from users>",
-			"Comment [Each [UnitType.HeavyCavalry] unit provides Happiness equal to its era number ([Unit.Chariot]'s era is 1, [Unit.Knight] unlocked with [Tech.Stirrups]'s era is 3, and so on)]"
+			"Set [Resource.AuxiliaryCounter6] to [[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10] <upon turn end> <hidden from users>",
+			"Set [Resource.AuxiliaryCounter7] to [2 * √([Resource.AuxiliaryCounter6] + 1) - 2] <upon turn end> <hidden from users>",
+			"[+1 Happiness] <for every [Resource.AuxiliaryCounter7]> <hidden from users>",
+			"Comment [[UnitType.HeavyCavalry] units provide some [Happiness], but with diminishing returns]"
 		],
 		"cities": [
 			"Constantinople",
