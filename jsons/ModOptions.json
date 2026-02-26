@@ -19,8 +19,6 @@
     "modUrl": "https://github.com/AutumnPizazz/CoeHarMod",
     "defaultBranch": "main",
     "author": "AutumnPizazz",
-    "lastUpdated": "2024-05-28T07:25:34Z",
-    "modSize": 443938,
     "topics": [
         "unciv",
         "unciv-mod",
@@ -28,6 +26,7 @@
     ],
     "uniques": [
         "Cannot be used as permanent audiovisual mod",
-        "Can only start games from the starting era"
+        "Can only start games from the starting era",
+        "Allow cities to claim tiles"
     ]
 }
