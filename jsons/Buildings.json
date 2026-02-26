@@ -4209,7 +4209,7 @@
         "culture": 1,
         "faith": 1,
         "uniques": [
-            "[Faith] cost of purchasing [UnitType.GreatPersonProject] units [15]%",
+            "[Faith] cost of purchasing [UnitType.GreatPersonProject] units [-15]%",
             "Creates a [District.Oracle] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"

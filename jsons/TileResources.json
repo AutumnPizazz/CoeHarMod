@@ -822,6 +822,28 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	{ //辅助计数器6-用于拜占庭技能
+		"name": "Resource.AuxiliaryCounter6",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": [
+			"Cannot be traded",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia",
+			"Stockpiled"
+		]
+	},
+	{ //辅助计数器7-用于拜占庭技能
+		"name": "Resource.AuxiliaryCounter7",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": [
+			"Cannot be traded",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia",
+			"Stockpiled"
+		]
+	},
 	// { //美利坚-新政法案
 	// 	"name": "Resource.NewDealLegislation",
 	// 	"revealedBy": "Tech.UniqueToUnitedStates",
