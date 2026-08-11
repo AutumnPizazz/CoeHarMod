@@ -1,17 +1,2 @@
 /.idea/
 /.vscode/
-/jsons/error.txt
-
-# Node.js
-node_modules/
-
-jsons/translations/English_bak.properties
-
-# pycache
-python_tool/__pycache__
-
-# 更新日志
-index.md
-
-# ALion
-/.aionrs
