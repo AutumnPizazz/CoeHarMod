@@ -1,0 +1,71 @@
+name: Sync core files to main
+
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-to-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify Tag Branch
+        run: |
+          # 检查当前标签是否包含在远程 workspace 分支中
+          if git branch -r --contains ${{ github.sha }} | grep -q "origin/workspace"; then
+            echo "✓ 校验通过: 标签在 workspace 分支上"
+          else
+            echo "Error: 同步只能从 workspace 分支的提交触发"
+            exit 1
+          fi
+
+      - name: Sync core files to main
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          VERSION="${{ github.ref_name }}"
+          SOURCE_SHA=${{ github.sha }}
+
+          # 1. 准备 main 分支
+          git fetch origin main:main || git checkout -b main
+          git checkout main
+
+          # 2. 提取核心文件列表（根目录图集/图片/规则集/音效/Lua脚本）
+          CORE_PATHS=$(git ls-tree -r --name-only "$SOURCE_SHA" | grep -E '^Atlases\.json$|^[^/]*\.atlas$|^[^/]*\.png$|^jsons/|^sounds/|^scripts/')
+          echo "核心文件: $CORE_PATHS"
+
+          # 3. 清理旧文件 - 删除 .git 目录以外的所有文件和目录
+          git ls-files --others -z | xargs -0 rm -rf
+          git ls-files -z | xargs -0 rm -rf
+
+          # 4. 从标签处提取最新核心文件
+          git checkout "$SOURCE_SHA" -- $CORE_PATHS
+
+          # 5. 提交并推送
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Release $VERSION: clean and sync files from $SOURCE_SHA"
+            git push origin main
+          else
+            echo "No changes to sync"
+          fi
+
+      # === 失败时自动删除标签 ===
+      - name: Rollback Tag on Failure
+        if: failure()
+        run: |
+          TAG_NAME="${{ github.ref_name }}"
+          echo "检测到同步失败，正在撤回远程标签: $TAG_NAME"
+          # 删除远程标签
+          git push origin --delete "$TAG_NAME"
+          echo "✓ 远程标签 $TAG_NAME 已删除"
