@@ -80,7 +80,7 @@
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [2] tiles]",
-			"[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <if [CoeHarMod:auraCoversUnitEra] returns true> <hidden from users>",
+			"[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <if [CoeHarMod:AuraCoversUnitEra] returns true> <hidden from users>",
 			// "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
 			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin] Civilizations>",
 			"Great Person - [War]",
@@ -98,7 +98,7 @@
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [3] tiles]",
-			"[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles <if [CoeHarMod:auraCoversUnitEra] returns true> <hidden from users>",
+			"[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles <if [CoeHarMod:AuraCoversUnitEra] returns true> <hidden from users>",
 			// "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Class.GreatPerson",
@@ -122,7 +122,7 @@
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Admiral] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Water]] units within [2] tiles]",
-			"[+23]% Strength bonus for [{Military} {Water}] units within [2] tiles <if [CoeHarMod:auraCoversUnitEra] returns true> <hidden from users>",
+			"[+23]% Strength bonus for [{Military} {Water}] units within [2] tiles <if [CoeHarMod:AuraCoversUnitEra] returns true> <hidden from users>",
 			"Great Person - [War]",
 			"Class.GreatPerson",
 			"Unbuildable",

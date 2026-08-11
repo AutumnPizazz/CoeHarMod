@@ -31,8 +31,8 @@
         "[+13]% Strength <after adopting [FollowerBelief.DefenderOfFaith]> <when fighting in [Friendly Land] tiles> <in cities following our religion>", //信仰守护者
         "Provides [5] [Resource.remainingMonksCount] <after adopting [FollowerBelief.MartialArts]>",//武僧
         /*AI修正*/
-        "Trigger the function [CoeHarMod:aiUnlockCivics] with [] <upon turn start> <for [AI player] Civilizations>",
-        "Trigger the function [CoeHarMod:aiProvideResources] with [] <upon turn start> <for [AI player] Civilizations>",
+        "Trigger the function [CoeHarMod:AiUnlockCivics] with [] <upon turn start> <for [AI player] Civilizations>",
+        "Trigger the function [CoeHarMod:AiProvideResources] with [] <upon turn start> <for [AI player] Civilizations>",
         "Free [Unit.Settler] appears <for [{AI player} {Major}] Civilizations> <with [20]% chance> <upon turn end>",
         /*快乐影响*/
         "[-100]% unhappiness from the number of cities", //城市不扣快乐

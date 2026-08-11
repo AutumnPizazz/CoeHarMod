@@ -9,7 +9,7 @@
 	光环能覆盖的单位时代越全 —— 即"单位时代序号 <= 指挥等级"即获得加成。
 	合并为一条 Lua 条件后，数值/半径只改 JSON 一处，等级门槛逻辑全在脚本里。
 ]]
-function auraCoversUnitEra(ctx)
+function AuraCoversUnitEra(ctx)
 	local u = ctx.unit
 	local civ = ctx.civ
 	if not u or not civ then return false end
@@ -61,7 +61,7 @@ local civicsByEra = {
 	}
 }
 
-function aiUnlockCivics(ctx)
+function AiUnlockCivics(ctx)
 	local civ = ctx.civ
 	if not civ then return false end
 	local era = civ.getEraNumber()
@@ -95,7 +95,7 @@ local aiPerTurnPolicySlots = {
 	"Resource.DiplomaticPolicySlot", "Resource.GenericPolicySlot"
 }
 
-function aiProvideResources(ctx)
+function AiProvideResources(ctx)
 	local civ = ctx.civ
 	if not civ then return false end
 	for _, r in ipairs(aiPerTurnResources) do civ.addResource(r, 10) end
