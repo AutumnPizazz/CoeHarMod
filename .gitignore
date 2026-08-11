@@ -1,2 +1,6 @@
 /.idea/
 /.vscode/
+
+# LuaLS (VSCode Lua 插件) 本地生成
+/.lua-api/
+/.luarc.json
