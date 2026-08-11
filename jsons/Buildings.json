@@ -5532,19 +5532,6 @@
         ],
         "requiredTech": "Civic.EarthProtection"
     },
-    // {
-    //     "name":"Mil.xuanchuanjigou",
-    //     "cost":0,
-    //     "requiredResource":"Resource.MilitaryPolicySlot",
-    //     "uniques":["[+25]% Unhappiness from [Population] [in all non-occupied cities]",
-    //     "[-25]% Unhappiness from [Population] [in all cities]",
-    //     "Can only be built <in [Capital] cities>",
-    //     "Limited to [1] per Civilization",
-    //     "Destroyed when the city is captured",
-    //     "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-    //     "Class.Policy.Military"],
-    //     "requiredTech":"Civic.MassMedia"
-    // },
     {
         "name": "Mil.quanmindongyuan",
         "cost": 0,
@@ -6562,20 +6549,6 @@
         ],
         "requiredTech": "Civic.SocialMedia"
     },
-    // {
-    //     "name":"Dip.lianluochu",
-    //     "cost":0,
-    //     "requiredResource":"Resource.DiplomaticPolicySlot",
-    //     "uniques":[
-    //         "[+1 Happiness] from every [Class.Governor]",
-    //         "Can only be built <in [Capital] cities>",
-    //         "Limited to [1] per Civilization",
-    //         "Destroyed when the city is captured",
-    //         "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-    //         "Class.Policy.Diplomacy"],
-    //     "requiredTech":"Civic.SocialMedia"
-    // },
-    //通用政策卡
     { //显示通用政策
         "name": "Gene.Reveal",
         "uniques": [
