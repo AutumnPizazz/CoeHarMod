@@ -1,5 +1,7 @@
 {
     "isBaseRuleset": true,
+    "modVersion": "3.3.11",
+    "recommendedGameVersion": "4.21.8.2",
     "constants": {
         "maxXPfromBarbarians": 10,
         "cityStrengthBase": 60,
@@ -8,6 +10,7 @@
         "unitSupplyPerPopulation": 1,
         "naturalWonderCountMultiplier": 0.2,
         "naturalWonderCountAddedConstant": 0.5,
+        "unitMaintenanceBaseCost": 1.0,
         "ancientRuinCountMultiplier": 0.05,
         "maxLakeSize": 18,
         "riverCountMultiplier": 0.15,
@@ -25,6 +28,7 @@
         "unciv-mod-rulesets"
     ],
     "uniques": [
+        "Uses the Civilization 6 style unit maintenance system",
         "Cannot be used as permanent audiovisual mod",
         "Can only start games from the starting era",
         "Allow cities to claim tiles"

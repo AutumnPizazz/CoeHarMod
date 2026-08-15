@@ -5181,8 +5181,7 @@
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [Maintenance fees for [All] Units [-1]]",
-            "Provides [1] [Resource.AuxiliaryCounter5] <hidden from users>",
+            "Reduces unit maintenance by [1] Gold",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Mobilization]>",
@@ -5532,26 +5531,12 @@
         ],
         "requiredTech": "Civic.EarthProtection"
     },
-    // {
-    //     "name":"Mil.xuanchuanjigou",
-    //     "cost":0,
-    //     "requiredResource":"Resource.MilitaryPolicySlot",
-    //     "uniques":["[+25]% Unhappiness from [Population] [in all non-occupied cities]",
-    //     "[-25]% Unhappiness from [Population] [in all cities]",
-    //     "Can only be built <in [Capital] cities>",
-    //     "Limited to [1] per Civilization",
-    //     "Destroyed when the city is captured",
-    //     "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-    //     "Class.Policy.Military"],
-    //     "requiredTech":"Civic.MassMedia"
-    // },
     {
         "name": "Mil.quanmindongyuan",
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [Maintenance fees for all military units -1]",
-            "Provides [1] [Resource.AuxiliaryCounter5] <hidden from users>",
+            "Reduces unit maintenance by [1] Gold <for [Military] units>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -5612,7 +5597,7 @@
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [Nuclear device's maintenance reduced by [50%]]",
+            "Reduces unit maintenance by [7] Gold <for [Unit.GiantDeathRobot] units>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -6562,20 +6547,6 @@
         ],
         "requiredTech": "Civic.SocialMedia"
     },
-    // {
-    //     "name":"Dip.lianluochu",
-    //     "cost":0,
-    //     "requiredResource":"Resource.DiplomaticPolicySlot",
-    //     "uniques":[
-    //         "[+1 Happiness] from every [Class.Governor]",
-    //         "Can only be built <in [Capital] cities>",
-    //         "Limited to [1] per Civilization",
-    //         "Destroyed when the city is captured",
-    //         "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-    //         "Class.Policy.Diplomacy"],
-    //     "requiredTech":"Civic.SocialMedia"
-    // },
-    //通用政策卡
     { //显示通用政策
         "name": "Gene.Reveal",
         "uniques": [

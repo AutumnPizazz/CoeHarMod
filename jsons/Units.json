@@ -2,6 +2,7 @@
 	/*伟人*/
 	{ //大科学家
 		"name": "Unit.Scientist",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Scientist] <after adopting [Culture.Scientist10]> <hidden from users>",
@@ -15,6 +16,7 @@
 	},
 	{ //大商人
 		"name": "Unit.Merchant",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Merchant10]> <hidden from users>",
@@ -28,6 +30,7 @@
 	},
 	{ //大工程师
 		"name": "Unit.Engineer",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Engineer10]> <hidden from users>",
@@ -41,6 +44,7 @@
 	},
 	{ //大预言家
 		"name": "Unit.Prophet",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Prophet10]> <hidden from users>",
@@ -63,6 +67,7 @@
 	},
 	{ //大艺术家
 		"name": "Unit.Artist",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.Artist10]> <hidden from users>",
@@ -76,19 +81,12 @@
 	},
 	{ //大将军
 		"name": "Unit.General",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [2] tiles]",
-			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [2] tiles <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Classical} {Military} {Land}] units within [2] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Medieval} {Military} {Land}] units within [2] tiles <when above [1] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Renaissance} {Military} {Land}] units within [2] tiles <when above [2] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Industrial} {Military} {Land}] units within [2] tiles <when above [3] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Modern} {Military} {Land}] units within [2] tiles <when above [4] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Atomic} {Military} {Land}] units within [2] tiles <when above [5] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Near-future} {Military} {Land}] units within [2] tiles <when above [6] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Far-future} {Military} {Land}] units within [2] tiles <when above [7] [Resource.AuxiliaryCounter2]> <hidden from users>",
+			"[+23]% Strength bonus for [{Military} {Land}] units within [2] tiles <if [CoeHarMod:AuraCoversUnitEra] returns true> <hidden from users>",
 			// "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
 			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin] Civilizations>",
 			"Great Person - [War]",
@@ -100,21 +98,14 @@
 	},
 	{ //秦朝-太尉
 		"name": "Unit.GrandMarshal",
+		"maintenanceCost": 0,
 		"replaces": "Unit.General",
 		"uniqueTo": "Nation.Qin",
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Merchant] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Land]] units within [3] tiles]",
-			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Land}] units within [3] tiles  <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Classical} {Military} {Land}] units within [3] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Medieval} {Military} {Land}] units within [3] tiles <when above [1] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Renaissance} {Military} {Land}] units within [3] tiles <when above [2] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Industrial} {Military} {Land}] units within [3] tiles <when above [3] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Modern} {Military} {Land}] units within [3] tiles <when above [4] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Atomic} {Military} {Land}] units within [3] tiles <when above [5] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Near-future} {Military} {Land}] units within [3] tiles <when above [6] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Far-future} {Military} {Land}] units within [3] tiles <when above [7] [Resource.AuxiliaryCounter2]> <hidden from users>",
+			"[+23]% Strength bonus for [{Military} {Land}] units within [3] tiles <if [CoeHarMod:AuraCoversUnitEra] returns true> <hidden from users>",
 			// "Can instantly construct a [Improvement.Fortification] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Class.GreatPerson",
@@ -125,6 +116,7 @@
 	},
 	/*{//大军事家
 		"name": "Great General",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": ["Can transform to [Unit.General]",
 			"Can transform to [Unit.GrandMarshal] <for [Nation.Qin] Civilizations>",
@@ -134,19 +126,12 @@
 	},*/
 	{ //海军统帅
 		"name": "Unit.Admiral",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.CivilianShip",
 		"uniques": [
 			"Instantly consumes [300] [Resource.Unit.Admiral] <after adopting [Culture.General10]> <hidden from users>",
 			"Comment [[+23]% Strength bonus for [[Military] [Water]] units within [2] tiles]",
-			"[+23]% Strength bonus for [{Era.Ancient} {Military} {Water}] units within [2] tiles <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Classical} {Military} {Water}] units within [2] tiles <when above [0] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Medieval} {Military} {Water}] units within [2] tiles <when above [1] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Renaissance} {Military} {Water}] units within [2] tiles <when above [2] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Industrial} {Military} {Water}] units within [2] tiles <when above [3] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Modern} {Military} {Water}] units within [2] tiles <when above [4] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Atomic} {Military} {Water}] units within [2] tiles <when above [5] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Near-future} {Military} {Water}] units within [2] tiles <when above [6] [Resource.AuxiliaryCounter2]> <hidden from users>",
-			"[+23]% Strength bonus for [{Era.Far-future} {Military} {Water}] units within [2] tiles <when above [7] [Resource.AuxiliaryCounter2]> <hidden from users>",
+			"[+23]% Strength bonus for [{Military} {Water}] units within [2] tiles <if [CoeHarMod:AuraCoversUnitEra] returns true> <hidden from users>",
 			"Great Person - [War]",
 			"Class.GreatPerson",
 			"Unbuildable",
@@ -157,6 +142,7 @@
 	/*伟人点数项目*/
 	{ //大科学家项目1
 		"name": "Unit.Scientist.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -167,6 +153,7 @@
 	},
 	{ //大科学家项目2
 		"name": "Unit.Scientist.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -177,6 +164,7 @@
 	},
 	{ //大科学家项目3
 		"name": "Unit.Scientist.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 576,
 		"uniques": [
@@ -187,6 +175,7 @@
 	},
 	{ //大商人项目1
 		"name": "Unit.Merchant.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -198,6 +187,7 @@
 	},
 	{ //大商人项目2
 		"name": "Unit.Merchant.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -209,6 +199,7 @@
 	},
 	{ //大商人项目3
 		"name": "Unit.Merchant.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 576,
 		"uniques": [
@@ -220,6 +211,7 @@
 	},
 	{ //大艺术家项目1
 		"name": "Unit.Artist.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -230,6 +222,7 @@
 	},
 	{ //大艺术家项目2
 		"name": "Unit.Artist.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -240,6 +233,7 @@
 	},
 	{ //大艺术家项目3
 		"name": "Unit.Artist.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 576,
 		"uniques": [
@@ -250,6 +244,7 @@
 	},
 	{ //大工程师项目1
 		"name": "Unit.Engineer.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -260,6 +255,7 @@
 	},
 	{ //大工程师项目2
 		"name": "Unit.Engineer.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -270,6 +266,7 @@
 	},
 	{ //大工程师项目3
 		"name": "Unit.Engineer.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 516,
 		"uniques": [
@@ -280,6 +277,7 @@
 	},
 	{ //大预言家项目1
 		"name": "Unit.Prophet.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -290,6 +288,7 @@
 	},
 	{ //大预言家项目2
 		"name": "Unit.Prophet.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -300,6 +299,7 @@
 	},
 	{ //大预言家项目3
 		"name": "Unit.Prophet.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 516,
 		"uniques": [
@@ -310,6 +310,7 @@
 	},
 	{ //大将军项目1
 		"name": "Unit.General.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -320,6 +321,7 @@
 	},
 	{ //大将军项目2
 		"name": "Unit.General.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -330,6 +332,7 @@
 	},
 	{ //大将军项目3
 		"name": "Unit.General.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 516,
 		"uniques": [
@@ -340,6 +343,7 @@
 	},
 	{ //海军统帅项目1
 		"name": "Unit.Admiral.Progress1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 80,
 		"uniques": [
@@ -350,6 +354,7 @@
 	},
 	{ //海军统帅项目2
 		"name": "Unit.Admiral.Progress2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 216,
 		"uniques": [
@@ -360,6 +365,7 @@
 	},
 	{ //海军统帅项目3
 		"name": "Unit.Admiral.Progress3",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.GreatPersonProject",
 		"cost": 516,
 		"uniques": [
@@ -371,6 +377,7 @@
 	/*建造者*/
 	{
 		"name": "Unit.CommonWorker1",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"uniques": [
@@ -393,6 +400,7 @@
 	},
 	{ //地脉开采者
 		"name": "Unit.EarthVeinsExploiter",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"requiredTech": "Tech.UniqueToGoldenDawn2",
@@ -406,6 +414,7 @@
 	},
 	{ //商人
 		"name": "Unit.Trader",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"requiredTech": "Civic.BasicTrade",
@@ -428,6 +437,7 @@
 	/*开拓者*/
 	{
 		"name": "Unit.Settler",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 120,
@@ -443,6 +453,7 @@
 	/*使者*/
 	{
 		"name": "Unit.Envoy",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 4,
 		"uniques": [
@@ -456,6 +467,7 @@
 	},
 	{
 		"name": "Unit.Envoy2",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 4,
 		"uniques": [
@@ -467,6 +479,7 @@
 	/*保护区划界人*/
 	{
 		"name": "Unit.ProtectionZone",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 4,
 		"uniques": [
@@ -478,6 +491,7 @@
 	/*特殊单位*/
 	{ //专业间谍
 		"name": "Unit.Spy",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.MeleeInfantry",
 		"requiredResource": "Resource.SpyCapacity",
 		"cost": 225,
@@ -491,10 +505,7 @@
 			"Can see invisible [Unit.Spy] units",
 			"Never appears as a Barbarian unit",
 			"Uncapturable",
-			"Only available <when above [0] [Resource.SpyCapacity]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Only available <when above [0] [Resource.SpyCapacity]>"
 		]
 	},
 	// {//空灵吟唱I
@@ -529,6 +540,7 @@
 	// },
 	{ //I级吸血鬼
 		"name": "Unit.VampireI",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Vampire",
 		"strength": 118, //24
 		"movement": 3,
@@ -541,13 +553,12 @@
 			"Can transform to [Unit.VampireII] <after discovering [Tech.Alchemy]>",
 			"Only available <when [Pattern.Camorrist] Victory is enabled>",
 			"Unbuildable",
-			"Uncapturable",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Uncapturable"
 		]
 	},
 	{ //II级吸血鬼
 		"name": "Unit.VampireII",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Vampire",
 		"strength": 220, //39
 		"movement": 3,
@@ -560,13 +571,12 @@
 			"Can transform to [Unit.VampireIII] <after discovering [Tech.MilitaryEngineering]>",
 			"Only available <when [Pattern.Camorrist] Victory is enabled>",
 			"Unbuildable",
-			"Uncapturable",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Uncapturable"
 		]
 	},
 	{ //III级吸血鬼
 		"name": "Unit.VampireIII",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Vampire",
 		"strength": 332, //49
 		"movement": 3,
@@ -579,13 +589,12 @@
 			"Can transform to [Unit.VampireIV] <after discovering [Tech.Gunpowder]>",
 			"Only available <when [Pattern.Camorrist] Victory is enabled>",
 			"Unbuildable",
-			"Uncapturable",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Uncapturable"
 		]
 	},
 	{ //IV级吸血鬼
 		"name": "Unit.VampireIV",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Vampire",
 		"strength": 501, //59
 		"movement": 3,
@@ -598,13 +607,12 @@
 			"Can transform to [Unit.VampireV] <after discovering [Tech.PartSpecification]>",
 			"Only available <when [Pattern.Camorrist] Victory is enabled>",
 			"Unbuildable",
-			"Uncapturable",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Uncapturable"
 		]
 	},
 	{ //V级吸血鬼
 		"name": "Unit.VampireV",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Vampire",
 		"strength": 1142, //79
 		"movement": 4,
@@ -617,13 +625,12 @@
 			"Can transform to [Unit.VampireVI] <after discovering [Tech.Satellite]>",
 			"Only available <when [Pattern.Camorrist] Victory is enabled>",
 			"Unbuildable",
-			"Uncapturable",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Uncapturable"
 		]
 	},
 	{ //VI级吸血鬼
 		"name": "Unit.VampireVI",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Vampire",
 		"strength": 1724, //89
 		"movement": 4,
@@ -635,14 +642,13 @@
 		"uniques": [
 			"Only available <when [Pattern.Camorrist] Victory is enabled>",
 			"Unbuildable",
-			"Uncapturable",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Uncapturable"
 		]
 	},
 	/*宗教单位*/
 	{
 		"name": "Unit.Missionary",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Can Spread Religion <[3] times> <after which this unit is consumed>",
@@ -659,6 +665,7 @@
 	},
 	{
 		"name": "Unit.Inquisitor",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"uniques": [
 			"Prevents spreading of religion to the city it is next to",
@@ -673,6 +680,7 @@
 	/*宗教单位-武僧*/
 	{ //I级武僧
 		"name": "Unit.MonkI",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Monk",
 		"requiredTech": "Tech.Civic.Agriculture",
 		"obsoleteTech": "Tech.Alchemy",
@@ -682,13 +690,12 @@
 		"movement": 3,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Religious Unit",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Religious Unit"
 		]
 	},
 	{ //II级武僧
 		"name": "Unit.MonkII",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.Monk",
 		"upgradesTo": "Unit.MonkIII",
 		"requiredTech": "Tech.Alchemy",
@@ -698,13 +705,12 @@
 		"movement": 3,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Religious Unit",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Religious Unit"
 		]
 	},
 	{ //III级武僧
 		"name": "Unit.MonkIII",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.Monk",
 		"upgradesTo": "Unit.MonkIV",
 		"requiredTech": "Tech.MilitaryEngineering",
@@ -714,14 +720,12 @@
 		"cost": 160,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Religious Unit",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Religious Unit"
 		]
 	},
 	{ //IV级武僧
 		"name": "Unit.MonkIV",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.Monk",
 		"upgradesTo": "Unit.MonkV",
 		"requiredTech": "Tech.MilitaryEngineering",
@@ -731,14 +735,12 @@
 		"movement": 3,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Religious Unit",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Religious Unit"
 		]
 	},
 	{ //V级武僧
 		"name": "Unit.MonkV",
+		"maintenanceCost": 3,
 		"unitType": "UnitType.Monk",
 		"upgradesTo": "Unit.MonkVI",
 		"requiredTech": "Tech.Gunpowder",
@@ -748,14 +750,12 @@
 		"cost": 360,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Religious Unit",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Religious Unit"
 		]
 	},
 	{ //VI级武僧
 		"name": "Unit.MonkVI",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.Monk",
 		"requiredTech": "Tech.MilitaryScience",
 		"strength": 1191, //80
@@ -763,15 +763,13 @@
 		"cost": 430,
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Religious Unit",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Religious Unit"
 		]
 	},
 	/*侦察单位*/
 	{ //侦察兵
 		"name": "Unit.Scout",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Scout",
 		"strength": 66, //10
 		"movement": 3,
@@ -787,6 +785,7 @@
 	},
 	{ //散兵
 		"name": "Unit.Ranger",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.Scout",
 		"strength": 100, //20
 		"rangedStrength": 151, //30
@@ -799,13 +798,11 @@
 		"obsoleteTech": "Tech.Rifling",
 		"attackSound": "arrow",
 		"uniques": [
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //印加-瓦剌卡战士
 		"name": "Unit.Warakaq",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Ranger",
 		"uniqueTo": "Nation.Inca",
 		"unitType": "UnitType.Scout",
@@ -820,14 +817,12 @@
 		"obsoleteTech": "Tech.Rifling",
 		"attackSound": "arrow",
 		"uniques": [
-			"[1] additional attacks per turn",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[1] additional attacks per turn"
 		]
 	},
 	{ //游骑兵
 		"name": "Unit.Cavalry2",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.Scout",
 		"strength": 270, //45
 		"rangedStrength": 501, //60
@@ -840,13 +835,11 @@
 		"obsoleteTech": "Tech.Plastic",
 		"attackSound": "shot",
 		"uniques": [
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //特种部队
 		"name": "Unit.SpecOps",
+		"maintenanceCost": 7,
 		"unitType": "UnitType.Scout",
 		"strength": 501, //60
 		"rangedStrength": 443, //65
@@ -857,15 +850,13 @@
 		"requiredTech": "Tech.Plastic",
 		"attackSound": "shot",
 		"uniques": [
-			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>",
-			"Class.Unit.Maintenance7",
-			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>"
 		]
 	},
 	/*短程步兵*/
 	{ //巴比伦-主力军团
 		"name": "Unit.MainCorps",
+		"maintenanceCost": 0,
 		"uniqueTo": "Nation.Babylon",
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 88, //17
@@ -884,6 +875,7 @@
 	},
 	{ //勇士
 		"name": "Unit.Warrior",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 100, //20
 		"movement": 2,
@@ -897,6 +889,7 @@
 	},
 	{ //高卢-高卢枪佣兵
 		"name": "Unit.GallicGunMercenary",
+		"maintenanceCost": 0,
 		"replaces": "Unit.Warrior",
 		"uniqueTo": "Nation.Gaul",
 		"unitType": "UnitType.MeleeInfantry",
@@ -914,6 +907,7 @@
 	},
 	{ //阿兹特克-雄鹰战士
 		"name": "Unit.EagleWarrior",
+		"maintenanceCost": 0,
 		"replaces": "Unit.Warrior",
 		"uniqueTo": "Nation.Aztec",
 		"unitType": "UnitType.MeleeInfantry",
@@ -931,6 +925,7 @@
 	},
 	{ //剑客
 		"name": "Unit.Swordsman",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 186, //35
 		"movement": 2,
@@ -942,14 +937,12 @@
 		"attackSound": "nonmetalhit",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //罗马-罗马军团
 		"name": "Unit.RomanLegion",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Swordsman",
 		"uniqueTo": "Nation.Rome",
 		"unitType": "UnitType.MeleeInfantry",
@@ -969,14 +962,12 @@
 			"Can build [Remove Landform.NuclearFallout] improvements on tiles",
 			"Can build [Remove Landform.Swamp] improvements on tiles",
 			"Instantly consumes [8] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //波斯-长生军
 		"name": "Unit.Immortal",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Swordsman",
 		"uniqueTo": "Nation.Persia",
 		"unitType": "UnitType.MeleeInfantry",
@@ -994,14 +985,12 @@
 			"[-28]% Strength <when attacking>",
 			"[-28]% Strength <when attacking> <vs cities>",
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //汉朝-羽林军
 		"name": "Unit.ImperialGuard",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Swordsman",
 		"uniqueTo": "Nation.Han",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1015,10 +1004,7 @@
 		"attackSound": "nonmetalhit",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		],
 		"promotions": [
 			"[Unit.ImperialGuard] ability"
@@ -1026,6 +1012,7 @@
 	},
 	{ //毛利-托阿勇士
 		"name": "Unit.Toa",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Swordsman",
 		"uniqueTo": "Nation.Maori",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1041,14 +1028,12 @@
 			"Instantly consumes [10] [Resource.Iron]",
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"[-23]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Can instantly construct a [Improvement.Pabo] improvement <[1] times>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Can instantly construct a [Improvement.Pabo] improvement <[1] times>"
 		]
 	},
 	{ //披甲战士
 		"name": "Unit.Hoplite",
+		"maintenanceCost": 3,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 281, //45
 		"movement": 2,
@@ -1060,14 +1045,12 @@
 		"attackSound": "nonmetalhit",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //唐朝-陌刀手
 		"name": "Unit.MudaoSoldier",
+		"maintenanceCost": 3,
 		"replaces": "Unit.Hoplite",
 		"uniqueTo": "Nation.Tang",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1082,14 +1065,12 @@
 		"uniques": [
 			"[1] additional attacks per turn",
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //日本-武士
 		"name": "Unit.JapaneseSamurai",
+		"maintenanceCost": 3,
 		"replaces": "Unit.Hoplite",
 		"uniqueTo": "Nation.Japan",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1105,14 +1086,12 @@
 			"Instantly consumes [10] [Resource.Iron]",
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"No damage penalty for wounded units",
-			"[This Unit] heals [5] HP <upon ending a turn in a [Coastal] tile>",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[This Unit] heals [5] HP <upon ending a turn in a [Coastal] tile>"
 		]
 	},
 	{ //挪威-狂暴武士
 		"name": "Unit.Berserker",
+		"maintenanceCost": 3,
 		"uniqueTo": "Nation.Norway",
 		"replaces": "Unit.Hoplite",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1129,14 +1108,12 @@
 			"[+2] Movement <when fighting in [Enemy Land] tiles>",
 			"[+51]% Strength <when attacking>",
 			"[-23]% Strength <when defending> <vs [Melee] units>",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //火枪手
 		"name": "Unit.Musketman",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 425, //55
 		"movement": 2,
@@ -1148,14 +1125,12 @@
 		"attackSound": "metalhit",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Niter]",
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //奥斯曼-苏丹亲兵
 		"name": "Unit.SudaneseParamilitary",
+		"maintenanceCost": 4,
 		"replaces": "Unit.Musketman",
 		"uniqueTo": "Nation.Ottoman",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1170,10 +1145,7 @@
 		"uniques": [
 			"[-1] population [in this city]",
 			"Instantly consumes [15] [Resource.Niter]",
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		],
 		"promotions": [
 			"[Unit.SudaneseParamilitary] ability",
@@ -1182,6 +1154,7 @@
 	},
 	{ //法兰西-法国火枪手
 		"name": "Unit.Musketeer",
+		"maintenanceCost": 4,
 		"replaces": "Unit.Musketman",
 		"uniqueTo": "Nation.France",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1195,14 +1168,12 @@
 		"attackSound": "metalhit",
 		"uniques": [
 			"Instantly consumes [5] [Resource.Niter]",
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //西班牙-征服者
 		"name": "Unit.Conquistador",
+		"maintenanceCost": 4,
 		"replaces": "Unit.Musketman",
 		"uniqueTo": "Nation.Spain",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1217,14 +1188,12 @@
 		"uniques": [
 			"[+51]% Strength <when adjacent to a [Unit.Missionary] unit>",
 			"Instantly consumes [10] [Resource.Niter]",
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //线列步兵
 		"name": "Unit.LineInfantry",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 641, //65
 		"movement": 2,
@@ -1236,14 +1205,12 @@
 		"attackSound": "metalhit",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Niter]",
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //英吉利-红衫军
 		"name": "Unit.Redcoats",
+		"maintenanceCost": 5,
 		"replaces": "Unit.LineInfantry",
 		"uniqueTo": "Nation.England",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1258,14 +1225,12 @@
 		"uniques": [
 			"[+23]% Strength <on foreign continents>",
 			"Instantly consumes [5] [Resource.Niter]",
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //步兵
 		"name": "Unit.Infantry",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 968, //968
 		"movement": 2,
@@ -1277,14 +1242,12 @@
 		"obsoleteTech": "Tech.Satellite",
 		"attackSound": "metalhit",
 		"uniques": [
-			"[-64]% Strength <when below [0] [Resource.Oil]>",
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Oil]>"
 		]
 	},
 	{ //苏维埃中国-中国红军
 		"name": "Unit.RedArmy",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Infantry",
 		"uniqueTo": "Nation.SRC",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1299,14 +1262,12 @@
 		"uniques": [
 			"All tiles cost 1 movement",
 			"[+23]% Strength <for units with [double star]>",
-			"[+51]% Strength <for units with [triple star]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+51]% Strength <for units with [triple star]>"
 		]
 	},
 	{ //苏联-苏联红军
 		"name": "Unit.SovietRedArmy",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Infantry",
 		"uniqueTo": "Nation.SU",
 		"unitType": "UnitType.MeleeInfantry",
@@ -1321,14 +1282,12 @@
 		"uniques": [
 			"All tiles cost 1 movement",
 			"[+23]% Strength <for units with [double star]>",
-			"[+51]% Strength <for units with [triple star]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+51]% Strength <for units with [triple star]>"
 		]
 	},
 	{ //机械化步兵
 		"name": "Unit.MechanizedInfantry",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.MeleeInfantry",
 		"strength": 1462, //85
 		"movement": 3,
@@ -1338,14 +1297,12 @@
 		"requiredTech": "Tech.Satellite",
 		"attackSound": "metalhit",
 		"uniques": [
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	/*长程步兵*/
 	{ //投石兵
 		"name": "Unit.Catapult",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.RangedInfantry",
 		"strength": 54, //5
 		"rangedStrength": 81, //15
@@ -1361,6 +1318,7 @@
 	},
 	{ //弓箭手
 		"name": "Unit.Archer",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.RangedInfantry",
 		"strength": 81, //15
 		"rangedStrength": 123, //25
@@ -1373,12 +1331,11 @@
 		"obsoleteTech": "Tech.Mechanical",
 		"attackSound": "arrow",
 		"uniques": [
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
 		]
 	},
 	{ //玛雅-投枪手
 		"name": "Unit.Javelin",
+		"maintenanceCost": 1,
 		"replaces": "Unit.Archer",
 		"uniqueTo": "Nation.Maya",
 		"unitType": "UnitType.RangedInfantry",
@@ -1393,13 +1350,12 @@
 		"obsoleteTech": "Tech.Mechanical",
 		"attackSound": "arrow",
 		"uniques": [
-			"[+18]% Strength <vs [Wounded] units> <when attacking>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"[+18]% Strength <vs [Wounded] units> <when attacking>"
 		]
 	},
 	{ //弩手
 		"name": "Unit.Crossbowman",
+		"maintenanceCost": 3,
 		"unitType": "UnitType.RangedInfantry",
 		"strength": 151, //30
 		"rangedStrength": 220, //40
@@ -1412,13 +1368,11 @@
 		"obsoleteTech": "Tech.Ballistics",
 		"attackSound": "arrow",
 		"uniques": [
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //明朝-虎蹲炮
 		"name": "Unit.TigerCrouchCannon",
+		"maintenanceCost": 3,
 		"replaces": "Unit.Crossbowman",
 		"uniqueTo": "Nation.Ming",
 		"unitType": "UnitType.RangedInfantry",
@@ -1433,14 +1387,12 @@
 		"obsoleteTech": "Tech.Ballistics",
 		"attackSound": "shot",
 		"uniques": [
-			"[-34]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-34]% Strength for enemy [Military] units in adjacent [All] tiles"
 		]
 	},
 	{ //越南-越南象兵
 		"name": "Unit.VoiChien",
+		"maintenanceCost": 3,
 		"replaces": "Unit.Crossbowman",
 		"uniqueTo": "Nation.Vietnam",
 		"unitType": "UnitType.RangedInfantry",
@@ -1456,14 +1408,12 @@
 		"attackSound": "arrow",
 		"uniques": [
 			"Can move after attacking",
-			"[+1] Sight",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+1] Sight"
 		]
 	},
 	{ //野战加农炮
 		"name": "Unit.FieldCannon",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.RangedInfantry",
 		"strength": 346, //50
 		"rangedStrength": 501, //60
@@ -1476,13 +1426,11 @@
 		"obsoleteTech": "Tech.AdvancedBallistics",
 		"attackSound": "shot",
 		"uniques": [
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //朝鲜-火车
 		"name": "Unit.Hwacha",
+		"maintenanceCost": 5,
 		"replaces": "Unit.FieldCannon",
 		"uniqueTo": "Nation.Korea",
 		"unitType": "UnitType.RangedInfantry",
@@ -1497,14 +1445,12 @@
 		"obsoleteTech": "Tech.AdvancedBallistics",
 		"attackSound": "shot",
 		"uniques": [
-			"Must set up to ranged attack",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Must set up to ranged attack"
 		]
 	},
 	{ //机关枪队
 		"name": "Unit.MachineGun",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.RangedInfantry",
 		"strength": 756, //70
 		"rangedStrength": 1462, //85
@@ -1515,14 +1461,12 @@
 		"requiredTech": "Tech.AdvancedBallistics",
 		"attackSound": "bombing",
 		"uniques": [
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	/*攻城*/
 	{ //石弩
 		"name": "Unit.Trebuchet",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.Siege",
 		"strength": 118, //25
 		"rangedStrength": 186, //35
@@ -1535,13 +1479,11 @@
 		"obsoleteTech": "Tech.MilitaryEngineering",
 		"attackSound": "throw",
 		"uniques": [
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //投石机
 		"name": "Unit.BatteringRam",
+		"maintenanceCost": 3,
 		"unitType": "UnitType.Siege",
 		"strength": 186, //35
 		"rangedStrength": 281, //45
@@ -1554,13 +1496,11 @@
 		"obsoleteTech": "Tech.MetalCasting",
 		"attackSound": "throw",
 		"uniques": [
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //射石炮
 		"name": "Unit.SiegeTower",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.Siege",
 		"strength": 281, //45
 		"rangedStrength": 425, //55
@@ -1574,14 +1514,12 @@
 		"obsoleteTech": "Tech.Steel",
 		"attackSound": "throw",
 		"uniques": [
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //大炮
 		"name": "Unit.Artillery",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.Siege",
 		"strength": 501, //60
 		"rangedStrength": 1191, //80
@@ -1595,13 +1533,11 @@
 		"obsoleteTech": "Tech.GuidanceSystem",
 		"attackSound": "missile",
 		"uniques": [
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //火箭炮
 		"name": "Unit.RocketArtillery",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.Siege",
 		"strength": 789, //70
 		"rangedStrength": 2715, //100
@@ -1613,14 +1549,12 @@
 		"requiredTech": "Tech.GuidanceSystem",
 		"attackSound": "missile",
 		"uniques": [
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	/*轻骑兵*/
 	{ //斯基泰-萨卡弓骑手
 		"name": "Unit.SakaHorseArchers",
+		"maintenanceCost": 1,
 		"uniqueTo": "Nation.Scythia",
 		"unitType": "UnitType.LightCavalry",
 		"strength": 81,
@@ -1635,13 +1569,12 @@
 		"attackSound": "arrow",
 		"uniques": [
 			"Instantly consumes [4] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //蛮族-蛮族骑手
 		"name": "Unit.HorsemanBarbarians",
+		"maintenanceCost": 1,
 		"uniqueTo": "Barbarians",
 		"unitType": "UnitType.LightCavalry",
 		"strength": 100, //20
@@ -1653,12 +1586,11 @@
 		"obsoleteTech": "Tech.HorsebackRiding",
 		"attackSound": "horse",
 		"uniques": [
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
 		]
 	},
 	{ //骑手(小马)
 		"name": "Unit.Horseman",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.LightCavalry",
 		"strength": 194, //36
 		"movement": 4,
@@ -1670,14 +1602,12 @@
 		"attackSound": "horse",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //汉朝-虎贲军
 		"name": "Unit.TigerLeopardArmy",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Horseman",
 		"uniqueTo": "Nation.Han",
 		"unitType": "UnitType.LightCavalry",
@@ -1691,14 +1621,12 @@
 		"attackSound": "horse",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //马其顿-伙友骑兵
 		"name": "Unit.Hetairoi",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Horseman",
 		"uniqueTo": "Nation.Macedonia",
 		"unitType": "UnitType.LightCavalry",
@@ -1713,14 +1641,12 @@
 		"uniques": [
 			"[+50]% to Flank Attack bonuses",
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //追猎者
 		"name": "Unit.HorseArcher",
+		"maintenanceCost": 3,
 		"unitType": "UnitType.LightCavalry",
 		"strength": 281, //46
 		"movement": 5,
@@ -1732,14 +1658,12 @@
 		"attackSound": "horse",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //埃塞俄比亚-奥罗莫骑兵
 		"name": "Unit.OromoCavalry",
+		"maintenanceCost": 3,
 		"uniqueTo": "Nation.Ethiopia",
 		"replaces": "Unit.HorseArcher",
 		"unitType": "UnitType.LightCavalry",
@@ -1754,14 +1678,12 @@
 		"uniques": [
 			"Double movement in [Landform.Hill]",
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance3",
-			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //骑兵
 		"name": "Unit.Cavalry",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.LightCavalry",
 		"strength": 543, //62
 		"movement": 5,
@@ -1773,14 +1695,12 @@
 		"attackSound": "horse",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //俄罗斯-哥萨克骑兵
 		"name": "Unit.Cossack",
+		"maintenanceCost": 5,
 		"replaces": "Unit.Cavalry",
 		"uniqueTo": "Nation.Russia",
 		"unitType": "UnitType.LightCavalry",
@@ -1796,14 +1716,12 @@
 			"Can move after attacking",
 			"[+23]% Strength <when fighting in [Friendly Land] tiles>",
 			"Instantly consumes [10] [Resource.Horse]",
-			"[-64]% Strength <when below [0] [Resource.Horse]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Horse]>"
 		]
 	},
 	{ //直升飞机
 		"name": "Unit.Helicopter",
+		"maintenanceCost": 7,
 		"unitType": "UnitType.LightCavalry",
 		"strength": 1462, //86
 		"movement": 4,
@@ -1815,15 +1733,13 @@
 		"uniques": [
 			"Can see over obstacles",
 			"Can pass through impassable tiles",
-			"All tiles cost 1 movement",
-			"Class.Unit.Maintenance7",
-			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"All tiles cost 1 movement"
 		]
 	},
 	/*重骑兵*/
 	{ //重型战车
 		"name": "Unit.Chariot",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.HeavyCavalry",
 		"strength": 138, //28
 		"movement": 2,
@@ -1834,13 +1750,12 @@
 		"obsoleteTech": "Tech.Stirrups",
 		"attackSound": "cannon",
 		"uniques": [
-			"[+1] Movement <in [Open terrain] tiles>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"[+1] Movement <in [Open terrain] tiles>"
 		]
 	},
 	{ //埃及-世袭贵族战车射手
 		"name": "Unit.HereditaryNobleChariotArcher",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Chariot",
 		"uniqueTo": "Nation.Egypt",
 		"unitType": "UnitType.HeavyCavalry",
@@ -1858,14 +1773,12 @@
 			"[+2] Movement <in [Open terrain] tiles>",
 			"Rough terrain penalty",
 			"[-51]% Strength <when attacking> <when above [99] HP> <for units with [Promotion.chongfeng]>",
-			"[+23]% Strength <when attacking> <for units with [Promotion.chongfeng]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+23]% Strength <when attacking> <for units with [Promotion.chongfeng]>"
 		]
 	},
 	{ //印度-战象
 		"name": "Unit.Varu",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Chariot",
 		"uniqueTo": "Nation.India",
 		"unitType": "UnitType.HeavyCavalry",
@@ -1878,9 +1791,6 @@
 		"obsoleteTech": "Tech.Stirrups",
 		"attackSound": "elephant",
 		"uniques": [
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		],
 		"promotions": [
 			"[Unit.Varu] ability"
@@ -1888,6 +1798,7 @@
 	},
 	{ //商朝-寅车
 		"name": "Unit.Yinche",
+		"maintenanceCost": 1,
 		"replaces": "Unit.Chariot",
 		"uniqueTo": "Nation.Shang",
 		"unitType": "UnitType.HeavyCavalry",
@@ -1900,12 +1811,11 @@
 		"obsoleteTech": "Tech.Stirrups",
 		"attackSound": "cannon",
 		"uniques": [
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
 		]
 	},
 	{ //骑士
 		"name": "Unit.Knight",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.HeavyCavalry",
 		"strength": 332, //50
 		"movement": 4,
@@ -1917,14 +1827,12 @@
 		"attackSound": "cannon",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //马里-曼德卡鲁骑兵
 		"name": "Unit.MandekaluCavalry",
+		"maintenanceCost": 4,
 		"replaces": "Unit.Knight",
 		"uniqueTo": "Nation.Mali",
 		"unitType": "UnitType.HeavyCavalry",
@@ -1939,14 +1847,12 @@
 		"uniques": [
 			"Earn [35]% of killed [Military] unit's [Strength] as [Gold]",
 			"Instantly consumes [8] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //阿拉伯-奴隶兵
 		"name": "Unit.Mamluk",
+		"maintenanceCost": 4,
 		"replaces": "Unit.Knight",
 		"uniqueTo": "Nation.Arabia",
 		"unitType": "UnitType.HeavyCavalry",
@@ -1960,10 +1866,7 @@
 		"attackSound": "cannon",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		],
 		"promotions": [
 			"[Unit.Mamluk] ability"
@@ -1971,6 +1874,7 @@
 	},
 	{ //拜占庭-甲胄骑兵
 		"name": "Unit.Tagma",
+		"maintenanceCost": 4,
 		"replaces": "Unit.Knight",
 		"uniqueTo": "Nation.Byzantium",
 		"unitType": "UnitType.HeavyCavalry",
@@ -1986,14 +1890,12 @@
 			"[+13]% Strength bonus for [Military] units within [1] tiles",
 			"[+23]% Strength <vs cities> <when attacking>",
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //胸甲骑兵
 		"name": "Unit.Cuirassier",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.HeavyCavalry",
 		"strength": 614, //64
 		"movement": 4,
@@ -2005,14 +1907,12 @@
 		"attackSound": "cannon",
 		"uniques": [
 			"Instantly consumes [10] [Resource.Iron]",
-			"[-64]% Strength <when below [0] [Resource.Iron]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Iron]>"
 		]
 	},
 	{ //坦克
 		"name": "Unit.Tank",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.HeavyCavalry",
 		"strength": 1462, //85
 		"movement": 4,
@@ -2024,14 +1924,12 @@
 		"obsoleteTech": "Tech.Composite",
 		"attackSound": "tankshot",
 		"uniques": [
-			"[-64]% Strength <when below [0] [Resource.Oil]>",
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Oil]>"
 		]
 	},
 	{ //现代坦克
 		"name": "Unit.ModernArmor",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.HeavyCavalry",
 		"strength": 2207, //95
 		"movement": 4,
@@ -2041,14 +1939,12 @@
 		"requiredTech": "Tech.Composite",
 		"attackSound": "tankshot",
 		"uniques": [
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	/*抗骑兵*/
 	{ //枪兵
 		"name": "Unit.Spearman",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.AntiCavalry",
 		"strength": 123, //25
 		"movement": 2,
@@ -2059,12 +1955,11 @@
 		"obsoleteTech": "Tech.Tactics",
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
 		]
 	},
 	{ //希腊-重装步兵
 		"name": "Unit.HeavyInfantry",
+		"maintenanceCost": 1,
 		"replaces": "Unit.Spearman",
 		"uniqueTo": "Nation.Greece",
 		"unitType": "UnitType.AntiCavalry",
@@ -2077,13 +1972,12 @@
 		"obsoleteTech": "Tech.Tactics",
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"[+51]% Strength <when adjacent to a [Unit.HeavyInfantry] unit>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"[+51]% Strength <when adjacent to a [Unit.HeavyInfantry] unit>"
 		]
 	},
 	{ //长矛兵
 		"name": "Unit.Pikeman",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.AntiCavalry",
 		"strength": 270, //45
 		"movement": 2,
@@ -2094,13 +1988,11 @@
 		"obsoleteTech": "Tech.MetalCasting",
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //枪刺与射击方阵
 		"name": "Unit.PikeAndShot",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.AntiCavalry",
 		"strength": 408, //55
 		"movement": 2,
@@ -2111,13 +2003,11 @@
 		"obsoleteTech": "Tech.Chemistry",
 		"attackSound": "shot",
 		"uniques": [
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //反坦克组
 		"name": "Unit.AntiTankCrew",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.AntiCavalry",
 		"strength": 968, //75
 		"movement": 2,
@@ -2128,13 +2018,11 @@
 		"obsoleteTech": "Tech.Composite",
 		"attackSound": "machinegun",
 		"uniques": [
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //现代反坦克组
 		"name": "Unit.ModernAntiTankCrew",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.AntiCavalry",
 		"strength": 1462, //85
 		"movement": 2,
@@ -2143,14 +2031,12 @@
 		"requiredTech": "Tech.Composite",
 		"attackSound": "machinegun",
 		"uniques": [
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	/*短程海军*/
 	{ //桨帆船
 		"name": "Unit.Galley",
+		"maintenanceCost": 1,
 		"unitType": "UnitType.ShortRangedNaval",
 		"strength": 151, //30
 		"movement": 3,
@@ -2159,9 +2045,7 @@
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
 			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
-			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>"
 		],
 		"requiredTech": "Tech.NauticalArt",
 		"attackSound": "nonmetalhit",
@@ -2169,6 +2053,7 @@
 	},
 	{ //腓尼基-双层桨座战船
 		"name": "Unit.DoubleDeckPaddleSteamer",
+		"maintenanceCost": 1,
 		"replaces": "Unit.Galley",
 		"uniqueTo": "Nation.Phoenicia",
 		"unitType": "UnitType.ShortRangedNaval",
@@ -2179,9 +2064,7 @@
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
 			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
-			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>"
 		],
 		"requiredTech": "Tech.NauticalArt",
 		"attackSound": "nonmetalhit",
@@ -2189,6 +2072,7 @@
 	},
 	{ //冰岛-克纳尔长船
 		"name": "Unit.Knarr",
+		"maintenanceCost": 1,
 		"replaces": "Unit.Galley",
 		"uniqueTo": "Nation.Iceland",
 		"unitType": "UnitType.ShortRangedNaval",
@@ -2202,9 +2086,7 @@
 		"uniques": [
 			"[+1] Sight",
 			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
-			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>"
 		],
 		"requiredTech": "Tech.NauticalArt",
 		"obsoleteTech": "Tech.Cartography",
@@ -2212,6 +2094,7 @@
 	},
 	{ //挪威-维京长船
 		"name": "Unit.VikingLongship",
+		"maintenanceCost": 1,
 		"uniqueTo": "Nation.Norway",
 		"replaces": "Unit.Galley",
 		"unitType": "UnitType.ShortRangedNaval",
@@ -2222,9 +2105,7 @@
 		"upgradesTo": "Unit.Trireme",
 		"uniques": [
 			"Can instantly construct a [Improvement.FishingBoat] improvement <[1] times>",
-			"[+23]% Strength <when fighting in [Foreign Land] tiles>",
-			"Class.Unit.Maintenance1",
-			"Consumes [-1] [Resource.UnitMaintenance] <hidden from users>"
+			"[+23]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"requiredTech": "Tech.NauticalArt",
 		"attackSound": "nonmetalhit",
@@ -2232,6 +2113,7 @@
 	},
 	{ //轻快帆船
 		"name": "Unit.Trireme",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.ShortRangedNaval",
 		"strength": 425, //55
 		"movement": 4,
@@ -2241,14 +2123,12 @@
 		"requiredTech": "Tech.Cartography",
 		"obsoleteTech": "Tech.SteamPower",
 		"uniques": [
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		],
 		"attackSound": "nonmetalhit"
 	},
 	{ //装甲舰
 		"name": "Unit.Frigate",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.ShortRangedNaval",
 		"strength": 789, //70
 		"movement": 5,
@@ -2260,14 +2140,12 @@
 		"obsoleteTech": "Tech.JointOperations",
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"[-64]% Strength <when below [0] [Resource.Coal]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Coal]>"
 		]
 	},
 	{ //驱逐舰
 		"name": "Unit.Destroyer",
+		"maintenanceCost": 7,
 		"unitType": "UnitType.ShortRangedNaval",
 		"strength": 1401, //85
 		"movement": 4,
@@ -2278,15 +2156,13 @@
 		"attackSound": "nonmetalhit",
 		"uniques": [
 			"[-64]% Strength <when below [0] [Resource.Coal]>",
-			"[+23]% Strength <vs [UnitType.Missile] units>",
-			"Class.Unit.Maintenance7",
-			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+23]% Strength <vs [UnitType.Missile] units>"
 		]
 	},
 	/*长程海军*/
 	{ //四段帆船
 		"name": "Unit.Caravel",
+		"maintenanceCost": 2,
 		"unitType": "UnitType.LongRangedNaval",
 		"strength": 100, //20
 		"rangedStrength": 123, //25
@@ -2296,10 +2172,7 @@
 		"hurryCostModifier": -33,
 		"upgradesTo": "Unit.Cruiser",
 		"uniques": [
-			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>"
 		],
 		"requiredTech": "Tech.Shipbuilding",
 		"obsoleteTech": "Tech.CrossailDevice",
@@ -2307,6 +2180,7 @@
 	},
 	{ //拜占庭-火战船
 		"name": "Unit.FireShip",
+		"maintenanceCost": 2,
 		"replaces": "Unit.Caravel",
 		"uniqueTo": "Nation.Byzantium",
 		"unitType": "UnitType.LongRangedNaval",
@@ -2318,10 +2192,7 @@
 		"hurryCostModifier": -33,
 		"upgradesTo": "Unit.Cruiser",
 		"uniques": [
-			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
-			"Class.Unit.Maintenance2",
-			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>"
 		],
 		"requiredTech": "Tech.Shipbuilding",
 		"obsoleteTech": "Tech.CrossailDevice",
@@ -2329,6 +2200,7 @@
 	},
 	{ //护卫舰
 		"name": "Unit.Cruiser",
+		"maintenanceCost": 5,
 		"unitType": "UnitType.LongRangedNaval",
 		"strength": 281, //45
 		"rangedStrength": 408, //55
@@ -2342,14 +2214,12 @@
 		"obsoleteTech": "Tech.Refining",
 		"attackSound": "shipguns",
 		"uniques": [
-			"[-64]% Strength <when below [0] [Resource.Niter]>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Niter]>"
 		]
 	},
 	{ //印度尼西亚-戎克船
 		"name": "Unit.Jong",
+		"maintenanceCost": 5,
 		"replaces": "Unit.Cruiser",
 		"uniqueTo": "Nation.Indonesia",
 		"unitType": "UnitType.LongRangedNaval",
@@ -2367,14 +2237,12 @@
 		"uniques": [
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"[+1] Movement <when adjacent to a [Unit.Admiral] unit>",
-			"[+23]% Strength <when adjacent to a [Unit.Admiral] unit>",
-			"Class.Unit.Maintenance5",
-			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+23]% Strength <when adjacent to a [Unit.Admiral] unit>"
 		]
 	},
 	{ //战舰
 		"name": "Unit.Battleship",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.LongRangedNaval",
 		"strength": 501, //60
 		"rangedStrength": 789, //70
@@ -2390,14 +2258,12 @@
 		"attackSound": "shipguns",
 		"uniques": [
 			"[-64]% Strength <when below [0] [Resource.Coal]>",
-			"[+118]% Strength <vs [UnitType.Missile] units>",
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+118]% Strength <vs [UnitType.Missile] units>"
 		]
 	},
 	{ //导弹巡洋舰
 		"name": "Unit.MissileCruiser",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.LongRangedNaval",
 		"strength": 968, //75
 		"rangedStrength": 1724, //90
@@ -2410,15 +2276,13 @@
 		"requiredTech": "Tech.Laser",
 		"attackSound": "shipguns",
 		"uniques": [
-			"[+118]% Strength <vs [UnitType.Missile] units>",
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+118]% Strength <vs [UnitType.Missile] units>"
 		]
 	},
 	/*海军袭击者*/
 	{ //私掠舰
 		"name": "Unit.Corsair",
+		"maintenanceCost": 4,
 		"unitType": "UnitType.NavalAttacker",
 		"strength": 220, //40
 		"rangedStrength": 332, //50
@@ -2431,13 +2295,11 @@
 		"obsoleteTech": "Tech.Electricity",
 		"attackSound": "shipguns",
 		"uniques": [
-			"Class.Unit.Maintenance4",
-			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //潜艇
 		"name": "Unit.Submarine",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.NavalAttacker",
 		"strength": 615, //65
 		"rangedStrength": 928, //75
@@ -2451,13 +2313,11 @@
 		"obsoleteTech": "Tech.Telecommunication",
 		"attackSound": "shipguns",
 		"uniques": [
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	{ //德意志-u艇
 		"name": "Unit.UBoat",
+		"maintenanceCost": 6,
 		"replaces": "Unit.Submarine",
 		"uniqueTo": "Nation.Germany",
 		"unitType": "UnitType.NavalAttacker",
@@ -2474,14 +2334,12 @@
 		"attackSound": "shipguns",
 		"uniques": [
 			"[+51]% Strength <when fighting in [Ocean] tiles>",
-			"[+1] Sight",
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[+1] Sight"
 		]
 	},
 	{ //核潜艇
 		"name": "Unit.NuclearSubmarine",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.NavalAttacker",
 		"strength": 1191, //80
 		"rangedStrength": 1462, //85
@@ -2494,15 +2352,13 @@
 		"uniques": [
 			"Instantly consumes [10] [Resource.Uranium]",
 			"[-64]% Strength <when below [0] [Resource.Uranium]>",
-			"Can carry [2] [UnitType.Missile] units",
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Can carry [2] [UnitType.Missile] units"
 		]
 	},
 	/*航空母舰*/
 	{ //航空母舰
 		"name": "Unit.AircraftCarrier",
+		"maintenanceCost": 7,
 		"unitType": "UnitType.AircraftCarrier",
 		"strength": 615, //65
 		"range": 1,
@@ -2513,14 +2369,12 @@
 		"requiredTech": "Tech.JointOperations",
 		"attackSound": "shipguns",
 		"uniques": [
-			"Class.Unit.Maintenance7",
-			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
 		]
 	},
 	/*战斗机*/
 	{ //双翼机
 		"name": "Unit.Triplane",
+		"maintenanceCost": 6,
 		"unitType": "UnitType.Fighter",
 		"strength": 1142, //80
 		"rangedStrength": 891, //75
@@ -2536,14 +2390,12 @@
 		"attackSound": "machinegun",
 		"uniques": [
 			"[75]% chance to intercept air attacks",
-			"Class.Unit.Aircraft",
-			"Class.Unit.Maintenance6",
-			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.Aircraft"
 		]
 	},
 	{ //战斗机
 		"name": "Unit.Fighter",
+		"maintenanceCost": 7,
 		"unitType": "UnitType.Fighter",
 		"strength": 2603, //100
 		"rangedStrength": 2603, //100
@@ -2560,14 +2412,12 @@
 		"uniques": [
 			"[75]% chance to intercept air attacks",
 			"[-64]% Strength <when below [0] [Resource.Aluminum]>",
-			"Class.Unit.Aircraft",
-			"Class.Unit.Maintenance7",
-			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.Aircraft"
 		]
 	},
 	{ //喷气式战斗机
 		"name": "Unit.JetFighter",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.Fighter",
 		"strength": 3933, //110
 		"rangedStrength": 3933, //110
@@ -2582,15 +2432,13 @@
 		"uniques": [
 			"[75]% chance to intercept air attacks",
 			"[-64]% Strength <when below [0] [Resource.Aluminum]>",
-			"Class.Unit.Aircraft",
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.Aircraft"
 		]
 	},
 	/*轰炸机*/
 	{ //轰炸机
 		"name": "Unit.Bomber",
+		"maintenanceCost": 7,
 		"unitType": "UnitType.Bomber",
 		"strength": 1401, //85
 		"rangedStrength": 3933, //110
@@ -2605,14 +2453,12 @@
 		"attackSound": "bombing",
 		"uniques": [
 			"[-64]% Strength <when below [0] [Resource.Aluminum]>",
-			"Class.Unit.Aircraft",
-			"Class.Unit.Maintenance7",
-			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.Aircraft"
 		]
 	},
 	{ //喷气式轰炸机
 		"name": "Unit.JetBomber",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.Bomber",
 		"strength": 1724, //90
 		"rangedStrength": 6190, //120
@@ -2625,15 +2471,13 @@
 		"attackSound": "bombing",
 		"uniques": [
 			"[-64]% Strength <when below [0] [Resource.Aluminum]>",
-			"Class.Unit.Aircraft",
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.Aircraft"
 		]
 	},
 	/*导弹头*/
 	{ //核弹头
 		"name": "Unit.NuclearDevice",
+		"maintenanceCost": 8,
 		"unitType": "UnitType.Missile",
 		"strength": 1724, //90
 		"rangedStrength": 1724, //90
@@ -2648,13 +2492,12 @@
 			"Nuclear weapon of Strength [1]",
 			"Only available <if [Building.ManhattanProject] is constructed>",
 			"Blast radius [1]",
-			"Class.Unit.Maintenance8",
-			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
 			"Gain [4] [Gold] <upon turn end> <if [Mil.ercigongjinengli] is constructed> <hidden from users>"
 		]
 	},
 	{ //热核弹头
 		"name": "Unit.ThermonuclearDevice",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Missile",
 		"strength": 6190, //120
 		"rangedStrength": 6190, //120
@@ -2676,6 +2519,7 @@
 	/*末日机甲*/
 	{
 		"name": "Unit.GiantDeathRobot",
+		"maintenanceCost": 15,
 		"unitType": "UnitType.Mech",
 		"strength": 6190, //120
 		"interceptRange": 10,
@@ -2686,15 +2530,13 @@
 		"attackSound": "gdrAttack",
 		"uniques": [
 			"Consumes [3] [Resource.Uranium]",
-			"[-64]% Strength <when below [0] [Resource.Uranium]>",
-			"Class.Unit.Maintenance15",
-			"Consumes [-15] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"[-64]% Strength <when below [0] [Resource.Uranium]>"
 		]
 	},
 	/*太空计划*/
 	{
 		"name": "Unit.LaunchEarthSatellite.project",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 900,
@@ -2711,6 +2553,7 @@
 	},
 	{
 		"name": "Unit.InitiateMoonLanding.project",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 1500,
@@ -2729,6 +2572,7 @@
 	},
 	{
 		"name": "Unit.InitiateMarsColonization.project",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 1800,
@@ -2745,6 +2589,7 @@
 	},
 	{
 		"name": "Unit.InitiateInterstellarExploration.project",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 2100,
@@ -2761,6 +2606,7 @@
 	},
 	{
 		"name": "Unit.InitiateLagrangeLaserStation.project",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 600,
@@ -2778,6 +2624,7 @@
 	},
 	{
 		"name": "Unit.BuildGroundLaserStation.project",
+		"maintenanceCost": 0,
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 600,
