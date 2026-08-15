@@ -5181,7 +5181,6 @@
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [Maintenance fees for [All] Units [-1]]",
             "Reduces unit maintenance by [1] Gold",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -5537,7 +5536,6 @@
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [Maintenance fees for all military units -1]",
             "Reduces unit maintenance by [1] Gold <for [Military] units>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -5599,7 +5597,6 @@
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [Nuclear device's maintenance reduced by [50%]]",
             "Reduces unit maintenance by [7] Gold <for [Unit.GiantDeathRobot] units>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
