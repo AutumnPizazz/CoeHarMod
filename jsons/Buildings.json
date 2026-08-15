@@ -5538,6 +5538,9 @@
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
             "Comment [Maintenance fees for all military units -1]",
+            // 每拥有一个带 Class.Unit.QuanMinDongYuan tag 的军事单位，每回合 +1 金
+            // （原为 80 个单位各带一条 Gain [1] [Gold] <upon turn end>，已合并为一条 Countable 表达式）
+            "Gain [[Class.Unit.QuanMinDongYuan] Units] [Gold] <upon turn end> <hidden from users>",
             "Provides [1] [Resource.AuxiliaryCounter5] <hidden from users>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",

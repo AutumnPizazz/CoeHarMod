@@ -470,7 +470,7 @@
 			"Only available <when above [0] [Resource.SpyCapacity]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	// {//空灵吟唱I
@@ -693,7 +693,7 @@
 			"Religious Unit",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //IV级武僧
@@ -710,7 +710,7 @@
 			"Religious Unit",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //V级武僧
@@ -727,7 +727,7 @@
 			"Religious Unit",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //VI级武僧
@@ -742,7 +742,7 @@
 			"Religious Unit",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*侦察单位*/
@@ -777,7 +777,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //印加-瓦剌卡战士
@@ -799,7 +799,7 @@
 			"[1] additional attacks per turn",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //游骑兵
@@ -818,7 +818,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //特种部队
@@ -836,7 +836,7 @@
 			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>",
 			"Class.Unit.Maintenance7",
 			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*短程步兵*/
@@ -921,7 +921,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //罗马-罗马军团
@@ -948,7 +948,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //波斯-长生军
@@ -973,7 +973,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //汉朝-羽林军
@@ -994,7 +994,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"promotions": [
 			"[Unit.ImperialGuard] ability"
@@ -1020,7 +1020,7 @@
 			"Can instantly construct a [Improvement.Pabo] improvement <[1] times>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //披甲战士
@@ -1039,7 +1039,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //唐朝-陌刀手
@@ -1061,7 +1061,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //日本-武士
@@ -1084,7 +1084,7 @@
 			"[This Unit] heals [5] HP <upon ending a turn in a [Coastal] tile>",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //挪威-狂暴武士
@@ -1108,7 +1108,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //火枪手
@@ -1127,7 +1127,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //奥斯曼-苏丹亲兵
@@ -1149,7 +1149,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"promotions": [
 			"[Unit.SudaneseParamilitary] ability",
@@ -1174,7 +1174,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //西班牙-征服者
@@ -1196,7 +1196,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //线列步兵
@@ -1215,7 +1215,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //英吉利-红衫军
@@ -1237,7 +1237,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //步兵
@@ -1256,7 +1256,7 @@
 			"[-64]% Strength <when below [0] [Resource.Oil]>",
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //苏维埃中国-中国红军
@@ -1278,7 +1278,7 @@
 			"[+51]% Strength <for units with [triple star]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //苏联-苏联红军
@@ -1300,7 +1300,7 @@
 			"[+51]% Strength <for units with [triple star]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //机械化步兵
@@ -1316,7 +1316,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*长程步兵*/
@@ -1390,7 +1390,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //明朝-虎蹲炮
@@ -1412,7 +1412,7 @@
 			"[-34]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //越南-越南象兵
@@ -1435,7 +1435,7 @@
 			"[+1] Sight",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //野战加农炮
@@ -1454,7 +1454,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //朝鲜-火车
@@ -1476,7 +1476,7 @@
 			"Must set up to ranged attack",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //机关枪队
@@ -1493,7 +1493,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*攻城*/
@@ -1513,7 +1513,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //投石机
@@ -1532,7 +1532,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //射石炮
@@ -1553,7 +1553,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //大炮
@@ -1573,7 +1573,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //火箭炮
@@ -1591,7 +1591,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*轻骑兵*/
@@ -1649,7 +1649,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //汉朝-虎贲军
@@ -1670,7 +1670,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //马其顿-伙友骑兵
@@ -1692,7 +1692,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //追猎者
@@ -1711,7 +1711,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //埃塞俄比亚-奥罗莫骑兵
@@ -1733,7 +1733,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance3",
 			"Consumes [-3] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //骑兵
@@ -1752,7 +1752,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //俄罗斯-哥萨克骑兵
@@ -1775,7 +1775,7 @@
 			"[-64]% Strength <when below [0] [Resource.Horse]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //直升飞机
@@ -1794,7 +1794,7 @@
 			"All tiles cost 1 movement",
 			"Class.Unit.Maintenance7",
 			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*重骑兵*/
@@ -1837,7 +1837,7 @@
 			"[+23]% Strength <when attacking> <for units with [Promotion.chongfeng]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //印度-战象
@@ -1856,7 +1856,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"promotions": [
 			"[Unit.Varu] ability"
@@ -1896,7 +1896,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //马里-曼德卡鲁骑兵
@@ -1918,7 +1918,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //阿拉伯-奴隶兵
@@ -1939,7 +1939,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"promotions": [
 			"[Unit.Mamluk] ability"
@@ -1965,7 +1965,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //胸甲骑兵
@@ -1984,7 +1984,7 @@
 			"[-64]% Strength <when below [0] [Resource.Iron]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //坦克
@@ -2003,7 +2003,7 @@
 			"[-64]% Strength <when below [0] [Resource.Oil]>",
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //现代坦克
@@ -2019,7 +2019,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*抗骑兵*/
@@ -2072,7 +2072,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //枪刺与射击方阵
@@ -2089,7 +2089,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //反坦克组
@@ -2106,7 +2106,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //现代反坦克组
@@ -2121,7 +2121,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*短程海军*/
@@ -2219,7 +2219,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2239,7 +2239,7 @@
 			"[-64]% Strength <when below [0] [Resource.Coal]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //驱逐舰
@@ -2257,7 +2257,7 @@
 			"[+23]% Strength <vs [UnitType.Missile] units>",
 			"Class.Unit.Maintenance7",
 			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*长程海军*/
@@ -2275,7 +2275,7 @@
 			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"requiredTech": "Tech.Shipbuilding",
 		"obsoleteTech": "Tech.CrossailDevice",
@@ -2297,7 +2297,7 @@
 			"Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
 			"Class.Unit.Maintenance2",
 			"Consumes [-2] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		],
 		"requiredTech": "Tech.Shipbuilding",
 		"obsoleteTech": "Tech.CrossailDevice",
@@ -2321,7 +2321,7 @@
 			"[-64]% Strength <when below [0] [Resource.Niter]>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //印度尼西亚-戎克船
@@ -2346,7 +2346,7 @@
 			"[+23]% Strength <when adjacent to a [Unit.Admiral] unit>",
 			"Class.Unit.Maintenance5",
 			"Consumes [-5] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //战舰
@@ -2369,7 +2369,7 @@
 			"[+118]% Strength <vs [UnitType.Missile] units>",
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //导弹巡洋舰
@@ -2389,7 +2389,7 @@
 			"[+118]% Strength <vs [UnitType.Missile] units>",
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*海军袭击者*/
@@ -2409,7 +2409,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance4",
 			"Consumes [-4] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //潜艇
@@ -2429,7 +2429,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //德意志-u艇
@@ -2453,7 +2453,7 @@
 			"[+1] Sight",
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //核潜艇
@@ -2473,7 +2473,7 @@
 			"Can carry [2] [UnitType.Missile] units",
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*航空母舰*/
@@ -2491,7 +2491,7 @@
 		"uniques": [
 			"Class.Unit.Maintenance7",
 			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*战斗机*/
@@ -2515,7 +2515,7 @@
 			"Class.Unit.Aircraft",
 			"Class.Unit.Maintenance6",
 			"Consumes [-6] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //战斗机
@@ -2539,7 +2539,7 @@
 			"Class.Unit.Aircraft",
 			"Class.Unit.Maintenance7",
 			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //喷气式战斗机
@@ -2561,7 +2561,7 @@
 			"Class.Unit.Aircraft",
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*轰炸机*/
@@ -2584,7 +2584,7 @@
 			"Class.Unit.Aircraft",
 			"Class.Unit.Maintenance7",
 			"Consumes [-7] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	{ //喷气式轰炸机
@@ -2604,7 +2604,7 @@
 			"Class.Unit.Aircraft",
 			"Class.Unit.Maintenance8",
 			"Consumes [-8] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*导弹头*/
@@ -2665,7 +2665,7 @@
 			"[-64]% Strength <when below [0] [Resource.Uranium]>",
 			"Class.Unit.Maintenance15",
 			"Consumes [-15] [Resource.UnitMaintenance] <hidden from users>",
-			"Gain [1] [Gold] <upon turn end> <if [Mil.quanmindongyuan] is constructed> <hidden from users>"
+			"Class.Unit.QuanMinDongYuan"
 		]
 	},
 	/*太空计划*/
