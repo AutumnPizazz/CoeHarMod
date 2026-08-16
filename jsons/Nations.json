@@ -1778,7 +1778,7 @@
 		"preferredVictoryType": "VictoryType.Culture",
 		"uniqueName": "Mana",
 		"uniques": [
-			"Enables embarkation for land units <starting from the [Era.Ancient]>",
+			"Enables embarkation for land units",
 			"Enables [All] units to enter ocean tiles <starting from the [Era.Ancient]>",
 			"[+1] Movement <for [Embarked] units>",
 			"[+1 Food] from every [Improvement.FishingBoat]",
@@ -2327,7 +2327,6 @@
 		"preferredVictoryType": "VictoryType.Culture",
 		"uniqueName": "Pan Geng's Revival",
 		"uniques": [
-			" "
 		],
 		"uniqueText": "Each turn you can perform one city relocation (selling [Building.ShangEmperorPalace] in the current city and buying it in another city within the same turn)",
 		"cities": [

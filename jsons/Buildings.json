@@ -1022,8 +1022,7 @@
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
             "Can only be built <in [Capital] cities>",
             "Triggers a global alert upon completion",
-            "Class.Building.LevelGovernment",
-            "Class.Building.Level1Government"
+            "Class.Building.LevelGovernment"
         ]
     },
     { //寡头政体
@@ -2849,7 +2848,6 @@
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -2870,7 +2868,6 @@
         "requiredTech": "Civic.GamesAndEntertainment",
         "requiredBuilding": "Building.DistrictUnique.EntertainmentComplex",
         "uniques": [
-            "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -2886,7 +2883,6 @@
         "uniques": [
             "[+1 Science] from [Landform.Rainforest] tiles [in this city]",
             "[+1 Science] from [Landform.Swamp] tiles [in this city]",
-            "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -2899,7 +2895,6 @@
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Zoo",
         "uniques": [
-            "Class.DistrictBuilding.EntertainmentComplex",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -2947,7 +2942,6 @@
         "requiredTech": "Civic.NaturalHistory",
         "requiredBuilding": "Building.DistrictUnique.WaterPark",
         "uniques": [
-            "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -2963,7 +2957,6 @@
         "uniques": [
             "[+1 Science] from [Landform.Reef] tiles [in this city]",
             "[+1 Science] from [Class.ResourceOnWater] tiles [in this city]",
-            "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -2976,7 +2969,6 @@
         "requiredTech": "Civic.ProfessionalSports",
         "requiredBuilding": "Building.Aquarium",
         "uniques": [
-            "Class.DistrictBuilding.WaterPark",
             "Destroyed when the city is captured",
             "Unsellable"
         ]
@@ -3074,7 +3066,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik I] promotion <for [Nation.SU] Civilizations>",
-            "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
             "Unsellable"
         ]
@@ -3093,7 +3084,6 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
             "All newly-trained [Military] units [in this city] receive the [Promotion.Bolshevik II] promotion <for [Nation.SU] Civilizations>",
-            "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
             "Unsellable"
         ]
@@ -3114,7 +3104,6 @@
         },
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
-            "Class.DistrictBuilding.IndustrialZone",
             "Never destroyed when the city is captured",
             "Unsellable"
         ]
@@ -3152,7 +3141,6 @@
             "Only available <in cities without a [Building.OilPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.IndustrialZone",
             "Class.Building.PowerPlant"
         ]
     },
@@ -3226,7 +3214,6 @@
             "Provides [4] [Resource.Electricity]",
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
-            "Class.DistrictBuilding.IndustrialZone",
             "Class.Building.PowerPlant"
         ]
     },
@@ -3300,7 +3287,6 @@
             "Provides [16] [Resource.Electricity]",
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.OilPowerPlant]>",
-            "Class.DistrictBuilding.IndustrialZone",
             "Class.Building.PowerPlant"
         ]
     },
@@ -3769,7 +3755,6 @@
             "Unsellable",
             "Creates a [District.Spaceport] improvement on a specific tile",
             "Class.Building.DistrictUnique",
-            "Class.DistrictBuilding.Spaceport",
             "Never destroyed when the city is captured",
             "Cannot be purchased"
         ]
@@ -3787,7 +3772,6 @@
             "Unsellable",
             "Creates a [District.Raceline] improvement on a specific tile",
             "Class.Building.DistrictUnique",
-            "Class.DistrictBuilding.Raceline",
             "Never destroyed when the city is captured",
             "Cannot be purchased"
         ]
@@ -3807,7 +3791,6 @@
             "Unsellable",
             "Creates a [Distict.BeachLandmark] improvement on a specific tile",
             "Class.Building.DistrictUnique",
-            "Class.DistrictBuilding.Raceline",
             "Never destroyed when the city is captured",
             "Cannot be purchased"
         ]
@@ -3826,7 +3809,6 @@
             "Unsellable",
             "Creates a [District.Torfbair] improvement on a specific tile",
             "Class.Building.DistrictUnique",
-            "Class.DistrictBuilding.Raceline",
             "Never destroyed when the city is captured",
             "Cannot be purchased"
         ]
@@ -3862,7 +3844,6 @@
             "[+1 Food, +1 Faith, +1 Culture] from [Improvement.ProtectionZone] tiles [in this city] <with [1] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Food, +1 Faith, +1 Culture] from [Improvement.ProtectionZone] tiles [in this city] <with [2] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Food, +1 Faith, +1 Culture] from [Improvement.ProtectionZone] tiles [in this city] <with [3] to [6] neighboring [Class.ProtectionZone] tiles>",
-            "Class.DistrictBuilding.ProtectionZone",
             "Never destroyed when the city is captured",
             "Unsellable"
         ]
@@ -3878,7 +3859,6 @@
             "[+1 Science, +1 Production, +1 Gold] from [Improvement.ProtectionZone] tiles [in this city] <with [1] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Science, +1 Production, +1 Gold] from [Improvement.ProtectionZone] tiles [in this city] <with [2] to [6] neighboring [Class.ProtectionZone] tiles>",
             "[+1 Science, +1 Production, +1 Gold] from [Improvement.ProtectionZone] tiles [in this city] <with [3] to [6] neighboring [Class.ProtectionZone] tiles>",
-            "Class.DistrictBuilding.ProtectionZone",
             "Never destroyed when the city is captured",
             "Unsellable"
         ]
@@ -4669,8 +4649,7 @@
             "[+1 Production] from [Improvement.Mine] tiles [in this city]",
             "[+1 Production] from [Improvement.Quarry] tiles [in this city]",
             "Creates a [District.RuhrValley] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.Industrialization",
         "quote": "Quote.AWonder.RuhrValley"
@@ -4687,8 +4666,7 @@
             "[2] Free Technologies",
             "Provides [3] [Resource.Unit.Scientist]",
             "Creates a [District.Oxford] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.ScientificTheory",
         "quote": "Quote.AWonder.Oxford"
@@ -4700,8 +4678,7 @@
         "uniques": [
             "Provides [4] [Resource.DiplomaticFavor]",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Creates a [District.StatueOfLiberty] improvement on a specific tile",
-            "Class.WonderEra.Industrial"
+            "Creates a [District.StatueOfLiberty] improvement on a specific tile"
         ],
         "requiredTech": "Civic.CivilEngineering",
         "quote": "Quote.AWonder.StatueOfLiberty"
@@ -4714,8 +4691,7 @@
             "Free Great Person",
             "Provides [4] [Resource.Unit.Artist]",
             "Creates a [District.BolshoiTheatre] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.OperaAndBallet",
         "quote": "Quote.AWonder.BolshoiTheatre"
@@ -4728,8 +4704,7 @@
         "uniques": [
             "[+4 Gold] [in all cities connected to capital]",
             "Creates a [District.PanamaCanal] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.SteamPower",
         "quote": "Quote.AWonder.PanamaCanal"
@@ -4745,8 +4720,7 @@
             "[+100]% [Culture] from City-States",
             "[+100]% [Faith] from City-States",
             "Creates a [District.HungarianParliamentBuilding] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.SanitaryEquipment",
         "quote": "Quote.AWonder.HungarianParliamentBuilding"
@@ -4761,8 +4735,7 @@
             "Provides [3] [Resource.Unit.Merchant]",
             "Free [Unit.Merchant] appears",
             "Creates a [District.BigBen] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.Economy",
         "quote": "Quote.AWonder.BigBen"
@@ -4775,8 +4748,7 @@
             "[2] free [Unit.Artist] units appear",
             "Provides [5] [Resource.Unit.Artist]",
             "Creates a [District.HermitageMuseum] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Industrial"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.NaturalHistory",
         "quote": "Quote.AWonder.HermitageMuseum"
@@ -4788,8 +4760,7 @@
             "[+2 Culture] from every [Luxury resource] <in tiles without [Class.District]>",
             "[+2 Science] from every [Strategic resource] <in tiles without [Class.District]>",
             "Creates a [District.EiffelTower] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Modern"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.Steel",
         "quote": "Quote.AWonder.EiffelTower"
@@ -4803,8 +4774,7 @@
         "uniques": [
             "Free Great Person",
             "Creates a [District.Broadway] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Modern"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.MassMedia",
         "quote": "Quote.AWonder.Broadway"
@@ -4816,8 +4786,7 @@
         "uniques": [
             "Gain [1600] [Culture]",
             "Creates a [District.StatueofChristtheRedeemer] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Modern"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.MassMedia",
         "quote": "Quote.AWonder.StatueofChristtheRedeemer"
@@ -4832,8 +4801,7 @@
         "uniques": [
             "Comment [Gives a defensive bonus of [28]%]",
             "Creates a [District.GoldenGateBridge] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Modern"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.InternalCombustionEngine",
         "quote": "Quote.AWonder.GoldenGateBridge"
@@ -4844,8 +4812,7 @@
         "uniques": [
             "[+100]% [Resource.Electricity] resource production",
             "Creates a [District.Biosphere] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Atomic"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Tech.Synthetic",
         "quote": "Quote.AWonder.Biosphere"
@@ -4858,8 +4825,7 @@
         "uniques": [
             "Provides [6] [Resource.Unit.Artist]",
             "Creates a [District.SydneyOperaHouse] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Atomic"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.CulturalHeritage",
         "quote": "Quote.AWonder.SydneyOperaHouse"
@@ -4874,8 +4840,7 @@
             "[+2 Happiness] from every [Building.Zoo]",
             "[+2 Happiness] from every [Building.Stadium]",
             "Creates a [District.MaracanaStadium] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Atomic"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.ProfessionalSports",
         "quote": "Quote.AWonder.MaracanaStadium"
@@ -4890,8 +4855,7 @@
             "[+20]% [Science] [in all cities]",
             "[+10]% [Production] [in all cities]",
             "Creates a [District.Amundsen-ScottSouthPoleStation] improvement on a specific tile",
-            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
-            "Class.WonderEra.Atomic"
+            "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>"
         ],
         "requiredTech": "Civic.EmergencyDeployment",
         "quote": "Quote.AWonder.Amundsen-ScottSouthPoleStation"
@@ -4924,8 +4888,7 @@
             "Only available <if [Class.Building.Level3Government] is constructed>",
             "Only available <in cities without a [Gene.gonghechuancheng]>",
             "Only available <in cities without a [Gene.zhuanzhichuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //共和传承
@@ -4942,8 +4905,7 @@
             "Only available <if [Class.Building.Level3Government] is constructed>",
             "Only available <in cities without a [Gene.guatouchuancheng]>",
             "Only available <in cities without a [Gene.zhuanzhichuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //专制传承
@@ -4964,8 +4926,7 @@
             "Only available <if [Class.Building.Level3Government] is constructed>",
             "Only available <in cities without a [Gene.guatouchuancheng]>",
             "Only available <in cities without a [Gene.gonghechuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //君主传承
@@ -4982,8 +4943,7 @@
             "Only available <if [Class.Building.Level4Government] is constructed>",
             "Only available <in cities without a [Gene.shenquanchuancheng]>",
             "Only available <in cities without a [Gene.zhongshangchuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //神权传承
@@ -4999,8 +4959,7 @@
             "Only available <if [Class.Building.Level4Government] is constructed>",
             "Only available <in cities without a [Gene.junzhuchuancheng]>",
             "Only available <in cities without a [Gene.zhongshangchuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //重商传承
@@ -5016,8 +4975,7 @@
             "Only available <if [Class.Building.Level4Government] is constructed>",
             "Only available <in cities without a [Gene.junzhuchuancheng]>",
             "Only available <in cities without a [Gene.shenquanchuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //民主传承
@@ -5033,8 +4991,7 @@
             "Only available <if [Class.Building.Level5Government] is constructed>",
             "Only available <in cities without a [Gene.gongchanchuancheng]>",
             "Only available <in cities without a [Gene.faxisichuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //共产传承
@@ -5050,8 +5007,7 @@
             "Only available <if [Class.Building.Level5Government] is constructed>",
             "Only available <in cities without a [Gene.minzhuchuancheng]>",
             "Only available <in cities without a [Gene.faxisichuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     { //法西斯传承
@@ -5067,8 +5023,7 @@
             "Only available <if [Class.Building.Level5Government] is constructed>",
             "Only available <in cities without a [Gene.minzhuchuancheng]>",
             "Only available <in cities without a [Gene.gongchanchuancheng]>",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ]
     },
     //军事政策卡
@@ -5103,8 +5058,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Colonialism]>",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Code"
     },
@@ -5118,8 +5072,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Colonialism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Code"
     },
@@ -5137,8 +5090,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Feudalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Skill"
     },
@@ -5154,8 +5106,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Exploration]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.BasicTrade"
     },
@@ -5172,8 +5123,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.DivinRightOfKings]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.MilitaryTradition"
     },
@@ -5187,8 +5137,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Mobilization]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.NationalLaborForce"
     },
@@ -5203,8 +5152,7 @@
             "Only available <in cities without a [Mil.lengbao]>",
             "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.EarlyEmpire"
     },
@@ -5220,8 +5168,7 @@
             "Can only be built <in [Capital] cities>",
             "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.MilitaryTraining"
     },
@@ -5235,8 +5182,7 @@
             "Limited to [1] per Civilization",
             "Can only be built <in [Capital] cities>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.MilitaryTraining"
     },
@@ -5252,8 +5198,7 @@
             "Limited to [1] per Civilization",
             "Can only be built <in [Capital] cities>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.MilitaryTraining"
     },
@@ -5267,8 +5212,7 @@
             "Only available <in cities without a [Mil.bianfangjun]>",
             "Can only be built <in [Capital] cities>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.DefensiveTactics"
     },
@@ -5281,8 +5225,7 @@
             "Limited to [1] per Civilization",
             "Can only be built <in [Capital] cities>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.DefensiveTactics"
     },
@@ -5300,8 +5243,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Nationalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Feudalism"
     },
@@ -5315,8 +5257,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.MassMedia]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Administration"
     },
@@ -5329,8 +5270,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Urbanization]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Mercenaries"
     },
@@ -5343,8 +5283,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Ideology]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.TheWorkersUnion"
     },
@@ -5361,8 +5300,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Ideology]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.DivinRightOfKings"
     },
@@ -5381,8 +5319,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.ColdWar]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Exploration"
     },
@@ -5395,8 +5332,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Mercantilism"
     },
@@ -5412,8 +5348,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Mercantilism"
     },
@@ -5426,8 +5361,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Colonialism"
     },
@@ -5445,8 +5379,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.EmergencyDeployment]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Nationalism"
     },
@@ -5460,8 +5393,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.EmergencyDeployment]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Nationalism"
     },
@@ -5477,8 +5409,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.SpaceRace]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Urbanization"
     },
@@ -5491,8 +5422,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Urbanization"
     },
@@ -5510,8 +5440,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.ScorchedEarthStrategy"
     },
@@ -5527,8 +5456,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.EarthProtection"
     },
@@ -5541,8 +5469,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Mobilization"
     },
@@ -5557,8 +5484,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Ideology"
     },
@@ -5573,8 +5499,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Tolalitarianism"
     },
@@ -5588,8 +5513,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.ColdWar"
     },
@@ -5602,8 +5526,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.ColdWar"
     },
@@ -5616,8 +5539,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.EmergencyDeployment"
     },
@@ -5633,8 +5555,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.EmergencyDeployment"
     },
@@ -5648,8 +5569,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.SpaceRace"
     },
@@ -5663,8 +5583,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>",
-            "Class.Policy.Military"
+            "Only available <in cities with a [Mil.Reveal]> <hidden from users> <for [Human player] Civilizations>"
         ],
         "requiredTech": "Civic.Globalization"
     },
@@ -5702,8 +5621,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Theology]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Code"
     },
@@ -5717,8 +5635,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Feudalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Code"
     },
@@ -5732,8 +5649,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Feudalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Skill"
     },
@@ -5749,8 +5665,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Feudalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Skill"
     },
@@ -5764,8 +5679,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Mercantilism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.BasicTrade"
     },
@@ -5780,8 +5694,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.DivinRightOfKings]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NationalLaborForce"
     },
@@ -5795,8 +5708,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.EarlyEmpire"
     },
@@ -5810,8 +5722,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.EarlyEmpire"
     },
@@ -5825,8 +5736,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.MedievalBazaar]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.GamesAndEntertainment"
     },
@@ -5840,8 +5750,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Ideology]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.History"
     },
@@ -5854,8 +5763,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Theology"
     },
@@ -5869,8 +5777,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.NavalTradition]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NavalTradition"
     },
@@ -5885,8 +5792,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.CivilEngineering]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Feudalism"
     },
@@ -5900,8 +5806,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.MassMedia]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Administration"
     },
@@ -5914,8 +5819,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Capitalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Mercenaries"
     },
@@ -5928,8 +5832,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.ProfessionalSports]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.MedievalBazaar"
     },
@@ -5942,8 +5845,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.RightToVote]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.MedievalBazaar"
     },
@@ -5956,8 +5858,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Ideology]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.TheWorkersUnion"
     },
@@ -5974,8 +5875,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.CivilEngineering]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.DivinRightOfKings"
     },
@@ -5988,8 +5888,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Exploration"
     },
@@ -6002,8 +5901,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ReformedChurch"
     },
@@ -6017,8 +5915,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ReformedChurch"
     },
@@ -6032,8 +5929,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Globalization]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Mercantilism"
     },
@@ -6047,8 +5943,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Enlightenment"
     },
@@ -6062,8 +5957,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Enlightenment"
     },
@@ -6076,8 +5970,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Enlightenment"
     },
@@ -6092,8 +5985,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.CivilEngineering"
     },
@@ -6106,8 +5998,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.CivilEngineering"
     },
@@ -6121,8 +6012,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.OperaAndBallet"
     },
@@ -6136,8 +6026,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ScorchedEarthStrategy"
     },
@@ -6151,8 +6040,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Capitalism"
     },
@@ -6169,8 +6057,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Capitalism"
     },
@@ -6184,8 +6071,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Ideology"
     },
@@ -6199,8 +6085,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Ideology"
     },
@@ -6213,8 +6098,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.RightToVote"
     },
@@ -6227,8 +6111,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ClassStruggle"
     },
@@ -6241,8 +6124,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.CulturalHeritage"
     },
@@ -6256,8 +6138,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ProfessionalSports"
     },
@@ -6270,8 +6151,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.SpaceRace"
     },
@@ -6284,8 +6164,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Globalization"
     },
@@ -6299,8 +6178,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.SocialMedia"
     },
@@ -6316,8 +6194,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Urbanization"
     },
@@ -6332,8 +6209,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Economy"
+            "Only available <in cities with a [Eco.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NationalLaborForce"
     },
@@ -6370,8 +6246,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Ideology]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.PoliticalPhilosophy"
     },
@@ -6385,8 +6260,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.SocialMedia]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.History"
     },
@@ -6398,8 +6272,7 @@
             "[+100]% [Gold] from City-States",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.MedievalBazaar"
     },
@@ -6413,8 +6286,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ForeighService"
     },
@@ -6427,8 +6299,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ForeighService"
     },
@@ -6442,8 +6313,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Colonialism"
     },
@@ -6457,8 +6327,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Ideology"
     },
@@ -6471,8 +6340,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NuclearProgram"
     },
@@ -6486,8 +6354,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ColdWar"
     },
@@ -6500,8 +6367,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ColdWar"
     },
@@ -6515,8 +6381,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.SpaceRace"
     },
@@ -6530,8 +6395,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Globalization"
     },
@@ -6545,8 +6409,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.Diplomacy"
+            "Only available <in cities with a [Dip.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.SocialMedia"
     },
@@ -6586,8 +6449,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Tech.Gunpowder"
     },
@@ -6602,8 +6464,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.MilitaryTradition"
     },
@@ -6618,8 +6479,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.NuclearProgram]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Mysticism"
     },
@@ -6634,8 +6494,7 @@
             "Limited to [1] per Civilization",
             "Only available <before founding a religion>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Mysticism"
     },
@@ -6649,8 +6508,7 @@
             "Provides [2] [Resource.Unit.Artist]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.DramaAndPoetry"
     },
@@ -6664,8 +6522,7 @@
             "Provides [2] [Resource.Unit.Admiral]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NavalTradition"
     },
@@ -6680,8 +6537,7 @@
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Capitalism]>",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.TheWorkersUnion"
     },
@@ -6695,8 +6551,7 @@
             "Provides [6] [Resource.Unit.Engineer]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Humanism"
     },
@@ -6710,8 +6565,7 @@
             "Provides [6] [Resource.Unit.Artist]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Humanism"
     },
@@ -6725,8 +6579,7 @@
             "Provides [6] [Resource.Unit.Artist]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.OperaAndBallet"
     },
@@ -6740,8 +6593,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ScorchedEarthStrategy"
     },
@@ -6756,8 +6608,7 @@
             "Provides [6] [Resource.Unit.Merchant]",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Capitalism"
     },
@@ -6773,8 +6624,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NuclearProgram"
     },
@@ -6787,8 +6637,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.RightToVote"
     },
@@ -6802,8 +6651,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.Tolalitarianism"
     },
@@ -6817,8 +6665,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.ClassStruggle"
     },
@@ -6831,8 +6678,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.SmartPowerFoctrine"
     },
@@ -6845,8 +6691,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.SmartPowerFoctrine"
     },
@@ -6860,8 +6705,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.InformationWarfare"
     },
@@ -6874,8 +6718,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.InformationWarfare"
     },
@@ -6888,8 +6731,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NecessityExpedition"
     },
@@ -6902,8 +6744,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.NecessityExpedition"
     },
@@ -6916,8 +6757,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.CulturalHegemony"
     },
@@ -6930,8 +6770,7 @@
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
-            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>",
-            "Class.Policy.General"
+            "Only available <in cities with a [Gene.Reveal]> <for [Human player] Civilizations> <hidden from users>"
         ],
         "requiredTech": "Civic.CulturalHegemony"
     }

@@ -572,8 +572,7 @@
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Class.District",
-			"Class.WaterPark"
+			"Class.District"
 		]
 	},
 	{ //港口
