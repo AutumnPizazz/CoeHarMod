@@ -29,6 +29,7 @@
     ],
     "uniques": [
         "Uses the Civilization 6 style unit maintenance system",
+        "Production overflow applies immediately to the next construction",
         "Cannot be used as permanent audiovisual mod",
         "Can only start games from the starting era",
         "Allow cities to claim tiles",
