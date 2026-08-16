@@ -31,6 +31,7 @@
         "Uses the Civilization 6 style unit maintenance system",
         "Cannot be used as permanent audiovisual mod",
         "Can only start games from the starting era",
-        "Allow cities to claim tiles"
+        "Allow cities to claim tiles",
+        "Suppress warning [*used by several ruleset entries (Nation, Nation.cities)*]"
     ]
 }

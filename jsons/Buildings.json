@@ -5079,6 +5079,7 @@
             "Can be purchased for [0] [Gold] [in capital]",
             "Can only be built <in [Capital] cities>",
             "Remove [Mil.Hide] [in this city] <hidden from users>",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
             "Unsellable"
         ]
     },
@@ -5675,6 +5676,7 @@
             "Can be purchased for [0] [Gold] [in capital]",
             "Can only be built <in [Capital] cities>",
             "Remove [Eco.Hide] [in this city] <hidden from users>",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
             "Unsellable"
         ]
     },
@@ -6343,6 +6345,7 @@
             "Can be purchased for [0] [Gold] [in capital]",
             "Can only be built <in [Capital] cities>",
             "Remove [Dip.Hide] [in this city] <hidden from users>",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
             "Unsellable"
         ]
     },
@@ -6554,6 +6557,7 @@
             "Can be purchased for [0] [Gold] [in capital]",
             "Can only be built <in [Capital] cities>",
             "Remove [Gene.Hide] [in this city] <hidden from users>",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
             "Unsellable"
         ]
     },
