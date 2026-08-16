@@ -105,7 +105,6 @@
 	{ //血族
 		"name": "Promotion.Blood",
 		"uniques": [
-			"It proves that you are a blood",
 			"[This Unit] gains the [Promotion.Bloodthirsty I] promotion <for units with [Promotion.Blood]> <upon defeating a [Military] unit>",
 			"[-10] HP when healing"
 		]

@@ -1342,8 +1342,7 @@
 		"improvement": "Improvement.LumberMill",
 		"improvementStats": {},
 		"uniques": [
-			"[-1 Production, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-			"Luxury resources"
+			"[-1 Production, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>"
 		]
 	}
 ]
