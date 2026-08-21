@@ -554,6 +554,15 @@
 			"Not shown on world screen"
 		]
 	},
+	{ //影响力点数
+		"name": "Resource.Influence",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [],
+		"uniques": [
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
 	{ //区域限制
 		"name": "Resource.DistrictLimitation",
 		"resourceType": "Strategic",

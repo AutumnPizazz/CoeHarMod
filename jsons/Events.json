@@ -20,8 +20,8 @@
         ]
     },
     {
-        "name": "There's free [GovernorTitle] to use",
-        "text": "There's free [GovernorTitle] to use",
+        "name": "There's free [Variable.GovernorTitle] to use",
+        "text": "There's free [Variable.GovernorTitle] to use",
         "choices": [
             {
                 "text": "I get it, let me go!"

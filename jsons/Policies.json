@@ -718,7 +718,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [29] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [30] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 1,
@@ -731,7 +731,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [59] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [60] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 2,
@@ -746,7 +746,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [89] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [90] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 3,
@@ -761,7 +761,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [119] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [120] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 4,
@@ -776,7 +776,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [149] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [150] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 5,
@@ -791,7 +791,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [179] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [180] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 6,
@@ -806,7 +806,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [209] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [210] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 7,
@@ -821,7 +821,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [239] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [240] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 8,
@@ -836,7 +836,7 @@
                     "Free [Unit.General] appears",
                     "Only available <when above [269] [Resource.Unit.General]> <hidden from users>",
                     "Instantly consumes [270] [Resource.Unit.General]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 9,
@@ -864,7 +864,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [29] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [30] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General1]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General1]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 1,
@@ -877,7 +877,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [59] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [60] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General2]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General2]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 2,
@@ -892,7 +892,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [89] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [90] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General3]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General3]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 3,
@@ -907,7 +907,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [119] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [120] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General4]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General4]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 4,
@@ -922,7 +922,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [149] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [150] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General5]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General5]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 5,
@@ -937,7 +937,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [179] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [180] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General6]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General6]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 6,
@@ -952,7 +952,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [209] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [210] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General7]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General7]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 7,
@@ -967,7 +967,7 @@
                     "Free [Unit.Admiral] appears",
                     "Only available <when above [239] [Resource.Unit.Admiral]> <hidden from users>",
                     "Instantly consumes [240] [Resource.Unit.Admiral]",
-                    "Instantly provides [1] [AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General8]> <hidden from users>",
+                    "Instantly provides [1] [Variable.AuxiliaryCounter2] <upon turn start> <before adopting [Culture.General8]> <hidden from users>",
                     "Comment [Enhance the command abilities of the [Unit.General] and [Unit.Admiral] - advance by 1 era]"
                 ],
                 "row": 8,
@@ -1299,8 +1299,8 @@
                     "[-1 Food] from [Landform.Swamp] tiles [in all cities] <in cities with a [Governor.Magnus]>",
                     "[+1 Production] from every [Specialist.BasicPop] <in cities with a [Governor.Magnus]>",
                     "Comment [Provides extra [2] [Specialist.BasicPop] in cities with a [Governor.Magnus]]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1313,8 +1313,8 @@
                     "[+4 Production] from every [Building.Factory] <in cities with a [Governor.Magnus]>",
                     "[+7 Production] from every [Class.Building.PowerPlant] <in cities with a [Governor.Magnus]>",
                     "Provides [4] [Resource.Electricity] <after discovering [Tech.Industrialization]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MagnusI]>"
                 ],
                 "row": 2,
@@ -1326,8 +1326,8 @@
                     "Provides [8] [Resource.halfHouse] <in cities with a [Governor.Magnus]>",
                     "[+20]% growth [in all cities] <in cities with a [Governor.Magnus]>",
                     "Comment [New trained [Unit.Settler] in cities with a [Governor.Magnus] cannot cause population loss]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MagnusI]>"
                 ],
                 "row": 2,
@@ -1337,8 +1337,8 @@
                 "name": "Policy.Governor.MagnusIIIA",
                 "uniques": [
                     "[+20]% [Production] [in all cities] <in cities with a [Governor.Magnus]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MagnusIIA]>"
                 ],
                 "row": 3,
@@ -1348,8 +1348,8 @@
                 "name": "Policy.Governor.MagnusIIIB",
                 "uniques": [
                     "[+1 Food, +2 Production] from every [Building.TradingPost]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MagnusIIB]>"
                 ],
                 "row": 3,
@@ -1359,8 +1359,8 @@
                 "name": "Policy.Governor.MagnusIV",
                 "uniques": [
                     "[+3 Production] [in all cities] <in cities with a [Governor.Magnus]> <for every [[Class.Building.PowerPlant] Buildings]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MagnusIIIA]> <after adopting [Policy.Governor.MagnusIIIB]>"
                 ],
                 "row": 4,
@@ -1371,8 +1371,8 @@
                 "uniques": [
                     "[+4 Gold] from every [Building.TradingPost]",
                     "Comment [All newly-trained [Unit.Trader] units [in this city] receive the [Promotion.AllTilesCost1Movement] promotion]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1384,8 +1384,8 @@
                     "[+100]% Yield from every [Class.CommercialHub] <in cities with a [Governor.Reyna]>",
                     "[+100]% Yield from every [Class.Harbor] <in cities with a [Governor.Reyna]>",
                     "[+15]% [Gold] [in all cities] <in cities with a [Governor.Reyna]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.ReynaI]>"
                 ],
                 "row": 2,
@@ -1395,8 +1395,8 @@
                 "name": "Policy.Governor.ReynaIIB",
                 "uniques": [
                     "[+3 Gold] from [unimproved] tiles [in all cities] <in cities with a [Governor.Reyna]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.ReynaI]>"
                 ],
                 "row": 2,
@@ -1407,8 +1407,8 @@
                 "uniques": [
                     "[+2 Gold] per [1] population [in all cities] <in cities with a [Governor.Reyna]>",
                     "Provides [1] [Resource.TradeRouteCapacity]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.ReynaIIA]> <after adopting [Policy.Governor.ReynaIIB]>"
                 ],
                 "row": 3,
@@ -1418,8 +1418,8 @@
                 "name": "Policy.Governor.ReynaIVA",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-50]% <in cities with a [Governor.Reyna]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.ReynaIII]>"
                 ],
                 "row": 4,
@@ -1429,8 +1429,8 @@
                 "name": "Policy.Governor.ReynaIVB",
                 "uniques": [
                     "[+1 Science, +1 Culture] from every [Building.TradingPost] <for every [3] [[Building.TradingPost] Buildings by [Major] Civilizations]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.ReynaIII]>"
                 ],
                 "row": 4,
@@ -1441,8 +1441,8 @@
                 "uniques": [
                     "[+2 Food, +2 Production] [in all cities] <in cities with a [Governor.Amani]>",
                     "Free [Unit.Envoy2] appears",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1452,8 +1452,8 @@
                 "name": "Policy.Governor.AmaniIIA",
                 "uniques": [
                     "Comment [Gain a free [Building.AncientWalls] for all city-state]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.AmaniI]>"
                 ],
                 "row": 2,
@@ -1469,8 +1469,8 @@
                     "Provides [2] [Resource.Oil] <after discovering [Tech.Refining]>",
                     "Provides [2] [Resource.Aluminum] <after discovering [Tech.Radio]>",
                     "Provides [2] [Resource.Uranium] <after discovering [Tech.JointOperations]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.AmaniI]>"
                 ],
                 "row": 2,
@@ -1481,8 +1481,8 @@
                 "uniques": [
                     "Provides [2] [Resource.SpyCapacity]",
                     "Free [Unit.Spy] appears",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.AmaniIIA]>"
                 ],
                 "row": 3,
@@ -1493,8 +1493,8 @@
                 "uniques": [
                     "[+1 Food, +2 Production] from every [Class.DistrictBuilding.GovernmentPlaza]",
                     "[+1 Food, +2 Production] from every [Class.DistrictBuilding.ForeignQuarter]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.AmaniIIB]>"
                 ],
                 "row": 3,
@@ -1503,10 +1503,10 @@
             {
                 "name": "Policy.Governor.AmaniIV",
                 "uniques": [
-                    "[+100]% [Influence] resource production",
+                    "[+100]% [Resource.Influence] resource production",
                     "Gifts of Gold to City-States generate [+100]% more Influence",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.AmaniIIIA]> <after adopting [Policy.Governor.AmaniIIIB]>"
                 ],
                 "row": 4,
@@ -1516,8 +1516,8 @@
                 "name": "Policy.Governor.VictorI",
                 "uniques": [
                     "[+51]% Strength <in [City center] tiles> <in cities with a [Governor.Victor]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1527,8 +1527,8 @@
                 "name": "Policy.Governor.VictorIIA",
                 "uniques": [
                     "[+23]% Strength <in cities with a [Governor.Victor]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.VictorI]>"
                 ],
                 "row": 2,
@@ -1538,8 +1538,8 @@
                 "name": "Policy.Governor.VictorIIB",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities] <in cities with a [Governor.Victor]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.VictorI]>"
                 ],
                 "row": 2,
@@ -1549,8 +1549,8 @@
                 "name": "Policy.Governor.VictorIIIA",
                 "uniques": [
                     "[+51]% Strength for cities <in cities with a [Governor.Victor]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.VictorIIA]>"
                 ],
                 "row": 3,
@@ -1560,8 +1560,8 @@
                 "name": "Policy.Governor.VictorIIIB",
                 "uniques": [
                     "New [Military] units start with [10] XP [in all cities] <in cities with a [Governor.Victor]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.VictorIIB]>"
                 ],
                 "row": 3,
@@ -1572,8 +1572,8 @@
                 "uniques": [
                     "[+100]% Production when constructing [Unit.NuclearDevice] units [in all cities] <in cities with a [Governor.Victor]>",
                     "[+100]% Production when constructing [Unit.ThermonuclearDevice] units [in all cities] <in cities with a [Governor.Victor]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.VictorIIIA]> <after adopting [Policy.Governor.VictorIIIB]>"
                 ],
                 "row": 4,
@@ -1583,8 +1583,8 @@
                 "name": "Policy.Governor.PingalaI",
                 "uniques": [
                     "[+15]% [Science] [in all cities] <in cities with a [Governor.Pingala]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1594,8 +1594,8 @@
                 "name": "Policy.Governor.PingalaIIA",
                 "uniques": [
                     "[+100]% [Class.GreatPersonPoint] resource production <in cities with a [Governor.Pingala]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.PingalaI]>"
                 ],
                 "row": 2,
@@ -1605,8 +1605,8 @@
                 "name": "Policy.Governor.PingalaIIB",
                 "uniques": [
                     "[+1 Science] per [1] population [in all cities] <in cities with a [Governor.Pingala]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.PingalaI]>"
                 ],
                 "row": 2,
@@ -1618,8 +1618,8 @@
                     "[+3 Science] from every [Building.Library] <in cities with a [Governor.Pingala]>",
                     "[+5 Science] from every [Building.University] <in cities with a [Governor.Pingala]>",
                     "[+7 Science] from every [Building.ResearchLab] <in cities with a [Governor.Pingala]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.PingalaIIA]>"
                 ],
                 "row": 3,
@@ -1629,8 +1629,8 @@
                 "name": "Policy.Governor.PingalaIIIB",
                 "uniques": [
                     "[+1 Food, +3 Science] from every [Building.TradingPost]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.PingalaIIB]>"
                 ],
                 "row": 3,
@@ -1640,8 +1640,8 @@
                 "name": "Policy.Governor.PingalaIV",
                 "uniques": [
                     "[+50]% Production when constructing [Class.Unit.SpaceRace] units [in all cities] <in cities with a [Governor.Pingala]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.PingalaIIIA]> <after adopting [Policy.Governor.PingalaIIIB]>"
                 ],
                 "row": 4,
@@ -1652,8 +1652,8 @@
                 "uniques": [
                     "All newly-trained [Unit.CommonWorker1] units [in all cities] receive the [Promotion.UnionLeader] promotion <in cities with a [Governor.Liang]>",
                     "[+20]% Production when constructing [Unit.CommonWorker1] units [in all cities] <in cities with a [Governor.Liang]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1664,8 +1664,8 @@
                 "uniques": [
                     "[+1 Production] from [Landform.VolcanicSoil] tiles [in all cities] <in cities with a [Governor.Liang]>",
                     "[+1 Production] from [Landform.AlluvialPlain] tiles [in all cities] <in cities with a [Governor.Liang]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.LiangI]>"
                 ],
                 "row": 2,
@@ -1675,8 +1675,8 @@
                 "name": "Policy.Governor.LiangIIB",
                 "uniques": [
                     "[+1 Food] from [resource] tiles [in all cities] <in cities with a [Governor.Liang]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.LiangI]>"
                 ],
                 "row": 2,
@@ -1687,8 +1687,8 @@
                 "uniques": [
                     "Comment [Permit improving [Improvement.Park] in this city]",
                     "Comment [Reduce the cost of [Governor.Liang.Remove] to [20] Production]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.LiangIIA]>"
                 ],
                 "row": 3,
@@ -1698,8 +1698,8 @@
                 "name": "Policy.Governor.LiangIIIB",
                 "uniques": [
                     "[+1 Production] from [resource] tiles [in all cities] <in cities with a [Governor.Liang]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.LiangIIB]>"
                 ],
                 "row": 3,
@@ -1710,8 +1710,8 @@
                 "uniques": [
                     "[+2 Happiness] from every [Class.Building.DistrictUnique] <in cities with a [Governor.Liang]>",
                     "Provides [10] [Resource.halfHouse] <in cities with a [Governor.Liang]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.LiangIIIA]> <after adopting [Policy.Governor.LiangIIIB]>"
                 ],
                 "row": 4,
@@ -1722,8 +1722,8 @@
                 "uniques": [
                     "[+15]% [Culture] [in all cities] <in cities with a [Governor.Moksha]>",
                     "[+2 Faith] from every [Class.Building.DistrictUnique] <in cities with a [Governor.Moksha]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
                 "row": 1,
@@ -1734,8 +1734,8 @@
                 "uniques": [
                     "[+1 Culture] per [1] population [in all cities] <in cities with a [Governor.Moksha]>",
                     "[+100]% Natural religion spread [in all cities] <in cities with a [Governor.Moksha]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MokshaI]>"
                 ],
                 "row": 2,
@@ -1746,8 +1746,8 @@
                 "uniques": [
                     "Provides [2] [Resource.Unit.Prophet] <if [Building.DistrictUnique.HolySite] is constructed>",
                     "[+2 Faith] <for every [[Building.DistrictUnique.HolySite] Buildings]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MokshaI]>"
                 ],
                 "row": 2,
@@ -1758,8 +1758,8 @@
                 "uniques": [
                     "[+1 Food, +2 Culture] from every [Building.TradingPost]",
                     "[Faith] cost of purchasing items in cities [-10]% <in cities with a [Governor.Moksha]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MokshaIIA]>"
                 ],
                 "row": 3,
@@ -1769,8 +1769,8 @@
                 "name": "Policy.Governor.MokshaIIIB",
                 "uniques": [
                     "[150]% of excess happiness converted to [Faith]",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MokshaIIB]>"
                 ],
                 "row": 3,
@@ -1781,8 +1781,8 @@
                 "uniques": [
                     "[+25]% Production when constructing [Class.DistrictBuilding.TheaterSquare] buildings [in all cities] <in cities with a [Governor.Moksha]> <in cities with a [Building.DistrictUnique.HolySite]>",
                     "[+25]% Production when constructing [Class.DistrictBuilding.TheaterSquare] buildings [in all cities] <in cities with a [Building.DistrictUnique.HolySite]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.MokshaIIIA]> <after adopting [Policy.Governor.MokshaIIIB]>"
                 ],
                 "row": 4,
@@ -1792,8 +1792,8 @@
                 "name": "Policy.Governor.GrandVizierI",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities] <in cities with a [Governor.GrandVizier]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <for [Nation.Ottoman] Civilizations>",
                     "Only available <when [Pattern.Viceroy] Victory is enabled>"
                 ],
@@ -1805,8 +1805,8 @@
                 "uniques": [
                     "[+1 Science] per [1] population [in all cities] <in cities with a [Governor.GrandVizier]>",
                     "[+23]% Strength <when attacking> <vs cities>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.GrandVizierI]>"
                 ],
                 "row": 2,
@@ -1817,8 +1817,8 @@
                 "uniques": [
                     "[+1 Culture] per [1] population [in all cities] <in cities with a [Governor.GrandVizier]>",
                     "All newly-trained [All] units [in all cities] receive the [Promotion.FastMove] promotion <in cities with a [Governor.GrandVizier]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.GrandVizierII]>"
                 ],
                 "row": 3,
@@ -1829,8 +1829,8 @@
                 "uniques": [
                     "[+10 Happiness]",
                     "Provides [10] [Resource.halfHouse] <in cities with a [Governor.GrandVizier]>",
-                    "Instantly consumes [1] [GovernorTitle] <upon turn start>",
-                    "Only available <when above [0] [GovernorTitle]> <hidden from users>",
+                    "Instantly consumes [1] [Variable.GovernorTitle] <upon turn start>",
+                    "Only available <when above [0] [Variable.GovernorTitle]> <hidden from users>",
                     "Only available <after adopting [Policy.Governor.GrandVizierIII]>"
                 ],
                 "row": 4,

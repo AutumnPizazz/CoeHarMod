@@ -233,7 +233,7 @@
 				],
 				"quote": "Quote.Civic.NationalLaborForce",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -245,7 +245,7 @@
 				],
 				"quote": "Quote.Civic.EarlyEmpire",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Enables Open Borders agreements",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -415,7 +415,7 @@
 				],
 				"quote": "Quote.Civic.DefensiveTactics",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -428,7 +428,7 @@
 				],
 				"quote": "Quote.Civic.History",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -596,7 +596,7 @@
 				],
 				"quote": "Quote.Civic.MedievalBazaar",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -608,7 +608,7 @@
 				],
 				"quote": "Quote.Civic.TheWorkersUnion",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -870,7 +870,7 @@
 				],
 				"quote": "Quote.Civic.CivilEngineering",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -882,7 +882,7 @@
 				],
 				"quote": "Quote.Civic.Nationalism",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Provides [1] [Resource.SpyCapacity]",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
@@ -1049,7 +1049,7 @@
 				],
 				"quote": "Quote.Civic.MassMedia",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -1062,7 +1062,7 @@
 				],
 				"quote": "Quote.Civic.Mobilization",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			}
@@ -1433,7 +1433,7 @@
 				],
 				"quote": "Quote.Civic.Globalization",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -1446,7 +1446,7 @@
 				],
 				"quote": "Quote.Civic.SocialMedia",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			}
@@ -1499,7 +1499,7 @@
 				"quote": "Quote.Civic.Near-FutureGovernance",
 				"uniques": [
 					"[3] free [Unit.Envoy2] units appear",
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -1622,7 +1622,7 @@
 				"quote": "Quote.Civic.GlobalWarmingMitigation",
 				"uniques": [
 					"[3] free [Unit.Envoy2] units appear",
-					"Instantly provides [1] [DiplomaticFavor] <upon turn start>",
+					"Instantly provides [1] [Variable.DiplomaticFavor] <upon turn start>",
 					"Only available <after discovering [Civic.FutureMunicipal]> <hidden from users>"
 				]
 			},
@@ -1735,7 +1735,7 @@
 				],
 				"quote": "Quote.Civic.FutureMunicipal",
 				"uniques": [
-					"Instantly provides [1] [GovernorTitle] <upon turn start>",
+					"Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
 					"Can be continually researched"
 				]
 			}

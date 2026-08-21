@@ -1,0 +1,27 @@
+
+Variable.png
+size: 256, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+Variable/Variable.DiplomaticFavor
+  rotate: false
+  xy: 140, 190
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+Variable/Variable.GovernorTitle
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Variable/Variable.remainingMonksCount
+  rotate: false
+  xy: 4, 112
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

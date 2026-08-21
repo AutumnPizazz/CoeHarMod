@@ -13,7 +13,7 @@ function AuraCoversUnitEra(ctx)
 	local u = ctx.unit
 	local civ = ctx.civ
 	if not u or not civ then return false end
-	return u.getEraNumber() <= civ.getVariable("AuxiliaryCounter2")
+	return u.getEraNumber() <= civ.getVariable("Variable.AuxiliaryCounter2")
 end
 
 --[[

@@ -792,7 +792,7 @@
         "uniques": [
             "Unbuildable",
             "Can be purchased for [3500] [Culture] [in capital]",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Discover [Civic.FutureMunicipal]",
             "Only available <after discovering [Civic.GlobalWarmingMitigation]>",
             "Only available <after discovering [Civic.SmartPowerFoctrine]>",
@@ -810,7 +810,7 @@
         "uniques": [
             "Unbuildable",
             "Can be purchased for [3500] [Culture] [in capital]",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <after discovering [Civic.FutureMunicipal]>",
             "Remove [Building.AdvancedFutureMunicipal] [in this city] <hidden from users>",
             "Will not be displayed in Civilopedia"
@@ -1016,7 +1016,7 @@
         "uniques": [
             "Provides [1] [Resource.MilitaryPolicySlot]",
             "Provides [1] [Resource.EconomicPolicySlot]",
-            "Instantly provides [1] [Influence] <upon turn start>",
+            "Instantly provides [1] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1040,7 +1040,7 @@
             "Provides [2] [Resource.MilitaryPolicySlot]",
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Instantly provides [2] [Influence] <upon turn start>",
+            "Instantly provides [2] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1062,7 +1062,7 @@
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Instantly provides [2] [Influence] <upon turn start>",
+            "Instantly provides [2] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1089,7 +1089,7 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Instantly provides [2] [Influence] <upon turn start>",
+            "Instantly provides [2] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1112,7 +1112,7 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [2] [Resource.GenericPolicySlot]",
-            "Instantly provides [3] [Influence] <upon turn start>",
+            "Instantly provides [3] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1134,7 +1134,7 @@
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Instantly provides [3] [Influence] <upon turn start>",
+            "Instantly provides [3] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1156,7 +1156,7 @@
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [2] [Resource.DiplomaticPolicySlot]",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Instantly provides [3] [Influence] <upon turn start>",
+            "Instantly provides [3] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1178,7 +1178,7 @@
             "Provides [3] [Resource.EconomicPolicySlot]",
             "Provides [2] [Resource.DiplomaticPolicySlot]",
             "Provides [2] [Resource.GenericPolicySlot]",
-            "Instantly provides [3] [Influence] <upon turn start>",
+            "Instantly provides [3] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1200,7 +1200,7 @@
             "Provides [3] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [1] [Resource.GenericPolicySlot]",
-            "Instantly provides [4] [Influence] <upon turn start>",
+            "Instantly provides [4] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1222,7 +1222,7 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [2] [Resource.GenericPolicySlot]",
-            "Instantly provides [4] [Influence] <upon turn start>",
+            "Instantly provides [4] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1245,7 +1245,7 @@
             "Provides [3] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [5] [Resource.GenericPolicySlot]",
-            "Instantly provides [5] [Influence] <upon turn start>",
+            "Instantly provides [5] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1268,7 +1268,7 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [3] [Resource.DiplomaticPolicySlot]",
             "Provides [5] [Resource.GenericPolicySlot]",
-            "Instantly provides [5] [Influence] <upon turn start>",
+            "Instantly provides [5] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1291,7 +1291,7 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomaticPolicySlot]",
             "Provides [5] [Resource.GenericPolicySlot]",
-            "Instantly provides [5] [Influence] <upon turn start>",
+            "Instantly provides [5] [Resource.Influence] <upon turn start>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
             "Only available <in cities without a [Class.Building.LevelGovernment]>",
@@ -1521,7 +1521,7 @@
             "Provides [4] [Resource.halfHouse] <in this city>",
             "[-100]% [Food] [in all coastal cities] <in cities without a [Building.Dam]> <starting from the [Era.Information]>", //沿海城市不修防洪坝就会被“淹没”
             "[-70]% [Production] [in all coastal cities] <in cities without a [Building.Dam]> <starting from the [Era.Information]>", //沿海城市不修防洪坝就会被“淹没”
-            "May buy [Unit.Envoy] units for [0] [Gold] [in all cities] <when above [40] [Influence]>", //允许买使者
+            "May buy [Unit.Envoy] units for [0] [Gold] [in all cities] <when above [40] [Resource.Influence]>", //允许买使者
             "Provides [2] [Resource.Unit.Scientist] <after adopting [Pantheon.SacredLight]>", //神圣之光
             "Provides [2] [Resource.Unit.Merchant] <after adopting [Pantheon.SacredLight]>" //神圣之光
         ],
@@ -1799,7 +1799,7 @@
         "requiredTech": "Civic.NationalLaborForce",
         "uniques": [
             "Unsellable",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Creates a [District.GovernmentPlaza] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Limited to [1] per Civilization",
@@ -1819,7 +1819,7 @@
         "uniques": [
             "[+23]% Strength <for [Military] units> <within [6] tiles of a [District.Mayab]>",
             "Unsellable",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Creates a [District.Mayab] improvement on a specific tile",
             "Class.Building.DistrictUnique",
             "Limited to [1] per Civilization",
@@ -1837,7 +1837,7 @@
         "uniques": [
             "[+50]% Production when constructing [Unit.Settler] units [in this city]",
             "Free [Unit.CommonWorker1] appears <upon founding a city>",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities without a [Building.WarlordThrone]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1855,7 +1855,7 @@
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
             "[+2 Happiness, +3 Food] from every [Class.Governor]",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.WarlordThrone]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1880,7 +1880,7 @@
             "Provides [1] [Resource.Coal] <after discovering [Tech.Industrialization]>",
             "Provides [1] [Resource.Oil] <after discovering [Tech.Refining]>",
             "Provides [1] [Resource.Aluminum] <after discovering [Tech.Radio]>",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1907,7 +1907,7 @@
             "Provides [1] [Resource.Coal] <after discovering [Tech.Industrialization]>",
             "Provides [1] [Resource.Oil] <after discovering [Tech.Refining]>",
             "Provides [1] [Resource.Aluminum] <after discovering [Tech.Radio]>",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1927,7 +1927,7 @@
             "[+1] Sight <for [All] units>",
             "Provides [1] [Resource.SpyCapacity]",
             "Free [Unit.Spy] appears",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.ForeignMinistry]>",
             "Only available <in cities without a [Building.OrderOfFriars]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1944,11 +1944,11 @@
         "maintenance": 2,
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
-            "Instantly provides [3] [DiplomaticFavor] <upon turn start>",
+            "Instantly provides [3] [Variable.DiplomaticFavor] <upon turn start>",
             "Allied City-States provide [Gold] equal to [+50]% of what they produce for themselves",
             "Gifts of Gold to City-States generate [50]% more Influence",
             "Influence of all other civilizations with all city-states degrades [50]% faster",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.IntelligenceAgency]>",
             "Only available <in cities without a [Building.OrderOfFriars]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1968,7 +1968,7 @@
             "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before discovering [Civic.Nationalism]>",
             "May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost <after discovering [Civic.Nationalism]> <before discovering [Civic.Mobilization]>",
             "May buy [{Military} {Land}] units with [Faith] for [6] times their normal Production cost <after discovering [Civic.Mobilization]>",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.IntelligenceAgency]>",
             "Only available <in cities without a [Building.ForeignMinistry]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -1987,7 +1987,7 @@
         "uniques": [
             "[+30]% [Culture] [in all cities]",
             "[-10]% Culture cost of adopting new Policies",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.RoyalSociety]>",
             "Only available <in cities without a [Building.WarDepartment]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -2006,7 +2006,7 @@
         "uniques": [
             "[+25]% [Science] [in all cities]",
             "[2] Free Technologies",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.NationalHistoryMuseum]>",
             "Only available <in cities without a [Building.WarDepartment]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -2024,7 +2024,7 @@
         "requiredBuilding": "Building.DistrictUnique.GovernmentPlaza",
         "uniques": [
             "Heals [20] damage if it kills a unit",
-            "Instantly provides [1] [GovernorTitle] <upon turn start>",
+            "Instantly provides [1] [Variable.GovernorTitle] <upon turn start>",
             "Only available <in cities without a [Building.NationalHistoryMuseum]>",
             "Only available <in cities without a [Building.RoyalSociety]>",
             "Only available <in cities with a [Building.DistrictUnique.GovernmentPlaza]>",
@@ -2204,7 +2204,7 @@
             "[+1 Faith] from every [Specialist.Priest] <in this city>",
             "Provides [1] [Resource.Unit.Prophet]",
             "Provides [1] [Resource.Unit.General] <for [Nation.India] Civilizations> <hidden from users>",
-            "Instantly provides [1] [Influence] <upon turn start>",
+            "Instantly provides [1] [Resource.Influence] <upon turn start>",
             "Only available <after adopting [EnhancerBelief.Cathedral]>",
             "Only available <when religion is enabled>",
             "Class.DistrictBuilding.HolySite",
@@ -3919,7 +3919,7 @@
         "hurryCostModifier": -33,
         "uniques": [
             "Triggers a global alert upon build start",
-            "Instantly consumes [14] [DiplomaticFavor] <upon turn start>",
+            "Instantly consumes [14] [Variable.DiplomaticFavor] <upon turn start>",
             "Cannot be purchased",
             "Only available <when [VictoryType.Diplomacy] Victory is enabled>",
             "Only available <after turn number [60]>"
@@ -4174,7 +4174,7 @@
         "uniques": [
             "Free [Unit.CommonWorker1] appears",
             "Comment [[+1] [Usage]] <for [Unit.CommonWorker1] units>",
-            "Instantly provides [1] [AuxiliaryCounter1] <upon turn start> <hidden from users>",
+            "Instantly provides [1] [Variable.AuxiliaryCounter1] <upon turn start> <hidden from users>",
             "Creates a [District.TheGreatPyramids] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Ancient"
@@ -4382,7 +4382,7 @@
         "isWonder": true,
         "uniques": [
             "[3] free [Unit.Missionary] units appear",
-            "Instantly provides [2] [DiplomaticFavor] <upon turn start>",
+            "Instantly provides [2] [Variable.DiplomaticFavor] <upon turn start>",
             "Creates a [District.MakobodhiTemple] improvement on a specific tile",
             "Only available <after founding a religion>",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
@@ -4531,7 +4531,7 @@
             "faith": 20
         },
         "uniques": [
-            "Instantly provides [4] [remainingMonksCount] <upon turn start>",
+            "Instantly provides [4] [Variable.remainingMonksCount] <upon turn start>",
             "Creates a [District.Kotokuin] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Medieval"
@@ -4543,7 +4543,7 @@
         "name": "AWonder.WestIndiaExchange",
         "isWonder": true,
         "uniques": [
-            "Instantly provides [3] [GovernorTitle] <upon turn start>",
+            "Instantly provides [3] [Variable.GovernorTitle] <upon turn start>",
             "[+8]% Strength <for [{Military} {Land}] units> <on foreign continents>",
             "[+1] Movement <for [{Military} {Land}] units> <on foreign continents>",
             "Creates a [District.WestIndiaExchange] improvement on a specific tile",
@@ -4630,7 +4630,7 @@
         "faith": 3,
         "uniques": [
             "Provides [1] [Resource.DiplomaticPolicySlot]",
-            "Instantly provides [2] [DiplomaticFavor] <upon turn start>",
+            "Instantly provides [2] [Variable.DiplomaticFavor] <upon turn start>",
             "Creates a [District.PotalaPalace] improvement on a specific tile",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Class.WonderEra.Renaissance"
@@ -4676,7 +4676,7 @@
         "isWonder": true,
         "happiness": 8,
         "uniques": [
-            "Instantly provides [4] [DiplomaticFavor] <upon turn start>",
+            "Instantly provides [4] [Variable.DiplomaticFavor] <upon turn start>",
             "Only available <when [Pattern.EnableWorldWonders] Victory is enabled>",
             "Creates a [District.StatueOfLiberty] improvement on a specific tile"
         ],
@@ -5787,7 +5787,7 @@
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
             "Comment [[+2] [Usage]] <for [Unit.CommonWorker1] units>",
-            "Instantly provides [2] [AuxiliaryCounter1] <upon turn start> <hidden from users>",
+            "Instantly provides [2] [Variable.AuxiliaryCounter1] <upon turn start> <hidden from users>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.CivilEngineering]>",
@@ -5981,7 +5981,7 @@
         "uniques": [
             "[+30]% Production when constructing [Class.Unit.Builder] units [in all cities]",
             "Comment [[+2] [Usage]] <for [Unit.CommonWorker1] units>",
-            "Instantly provides [2] [AuxiliaryCounter1] <upon turn start> <hidden from users>",
+            "Instantly provides [2] [Variable.AuxiliaryCounter1] <upon turn start> <hidden from users>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -6241,7 +6241,7 @@
         "cost": 0,
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
-            "Instantly provides [2] [Influence] <upon turn start>",
+            "Instantly provides [2] [Resource.Influence] <upon turn start>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Only available <before discovering [Civic.Ideology]>",
@@ -6323,7 +6323,7 @@
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
             "City-State territory always counts as friendly territory",
-            "Instantly provides [4] [Influence] <upon turn start>",
+            "Instantly provides [4] [Resource.Influence] <upon turn start>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",
@@ -6390,7 +6390,7 @@
         "cost": 0,
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
-            "Instantly consumes [5] [DiplomaticFavor] <upon turn start>",
+            "Instantly consumes [5] [Variable.DiplomaticFavor] <upon turn start>",
             "[+30]% [Science] [in all cities]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -6404,7 +6404,7 @@
         "cost": 0,
         "requiredResource": "Resource.DiplomaticPolicySlot",
         "uniques": [
-            "Instantly consumes [5] [DiplomaticFavor] <upon turn start>",
+            "Instantly consumes [5] [Variable.DiplomaticFavor] <upon turn start>",
             "[+30]% [Culture] [in all cities]",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
@@ -6674,7 +6674,7 @@
         "cost": 0,
         "requiredResource": "Resource.GenericPolicySlot",
         "uniques": [
-            "Instantly provides [2] [DiplomaticFavor] <upon turn start>",
+            "Instantly provides [2] [Variable.DiplomaticFavor] <upon turn start>",
             "Can only be built <in [Capital] cities>",
             "Limited to [1] per Civilization",
             "Destroyed when the city is captured",

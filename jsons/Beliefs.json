@@ -404,7 +404,7 @@
         "type": "Follower",
         "uniques": [
             "Comment [[UnitType.MeleeInfantry] unit can be transfered as [UnitType.Monk]]",
-            "Comment [Instantly provides [5] [remainingMonksCount] <upon turn start>]"
+            "Comment [Instantly provides [5] [Variable.remainingMonksCount] <upon turn start>]"
         ]
     },
     { //耶稣会教育

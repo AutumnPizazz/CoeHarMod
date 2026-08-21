@@ -381,11 +381,11 @@
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"uniques": [
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[3] times> <after which this unit is consumed> <when number of [AuxiliaryCounter1] is equal to [0]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[4] times> <after which this unit is consumed> <when number of [AuxiliaryCounter1] is equal to [1]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <after which this unit is consumed> <when number of [AuxiliaryCounter1] is equal to [2]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times>  <after which this unit is consumed> <when number of [AuxiliaryCounter1] is equal to [3]> <hidden from users>",
-			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <after which this unit is consumed> <when number of [AuxiliaryCounter1] is more than [3]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[3] times> <after which this unit is consumed> <when number of [Variable.AuxiliaryCounter1] is equal to [0]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[4] times> <after which this unit is consumed> <when number of [Variable.AuxiliaryCounter1] is equal to [1]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[5] times> <after which this unit is consumed> <when number of [Variable.AuxiliaryCounter1] is equal to [2]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[6] times>  <after which this unit is consumed> <when number of [Variable.AuxiliaryCounter1] is equal to [3]> <hidden from users>",
+			"Can instantly construct a [Class.CommonImprovement1] improvement <[7] times> <after which this unit is consumed> <when number of [Variable.AuxiliaryCounter1] is more than [3]> <hidden from users>",
 			"Can build [Repair] improvements on tiles",
 			"Can build [Remove Landform.Forest] improvements on tiles",
 			"Can build [Remove Landform.Rainforest] improvements on tiles",
@@ -460,7 +460,7 @@
 			"Unbuildable",
 			"Gain [-175] [Gold]",
 			"Gain [175] [Gold] <for [Nation.UnitedStates] Civilizations>",
-			"Instantly consumes [40] [Influence]",
+			"Instantly consumes [40] [Resource.Influence]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 			"Only available <when [VictoryType.Diplomacy] Victory is enabled>"
 		]

@@ -40,8 +40,8 @@
             "[+23]% Strength <vs [UnitType.AntiCavalry] units>",
             "Earn [20]% of killed [Military] unit's [Strength] as [Faith]",
             "[This Unit] heals [50] HP <for [All] units> <upon being promoted> <hidden from users>",
-            "Instantly consumes [1] [remainingMonksCount] <upon turn start>",
-            "Only available <when above [0] [remainingMonksCount]>",
+            "Instantly consumes [1] [Variable.remainingMonksCount] <upon turn start>",
+            "Only available <when above [0] [Variable.remainingMonksCount]>",
             "Never appears as a Barbarian unit",
             "Cannot be purchased"
         ]
