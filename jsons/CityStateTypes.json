@@ -8,7 +8,7 @@
             "[+2 Culture] [in all cities] <in cities with a [Building.ArchaeologicalMuseum]>",
             "[+3 Culture] [in all cities] <in cities with a [Building.BroadcastCenter]>",
             "[+2 Culture] [in all cities] <in cities with a [Building.Consulate]>",
-            "Provides [1] [Resource.DiplomaticFavor]"
+            "Instantly provides [1] [DiplomaticFavor] <upon turn start>"
         ],
         "allyBonusUniques": [
             "[+2 Culture] [in all cities] <in cities with a [Building.Palace]>",
@@ -17,7 +17,7 @@
             "[+2 Culture] [in all cities] <in cities with a [Building.ArchaeologicalMuseum]>",
             "[+3 Culture] [in all cities] <in cities with a [Building.BroadcastCenter]>",
             "[+4 Culture] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
-            "Provides [3] [Resource.DiplomaticFavor]"
+            "Instantly provides [3] [DiplomaticFavor] <upon turn start>"
         ],
         "color": [
             139,
@@ -33,7 +33,7 @@
             "[+2 Science] [in all cities] <in cities with a [Building.University]>",
             "[+3 Science] [in all cities] <in cities with a [Building.ResearchLab]>",
             "[+2 Science] [in all cities] <in cities with a [Building.Consulate]>",
-            "Provides [1] [Resource.DiplomaticFavor]"
+            "Instantly provides [1] [DiplomaticFavor] <upon turn start>"
         ],
         "allyBonusUniques": [
             "[+2 Science] [in all cities] <in cities with a [Building.Palace]>",
@@ -41,7 +41,7 @@
             "[+2 Science] [in all cities] <in cities with a [Building.University]>",
             "[+3 Science] [in all cities] <in cities with a [Building.ResearchLab]>",
             "[+4 Science] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
-            "Provides [3] [Resource.DiplomaticFavor]"
+            "Instantly provides [3] [DiplomaticFavor] <upon turn start>"
         ],
         "color": [
             0,
@@ -60,7 +60,7 @@
             "[+6 Gold] [in all cities] <in cities with a [Building.StockExchange]>",
             "[+6 Gold] [in all cities] <in cities with a [Building.Dock]>",
             "[+4 Gold] [in all cities] <in cities with a [Building.Consulate]>",
-            "Provides [1] [Resource.DiplomaticFavor]"
+            "Instantly provides [1] [DiplomaticFavor] <upon turn start>"
         ],
         "allyBonusUniques": [
             "[+4 Gold] [in all cities] <in cities with a [Building.Palace]>",
@@ -71,7 +71,7 @@
             "[+6 Gold] [in all cities] <in cities with a [Building.StockExchange]>",
             "[+6 Gold] [in all cities] <in cities with a [Building.Dock]>",
             "[+6 Gold] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
-            "Provides [3] [Resource.DiplomaticFavor]"
+            "Instantly provides [3] [DiplomaticFavor] <upon turn start>"
         ],
         "color": [
             255,
@@ -83,11 +83,11 @@
         "name": "CitystateType.Military",
         "friendBonusUniques": [
             "[+13]% Strength <when defending> <for [Military] units>",
-            "Provides [1] [Resource.DiplomaticFavor]"
+            "Instantly provides [1] [DiplomaticFavor] <upon turn start>"
         ],
         "allyBonusUniques": [
             "[+13]% Strength <for [Military] units>",
-            "Provides [3] [Resource.DiplomaticFavor]"
+            "Instantly provides [3] [DiplomaticFavor] <upon turn start>"
         ],
         "color": [
             255,
@@ -103,7 +103,7 @@
             "[+2 Faith] [in all cities] <in cities with a [Building.Temple]>",
             "[+3 Faith] [in all cities] <in cities with a [Class.Building.AdvancedReligious]>",
             "[+1 Faith] [in all cities] <in cities with a [Building.Consulate]>",
-            "Provides [1] [Resource.DiplomaticFavor]"
+            "Instantly provides [1] [DiplomaticFavor] <upon turn start>"
         ],
         "allyBonusUniques": [
             "[+2 Faith] [in all cities] <in cities with a [Building.Palace]>",
@@ -111,7 +111,7 @@
             "[+2 Faith] [in all cities] <in cities with a [Building.Temple]>",
             "[+3 Faith] [in all cities] <in cities with a [Class.Building.AdvancedReligious]>",
             "[+3 Faith] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
-            "Provides [3] [Resource.DiplomaticFavor]"
+            "Instantly provides [3] [DiplomaticFavor] <upon turn start>"
         ],
         "color": [
             255,
@@ -127,7 +127,7 @@
             "[+2 Production] [in all cities] <in cities with a [Building.Factory]>",
             "[+3 Production] [in all cities] <in cities with a [Class.Building.PowerPlant]>",
             "[+2 Production] [in all cities] <in cities with a [Building.Consulate]>",
-            "Provides [1] [Resource.DiplomaticFavor]"
+            "Instantly provides [1] [DiplomaticFavor] <upon turn start>"
         ],
         "allyBonusUniques": [
             "[+2 Production] [in all cities] <in cities with a [Building.Palace]>",
@@ -135,7 +135,7 @@
             "[+2 Production] [in all cities] <in cities with a [Building.Factory]>",
             "[+3 Production] [in all cities] <in cities with a [Class.Building.PowerPlant]>",
             "[+3 Production] [in all cities] <in cities with a [Building.DiplomaticDelegation]>",
-            "Provides [3] [Resource.DiplomaticFavor]"
+            "Instantly provides [3] [DiplomaticFavor] <upon turn start>"
         ],
         "color": [
             139,

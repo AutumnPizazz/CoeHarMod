@@ -1,0 +1,42 @@
+[
+	{ //总督点数：建筑/政策提供，总督政策占用；顶栏显示
+		"name": "GovernorTitle",
+		"default": 0,
+		"isDisplay": true
+	},
+	{ //外交支持：建筑/政策提供，部分建筑每回合消耗
+		"name": "DiplomaticFavor",
+		"default": 0,
+		"isDisplay": true
+	},
+	{ //影响力点数
+		"name": "Influence",
+		"default": 0,
+		"isDisplay": true
+	},
+	{ //武僧剩余数量：训练武僧时消耗
+		"name": "remainingMonksCount",
+		"default": 0,
+		"isDisplay": false
+	},
+	{ //辅助计数器1：金字塔使建造者使用次数+1
+		"name": "AuxiliaryCounter1",
+		"default": 0,
+		"isDisplay": false
+	},
+	{ //辅助计数器2：指挥等级，用于区分大将军/海军统帅光环覆盖时代
+		"name": "AuxiliaryCounter2",
+		"default": 0,
+		"isDisplay": false
+	},
+	{ //辅助计数器6：拜占庭重骑兵累计时代分
+		"name": "AuxiliaryCounter6",
+		"default": 0,
+		"isDisplay": false
+	},
+	{ //辅助计数器7：拜占庭重骑兵带来的快乐
+		"name": "AuxiliaryCounter7",
+		"default": 0,
+		"isDisplay": false
+	}
+]

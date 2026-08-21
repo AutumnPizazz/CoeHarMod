@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         /*触发提示*/
-        "Triggers a [There's free [Resource.GovernorTitle] to use] event <when above [0] [Resource.GovernorTitle]> <upon turn start>",
+        "Triggers a [There's free [GovernorTitle] to use] event <when above [0] [GovernorTitle]> <upon turn start>",
         /*文明羁绊*/
         "[+1]% Strength <for [Military] units> <vs [Nation.Gaul] units> <for [Nation.Rome] Civilizations>",
         "[+1]% Strength <for [Military] units> <vs [Nation.Babylon] units> <for [Nation.Persia] Civilizations>",
@@ -23,7 +23,7 @@
         "Provides [2] [Resource.Iron] <after adopting [Pantheon.GodOfTheForge]>", //锻造之神
         "[+13]% Strength <after adopting [FollowerBelief.Crusade]> <when fighting in [Enemy Land] tiles>", //十字军
         "[+13]% Strength <after adopting [FollowerBelief.DefenderOfFaith]> <when fighting in [Friendly Land] tiles> <in cities following our religion>", //信仰守护者
-        "Provides [5] [Resource.remainingMonksCount] <after adopting [FollowerBelief.MartialArts]>",//武僧
+        "Instantly provides [5] [remainingMonksCount] <upon turn start> <after adopting [FollowerBelief.MartialArts]>",//武僧
         /*AI修正*/
         "Trigger the function [CoeHarMod:AiUnlockCivics] with [] <upon turn start> <for [AI player] Civilizations>",
         "Trigger the function [CoeHarMod:AiProvideResources] with [] <upon turn start> <for [AI player] Civilizations>",

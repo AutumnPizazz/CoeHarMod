@@ -133,7 +133,7 @@
 			"[+2 Science, +2 Culture, +4 Gold] per [3] population [in all cities] <in cities with at least [10] [Population]>",
 			"[-15]% Unhappiness from [Population] [in all cities] <in cities with at least [10] [Population]>",
             "Comment [[+1] [Usage]] <for [Unit.CommonWorker1] units>",
-			"Provides [1] [Resource.AuxiliaryCounter1] <hidden from users>"
+			"Instantly provides [1] [AuxiliaryCounter1] <upon turn start> <hidden from users>"
 		],
 		"cities": [
 			"Beijing",
@@ -834,7 +834,7 @@
 		"uniqueName": "Grand Vizier",
 		"uniques": [
 			"Comment [Civilization-unique Governor: Grand Vizier]",
-			"Provides [1] [Resource.GovernorTitle] <after discovering [Tech.Gunpowder]>"
+			"Instantly provides [1] [GovernorTitle] <upon turn start> <after discovering [Tech.Gunpowder]>"
 		],
 		"cities": [
 			"Istanbul",
@@ -1170,9 +1170,9 @@
 		"uniqueName": "Divinely Ordained Rules",
 		"uniques": [
 			"[+1]% Strength <for [UnitType.HeavyCavalry] units> <for every [[Happiness]/[[UnitType.HeavyCavalry] Units]]>",
-			"Set [Resource.AuxiliaryCounter6] to [[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10] <upon turn end> <hidden from users>",
-			"Set [Resource.AuxiliaryCounter7] to [2 * √([Resource.AuxiliaryCounter6] + 1) - 2] <upon turn end> <hidden from users>",
-			"[+1 Happiness] <for every [Resource.AuxiliaryCounter7]> <hidden from users>",
+			"Set [AuxiliaryCounter6] to [[[{UnitType.HeavyCavalry} {Era.Ancient}] Units]*1+[[{UnitType.HeavyCavalry} {Era.Classical}] Units]*2+[[{UnitType.HeavyCavalry} {Era.Medieval}] Units]*3+[[{UnitType.HeavyCavalry} {Era.Renaissance}] Units]*4+[[{UnitType.HeavyCavalry} {Era.Industrial}] Units]*5+[[{UnitType.HeavyCavalry} {Era.Modern}] Units]*6+[[{UnitType.HeavyCavalry} {Era.Atomic}] Units]*7+[[{UnitType.HeavyCavalry} {Era.Information}] Units]*8+[[{UnitType.HeavyCavalry} {Era.Near-future}] Units]*9+[[{UnitType.HeavyCavalry} {Era.Far-future}] Units]*10] <upon turn end> <hidden from users>",
+			"Set [AuxiliaryCounter7] to [2 * √([AuxiliaryCounter6] + 1) - 2] <upon turn end> <hidden from users>",
+			"[+1 Happiness] <for every [AuxiliaryCounter7]> <hidden from users>",
 			"Comment [[UnitType.HeavyCavalry] units provide some [Happiness], but with diminishing returns]"
 		],
 		"cities": [

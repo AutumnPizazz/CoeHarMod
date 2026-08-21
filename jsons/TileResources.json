@@ -494,25 +494,6 @@
 			"Cannot be traded"
 		]
 	},
-	{ //外交支持
-		"name": "Resource.DiplomaticFavor",
-		"resourceType": "Strategic",
-		"revealedBy": "Civic.PoliticalPhilosophy",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded"
-		]
-	},
-	{ //总督点数
-		"name": "Resource.GovernorTitle",
-		"resourceType": "Strategic",
-		"revealedBy": "Civic.Code",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen"
-		]
-	},
 	{ //贸易路线容量
 		"name": "Resource.TradeRouteCapacity",
 		"resourceType": "Strategic",
@@ -573,15 +554,6 @@
 			"Not shown on world screen"
 		]
 	},
-	{ //影响力点数
-		"name": "Resource.Influence",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
 	{ //区域限制
 		"name": "Resource.DistrictLimitation",
 		"resourceType": "Strategic",
@@ -631,15 +603,6 @@
 	// 		"Not shown on world screen"
 	// 	]
 	// },
-	{ //武僧剩余数量
-		"name": "Resource.remainingMonksCount",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen"
-		]
-	},
 	{ //大科学家点数
 		"name": "Resource.Unit.Scientist",
 		"resourceType": "Strategic",
@@ -772,26 +735,6 @@
 			"Not shown on world screen"
 		]
 	},
-	{ //辅助计数器1-用于金字塔使建造者使用次数+1
-		"name": "Resource.AuxiliaryCounter1",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{ //辅助计数器2-用于区分大将军和海军统帅的时代
-		"name": "Resource.AuxiliaryCounter2",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia"
-		]
-	},
 	{ //辅助计数器3-曾用于阿尔忒弥斯神庙，现在弃置
 		"name": "Resource.AuxiliaryCounter3",
 		"resourceType": "Strategic",
@@ -820,28 +763,6 @@
 			"Cannot be traded",
 			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
-		]
-	},
-	{ //辅助计数器6-用于拜占庭技能
-		"name": "Resource.AuxiliaryCounter6",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia",
-			"Stockpiled"
-		]
-	},
-	{ //辅助计数器7-用于拜占庭技能
-		"name": "Resource.AuxiliaryCounter7",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [],
-		"uniques": [
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia",
-			"Stockpiled"
 		]
 	},
 	// { //美利坚-新政法案
